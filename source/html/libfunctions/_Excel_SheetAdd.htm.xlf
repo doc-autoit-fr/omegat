@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_Excel_SheetAdd.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Adds new sheet(s) to a workbook and sets their names</source>
+<seg-source><mrk mid="0" mtype="seg">Adds new sheet(s) to a workbook and sets their names</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Adds new sheet(s) to a workbook and sets their names</mrk></target>
+<note>Function _Excel_SheetAdd</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">A workbook object</source>
+<seg-source><mrk mid="0" mtype="seg">A workbook object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A workbook object</mrk></target>
+<note>$oWorkbook</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Object, index or name of the sheet before/after which the new sheet is inserted.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Object, index or name of the sheet before/after which the new sheet is inserted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Object, index or name of the sheet before/after which the new sheet is inserted.</mrk></target>
+<note>$vSheet</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     -1 = insert before/after the last worksheet (default = keyword Default = active worksheet)</source>
+<seg-source> <mrk mid="0" mtype="seg">    -1 = insert before/after the last worksheet (default = keyword Default = active worksheet)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    -1 = insert before/after the last worksheet (default = keyword Default = active worksheet)</mrk></target>
+<note>$vSheet</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The new sheet will be inserted before $vSheet if True, after $vSheet if False (default = True)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The new sheet will be inserted before $vSheet if True, after $vSheet if False (default = True)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The new sheet will be inserted before $vSheet if True, after $vSheet if False (default = True)</mrk></target>
+<note>$bBefore</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Number of worksheets to be inserted (default = 1). Maximum is 255</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Number of worksheets to be inserted (default = 1).</mrk> <mrk mid="2" mtype="seg">Maximum is 255</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Number of worksheets to be inserted (default = 1).</mrk> <mrk mid="2" mtype="seg">Maximum is 255</mrk></target>
+<note>$iCount</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Name(s) of the sheet(s) to create (default = "" = follows standard Excel new sheet convention).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Name(s) of the sheet(s) to create (default = "" = follows standard Excel new sheet convention).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Name(s) of the sheet(s) to create (default = "" = follows standard Excel new sheet convention).</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     When $iCount > 1 multiple names can be provided separated by | (pipe character). Sheets are named from left to right</source>
+<seg-source> <mrk mid="0" mtype="seg">    When $iCount > 1 multiple names can be provided separated by | (pipe character).</mrk> <mrk mid="1" mtype="seg">Sheets are named from left to right</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    When $iCount > 1 multiple names can be provided separated by | (pipe character).</mrk> <mrk mid="1" mtype="seg">Sheets are named from left to right</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">an object of the (first) added worksheet.</source>
+<seg-source><mrk mid="0" mtype="seg">an object of the (first) added worksheet.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an object of the (first) added worksheet.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">0 and sets @error.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets @error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets @error.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">1 - $oWorkbook is not an object or not a workbook object</source>
+<seg-source><mrk mid="0" mtype="seg">1 - $oWorkbook is not an object or not a workbook object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - $oWorkbook is not an object or not a workbook object</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> 2 - $vSheet is invalid. Name or index does not exist. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - $vSheet is invalid.</mrk> <mrk mid="1" mtype="seg">Name or index does not exist.</mrk> <mrk mid="2" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - $vSheet is invalid.</mrk> <mrk mid="1" mtype="seg">Name or index does not exist.</mrk> <mrk mid="2" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> 3 - Specified sheet already exists. @extended is set to the number of the name in $sName</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - Specified sheet already exists.</mrk> <mrk mid="1" mtype="seg">@extended is set to the number of the name in $sName</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - Specified sheet already exists.</mrk> <mrk mid="1" mtype="seg">@extended is set to the number of the name in $sName</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> 4 - Error occurred when adding the sheet. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">4 - Error occurred when adding the sheet.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 - Error occurred when adding the sheet.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> 5 - Error occurred when setting the name of the new sheet(s). @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">5 - Error occurred when setting the name of the new sheet(s).</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">5 - Error occurred when setting the name of the new sheet(s).</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> 6 - Parameter $iCount > 255</source>
+<seg-source> <mrk mid="0" mtype="seg">6 - Parameter $iCount > 255</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">6 - Parameter $iCount > 255</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Create application object and open an example workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Excel UDF: _Excel_SheetAdd Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Error creating the Excel application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">\Extras\_Excel1.xls</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Excel UDF: _Excel_SheetAdd Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Error opening workbook '</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening workbook '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening workbook '</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">\_Extras\Excel1.xls'.</source>
+<seg-source><mrk mid="0" mtype="seg">\_Extras\Excel1.xls'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\_Extras\Excel1.xls'.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Insert two sheets after the last sheet and name them</source>
+<seg-source><mrk mid="0" mtype="seg">Insert two sheets after the last sheet and name them</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insert two sheets after the last sheet and name them</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Test1|Test2</source>
+<seg-source><mrk mid="0" mtype="seg">Test1|Test2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test1|Test2</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Excel UDF: _Excel_SheetAdd Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Error adding sheets.</source>
+<seg-source><mrk mid="0" mtype="seg">Error adding sheets.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error adding sheets.</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Excel UDF: _Excel_SheetAdd Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Two sheets added after the last one.</source>
+<seg-source><mrk mid="0" mtype="seg">Two sheets added after the last one.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Two sheets added after the last one.</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Create application object and open an example workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Excel UDF: _Excel_SheetAdd Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Error creating the Excel application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">\Extras\_Excel1.xls</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Excel UDF: _Excel_SheetAdd Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Error opening workbook '</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening workbook '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening workbook '</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">\Extras\_Excel1.xls'.</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">Insert a sheet before sheet 2. Name is default name</source>
+<seg-source><mrk mid="0" mtype="seg">Insert a sheet before sheet 2.</mrk> <mrk mid="1" mtype="seg">Name is default name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insert a sheet before sheet 2.</mrk> <mrk mid="1" mtype="seg">Name is default name</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">Excel UDF: _Excel_SheetAdd Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Error adding sheet.</source>
+<seg-source><mrk mid="0" mtype="seg">Error adding sheet.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error adding sheet.</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">Excel UDF: _Excel_SheetAdd Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">Sheet added before sheet 2.</source>
+<seg-source><mrk mid="0" mtype="seg">Sheet added before sheet 2.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sheet added before sheet 2.</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">Create application object and open an example workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">Excel UDF: _Excel_SheetAdd Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">Error creating the Excel application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">\Extras\_Excel1.xls</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">Excel UDF: _Excel_SheetAdd Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">Error opening workbook '</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening workbook '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening workbook '</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">\Extras\_Excel1.xls'.</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">Insert an index sheet with links to all other sheets.</source>
+<seg-source><mrk mid="0" mtype="seg">Insert an index sheet with links to all other sheets.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insert an index sheet with links to all other sheets.</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">Handles Sheet names with spaces correctly.</source>
+<seg-source><mrk mid="0" mtype="seg">Handles Sheet names with spaces correctly.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handles Sheet names with spaces correctly.</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">Index</source>
+<seg-source><mrk mid="0" mtype="seg">Index</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Index</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">Excel UDF: _Excel_SheetAdd Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">Error adding sheet.</source>
+<seg-source><mrk mid="0" mtype="seg">Error adding sheet.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error adding sheet.</mrk></target>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en">A1</source>
+<seg-source><mrk mid="0" mtype="seg">A1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A1</mrk></target>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">Index</source>
+<seg-source><mrk mid="0" mtype="seg">Index</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Index</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">'!A1</source>
+<seg-source><mrk mid="0" mtype="seg">'!</mrk><mrk mid="1" mtype="seg">A1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">'!</mrk><mrk mid="1" mtype="seg">A1</mrk></target>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en">Excel UDF: _Excel_SheetAdd Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_SheetAdd Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">Index Sheet inserted as sheet 1.</source>
+<seg-source><mrk mid="0" mtype="seg">Index Sheet inserted as sheet 1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Index Sheet inserted as sheet 1.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

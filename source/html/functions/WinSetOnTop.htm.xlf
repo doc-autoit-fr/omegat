@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/WinSetOnTop.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Change a window's "Always On Top" attribute.</source>
+<seg-source><mrk mid="0" mtype="seg">Change a window's "Always On Top" attribute.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Change a window's "Always On Top" attribute.</mrk></target>
+<note>Function WinSetOnTop</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> The title/hWnd/class of the window to change. See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsadvanced.htm"></bpt>Title special definition<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">The title/hWnd/class of the window to change.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsadvanced.htm"></bpt>Title special definition<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The title/hWnd/class of the window to change.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsadvanced.htm"></bpt>Title special definition<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>title</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> The text of the window to change. See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsbasic.htm#specialtext"></bpt>Text special definition<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">The text of the window to change.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsbasic.htm#specialtext"></bpt>Text special definition<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The text of the window to change.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsbasic.htm#specialtext"></bpt>Text special definition<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>text</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Determines whether the window should have the "TOPMOST" flag set.</source>
+<seg-source><mrk mid="0" mtype="seg">Determines whether the window should have the "TOPMOST" flag set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Determines whether the window should have the "TOPMOST" flag set.</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $WINDOWS_NOONTOP (0) = remove on top flag</source>
+<seg-source> <mrk mid="0" mtype="seg">    $WINDOWS_NOONTOP (0) = remove on top flag</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $WINDOWS_NOONTOP (0) = remove on top flag</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $WINDOWS_ONTOP (1) = set on top flag</source>
+<seg-source> <mrk mid="0" mtype="seg">    $WINDOWS_ONTOP (1) = set on top flag</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $WINDOWS_ONTOP (1) = set on top flag</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> Constants are defined in "AutoItConstants.au3".</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in "AutoItConstants.au3".</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in "AutoItConstants.au3".</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">0 if the window is not found.</source>
+<seg-source><mrk mid="0" mtype="seg">0 if the window is not found.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 if the window is not found.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Third-party programs which add an "Always On Top" context menu entry might not update their menu entry to reflect the AutoIt-induced change in TOPMOST status.</source>
+<seg-source><mrk mid="0" mtype="seg">Third-party programs which add an "Always On Top" context menu entry might not update their menu entry to reflect the AutoIt-induced change in TOPMOST status.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Third-party programs which add an "Always On Top" context menu entry might not update their menu entry to reflect the AutoIt-induced change in TOPMOST status.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Retrieve the handle of the active window.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve the handle of the active window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve the handle of the active window.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">[ACTIVE]</source>
+<seg-source><mrk mid="0" mtype="seg">[ACTIVE]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[ACTIVE]</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Set the active window as being ontop using the handle returned by WinGetHandle.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the active window as being ontop using the handle returned by WinGetHandle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the active window as being ontop using the handle returned by WinGetHandle.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Wait for 2 seconds to display the change.</source>
+<seg-source><mrk mid="0" mtype="seg">Wait for 2 seconds to display the change.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wait for 2 seconds to display the change.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Remove the "topmost" state from the active window.</source>
+<seg-source><mrk mid="0" mtype="seg">Remove the "topmost" state from the active window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remove the "topmost" state from the active window.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

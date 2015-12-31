@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_Excel_BookOpenText.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Opens a text file and parses the content to a new workbook with a single sheet</source>
+<seg-source><mrk mid="0" mtype="seg">Opens a text file and parses the content to a new workbook with a single sheet</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Opens a text file and parses the content to a new workbook with a single sheet</mrk></target>
+<note>Function _Excel_BookOpenText</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Excel application object where you want to open the new workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Excel application object where you want to open the new workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel application object where you want to open the new workbook</mrk></target>
+<note>$oExcel</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Path and filename of the file to be opened</source>
+<seg-source><mrk mid="0" mtype="seg">Path and filename of the file to be opened</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Path and filename of the file to be opened</mrk></target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The row at which to start parsing the file (default = 1)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The row at which to start parsing the file (default = 1)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The row at which to start parsing the file (default = 1)</mrk></target>
+<note>$iStartRow</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the column format of the data in the file. Can be any of the XlTextParsingType enumeration.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the column format of the data in the file.</mrk> <mrk mid="2" mtype="seg">Can be any of the XlTextParsingType enumeration.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the column format of the data in the file.</mrk> <mrk mid="2" mtype="seg">Can be any of the XlTextParsingType enumeration.</mrk></target>
+<note>$iDataType</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     If set to keyword Default Excel attempts to determine the column format (default = keyword Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    If set to keyword Default Excel attempts to determine the column format (default = keyword Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    If set to keyword Default Excel attempts to determine the column format (default = keyword Default)</mrk></target>
+<note>$iDataType</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the text qualifier (default = $xlTextQualifierDoubleQuote)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the text qualifier (default = $xlTextQualifierDoubleQuote)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the text qualifier (default = $xlTextQualifierDoubleQuote)</mrk></target>
+<note>$sTextQualifier</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> True will consider consecutive delimiters as one delimiter (default = False)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True will consider consecutive delimiters as one delimiter (default = False)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True will consider consecutive delimiters as one delimiter (default = False)</mrk></target>
+<note>$bConsecutiveDelimiter</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> One or multiple characters to be used as delimiter (default = ",")</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">One or multiple characters to be used as delimiter (default = ",")</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">One or multiple characters to be used as delimiter (default = ",")</mrk></target>
+<note>$sDelimiter</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> An array containing parse information for individual columns of data.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">An array containing parse information for individual columns of data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">An array containing parse information for individual columns of data.</mrk></target>
+<note>$aFieldInfo</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     The interpretation depends on the value of DataType.</source>
+<seg-source> <mrk mid="0" mtype="seg">    The interpretation depends on the value of DataType.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    The interpretation depends on the value of DataType.</mrk></target>
+<note>$aFieldInfo</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     When the data is delimited, this argument is an array of two-element arrays, with each two-element array</source>
+<seg-source> <mrk mid="0" mtype="seg">    When the data is delimited, this argument is an array of two-element arrays, with each two-element array</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    When the data is delimited, this argument is an array of two-element arrays, with each two-element array</mrk></target>
+<note>$aFieldInfo</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     specifying the conversion options for a particular column.</source>
+<seg-source> <mrk mid="0" mtype="seg">    specifying the conversion options for a particular column.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    specifying the conversion options for a particular column.</mrk></target>
+<note>$aFieldInfo</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     The first element is the column number (1-based), and the second element is one of the XlColumnDataType</source>
+<seg-source> <mrk mid="0" mtype="seg">    The first element is the column number (1-based), and the second element is one of the XlColumnDataType</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    The first element is the column number (1-based), and the second element is one of the XlColumnDataType</mrk></target>
+<note>$aFieldInfo</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     constants specifying how the column is parsed (default = keyword Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    constants specifying how the column is parsed (default = keyword Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    constants specifying how the column is parsed (default = keyword Default)</mrk></target>
+<note>$aFieldInfo</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Decimal separator that Excel uses when recognizing numbers.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Decimal separator that Excel uses when recognizing numbers.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Decimal separator that Excel uses when recognizing numbers.</mrk></target>
+<note>$sDecimalSeparator</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     Default setting is the system setting (default = keyword Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    Default setting is the system setting (default = keyword Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    Default setting is the system setting (default = keyword Default)</mrk></target>
+<note>$sDecimalSeparator</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Thousands separator that Excel uses when recognizing numbers.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Thousands separator that Excel uses when recognizing numbers.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Thousands separator that Excel uses when recognizing numbers.</mrk></target>
+<note>$sThousandsSeparator</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     Default setting is the system setting (default = keyword Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    Default setting is the system setting (default = keyword Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    Default setting is the system setting (default = keyword Default)</mrk></target>
+<note>$sThousandsSeparator</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> True treats numbers with a minus character at the end as negative numbers.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True treats numbers with a minus character at the end as negative numbers.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True treats numbers with a minus character at the end as negative numbers.</mrk></target>
+<note>$bTrailingMinusNumbers</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     False treats such numbers as text (default = True)</source>
+<seg-source> <mrk mid="0" mtype="seg">    False treats such numbers as text (default = True)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    False treats such numbers as text (default = True)</mrk></target>
+<note>$bTrailingMinusNumbers</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Origin of the text file. Can be one of the XlPlatform constants.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Origin of the text file.</mrk> <mrk mid="2" mtype="seg">Can be one of the XlPlatform constants.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Origin of the text file.</mrk> <mrk mid="2" mtype="seg">Can be one of the XlPlatform constants.</mrk></target>
+<note>$iOrigin</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">     Additionally, this could be an integer representing the code page number of the desired code page.</source>
+<seg-source> <mrk mid="0" mtype="seg">    Additionally, this could be an integer representing the code page number of the desired code page.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    Additionally, this could be an integer representing the code page number of the desired code page.</mrk></target>
+<note>$iOrigin</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">     For example, "1256" would specify that the encoding is Arabic (Windows).</source>
+<seg-source> <mrk mid="0" mtype="seg">    For example, "1256" would specify that the encoding is Arabic (Windows).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    For example, "1256" would specify that the encoding is Arabic (Windows).</mrk></target>
+<note>$iOrigin</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">     If this argument is omitted, the method uses the current setting of the File Origin option in the Text Import Wizard.</source>
+<seg-source> <mrk mid="0" mtype="seg">    If this argument is omitted, the method uses the current setting of the File Origin option in the Text Import Wizard.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    If this argument is omitted, the method uses the current setting of the File Origin option in the Text Import Wizard.</mrk></target>
+<note>$iOrigin</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">an workbook object.</source>
+<seg-source><mrk mid="0" mtype="seg">an workbook object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an workbook object.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">0 and sets @error.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets @error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets @error.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">1: $oExcel is not an object or not an application object</source>
+<seg-source><mrk mid="0" mtype="seg">1:</mrk> <mrk mid="1" mtype="seg">$oExcel is not an object or not an application object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1:</mrk> <mrk mid="1" mtype="seg">$oExcel is not an object or not an application object</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en"> 2: Specified $sFilePatch does not exist</source>
+<seg-source> <mrk mid="0" mtype="seg">2:</mrk> <mrk mid="1" mtype="seg">Specified $sFilePatch does not exist</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2:</mrk> <mrk mid="1" mtype="seg">Specified $sFilePatch does not exist</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en"> 3: Unable to open or parse $sFilePath. @extended is set to the COM error code returned by the OpenText method</source>
+<seg-source> <mrk mid="0" mtype="seg">3:</mrk> <mrk mid="1" mtype="seg">Unable to open or parse $sFilePath.</mrk> <mrk mid="2" mtype="seg">@extended is set to the COM error code returned by the OpenText method</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3:</mrk> <mrk mid="1" mtype="seg">Unable to open or parse $sFilePath.</mrk> <mrk mid="2" mtype="seg">@extended is set to the COM error code returned by the OpenText method</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Parameter $aFieldInfo has to be an array containing arrays, not a 2D array. Please see example 2.</source>
+<seg-source><mrk mid="0" mtype="seg">Parameter $aFieldInfo has to be an array containing arrays, not a 2D array.</mrk> <mrk mid="1" mtype="seg">Please see example 2.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameter $aFieldInfo has to be an array containing arrays, not a 2D array.</mrk> <mrk mid="1" mtype="seg">Please see example 2.</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Create application object</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Excel UDF: _Excel_BookOpenText Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookOpenText Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookOpenText Example</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Error creating the Excel application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Open a text file as delimited, separator = |, pass fieldinfo and set</source>
+<seg-source><mrk mid="0" mtype="seg">Open a text file as delimited, separator = |, pass fieldinfo and set</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open a text file as delimited, separator = |, pass fieldinfo and set</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">DecimalSeparator and ThousandsSeparator.</source>
+<seg-source><mrk mid="0" mtype="seg">DecimalSeparator and ThousandsSeparator.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DecimalSeparator and ThousandsSeparator.</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">\Extras\_Excel1.txt</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.txt</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.txt</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">|</source>
+<seg-source><mrk mid="0" mtype="seg">|</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">|</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">,</source>
+<seg-source><mrk mid="0" mtype="seg">,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">,</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">.</source>
+<seg-source><mrk mid="0" mtype="seg">.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Excel UDF: _Excel_BookOpenText Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookOpenText Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookOpenText Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Error opening '</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening '</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">'.</source>
+<seg-source><mrk mid="0" mtype="seg">'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">'.</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">Excel UDF: _Excel_BookOpenText Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookOpenText Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookOpenText Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">Workbook '</source>
+<seg-source><mrk mid="0" mtype="seg">Workbook '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Workbook '</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">' has been opened successfully.</source>
+<seg-source><mrk mid="0" mtype="seg">' has been opened successfully.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">' has been opened successfully.</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">Create application object</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">Excel UDF: _Excel_BookOpenText Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookOpenText Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookOpenText Example</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">Error creating the Excel application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">Open a text file as fixed, all other parameters will be determined by Excel</source>
+<seg-source><mrk mid="0" mtype="seg">Open a text file as fixed, all other parameters will be determined by Excel</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open a text file as fixed, all other parameters will be determined by Excel</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">\Extras\_Excel2.txt</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel2.txt</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel2.txt</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">Excel UDF: _Excel_BookOpenText Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookOpenText Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookOpenText Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">Error opening '</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening '</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">'.</source>
+<seg-source><mrk mid="0" mtype="seg">'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">'.</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">Excel UDF: _Excel_BookOpenText Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookOpenText Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookOpenText Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">Workbook '</source>
+<seg-source><mrk mid="0" mtype="seg">Workbook '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Workbook '</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">' has been opened successfully.</source>
+<seg-source><mrk mid="0" mtype="seg">' has been opened successfully.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">' has been opened successfully.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

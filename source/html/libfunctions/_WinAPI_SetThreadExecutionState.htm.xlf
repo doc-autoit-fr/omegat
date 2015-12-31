@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_SetThreadExecutionState.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Prevents the system from entering sleep or turning off the display while the current application is running</source>
+<seg-source><mrk mid="0" mtype="seg">Prevents the system from entering sleep or turning off the display while the current application is running</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Prevents the system from entering sleep or turning off the display while the current application is running</mrk></target>
+<note>Function _WinAPI_SetThreadExecutionState</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The thread's execution requirements. This parameter can be one or more of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg">The thread's execution requirements.</mrk> <mrk mid="1" mtype="seg">This parameter can be one or more of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The thread's execution requirements.</mrk> <mrk mid="1" mtype="seg">This parameter can be one or more of the following values.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> $ES_AWAYMODE_REQUIRED</source>
+<seg-source> <mrk mid="0" mtype="seg">$ES_AWAYMODE_REQUIRED</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$ES_AWAYMODE_REQUIRED</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> $ES_CONTINUOUS</source>
+<seg-source> <mrk mid="0" mtype="seg">$ES_CONTINUOUS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$ES_CONTINUOUS</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> $ES_DISPLAY_REQUIRED</source>
+<seg-source> <mrk mid="0" mtype="seg">$ES_DISPLAY_REQUIRED</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$ES_DISPLAY_REQUIRED</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $ES_SYSTEM_REQUIRED</source>
+<seg-source> <mrk mid="0" mtype="seg">$ES_SYSTEM_REQUIRED</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$ES_SYSTEM_REQUIRED</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $ES_USER_PRESENT</source>
+<seg-source> <mrk mid="0" mtype="seg">$ES_USER_PRESENT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$ES_USER_PRESENT</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">The value is the previous thread execution state.</source>
+<seg-source><mrk mid="0" mtype="seg">The value is the previous thread execution state.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The value is the previous thread execution state.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetThreadExecutionState.htm"></bpt>_WinAPI_SetThreadExecutionState()<ept id="1">&lt;/a></ept> function cannot be used to prevent the user from putting the computer to</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetThreadExecutionState.htm"></bpt>_WinAPI_SetThreadExecutionState()<ept id="1">&lt;/a></ept> function cannot be used to prevent the user from putting the computer to</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetThreadExecutionState.htm"></bpt>_WinAPI_SetThreadExecutionState()<ept id="1">&lt;/a></ept> function cannot be used to prevent the user from putting the computer to</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> sleep. Applications should respect that the user expects a certain behavior when they close the lid on their</source>
+<seg-source> <mrk mid="0" mtype="seg">sleep.</mrk> <mrk mid="1" mtype="seg">Applications should respect that the user expects a certain behavior when they close the lid on their</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">sleep.</mrk> <mrk mid="1" mtype="seg">Applications should respect that the user expects a certain behavior when they close the lid on their</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> laptop or press the power button.</source>
+<seg-source> <mrk mid="0" mtype="seg">laptop or press the power button.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">laptop or press the power button.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> This function does not stop the screen saver from executing.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function does not stop the screen saver from executing.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function does not stop the screen saver from executing.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetThreadExecutionState);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetThreadExecutionState<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetThreadExecutionState);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetThreadExecutionState<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetThreadExecutionState);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetThreadExecutionState<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

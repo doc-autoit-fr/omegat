@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_ArrayPop.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Returns the last element of an array, deleting that element from the array at the same time</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the last element of an array, deleting that element from the array at the same time</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the last element of an array, deleting that element from the array at the same time</mrk></target>
+<note>Function _ArrayPop</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Array to modify</source>
+<seg-source><mrk mid="0" mtype="seg">Array to modify</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Array to modify</mrk></target>
+<note>$aArray</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">the last element of the array (see remarks).</source>
+<seg-source><mrk mid="0" mtype="seg">the last element of the array (see remarks).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the last element of the array (see remarks).</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">1 - The Input Must be an array</source>
+<seg-source><mrk mid="0" mtype="seg">1 - The Input Must be an array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - The Input Must be an array</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> 2 - $aArray is not a 1D array</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - $aArray is not a 1D array</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - $aArray is not a 1D array</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> 3 - $aArray is empty</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - $aArray is empty</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - $aArray is empty</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">If $aArray has one element left, it will be set to "" after <bpt id="1" ctype="x-a">&lt;a href="_ArrayPop.htm"></bpt>_ArrayPop()<ept id="1">&lt;/a></ept> is used on it.</source>
+<seg-source><mrk mid="0" mtype="seg">If $aArray has one element left, it will be set to "" after <bpt id="1" ctype="x-a">&lt;a href="_ArrayPop.htm"></bpt>_ArrayPop()<ept id="1">&lt;/a></ept> is used on it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If $aArray has one element left, it will be set to "" after <bpt id="1" ctype="x-a">&lt;a href="_ArrayPop.htm"></bpt>_ArrayPop()<ept id="1">&lt;/a></ept> is used on it.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">JPM</source>
+<seg-source><mrk mid="0" mtype="seg">JPM</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JPM</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Holger</source>
+<seg-source><mrk mid="0" mtype="seg">Holger</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Holger</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Jon</source>
+<seg-source><mrk mid="0" mtype="seg">Jon</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Jon</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Larry</source>
+<seg-source><mrk mid="0" mtype="seg">Larry</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Larry</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Jeremy</source>
+<seg-source><mrk mid="0" mtype="seg">Jeremy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Jeremy</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Valik</source>
+<seg-source><mrk mid="0" mtype="seg">Valik</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Valik</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Cyberslug</source>
+<seg-source><mrk mid="0" mtype="seg">Cyberslug</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cyberslug</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Nutster</source>
+<seg-source><mrk mid="0" mtype="seg">Nutster</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Nutster</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">JdeB</source>
+<seg-source><mrk mid="0" mtype="seg">JdeB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JdeB</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Tylo</source>
+<seg-source><mrk mid="0" mtype="seg">Tylo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Tylo</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">$avArray BEFORE _ArrayPop()</source>
+<seg-source><mrk mid="0" mtype="seg">$avArray BEFORE _ArrayPop()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$avArray BEFORE _ArrayPop()</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">_ArrayPop() return value</source>
+<seg-source><mrk mid="0" mtype="seg">_ArrayPop() return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_ArrayPop() return value</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">$avArray AFTER _ArrayPop()</source>
+<seg-source><mrk mid="0" mtype="seg">$avArray AFTER _ArrayPop()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$avArray AFTER _ArrayPop()</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/ProgressOn.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a customizable progress bar window.</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a customizable progress bar window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a customizable progress bar window.</mrk></target>
+<note>Function ProgressOn</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Title for progress window.</source>
+<seg-source><mrk mid="0" mtype="seg">Title for progress window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Title for progress window.</mrk></target>
+<note>title</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Text for Main, Bold, Upper label.</source>
+<seg-source><mrk mid="0" mtype="seg">Text for Main, Bold, Upper label.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text for Main, Bold, Upper label.</mrk></target>
+<note>maintext</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> text for Sub, Normal, Lower label. (default is blank)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">text for Sub, Normal, Lower label.</mrk> <mrk mid="2" mtype="seg">(default is blank)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">text for Sub, Normal, Lower label.</mrk> <mrk mid="2" mtype="seg">(default is blank)</mrk></target>
+<note>subtext</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> position from left (in pixels) of progress window. (default is centered)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">position from left (in pixels) of progress window.</mrk> <mrk mid="2" mtype="seg">(default is centered)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">position from left (in pixels) of progress window.</mrk> <mrk mid="2" mtype="seg">(default is centered)</mrk></target>
+<note>x pos</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> position from top (in pixels) of progress window. (default is centered)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">position from top (in pixels) of progress window.</mrk> <mrk mid="2" mtype="seg">(default is centered)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">position from top (in pixels) of progress window.</mrk> <mrk mid="2" mtype="seg">(default is centered)</mrk></target>
+<note>y pos</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Default is 'always on top/with title'</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Default is 'always on top/with title'</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Default is 'always on top/with title'</mrk></target>
+<note>opt</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> Add up the following options you want:</source>
+<seg-source> <mrk mid="0" mtype="seg">Add up the following options you want:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Add up the following options you want:</mrk></target>
+<note>opt</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $DLG_NOTITLE (1) = borderless, titleless window</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DLG_NOTITLE (1) = borderless, titleless window</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DLG_NOTITLE (1) = borderless, titleless window</mrk></target>
+<note>opt</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $DLG_NOTONTOP (2) = Without "always on top" attribute</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DLG_NOTONTOP (2) = Without "always on top" attribute</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DLG_NOTONTOP (2) = Without "always on top" attribute</mrk></target>
+<note>opt</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $DLG_MOVEABLE (16) = Window can be moved</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DLG_MOVEABLE (16) = Window can be moved</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DLG_MOVEABLE (16) = Window can be moved</mrk></target>
+<note>opt</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> Constants are defined in AutoItConstants.au3</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in AutoItConstants.au3</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in AutoItConstants.au3</mrk></target>
+<note>opt</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">None.</source>
+<seg-source><mrk mid="0" mtype="seg">None.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">To skip an optional parameter, leaving its default value intact, use:</source>
+<seg-source><mrk mid="0" mtype="seg">To skip an optional parameter, leaving its default value intact, use:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To skip an optional parameter, leaving its default value intact, use:</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     "" for string parameters</source>
+<seg-source> <mrk mid="0" mtype="seg">    "" for string parameters</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "" for string parameters</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     -1 for numeric parameters</source>
+<seg-source> <mrk mid="0" mtype="seg">    -1 for numeric parameters</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    -1 for numeric parameters</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> If <bpt id="1" ctype="x-a">&lt;a href="ProgressOn.htm"></bpt>ProgressOn()<ept id="1">&lt;/a></ept> is called while a progress window already exists, the window is redrawn/moved. (If you want multiple simultaneous progress windows, you need to use multiple scripts.)</source>
+<seg-source> <mrk mid="0" mtype="seg">If <bpt id="1" ctype="x-a">&lt;a href="ProgressOn.htm"></bpt>ProgressOn()<ept id="1">&lt;/a></ept> is called while a progress window already exists, the window is redrawn/moved.</mrk> <mrk mid="1" mtype="seg">(If you want multiple simultaneous progress windows, you need to use multiple scripts.)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If <bpt id="1" ctype="x-a">&lt;a href="ProgressOn.htm"></bpt>ProgressOn()<ept id="1">&lt;/a></ept> is called while a progress window already exists, the window is redrawn/moved.</mrk> <mrk mid="1" mtype="seg">(If you want multiple simultaneous progress windows, you need to use multiple scripts.)</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Display a progress bar window.</source>
+<seg-source><mrk mid="0" mtype="seg">Display a progress bar window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display a progress bar window.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Progress Meter</source>
+<seg-source><mrk mid="0" mtype="seg">Progress Meter</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Progress Meter</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Increments every second</source>
+<seg-source><mrk mid="0" mtype="seg">Increments every second</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Increments every second</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">0%</source>
+<seg-source><mrk mid="0" mtype="seg">0%</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0%</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Update the progress value of the progress bar window every second.</source>
+<seg-source><mrk mid="0" mtype="seg">Update the progress value of the progress bar window every second.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Update the progress value of the progress bar window every second.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">%</source>
+<seg-source><mrk mid="0" mtype="seg">%</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Set the "subtext" and "maintext" of the progress bar window.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the "subtext" and "maintext" of the progress bar window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the "subtext" and "maintext" of the progress bar window.</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Done</source>
+<seg-source><mrk mid="0" mtype="seg">Done</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Done</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Complete</source>
+<seg-source><mrk mid="0" mtype="seg">Complete</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Complete</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Close the progress window.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the progress window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the progress window.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

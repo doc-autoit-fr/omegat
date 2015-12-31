@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_CreateBuffer.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Allocates a block of memory from the internal library heap</source>
+<seg-source><mrk mid="0" mtype="seg">Allocates a block of memory from the internal library heap</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Allocates a block of memory from the internal library heap</mrk></target>
+<note>Function _WinAPI_CreateBuffer</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The required buffer length, in bytes.</source>
+<seg-source><mrk mid="0" mtype="seg">The required buffer length, in bytes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The required buffer length, in bytes.</mrk></target>
+<note>$iLength</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> A pointer to the existing buffer that to be replaced by a new buffer.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A pointer to the existing buffer that to be replaced by a new buffer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A pointer to the existing buffer that to be replaced by a new buffer.</mrk></target>
+<note>$pBuffer</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> If this parameter is a valid buffer pointer, the memory will be reallocated for a new buffer.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is a valid buffer pointer, the memory will be reallocated for a new buffer.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is a valid buffer pointer, the memory will be reallocated for a new buffer.</mrk></target>
+<note>$pBuffer</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> However, the new memory is allocated at a different location. Therefore, you should always use the pointer that returns this function.</source>
+<seg-source> <mrk mid="0" mtype="seg">However, the new memory is allocated at a different location.</mrk> <mrk mid="1" mtype="seg">Therefore, you should always use the pointer that returns this function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">However, the new memory is allocated at a different location.</mrk> <mrk mid="1" mtype="seg">Therefore, you should always use the pointer that returns this function.</mrk></target>
+<note>$pBuffer</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> If this parameter is 0 (Default) or invalid buffer pointer, the function just allocates a new memory.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is 0 (Default) or invalid buffer pointer, the function just allocates a new memory.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is 0 (Default) or invalid buffer pointer, the function just allocates a new memory.</mrk></target>
+<note>$pBuffer</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether to exit the script if not enough memory, valid values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to exit the script if not enough memory, valid values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to exit the script if not enough memory, valid values:</mrk></target>
+<note>$bAbort</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     True - Displaying an error message and exit the script with error code 1 (Default).</source>
+<seg-source> <mrk mid="0" mtype="seg">    True - Displaying an error message and exit the script with error code 1 (Default).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    True - Displaying an error message and exit the script with error code 1 (Default).</mrk></target>
+<note>$bAbort</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     False - Continue the script and return an error.</source>
+<seg-source> <mrk mid="0" mtype="seg">    False - Continue the script and return an error.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    False - Continue the script and return an error.</mrk></target>
+<note>$bAbort</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">A pointer to the new buffer.</source>
+<seg-source><mrk mid="0" mtype="seg">A pointer to the new buffer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A pointer to the new buffer.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">0 and sets the @error flag to non-zero (if an exceptions is not set).</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero (if an exceptions is not set).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero (if an exceptions is not set).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">When a buffer is no longer needed, you must destroy it by calling the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FreeMemory.htm"></bpt>_WinAPI_FreeMemory()<ept id="1">&lt;/a></ept> function.</source>
+<seg-source><mrk mid="0" mtype="seg">When a buffer is no longer needed, you must destroy it by calling the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FreeMemory.htm"></bpt>_WinAPI_FreeMemory()<ept id="1">&lt;/a></ept> function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a buffer is no longer needed, you must destroy it by calling the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FreeMemory.htm"></bpt>_WinAPI_FreeMemory()<ept id="1">&lt;/a></ept> function.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

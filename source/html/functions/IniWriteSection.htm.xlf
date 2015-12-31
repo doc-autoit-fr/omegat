@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/IniWriteSection.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Writes a section to a standard format .ini file.</source>
+<seg-source><mrk mid="0" mtype="seg">Writes a section to a standard format .ini file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Writes a section to a standard format .ini file.</mrk></target>
+<note>Function IniWriteSection</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The filename of the .ini file.</source>
+<seg-source><mrk mid="0" mtype="seg">The filename of the .ini file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The filename of the .ini file.</mrk></target>
+<note>filename</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The section name in the .ini file.</source>
+<seg-source><mrk mid="0" mtype="seg">The section name in the .ini file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The section name in the .ini file.</mrk></target>
+<note>section</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The data to write. The data can either be a string or an array. If the data is a string, then each key=value pair must be delimited by @LF. If the data is an array, the array must be 2-dimensional and the second dimension must be 2 elements.</source>
+<seg-source><mrk mid="0" mtype="seg">The data to write.</mrk> <mrk mid="1" mtype="seg">The data can either be a string or an array.</mrk> <mrk mid="2" mtype="seg">If the data is a string, then each key=value pair must be delimited by @LF.</mrk> <mrk mid="3" mtype="seg">If the data is an array, the array must be 2-dimensional and the second dimension must be 2 elements.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The data to write.</mrk> <mrk mid="1" mtype="seg">The data can either be a string or an array.</mrk> <mrk mid="2" mtype="seg">If the data is a string, then each key=value pair must be delimited by @LF.</mrk> <mrk mid="3" mtype="seg">If the data is an array, the array must be 2-dimensional and the second dimension must be 2 elements.</mrk></target>
+<note>data</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If an array is passed as data, this specifies the index to start writing from. By default, this is 1 so that the return value of <bpt id="1" ctype="x-a">&lt;a href="IniReadSection.htm"></bpt>IniReadSection()<ept id="1">&lt;/a></ept> can be used immediately. For manually created arrays, this value may need to be different depending on how the array was created. This parameter is ignored if a string is passed as data. </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If an array is passed as data, this specifies the index to start writing from.</mrk> <mrk mid="2" mtype="seg">By default, this is 1 so that the return value of <bpt id="1" ctype="x-a">&lt;a href="IniReadSection.htm"></bpt>IniReadSection()<ept id="1">&lt;/a></ept> can be used immediately.</mrk> <mrk mid="3" mtype="seg">For manually created arrays, this value may need to be different depending on how the array was created.</mrk> <mrk mid="4" mtype="seg">This parameter is ignored if a string is passed as data.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If an array is passed as data, this specifies the index to start writing from.</mrk> <mrk mid="2" mtype="seg">By default, this is 1 so that the return value of <bpt id="1" ctype="x-a">&lt;a href="IniReadSection.htm"></bpt>IniReadSection()<ept id="1">&lt;/a></ept> can be used immediately.</mrk> <mrk mid="3" mtype="seg">For manually created arrays, this value may need to be different depending on how the array was created.</mrk> <mrk mid="4" mtype="seg">This parameter is ignored if a string is passed as data.</mrk> </target>
+<note>index</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">0. The function will sets the @error flag to 1 if the data format is invalid.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk> <mrk mid="1" mtype="seg">The function will sets the @error flag to 1 if the data format is invalid.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk> <mrk mid="1" mtype="seg">The function will sets the @error flag to 1 if the data format is invalid.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">A standard ini file looks like:</source>
+<seg-source><mrk mid="0" mtype="seg">A standard ini file looks like:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A standard ini file looks like:</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> <it id="1" ctype="x-em" pos="open">&lt;em></it>[SectionName]</source>
+<seg-source> <mrk mid="0" mtype="seg"><it id="1" ctype="x-em" pos="open">&lt;em></it>[SectionName]</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><it id="1" ctype="x-em" pos="open">&lt;em></it>[SectionName]</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> Key=Value<it id="1" ctype="x-em" pos="close">&lt;/em></it></source>
+<seg-source> <mrk mid="0" mtype="seg">Key=Value<it id="1" ctype="x-em" pos="close">&lt;/em></it></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Key=Value<it id="1" ctype="x-em" pos="close">&lt;/em></it></mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> If file does not exist, it is created. Any directories that do not exist, will not be created. Keys and/or sections are added to the end and are not sorted in any way.</source>
+<seg-source> <mrk mid="0" mtype="seg">If file does not exist, it is created.</mrk> <mrk mid="1" mtype="seg">Any directories that do not exist, will not be created.</mrk> <mrk mid="2" mtype="seg">Keys and/or sections are added to the end and are not sorted in any way.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If file does not exist, it is created.</mrk> <mrk mid="1" mtype="seg">Any directories that do not exist, will not be created.</mrk> <mrk mid="2" mtype="seg">Keys and/or sections are added to the end and are not sorted in any way.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> If the section being written already exists, its contents will be overwritten.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the section being written already exists, its contents will be overwritten.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the section being written already exists, its contents will be overwritten.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> If you want to use an ini file with unicode encoding, first create an .ini file by using the <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> function with the mode parameter set to "Unicode UTF16 Little Endian".</source>
+<seg-source> <mrk mid="0" mtype="seg">If you want to use an ini file with unicode encoding, first create an .ini file by using the <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> function with the mode parameter set to "Unicode UTF16 Little Endian".</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If you want to use an ini file with unicode encoding, first create an .ini file by using the <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> function with the mode parameter set to "Unicode UTF16 Little Endian".</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Create a constant variable in Local scope of the filepath that will be read/written to.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a constant variable in Local scope of the filepath that will be read/written to.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a constant variable in Local scope of the filepath that will be read/written to.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Create an INI section structure as an array. The zeroth element is how many items are in the array, in this case 3.</source>
+<seg-source><mrk mid="0" mtype="seg">Create an INI section structure as an array.</mrk> <mrk mid="1" mtype="seg">The zeroth element is how many items are in the array, in this case 3.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create an INI section structure as an array.</mrk> <mrk mid="1" mtype="seg">The zeroth element is how many items are in the array, in this case 3.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Title</source>
+<seg-source><mrk mid="0" mtype="seg">Title</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Title</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">AutoIt</source>
+<seg-source><mrk mid="0" mtype="seg">AutoIt</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AutoIt</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Version</source>
+<seg-source><mrk mid="0" mtype="seg">Version</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Version</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">OS</source>
+<seg-source><mrk mid="0" mtype="seg">OS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OS</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Write the array to the section labelled 'General'.</source>
+<seg-source><mrk mid="0" mtype="seg">Write the array to the section labelled 'General'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write the array to the section labelled 'General'.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">General</source>
+<seg-source><mrk mid="0" mtype="seg">General</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">General</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Read the INI section labelled 'General'. This will return a 2 dimensional array.</source>
+<seg-source><mrk mid="0" mtype="seg">Read the INI section labelled 'General'.</mrk> <mrk mid="1" mtype="seg">This will return a 2 dimensional array.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Read the INI section labelled 'General'.</mrk> <mrk mid="1" mtype="seg">This will return a 2 dimensional array.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">General</source>
+<seg-source><mrk mid="0" mtype="seg">General</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">General</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Check if an error occurred.</source>
+<seg-source><mrk mid="0" mtype="seg">Check if an error occurred.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check if an error occurred.</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Enumerate through the array displaying the keys and their respective values.</source>
+<seg-source><mrk mid="0" mtype="seg">Enumerate through the array displaying the keys and their respective values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enumerate through the array displaying the keys and their respective values.</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Key:</source>
+<seg-source><mrk mid="0" mtype="seg">Key:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Key:</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Value:</source>
+<seg-source><mrk mid="0" mtype="seg">Value:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Value:</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Delete the INI file.</source>
+<seg-source><mrk mid="0" mtype="seg">Delete the INI file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete the INI file.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

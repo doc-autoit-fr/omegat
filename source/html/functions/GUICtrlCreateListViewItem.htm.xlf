@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/GUICtrlCreateListViewItem.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a ListView item.</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a ListView item.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a ListView item.</mrk></target>
+<note>Function GUICtrlCreateListViewItem</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> subitemtext separated with <bpt id="1" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIDataSeparatorChar"></bpt>Opt("GUIDataSeparatorChar")<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">subitemtext separated with <bpt id="1" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIDataSeparatorChar"></bpt>Opt("GUIDataSeparatorChar")<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">subitemtext separated with <bpt id="1" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIDataSeparatorChar"></bpt>Opt("GUIDataSeparatorChar")<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>text</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">controlID of the ListView control holding the item.</source>
+<seg-source><mrk mid="0" mtype="seg">controlID of the ListView control holding the item.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">controlID of the ListView control holding the item.</mrk></target>
+<note>listviewID</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">the identifier (controlID) of the new control.</source>
+<seg-source><mrk mid="0" mtype="seg">the identifier (controlID) of the new control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the identifier (controlID) of the new control.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">This function creates the individual ListView items that can be selected. The items function as normal controls and can be set with <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetData.htm"></bpt>GUICtrlSetData()<ept id="1">&lt;/a></ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">This function creates the individual ListView items that can be selected.</mrk> <mrk mid="1" mtype="seg">The items function as normal controls and can be set with <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetData.htm"></bpt>GUICtrlSetData()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function creates the individual ListView items that can be selected.</mrk> <mrk mid="1" mtype="seg">The items function as normal controls and can be set with <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetData.htm"></bpt>GUICtrlSetData()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> Items can be deleted as with any other control by using <bpt id="1" ctype="x-a">&lt;a href="GUICtrlDelete.htm"></bpt>GUICtrlDelete()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">Items can be deleted as with any other control by using <bpt id="1" ctype="x-a">&lt;a href="GUICtrlDelete.htm"></bpt>GUICtrlDelete()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Items can be deleted as with any other control by using <bpt id="1" ctype="x-a">&lt;a href="GUICtrlDelete.htm"></bpt>GUICtrlDelete()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> ListView items can be dragged and drop into an Edit or Input control with a $GUI_DROPACCEPTED state.</source>
+<seg-source> <mrk mid="0" mtype="seg">ListView items can be dragged and drop into an Edit or Input control with a $GUI_DROPACCEPTED state.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">ListView items can be dragged and drop into an Edit or Input control with a $GUI_DROPACCEPTED state.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> See <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateListView.htm"></bpt>GUICtrlCreateListView()<ept id="1">&lt;/a></ept> about resizing of the column.</source>
+<seg-source> <mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateListView.htm"></bpt>GUICtrlCreateListView()<ept id="1">&lt;/a></ept> about resizing of the column.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateListView.htm"></bpt>GUICtrlCreateListView()<ept id="1">&lt;/a></ept> about resizing of the column.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> The special flag $GUI_BKCOLOR_LV_ALTERNATE can be used with Listview control to give alternate background of the ListviewItems lines.</source>
+<seg-source> <mrk mid="0" mtype="seg">The special flag $GUI_BKCOLOR_LV_ALTERNATE can be used with Listview control to give alternate background of the ListviewItems lines.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The special flag $GUI_BKCOLOR_LV_ALTERNATE can be used with Listview control to give alternate background of the ListviewItems lines.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> The odd lines will get the color set by <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetBkColor.htm"></bpt>GUICtrlSetBkColor()<ept id="1">&lt;/a></ept> of the Listview control.</source>
+<seg-source> <mrk mid="0" mtype="seg">The odd lines will get the color set by <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetBkColor.htm"></bpt>GUICtrlSetBkColor()<ept id="1">&lt;/a></ept> of the Listview control.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The odd lines will get the color set by <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetBkColor.htm"></bpt>GUICtrlSetBkColor()<ept id="1">&lt;/a></ept> of the Listview control.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> The even lines will get the color set by <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetBkColor.htm"></bpt>GUICtrlSetBkColor()<ept id="1">&lt;/a></ept> of the ListviewItem control.</source>
+<seg-source> <mrk mid="0" mtype="seg">The even lines will get the color set by <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetBkColor.htm"></bpt>GUICtrlSetBkColor()<ept id="1">&lt;/a></ept> of the ListviewItem control.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The even lines will get the color set by <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetBkColor.htm"></bpt>GUICtrlSetBkColor()<ept id="1">&lt;/a></ept> of the ListviewItem control.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> The above constants are defined in #include &lt;GUIConstantsEx.au3></source>
+<seg-source> <mrk mid="0" mtype="seg">The above constants are defined in #include &lt;GUIConstantsEx.au3></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The above constants are defined in #include &lt;GUIConstantsEx.au3></mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateListView.htm"></bpt>GUICtrlCreateListView<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="GUICtrlDelete.htm"></bpt>GUICtrlDelete<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="GUICtrlRead.htm"></bpt>GUICtrlRead<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="GUICtrlSetData.htm"></bpt>GUICtrlSetData<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="GUICtrlSetState.htm"></bpt>GUICtrlSetState<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIDataSeparatorChar"></bpt>GUIDataSeparatorChar (Option)<ept id="6">&lt;/a></ept>, <bpt id="7" ctype="x-a">&lt;a href="GUIGetMsg.htm"></bpt>GUIGetMsg<ept id="7">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateListView.htm"></bpt>GUICtrlCreateListView<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="GUICtrlDelete.htm"></bpt>GUICtrlDelete<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="GUICtrlRead.htm"></bpt>GUICtrlRead<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="GUICtrlSetData.htm"></bpt>GUICtrlSetData<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="GUICtrlSetState.htm"></bpt>GUICtrlSetState<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIDataSeparatorChar"></bpt>GUIDataSeparatorChar (Option)<ept id="6">&lt;/a></ept>, <bpt id="7" ctype="x-a">&lt;a href="GUIGetMsg.htm"></bpt>GUIGetMsg<ept id="7">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateListView.htm"></bpt>GUICtrlCreateListView<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="GUICtrlDelete.htm"></bpt>GUICtrlDelete<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="GUICtrlRead.htm"></bpt>GUICtrlRead<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="GUICtrlSetData.htm"></bpt>GUICtrlSetData<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="GUICtrlSetState.htm"></bpt>GUICtrlSetState<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIDataSeparatorChar"></bpt>GUIDataSeparatorChar (Option)<ept id="6">&lt;/a></ept>, <bpt id="7" ctype="x-a">&lt;a href="GUIGetMsg.htm"></bpt>GUIGetMsg<ept id="7">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">listview items</source>
+<seg-source><mrk mid="0" mtype="seg">listview items</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">listview items</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">will change background color</source>
+<seg-source><mrk mid="0" mtype="seg">will change background color</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">will change background color</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">col1 |col2|col3</source>
+<seg-source><mrk mid="0" mtype="seg">col1 |col2|col3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">col1 |col2|col3</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">,$LVS_SORTDESCENDING)</source>
+<seg-source><mrk mid="0" mtype="seg">,$LVS_SORTDESCENDING)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">,$LVS_SORTDESCENDING)</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Value?</source>
+<seg-source><mrk mid="0" mtype="seg">Value?</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Value?</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">item2|col22|col23</source>
+<seg-source><mrk mid="0" mtype="seg">item2|col22|col23</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">item2|col22|col23</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">item1|col12|col13</source>
+<seg-source><mrk mid="0" mtype="seg">item1|col12|col13</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">item1|col12|col13</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">item3|col32|col33</source>
+<seg-source><mrk mid="0" mtype="seg">item3|col32|col33</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">item3|col32|col33</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">to allow drag and dropping</source>
+<seg-source><mrk mid="0" mtype="seg">to allow drag and dropping</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">to allow drag and dropping</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">ITEM1</source>
+<seg-source><mrk mid="0" mtype="seg">ITEM1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ITEM1</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">||COL33</source>
+<seg-source><mrk mid="0" mtype="seg">||COL33</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">||COL33</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">listview item</source>
+<seg-source><mrk mid="0" mtype="seg">listview item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">listview item</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">listview</source>
+<seg-source><mrk mid="0" mtype="seg">listview</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">listview</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">clicked=</source>
+<seg-source><mrk mid="0" mtype="seg">clicked=</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">clicked=</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

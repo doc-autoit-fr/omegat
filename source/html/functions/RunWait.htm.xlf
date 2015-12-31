@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/RunWait.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Runs an external program and pauses script execution until the program finishes.</source>
+<seg-source><mrk mid="0" mtype="seg">Runs an external program and pauses script execution until the program finishes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Runs an external program and pauses script execution until the program finishes.</mrk></target>
+<note>Function RunWait</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The full path of the program (EXE, BAT, COM, or PIF) to run (see remarks).</source>
+<seg-source><mrk mid="0" mtype="seg">The full path of the program (EXE, BAT, COM, or PIF) to run (see remarks).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The full path of the program (EXE, BAT, COM, or PIF) to run (see remarks).</mrk></target>
+<note>program</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The working directory. Blank ("") uses the current working directory. This is not the path to the program.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The working directory.</mrk> <mrk mid="2" mtype="seg">Blank ("") uses the current working directory.</mrk> <mrk mid="3" mtype="seg">This is not the path to the program.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The working directory.</mrk> <mrk mid="2" mtype="seg">Blank ("") uses the current working directory.</mrk> <mrk mid="3" mtype="seg">This is not the path to the program.</mrk></target>
+<note>workingdir</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The "show" flag of the executed program:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The "show" flag of the executed program:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The "show" flag of the executed program:</mrk></target>
+<note>show_flag</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     @SW_HIDE = Hidden window (or Default keyword)</source>
+<seg-source> <mrk mid="0" mtype="seg">    @SW_HIDE = Hidden window (or Default keyword)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    @SW_HIDE = Hidden window (or Default keyword)</mrk></target>
+<note>show_flag</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     @SW_MINIMIZE = Minimized window</source>
+<seg-source> <mrk mid="0" mtype="seg">    @SW_MINIMIZE = Minimized window</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    @SW_MINIMIZE = Minimized window</mrk></target>
+<note>show_flag</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     @SW_MAXIMIZE = Maximized window</source>
+<seg-source> <mrk mid="0" mtype="seg">    @SW_MAXIMIZE = Maximized window</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    @SW_MAXIMIZE = Maximized window</mrk></target>
+<note>show_flag</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Controls various options related to how the parent and child process interact.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Controls various options related to how the parent and child process interact.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Controls various options related to how the parent and child process interact.</mrk></target>
+<note>opt_flag</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     0x10000 ($RUN_CREATE_NEW_CONSOLE) = The child console process should be created with its own window instead of using the parents window. This flag is only useful when the parent is compiled as a Console application.</source>
+<seg-source> <mrk mid="0" mtype="seg">    0x10000 ($RUN_CREATE_NEW_CONSOLE) = The child console process should be created with its own window instead of using the parents window.</mrk> <mrk mid="1" mtype="seg">This flag is only useful when the parent is compiled as a Console application.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0x10000 ($RUN_CREATE_NEW_CONSOLE) = The child console process should be created with its own window instead of using the parents window.</mrk> <mrk mid="1" mtype="seg">This flag is only useful when the parent is compiled as a Console application.</mrk></target>
+<note>opt_flag</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">the exit code of the program that was run.</source>
+<seg-source><mrk mid="0" mtype="seg">the exit code of the program that was run.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the exit code of the program that was run.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Paths with spaces need to be enclosed in quotation marks.</source>
+<seg-source><mrk mid="0" mtype="seg">Paths with spaces need to be enclosed in quotation marks.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Paths with spaces need to be enclosed in quotation marks.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> To run DOS commands, try <bpt id="1" ctype="x-em">&lt;em></bpt><bpt id="2" ctype="x-a">&lt;a href="RunWait.htm"></bpt>RunWait<ept id="2">&lt;/a></ept>(@ComSpec &amp; " /c " &amp; "commandName")    ; don't forget " " before "/c"<ept id="1">&lt;/em></ept></source>
+<seg-source> <mrk mid="0" mtype="seg">To run DOS commands, try <bpt id="1" ctype="x-em">&lt;em></bpt><bpt id="2" ctype="x-a">&lt;a href="RunWait.htm"></bpt>RunWait<ept id="2">&lt;/a></ept>(@ComSpec &amp; " /c " &amp; "commandName")    ; don't forget " " before "/c"<ept id="1">&lt;/em></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To run DOS commands, try <bpt id="1" ctype="x-em">&lt;em></bpt><bpt id="2" ctype="x-a">&lt;a href="RunWait.htm"></bpt>RunWait<ept id="2">&lt;/a></ept>(@ComSpec &amp; " /c " &amp; "commandName")    ; don't forget " " before "/c"<ept id="1">&lt;/em></ept></mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> After running the requested program the script pauses until the program terminates. To run a program and then immediately continue script execution use the <bpt id="1" ctype="x-a">&lt;a href="Run.htm"></bpt>Run()<ept id="1">&lt;/a></ept> function instead.</source>
+<seg-source> <mrk mid="0" mtype="seg">After running the requested program the script pauses until the program terminates.</mrk> <mrk mid="1" mtype="seg">To run a program and then immediately continue script execution use the <bpt id="1" ctype="x-a">&lt;a href="Run.htm"></bpt>Run()<ept id="1">&lt;/a></ept> function instead.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">After running the requested program the script pauses until the program terminates.</mrk> <mrk mid="1" mtype="seg">To run a program and then immediately continue script execution use the <bpt id="1" ctype="x-a">&lt;a href="Run.htm"></bpt>Run()<ept id="1">&lt;/a></ept> function instead.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> Some programs will appear to return immediately even though they are still running; these programs spawn another process - you may be able to use the <bpt id="1" ctype="x-a">&lt;a href="ProcessWaitClose.htm"></bpt>ProcessWaitClose()<ept id="1">&lt;/a></ept> function to handle these cases.</source>
+<seg-source> <mrk mid="0" mtype="seg">Some programs will appear to return immediately even though they are still running; these programs spawn another process - you may be able to use the <bpt id="1" ctype="x-a">&lt;a href="ProcessWaitClose.htm"></bpt>ProcessWaitClose()<ept id="1">&lt;/a></ept> function to handle these cases.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Some programs will appear to return immediately even though they are still running; these programs spawn another process - you may be able to use the <bpt id="1" ctype="x-a">&lt;a href="ProcessWaitClose.htm"></bpt>ProcessWaitClose()<ept id="1">&lt;/a></ept> function to handle these cases.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Run Notepad and wait for the Notepad process to close.</source>
+<seg-source><mrk mid="0" mtype="seg">Run Notepad and wait for the Notepad process to close.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Run Notepad and wait for the Notepad process to close.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">notepad.exe</source>
+<seg-source><mrk mid="0" mtype="seg">notepad.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">notepad.exe</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Display the return code of the Notepad process.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the return code of the Notepad process.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the return code of the Notepad process.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">The return code from Notepad was:</source>
+<seg-source><mrk mid="0" mtype="seg">The return code from Notepad was:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The return code from Notepad was:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

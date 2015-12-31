@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GDIPlus_DrawImagePoints.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Draws an image at a specified location</source>
+<seg-source><mrk mid="0" mtype="seg">Draws an image at a specified location</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draws an image at a specified location</mrk></target>
+<note>Function _GDIPlus_DrawImagePoints</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to a Graphics object</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to a Graphics object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to a Graphics object</mrk></target>
+<note>$hGraphic</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Handle to an Image object</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to an Image object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to an Image object</mrk></target>
+<note>$hImage</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The X coordinate of the upper left corner of the source image</source>
+<seg-source><mrk mid="0" mtype="seg">The X coordinate of the upper left corner of the source image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The X coordinate of the upper left corner of the source image</mrk></target>
+<note>$nULX</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The Y coordinate of the upper left corner of the source image</source>
+<seg-source><mrk mid="0" mtype="seg">The Y coordinate of the upper left corner of the source image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Y coordinate of the upper left corner of the source image</mrk></target>
+<note>$nULY</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">The X coordinate of the upper right corner of the source image</source>
+<seg-source><mrk mid="0" mtype="seg">The X coordinate of the upper right corner of the source image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The X coordinate of the upper right corner of the source image</mrk></target>
+<note>$nURX</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">The Y coordinate of the upper right corner of the source image</source>
+<seg-source><mrk mid="0" mtype="seg">The Y coordinate of the upper right corner of the source image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Y coordinate of the upper right corner of the source image</mrk></target>
+<note>$nURY</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">The X coordinate of the lower left corner of the source image</source>
+<seg-source><mrk mid="0" mtype="seg">The X coordinate of the lower left corner of the source image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The X coordinate of the lower left corner of the source image</mrk></target>
+<note>$nLLX</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">The Y coordinate of the lower left corner of the source image</source>
+<seg-source><mrk mid="0" mtype="seg">The Y coordinate of the lower left corner of the source image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Y coordinate of the lower left corner of the source image</mrk></target>
+<note>$nLLY</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the number of points (x,y)'s in the structure.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the number of points (x,y)'s in the structure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the number of points (x,y)'s in the structure.</mrk></target>
+<note>$iCount</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code (GDIP_ERR*).</source>
+<seg-source><mrk mid="0" mtype="seg">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code (GDIP_ERR*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code (GDIP_ERR*).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">The value of the count parameter must equal 3 to specify the coordinates of the upper-left corner, upper-right corner, and lower-left corner of the parallelogram.</source>
+<seg-source><mrk mid="0" mtype="seg">The value of the count parameter must equal 3 to specify the coordinates of the upper-left corner, upper-right corner, and lower-left corner of the parallelogram.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The value of the count parameter must equal 3 to specify the coordinates of the upper-left corner, upper-right corner, and lower-left corner of the parallelogram.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> The coordinate of the lower-right corner, the width, and the height of the image, are calculated using the three given coordinates.</source>
+<seg-source> <mrk mid="0" mtype="seg">The coordinate of the lower-right corner, the width, and the height of the image, are calculated using the three given coordinates.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The coordinate of the lower-right corner, the width, and the height of the image, are calculated using the three given coordinates.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> The image is scaled to fit the parallelogram.</source>
+<seg-source> <mrk mid="0" mtype="seg">The image is scaled to fit the parallelogram.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The image is scaled to fit the parallelogram.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipDrawImagePoints"></bpt>GdipDrawImagePoints<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipDrawImagePoints"></bpt>GdipDrawImagePoints<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipDrawImagePoints"></bpt>GdipDrawImagePoints<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Initialize GDI+ library</source>
+<seg-source><mrk mid="0" mtype="seg">Initialize GDI+ library</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Initialize GDI+ library</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Capture full screen</source>
+<seg-source><mrk mid="0" mtype="seg">Capture full screen</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Capture full screen</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Capture screen region</source>
+<seg-source><mrk mid="0" mtype="seg">Capture screen region</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Capture screen region</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Draw one image in another</source>
+<seg-source><mrk mid="0" mtype="seg">Draw one image in another</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draw one image in another</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Draw a frame around the inserted image</source>
+<seg-source><mrk mid="0" mtype="seg">Draw a frame around the inserted image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draw a frame around the inserted image</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Save resultant image</source>
+<seg-source><mrk mid="0" mtype="seg">Save resultant image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Save resultant image</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">\GDIPlus_Image.jpg</source>
+<seg-source><mrk mid="0" mtype="seg">\GDIPlus_Image.jpg</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\GDIPlus_Image.jpg</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Clean up resources</source>
+<seg-source><mrk mid="0" mtype="seg">Clean up resources</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Clean up resources</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Shut down GDI+ library</source>
+<seg-source><mrk mid="0" mtype="seg">Shut down GDI+ library</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shut down GDI+ library</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">\GDIPlus_Image.jpg</source>
+<seg-source><mrk mid="0" mtype="seg">\GDIPlus_Image.jpg</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\GDIPlus_Image.jpg</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_ShowCaret.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Makes the caret visible on the screen at the caret's current position</source>
+<seg-source><mrk mid="0" mtype="seg">Makes the caret visible on the screen at the caret's current position</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Makes the caret visible on the screen at the caret's current position</mrk></target>
+<note>Function _WinAPI_ShowCaret</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> Handle to the window that owns the caret. If this parameter is 0, <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ShowCaret.htm"></bpt>_WinAPI_ShowCaret()<ept id="1">&lt;/a></ept> searches the</source>
+<seg-source> <mrk mid="0" mtype="seg">Handle to the window that owns the caret.</mrk> <mrk mid="1" mtype="seg">If this parameter is 0, <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ShowCaret.htm"></bpt>_WinAPI_ShowCaret()<ept id="1">&lt;/a></ept> searches the</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Handle to the window that owns the caret.</mrk> <mrk mid="1" mtype="seg">If this parameter is 0, <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ShowCaret.htm"></bpt>_WinAPI_ShowCaret()<ept id="1">&lt;/a></ept> searches the</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> current task for the window that owns the caret. </source>
+<seg-source> <mrk mid="0" mtype="seg">current task for the window that owns the caret.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">current task for the window that owns the caret.</mrk> </target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">False</source>
+<seg-source><mrk mid="0" mtype="seg">False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ShowCaret.htm"></bpt>_WinAPI_ShowCaret()<ept id="1">&lt;/a></ept> shows the caret only if the specified window owns the caret, the caret has a shape,</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ShowCaret.htm"></bpt>_WinAPI_ShowCaret()<ept id="1">&lt;/a></ept> shows the caret only if the specified window owns the caret, the caret has a shape,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ShowCaret.htm"></bpt>_WinAPI_ShowCaret()<ept id="1">&lt;/a></ept> shows the caret only if the specified window owns the caret, the caret has a shape,</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> and the caret has not been hidden two or more times in a row. If one or more of these conditions is not met,</source>
+<seg-source> <mrk mid="0" mtype="seg">and the caret has not been hidden two or more times in a row.</mrk> <mrk mid="1" mtype="seg">If one or more of these conditions is not met,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">and the caret has not been hidden two or more times in a row.</mrk> <mrk mid="1" mtype="seg">If one or more of these conditions is not met,</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ShowCaret.htm"></bpt>_WinAPI_ShowCaret()<ept id="1">&lt;/a></ept> does nothing and returns 0.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ShowCaret.htm"></bpt>_WinAPI_ShowCaret()<ept id="1">&lt;/a></ept> does nothing and returns 0.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ShowCaret.htm"></bpt>_WinAPI_ShowCaret()<ept id="1">&lt;/a></ept> does nothing and returns 0.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> Hiding is cumulative. If your application calls <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_HideCaret.htm"></bpt>_WinAPI_HideCaret()<ept id="1">&lt;/a></ept> five times in a row, it must also call</source>
+<seg-source> <mrk mid="0" mtype="seg">Hiding is cumulative.</mrk> <mrk mid="1" mtype="seg">If your application calls <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_HideCaret.htm"></bpt>_WinAPI_HideCaret()<ept id="1">&lt;/a></ept> five times in a row, it must also call</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Hiding is cumulative.</mrk> <mrk mid="1" mtype="seg">If your application calls <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_HideCaret.htm"></bpt>_WinAPI_HideCaret()<ept id="1">&lt;/a></ept> five times in a row, it must also call</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ShowCaret.htm"></bpt>_WinAPI_ShowCaret()<ept id="1">&lt;/a></ept> five times before the caret reappears.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ShowCaret.htm"></bpt>_WinAPI_ShowCaret()<ept id="1">&lt;/a></ept> five times before the caret reappears.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ShowCaret.htm"></bpt>_WinAPI_ShowCaret()<ept id="1">&lt;/a></ept> five times before the caret reappears.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ShowCaret);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ShowCaret<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ShowCaret);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ShowCaret<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ShowCaret);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ShowCaret<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">OnAutoItExit</source>
+<seg-source><mrk mid="0" mtype="seg">OnAutoItExit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OnAutoItExit</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Exit</source>
+<seg-source><mrk mid="0" mtype="seg">Exit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exit</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">WM_COMMAND</source>
+<seg-source><mrk mid="0" mtype="seg">WM_COMMAND</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_COMMAND</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

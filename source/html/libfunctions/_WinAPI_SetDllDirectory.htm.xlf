@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_SetDllDirectory.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Adds a directory to the search path used to locate DLLs for the application</source>
+<seg-source><mrk mid="0" mtype="seg">Adds a directory to the search path used to locate DLLs for the application</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Adds a directory to the search path used to locate DLLs for the application</mrk></target>
+<note>Function _WinAPI_SetDllDirectory</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The directory to be added to the search path. If this parameter is an empty string (""), the call</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The directory to be added to the search path.</mrk> <mrk mid="2" mtype="seg">If this parameter is an empty string (""), the call</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The directory to be added to the search path.</mrk> <mrk mid="2" mtype="seg">If this parameter is an empty string (""), the call</mrk></target>
+<note>$sDirPath</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> removes the current directory from the default DLL search order. If this parameter is not specified,</source>
+<seg-source> <mrk mid="0" mtype="seg">removes the current directory from the default DLL search order.</mrk> <mrk mid="1" mtype="seg">If this parameter is not specified,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">removes the current directory from the default DLL search order.</mrk> <mrk mid="1" mtype="seg">If this parameter is not specified,</mrk></target>
+<note>$sDirPath</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> the function restores the default search order (Default).</source>
+<seg-source> <mrk mid="0" mtype="seg">the function restores the default search order (Default).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">the function restores the default search order (Default).</mrk></target>
+<note>$sDirPath</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">This function affects all subsequent calls to the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_LoadLibrary.htm"></bpt>_WinAPI_LoadLibrary()<ept id="1">&lt;/a></ept> and <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_LoadLibraryEx.htm"></bpt>_WinAPI_LoadLibraryEx()<ept id="2">&lt;/a></ept> functions.</source>
+<seg-source><mrk mid="0" mtype="seg">This function affects all subsequent calls to the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_LoadLibrary.htm"></bpt>_WinAPI_LoadLibrary()<ept id="1">&lt;/a></ept> and <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_LoadLibraryEx.htm"></bpt>_WinAPI_LoadLibraryEx()<ept id="2">&lt;/a></ept> functions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function affects all subsequent calls to the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_LoadLibrary.htm"></bpt>_WinAPI_LoadLibrary()<ept id="1">&lt;/a></ept> and <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_LoadLibraryEx.htm"></bpt>_WinAPI_LoadLibraryEx()<ept id="2">&lt;/a></ept> functions.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> It also effectively disables safe DLL search mode while the specified directory is in the search path.</source>
+<seg-source> <mrk mid="0" mtype="seg">It also effectively disables safe DLL search mode while the specified directory is in the search path.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">It also effectively disables safe DLL search mode while the specified directory is in the search path.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> After calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetDllDirectory.htm"></bpt>_WinAPI_SetDllDirectory()<ept id="1">&lt;/a></ept>, the DLL search path is:</source>
+<seg-source> <mrk mid="0" mtype="seg">After calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetDllDirectory.htm"></bpt>_WinAPI_SetDllDirectory()<ept id="1">&lt;/a></ept>, the DLL search path is:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">After calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetDllDirectory.htm"></bpt>_WinAPI_SetDllDirectory()<ept id="1">&lt;/a></ept>, the DLL search path is:</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> 1. The directory from which the application was loaded.</source>
+<seg-source> <mrk mid="0" mtype="seg">1.</mrk> <mrk mid="1" mtype="seg">The directory from which the application was loaded.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1.</mrk> <mrk mid="1" mtype="seg">The directory from which the application was loaded.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> 2. The directory specified by the $sFilePath parameter.</source>
+<seg-source> <mrk mid="0" mtype="seg">2.</mrk> <mrk mid="1" mtype="seg">The directory specified by the $sFilePath parameter.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2.</mrk> <mrk mid="1" mtype="seg">The directory specified by the $sFilePath parameter.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> 3. The system directory.</source>
+<seg-source> <mrk mid="0" mtype="seg">3.</mrk> <mrk mid="1" mtype="seg">The system directory.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3.</mrk> <mrk mid="1" mtype="seg">The system directory.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> 4. The 16-bit system directory.</source>
+<seg-source> <mrk mid="0" mtype="seg">4.</mrk> <mrk mid="1" mtype="seg">The 16-bit system directory.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4.</mrk> <mrk mid="1" mtype="seg">The 16-bit system directory.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> 5. The Windows directory.</source>
+<seg-source> <mrk mid="0" mtype="seg">5.</mrk> <mrk mid="1" mtype="seg">The Windows directory.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">5.</mrk> <mrk mid="1" mtype="seg">The Windows directory.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> 6. The directories that are listed in the PATH environment variable.</source>
+<seg-source> <mrk mid="0" mtype="seg">6.</mrk> <mrk mid="1" mtype="seg">The directories that are listed in the PATH environment variable.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">6.</mrk> <mrk mid="1" mtype="seg">The directories that are listed in the PATH environment variable.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetDllDirectory);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetDllDirectory<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetDllDirectory);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetDllDirectory<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetDllDirectory);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetDllDirectory<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">\Extras</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Resources.dll</source>
+<seg-source><mrk mid="0" mtype="seg">Resources.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Resources.dll</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Path:</source>
+<seg-source><mrk mid="0" mtype="seg">Path:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Path:</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Module:</source>
+<seg-source><mrk mid="0" mtype="seg">Module:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Module:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

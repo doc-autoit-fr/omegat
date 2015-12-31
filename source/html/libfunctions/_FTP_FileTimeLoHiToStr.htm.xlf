@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_FTP_FileTimeLoHiToStr.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Converts filetime Loword and Hiword to a string</source>
+<seg-source><mrk mid="0" mtype="seg">Converts filetime Loword and Hiword to a string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Converts filetime Loword and Hiword to a string</mrk></target>
+<note>Function _FTP_FileTimeLoHiToStr</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">FileTime Low</source>
+<seg-source><mrk mid="0" mtype="seg">FileTime Low</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FileTime Low</mrk></target>
+<note>$iLoDWORD</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">File Time Hi</source>
+<seg-source><mrk mid="0" mtype="seg">File Time Hi</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File Time Hi</mrk></target>
+<note>$iHiDWORD</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk></target>
+<note>$bFmt</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     0 returns mm/dd/yyyy hh:mm:ss (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 returns mm/dd/yyyy hh:mm:ss (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 returns mm/dd/yyyy hh:mm:ss (Default)</mrk></target>
+<note>$bFmt</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     1 returns yyyy/mm/dd hh:mm:ss</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 returns yyyy/mm/dd hh:mm:ss</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 returns yyyy/mm/dd hh:mm:ss</mrk></target>
+<note>$bFmt</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">a datetime according to $bFmt.</source>
+<seg-source><mrk mid="0" mtype="seg">a datetime according to $bFmt.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a datetime according to $bFmt.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">an empty string.</source>
+<seg-source><mrk mid="0" mtype="seg">an empty string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an empty string.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

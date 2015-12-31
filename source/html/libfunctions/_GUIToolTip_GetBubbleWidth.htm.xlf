@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUIToolTip_GetBubbleWidth.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Returns the width of a ToolTip control</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the width of a ToolTip control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the width of a ToolTip control</mrk></target>
+<note>Function _GUIToolTip_GetBubbleWidth</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> Handle to the ToolTip control (returned by <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_Create.htm"></bpt>_GUIToolTip_Create.<ept id="1">&lt;/a></ept>) </source>
+<seg-source> <mrk mid="0" mtype="seg">Handle to the ToolTip control (returned by <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_Create.htm"></bpt>_GUIToolTip_Create.<ept id="1">&lt;/a></ept>)</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Handle to the ToolTip control (returned by <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_Create.htm"></bpt>_GUIToolTip_Create.<ept id="1">&lt;/a></ept>)</mrk> </target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Handle to the window that contains the tool</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the window that contains the tool</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the window that contains the tool</mrk></target>
+<note>$hTool</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Handle of the control that the tool is associated with, or the ID of the tool</source>
+<seg-source><mrk mid="0" mtype="seg">Handle of the control that the tool is associated with, or the ID of the tool</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle of the control that the tool is associated with, or the ID of the tool</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Flags that control the ToolTip display</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Flags that control the ToolTip display</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Flags that control the ToolTip display</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $TTF_IDISHWND = Indicates that $iID is the window handle to the tool instead of the ID</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TTF_IDISHWND = Indicates that $iID is the window handle to the tool instead of the ID</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TTF_IDISHWND = Indicates that $iID is the window handle to the tool instead of the ID</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $TTF_CENTERTIP = Centers the window below the tool specified by $iID</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TTF_CENTERTIP = Centers the window below the tool specified by $iID</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TTF_CENTERTIP = Centers the window below the tool specified by $iID</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $TTF_RTLREADING = Indicates that text will be displayed in the opposite direction</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TTF_RTLREADING = Indicates that text will be displayed in the opposite direction</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TTF_RTLREADING = Indicates that text will be displayed in the opposite direction</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $TTF_SUBCLASS = Indicates that the control should subclass the tool's window to intercept messages</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TTF_SUBCLASS = Indicates that the control should subclass the tool's window to intercept messages</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TTF_SUBCLASS = Indicates that the control should subclass the tool's window to intercept messages</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $TTF_TRACK = Positions the control next to the tool to which it corresponds</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TTF_TRACK = Positions the control next to the tool to which it corresponds</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TTF_TRACK = Positions the control next to the tool to which it corresponds</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $TTF_ABSOLUTE = Positions the window at the same coordinates provided by TTM_TRACKPOSITION</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TTF_ABSOLUTE = Positions the window at the same coordinates provided by TTM_TRACKPOSITION</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TTF_ABSOLUTE = Positions the window at the same coordinates provided by TTM_TRACKPOSITION</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $TTF_TRANSPARENT = Causes the control to forward mouse messages to the parent window</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TTF_TRANSPARENT = Causes the control to forward mouse messages to the parent window</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TTF_TRANSPARENT = Causes the control to forward mouse messages to the parent window</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $TTF_PARSELINKS = Indicates that links in the control text should be parsed</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TTF_PARSELINKS = Indicates that links in the control text should be parsed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TTF_PARSELINKS = Indicates that links in the control text should be parsed</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Returns the width of a ToolTip.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the width of a ToolTip.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the width of a ToolTip.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">This function works correctly only on a tracking tooltip, if the tracking hasn't been activated for the tooltip you will get incorrect values returned.</source>
+<seg-source><mrk mid="0" mtype="seg">This function works correctly only on a tracking tooltip, if the tracking hasn't been activated for the tooltip you will get incorrect values returned.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function works correctly only on a tracking tooltip, if the tracking hasn't been activated for the tooltip you will get incorrect values returned.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">.exe</source>
+<seg-source><mrk mid="0" mtype="seg">.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.exe</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">This is a button</source>
+<seg-source><mrk mid="0" mtype="seg">This is a button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a button</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">create a tooltip control using default settings</source>
+<seg-source><mrk mid="0" mtype="seg">create a tooltip control using default settings</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">create a tooltip control using default settings</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">add a tool to the tooltip control</source>
+<seg-source><mrk mid="0" mtype="seg">add a tool to the tooltip control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">add a tool to the tooltip control</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">This is a ToolTip</source>
+<seg-source><mrk mid="0" mtype="seg">This is a ToolTip</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a ToolTip</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Display the height of the tooltip bubble in pixels</source>
+<seg-source><mrk mid="0" mtype="seg">Display the height of the tooltip bubble in pixels</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the height of the tooltip bubble in pixels</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Info</source>
+<seg-source><mrk mid="0" mtype="seg">Info</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Info</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Bubble Width =</source>
+<seg-source><mrk mid="0" mtype="seg">Bubble Width =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bubble Width =</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Pixels</source>
+<seg-source><mrk mid="0" mtype="seg">Pixels</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pixels</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Destroy the tooltip control</source>
+<seg-source><mrk mid="0" mtype="seg">Destroy the tooltip control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Destroy the tooltip control</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

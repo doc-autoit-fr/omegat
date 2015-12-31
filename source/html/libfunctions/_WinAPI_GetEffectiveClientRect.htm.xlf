@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_GetEffectiveClientRect.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Calculates the dimensions of a rectangle in the client area that contains all the specified controls</source>
+<seg-source><mrk mid="0" mtype="seg">Calculates the dimensions of a rectangle in the client area that contains all the specified controls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Calculates the dimensions of a rectangle in the client area that contains all the specified controls</mrk></target>
+<note>Function _WinAPI_GetEffectiveClientRect</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">A handle to the window that has the client area to check.</source>
+<seg-source><mrk mid="0" mtype="seg">A handle to the window that has the client area to check.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A handle to the window that has the client area to check.</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The array containing the handles or identifiers of the controls that should be included in the calculation of the client area. Also, it can be a single handle or control identifier.</source>
+<seg-source><mrk mid="0" mtype="seg">The array containing the handles or identifiers of the controls that should be included in the calculation of the client area.</mrk> <mrk mid="1" mtype="seg">Also, it can be a single handle or control identifier.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The array containing the handles or identifiers of the controls that should be included in the calculation of the client area.</mrk> <mrk mid="1" mtype="seg">Also, it can be a single handle or control identifier.</mrk></target>
+<note>$aCtrl</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The index of array element that contains the first control.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array element that contains the first control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array element that contains the first control.</mrk></target>
+<note>$iStart</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The index of array element that contains the last control.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array element that contains the last control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array element that contains the last control.</mrk></target>
+<note>$iEnd</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">$tagRECT structure that contains the rectangle with effective client area.</source>
+<seg-source><mrk mid="0" mtype="seg">$tagRECT structure that contains the rectangle with effective client area.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$tagRECT structure that contains the rectangle with effective client area.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">If the control in the array is visible, or will be visible when its parent becomes visible, its rectangle is subtracted from the effective client rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg">If the control in the array is visible, or will be visible when its parent becomes visible, its rectangle is subtracted from the effective client rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the control in the array is visible, or will be visible when its parent becomes visible, its rectangle is subtracted from the effective client rectangle.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> If all the specified controls is missing, the function returns the client area of the parent window.</source>
+<seg-source> <mrk mid="0" mtype="seg">If all the specified controls is missing, the function returns the client area of the parent window.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If all the specified controls is missing, the function returns the client area of the parent window.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetEffectiveClientRect);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetEffectiveClientRect<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetEffectiveClientRect);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetEffectiveClientRect<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetEffectiveClientRect);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetEffectiveClientRect<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">&amp;File</source>
+<seg-source><mrk mid="0" mtype="seg">&amp;File</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&amp;File</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">E&amp;xit</source>
+<seg-source><mrk mid="0" mtype="seg">E&amp;xit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">E&amp;xit</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Calculate effective client area (excluding Menu, ListView, and StatusBar controls)</source>
+<seg-source><mrk mid="0" mtype="seg">Calculate effective client area (excluding Menu, ListView, and StatusBar controls)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Calculate effective client area (excluding Menu, ListView, and StatusBar controls)</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">x</source>
+<seg-source><mrk mid="0" mtype="seg">x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">x</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Tahoma</source>
+<seg-source><mrk mid="0" mtype="seg">Tahoma</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Tahoma</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Show GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Show GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show GUI</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

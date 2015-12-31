@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="HTML Tidy for HTML5 for Windows version 5.1.14" name="generator">
+  <title>Function _WinAPI_RegisterClassEx</title>
+  <meta charset="utf-8">
+  <link href="../css/default.css" rel="stylesheet">
+</head>
+<body>
+  <h1 class="small">Function Reference</h1>
+  <hr style="height:0px">
+  <h1>_WinAPI_RegisterClassEx</h1>
+  <p class="funcdesc">Registers a window class<br></p>
+  <p class="codeheader">#include &lt;WinAPISys.au3&gt;<br>
+  _WinAPI_RegisterClassEx ( $tWNDCLASSEX )<br></p>
+  <h2>Parameters</h2>
+  <table>
+    <tr>
+      <td style="width:15%">$tWNDCLASSEX</td>
+      <td style="width:85%">$tagWNDCLASSEX structure.</td>
+    </tr>
+  </table>
+  <h2>Return Value</h2>
+  <table class="noborder">
+    <tr>
+      <td class="valign-top" style="width:10%">Success:</td>
+      <td style="width:90%">The value is a class atom that uniquely identifies the class being registered.</td>
+    </tr>
+    <tr>
+      <td class="valign-top">Failure:</td>
+      <td>
+        0, call <a href="_WinAPI_GetLastError.htm">_WinAPI_GetLastError()</a> to get extended error information.
+      </td>
+    </tr>
+  </table>
+  <h2>See Also</h2>
+  <p>Search <a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;l=EN-US&amp;k=k(RegisterClassEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;rd=true">RegisterClassEx</a> in MSDN Library.</p>
+  <h2 class="bottom">Example</h2>
+  <script type="text/javascript">
+  if ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4)) // IE (4+) only
+  function copyToClipboard(section) {
+  if (window.clipboardData && clipboardData.setData) {
+  clipboardData.setData("text", section + "\r\n");
+  alert("Copied to clipboard");
+  }
+  }
+  </script>
+  <div class="codeSnippetContainer">
+    <div class="codeSnippetContainerTabs">
+      <script type="text/javascript">
+      if (document.URL.match(/^mk:@MSITStore:/i)) {
+      document.write('<div class="codeSnippetContainerTab codeSnippetContainerTabSingle" dir="ltr">');
+      document.write('<object id=hhctrl type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11"><param name="Command" value="ShortCut"><param name="Font" value="Verdana,10pt"><param name="Text" value="Text:Open this Script"><param name="Item1" value=",Examples\\HelpFile\\_WinAPI_RegisterClassEx.au3,"><\/object>');
+      document.write('<\/div>');
+      }
+      </script>
+    </div>
+    <div class="codeSnippetContainerCodeContainer">
+      <div class="codeSnippetToolBar">
+        <div class="codeSnippetToolBarText">
+          <script type="text/javascript">
+          if ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4)) // IE (4+) only
+          document.write('<a href="#" id="copy" onclick="copyToClipboard(document.getElementById(\'copytext1\').innerText)">Copy to clipboard<\/a>');
+          </script>
+        </div>
+      </div>
+      <div class="codeSnippetContainerCode" dir="ltr" id="copytext1">
+        <pre>
+<span><a class="codeSnippetLink" href="../keywords/include.htm"><span class="S11">#include</span></a><span class="S0"> </span><span class="S7" translate="no">&lt;WinAPIRes.au3&gt;</span>
+<a class="codeSnippetLink" href="../keywords/include.htm"><span class="S11">#include</span></a><span class="S0"> </span><span class="S7" translate="no">&lt;WinAPISys.au3&gt;</span>
+<a class="codeSnippetLink" href="../keywords/include.htm"><span class="S11">#include</span></a><span class="S0"> </span><span class="S7" translate="no">&lt;WindowsConstants.au3&gt;</span>
+
+<a class="codeSnippetLink" href="../keywords/Dim.htm"><span class="S5">Local</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../keywords/Dim.htm"><span class="S5">Const</span></a><span class="S0"> </span><span class="S9">$sClass</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><span class="S7">'<span translate="yes">MyWindowClass</span>'</span>
+<a class="codeSnippetLink" href="../keywords/Dim.htm"><span class="S5">Local</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../keywords/Dim.htm"><span class="S5">Const</span></a><span class="S0"> </span><span class="S9">$sName</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><span class="S7">'<span translate="yes">Test</span> '</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><a class="codeSnippetLink" href="../functions/StringReplace.htm"><span class="S4">StringReplace</span></a><span class="S8">(</span><a class="codeSnippetLink" href="../macros.htm#@ScriptName"><span class="S6">@ScriptName</span></a><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">.au3</span>'</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">()</span>'</span><span class="S8">)</span>
+
+<a class="codeSnippetLink" href="../keywords/Dim.htm"><span class="S5">Global</span></a><span class="S0"> </span><span class="S9">$g_bExit</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../keywords/Booleans.htm"><span class="S5">False</span></a>
+
+<span class="S1">; <span translate="yes">Get module handle for the current process</span></span>
+<a class="codeSnippetLink" href="../keywords/Dim.htm"><span class="S5">Local</span></a><span class="S0"> </span><span class="S9">$hInstance</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../libfunctions/_WinAPI_GetModuleHandle.htm"><span class="S15">_WinAPI_GetModuleHandle</span></a><span class="S8">(</span><span class="S3">0</span><span class="S8">)</span>
+
+<span class="S1">; <span translate="yes">Create a class cursor</span></span>
+<a class="codeSnippetLink" href="../keywords/Dim.htm"><span class="S5">Local</span></a><span class="S0"> </span><span class="S9">$hCursor</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../libfunctions/_WinAPI_LoadCursor.htm"><span class="S15">_WinAPI_LoadCursor</span></a><span class="S8">(</span><span class="S3">0</span><span class="S8">,</span><span class="S0"> </span><span class="S3">32512</span><span class="S8">)</span><span class="S0"> </span><span class="S1">; <span translate="yes">IDC_ARROW</span></span>
+
+<span class="S1">; <span translate="yes">Create a class icons (large and small)</span></span>
+<a class="codeSnippetLink" href="../keywords/Dim.htm"><span class="S5">Local</span></a><span class="S0"> </span><span class="S9">$tIcons</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../functions/DllStructCreate.htm"><span class="S4">DllStructCreate</span></a><span class="S8">(</span><span class="S7">'<span translate="yes">ptr;ptr</span>'</span><span class="S8">)</span>
+<a class="codeSnippetLink" href="../libfunctions/_WinAPI_ExtractIconEx.htm"><span class="S15">_WinAPI_ExtractIconEx</span></a><span class="S8">(</span><a class="codeSnippetLink" href="../macros.htm#@SystemDir"><span class="S6">@SystemDir</span></a><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><span class="S7">'<span translate="yes">\shell32.dll</span>'</span><span class="S8">,</span><span class="S0"> </span><span class="S3">130</span><span class="S8">,</span><span class="S0"> </span><a class="codeSnippetLink" href="../functions/DllStructGetPtr.htm"><span class="S4">DllStructGetPtr</span></a><span class="S8">(</span><span class="S9">$tIcons</span><span class="S8">,</span><span class="S0"> </span><span class="S3">1</span><span class="S8">),</span><span class="S0"> </span><a class="codeSnippetLink" href="../functions/DllStructGetPtr.htm"><span class="S4">DllStructGetPtr</span></a><span class="S8">(</span><span class="S9">$tIcons</span><span class="S8">,</span><span class="S0"> </span><span class="S3">2</span><span class="S8">),</span><span class="S0"> </span><span class="S3">1</span><span class="S8">)</span>
+<a class="codeSnippetLink" href="../keywords/Dim.htm"><span class="S5">Local</span></a><span class="S0"> </span><span class="S9">$hIcon</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../functions/DllStructGetData.htm"><span class="S4">DllStructGetData</span></a><span class="S8">(</span><span class="S9">$tIcons</span><span class="S8">,</span><span class="S0"> </span><span class="S3">1</span><span class="S8">)</span>
+<a class="codeSnippetLink" href="../keywords/Dim.htm"><span class="S5">Local</span></a><span class="S0"> </span><span class="S9">$hIconSm</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../functions/DllStructGetData.htm"><span class="S4">DllStructGetData</span></a><span class="S8">(</span><span class="S9">$tIcons</span><span class="S8">,</span><span class="S0"> </span><span class="S3">2</span><span class="S8">)</span>
+
+<span class="S1">; <span translate="yes">Create DLL callback function (window procedure)</span></span>
+<a class="codeSnippetLink" href="../keywords/Dim.htm"><span class="S5">Local</span></a><span class="S0"> </span><span class="S9">$hProc</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../functions/DllCallbackRegister.htm"><span class="S4">DllCallbackRegister</span></a><span class="S8">(</span><span class="S7">'<span translate="yes">_WndProc</span>'</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">lresult</span>'</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">hwnd;uint;wparam;lparam</span>'</span><span class="S8">)</span>
+
+<span class="S1">; <span translate="yes">Create and fill $tagWNDCLASSEX structure</span></span>
+<a class="codeSnippetLink" href="../keywords/Dim.htm"><span class="S5">Local</span></a><span class="S0"> </span><span class="S9">$tWCEX</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../functions/DllStructCreate.htm"><span class="S4">DllStructCreate</span></a><span class="S8">(</span><a class="codeSnippetLink" href="$tagWNDCLASSEX.htm"><span class="S9">$tagWNDCLASSEX</span></a><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><span class="S7">'<span translate="yes">;wchar szClassName[</span>'</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><span class="S8">(</span><a class="codeSnippetLink" href="../functions/StringLen.htm"><span class="S4">StringLen</span></a><span class="S8">(</span><span class="S9">$sClass</span><span class="S8">)</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">+</span></a><span class="S0"> </span><span class="S3">1</span><span class="S8">)</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><span class="S7">'<span translate="yes">]</span>'</span><span class="S8">)</span>
+<a class="codeSnippetLink" href="../functions/DllStructSetData.htm"><span class="S4">DllStructSetData</span></a><span class="S8">(</span><span class="S9">$tWCEX</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">Size</span>'</span><span class="S8">,</span><span class="S0"> </span><a class="codeSnippetLink" href="../functions/DllStructGetPtr.htm"><span class="S4">DllStructGetPtr</span></a><span class="S8">(</span><span class="S9">$tWCEX</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">szClassName</span>'</span><span class="S8">)</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">-</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../functions/DllStructGetPtr.htm"><span class="S4">DllStructGetPtr</span></a><span class="S8">(</span><span class="S9">$tWCEX</span><span class="S8">))</span>
+<a class="codeSnippetLink" href="../functions/DllStructSetData.htm"><span class="S4">DllStructSetData</span></a><span class="S8">(</span><span class="S9">$tWCEX</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">Style</span>'</span><span class="S8">,</span><span class="S0"> </span><span class="S3">0</span><span class="S8">)</span>
+<a class="codeSnippetLink" href="../functions/DllStructSetData.htm"><span class="S4">DllStructSetData</span></a><span class="S8">(</span><span class="S9">$tWCEX</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">hWndProc</span>'</span><span class="S8">,</span><span class="S0"> </span><a class="codeSnippetLink" href="../functions/DllCallbackGetPtr.htm"><span class="S4">DllCallbackGetPtr</span></a><span class="S8">(</span><span class="S9">$hProc</span><span class="S8">))</span>
+<a class="codeSnippetLink" href="../functions/DllStructSetData.htm"><span class="S4">DllStructSetData</span></a><span class="S8">(</span><span class="S9">$tWCEX</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">ClsExtra</span>'</span><span class="S8">,</span><span class="S0"> </span><span class="S3">0</span><span class="S8">)</span>
+<a class="codeSnippetLink" href="../functions/DllStructSetData.htm"><span class="S4">DllStructSetData</span></a><span class="S8">(</span><span class="S9">$tWCEX</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">WndExtra</span>'</span><span class="S8">,</span><span class="S0"> </span><span class="S3">0</span><span class="S8">)</span>
+<a class="codeSnippetLink" href="../functions/DllStructSetData.htm"><span class="S4">DllStructSetData</span></a><span class="S8">(</span><span class="S9">$tWCEX</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">hInstance</span>'</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$hInstance</span><span class="S8">)</span>
+<a class="codeSnippetLink" href="../functions/DllStructSetData.htm"><span class="S4">DllStructSetData</span></a><span class="S8">(</span><span class="S9">$tWCEX</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">hIcon</span>'</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$hIcon</span><span class="S8">)</span>
+<a class="codeSnippetLink" href="../functions/DllStructSetData.htm"><span class="S4">DllStructSetData</span></a><span class="S8">(</span><span class="S9">$tWCEX</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">hCursor</span>'</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$hCursor</span><span class="S8">)</span>
+<a class="codeSnippetLink" href="../functions/DllStructSetData.htm"><span class="S4">DllStructSetData</span></a><span class="S8">(</span><span class="S9">$tWCEX</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">hBackground</span>'</span><span class="S8">,</span><span class="S0"> </span><a class="codeSnippetLink" href="../libfunctions/_WinAPI_CreateSolidBrush.htm"><span class="S15">_WinAPI_CreateSolidBrush</span></a><span class="S8">(</span><a class="codeSnippetLink" href="../libfunctions/_WinAPI_GetSysColor.htm"><span class="S15">_WinAPI_GetSysColor</span></a><span class="S8">(</span><span class="S9">$COLOR_3DFACE</span><span class="S8">)))</span>
+<a class="codeSnippetLink" href="../functions/DllStructSetData.htm"><span class="S4">DllStructSetData</span></a><span class="S8">(</span><span class="S9">$tWCEX</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">MenuName</span>'</span><span class="S8">,</span><span class="S0"> </span><span class="S3">0</span><span class="S8">)</span>
+<a class="codeSnippetLink" href="../functions/DllStructSetData.htm"><span class="S4">DllStructSetData</span></a><span class="S8">(</span><span class="S9">$tWCEX</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">ClassName</span>'</span><span class="S8">,</span><span class="S0"> </span><a class="codeSnippetLink" href="../functions/DllStructGetPtr.htm"><span class="S4">DllStructGetPtr</span></a><span class="S8">(</span><span class="S9">$tWCEX</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">szClassName</span>'</span><span class="S8">))</span>
+<a class="codeSnippetLink" href="../functions/DllStructSetData.htm"><span class="S4">DllStructSetData</span></a><span class="S8">(</span><span class="S9">$tWCEX</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">hIconSm</span>'</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$hIconSm</span><span class="S8">)</span>
+<a class="codeSnippetLink" href="../functions/DllStructSetData.htm"><span class="S4">DllStructSetData</span></a><span class="S8">(</span><span class="S9">$tWCEX</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">szClassName</span>'</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$sClass</span><span class="S8">)</span>
+
+<span class="S1">; <span translate="yes">Register a window class</span></span>
+<a class="codeSnippetLink" href="../libfunctions/_WinAPI_RegisterClassEx.htm"><span class="S15">_WinAPI_RegisterClassEx</span></a><span class="S8">(</span><span class="S9">$tWCEX</span><span class="S8">)</span>
+
+<span class="S1">; <span translate="yes">Create a window</span></span>
+<a class="codeSnippetLink" href="../libfunctions/_WinAPI_CreateWindowEx.htm"><span class="S15">_WinAPI_CreateWindowEx</span></a><span class="S8">(</span><span class="S3">0</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$sClass</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$sName</span><span class="S8">,</span><span class="S0"> </span><a class="codeSnippetLink" href="../functions/BitOR.htm"><span class="S4">BitOR</span></a><span class="S8">(</span><span class="S9">$WS_CAPTION</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$WS_POPUPWINDOW</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$WS_VISIBLE</span><span class="S8">),</span><span class="S0"> </span><span class="S8">(</span><a class="codeSnippetLink" href="../macros.htm#@DesktopWidth"><span class="S6">@DesktopWidth</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">-</span></a><span class="S0"> </span><span class="S3">400</span><span class="S8">)</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">/</span></a><span class="S0"> </span><span class="S3">2</span><span class="S8">,</span><span class="S0"> </span><span class="S8">(</span><a class="codeSnippetLink" href="../macros.htm#@DesktopHeight"><span class="S6">@DesktopHeight</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">-</span></a><span class="S0"> </span><span class="S3">400</span><span class="S8">)</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">/</span></a><span class="S0"> </span><span class="S3">2</span><span class="S8">,</span><span class="S0"> </span><span class="S3">400</span><span class="S8">,</span><span class="S0"> </span><span class="S3">400</span><span class="S8">,</span><span class="S0"> </span><span class="S3">0</span><span class="S8">)</span>
+
+<a class="codeSnippetLink" href="../keywords/While.htm"><span class="S5">While</span></a><span class="S0"> </span><span class="S3">1</span>
+<span class="S0">    </span><a class="codeSnippetLink" href="../functions/Sleep.htm"><span class="S4">Sleep</span></a><span class="S8">(</span><span class="S3">100</span><span class="S8">)</span>
+<span class="S0">    </span><a class="codeSnippetLink" href="../keywords/If.htm"><span class="S5">If</span></a><span class="S0"> </span><span class="S9">$g_bExit</span><span class="S0"> </span><a class="codeSnippetLink" href="../keywords/IfElseEndIf.htm"><span class="S5">Then</span></a>
+<span class="S0">        </span><a class="codeSnippetLink" href="../keywords/ExitLoop.htm"><span class="S5">ExitLoop</span></a>
+<span class="S0">    </span><a class="codeSnippetLink" href="../keywords/IfElseEndIf.htm"><span class="S5">EndIf</span></a>
+<a class="codeSnippetLink" href="../keywords/While.htm"><span class="S5">WEnd</span></a>
+
+<span class="S1">; <span translate="yes">Unregister window class and release unnecessary resources</span></span>
+<a class="codeSnippetLink" href="../libfunctions/_WinAPI_UnregisterClass.htm"><span class="S15">_WinAPI_UnregisterClass</span></a><span class="S8">(</span><span class="S9">$sClass</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$hInstance</span><span class="S8">)</span>
+<a class="codeSnippetLink" href="../libfunctions/_WinAPI_DestroyCursor.htm"><span class="S15">_WinAPI_DestroyCursor</span></a><span class="S8">(</span><span class="S9">$hCursor</span><span class="S8">)</span>
+<a class="codeSnippetLink" href="../libfunctions/_WinAPI_DestroyIcon.htm"><span class="S15">_WinAPI_DestroyIcon</span></a><span class="S8">(</span><span class="S9">$hIcon</span><span class="S8">)</span>
+<a class="codeSnippetLink" href="../libfunctions/_WinAPI_DestroyIcon.htm"><span class="S15">_WinAPI_DestroyIcon</span></a><span class="S8">(</span><span class="S9">$hIconSm</span><span class="S8">)</span>
+
+<a class="codeSnippetLink" href="../functions/DllCallbackFree.htm"><span class="S4">DllCallbackFree</span></a><span class="S8">(</span><span class="S9">$hProc</span><span class="S8">)</span>
+
+<span class="S1">; <span translate="yes">Func _WinAPI_DefWindowProcW($hWnd, $iMsg, $wParam, $lParam)</span></span>
+<span class="S1">; <span translate="yes">Local $aRet = DllCall('user32.dll', 'lresult', 'DefWindowProcW', 'hwnd', $hWnd, 'uint', $iMsg, 'wparam', $wParam, 'lparam', $lParam)</span></span>
+
+<span class="S1">; <span translate="yes">If @error Then</span></span>
+<span class="S1">; <span translate="yes">Return SetError(1, 0, 0)</span></span>
+<span class="S1">; <span translate="yes">EndIf</span></span>
+<span class="S1">; <span translate="yes">Return $aRet[0]</span></span>
+<span class="S1">; <span translate="yes">EndFunc   ;==&gt;_WinAPI_DefWindowProcW</span></span>
+
+<a class="codeSnippetLink" href="../keywords/Func.htm"><span class="S5">Func</span></a><span class="S0"> _WndProc</span><span class="S8">(</span><span class="S9">$hWnd</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$iMsg</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$wParam</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$lParam</span><span class="S8">)</span>
+<span class="S0">    </span><a class="codeSnippetLink" href="../keywords/Switch.htm"><span class="S5">Switch</span></a><span class="S0"> </span><span class="S9">$iMsg</span>
+<span class="S0">        </span><a class="codeSnippetLink" href="../keywords/Switch.htm"><span class="S5">Case</span></a><span class="S0"> </span><span class="S9">$WM_CLOSE</span>
+<span class="S0">            </span><span class="S9">$g_bExit</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../keywords/Booleans.htm"><span class="S5">True</span></a>
+<span class="S0">    </span><a class="codeSnippetLink" href="../keywords/Switch.htm"><span class="S5">EndSwitch</span></a>
+<span class="S0">    </span><a class="codeSnippetLink" href="../keywords/Func.htm"><span class="S5">Return</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../libfunctions/_WinAPI_DefWindowProcW.htm"><span class="S15">_WinAPI_DefWindowProcW</span></a><span class="S8">(</span><span class="S9">$hWnd</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$iMsg</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$wParam</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$lParam</span><span class="S8">)</span>
+<a class="codeSnippetLink" href="../keywords/Func.htm"><span class="S5">EndFunc</span></a><span class="S0">   </span><span class="S1" translate="no">;==&gt;_WndProc</span>
+</span>
+</pre>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

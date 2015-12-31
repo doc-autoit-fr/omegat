@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_ShellSetKnownFolderPath.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Redirects a known folder to a new location</source>
+<seg-source><mrk mid="0" mtype="seg">Redirects a known folder to a new location</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Redirects a known folder to a new location</mrk></target>
+<note>Function _WinAPI_ShellSetKnownFolderPath</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The GUID ($FOLDERID_*) that identifies the known folder.</source>
+<seg-source><mrk mid="0" mtype="seg">The GUID ($FOLDERID_*) that identifies the known folder.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The GUID ($FOLDERID_*) that identifies the known folder.</mrk></target>
+<note>$sGUID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The folder's new path.</source>
+<seg-source><mrk mid="0" mtype="seg">The folder's new path.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The folder's new path.</mrk></target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> This parameter can be 0 or the following value.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">This parameter can be 0 or the following value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">This parameter can be 0 or the following value.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> $KF_FLAG_DONT_UNEXPAND</source>
+<seg-source> <mrk mid="0" mtype="seg">$KF_FLAG_DONT_UNEXPAND</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$KF_FLAG_DONT_UNEXPAND</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The access token that represents a particular user. If this parameter is 0, the function requests</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The access token that represents a particular user.</mrk> <mrk mid="2" mtype="seg">If this parameter is 0, the function requests</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The access token that represents a particular user.</mrk> <mrk mid="2" mtype="seg">If this parameter is 0, the function requests</mrk></target>
+<note>$hToken</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> the known folder for the current user. Assigning the $hToken parameter a value of (-1) indicates the</source>
+<seg-source> <mrk mid="0" mtype="seg">the known folder for the current user.</mrk> <mrk mid="1" mtype="seg">Assigning the $hToken parameter a value of (-1) indicates the</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">the known folder for the current user.</mrk> <mrk mid="1" mtype="seg">Assigning the $hToken parameter a value of (-1) indicates the</mrk></target>
+<note>$hToken</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> Default User. Note that access to the Default User folders requires administrator privileges.</source>
+<seg-source> <mrk mid="0" mtype="seg">Default User.</mrk> <mrk mid="1" mtype="seg">Note that access to the Default User folders requires administrator privileges.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Default User.</mrk> <mrk mid="1" mtype="seg">Note that access to the Default User folders requires administrator privileges.</mrk></target>
+<note>$hToken</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">To call this function on public known folders, the caller must have Administrator privileges. For per-user known</source>
+<seg-source><mrk mid="0" mtype="seg">To call this function on public known folders, the caller must have Administrator privileges.</mrk> <mrk mid="1" mtype="seg">For per-user known</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To call this function on public known folders, the caller must have Administrator privileges.</mrk> <mrk mid="1" mtype="seg">For per-user known</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> folders the caller only requires User privileges.</source>
+<seg-source> <mrk mid="0" mtype="seg">folders the caller only requires User privileges.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">folders the caller only requires User privileges.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> To call this function on a folder of type $KF_CATEGORY_COMMON, the calling application must be running with</source>
+<seg-source> <mrk mid="0" mtype="seg">To call this function on a folder of type $KF_CATEGORY_COMMON, the calling application must be running with</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To call this function on a folder of type $KF_CATEGORY_COMMON, the calling application must be running with</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> elevated privileges.</source>
+<seg-source> <mrk mid="0" mtype="seg">elevated privileges.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">elevated privileges.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> This function cannot be called on folders of type $KF_CATEGORY_FIXED and $KF_CATEGORY_VIRTUAL.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function cannot be called on folders of type $KF_CATEGORY_FIXED and $KF_CATEGORY_VIRTUAL.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function cannot be called on folders of type $KF_CATEGORY_FIXED and $KF_CATEGORY_VIRTUAL.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHSetKnownFolderPath);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHSetKnownFolderPath<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHSetKnownFolderPath);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHSetKnownFolderPath<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHSetKnownFolderPath);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHSetKnownFolderPath<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUICtrlListView_SetColumnOrderArray.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the left-to-right order of columns in the control</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the left-to-right order of columns in the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the left-to-right order of columns in the control</mrk></target>
+<note>Function _GUICtrlListView_SetColumnOrderArray</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Control ID/Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Array of integers that holds the index values of the columns in the control.</source>
+<seg-source><mrk mid="0" mtype="seg">Array of integers that holds the index values of the columns in the control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Array of integers that holds the index values of the columns in the control.</mrk></target>
+<note>$aOrder</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> The array must be formatted as follows:</source>
+<seg-source> <mrk mid="0" mtype="seg">The array must be formatted as follows:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The array must be formatted as follows:</mrk></target>
+<note>$aOrder</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     [0] - Number of items in array</source>
+<seg-source> <mrk mid="0" mtype="seg">    [0] - Number of items in array</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [0] - Number of items in array</mrk></target>
+<note>$aOrder</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     [1] - First column index</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1] - First column index</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1] - First column index</mrk></target>
+<note>$aOrder</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     [2] - Second column index</source>
+<seg-source> <mrk mid="0" mtype="seg">    [2] - Second column index</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [2] - Second column index</mrk></target>
+<note>$aOrder</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     [n] - Last column index</source>
+<seg-source> <mrk mid="0" mtype="seg">    [n] - Last column index</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [n] - Last column index</mrk></target>
+<note>$aOrder</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">False.</source>
+<seg-source><mrk mid="0" mtype="seg">False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">ListView Set Column Order Array</source>
+<seg-source><mrk mid="0" mtype="seg">ListView Set Column Order Array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ListView Set Column Order Array</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Column 1|Column 2|Column 3|Column 4</source>
+<seg-source><mrk mid="0" mtype="seg">Column 1|Column 2|Column 3|Column 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column 1|Column 2|Column 3|Column 4</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Set column order</source>
+<seg-source><mrk mid="0" mtype="seg">Set column order</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set column order</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Information</source>
+<seg-source><mrk mid="0" mtype="seg">Information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Information</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Changing column order</source>
+<seg-source><mrk mid="0" mtype="seg">Changing column order</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Changing column order</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Show column order</source>
+<seg-source><mrk mid="0" mtype="seg">Show column order</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show column order</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Information</source>
+<seg-source><mrk mid="0" mtype="seg">Information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Information</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Column order: [%d, %d, %d, %d]</source>
+<seg-source><mrk mid="0" mtype="seg">Column order:</mrk> <mrk mid="1" mtype="seg">[%d, %d, %d, %d]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column order:</mrk> <mrk mid="1" mtype="seg">[%d, %d, %d, %d]</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

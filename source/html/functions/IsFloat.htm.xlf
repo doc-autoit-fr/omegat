@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/IsFloat.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Checks if the value of a variable or expression has a fractional component.</source>
+<seg-source><mrk mid="0" mtype="seg">Checks if the value of a variable or expression has a fractional component.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Checks if the value of a variable or expression has a fractional component.</mrk></target>
+<note>Function IsFloat</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The variable or expression to check.</source>
+<seg-source><mrk mid="0" mtype="seg">The variable or expression to check.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The variable or expression to check.</mrk></target>
+<note>variable</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">1 - Fractional component</source>
+<seg-source><mrk mid="0" mtype="seg">1 - Fractional component</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - Fractional component</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">0 - No fractional component</source>
+<seg-source><mrk mid="0" mtype="seg">0 - No fractional component</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 - No fractional component</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">The function will return 0 if the value is a float with no fractional component (e.g. 1.000).</source>
+<seg-source><mrk mid="0" mtype="seg">The function will return 0 if the value is a float with no fractional component (e.g.</mrk> <mrk mid="1" mtype="seg">1.000).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The function will return 0 if the value is a float with no fractional component (e.g.</mrk> <mrk mid="1" mtype="seg">1.000).</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> See <bpt id="1" ctype="x-a">&lt;a href="../intro/lang_datatypes.htm"></bpt>language datatypes<ept id="1">&lt;/a></ept> for a detailed description.</source>
+<seg-source> <mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/lang_datatypes.htm"></bpt>language datatypes<ept id="1">&lt;/a></ept> for a detailed description.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/lang_datatypes.htm"></bpt>language datatypes<ept id="1">&lt;/a></ept> for a detailed description.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Returns 1</source>
+<seg-source><mrk mid="0" mtype="seg">Returns 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns 1</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Returns 0 as the value is an integer i.e. 3</source>
+<seg-source><mrk mid="0" mtype="seg">Returns 0 as the value is an integer i.e.</mrk> <mrk mid="1" mtype="seg">3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns 0 as the value is an integer i.e.</mrk> <mrk mid="1" mtype="seg">3</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Returns 1</source>
+<seg-source><mrk mid="0" mtype="seg">Returns 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns 1</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Returns 0 as 1.5e3 is equal to 1500.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns 0 as 1.5e3 is equal to 1500.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns 0 as 1.5e3 is equal to 1500.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">12.345</source>
+<seg-source><mrk mid="0" mtype="seg">12.345</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">12.345</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Returns 0 as the value is a string.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns 0 as the value is a string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns 0 as the value is a string.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">IsFloat:</source>
+<seg-source><mrk mid="0" mtype="seg">IsFloat:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IsFloat:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

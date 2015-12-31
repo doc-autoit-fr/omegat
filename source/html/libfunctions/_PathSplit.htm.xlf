@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_PathSplit.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Splits a path into the drive, directory, file name and file extension parts. An empty string is set if a part is missing</source>
+<seg-source><mrk mid="0" mtype="seg">Splits a path into the drive, directory, file name and file extension parts.</mrk> <mrk mid="1" mtype="seg">An empty string is set if a part is missing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Splits a path into the drive, directory, file name and file extension parts.</mrk> <mrk mid="1" mtype="seg">An empty string is set if a part is missing</mrk></target>
+<note>Function _PathSplit</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The path to be split (Can contain a UNC server or drive letter)</source>
+<seg-source><mrk mid="0" mtype="seg">The path to be split (Can contain a UNC server or drive letter)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The path to be split (Can contain a UNC server or drive letter)</mrk></target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">String to hold the drive</source>
+<seg-source><mrk mid="0" mtype="seg">String to hold the drive</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String to hold the drive</mrk></target>
+<note>$sDrive</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">String to hold the directory</source>
+<seg-source><mrk mid="0" mtype="seg">String to hold the directory</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String to hold the directory</mrk></target>
+<note>$sDir</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">String to hold the file name</source>
+<seg-source><mrk mid="0" mtype="seg">String to hold the file name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String to hold the file name</mrk></target>
+<note>$sFileName</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">String to hold the file extension</source>
+<seg-source><mrk mid="0" mtype="seg">String to hold the file extension</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String to hold the file extension</mrk></target>
+<note>$sExtension</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Returns an array with 5 elements:</source>
+<seg-source><mrk mid="0" mtype="seg">Returns an array with 5 elements:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns an array with 5 elements:</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> $aArray[0] = original path</source>
+<seg-source> <mrk mid="0" mtype="seg">$aArray[0] = original path</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$aArray[0] = original path</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> $aArray[1] = drive</source>
+<seg-source> <mrk mid="0" mtype="seg">$aArray[1] = drive</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$aArray[1] = drive</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> $aArray[2] = directory</source>
+<seg-source> <mrk mid="0" mtype="seg">$aArray[2] = directory</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$aArray[2] = directory</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> $aArray[3] = filename</source>
+<seg-source> <mrk mid="0" mtype="seg">$aArray[3] = filename</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$aArray[3] = filename</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> $aArray[4] = extension</source>
+<seg-source> <mrk mid="0" mtype="seg">$aArray[4] = extension</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$aArray[4] = extension</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">This function does not take a command line string. It works on paths, not paths with arguments.</source>
+<seg-source><mrk mid="0" mtype="seg">This function does not take a command line string.</mrk> <mrk mid="1" mtype="seg">It works on paths, not paths with arguments.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function does not take a command line string.</mrk> <mrk mid="1" mtype="seg">It works on paths, not paths with arguments.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">_PathSplit of</source>
+<seg-source><mrk mid="0" mtype="seg">_PathSplit of</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_PathSplit of</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

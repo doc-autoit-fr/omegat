@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_UrlFixup.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Attempts to correct a URL whose protocol identifier is incorrect</source>
+<seg-source><mrk mid="0" mtype="seg">Attempts to correct a URL whose protocol identifier is incorrect</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Attempts to correct a URL whose protocol identifier is incorrect</mrk></target>
+<note>Function _WinAPI_UrlFixup</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The URL to be corrected.</source>
+<seg-source><mrk mid="0" mtype="seg">The URL to be corrected.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The URL to be corrected.</mrk></target>
+<note>$sUrl</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The corrected URL, or the original URL if no correction was needed.</source>
+<seg-source><mrk mid="0" mtype="seg">The corrected URL, or the original URL if no correction was needed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The corrected URL, or the original URL if no correction was needed.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(UrlFixupW);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>UrlFixupW<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(UrlFixupW);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>UrlFixupW<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(UrlFixupW);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>UrlFixupW<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">http://www.microsoft.com</source>
+<seg-source><mrk mid="0" mtype="seg">http://www.microsoft.com</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">http://www.microsoft.com</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">htps:\\www.microsoft.com</source>
+<seg-source><mrk mid="0" mtype="seg">htps:\\www.microsoft.com</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">htps:\\www.microsoft.com</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">http:www.microsoft.com</source>
+<seg-source><mrk mid="0" mtype="seg">http:www.microsoft.com</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">http:www.microsoft.com</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">%-27s</source>
+<seg-source><mrk mid="0" mtype="seg">%-27s</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%-27s</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

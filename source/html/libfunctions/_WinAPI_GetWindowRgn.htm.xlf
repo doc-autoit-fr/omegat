@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_GetWindowRgn.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Obtains a copy of the window region of a window</source>
+<seg-source><mrk mid="0" mtype="seg">Obtains a copy of the window region of a window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Obtains a copy of the window region of a window</mrk></target>
+<note>Function _WinAPI_GetWindowRgn</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the window whose window region is to be obtained.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the window whose window region is to be obtained.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the window whose window region is to be obtained.</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Handle to the region which will be modified to represent the window region.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the region which will be modified to represent the window region.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the region which will be modified to represent the window region.</mrk></target>
+<note>$hRgn</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Specifies the type of the region that the function obtains. It can be one of the following values</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the type of the region that the function obtains.</mrk> <mrk mid="1" mtype="seg">It can be one of the following values</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the type of the region that the function obtains.</mrk> <mrk mid="1" mtype="seg">It can be one of the following values</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $NULLREGION - The region is empty.</source>
+<seg-source> <mrk mid="0" mtype="seg">$NULLREGION - The region is empty.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$NULLREGION - The region is empty.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $SIMPLEREGION - The region is a single rectangle.</source>
+<seg-source> <mrk mid="0" mtype="seg">$SIMPLEREGION - The region is a single rectangle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SIMPLEREGION - The region is a single rectangle.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $COMPLEXREGION - The region is more than one rectangle.</source>
+<seg-source> <mrk mid="0" mtype="seg">$COMPLEXREGION - The region is more than one rectangle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$COMPLEXREGION - The region is more than one rectangle.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">0 The specified window does not have a region, or an error occurred while attempting to return the region.</source>
+<seg-source><mrk mid="0" mtype="seg">0 The specified window does not have a region, or an error occurred while attempting to return the region.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 The specified window does not have a region, or an error occurred while attempting to return the region.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">The window region of a window is set by calling the SetWindowRgn function.</source>
+<seg-source><mrk mid="0" mtype="seg">The window region of a window is set by calling the SetWindowRgn function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The window region of a window is set by calling the SetWindowRgn function.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> The window region determines the area within the window where the system permits drawing.</source>
+<seg-source> <mrk mid="0" mtype="seg">The window region determines the area within the window where the system permits drawing.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The window region determines the area within the window where the system permits drawing.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> The system does not display any portion of a window that lies outside of the window region</source>
+<seg-source> <mrk mid="0" mtype="seg">The system does not display any portion of a window that lies outside of the window region</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The system does not display any portion of a window that lies outside of the window region</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> The coordinates of a window's window region are relative to the upper-left corner of the window, not the client area of the window.</source>
+<seg-source> <mrk mid="0" mtype="seg">The coordinates of a window's window region are relative to the upper-left corner of the window, not the client area of the window.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The coordinates of a window's window region are relative to the upper-left corner of the window, not the client area of the window.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> To set the window region of a window, call the SetWindowRgn function.</source>
+<seg-source> <mrk mid="0" mtype="seg">To set the window region of a window, call the SetWindowRgn function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To set the window region of a window, call the SetWindowRgn function.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetWindowRgn);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetWindowRgn<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetWindowRgn);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetWindowRgn<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetWindowRgn);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetWindowRgn<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

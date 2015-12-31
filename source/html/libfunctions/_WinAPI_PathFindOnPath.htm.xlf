@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_PathFindOnPath.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Searchs for a file in the default system paths</source>
+<seg-source><mrk mid="0" mtype="seg">Searchs for a file in the default system paths</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Searchs for a file in the default system paths</mrk></target>
+<note>Function _WinAPI_PathFindOnPath</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Filename to search for</source>
+<seg-source><mrk mid="0" mtype="seg">Filename to search for</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Filename to search for</mrk></target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Extra paths to check before any others.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Extra paths to check before any others.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Extra paths to check before any others.</mrk></target>
+<note>$aExtraPaths</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Delimiter used to split $aExtraPaths if it's an non-empty string (StringSplit() with flag $STR_NOCOUNT (2)).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Delimiter used to split $aExtraPaths if it's an non-empty string (StringSplit() with flag $STR_NOCOUNT (2)).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Delimiter used to split $aExtraPaths if it's an non-empty string (StringSplit() with flag $STR_NOCOUNT (2)).</mrk></target>
+<note>$sPathDelimiter</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">the full path of found file.</source>
+<seg-source><mrk mid="0" mtype="seg">the full path of found file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the full path of found file.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">sets the @error flag to non-zero, filename Unchanged.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero, filename Unchanged.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero, filename Unchanged.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">$aExtraPaths can contain a list of paths to be checked before any system defaults.</source>
+<seg-source><mrk mid="0" mtype="seg">$aExtraPaths can contain a list of paths to be checked before any system defaults.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$aExtraPaths can contain a list of paths to be checked before any system defaults.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> It can be an array or a string. If the former, it shall not have a count in it's first element.</source>
+<seg-source> <mrk mid="0" mtype="seg">It can be an array or a string.</mrk> <mrk mid="1" mtype="seg">If the former, it shall not have a count in it's first element.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">It can be an array or a string.</mrk> <mrk mid="1" mtype="seg">If the former, it shall not have a count in it's first element.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> If the latter, it will be split using $sPathDelimiter as the delimiter, that defaults to @LF.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the latter, it will be split using $sPathDelimiter as the delimiter, that defaults to @LF.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the latter, it will be split using $sPathDelimiter as the delimiter, that defaults to @LF.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(PathFindOnPath);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>PathFindOnPath<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(PathFindOnPath);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>PathFindOnPath<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(PathFindOnPath);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>PathFindOnPath<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">PathFindOnPath Example</source>
+<seg-source><mrk mid="0" mtype="seg">PathFindOnPath Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">PathFindOnPath Example</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Full path of notepad.exe:\n%s\n\n</source>
+<seg-source><mrk mid="0" mtype="seg">Full path of notepad.exe:\n%s\n\n</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Full path of notepad.exe:\n%s\n\n</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Find ntuser.dat in profile folder, using custom paths:\n%s</source>
+<seg-source><mrk mid="0" mtype="seg">Find ntuser.dat in profile folder, using custom paths:\n%s</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Find ntuser.dat in profile folder, using custom paths:\n%s</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">notepad.exe</source>
+<seg-source><mrk mid="0" mtype="seg">notepad.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">notepad.exe</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">ntuser.dat</source>
+<seg-source><mrk mid="0" mtype="seg">ntuser.dat</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ntuser.dat</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

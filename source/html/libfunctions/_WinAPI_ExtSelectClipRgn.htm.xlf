@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_ExtSelectClipRgn.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Combines the specified region with the current clipping region</source>
+<seg-source><mrk mid="0" mtype="seg">Combines the specified region with the current clipping region</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Combines the specified region with the current clipping region</mrk></target>
+<note>Function _WinAPI_ExtSelectClipRgn</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the device context.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the device context.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the device context.</mrk></target>
+<note>$hDC</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Handle to the region to be selected. This parameter can only be 0 when the $RGN_COPY mode is specified.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the region to be selected.</mrk> <mrk mid="1" mtype="seg">This parameter can only be 0 when the $RGN_COPY mode is specified.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the region to be selected.</mrk> <mrk mid="1" mtype="seg">This parameter can only be 0 when the $RGN_COPY mode is specified.</mrk></target>
+<note>$hRgn</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The operation to be performed. It must be one of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The operation to be performed.</mrk> <mrk mid="2" mtype="seg">It must be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The operation to be performed.</mrk> <mrk mid="2" mtype="seg">It must be one of the following values.</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> $RGN_AND</source>
+<seg-source> <mrk mid="0" mtype="seg">$RGN_AND</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$RGN_AND</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $RGN_COPY (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">$RGN_COPY (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$RGN_COPY (Default)</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $RGN_DIFF</source>
+<seg-source> <mrk mid="0" mtype="seg">$RGN_DIFF</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$RGN_DIFF</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $RGN_OR</source>
+<seg-source> <mrk mid="0" mtype="seg">$RGN_OR</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$RGN_OR</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> $RGN_XOR</source>
+<seg-source> <mrk mid="0" mtype="seg">$RGN_XOR</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$RGN_XOR</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">The value that specifies the new clipping region's complexity; it can be one of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg">The value that specifies the new clipping region's complexity; it can be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The value that specifies the new clipping region's complexity; it can be one of the following values.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> $COMPLEXREGION</source>
+<seg-source> <mrk mid="0" mtype="seg">$COMPLEXREGION</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$COMPLEXREGION</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> $NULLREGION</source>
+<seg-source> <mrk mid="0" mtype="seg">$NULLREGION</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$NULLREGION</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> $SIMPLEREGION</source>
+<seg-source> <mrk mid="0" mtype="seg">$SIMPLEREGION</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SIMPLEREGION</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ExtSelectClipRgn);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ExtSelectClipRgn<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ExtSelectClipRgn);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ExtSelectClipRgn<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ExtSelectClipRgn);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ExtSelectClipRgn<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">TrayAutoPause</source>
+<seg-source><mrk mid="0" mtype="seg">TrayAutoPause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayAutoPause</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Require Windows Vista or later with enabled Aero theme.</source>
+<seg-source><mrk mid="0" mtype="seg">Require Windows Vista or later with enabled Aero theme.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Require Windows Vista or later with enabled Aero theme.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">OnAutoItExit</source>
+<seg-source><mrk mid="0" mtype="seg">OnAutoItExit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OnAutoItExit</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Tab 1</source>
+<seg-source><mrk mid="0" mtype="seg">Tab 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Tab 1</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Button</source>
+<seg-source><mrk mid="0" mtype="seg">Button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Button</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Tab 2</source>
+<seg-source><mrk mid="0" mtype="seg">Tab 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Tab 2</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Tab 3</source>
+<seg-source><mrk mid="0" mtype="seg">Tab 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Tab 3</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Register Tab window proc</source>
+<seg-source><mrk mid="0" mtype="seg">Register Tab window proc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Register Tab window proc</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">_WinProc</source>
+<seg-source><mrk mid="0" mtype="seg">_WinProc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinProc</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">ptr</source>
+<seg-source><mrk mid="0" mtype="seg">ptr</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ptr</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">hwnd;uint;wparam;lparam</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd;uint;wparam;lparam</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd;uint;wparam;lparam</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Create the "sheet of glass" effect for the Tab client area. You must call this function whenever DWM composition is toggled.</source>
+<seg-source><mrk mid="0" mtype="seg">Create the "sheet of glass" effect for the Tab client area.</mrk> <mrk mid="1" mtype="seg">You must call this function whenever DWM composition is toggled.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create the "sheet of glass" effect for the Tab client area.</mrk> <mrk mid="1" mtype="seg">You must call this function whenever DWM composition is toggled.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

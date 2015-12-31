@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUICtrlRichEdit_SetCharBkColor.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the background color of selected text or, if none selected, sets the background color of text inserted at the insertion point</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the background color of selected text or, if none selected, sets the background color of text inserted at the insertion point</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the background color of selected text or, if none selected, sets the background color of text inserted at the insertion point</mrk></target>
+<note>Function _GUICtrlRichEdit_SetCharBkColor</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> one of the following:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">one of the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">one of the following:</mrk></target>
+<note>$iBkColor</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> a number - a COLORREF value</source>
+<seg-source> <mrk mid="0" mtype="seg">a number - a COLORREF value</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">a number - a COLORREF value</mrk></target>
+<note>$iBkColor</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> Default keyword - the system color (default)</source>
+<seg-source> <mrk mid="0" mtype="seg">Default keyword - the system color (default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Default keyword - the system color (default)</mrk></target>
+<note>$iBkColor</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">False and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">False and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">101 - $hWnd is not a handle</source>
+<seg-source><mrk mid="0" mtype="seg">101 - $hWnd is not a handle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">101 - $hWnd is not a handle</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> 1021 - $iBkColor: not 2 semicolons</source>
+<seg-source> <mrk mid="0" mtype="seg">1021 - $iBkColor: not 2 semicolons</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1021 - $iBkColor: not 2 semicolons</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> 1022 - $iBkColor: value not 0 to 100</source>
+<seg-source> <mrk mid="0" mtype="seg">1022 - $iBkColor: value not 0 to 100</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1022 - $iBkColor: value not 0 to 100</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> 1023 - $iBkColor: invalid character</source>
+<seg-source> <mrk mid="0" mtype="seg">1023 - $iBkColor: invalid character</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1023 - $iBkColor: invalid character</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">If you need to create a COLORREF value from an color array use <bpt id="1" ctype="x-a">&lt;a href="_ColorSetCOLORREF.htm"></bpt>_ColorSetCOLORREF()<ept id="1">&lt;/a></ept> not <bpt id="2" ctype="x-a">&lt;a href="_ColorSetRGB.htm"></bpt>_ColorSetRGB()<ept id="2">&lt;/a></ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">If you need to create a COLORREF value from an color array use <bpt id="1" ctype="x-a">&lt;a href="_ColorSetCOLORREF.htm"></bpt>_ColorSetCOLORREF()<ept id="1">&lt;/a></ept> not <bpt id="2" ctype="x-a">&lt;a href="_ColorSetRGB.htm"></bpt>_ColorSetRGB()<ept id="2">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you need to create a COLORREF value from an color array use <bpt id="1" ctype="x-a">&lt;a href="_ColorSetCOLORREF.htm"></bpt>_ColorSetCOLORREF()<ept id="1">&lt;/a></ept> not <bpt id="2" ctype="x-a">&lt;a href="_ColorSetRGB.htm"></bpt>_ColorSetRGB()<ept id="2">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EM_SETCHARFORMAT);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EM_SETCHARFORMAT<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EM_SETCHARFORMAT);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EM_SETCHARFORMAT<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EM_SETCHARFORMAT);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EM_SETCHARFORMAT<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">.exe</source>
+<seg-source><mrk mid="0" mtype="seg">.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.exe</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">This is a test.</source>
+<seg-source><mrk mid="0" mtype="seg">This is a test.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a test.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Next</source>
+<seg-source><mrk mid="0" mtype="seg">Next</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Next</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">needed unless script crashes</source>
+<seg-source><mrk mid="0" mtype="seg">needed unless script crashes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">needed unless script crashes</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">1. Initial setting</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk> <mrk mid="1" mtype="seg">Initial setting</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk> <mrk mid="1" mtype="seg">Initial setting</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">00FF00</source>
+<seg-source><mrk mid="0" mtype="seg">00FF00</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">00FF00</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">2. Setting is now</source>
+<seg-source><mrk mid="0" mtype="seg">2.</mrk> <mrk mid="1" mtype="seg">Setting is now</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2.</mrk> <mrk mid="1" mtype="seg">Setting is now</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">8888FF</source>
+<seg-source><mrk mid="0" mtype="seg">8888FF</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">8888FF</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">3. Background of a few characters changed</source>
+<seg-source><mrk mid="0" mtype="seg">3.</mrk> <mrk mid="1" mtype="seg">Background of a few characters changed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3.</mrk> <mrk mid="1" mtype="seg">Background of a few characters changed</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Stream all text to the Desktop so you can look at settings in Word</source>
+<seg-source><mrk mid="0" mtype="seg">Stream all text to the Desktop so you can look at settings in Word</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Stream all text to the Desktop so you can look at settings in Word</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">\gcre.rtf</source>
+<seg-source><mrk mid="0" mtype="seg">\gcre.rtf</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\gcre.rtf</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">4. Saved to a file on the desktop gcre.rtf</source>
+<seg-source><mrk mid="0" mtype="seg">4.</mrk> <mrk mid="1" mtype="seg">Saved to a file on the desktop gcre.rtf</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">4.</mrk> <mrk mid="1" mtype="seg">Saved to a file on the desktop gcre.rtf</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">;</source>
+<seg-source><mrk mid="0" mtype="seg">;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">;</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">;</source>
+<seg-source><mrk mid="0" mtype="seg">;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">;</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">BkColor=0x</source>
+<seg-source><mrk mid="0" mtype="seg">BkColor=0x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BkColor=0x</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

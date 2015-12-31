@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_GetTempFileName.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a name for a temporary file</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a name for a temporary file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a name for a temporary file</mrk></target>
+<note>Function _WinAPI_GetTempFileName</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The directory path for the file name. Applications typically specify a period (.) for the current directory.</source>
+<seg-source><mrk mid="0" mtype="seg">The directory path for the file name.</mrk> <mrk mid="1" mtype="seg">Applications typically specify a period (.) for the current directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The directory path for the file name.</mrk> <mrk mid="1" mtype="seg">Applications typically specify a period (.) for the current directory.</mrk></target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The prefix string. The function uses up to the first three characters of this string as the prefix of the</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The prefix string.</mrk> <mrk mid="2" mtype="seg">The function uses up to the first three characters of this string as the prefix of the</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The prefix string.</mrk> <mrk mid="2" mtype="seg">The function uses up to the first three characters of this string as the prefix of the</mrk></target>
+<note>$sPrefix</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> file name.</source>
+<seg-source> <mrk mid="0" mtype="seg">file name.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">file name.</mrk></target>
+<note>$sPrefix</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">The temporary file name.</source>
+<seg-source><mrk mid="0" mtype="seg">The temporary file name.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The temporary file name.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> Sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">Sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Temporary files whose names have been created by this function are not automatically deleted.</source>
+<seg-source><mrk mid="0" mtype="seg">Temporary files whose names have been created by this function are not automatically deleted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Temporary files whose names have been created by this function are not automatically deleted.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetTempFileName);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetTempFileName<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetTempFileName);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetTempFileName<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetTempFileName);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetTempFileName<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

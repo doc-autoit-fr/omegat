@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_ShellGetSetFolderCustomSettings.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets or retrieves custom folder settings</source>
+<seg-source><mrk mid="0" mtype="seg">Sets or retrieves custom folder settings</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets or retrieves custom folder settings</mrk></target>
+<note>Function _WinAPI_ShellGetSetFolderCustomSettings</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The path to the folder.</source>
+<seg-source><mrk mid="0" mtype="seg">The path to the folder.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The path to the folder.</mrk></target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">A flag controlling the action of the function. It may be one of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg">A flag controlling the action of the function.</mrk> <mrk mid="1" mtype="seg">It may be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A flag controlling the action of the function.</mrk> <mrk mid="1" mtype="seg">It may be one of the following values.</mrk></target>
+<note>$iFlag</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> $FCS_READ</source>
+<seg-source> <mrk mid="0" mtype="seg">$FCS_READ</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FCS_READ</mrk></target>
+<note>$iFlag</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> $FCS_FORCEWRITE</source>
+<seg-source> <mrk mid="0" mtype="seg">$FCS_FORCEWRITE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FCS_FORCEWRITE</mrk></target>
+<note>$iFlag</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $FCS_WRITE</source>
+<seg-source> <mrk mid="0" mtype="seg">$FCS_WRITE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FCS_WRITE</mrk></target>
+<note>$iFlag</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">$tagSHFOLDERCUSTOMSETTINGS structure that provides or receives the custom folder settings. This structure</source>
+<seg-source><mrk mid="0" mtype="seg">$tagSHFOLDERCUSTOMSETTINGS structure that provides or receives the custom folder settings.</mrk> <mrk mid="1" mtype="seg">This structure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$tagSHFOLDERCUSTOMSETTINGS structure that provides or receives the custom folder settings.</mrk> <mrk mid="1" mtype="seg">This structure</mrk></target>
+<note>$tSHFCS</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> must be created before function call.</source>
+<seg-source> <mrk mid="0" mtype="seg">must be created before function call.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">must be created before function call.</mrk></target>
+<note>$tSHFCS</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">This function reads from and writes to Desktop.ini.</source>
+<seg-source><mrk mid="0" mtype="seg">This function reads from and writes to Desktop.ini.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function reads from and writes to Desktop.ini.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHGetSetFolderCustomSettings);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHGetSetFolderCustomSettings<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHGetSetFolderCustomSettings);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHGetSetFolderCustomSettings<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHGetSetFolderCustomSettings);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHGetSetFolderCustomSettings<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Select folder</source>
+<seg-source><mrk mid="0" mtype="seg">Select folder</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Select folder</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Select Folder</source>
+<seg-source><mrk mid="0" mtype="seg">Select Folder</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Select Folder</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Select icon</source>
+<seg-source><mrk mid="0" mtype="seg">Select icon</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Select icon</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Set icon to selected folder</source>
+<seg-source><mrk mid="0" mtype="seg">Set icon to selected folder</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set icon to selected folder</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">;wchar szIconFile[</source>
+<seg-source><mrk mid="0" mtype="seg">;wchar szIconFile[</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">;wchar szIconFile[</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">]</source>
+<seg-source><mrk mid="0" mtype="seg">]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">]</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Size</source>
+<seg-source><mrk mid="0" mtype="seg">Size</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Size</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">szIconFile</source>
+<seg-source><mrk mid="0" mtype="seg">szIconFile</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">szIconFile</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Mask</source>
+<seg-source><mrk mid="0" mtype="seg">Mask</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Mask</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">IconFile</source>
+<seg-source><mrk mid="0" mtype="seg">IconFile</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IconFile</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">szIconFile</source>
+<seg-source><mrk mid="0" mtype="seg">szIconFile</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">szIconFile</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">SizeIF</source>
+<seg-source><mrk mid="0" mtype="seg">SizeIF</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SizeIF</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">IconIndex</source>
+<seg-source><mrk mid="0" mtype="seg">IconIndex</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IconIndex</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">szIconFile</source>
+<seg-source><mrk mid="0" mtype="seg">szIconFile</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">szIconFile</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

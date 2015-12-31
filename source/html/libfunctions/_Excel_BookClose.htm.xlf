@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_Excel_BookClose.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Closes the specified workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Closes the specified workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Closes the specified workbook</mrk></target>
+<note>Function _Excel_BookClose</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Workbook object</source>
+<seg-source><mrk mid="0" mtype="seg">Workbook object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Workbook object</mrk></target>
+<note>$oWorkbook</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If True the workbook will be saved before closing (default = True)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True the workbook will be saved before closing (default = True)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True the workbook will be saved before closing (default = True)</mrk></target>
+<note>$bSave</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">0 and sets @error.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets @error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets @error.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">1 - $oWorkbook is not an object or not a workbook object</source>
+<seg-source><mrk mid="0" mtype="seg">1 - $oWorkbook is not an object or not a workbook object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - $oWorkbook is not an object or not a workbook object</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> 2 - Error occurred when saving the workbook. @extended is set to the COM error code returned by the Save method</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - Error occurred when saving the workbook.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code returned by the Save method</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - Error occurred when saving the workbook.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code returned by the Save method</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> 3 - Error occurred when closing the workbook. @extended is set to the COM error code returned by the Close method</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - Error occurred when closing the workbook.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code returned by the Close method</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - Error occurred when closing the workbook.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code returned by the Close method</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Create application object</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Excel UDF: _Excel_BookOpen Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookOpen Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookOpen Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Error creating the Excel application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Create a new workbook, write some data and close it without saving</source>
+<seg-source><mrk mid="0" mtype="seg">Create a new workbook, write some data and close it without saving</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a new workbook, write some data and close it without saving</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Create the new workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Create the new workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create the new workbook</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Excel UDF: _Excel_BookClose Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookClose Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookClose Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Error creating new workbook.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating new workbook.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating new workbook.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Write something into cell A1</source>
+<seg-source><mrk mid="0" mtype="seg">Write something into cell A1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write something into cell A1</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">A1</source>
+<seg-source><mrk mid="0" mtype="seg">A1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A1</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Excel UDF: _Excel_BookClose Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookClose Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookClose Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Error writing to cell 'A1'.</source>
+<seg-source><mrk mid="0" mtype="seg">Error writing to cell 'A1'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error writing to cell 'A1'.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Excel UDF: _Excel_BookClose Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookClose Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookClose Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Click OK to close the workbook without saving.</source>
+<seg-source><mrk mid="0" mtype="seg">Click OK to close the workbook without saving.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Click OK to close the workbook without saving.</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Close the workbook without saving</source>
+<seg-source><mrk mid="0" mtype="seg">Close the workbook without saving</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the workbook without saving</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Excel UDF: _Excel_BookClose Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookClose Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookClose Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Error saving workbook.</source>
+<seg-source><mrk mid="0" mtype="seg">Error saving workbook.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error saving workbook.</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Excel UDF: _Excel_BookClose Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookClose Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookClose Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Workbook has been successfully closed.</source>
+<seg-source><mrk mid="0" mtype="seg">Workbook has been successfully closed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Workbook has been successfully closed.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

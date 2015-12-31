@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/ConsoleRead.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Read from the STDIN stream of the AutoIt script process.</source>
+<seg-source><mrk mid="0" mtype="seg">Read from the STDIN stream of the AutoIt script process.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Read from the STDIN stream of the AutoIt script process.</mrk></target>
+<note>Function ConsoleRead</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If True the function does not remove the read characters from the stream.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True the function does not remove the read characters from the stream.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True the function does not remove the read characters from the stream.</mrk></target>
+<note>peek</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If True the function reads the data as binary instead of text (default is text).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True the function reads the data as binary instead of text (default is text).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True the function reads the data as binary instead of text (default is text).</mrk></target>
+<note>binary</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">the data read. @extended contains the number of bytes read.</source>
+<seg-source><mrk mid="0" mtype="seg">the data read.</mrk> <mrk mid="1" mtype="seg">@extended contains the number of bytes read.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the data read.</mrk> <mrk mid="1" mtype="seg">@extended contains the number of bytes read.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">sets the @error flag to non-zero if EOF is reached, STDIN is not connected for the process or other error.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero if EOF is reached, STDIN is not connected for the process or other error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero if EOF is reached, STDIN is not connected for the process or other error.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="ConsoleRead.htm"></bpt>ConsoleRead()<ept id="1">&lt;/a></ept> reads from the console standard input stream of the AutoIt script process, which is normally used by console applications to read input from a parent process.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="ConsoleRead.htm"></bpt>ConsoleRead()<ept id="1">&lt;/a></ept> reads from the console standard input stream of the AutoIt script process, which is normally used by console applications to read input from a parent process.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="ConsoleRead.htm"></bpt>ConsoleRead()<ept id="1">&lt;/a></ept> reads from the console standard input stream of the AutoIt script process, which is normally used by console applications to read input from a parent process.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="ConsoleRead.htm"></bpt>ConsoleRead()<ept id="1">&lt;/a></ept> does not block, it will return immediately. In order to get all data, it must be called in a loop.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="ConsoleRead.htm"></bpt>ConsoleRead()<ept id="1">&lt;/a></ept> does not block, it will return immediately.</mrk> <mrk mid="1" mtype="seg">In order to get all data, it must be called in a loop.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="ConsoleRead.htm"></bpt>ConsoleRead()<ept id="1">&lt;/a></ept> does not block, it will return immediately.</mrk> <mrk mid="1" mtype="seg">In order to get all data, it must be called in a loop.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> Peeking on the stream does not remove the data from the buffer, however, it does return the available data as normal.</source>
+<seg-source> <mrk mid="0" mtype="seg">Peeking on the stream does not remove the data from the buffer, however, it does return the available data as normal.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Peeking on the stream does not remove the data from the buffer, however, it does return the available data as normal.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> By default, data is returned in text format. By using the binary option, the data will be returned in binary format.</source>
+<seg-source> <mrk mid="0" mtype="seg">By default, data is returned in text format.</mrk> <mrk mid="1" mtype="seg">By using the binary option, the data will be returned in binary format.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">By default, data is returned in text format.</mrk> <mrk mid="1" mtype="seg">By using the binary option, the data will be returned in binary format.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">This script must be compiled in order to run the example.</source>
+<seg-source><mrk mid="0" mtype="seg">This script must be compiled in order to run the example.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This script must be compiled in order to run the example.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Received:</source>
+<seg-source><mrk mid="0" mtype="seg">Received:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Received:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

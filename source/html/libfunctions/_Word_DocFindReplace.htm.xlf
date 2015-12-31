@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_Word_DocFindReplace.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Runs the specified find and replace operation</source>
+<seg-source><mrk mid="0" mtype="seg">Runs the specified find and replace operation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Runs the specified find and replace operation</mrk></target>
+<note>Function _Word_DocFindReplace</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Word document object</source>
+<seg-source><mrk mid="0" mtype="seg">Word document object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word document object</mrk></target>
+<note>$oDoc</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The text to be searched for. Use an empty string ("") to search for formatting only.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The text to be searched for.</mrk> <mrk mid="2" mtype="seg">Use an empty string ("") to search for formatting only.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The text to be searched for.</mrk> <mrk mid="2" mtype="seg">Use an empty string ("") to search for formatting only.</mrk></target>
+<note>$sFindText</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> You can search for special characters by specifying appropriate character codes.</source>
+<seg-source> <mrk mid="0" mtype="seg">You can search for special characters by specifying appropriate character codes.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">You can search for special characters by specifying appropriate character codes.</mrk></target>
+<note>$sFindText</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> For example, "^p" corresponds to a paragraph mark and "^t" corresponds to a tab character (default = "")</source>
+<seg-source> <mrk mid="0" mtype="seg">For example, "^p" corresponds to a paragraph mark and "^t" corresponds to a tab character (default = "")</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For example, "^p" corresponds to a paragraph mark and "^t" corresponds to a tab character (default = "")</mrk></target>
+<note>$sFindText</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The replacement text. To delete found text use an empty string ("").</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The replacement text.</mrk> <mrk mid="2" mtype="seg">To delete found text use an empty string ("").</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The replacement text.</mrk> <mrk mid="2" mtype="seg">To delete found text use an empty string ("").</mrk></target>
+<note>$sReplaceWith</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> You specify special characters and advanced search criteria just as you do for the Find argument (default = "")</source>
+<seg-source> <mrk mid="0" mtype="seg">You specify special characters and advanced search criteria just as you do for the Find argument (default = "")</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">You specify special characters and advanced search criteria just as you do for the Find argument (default = "")</mrk></target>
+<note>$sReplaceWith</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> How many replacements are to be made: one, all, or none.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">How many replacements are to be made: one, all, or none.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">How many replacements are to be made: one, all, or none.</mrk></target>
+<note>$iReplace</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> Can be anyWdReplace constant (default = $WdReplaceAll)</source>
+<seg-source> <mrk mid="0" mtype="seg">Can be anyWdReplace constant (default = $WdReplaceAll)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Can be anyWdReplace constant (default = $WdReplaceAll)</mrk></target>
+<note>$iReplace</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the selection or range to search. Can be:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the selection or range to search.</mrk> <mrk mid="2" mtype="seg">Can be:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the selection or range to search.</mrk> <mrk mid="2" mtype="seg">Can be:</mrk></target>
+<note>$vSearchRange</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     -1 - Specifies the current selection</source>
+<seg-source> <mrk mid="0" mtype="seg">    -1 - Specifies the current selection</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    -1 - Specifies the current selection</mrk></target>
+<note>$vSearchRange</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     0 - Specifies the entire document (default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 - Specifies the entire document (default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 - Specifies the entire document (default)</mrk></target>
+<note>$vSearchRange</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> Any Word range object.</source>
+<seg-source> <mrk mid="0" mtype="seg">Any Word range object.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Any Word range object.</mrk></target>
+<note>$vSearchRange</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If True the find is case sensitive (default = False)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True the find is case sensitive (default = False)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True the find is case sensitive (default = False)</mrk></target>
+<note>$bMatchCase</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If True only find entire words (default = False)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True only find entire words (default = False)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True only find entire words (default = False)</mrk></target>
+<note>$bMatchWholeWord</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If True the find text has special search operators (default = False)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True the find text has special search operators (default = False)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True the find text has special search operators (default = False)</mrk></target>
+<note>$bMatchWildcards</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If True finds words that sound similar to the find text (default = False)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True finds words that sound similar to the find text (default = False)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True finds words that sound similar to the find text (default = False)</mrk></target>
+<note>$bMatchSoundsLike</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If True finds all forms of the find text</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True finds all forms of the find text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True finds all forms of the find text</mrk></target>
+<note>$bMatchAllWordForms</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> (e.g. "sit" locates "sitting" and "sat") (default = False)</source>
+<seg-source> <mrk mid="0" mtype="seg">(e.g.</mrk> <mrk mid="1" mtype="seg">"sit" locates "sitting" and "sat") (default = False)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">(e.g.</mrk> <mrk mid="1" mtype="seg">"sit" locates "sitting" and "sat") (default = False)</mrk></target>
+<note>$bMatchAllWordForms</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> True to search forward (toward the end of the document) (default = True)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True to search forward (toward the end of the document) (default = True)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True to search forward (toward the end of the document) (default = True)</mrk></target>
+<note>$bForward</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> True wraps when the bottom or top of the document, selection or range is reached.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True wraps when the bottom or top of the document, selection or range is reached.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True wraps when the bottom or top of the document, selection or range is reached.</mrk></target>
+<note>$iWrap</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> Can be one of the WdFindWrap constants (default = $WdFindContinue)</source>
+<seg-source> <mrk mid="0" mtype="seg">Can be one of the WdFindWrap constants (default = $WdFindContinue)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Can be one of the WdFindWrap constants (default = $WdFindContinue)</mrk></target>
+<note>$iWrap</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> True to have the find operation locate formatting in addition to or instead of the find text (default = False)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True to have the find operation locate formatting in addition to or instead of the find text (default = False)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True to have the find operation locate formatting in addition to or instead of the find text (default = False)</mrk></target>
+<note>$bFormat</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">1 - $oDoc is not an object</source>
+<seg-source><mrk mid="0" mtype="seg">1 - $oDoc is not an object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - $oDoc is not an object</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en"> 2 - $vSearchRange is not an object</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - $vSearchRange is not an object</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - $vSearchRange is not an object</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en"> 3 - An error occurred when the replace operation was executed. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - An error occurred when the replace operation was executed.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - An error occurred when the replace operation was executed.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Create application object</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Word UDF: _Word_DocFindReplace Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocFindReplace Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocFindReplace Example</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Error creating a new Word application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating a new Word application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating a new Word application object.</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Open test document read-only</source>
+<seg-source><mrk mid="0" mtype="seg">Open test document read-only</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open test document read-only</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">\Extras\Test.doc</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\Test.doc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\Test.doc</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Word UDF: _Word_DocFindReplace Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocFindReplace Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocFindReplace Example</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Error opening '.\Extras\Test.doc'.</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening '.\Extras\Test.doc'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening '.\Extras\Test.doc'.</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Change "test document" to "test document with replaced text".</source>
+<seg-source><mrk mid="0" mtype="seg">Change "test document" to "test document with replaced text".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Change "test document" to "test document with replaced text".</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">test document</source>
+<seg-source><mrk mid="0" mtype="seg">test document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">test document</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">test document with replaced text</source>
+<seg-source><mrk mid="0" mtype="seg">test document with replaced text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">test document with replaced text</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Word UDF: _Word_DocFindReplace Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocFindReplace Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocFindReplace Example</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Error replacing text in the document.</source>
+<seg-source><mrk mid="0" mtype="seg">Error replacing text in the document.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error replacing text in the document.</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Word UDF: _Word_DocFindReplace Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocFindReplace Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocFindReplace Example</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Text successfully replaced.</source>
+<seg-source><mrk mid="0" mtype="seg">Text successfully replaced.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text successfully replaced.</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">Create application object</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">Word UDF: _Word_DocFindReplace Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocFindReplace Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocFindReplace Example</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Error creating a new Word application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating a new Word application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating a new Word application object.</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">Open test document read-only</source>
+<seg-source><mrk mid="0" mtype="seg">Open test document read-only</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open test document read-only</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">\Extras\Test.doc</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\Test.doc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\Test.doc</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">Word UDF: _Word_DocFindReplace Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocFindReplace Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocFindReplace Example</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">Error opening '.\Extras\Test.doc'.</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening '.\Extras\Test.doc'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening '.\Extras\Test.doc'.</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">Replace paragraph control character with paragraph + text + paragraph.</source>
+<seg-source><mrk mid="0" mtype="seg">Replace paragraph control character with paragraph + text + paragraph.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Replace paragraph control character with paragraph + text + paragraph.</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">Only change first occurrence.</source>
+<seg-source><mrk mid="0" mtype="seg">Only change first occurrence.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Only change first occurrence.</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">^p</source>
+<seg-source><mrk mid="0" mtype="seg">^p</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">^p</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">^pInserted Line^p</source>
+<seg-source><mrk mid="0" mtype="seg">^pInserted Line^p</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">^pInserted Line^p</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">Word UDF: _Word_DocFindReplace Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocFindReplace Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocFindReplace Example</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">Error replacing text in the document.</source>
+<seg-source><mrk mid="0" mtype="seg">Error replacing text in the document.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error replacing text in the document.</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">Word UDF: _Word_DocFindReplace Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocFindReplace Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocFindReplace Example</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">Paragraph control character successfully replaced.</source>
+<seg-source><mrk mid="0" mtype="seg">Paragraph control character successfully replaced.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Paragraph control character successfully replaced.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

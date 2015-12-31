@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="HTML Tidy for HTML5 for Windows version 5.1.14" name="generator">
+  <title>Function _INetMail</title>
+  <meta charset="utf-8">
+  <link href="../css/default.css" rel="stylesheet">
+</head>
+<body>
+  <h1 class="small">Function Reference</h1>
+  <hr style="height:0px">
+  <h1>_INetMail</h1>
+  <p class="funcdesc">Opens default user's mail client with given address, subject, and body<br></p>
+  <p class="codeheader">#include &lt;Inet.au3&gt;<br>
+  _INetMail ( $sMailTo, $sMailSubject, $sMailBody )<br></p>
+  <h2>Parameters</h2>
+  <table>
+    <tr>
+      <td style="width:15%">$sMailTo</td>
+      <td style="width:85%">Address for the E-Mail</td>
+    </tr>
+    <tr>
+      <td>$sMailSubject</td>
+      <td>Subject for the E-Mail</td>
+    </tr>
+    <tr>
+      <td>$sMailBody</td>
+      <td>Body for the E-Mail</td>
+    </tr>
+  </table>
+  <h2>Return Value</h2>
+  <table class="noborder">
+    <tr>
+      <td class="valign-top" style="width:10%">Success:</td>
+      <td style="width:90%">the process identifier for the E-Mail client.</td>
+    </tr>
+    <tr>
+      <td class="valign-top">Failure:</td>
+      <td>0 and sets the @error flag to non-zero.</td>
+    </tr>
+  </table>
+  <h2>Related</h2>
+  <p translate="no"><a href="_INetSmtpMail.htm">_INetSmtpMail</a></p>
+  <h2 class="bottom">Example</h2>
+  <script type="text/javascript">
+  if ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4)) // IE (4+) only
+  function copyToClipboard(section) {
+  if (window.clipboardData && clipboardData.setData) {
+  clipboardData.setData("text", section + "\r\n");
+  alert("Copied to clipboard");
+  }
+  }
+  </script>
+  <div class="codeSnippetContainer">
+    <div class="codeSnippetContainerTabs">
+      <script type="text/javascript">
+      if (document.URL.match(/^mk:@MSITStore:/i)) {
+      document.write('<div class="codeSnippetContainerTab codeSnippetContainerTabSingle" dir="ltr">');
+      document.write('<object id=hhctrl type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11"><param name="Command" value="ShortCut"><param name="Font" value="Verdana,10pt"><param name="Text" value="Text:Open this Script"><param name="Item1" value=",Examples\\HelpFile\\_INetMail.au3,"><\/object>');
+      document.write('<\/div>');
+      }
+      </script>
+    </div>
+    <div class="codeSnippetContainerCodeContainer">
+      <div class="codeSnippetToolBar">
+        <div class="codeSnippetToolBarText">
+          <script type="text/javascript">
+          if ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4)) // IE (4+) only
+          document.write('<a href="#" id="copy" onclick="copyToClipboard(document.getElementById(\'copytext1\').innerText)">Copy to clipboard<\/a>');
+          </script>
+        </div>
+      </div>
+      <div class="codeSnippetContainerCode" dir="ltr" id="copytext1">
+        <pre>
+<span><a class="codeSnippetLink" href="../keywords/include.htm"><span class="S11">#include</span></a><span class="S0"> </span><span class="S7" translate="no">&lt;Inet.au3&gt;</span>
+<a class="codeSnippetLink" href="../keywords/include.htm"><span class="S11">#include</span></a><span class="S0"> </span><span class="S7" translate="no">&lt;MsgBoxConstants.au3&gt;</span>
+
+<a class="codeSnippetLink" href="../keywords/Dim.htm"><span class="S5">Local</span></a><span class="S0"> </span><span class="S9">$sAddress</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../functions/InputBox.htm"><span class="S4">InputBox</span></a><span class="S8">(</span><span class="S7">'<span translate="yes">Address</span>'</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">Enter the E-Mail address to send message to</span>'</span><span class="S8">)</span>
+<a class="codeSnippetLink" href="../keywords/Dim.htm"><span class="S5">Local</span></a><span class="S0"> </span><span class="S9">$sSubject</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../functions/InputBox.htm"><span class="S4">InputBox</span></a><span class="S8">(</span><span class="S7">'<span translate="yes">Subject</span>'</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">Enter a subject for the E-Mail</span>'</span><span class="S8">)</span>
+<a class="codeSnippetLink" href="../keywords/Dim.htm"><span class="S5">Local</span></a><span class="S0"> </span><span class="S9">$sBody</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../functions/InputBox.htm"><span class="S4">InputBox</span></a><span class="S8">(</span><span class="S7">'<span translate="yes">Body</span>'</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">Enter the body (message) of the E-Mail</span>'</span><span class="S8">)</span>
+<a class="codeSnippetLink" href="../functions/MsgBox.htm"><span class="S4">MsgBox</span></a><span class="S8">(</span><span class="S9">$MB_SYSTEMMODAL</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">E-Mail has been opened</span>'</span><span class="S8">,</span><span class="S0"> </span><span class="S7">'<span translate="yes">The E-Mail has been opened and process identifier for the E-Mail client is</span> '</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><a class="codeSnippetLink" href="../libfunctions/_INetMail.htm"><span class="S15">_INetMail</span></a><span class="S8">(</span><span class="S9">$sAddress</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$sSubject</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$sBody</span><span class="S8">))</span>
+</span>
+</pre>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

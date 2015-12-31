@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/FileRecycleEmpty.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Empties the recycle bin.</source>
+<seg-source><mrk mid="0" mtype="seg">Empties the recycle bin.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Empties the recycle bin.</mrk></target>
+<note>Function FileRecycleEmpty</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The rootpath to empty - if omitted the recycle bin for all drives is emptied.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The rootpath to empty - if omitted the recycle bin for all drives is emptied.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The rootpath to empty - if omitted the recycle bin for all drives is emptied.</mrk></target>
+<note>source</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">0 (the recycle bin cannot be emptied - see below).</source>
+<seg-source><mrk mid="0" mtype="seg">0 (the recycle bin cannot be emptied - see below).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 (the recycle bin cannot be emptied - see below).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">For this function to work IE4+ must be available.</source>
+<seg-source><mrk mid="0" mtype="seg">For this function to work IE4+ must be available.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For this function to work IE4+ must be available.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Open the recycle bin by using the following CLSID.</source>
+<seg-source><mrk mid="0" mtype="seg">Open the recycle bin by using the following CLSID.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open the recycle bin by using the following CLSID.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">::{645FF040-5081-101B-9F08-00AA002F954E}</source>
+<seg-source><mrk mid="0" mtype="seg">::{645FF040-5081-101B-9F08-00AA002F954E}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">::{645FF040-5081-101B-9F08-00AA002F954E}</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Display a message box asking whether or not you would like to delete files in the recycle bin.</source>
+<seg-source><mrk mid="0" mtype="seg">Display a message box asking whether or not you would like to delete files in the recycle bin.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display a message box asking whether or not you would like to delete files in the recycle bin.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Would you like to empty the recycle bin on the</source>
+<seg-source><mrk mid="0" mtype="seg">Would you like to empty the recycle bin on the</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Would you like to empty the recycle bin on the</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">\ drive?</source>
+<seg-source><mrk mid="0" mtype="seg">\ drive?</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\ drive?</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Delete files in the recycle bin. This is for the @HomeDrive only, which is generally the C:\ drive.</source>
+<seg-source><mrk mid="0" mtype="seg">Delete files in the recycle bin.</mrk> <mrk mid="1" mtype="seg">This is for the @HomeDrive only, which is generally the C:\ drive.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete files in the recycle bin.</mrk> <mrk mid="1" mtype="seg">This is for the @HomeDrive only, which is generally the C:\ drive.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Display a message of whether the recycle bin was emptied successfuly.</source>
+<seg-source><mrk mid="0" mtype="seg">Display a message of whether the recycle bin was emptied successfuly.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display a message of whether the recycle bin was emptied successfuly.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">The recycle bin was emptied successfuly.</source>
+<seg-source><mrk mid="0" mtype="seg">The recycle bin was emptied successfuly.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The recycle bin was emptied successfuly.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">The recycle bin wasn't emptied successfuly.</source>
+<seg-source><mrk mid="0" mtype="seg">The recycle bin wasn't emptied successfuly.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The recycle bin wasn't emptied successfuly.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

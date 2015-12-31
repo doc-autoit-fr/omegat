@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WeekNumberISO.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Calculate the weeknumber of a given date</source>
+<seg-source><mrk mid="0" mtype="seg">Calculate the weeknumber of a given date</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Calculate the weeknumber of a given date</mrk></target>
+<note>Function _WeekNumberISO</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Year value (default = current year)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Year value (default = current year)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Year value (default = current year)</mrk></target>
+<note>$iYear</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Month value (default = current month)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Month value (default = current month)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Month value (default = current month)</mrk></target>
+<note>$iMonth</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Day value (default = current day)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Day value (default = current day)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Day value (default = current day)</mrk></target>
+<note>$iDay</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">a week number of given date.</source>
+<seg-source><mrk mid="0" mtype="seg">a week number of given date.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a week number of given date.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">1 - faulty parameters values</source>
+<seg-source><mrk mid="0" mtype="seg">1 - faulty parameters values</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - faulty parameters values</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> 99 - On non-acceptable weekstart value</source>
+<seg-source> <mrk mid="0" mtype="seg">99 - On non-acceptable weekstart value</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">99 - On non-acceptable weekstart value</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Todays weeknumber</source>
+<seg-source><mrk mid="0" mtype="seg">Todays weeknumber</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Todays weeknumber</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Todays weeknumber is</source>
+<seg-source><mrk mid="0" mtype="seg">Todays weeknumber is</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Todays weeknumber is</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

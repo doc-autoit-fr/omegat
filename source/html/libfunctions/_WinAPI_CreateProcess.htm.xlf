@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_CreateProcess.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a new process and its primary thread</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a new process and its primary thread</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a new process and its primary thread</mrk></target>
+<note>Function _WinAPI_CreateProcess</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The name of the module to be executed</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the module to be executed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the module to be executed</mrk></target>
+<note>$sAppName</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The command line to be executed</source>
+<seg-source><mrk mid="0" mtype="seg">The command line to be executed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The command line to be executed</mrk></target>
+<note>$sCommand</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">a $tagSECURITY_ATTRIBUTES structure or a pointer to it that determines whether the returned handle to the new process can be inherited by child processes.</source>
+<seg-source><mrk mid="0" mtype="seg">a $tagSECURITY_ATTRIBUTES structure or a pointer to it that determines whether the returned handle to the new process can be inherited by child processes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a $tagSECURITY_ATTRIBUTES structure or a pointer to it that determines whether the returned handle to the new process can be inherited by child processes.</mrk></target>
+<note>$tSecurity</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">a $tagSECURITY_ATTRIBUTES structure or a pointer to it that determines whether the returned handle to the new thread can be inherited by child processes.</source>
+<seg-source><mrk mid="0" mtype="seg">a $tagSECURITY_ATTRIBUTES structure or a pointer to it that determines whether the returned handle to the new thread can be inherited by child processes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a $tagSECURITY_ATTRIBUTES structure or a pointer to it that determines whether the returned handle to the new thread can be inherited by child processes.</mrk></target>
+<note>$tThread</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">If True, each inheritable handle in the calling process is inherited by the new process</source>
+<seg-source><mrk mid="0" mtype="seg">If True, each inheritable handle in the calling process is inherited by the new process</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If True, each inheritable handle in the calling process is inherited by the new process</mrk></target>
+<note>$bInherit</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Flags that control the priority class and creation of the process</source>
+<seg-source><mrk mid="0" mtype="seg">Flags that control the priority class and creation of the process</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Flags that control the priority class and creation of the process</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Pointer to the environment block for the new process</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to the environment block for the new process</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to the environment block for the new process</mrk></target>
+<note>$pEnviron</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">The full path to the current directory for the process</source>
+<seg-source><mrk mid="0" mtype="seg">The full path to the current directory for the process</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The full path to the current directory for the process</mrk></target>
+<note>$sDir</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">a $tagSTARTUPINFO structure or a pointer to it</source>
+<seg-source><mrk mid="0" mtype="seg">a $tagSTARTUPINFO structure or a pointer to it</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a $tagSTARTUPINFO structure or a pointer to it</mrk></target>
+<note>$tStartupInfo</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">a $tagPROCESS_INFORMATION structure or a pointer to it</source>
+<seg-source><mrk mid="0" mtype="seg">a $tagPROCESS_INFORMATION structure or a pointer to it</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a $tagPROCESS_INFORMATION structure or a pointer to it</mrk></target>
+<note>$tProcess</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information </source>
+<seg-source> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="$tagPROCESS_INFORMATION.htm"></bpt>$tagPROCESS_INFORMATION<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="$tagSECURITY_ATTRIBUTES.htm"></bpt>$tagSECURITY_ATTRIBUTES<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="$tagSTARTUPINFO.htm"></bpt>$tagSTARTUPINFO<ept id="3">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagPROCESS_INFORMATION.htm"></bpt>$tagPROCESS_INFORMATION<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="$tagSECURITY_ATTRIBUTES.htm"></bpt>$tagSECURITY_ATTRIBUTES<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="$tagSTARTUPINFO.htm"></bpt>$tagSTARTUPINFO<ept id="3">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagPROCESS_INFORMATION.htm"></bpt>$tagPROCESS_INFORMATION<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="$tagSECURITY_ATTRIBUTES.htm"></bpt>$tagSECURITY_ATTRIBUTES<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="$tagSTARTUPINFO.htm"></bpt>$tagSTARTUPINFO<ept id="3">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateProcess);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateProcess<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateProcess);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateProcess<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateProcess);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateProcess<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

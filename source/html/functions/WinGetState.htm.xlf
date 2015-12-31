@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/WinGetState.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the state of a given window.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the state of a given window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the state of a given window.</mrk></target>
+<note>Function WinGetState</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> The title/hWnd/class of the window to get the state. See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsadvanced.htm"></bpt>Title special definition<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">The title/hWnd/class of the window to get the state.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsadvanced.htm"></bpt>Title special definition<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The title/hWnd/class of the window to get the state.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsadvanced.htm"></bpt>Title special definition<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>title</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The text of the window to get the state. Default is an empty string. See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsbasic.htm#specialtext"></bpt>Text special definition<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The text of the window to get the state.</mrk> <mrk mid="2" mtype="seg">Default is an empty string.</mrk> <mrk mid="3" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsbasic.htm#specialtext"></bpt>Text special definition<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The text of the window to get the state.</mrk> <mrk mid="2" mtype="seg">Default is an empty string.</mrk> <mrk mid="3" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsbasic.htm#specialtext"></bpt>Text special definition<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>text</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> a value indicating the state of the window. Multiple values are added together so use <bpt id="1" ctype="x-a">&lt;a href="BitAND.htm"></bpt>BitAND()<ept id="1">&lt;/a></ept> to examine the part you are interested in:</source>
+<seg-source> <mrk mid="0" mtype="seg">a value indicating the state of the window.</mrk> <mrk mid="1" mtype="seg">Multiple values are added together so use <bpt id="1" ctype="x-a">&lt;a href="BitAND.htm"></bpt>BitAND()<ept id="1">&lt;/a></ept> to examine the part you are interested in:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">a value indicating the state of the window.</mrk> <mrk mid="1" mtype="seg">Multiple values are added together so use <bpt id="1" ctype="x-a">&lt;a href="BitAND.htm"></bpt>BitAND()<ept id="1">&lt;/a></ept> to examine the part you are interested in:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $WIN_STATE_EXISTS (1) = Window exists</source>
+<seg-source> <mrk mid="0" mtype="seg">$WIN_STATE_EXISTS (1) = Window exists</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$WIN_STATE_EXISTS (1) = Window exists</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $WIN_STATE_VISIBLE (2) = Window is visible</source>
+<seg-source> <mrk mid="0" mtype="seg">$WIN_STATE_VISIBLE (2) = Window is visible</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$WIN_STATE_VISIBLE (2) = Window is visible</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $WIN_STATE_ENABLED (4) = Window is enabled</source>
+<seg-source> <mrk mid="0" mtype="seg">$WIN_STATE_ENABLED (4) = Window is enabled</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$WIN_STATE_ENABLED (4) = Window is enabled</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> $WIN_STATE_ACTIVE (8) = Window is active</source>
+<seg-source> <mrk mid="0" mtype="seg">$WIN_STATE_ACTIVE (8) = Window is active</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$WIN_STATE_ACTIVE (8) = Window is active</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> $WIN_STATE_MINIMIZED (16) = Window is minimized</source>
+<seg-source> <mrk mid="0" mtype="seg">$WIN_STATE_MINIMIZED (16) = Window is minimized</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$WIN_STATE_MINIMIZED (16) = Window is minimized</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> $WIN_STATE_MAXIMIZED (32) = Window is maximized </source>
+<seg-source> <mrk mid="0" mtype="seg">$WIN_STATE_MAXIMIZED (32) = Window is maximized</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$WIN_STATE_MAXIMIZED (32) = Window is maximized</mrk> </target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">0 and sets the @error flag to non-zero if the window is not found.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero if the window is not found.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero if the window is not found.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> Constants are defined in "AutoItConstants.au3".</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in "AutoItConstants.au3".</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in "AutoItConstants.au3".</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Run Notepad</source>
+<seg-source><mrk mid="0" mtype="seg">Run Notepad</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Run Notepad</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">notepad.exe</source>
+<seg-source><mrk mid="0" mtype="seg">notepad.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">notepad.exe</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Wait 10 seconds for the Notepad window to appear.</source>
+<seg-source><mrk mid="0" mtype="seg">Wait 10 seconds for the Notepad window to appear.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wait 10 seconds for the Notepad window to appear.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">[CLASS:Notepad]</source>
+<seg-source><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Retrieve the state of the Notepad window using the handle returned by WinWait.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve the state of the Notepad window using the handle returned by WinWait.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve the state of the Notepad window using the handle returned by WinWait.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Check if the Notepad window is minimized and display the appropriate message box.</source>
+<seg-source><mrk mid="0" mtype="seg">Check if the Notepad window is minimized and display the appropriate message box.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check if the Notepad window is minimized and display the appropriate message box.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Notepad is minimized and the state returned by WinGetState was -</source>
+<seg-source><mrk mid="0" mtype="seg">Notepad is minimized and the state returned by WinGetState was -</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notepad is minimized and the state returned by WinGetState was -</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Notepad isn't minimized and the state returned by WinGetState was -</source>
+<seg-source><mrk mid="0" mtype="seg">Notepad isn't minimized and the state returned by WinGetState was -</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notepad isn't minimized and the state returned by WinGetState was -</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Close the Notepad window using the handle returned by WinWait.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the Notepad window using the handle returned by WinWait.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the Notepad window using the handle returned by WinWait.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

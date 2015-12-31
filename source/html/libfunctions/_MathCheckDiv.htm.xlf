@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_MathCheckDiv.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Checks if first number is divisible by the second number</source>
+<seg-source><mrk mid="0" mtype="seg">Checks if first number is divisible by the second number</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Checks if first number is divisible by the second number</mrk></target>
+<note>Function _MathCheckDiv</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Integer value to check</source>
+<seg-source><mrk mid="0" mtype="seg">Integer value to check</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Integer value to check</mrk></target>
+<note>$iNum1</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Integer value to divide by (default = 2)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Integer value to divide by (default = 2)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Integer value to divide by (default = 2)</mrk></target>
+<note>$iNum2</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">$MATH_ISNOTDIVISIBLE (1) for not divisible.</source>
+<seg-source><mrk mid="0" mtype="seg">$MATH_ISNOTDIVISIBLE (1) for not divisible.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MATH_ISNOTDIVISIBLE (1) for not divisible.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $MATH_ISDIVISIBLE (2) for divisible.</source>
+<seg-source> <mrk mid="0" mtype="seg">$MATH_ISDIVISIBLE (2) for divisible.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$MATH_ISDIVISIBLE (2) for divisible.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">-1 and sets the @error flag to non-zero if non-integers are entered.</source>
+<seg-source><mrk mid="0" mtype="seg">-1 and sets the @error flag to non-zero if non-integers are entered.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1 and sets the @error flag to non-zero if non-integers are entered.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">This function by default checks if the first number is either odd or even, as the second value is default to 2.</source>
+<seg-source><mrk mid="0" mtype="seg">This function by default checks if the first number is either odd or even, as the second value is default to 2.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function by default checks if the first number is either odd or even, as the second value is default to 2.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Odd or Even</source>
+<seg-source><mrk mid="0" mtype="seg">Odd or Even</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Odd or Even</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Enter a number:</source>
+<seg-source><mrk mid="0" mtype="seg">Enter a number:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enter a number:</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Parse as an integer.</source>
+<seg-source><mrk mid="0" mtype="seg">Parse as an integer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parse as an integer.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Divide the number by 2.</source>
+<seg-source><mrk mid="0" mtype="seg">Divide the number by 2.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Divide the number by 2.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">You did not enter a valid number</source>
+<seg-source><mrk mid="0" mtype="seg">You did not enter a valid number</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You did not enter a valid number</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">You did not enter a valid number</source>
+<seg-source><mrk mid="0" mtype="seg">You did not enter a valid number</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You did not enter a valid number</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Number is odd</source>
+<seg-source><mrk mid="0" mtype="seg">Number is odd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Number is odd</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Number is even</source>
+<seg-source><mrk mid="0" mtype="seg">Number is even</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Number is even</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Could not parse</source>
+<seg-source><mrk mid="0" mtype="seg">Could not parse</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Could not parse</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

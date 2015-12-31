@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_SetWindowRgn.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the window region of a window</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the window region of a window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the window region of a window</mrk></target>
+<note>Function _WinAPI_SetWindowRgn</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the window whose window region is to be set.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the window whose window region is to be set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the window whose window region is to be set.</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Handle to a region. The function sets the window region of the window to this region.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to a region.</mrk> <mrk mid="1" mtype="seg">The function sets the window region of the window to this region.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to a region.</mrk> <mrk mid="1" mtype="seg">The function sets the window region of the window to this region.</mrk></target>
+<note>$hRgn</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether the system redraws the window after setting the window region.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether the system redraws the window after setting the window region.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether the system redraws the window after setting the window region.</mrk></target>
+<note>$bRedraw</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">False</source>
+<seg-source><mrk mid="0" mtype="seg">False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">The window region determines the area within the window where the system permits drawing.</source>
+<seg-source><mrk mid="0" mtype="seg">The window region determines the area within the window where the system permits drawing.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The window region determines the area within the window where the system permits drawing.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> The system does not display any portion of a window that lies outside of the window region</source>
+<seg-source> <mrk mid="0" mtype="seg">The system does not display any portion of a window that lies outside of the window region</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The system does not display any portion of a window that lies outside of the window region</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> When this function is called, the system sends the WM_WINDOWPOSCHANGING and WM_WINDOWPOSCHANGED messages to the window.</source>
+<seg-source> <mrk mid="0" mtype="seg">When this function is called, the system sends the WM_WINDOWPOSCHANGING and WM_WINDOWPOSCHANGED messages to the window.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When this function is called, the system sends the WM_WINDOWPOSCHANGING and WM_WINDOWPOSCHANGED messages to the window.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> The coordinates of a window's window region are relative to the upper-left corner of the window, not the client area of the window.</source>
+<seg-source> <mrk mid="0" mtype="seg">The coordinates of a window's window region are relative to the upper-left corner of the window, not the client area of the window.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The coordinates of a window's window region are relative to the upper-left corner of the window, not the client area of the window.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> After a successful call to SetWindowRgn, the system owns the region specified by the region handle $hRgn.</source>
+<seg-source> <mrk mid="0" mtype="seg">After a successful call to SetWindowRgn, the system owns the region specified by the region handle $hRgn.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">After a successful call to SetWindowRgn, the system owns the region specified by the region handle $hRgn.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> The system does not make a copy of the region. Thus, you should not make any further function calls with this region handle.</source>
+<seg-source> <mrk mid="0" mtype="seg">The system does not make a copy of the region.</mrk> <mrk mid="1" mtype="seg">Thus, you should not make any further function calls with this region handle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The system does not make a copy of the region.</mrk> <mrk mid="1" mtype="seg">Thus, you should not make any further function calls with this region handle.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> In particular, do not delete this region handle. The system deletes the region handle when it no longer needed.</source>
+<seg-source> <mrk mid="0" mtype="seg">In particular, do not delete this region handle.</mrk> <mrk mid="1" mtype="seg">The system deletes the region handle when it no longer needed.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">In particular, do not delete this region handle.</mrk> <mrk mid="1" mtype="seg">The system deletes the region handle when it no longer needed.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetWindowRgn);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetWindowRgn<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetWindowRgn);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetWindowRgn<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetWindowRgn);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetWindowRgn<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">get height of window title and width of window frame - may be different when XP theme is ON/OFF</source>
+<seg-source><mrk mid="0" mtype="seg">get height of window title and width of window frame - may be different when XP theme is ON/OFF</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">get height of window title and width of window frame - may be different when XP theme is ON/OFF</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Test Windows regions</source>
+<seg-source><mrk mid="0" mtype="seg">Test Windows regions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test Windows regions</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Default region</source>
+<seg-source><mrk mid="0" mtype="seg">Default region</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default region</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Round region</source>
+<seg-source><mrk mid="0" mtype="seg">Round region</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Round region</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Buble region</source>
+<seg-source><mrk mid="0" mtype="seg">Buble region</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Buble region</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Transparent region</source>
+<seg-source><mrk mid="0" mtype="seg">Transparent region</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transparent region</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Exit</source>
+<seg-source><mrk mid="0" mtype="seg">Exit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exit</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">get whole window size (no client size defined in GUICreate)</source>
+<seg-source><mrk mid="0" mtype="seg">get whole window size (no client size defined in GUICreate)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">get whole window size (no client size defined in GUICreate)</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">left-top</source>
+<seg-source><mrk mid="0" mtype="seg">left-top</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">left-top</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">right-top</source>
+<seg-source><mrk mid="0" mtype="seg">right-top</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">right-top</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">left-bottom</source>
+<seg-source><mrk mid="0" mtype="seg">left-bottom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">left-bottom</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">right-bottom</source>
+<seg-source><mrk mid="0" mtype="seg">right-bottom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">right-bottom</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">middle</source>
+<seg-source><mrk mid="0" mtype="seg">middle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">middle</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">make inner transparent area but add controls</source>
+<seg-source><mrk mid="0" mtype="seg">make inner transparent area but add controls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">make inner transparent area but add controls</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">add control's area to given region</source>
+<seg-source><mrk mid="0" mtype="seg">add control's area to given region</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">add control's area to given region</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">respecting also window title/frame sizes</source>
+<seg-source><mrk mid="0" mtype="seg">respecting also window title/frame sizes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">respecting also window title/frame sizes</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

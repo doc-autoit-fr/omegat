@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_SetFileAttributes.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the attributes for a file or directory</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the attributes for a file or directory</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the attributes for a file or directory</mrk></target>
+<note>Function _WinAPI_SetFileAttributes</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The name of the file or directory whose attributes are to be set.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the file or directory whose attributes are to be set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the file or directory whose attributes are to be set.</mrk></target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The file attributes to set for the file. This parameter can be one or more of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg">The file attributes to set for the file.</mrk> <mrk mid="1" mtype="seg">This parameter can be one or more of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The file attributes to set for the file.</mrk> <mrk mid="1" mtype="seg">This parameter can be one or more of the following values.</mrk></target>
+<note>$iAttributes</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> $FILE_ATTRIBUTE_READONLY</source>
+<seg-source> <mrk mid="0" mtype="seg">$FILE_ATTRIBUTE_READONLY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FILE_ATTRIBUTE_READONLY</mrk></target>
+<note>$iAttributes</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> $FILE_ATTRIBUTE_HIDDEN</source>
+<seg-source> <mrk mid="0" mtype="seg">$FILE_ATTRIBUTE_HIDDEN</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FILE_ATTRIBUTE_HIDDEN</mrk></target>
+<note>$iAttributes</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $FILE_ATTRIBUTE_SYSTEM</source>
+<seg-source> <mrk mid="0" mtype="seg">$FILE_ATTRIBUTE_SYSTEM</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FILE_ATTRIBUTE_SYSTEM</mrk></target>
+<note>$iAttributes</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $FILE_ATTRIBUTE_ARCHIVE</source>
+<seg-source> <mrk mid="0" mtype="seg">$FILE_ATTRIBUTE_ARCHIVE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FILE_ATTRIBUTE_ARCHIVE</mrk></target>
+<note>$iAttributes</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $FILE_ATTRIBUTE_NORMAL</source>
+<seg-source> <mrk mid="0" mtype="seg">$FILE_ATTRIBUTE_NORMAL</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FILE_ATTRIBUTE_NORMAL</mrk></target>
+<note>$iAttributes</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> $FILE_ATTRIBUTE_TEMPORARY</source>
+<seg-source> <mrk mid="0" mtype="seg">$FILE_ATTRIBUTE_TEMPORARY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FILE_ATTRIBUTE_TEMPORARY</mrk></target>
+<note>$iAttributes</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> $FILE_ATTRIBUTE_OFFLINE</source>
+<seg-source> <mrk mid="0" mtype="seg">$FILE_ATTRIBUTE_OFFLINE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FILE_ATTRIBUTE_OFFLINE</mrk></target>
+<note>$iAttributes</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> $FILE_ATTRIBUTE_NOT_CONTENT_INDEXED</source>
+<seg-source> <mrk mid="0" mtype="seg">$FILE_ATTRIBUTE_NOT_CONTENT_INDEXED</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FILE_ATTRIBUTE_NOT_CONTENT_INDEXED</mrk></target>
+<note>$iAttributes</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Not all attributes are supported by this function. For more information, see MSDN library.</source>
+<seg-source><mrk mid="0" mtype="seg">Not all attributes are supported by this function.</mrk> <mrk mid="1" mtype="seg">For more information, see MSDN library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Not all attributes are supported by this function.</mrk> <mrk mid="1" mtype="seg">For more information, see MSDN library.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetFileAttributes);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetFileAttributes<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetFileAttributes);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetFileAttributes<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetFileAttributes);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetFileAttributes<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

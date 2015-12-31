@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/IniRead.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Reads a value from a standard format .ini file.</source>
+<seg-source><mrk mid="0" mtype="seg">Reads a value from a standard format .ini file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Reads a value from a standard format .ini file.</mrk></target>
+<note>Function IniRead</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The filename of the .ini file.</source>
+<seg-source><mrk mid="0" mtype="seg">The filename of the .ini file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The filename of the .ini file.</mrk></target>
+<note>filename</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The section name in the .ini file.</source>
+<seg-source><mrk mid="0" mtype="seg">The section name in the .ini file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The section name in the .ini file.</mrk></target>
+<note>section</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The key name in the .ini file.</source>
+<seg-source><mrk mid="0" mtype="seg">The key name in the .ini file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The key name in the .ini file.</mrk></target>
+<note>key</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The default value to return if the requested key is not found.</source>
+<seg-source><mrk mid="0" mtype="seg">The default value to return if the requested key is not found.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The default value to return if the requested key is not found.</mrk></target>
+<note>default</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">the requested key value as a string.</source>
+<seg-source><mrk mid="0" mtype="seg">the requested key value as a string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the requested key value as a string.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">the <bpt id="1" ctype="x-em">&lt;em></bpt>default<ept id="1">&lt;/em></ept> string if requested key not found.</source>
+<seg-source><mrk mid="0" mtype="seg">the <bpt id="1" ctype="x-em">&lt;em></bpt>default<ept id="1">&lt;/em></ept> string if requested key not found.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the <bpt id="1" ctype="x-em">&lt;em></bpt>default<ept id="1">&lt;/em></ept> string if requested key not found.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">A standard ini file looks like:</source>
+<seg-source><mrk mid="0" mtype="seg">A standard ini file looks like:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A standard ini file looks like:</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> <it id="1" ctype="x-em" pos="open">&lt;em></it>[SectionName]</source>
+<seg-source> <mrk mid="0" mtype="seg"><it id="1" ctype="x-em" pos="open">&lt;em></it>[SectionName]</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><it id="1" ctype="x-em" pos="open">&lt;em></it>[SectionName]</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> Key=Value<it id="1" ctype="x-em" pos="close">&lt;/em></it></source>
+<seg-source> <mrk mid="0" mtype="seg">Key=Value<it id="1" ctype="x-em" pos="close">&lt;/em></it></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Key=Value<it id="1" ctype="x-em" pos="close">&lt;/em></it></mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> All values returned are converted as a string. Therefore if you wish an integer e.g. 1000 to be a number use either <bpt id="1" ctype="x-a">&lt;a href="Int.htm"></bpt>Int()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="Number.htm"></bpt>Number()<ept id="2">&lt;/a></ept>, like-wise if you want a hwnd to be a ptr, the use <bpt id="3" ctype="x-a">&lt;a href="Ptr.htm"></bpt>Ptr()<ept id="3">&lt;/a></ept> or <bpt id="4" ctype="x-a">&lt;a href="HWnd.htm"></bpt>HWnd()<ept id="4">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">All values returned are converted as a string.</mrk> <mrk mid="1" mtype="seg">Therefore if you wish an integer e.g.</mrk> <mrk mid="2" mtype="seg">1000 to be a number use either <bpt id="1" ctype="x-a">&lt;a href="Int.htm"></bpt>Int()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="Number.htm"></bpt>Number()<ept id="2">&lt;/a></ept>, like-wise if you want a hwnd to be a ptr, the use <bpt id="3" ctype="x-a">&lt;a href="Ptr.htm"></bpt>Ptr()<ept id="3">&lt;/a></ept> or <bpt id="4" ctype="x-a">&lt;a href="HWnd.htm"></bpt>HWnd()<ept id="4">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">All values returned are converted as a string.</mrk> <mrk mid="1" mtype="seg">Therefore if you wish an integer e.g.</mrk> <mrk mid="2" mtype="seg">1000 to be a number use either <bpt id="1" ctype="x-a">&lt;a href="Int.htm"></bpt>Int()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="Number.htm"></bpt>Number()<ept id="2">&lt;/a></ept>, like-wise if you want a hwnd to be a ptr, the use <bpt id="3" ctype="x-a">&lt;a href="Ptr.htm"></bpt>Ptr()<ept id="3">&lt;/a></ept> or <bpt id="4" ctype="x-a">&lt;a href="HWnd.htm"></bpt>HWnd()<ept id="4">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Create a constant variable in Local scope of the filepath that will be read/written to.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a constant variable in Local scope of the filepath that will be read/written to.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a constant variable in Local scope of the filepath that will be read/written to.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Write the value of 'AutoIt' to the key 'Title' and in the section labelled 'General'.</source>
+<seg-source><mrk mid="0" mtype="seg">Write the value of 'AutoIt' to the key 'Title' and in the section labelled 'General'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write the value of 'AutoIt' to the key 'Title' and in the section labelled 'General'.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">General</source>
+<seg-source><mrk mid="0" mtype="seg">General</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">General</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Title</source>
+<seg-source><mrk mid="0" mtype="seg">Title</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Title</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">AutoIt</source>
+<seg-source><mrk mid="0" mtype="seg">AutoIt</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AutoIt</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Read the INI file for the value of 'Title' in the section labelled 'General'.</source>
+<seg-source><mrk mid="0" mtype="seg">Read the INI file for the value of 'Title' in the section labelled 'General'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Read the INI file for the value of 'Title' in the section labelled 'General'.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">General</source>
+<seg-source><mrk mid="0" mtype="seg">General</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">General</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Title</source>
+<seg-source><mrk mid="0" mtype="seg">Title</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Title</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Default Value</source>
+<seg-source><mrk mid="0" mtype="seg">Default Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default Value</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Display the value returned by IniRead.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the value returned by IniRead.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the value returned by IniRead.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">The value of 'Title' in the section labelled 'General' is:</source>
+<seg-source><mrk mid="0" mtype="seg">The value of 'Title' in the section labelled 'General' is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The value of 'Title' in the section labelled 'General' is:</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Delete the key labelled 'Title'.</source>
+<seg-source><mrk mid="0" mtype="seg">Delete the key labelled 'Title'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete the key labelled 'Title'.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">General</source>
+<seg-source><mrk mid="0" mtype="seg">General</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">General</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Title</source>
+<seg-source><mrk mid="0" mtype="seg">Title</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Title</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Read the INI file for the value of 'Title' in the section labelled 'General'.</source>
+<seg-source><mrk mid="0" mtype="seg">Read the INI file for the value of 'Title' in the section labelled 'General'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Read the INI file for the value of 'Title' in the section labelled 'General'.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">General</source>
+<seg-source><mrk mid="0" mtype="seg">General</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">General</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Title</source>
+<seg-source><mrk mid="0" mtype="seg">Title</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Title</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Default Value</source>
+<seg-source><mrk mid="0" mtype="seg">Default Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default Value</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Display the value returned by IniRead. Since there is no key stored the value will be the 'Default Value' passed to IniRead.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the value returned by IniRead.</mrk> <mrk mid="1" mtype="seg">Since there is no key stored the value will be the 'Default Value' passed to IniRead.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the value returned by IniRead.</mrk> <mrk mid="1" mtype="seg">Since there is no key stored the value will be the 'Default Value' passed to IniRead.</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">The value of 'Title' in the section labelled 'General' is:</source>
+<seg-source><mrk mid="0" mtype="seg">The value of 'Title' in the section labelled 'General' is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The value of 'Title' in the section labelled 'General' is:</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Delete the INI file.</source>
+<seg-source><mrk mid="0" mtype="seg">Delete the INI file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete the INI file.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_CreateDesktop.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a new desktop, associates it with the current window station of the calling process</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a new desktop, associates it with the current window station of the calling process</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a new desktop, associates it with the current window station of the calling process</mrk></target>
+<note>Function _WinAPI_CreateDesktop</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The name of the desktop to be created. Desktop names are case-insensitive and may not contain backslash characters (\).</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the desktop to be created.</mrk> <mrk mid="1" mtype="seg">Desktop names are case-insensitive and may not contain backslash characters (\).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the desktop to be created.</mrk> <mrk mid="1" mtype="seg">Desktop names are case-insensitive and may not contain backslash characters (\).</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The requested access to the desktop. This parameter can be one or more of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The requested access to the desktop.</mrk> <mrk mid="2" mtype="seg">This parameter can be one or more of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The requested access to the desktop.</mrk> <mrk mid="2" mtype="seg">This parameter can be one or more of the following values:</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $DESKTOP_ALL_ACCESS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DESKTOP_ALL_ACCESS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DESKTOP_ALL_ACCESS</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $DESKTOP_CREATEMENU</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DESKTOP_CREATEMENU</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DESKTOP_CREATEMENU</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $DESKTOP_CREATEWINDOW (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DESKTOP_CREATEWINDOW (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DESKTOP_CREATEWINDOW (Default)</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $DESKTOP_ENUMERATE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DESKTOP_ENUMERATE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DESKTOP_ENUMERATE</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $DESKTOP_HOOKCONTROL</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DESKTOP_HOOKCONTROL</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DESKTOP_HOOKCONTROL</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $DESKTOP_JOURNALPLAYBACK</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DESKTOP_JOURNALPLAYBACK</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DESKTOP_JOURNALPLAYBACK</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $DESKTOP_JOURNALRECORD</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DESKTOP_JOURNALRECORD</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DESKTOP_JOURNALRECORD</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $DESKTOP_READOBJECTS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DESKTOP_READOBJECTS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DESKTOP_READOBJECTS</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $DESKTOP_SWITCHDESKTOP</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DESKTOP_SWITCHDESKTOP</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DESKTOP_SWITCHDESKTOP</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $DESKTOP_WRITEOBJECTS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DESKTOP_WRITEOBJECTS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DESKTOP_WRITEOBJECTS</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The optional flags. It can be zero or the following value:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The optional flags.</mrk> <mrk mid="2" mtype="seg">It can be zero or the following value:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The optional flags.</mrk> <mrk mid="2" mtype="seg">It can be zero or the following value:</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $DF_ALLOWOTHERACCOUNTHOOK</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DF_ALLOWOTHERACCOUNTHOOK</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DF_ALLOWOTHERACCOUNTHOOK</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The size of the desktop heap, in kilobytes. Default is 0.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The size of the desktop heap, in kilobytes.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The size of the desktop heap, in kilobytes.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></target>
+<note>$iHeap</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> $tagSECURITY_ATTRIBUTES structure that determines whether the returned handle can be inherited by child processes.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">$tagSECURITY_ATTRIBUTES structure that determines whether the returned handle can be inherited by child processes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">$tagSECURITY_ATTRIBUTES structure that determines whether the returned handle can be inherited by child processes.</mrk></target>
+<note>$tSecurity</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> If this parameter is 0 (Default), the handle cannot be inherited .</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is 0 (Default), the handle cannot be inherited .</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is 0 (Default), the handle cannot be inherited .</mrk></target>
+<note>$tSecurity</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Handle to the newly created desktop. If the specified desktop already exists, the function succeeds and returns a handle to the existing desktop.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the newly created desktop.</mrk> <mrk mid="1" mtype="seg">If the specified desktop already exists, the function succeeds and returns a handle to the existing desktop.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the newly created desktop.</mrk> <mrk mid="1" mtype="seg">If the specified desktop already exists, the function succeeds and returns a handle to the existing desktop.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> 0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">The number of desktops that can be created is limited by the size of the system desktop heap.</source>
+<seg-source><mrk mid="0" mtype="seg">The number of desktops that can be created is limited by the size of the system desktop heap.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The number of desktops that can be created is limited by the size of the system desktop heap.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> You can increase the number of desktops that can be created by increasing the size of the desktop heap or by reducing the default heap reserved for each desktop in the interactive window station.</source>
+<seg-source> <mrk mid="0" mtype="seg">You can increase the number of desktops that can be created by increasing the size of the desktop heap or by reducing the default heap reserved for each desktop in the interactive window station.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">You can increase the number of desktops that can be created by increasing the size of the desktop heap or by reducing the default heap reserved for each desktop in the interactive window station.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> The default size of the desktop heap depends on factors such as hardware architecture.</source>
+<seg-source> <mrk mid="0" mtype="seg">The default size of the desktop heap depends on factors such as hardware architecture.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The default size of the desktop heap depends on factors such as hardware architecture.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> To retrieve the size of the heap, call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetUserObjectInformation.htm"></bpt>_WinAPI_GetUserObjectInformation()<ept id="1">&lt;/a></ept> function with $UOI_HEAPSIZE.</source>
+<seg-source> <mrk mid="0" mtype="seg">To retrieve the size of the heap, call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetUserObjectInformation.htm"></bpt>_WinAPI_GetUserObjectInformation()<ept id="1">&lt;/a></ept> function with $UOI_HEAPSIZE.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To retrieve the size of the heap, call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetUserObjectInformation.htm"></bpt>_WinAPI_GetUserObjectInformation()<ept id="1">&lt;/a></ept> function with $UOI_HEAPSIZE.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> When you are finished using the desktop, call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CloseDesktop.htm"></bpt>_WinAPI_CloseDesktop()<ept id="1">&lt;/a></ept> function to close it.</source>
+<seg-source> <mrk mid="0" mtype="seg">When you are finished using the desktop, call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CloseDesktop.htm"></bpt>_WinAPI_CloseDesktop()<ept id="1">&lt;/a></ept> function to close it.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When you are finished using the desktop, call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CloseDesktop.htm"></bpt>_WinAPI_CloseDesktop()<ept id="1">&lt;/a></ept> function to close it.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateDesktopEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateDesktopEx<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateDesktopEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateDesktopEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateDesktopEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateDesktopEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Retrieve a handle to the current desktop and create a new desktop named "MyDesktop"</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve a handle to the current desktop and create a new desktop named "MyDesktop"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve a handle to the current desktop and create a new desktop named "MyDesktop"</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">MyDesktop</source>
+<seg-source><mrk mid="0" mtype="seg">MyDesktop</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MyDesktop</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Unable to create desktop.</source>
+<seg-source><mrk mid="0" mtype="seg">Unable to create desktop.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unable to create desktop.</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Switch to the newly created desktop</source>
+<seg-source><mrk mid="0" mtype="seg">Switch to the newly created desktop</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Switch to the newly created desktop</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Run "calc.exe" on "MyDesktop" and wait until a process will not be closed by user</source>
+<seg-source><mrk mid="0" mtype="seg">Run "calc.exe" on "MyDesktop" and wait until a process will not be closed by user</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Run "calc.exe" on "MyDesktop" and wait until a process will not be closed by user</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">MyDesktop</source>
+<seg-source><mrk mid="0" mtype="seg">MyDesktop</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MyDesktop</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Size</source>
+<seg-source><mrk mid="0" mtype="seg">Size</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Size</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Desktop</source>
+<seg-source><mrk mid="0" mtype="seg">Desktop</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Desktop</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">\calc.exe</source>
+<seg-source><mrk mid="0" mtype="seg">\calc.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\calc.exe</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">ProcessID</source>
+<seg-source><mrk mid="0" mtype="seg">ProcessID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ProcessID</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Switch to previous desktop and close "MyDesktop"</source>
+<seg-source><mrk mid="0" mtype="seg">Switch to previous desktop and close "MyDesktop"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Switch to previous desktop and close "MyDesktop"</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Free memory allocated for a string</source>
+<seg-source><mrk mid="0" mtype="seg">Free memory allocated for a string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Free memory allocated for a string</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

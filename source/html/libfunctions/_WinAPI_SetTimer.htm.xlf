@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_SetTimer.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a timer with the specified time-out value</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a timer with the specified time-out value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a timer with the specified time-out value</mrk></target>
+<note>Function _WinAPI_SetTimer</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the window to be associated with the timer. This window must be owned by the calling</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the window to be associated with the timer.</mrk> <mrk mid="1" mtype="seg">This window must be owned by the calling</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the window to be associated with the timer.</mrk> <mrk mid="1" mtype="seg">This window must be owned by the calling</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> process. If a 0 value for $hWnd is passed in along with an $iTimerID of an existing timer, that</source>
+<seg-source> <mrk mid="0" mtype="seg">process.</mrk> <mrk mid="1" mtype="seg">If a 0 value for $hWnd is passed in along with an $iTimerID of an existing timer, that</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">process.</mrk> <mrk mid="1" mtype="seg">If a 0 value for $hWnd is passed in along with an $iTimerID of an existing timer, that</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> timer will be replaced in the same way that an existing non-zero $hWnd timer will be.</source>
+<seg-source> <mrk mid="0" mtype="seg">timer will be replaced in the same way that an existing non-zero $hWnd timer will be.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">timer will be replaced in the same way that an existing non-zero $hWnd timer will be.</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> The timer identifier. If the $hWnd parameter is 0, and the $iTimerID does not match an existing</source>
+<seg-source> <mrk mid="0" mtype="seg">The timer identifier.</mrk> <mrk mid="1" mtype="seg">If the $hWnd parameter is 0, and the $iTimerID does not match an existing</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The timer identifier.</mrk> <mrk mid="1" mtype="seg">If the $hWnd parameter is 0, and the $iTimerID does not match an existing</mrk></target>
+<note>$iTimerID</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> timer then it is ignored and a new timer ID is generated. If the $hWnd parameter is not 0 and</source>
+<seg-source> <mrk mid="0" mtype="seg">timer then it is ignored and a new timer ID is generated.</mrk> <mrk mid="1" mtype="seg">If the $hWnd parameter is not 0 and</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">timer then it is ignored and a new timer ID is generated.</mrk> <mrk mid="1" mtype="seg">If the $hWnd parameter is not 0 and</mrk></target>
+<note>$iTimerID</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> the window specified by $hWnd already has a timer with the value $iTimerID, then the existing</source>
+<seg-source> <mrk mid="0" mtype="seg">the window specified by $hWnd already has a timer with the value $iTimerID, then the existing</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">the window specified by $hWnd already has a timer with the value $iTimerID, then the existing</mrk></target>
+<note>$iTimerID</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> timer is replaced by the new timer. When <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetTimer.htm"></bpt>_WinAPI_SetTimer()<ept id="1">&lt;/a></ept> replaces a timer, the timer is reset.</source>
+<seg-source> <mrk mid="0" mtype="seg">timer is replaced by the new timer.</mrk> <mrk mid="1" mtype="seg">When <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetTimer.htm"></bpt>_WinAPI_SetTimer()<ept id="1">&lt;/a></ept> replaces a timer, the timer is reset.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">timer is replaced by the new timer.</mrk> <mrk mid="1" mtype="seg">When <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetTimer.htm"></bpt>_WinAPI_SetTimer()<ept id="1">&lt;/a></ept> replaces a timer, the timer is reset.</mrk></target>
+<note>$iTimerID</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> Therefore, a message will be sent after the current time-out value elapses, but the previously</source>
+<seg-source> <mrk mid="0" mtype="seg">Therefore, a message will be sent after the current time-out value elapses, but the previously</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Therefore, a message will be sent after the current time-out value elapses, but the previously</mrk></target>
+<note>$iTimerID</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> set time-out value is ignored. If the call is not intended to replace an existing timer,</source>
+<seg-source> <mrk mid="0" mtype="seg">set time-out value is ignored.</mrk> <mrk mid="1" mtype="seg">If the call is not intended to replace an existing timer,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">set time-out value is ignored.</mrk> <mrk mid="1" mtype="seg">If the call is not intended to replace an existing timer,</mrk></target>
+<note>$iTimerID</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> $iTimerID should be 0 if the $hWnd is 0. </source>
+<seg-source> <mrk mid="0" mtype="seg">$iTimerID should be 0 if the $hWnd is 0.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$iTimerID should be 0 if the $hWnd is 0.</mrk> </target>
+<note>$iTimerID</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">The time-out value, in milliseconds.</source>
+<seg-source><mrk mid="0" mtype="seg">The time-out value, in milliseconds.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The time-out value, in milliseconds.</mrk></target>
+<note>$iElapse</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">The address of a callback function to be notified when the time-out value elapses. If this</source>
+<seg-source><mrk mid="0" mtype="seg">The address of a callback function to be notified when the time-out value elapses.</mrk> <mrk mid="1" mtype="seg">If this</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The address of a callback function to be notified when the time-out value elapses.</mrk> <mrk mid="1" mtype="seg">If this</mrk></target>
+<note>$pTimerFunc</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> parameter is 0, the system posts a WM_TIMER message to the application queue.</source>
+<seg-source> <mrk mid="0" mtype="seg">parameter is 0, the system posts a WM_TIMER message to the application queue.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">parameter is 0, the system posts a WM_TIMER message to the application queue.</mrk></target>
+<note>$pTimerFunc</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> (See MSDN for more information)</source>
+<seg-source> <mrk mid="0" mtype="seg">(See MSDN for more information)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">(See MSDN for more information)</mrk></target>
+<note>$pTimerFunc</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> The timer identifier. An application can pass this value to the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_KillTimer.htm"></bpt>_WinAPI_KillTimer()<ept id="1">&lt;/a></ept> function to</source>
+<seg-source> <mrk mid="0" mtype="seg">The timer identifier.</mrk> <mrk mid="1" mtype="seg">An application can pass this value to the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_KillTimer.htm"></bpt>_WinAPI_KillTimer()<ept id="1">&lt;/a></ept> function to</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The timer identifier.</mrk> <mrk mid="1" mtype="seg">An application can pass this value to the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_KillTimer.htm"></bpt>_WinAPI_KillTimer()<ept id="1">&lt;/a></ept> function to</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> destroy the timer. </source>
+<seg-source> <mrk mid="0" mtype="seg">destroy the timer.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">destroy the timer.</mrk> </target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">The timer identifier, $iTimerID, is specific to the associated window. Another window can have its own timer</source>
+<seg-source><mrk mid="0" mtype="seg">The timer identifier, $iTimerID, is specific to the associated window.</mrk> <mrk mid="1" mtype="seg">Another window can have its own timer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The timer identifier, $iTimerID, is specific to the associated window.</mrk> <mrk mid="1" mtype="seg">Another window can have its own timer</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> which has the same identifier as a timer owned by another window. The timers are distinct.</source>
+<seg-source> <mrk mid="0" mtype="seg">which has the same identifier as a timer owned by another window.</mrk> <mrk mid="1" mtype="seg">The timers are distinct.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">which has the same identifier as a timer owned by another window.</mrk> <mrk mid="1" mtype="seg">The timers are distinct.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetTimer);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetTimer<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetTimer);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetTimer<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetTimer);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetTimer<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">TrayAutoPause</source>
+<seg-source><mrk mid="0" mtype="seg">TrayAutoPause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayAutoPause</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">_TimerProc</source>
+<seg-source><mrk mid="0" mtype="seg">_TimerProc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_TimerProc</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">none</source>
+<seg-source><mrk mid="0" mtype="seg">none</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">none</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">hwnd;uint;uint_ptr;dword</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd;uint;uint_ptr;dword</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd;uint;uint_ptr;dword</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">1B</source>
+<seg-source><mrk mid="0" mtype="seg">1B</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1B</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

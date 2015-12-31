@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_DuplicateTokenEx.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a new primary or impersonation access token that duplicates an existing token</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a new primary or impersonation access token that duplicates an existing token</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a new primary or impersonation access token that duplicates an existing token</mrk></target>
+<note>Function _WinAPI_DuplicateTokenEx</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">A handle to an access token opened with $TOKEN_DUPLICATE access.</source>
+<seg-source><mrk mid="0" mtype="seg">A handle to an access token opened with $TOKEN_DUPLICATE access.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A handle to an access token opened with $TOKEN_DUPLICATE access.</mrk></target>
+<note>$hToken</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The requested access rights for the new token. To request the same access rights as the existing token, specify zero.</source>
+<seg-source><mrk mid="0" mtype="seg">The requested access rights for the new token.</mrk> <mrk mid="1" mtype="seg">To request the same access rights as the existing token, specify zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The requested access rights for the new token.</mrk> <mrk mid="1" mtype="seg">To request the same access rights as the existing token, specify zero.</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> To request all access rights that are valid for the caller, specify the $TOKEN_ALL_ACCESS access.</source>
+<seg-source> <mrk mid="0" mtype="seg">To request all access rights that are valid for the caller, specify the $TOKEN_ALL_ACCESS access.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To request all access rights that are valid for the caller, specify the $TOKEN_ALL_ACCESS access.</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The security impersonation levels.</source>
+<seg-source><mrk mid="0" mtype="seg">The security impersonation levels.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The security impersonation levels.</mrk></target>
+<note>$iLevel</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $SECURITYANONYMOUS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SECURITYANONYMOUS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SECURITYANONYMOUS</mrk></target>
+<note>$iLevel</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $SECURITYIDENTIFICATION</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SECURITYIDENTIFICATION</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SECURITYIDENTIFICATION</mrk></target>
+<note>$iLevel</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $SECURITYIMPERSONATION</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SECURITYIMPERSONATION</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SECURITYIMPERSONATION</mrk></target>
+<note>$iLevel</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $SECURITYDELEGATION</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SECURITYDELEGATION</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SECURITYDELEGATION</mrk></target>
+<note>$iLevel</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The token type.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The token type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The token type.</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $TOKENPRIMARY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TOKENPRIMARY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TOKENPRIMARY</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $TOKENIMPERSONATION</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TOKENIMPERSONATION</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TOKENIMPERSONATION</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> $tagSECURITY_ATTRIBUTES structure that specifies a security descriptor for the new token and determines whether child processes can inherit the token.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">$tagSECURITY_ATTRIBUTES structure that specifies a security descriptor for the new token and determines whether child processes can inherit the token.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">$tagSECURITY_ATTRIBUTES structure that specifies a security descriptor for the new token and determines whether child processes can inherit the token.</mrk></target>
+<note>$tSecurity</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> If this parameter is 0 (Default), the token gets a default security descriptor and the handle cannot be inherited.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is 0 (Default), the token gets a default security descriptor and the handle cannot be inherited.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is 0 (Default), the token gets a default security descriptor and the handle cannot be inherited.</mrk></target>
+<note>$tSecurity</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> If the security descriptor contains a system access control list, the token gets $ACCESS_SYSTEM_SECURITY access right, even if it was not requested.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the security descriptor contains a system access control list, the token gets $ACCESS_SYSTEM_SECURITY access right, even if it was not requested.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the security descriptor contains a system access control list, the token gets $ACCESS_SYSTEM_SECURITY access right, even if it was not requested.</mrk></target>
+<note>$tSecurity</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">The handle to the new token.</source>
+<seg-source><mrk mid="0" mtype="seg">The handle to the new token.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The handle to the new token.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> 0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">When you have finished using the new token, call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CloseHandle.htm"></bpt>_WinAPI_CloseHandle()<ept id="1">&lt;/a></ept> function to close the token handle.</source>
+<seg-source><mrk mid="0" mtype="seg">When you have finished using the new token, call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CloseHandle.htm"></bpt>_WinAPI_CloseHandle()<ept id="1">&lt;/a></ept> function to close the token handle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you have finished using the new token, call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CloseHandle.htm"></bpt>_WinAPI_CloseHandle()<ept id="1">&lt;/a></ept> function to close the token handle.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DuplicateTokenEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DuplicateTokenEx<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DuplicateTokenEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DuplicateTokenEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DuplicateTokenEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DuplicateTokenEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

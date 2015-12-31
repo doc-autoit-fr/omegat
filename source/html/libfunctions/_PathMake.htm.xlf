@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_PathMake.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a path from drive, directory, file name and file extension parts</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a path from drive, directory, file name and file extension parts</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a path from drive, directory, file name and file extension parts</mrk></target>
+<note>Function _PathMake</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Drive (Can be UNC). If it's a drive letter, a : is automatically appended</source>
+<seg-source><mrk mid="0" mtype="seg">Drive (Can be UNC).</mrk> <mrk mid="1" mtype="seg">If it's a drive letter, a : is automatically appended</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Drive (Can be UNC).</mrk> <mrk mid="1" mtype="seg">If it's a drive letter, a : is automatically appended</mrk></target>
+<note>$sDrive</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Directory. A trailing and preceding slash are added if not found.</source>
+<seg-source><mrk mid="0" mtype="seg">Directory.</mrk> <mrk mid="1" mtype="seg">A trailing and preceding slash are added if not found.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Directory.</mrk> <mrk mid="1" mtype="seg">A trailing and preceding slash are added if not found.</mrk></target>
+<note>$sDir</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The name of the file</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the file</mrk></target>
+<note>$sFileName</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The file extension. A period is supplied if not found in the extension</source>
+<seg-source><mrk mid="0" mtype="seg">The file extension.</mrk> <mrk mid="1" mtype="seg">A period is supplied if not found in the extension</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The file extension.</mrk> <mrk mid="1" mtype="seg">A period is supplied if not found in the extension</mrk></target>
+<note>$sExtension</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Returns the string containing the full path.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the string containing the full path.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the string containing the full path.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">The path will still be built with what is passed. This doesn't check the validity of the path created, it could contain characters which are invalid on your filesystem.</source>
+<seg-source><mrk mid="0" mtype="seg">The path will still be built with what is passed.</mrk> <mrk mid="1" mtype="seg">This doesn't check the validity of the path created, it could contain characters which are invalid on your filesystem.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The path will still be built with what is passed.</mrk> <mrk mid="1" mtype="seg">This doesn't check the validity of the path created, it could contain characters which are invalid on your filesystem.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> You may pass "" (an empty string) for any part of the path you do not need in the final output.</source>
+<seg-source> <mrk mid="0" mtype="seg">You may pass "" (an empty string) for any part of the path you do not need in the final output.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">You may pass "" (an empty string) for any part of the path you do not need in the final output.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Create a path.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a path.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a path.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">C:</source>
+<seg-source><mrk mid="0" mtype="seg">C:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">C:</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">\Temp</source>
+<seg-source><mrk mid="0" mtype="seg">\Temp</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Temp</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Boot</source>
+<seg-source><mrk mid="0" mtype="seg">Boot</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Boot</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">ini</source>
+<seg-source><mrk mid="0" mtype="seg">ini</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ini</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

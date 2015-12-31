@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_CreateColorAdjustment.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates $tagCOLORADJUSTMENT structure specifies the color adjustment</source>
+<seg-source><mrk mid="0" mtype="seg">Creates $tagCOLORADJUSTMENT structure specifies the color adjustment</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates $tagCOLORADJUSTMENT structure specifies the color adjustment</mrk></target>
+<note>Function _WinAPI_CreateColorAdjustment</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The flags that specify how the output image should be prepared. This parameter can be 0 or any combination of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The flags that specify how the output image should be prepared.</mrk> <mrk mid="2" mtype="seg">This parameter can be 0 or any combination of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The flags that specify how the output image should be prepared.</mrk> <mrk mid="2" mtype="seg">This parameter can be 0 or any combination of the following values:</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">     $CA_NEGATIVE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CA_NEGATIVE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CA_NEGATIVE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $CA_LOG_FILTER</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CA_LOG_FILTER</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CA_LOG_FILTER</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The type of standard light source under which the image is viewed. This parameter can be only one of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The type of standard light source under which the image is viewed.</mrk> <mrk mid="2" mtype="seg">This parameter can be only one of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The type of standard light source under which the image is viewed.</mrk> <mrk mid="2" mtype="seg">This parameter can be only one of the following values:</mrk></target>
+<note>$iIlluminant</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $ILLUMINANT_DEVICE_DEFAULT (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ILLUMINANT_DEVICE_DEFAULT (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ILLUMINANT_DEVICE_DEFAULT (Default)</mrk></target>
+<note>$iIlluminant</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $ILLUMINANT_A</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ILLUMINANT_A</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ILLUMINANT_A</mrk></target>
+<note>$iIlluminant</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $ILLUMINANT_B</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ILLUMINANT_B</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ILLUMINANT_B</mrk></target>
+<note>$iIlluminant</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $ILLUMINANT_C</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ILLUMINANT_C</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ILLUMINANT_C</mrk></target>
+<note>$iIlluminant</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $ILLUMINANT_D50</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ILLUMINANT_D50</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ILLUMINANT_D50</mrk></target>
+<note>$iIlluminant</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $ILLUMINANT_D55</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ILLUMINANT_D55</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ILLUMINANT_D55</mrk></target>
+<note>$iIlluminant</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $ILLUMINANT_D65</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ILLUMINANT_D65</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ILLUMINANT_D65</mrk></target>
+<note>$iIlluminant</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $ILLUMINANT_D75</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ILLUMINANT_D75</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ILLUMINANT_D75</mrk></target>
+<note>$iIlluminant</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $ILLUMINANT_F2</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ILLUMINANT_F2</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ILLUMINANT_F2</mrk></target>
+<note>$iIlluminant</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $ILLUMINANT_TUNGSTEN</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ILLUMINANT_TUNGSTEN</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ILLUMINANT_TUNGSTEN</mrk></target>
+<note>$iIlluminant</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $ILLUMINANT_DAYLIGHT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ILLUMINANT_DAYLIGHT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ILLUMINANT_DAYLIGHT</mrk></target>
+<note>$iIlluminant</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $ILLUMINANT_FLUORESCENT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ILLUMINANT_FLUORESCENT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ILLUMINANT_FLUORESCENT</mrk></target>
+<note>$iIlluminant</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $ILLUMINANT_NTSC</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ILLUMINANT_NTSC</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ILLUMINANT_NTSC</mrk></target>
+<note>$iIlluminant</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The n(th) power gamma-correction value for the red primary of the source colors.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The n(th) power gamma-correction value for the red primary of the source colors.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The n(th) power gamma-correction value for the red primary of the source colors.</mrk></target>
+<note>$iGammaR</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> The value must be in the range from 2500 to 65,000.</source>
+<seg-source> <mrk mid="0" mtype="seg">The value must be in the range from 2500 to 65,000.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The value must be in the range from 2500 to 65,000.</mrk></target>
+<note>$iGammaR</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> A value of 10,000 (Default) means no gamma correction.</source>
+<seg-source> <mrk mid="0" mtype="seg">A value of 10,000 (Default) means no gamma correction.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">A value of 10,000 (Default) means no gamma correction.</mrk></target>
+<note>$iGammaR</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The n(th) power gamma-correction value for the green primary of the source colors.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The n(th) power gamma-correction value for the green primary of the source colors.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The n(th) power gamma-correction value for the green primary of the source colors.</mrk></target>
+<note>$iGammaG</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> The value must be in the range from 2500 to 65,000.</source>
+<seg-source> <mrk mid="0" mtype="seg">The value must be in the range from 2500 to 65,000.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The value must be in the range from 2500 to 65,000.</mrk></target>
+<note>$iGammaG</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> A value of 10,000 (Default) means no gamma correction.</source>
+<seg-source> <mrk mid="0" mtype="seg">A value of 10,000 (Default) means no gamma correction.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">A value of 10,000 (Default) means no gamma correction.</mrk></target>
+<note>$iGammaG</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The n(th) power gamma-correction value for the blue primary of the source colors.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The n(th) power gamma-correction value for the blue primary of the source colors.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The n(th) power gamma-correction value for the blue primary of the source colors.</mrk></target>
+<note>$iGammaB</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> The value must be in the range from 2500 to 65,000.</source>
+<seg-source> <mrk mid="0" mtype="seg">The value must be in the range from 2500 to 65,000.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The value must be in the range from 2500 to 65,000.</mrk></target>
+<note>$iGammaB</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> A value of 10,000 (Default) means no gamma correction.</source>
+<seg-source> <mrk mid="0" mtype="seg">A value of 10,000 (Default) means no gamma correction.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">A value of 10,000 (Default) means no gamma correction.</mrk></target>
+<note>$iGammaB</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The black reference for the source colors. Any colors that are darker than this are treated as black.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The black reference for the source colors.</mrk> <mrk mid="2" mtype="seg">Any colors that are darker than this are treated as black.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The black reference for the source colors.</mrk> <mrk mid="2" mtype="seg">Any colors that are darker than this are treated as black.</mrk></target>
+<note>$iBlack</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en"> The value must be in the range from 0 to 4000.</source>
+<seg-source> <mrk mid="0" mtype="seg">The value must be in the range from 0 to 4000.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The value must be in the range from 0 to 4000.</mrk></target>
+<note>$iBlack</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en"> Default is 0.</source>
+<seg-source> <mrk mid="0" mtype="seg">Default is 0.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Default is 0.</mrk></target>
+<note>$iBlack</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The white reference for the source colors. Any colors that are lighter than this are treated as white.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The white reference for the source colors.</mrk> <mrk mid="2" mtype="seg">Any colors that are lighter than this are treated as white.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The white reference for the source colors.</mrk> <mrk mid="2" mtype="seg">Any colors that are lighter than this are treated as white.</mrk></target>
+<note>$iWhite</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en"> The value must be in the range from 6000 to 10,000.</source>
+<seg-source> <mrk mid="0" mtype="seg">The value must be in the range from 6000 to 10,000.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The value must be in the range from 6000 to 10,000.</mrk></target>
+<note>$iWhite</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"> Default is 10,000</source>
+<seg-source> <mrk mid="0" mtype="seg">Default is 10,000</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Default is 10,000</mrk></target>
+<note>$iWhite</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The amount of contrast to be applied to the source object.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The amount of contrast to be applied to the source object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The amount of contrast to be applied to the source object.</mrk></target>
+<note>$iContrast</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en"> The value must be in the range from -100 to 100.</source>
+<seg-source> <mrk mid="0" mtype="seg">The value must be in the range from -100 to 100.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The value must be in the range from -100 to 100.</mrk></target>
+<note>$iContrast</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en"> A value of 0 (Default) means no contrast adjustment.</source>
+<seg-source> <mrk mid="0" mtype="seg">A value of 0 (Default) means no contrast adjustment.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">A value of 0 (Default) means no contrast adjustment.</mrk></target>
+<note>$iContrast</note>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The amount of brightness to be applied to the source object.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The amount of brightness to be applied to the source object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The amount of brightness to be applied to the source object.</mrk></target>
+<note>$iBrightness</note>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en"> The value must be in the range from -100 to 100.</source>
+<seg-source> <mrk mid="0" mtype="seg">The value must be in the range from -100 to 100.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The value must be in the range from -100 to 100.</mrk></target>
+<note>$iBrightness</note>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en"> A value of 0 (Default) means no brightness adjustment.</source>
+<seg-source> <mrk mid="0" mtype="seg">A value of 0 (Default) means no brightness adjustment.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">A value of 0 (Default) means no brightness adjustment.</mrk></target>
+<note>$iBrightness</note>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The amount of colorfulness to be applied to the source object.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The amount of colorfulness to be applied to the source object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The amount of colorfulness to be applied to the source object.</mrk></target>
+<note>$iColorfulness</note>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en"> The value must be in the range from -100 to 100.</source>
+<seg-source> <mrk mid="0" mtype="seg">The value must be in the range from -100 to 100.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The value must be in the range from -100 to 100.</mrk></target>
+<note>$iColorfulness</note>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en"> A value of 0 (Default) means no colorfulness adjustment).</source>
+<seg-source> <mrk mid="0" mtype="seg">A value of 0 (Default) means no colorfulness adjustment).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">A value of 0 (Default) means no colorfulness adjustment).</mrk></target>
+<note>$iColorfulness</note>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The amount of red or green tint adjustment to be applied to the source object.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The amount of red or green tint adjustment to be applied to the source object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The amount of red or green tint adjustment to be applied to the source object.</mrk></target>
+<note>$iTint</note>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en"> The value must be in the range from -100 to 100.</source>
+<seg-source> <mrk mid="0" mtype="seg">The value must be in the range from -100 to 100.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The value must be in the range from -100 to 100.</mrk></target>
+<note>$iTint</note>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en"> Positive numbers adjust toward red and negative numbers adjust toward green.</source>
+<seg-source> <mrk mid="0" mtype="seg">Positive numbers adjust toward red and negative numbers adjust toward green.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Positive numbers adjust toward red and negative numbers adjust toward green.</mrk></target>
+<note>$iTint</note>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en"> A value of 0 (Default) means no tint adjustment.</source>
+<seg-source> <mrk mid="0" mtype="seg">A value of 0 (Default) means no tint adjustment.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">A value of 0 (Default) means no tint adjustment.</mrk></target>
+<note>$iTint</note>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Returns $tagCOLORADJUSTMENT structure containing the color adjustment values.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns $tagCOLORADJUSTMENT structure containing the color adjustment values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns $tagCOLORADJUSTMENT structure containing the color adjustment values.</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">GUICloseOnESC</source>
+<seg-source><mrk mid="0" mtype="seg">GUICloseOnESC</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUICloseOnESC</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">TrayAutoPause</source>
+<seg-source><mrk mid="0" mtype="seg">TrayAutoPause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayAutoPause</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Load Image</source>
+<seg-source><mrk mid="0" mtype="seg">Load Image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Load Image</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">\Extras</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Image Files (*.bmp;*.dib;*.gif;*.jpg;*.tif)|All Files (*.*)</source>
+<seg-source><mrk mid="0" mtype="seg">Image Files (*.bmp;*.dib;*.gif;*.jpg;*.tif)|All Files (*.*)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Image Files (*.bmp;*.dib;*.gif;*.jpg;*.tif)|All Files (*.*)</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">Unable to load image.</source>
+<seg-source><mrk mid="0" mtype="seg">Unable to load image.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unable to load image.</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">Adjustments</source>
+<seg-source><mrk mid="0" mtype="seg">Adjustments</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Adjustments</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">Red</source>
+<seg-source><mrk mid="0" mtype="seg">Red</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Red</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Green</source>
+<seg-source><mrk mid="0" mtype="seg">Green</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Green</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">Blue</source>
+<seg-source><mrk mid="0" mtype="seg">Blue</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Blue</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">Black</source>
+<seg-source><mrk mid="0" mtype="seg">Black</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Black</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">White</source>
+<seg-source><mrk mid="0" mtype="seg">White</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">White</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">Contrast</source>
+<seg-source><mrk mid="0" mtype="seg">Contrast</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contrast</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">Brightness</source>
+<seg-source><mrk mid="0" mtype="seg">Brightness</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Brightness</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">Colorfulness</source>
+<seg-source><mrk mid="0" mtype="seg">Colorfulness</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Colorfulness</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">Tint</source>
+<seg-source><mrk mid="0" mtype="seg">Tint</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Tint</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">:</source>
+<seg-source><mrk mid="0" mtype="seg">:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">:</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">Arial</source>
+<seg-source><mrk mid="0" mtype="seg">Arial</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Arial</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">Illuminant:</source>
+<seg-source><mrk mid="0" mtype="seg">Illuminant:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Illuminant:</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">Default|Tungsten lamp|Noon sunlight|NTSC daylight|Normal print|Bond paper print|Standard daylight|Northern daylight|Cool white lamp</source>
+<seg-source><mrk mid="0" mtype="seg">Default|Tungsten lamp|Noon sunlight|NTSC daylight|Normal print|Bond paper print|Standard daylight|Northern daylight|Cool white lamp</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default|Tungsten lamp|Noon sunlight|NTSC daylight|Normal print|Bond paper print|Standard daylight|Northern daylight|Cool white lamp</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">|</source>
+<seg-source><mrk mid="0" mtype="seg">|</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">|</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">Filters:</source>
+<seg-source><mrk mid="0" mtype="seg">Filters:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Filters:</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">Negative (invert colors)</source>
+<seg-source><mrk mid="0" mtype="seg">Negative (invert colors)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Negative (invert colors)</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">Logarithmic</source>
+<seg-source><mrk mid="0" mtype="seg">Logarithmic</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Logarithmic</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">Preview</source>
+<seg-source><mrk mid="0" mtype="seg">Preview</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Preview</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">Reset</source>
+<seg-source><mrk mid="0" mtype="seg">Reset</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Reset</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">Save...</source>
+<seg-source><mrk mid="0" mtype="seg">Save...</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Save...</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">WM_HSCROLL</source>
+<seg-source><mrk mid="0" mtype="seg">WM_HSCROLL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_HSCROLL</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">Save Image</source>
+<seg-source><mrk mid="0" mtype="seg">Save Image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Save Image</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">Image Files (*.bmp;*.dib;*.gif;*.jpg;*.tif)|All Files (*.*)</source>
+<seg-source><mrk mid="0" mtype="seg">Image Files (*.bmp;*.dib;*.gif;*.jpg;*.tif)|All Files (*.*)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Image Files (*.bmp;*.dib;*.gif;*.jpg;*.tif)|All Files (*.*)</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">\MyImage.jpg</source>
+<seg-source><mrk mid="0" mtype="seg">\MyImage.jpg</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\MyImage.jpg</mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">Unable to save image.</source>
+<seg-source><mrk mid="0" mtype="seg">Unable to save image.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unable to save image.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_FTP_Open.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Opens an FTP session</source>
+<seg-source><mrk mid="0" mtype="seg">Opens an FTP session</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Opens an FTP session</mrk></target>
+<note>Function _FTP_Open</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Random name. ( like "myftp" )</source>
+<seg-source><mrk mid="0" mtype="seg">Random name.</mrk> <mrk mid="1" mtype="seg">( like "myftp" )</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Random name.</mrk> <mrk mid="1" mtype="seg">( like "myftp" )</mrk></target>
+<note>$sAgent</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Set if proxy is used:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Set if proxy is used:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Set if proxy is used:</mrk></target>
+<note>$iAccessType</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $INTERNET_OPEN_TYPE_DIRECT -> no proxy (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INTERNET_OPEN_TYPE_DIRECT -> no proxy (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INTERNET_OPEN_TYPE_DIRECT -> no proxy (Default)</mrk></target>
+<note>$iAccessType</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $INTERNET_OPEN_TYPE_PRECONFIG -> Retrieves the proxy or direct configuration from the registry.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INTERNET_OPEN_TYPE_PRECONFIG -> Retrieves the proxy or direct configuration from the registry.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INTERNET_OPEN_TYPE_PRECONFIG -> Retrieves the proxy or direct configuration from the registry.</mrk></target>
+<note>$iAccessType</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $INTERNET_OPEN_TYPE_PRECONFIG_WITH_NO_AUTOPROXY -> Retrieves the proxy or direct configuration from the registry and prevents the use of a startup Microsoft JScript or Internet Setup (INS) file.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INTERNET_OPEN_TYPE_PRECONFIG_WITH_NO_AUTOPROXY -> Retrieves the proxy or direct configuration from the registry and prevents the use of a startup Microsoft JScript or Internet Setup (INS) file.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INTERNET_OPEN_TYPE_PRECONFIG_WITH_NO_AUTOPROXY -> Retrieves the proxy or direct configuration from the registry and prevents the use of a startup Microsoft JScript or Internet Setup (INS) file.</mrk></target>
+<note>$iAccessType</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $INTERNET_OPEN_TYPE_PROXY -> Passes requests to the proxy unless a proxy bypass list is supplied and the name to be resolved bypasses the proxy. Then no proxy is used.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INTERNET_OPEN_TYPE_PROXY -> Passes requests to the proxy unless a proxy bypass list is supplied and the name to be resolved bypasses the proxy.</mrk> <mrk mid="1" mtype="seg">Then no proxy is used.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INTERNET_OPEN_TYPE_PROXY -> Passes requests to the proxy unless a proxy bypass list is supplied and the name to be resolved bypasses the proxy.</mrk> <mrk mid="1" mtype="seg">Then no proxy is used.</mrk></target>
+<note>$iAccessType</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> ProxyName.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">ProxyName.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">ProxyName.</mrk></target>
+<note>$sProxyName</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> ProxyByPasses's.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">ProxyByPasses's.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">ProxyByPasses's.</mrk></target>
+<note>$sProxyBypass</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $INTERNET_FLAG_ASYNC -> Makes only asynchronous requests on handles descended from the handle returned from this function.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INTERNET_FLAG_ASYNC -> Makes only asynchronous requests on handles descended from the handle returned from this function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INTERNET_FLAG_ASYNC -> Makes only asynchronous requests on handles descended from the handle returned from this function.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $INTERNET_FLAG_FROM_CACHE -> Does not make network requests. All entities are returned from the cache. If the requested item is not in the cache, a suitable error, such as ERROR_FILE_NOT_FOUND, is returned.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INTERNET_FLAG_FROM_CACHE -> Does not make network requests.</mrk> <mrk mid="1" mtype="seg">All entities are returned from the cache.</mrk> <mrk mid="2" mtype="seg">If the requested item is not in the cache, a suitable error, such as ERROR_FILE_NOT_FOUND, is returned.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INTERNET_FLAG_FROM_CACHE -> Does not make network requests.</mrk> <mrk mid="1" mtype="seg">All entities are returned from the cache.</mrk> <mrk mid="2" mtype="seg">If the requested item is not in the cache, a suitable error, such as ERROR_FILE_NOT_FOUND, is returned.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> a handle to internet session to be used in <bpt id="1" ctype="x-a">&lt;a href="_FTP_Connect.htm"></bpt>_FTP_Connect()<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">a handle to internet session to be used in <bpt id="1" ctype="x-a">&lt;a href="_FTP_Connect.htm"></bpt>_FTP_Connect()<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">a handle to internet session to be used in <bpt id="1" ctype="x-a">&lt;a href="_FTP_Connect.htm"></bpt>_FTP_Connect()<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(InternetOpen);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>InternetOpen<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(InternetOpen);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>InternetOpen<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(InternetOpen);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>InternetOpen<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">MyFTP Control</source>
+<seg-source><mrk mid="0" mtype="seg">MyFTP Control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MyFTP Control</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">...</source>
+<seg-source><mrk mid="0" mtype="seg">...</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">...</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

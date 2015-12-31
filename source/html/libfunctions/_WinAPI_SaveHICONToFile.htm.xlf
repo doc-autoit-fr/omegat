@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_SaveHICONToFile.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Saves a specified single or multiple icon (HICON) to the specified icon (.ico) file</source>
+<seg-source><mrk mid="0" mtype="seg">Saves a specified single or multiple icon (HICON) to the specified icon (.ico) file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Saves a specified single or multiple icon (HICON) to the specified icon (.ico) file</mrk></target>
+<note>Function _WinAPI_SaveHICONToFile</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The name of the .ico file in which to save the icon.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the .ico file in which to save the icon.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the .ico file in which to save the icon.</mrk></target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Handle to the icon or array of the icon handles to be save.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the icon or array of the icon handles to be save.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the icon or array of the icon handles to be save.</mrk></target>
+<note>$vIcon</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether to use PNG compression for the 32 bits-per-pixel icons if its size exceed or</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to use PNG compression for the 32 bits-per-pixel icons if its size exceed or</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to use PNG compression for the 32 bits-per-pixel icons if its size exceed or</mrk></target>
+<note>$bCompress</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> equal to 256x256 pixels (262144 bytes), valid values:</source>
+<seg-source> <mrk mid="0" mtype="seg">equal to 256x256 pixels (262144 bytes), valid values:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">equal to 256x256 pixels (262144 bytes), valid values:</mrk></target>
+<note>$bCompress</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> True - The icon will be saved as a PNG image.</source>
+<seg-source> <mrk mid="0" mtype="seg">True - The icon will be saved as a PNG image.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">True - The icon will be saved as a PNG image.</mrk></target>
+<note>$bCompress</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> False - The icon will be saved directly (Default).</source>
+<seg-source> <mrk mid="0" mtype="seg">False - The icon will be saved directly (Default).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">False - The icon will be saved directly (Default).</mrk></target>
+<note>$bCompress</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The index of array to start saving at.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array to start saving at.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array to start saving at.</mrk></target>
+<note>$iStart</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The index of array to stop saving at.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array to stop saving at.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array to stop saving at.</mrk></target>
+<note>$iEnd</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">This function works with 16, 24, and 32 bits-per-pixel icons. Since the icon handles always contains a device-depended</source>
+<seg-source><mrk mid="0" mtype="seg">This function works with 16, 24, and 32 bits-per-pixel icons.</mrk> <mrk mid="1" mtype="seg">Since the icon handles always contains a device-depended</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function works with 16, 24, and 32 bits-per-pixel icons.</mrk> <mrk mid="1" mtype="seg">Since the icon handles always contains a device-depended</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> XOR bitmap (DDB), the resulting image that saved in .ico file may differ from the source image.</source>
+<seg-source> <mrk mid="0" mtype="seg">XOR bitmap (DDB), the resulting image that saved in .ico file may differ from the source image.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">XOR bitmap (DDB), the resulting image that saved in .ico file may differ from the source image.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> If the specified icon is a 32 bits-per-pixel icon, and uses the AND bitmask bitmap instead of alpha channel,</source>
+<seg-source> <mrk mid="0" mtype="seg">If the specified icon is a 32 bits-per-pixel icon, and uses the AND bitmask bitmap instead of alpha channel,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the specified icon is a 32 bits-per-pixel icon, and uses the AND bitmask bitmap instead of alpha channel,</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> it will be converted to an icon with alpha channel (RGB + Alpha).</source>
+<seg-source> <mrk mid="0" mtype="seg">it will be converted to an icon with alpha channel (RGB + Alpha).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">it will be converted to an icon with alpha channel (RGB + Alpha).</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> Note that the icons with PNG compression are supported starting only with Windows Vista. In addition,</source>
+<seg-source> <mrk mid="0" mtype="seg">Note that the icons with PNG compression are supported starting only with Windows Vista.</mrk> <mrk mid="1" mtype="seg">In addition,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Note that the icons with PNG compression are supported starting only with Windows Vista.</mrk> <mrk mid="1" mtype="seg">In addition,</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> not all applications can work with such icons.</source>
+<seg-source> <mrk mid="0" mtype="seg">not all applications can work with such icons.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">not all applications can work with such icons.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">\shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">\shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">\MyIcon.ico</source>
+<seg-source><mrk mid="0" mtype="seg">\MyIcon.ico</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\MyIcon.ico</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">mspaint</source>
+<seg-source><mrk mid="0" mtype="seg">mspaint</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mspaint</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">\MyIcon.ico</source>
+<seg-source><mrk mid="0" mtype="seg">\MyIcon.ico</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\MyIcon.ico</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_BrowseForFolderDlg.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Displays a dialog box that enables the user to select a Shell folder</source>
+<seg-source><mrk mid="0" mtype="seg">Displays a dialog box that enables the user to select a Shell folder</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Displays a dialog box that enables the user to select a Shell folder</mrk></target>
+<note>Function _WinAPI_BrowseForFolderDlg</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The root folder from which to start browsing.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The root folder from which to start browsing.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The root folder from which to start browsing.</mrk></target>
+<note>$sRoot</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> Only the specified folder and its subfolders in the namespace hierarchy appear in the dialog box.</source>
+<seg-source> <mrk mid="0" mtype="seg">Only the specified folder and its subfolders in the namespace hierarchy appear in the dialog box.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Only the specified folder and its subfolders in the namespace hierarchy appear in the dialog box.</mrk></target>
+<note>$sRoot</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> If this parameter is 0, the namespace root (the Desktop folder) is used.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is 0, the namespace root (the Desktop folder) is used.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is 0, the namespace root (the Desktop folder) is used.</mrk></target>
+<note>$sRoot</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The string that is displayed above the tree view control in the dialog box.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The string that is displayed above the tree view control in the dialog box.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The string that is displayed above the tree view control in the dialog box.</mrk></target>
+<note>$sText</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Flags that specify the options for the dialog box. This parameter can a combination of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Flags that specify the options for the dialog box.</mrk> <mrk mid="2" mtype="seg">This parameter can a combination of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Flags that specify the options for the dialog box.</mrk> <mrk mid="2" mtype="seg">This parameter can a combination of the following values:</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $BIF_BROWSEFORCOMPUTER</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BIF_BROWSEFORCOMPUTER</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BIF_BROWSEFORCOMPUTER</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $BIF_BROWSEFORPRINTER</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BIF_BROWSEFORPRINTER</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BIF_BROWSEFORPRINTER</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $BIF_BROWSEINCLUDEFILES</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BIF_BROWSEINCLUDEFILES</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BIF_BROWSEINCLUDEFILES</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $BIF_BROWSEINCLUDEURLS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BIF_BROWSEINCLUDEURLS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BIF_BROWSEINCLUDEURLS</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $BIF_DONTGOBELOWDOMAIN</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BIF_DONTGOBELOWDOMAIN</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BIF_DONTGOBELOWDOMAIN</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $BIF_EDITBOX</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BIF_EDITBOX</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BIF_EDITBOX</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $BIF_NEWDIALOGSTYLE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BIF_NEWDIALOGSTYLE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BIF_NEWDIALOGSTYLE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $BIF_NONEWFOLDERBUTTON</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BIF_NONEWFOLDERBUTTON</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BIF_NONEWFOLDERBUTTON</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $BIF_NOTRANSLATETARGETS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BIF_NOTRANSLATETARGETS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BIF_NOTRANSLATETARGETS</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $BIF_RETURNFSANCESTORS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BIF_RETURNFSANCESTORS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BIF_RETURNFSANCESTORS</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $BIF_RETURNONLYFSDIRS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BIF_RETURNONLYFSDIRS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BIF_RETURNONLYFSDIRS</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $BIF_SHAREABLE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BIF_SHAREABLE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BIF_SHAREABLE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     $BIF_STATUSTEXT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BIF_STATUSTEXT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BIF_STATUSTEXT</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     $BIF_USENEWUI</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BIF_USENEWUI</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BIF_USENEWUI</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     $BIF_UAHINT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BIF_UAHINT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BIF_UAHINT</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">     $BIF_VALIDATE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BIF_VALIDATE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BIF_VALIDATE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows 7 or later<ept id="1">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows 7 or later<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows 7 or later<ept id="1">&lt;/strong></ept></mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">     $BIF_BROWSEFILEJUNCTIONS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BIF_BROWSEFILEJUNCTIONS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BIF_BROWSEFILEJUNCTIONS</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Pointer to a callback function that the dialog box calls when an event occurs.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Pointer to a callback function that the dialog box calls when an event occurs.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Pointer to a callback function that the dialog box calls when an event occurs.</mrk></target>
+<note>$pBrowseProc</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> This function will receive one of the following event messages:</source>
+<seg-source> <mrk mid="0" mtype="seg">This function will receive one of the following event messages:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function will receive one of the following event messages:</mrk></target>
+<note>$pBrowseProc</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">     $BFFM_INITIALIZED</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BFFM_INITIALIZED</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BFFM_INITIALIZED</mrk></target>
+<note>$pBrowseProc</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">     $BFFM_IUNKNOWN</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BFFM_IUNKNOWN</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BFFM_IUNKNOWN</mrk></target>
+<note>$pBrowseProc</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">     $BFFM_SELCHANGED</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BFFM_SELCHANGED</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BFFM_SELCHANGED</mrk></target>
+<note>$pBrowseProc</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">     $BFFM_VALIDATEFAILED</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BFFM_VALIDATEFAILED</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BFFM_VALIDATEFAILED</mrk></target>
+<note>$pBrowseProc</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en"> (See MSDN for more information)</source>
+<seg-source> <mrk mid="0" mtype="seg">(See MSDN for more information)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">(See MSDN for more information)</mrk></target>
+<note>$pBrowseProc</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The value that the dialog box passes to the callback function.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The value that the dialog box passes to the callback function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The value that the dialog box passes to the callback function.</mrk></target>
+<note>$lParam</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Handle to the parent window for the dialog box.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Handle to the parent window for the dialog box.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Handle to the parent window for the dialog box.</mrk></target>
+<note>$hParent</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">The full path for chosen folder, or an empty string if user cancels/closes the dialog.</source>
+<seg-source><mrk mid="0" mtype="seg">The full path for chosen folder, or an empty string if user cancels/closes the dialog.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The full path for chosen folder, or an empty string if user cancels/closes the dialog.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Empty string.</source>
+<seg-source><mrk mid="0" mtype="seg">Empty string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Empty string.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHBrowseForFolder);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHBrowseForFolder<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHBrowseForFolder);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHBrowseForFolder<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHBrowseForFolder);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHBrowseForFolder<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">_BrowseProc</source>
+<seg-source><mrk mid="0" mtype="seg">_BrowseProc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_BrowseProc</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">hwnd;uint;lparam;ptr</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd;uint;lparam;ptr</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd;uint;lparam;ptr</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Select a folder from the list below.</source>
+<seg-source><mrk mid="0" mtype="seg">Select a folder from the list below.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Select a folder from the list below.</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">--------------------------------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">--------------------------------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--------------------------------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">MyTitle</source>
+<seg-source><mrk mid="0" mtype="seg">MyTitle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MyTitle</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">is invalid.</source>
+<seg-source><mrk mid="0" mtype="seg">is invalid.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">is invalid.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

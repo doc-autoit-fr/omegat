@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_Excel_RangeLinkAddRemove.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Adds or removes a hyperlink to/from a specified range</source>
+<seg-source><mrk mid="0" mtype="seg">Adds or removes a hyperlink to/from a specified range</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Adds or removes a hyperlink to/from a specified range</mrk></target>
+<note>Function _Excel_RangeLinkAddRemove</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Excel workbook object</source>
+<seg-source><mrk mid="0" mtype="seg">Excel workbook object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel workbook object</mrk></target>
+<note>$oWorkbook</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Name, index or worksheet object to be used. If set to keyword Default the active sheet will be used</source>
+<seg-source><mrk mid="0" mtype="seg">Name, index or worksheet object to be used.</mrk> <mrk mid="1" mtype="seg">If set to keyword Default the active sheet will be used</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Name, index or worksheet object to be used.</mrk> <mrk mid="1" mtype="seg">If set to keyword Default the active sheet will be used</mrk></target>
+<note>$vWorksheet</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Either a range object or an A1 range to be set to a hyperlink</source>
+<seg-source><mrk mid="0" mtype="seg">Either a range object or an A1 range to be set to a hyperlink</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Either a range object or an A1 range to be set to a hyperlink</mrk></target>
+<note>$vRange</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The address for the specified link. The address can be an E-mail address, an Internet</source>
+<seg-source><mrk mid="0" mtype="seg">The address for the specified link.</mrk> <mrk mid="1" mtype="seg">The address can be an E-mail address, an Internet</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The address for the specified link.</mrk> <mrk mid="1" mtype="seg">The address can be an E-mail address, an Internet</mrk></target>
+<note>$sAddress</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     address or a file name. "" removes an existing hyperlink</source>
+<seg-source> <mrk mid="0" mtype="seg">    address or a file name.</mrk> <mrk mid="1" mtype="seg">"" removes an existing hyperlink</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    address or a file name.</mrk> <mrk mid="1" mtype="seg">"" removes an existing hyperlink</mrk></target>
+<note>$sAddress</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The name of a location within the destination file, such as a bookmark, named range</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The name of a location within the destination file, such as a bookmark, named range</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The name of a location within the destination file, such as a bookmark, named range</mrk></target>
+<note>$sSubAddress</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     or slide number (default = keyword Default = None)</source>
+<seg-source> <mrk mid="0" mtype="seg">    or slide number (default = keyword Default = None)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    or slide number (default = keyword Default = None)</mrk></target>
+<note>$sSubAddress</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The text that appears as a ScreenTip when the mouse pointer is positioned over the</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The text that appears as a ScreenTip when the mouse pointer is positioned over the</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The text that appears as a ScreenTip when the mouse pointer is positioned over the</mrk></target>
+<note>$sScreenTip</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     specified hyperlink (default = keyword Default = Uses value of $sAddress)</source>
+<seg-source> <mrk mid="0" mtype="seg">    specified hyperlink (default = keyword Default = Uses value of $sAddress)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    specified hyperlink (default = keyword Default = Uses value of $sAddress)</mrk></target>
+<note>$sScreenTip</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The text to be displayed for the hyperlink (default = keyword Default = None)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The text to be displayed for the hyperlink (default = keyword Default = None)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The text to be displayed for the hyperlink (default = keyword Default = None)</mrk></target>
+<note>$sTextToDisplay</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">a hyperlinks object when a link is set or 1 when a link is removed.</source>
+<seg-source><mrk mid="0" mtype="seg">a hyperlinks object when a link is set or 1 when a link is removed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a hyperlinks object when a link is set or 1 when a link is removed.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">0 and sets @error.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets @error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets @error.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">1 - $oWorkbook is not an object or not a workbook object</source>
+<seg-source><mrk mid="0" mtype="seg">1 - $oWorkbook is not an object or not a workbook object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - $oWorkbook is not an object or not a workbook object</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> 2 - $vWorksheet name or index are invalid or $vWorksheet is not a worksheet object. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - $vWorksheet name or index are invalid or $vWorksheet is not a worksheet object.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - $vWorksheet name or index are invalid or $vWorksheet is not a worksheet object.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> 3 - $vRange is invalid. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - $vRange is invalid.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - $vRange is invalid.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> 4 - Error occurred when adding/removing the hyperlink. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">4 - Error occurred when adding/removing the hyperlink.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 - Error occurred when adding/removing the hyperlink.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Looks like Excel only writes the $sTextToDisplay to the upper left cell of a range (if the cell is empty). The remaining cells of the range remain untouced.</source>
+<seg-source><mrk mid="0" mtype="seg">Looks like Excel only writes the $sTextToDisplay to the upper left cell of a range (if the cell is empty).</mrk> <mrk mid="1" mtype="seg">The remaining cells of the range remain untouced.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Looks like Excel only writes the $sTextToDisplay to the upper left cell of a range (if the cell is empty).</mrk> <mrk mid="1" mtype="seg">The remaining cells of the range remain untouced.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Create application object and open an example workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Excel UDF: _Excel_RangeLinkAddRemove Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeLinkAddRemove Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeLinkAddRemove Example</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Error creating the Excel application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">\Extras\_Excel1.xls</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Excel UDF: _Excel_RangeLinkAddRemove Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeLinkAddRemove Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeLinkAddRemove Example</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Error opening workbook '</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening workbook '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening workbook '</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">\Extras\_Excel1.xls'.</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Add a link to cells A1:C1</source>
+<seg-source><mrk mid="0" mtype="seg">Add a link to cells A1:C1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add a link to cells A1:C1</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">A1:C1</source>
+<seg-source><mrk mid="0" mtype="seg">A1:C1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A1:C1</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">http://www.autoitscript.com</source>
+<seg-source><mrk mid="0" mtype="seg">http://www.autoitscript.com</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">http://www.autoitscript.com</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">AutoIt Homepage</source>
+<seg-source><mrk mid="0" mtype="seg">AutoIt Homepage</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AutoIt Homepage</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Excel UDF: _Excel_RangeLinkAddRemove Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeLinkAddRemove Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeLinkAddRemove Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Error setting hyperlink.</source>
+<seg-source><mrk mid="0" mtype="seg">Error setting hyperlink.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error setting hyperlink.</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Excel UDF: _Excel_RangeLinkAddRemove Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeLinkAddRemove Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeLinkAddRemove Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Links set to cells 'A1:C3'.</source>
+<seg-source><mrk mid="0" mtype="seg">Links set to cells 'A1:C3'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Links set to cells 'A1:C3'.</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Remove the links from cells A1:C1</source>
+<seg-source><mrk mid="0" mtype="seg">Remove the links from cells A1:C1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remove the links from cells A1:C1</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">A1:C1</source>
+<seg-source><mrk mid="0" mtype="seg">A1:C1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A1:C1</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Excel UDF: _Excel_RangeLinkAddRemove Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeLinkAddRemove Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeLinkAddRemove Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Error setting hyperlink.</source>
+<seg-source><mrk mid="0" mtype="seg">Error setting hyperlink.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error setting hyperlink.</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Excel UDF: _Excel_RangeLinkAddRemove Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeLinkAddRemove Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeLinkAddRemove Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">Links removed from cells 'A1:C3'.</source>
+<seg-source><mrk mid="0" mtype="seg">Links removed from cells 'A1:C3'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Links removed from cells 'A1:C3'.</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">Create application object and open an example workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Excel UDF: _Excel_RangeLinkAddRemove Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeLinkAddRemove Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeLinkAddRemove Example</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">Error creating the Excel application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">\Extras\_Excel1.xls</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">Excel UDF: _Excel_RangeLinkAddRemove Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeLinkAddRemove Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeLinkAddRemove Example</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">Error opening workbook '</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening workbook '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening workbook '</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">\Extras\_Excel1.xls'.</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">Insert an index sheet with links to all other sheets.</source>
+<seg-source><mrk mid="0" mtype="seg">Insert an index sheet with links to all other sheets.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insert an index sheet with links to all other sheets.</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">Handles Sheet names with spaces correctly.</source>
+<seg-source><mrk mid="0" mtype="seg">Handles Sheet names with spaces correctly.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handles Sheet names with spaces correctly.</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">Index</source>
+<seg-source><mrk mid="0" mtype="seg">Index</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Index</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">Excel UDF: _Excel_RangeLinkAddRemove Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeLinkAddRemove Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeLinkAddRemove Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">Error adding sheet.</source>
+<seg-source><mrk mid="0" mtype="seg">Error adding sheet.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error adding sheet.</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">A1</source>
+<seg-source><mrk mid="0" mtype="seg">A1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A1</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">Index</source>
+<seg-source><mrk mid="0" mtype="seg">Index</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Index</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">'!A1</source>
+<seg-source><mrk mid="0" mtype="seg">'!</mrk><mrk mid="1" mtype="seg">A1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">'!</mrk><mrk mid="1" mtype="seg">A1</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">Excel UDF: _Excel_RangeLinkAddRemove Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeLinkAddRemove Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeLinkAddRemove Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">Index Sheet inserted as sheet 1.</source>
+<seg-source><mrk mid="0" mtype="seg">Index Sheet inserted as sheet 1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Index Sheet inserted as sheet 1.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

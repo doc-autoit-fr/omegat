@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUICtrlComboBox_InsertString.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Insert a string</source>
+<seg-source><mrk mid="0" mtype="seg">Insert a string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insert a string</mrk></target>
+<note>Function _GUICtrlComboBox_InsertString</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Control ID/Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Text string to be inserted</source>
+<seg-source><mrk mid="0" mtype="seg">Text string to be inserted</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text string to be inserted</mrk></target>
+<note>$sText</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the 0-based index of the position at which to insert the string.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the 0-based index of the position at which to insert the string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the 0-based index of the position at which to insert the string.</mrk></target>
+<note>$iIndex</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">a 0-based index of the position at which the string was inserted.</source>
+<seg-source><mrk mid="0" mtype="seg">a 0-based index of the position at which the string was inserted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a 0-based index of the position at which the string was inserted.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">-1.</source>
+<seg-source><mrk mid="0" mtype="seg">-1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">If the $iIndex parameter is –1, the string is added to the end of the list.</source>
+<seg-source><mrk mid="0" mtype="seg">If the $iIndex parameter is –1, the string is added to the end of the list.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the $iIndex parameter is –1, the string is added to the end of the list.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> If the ComboBox has $WS_HSCROLL style and you insert a string wider than the ComboBox, you should use the <bpt id="1" ctype="x-a">&lt;a href="_GUICtrlComboBox_SetHorizontalExtent.htm"></bpt>_GUICtrlComboBox_SetHorizontalExtent()<ept id="1">&lt;/a></ept> function to ensure the horizontal scrollbar appears.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the ComboBox has $WS_HSCROLL style and you insert a string wider than the ComboBox, you should use the <bpt id="1" ctype="x-a">&lt;a href="_GUICtrlComboBox_SetHorizontalExtent.htm"></bpt>_GUICtrlComboBox_SetHorizontalExtent()<ept id="1">&lt;/a></ept> function to ensure the horizontal scrollbar appears.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the ComboBox has $WS_HSCROLL style and you insert a string wider than the ComboBox, you should use the <bpt id="1" ctype="x-a">&lt;a href="_GUICtrlComboBox_SetHorizontalExtent.htm"></bpt>_GUICtrlComboBox_SetHorizontalExtent()<ept id="1">&lt;/a></ept> function to ensure the horizontal scrollbar appears.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">ComboBox Insert String</source>
+<seg-source><mrk mid="0" mtype="seg">ComboBox Insert String</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ComboBox Insert String</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Add files</source>
+<seg-source><mrk mid="0" mtype="seg">Add files</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add files</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">\*.exe</source>
+<seg-source><mrk mid="0" mtype="seg">\*.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\*.exe</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Insert string</source>
+<seg-source><mrk mid="0" mtype="seg">Insert string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insert string</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Some Inserted string</source>
+<seg-source><mrk mid="0" mtype="seg">Some Inserted string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Some Inserted string</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/WinGetCaretPos.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Returns the coordinates of the caret in the foreground window.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the coordinates of the caret in the foreground window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the coordinates of the caret in the foreground window.</mrk></target>
+<note>Function WinGetCaretPos</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">a 2-element array containing the following information:</source>
+<seg-source><mrk mid="0" mtype="seg">a 2-element array containing the following information:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a 2-element array containing the following information:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">     $aArray[0] = X coordinate</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[0] = X coordinate</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[0] = X coordinate</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $aArray[1] = Y coordinate</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[1] = Y coordinate</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[1] = Y coordinate</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="WinGetCaretPos.htm"></bpt>WinGetCaretPos()<ept id="1">&lt;/a></ept> might not return accurate values for Multiple Document Interface (MDI) applications if absolute CaretCoordMode is used. See example for a workaround. Note: Some applications report static coordinates regardless of caret position!</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="WinGetCaretPos.htm"></bpt>WinGetCaretPos()<ept id="1">&lt;/a></ept> might not return accurate values for Multiple Document Interface (MDI) applications if absolute CaretCoordMode is used.</mrk> <mrk mid="1" mtype="seg">See example for a workaround.</mrk> <mrk mid="2" mtype="seg">Note:</mrk> <mrk mid="3" mtype="seg">Some applications report static coordinates regardless of caret position!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="WinGetCaretPos.htm"></bpt>WinGetCaretPos()<ept id="1">&lt;/a></ept> might not return accurate values for Multiple Document Interface (MDI) applications if absolute CaretCoordMode is used.</mrk> <mrk mid="1" mtype="seg">See example for a workaround.</mrk> <mrk mid="2" mtype="seg">Note:</mrk> <mrk mid="3" mtype="seg">Some applications report static coordinates regardless of caret position!</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="AutoItSetOption.htm#CaretCoordMode"></bpt>CaretCoordMode (Option)<ept id="1">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="AutoItSetOption.htm#CaretCoordMode"></bpt>CaretCoordMode (Option)<ept id="1">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="AutoItSetOption.htm#CaretCoordMode"></bpt>CaretCoordMode (Option)<ept id="1">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">First Method</source>
+<seg-source><mrk mid="0" mtype="seg">First Method</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">First Method</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Second Method</source>
+<seg-source><mrk mid="0" mtype="seg">Second Method</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Second Method</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">A more reliable method to retrieve the caret coordinates in MDI text editors.</source>
+<seg-source><mrk mid="0" mtype="seg">A more reliable method to retrieve the caret coordinates in MDI text editors.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A more reliable method to retrieve the caret coordinates in MDI text editors.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">CaretCoordMode</source>
+<seg-source><mrk mid="0" mtype="seg">CaretCoordMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CaretCoordMode</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Set "CaretCoordMode" to relative mode and store the previous option.</source>
+<seg-source><mrk mid="0" mtype="seg">Set "CaretCoordMode" to relative mode and store the previous option.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set "CaretCoordMode" to relative mode and store the previous option.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Retrieve the relative caret coordinates.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve the relative caret coordinates.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve the relative caret coordinates.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">[ACTIVE]</source>
+<seg-source><mrk mid="0" mtype="seg">[ACTIVE]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[ACTIVE]</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Retrieve the position as well as height and width of the active window.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve the position as well as height and width of the active window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve the position as well as height and width of the active window.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">[ACTIVE]</source>
+<seg-source><mrk mid="0" mtype="seg">[ACTIVE]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[ACTIVE]</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Retrieve the control name that has keyboard focus.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve the control name that has keyboard focus.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve the control name that has keyboard focus.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">[ACTIVE]</source>
+<seg-source><mrk mid="0" mtype="seg">[ACTIVE]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[ACTIVE]</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Retrieve the position as well as the size of the control.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve the position as well as the size of the control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve the position as well as the size of the control.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">CaretCoordMode</source>
+<seg-source><mrk mid="0" mtype="seg">CaretCoordMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CaretCoordMode</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Reset "CaretCoordMode" to the previous option.</source>
+<seg-source><mrk mid="0" mtype="seg">Reset "CaretCoordMode" to the previous option.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Reset "CaretCoordMode" to the previous option.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Create an array to store the x, y position.</source>
+<seg-source><mrk mid="0" mtype="seg">Create an array to store the x, y position.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create an array to store the x, y position.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Return the array.</source>
+<seg-source><mrk mid="0" mtype="seg">Return the array.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return the array.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Return the array and set @error to 1.</source>
+<seg-source><mrk mid="0" mtype="seg">Return the array and set @error to 1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return the array and set @error to 1.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

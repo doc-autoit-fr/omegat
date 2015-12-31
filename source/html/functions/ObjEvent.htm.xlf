@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/ObjEvent.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Handles incoming events from the given Object.</source>
+<seg-source><mrk mid="0" mtype="seg">Handles incoming events from the given Object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handles incoming events from the given Object.</mrk></target>
+<note>Function ObjEvent</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">A variable containing an Object from which you want to receive events</source>
+<seg-source><mrk mid="0" mtype="seg">A variable containing an Object from which you want to receive events</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A variable containing an Object from which you want to receive events</mrk></target>
+<note>$ObjectVar</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The prefix of the functions you define to handle receiving events.</source>
+<seg-source><mrk mid="0" mtype="seg">The prefix of the functions you define to handle receiving events.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The prefix of the functions you define to handle receiving events.</mrk></target>
+<note>"functionprefix"</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> The prefix is appended by the Objects method name.</source>
+<seg-source> <mrk mid="0" mtype="seg">The prefix is appended by the Objects method name.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The prefix is appended by the Objects method name.</mrk></target>
+<note>"functionprefix"</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> name of an Event interface to use.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">name of an Event interface to use.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">name of an Event interface to use.</mrk></target>
+<note>"interface name"</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> Note: It must be a supported as outgoing for the Object AND it must be of type DISPATCH.</source>
+<seg-source> <mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">It must be a supported as outgoing for the Object AND it must be of type DISPATCH.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">It must be a supported as outgoing for the Object AND it must be of type DISPATCH.</mrk></target>
+<note>"interface name"</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">an object or a function name.</source>
+<seg-source><mrk mid="0" mtype="seg">an object or a function name.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an object or a function name.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">The first format is used to receive Events from the given Object.</source>
+<seg-source><mrk mid="0" mtype="seg">The first format is used to receive Events from the given Object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The first format is used to receive Events from the given Object.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> To receive a specific event, create an AutoIt function name using the given prefix appended with the event name.</source>
+<seg-source> <mrk mid="0" mtype="seg">To receive a specific event, create an AutoIt function name using the given prefix appended with the event name.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To receive a specific event, create an AutoIt function name using the given prefix appended with the event name.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> The second format is used for COM Error Handling.</source>
+<seg-source> <mrk mid="0" mtype="seg">The second format is used for COM Error Handling.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The second format is used for COM Error Handling.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> If any COM error occurs, the given function is being called. First parameter for the function will be error object.</source>
+<seg-source> <mrk mid="0" mtype="seg">If any COM error occurs, the given function is being called.</mrk> <mrk mid="1" mtype="seg">First parameter for the function will be error object.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If any COM error occurs, the given function is being called.</mrk> <mrk mid="1" mtype="seg">First parameter for the function will be error object.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> You can use it to access different properties of this object.</source>
+<seg-source> <mrk mid="0" mtype="seg">You can use it to access different properties of this object.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">You can use it to access different properties of this object.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> If the second parameter is omitted, it will return the name of the current Error handler function or function, depending what was used when registering.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the second parameter is omitted, it will return the name of the current Error handler function or function, depending what was used when registering.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the second parameter is omitted, it will return the name of the current Error handler function or function, depending what was used when registering.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> Properties of the AutoIt Error Object:</source>
+<seg-source> <mrk mid="0" mtype="seg">Properties of the AutoIt Error Object:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Properties of the AutoIt Error Object:</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">.number</source>
+<seg-source><mrk mid="0" mtype="seg">.number</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.number</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">The Windows HRESULT value from a COM call</source>
+<seg-source><mrk mid="0" mtype="seg">The Windows HRESULT value from a COM call</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Windows HRESULT value from a COM call</mrk></target>
+<note>.number</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">.windescription</source>
+<seg-source><mrk mid="0" mtype="seg">.windescription</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.windescription</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">The FormatWinError() text derived from .number</source>
+<seg-source><mrk mid="0" mtype="seg">The FormatWinError() text derived from .number</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The FormatWinError() text derived from .number</mrk></target>
+<note>.windescription</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">.source</source>
+<seg-source><mrk mid="0" mtype="seg">.source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.source</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Name of the Object generating the error (contents from ExcepInfo.source)</source>
+<seg-source><mrk mid="0" mtype="seg">Name of the Object generating the error (contents from ExcepInfo.source)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Name of the Object generating the error (contents from ExcepInfo.source)</mrk></target>
+<note>.source</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">.description</source>
+<seg-source><mrk mid="0" mtype="seg">.description</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.description</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Source Object's description of the error (contents from ExcepInfo.description)</source>
+<seg-source><mrk mid="0" mtype="seg">Source Object's description of the error (contents from ExcepInfo.description)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source Object's description of the error (contents from ExcepInfo.description)</mrk></target>
+<note>.description</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">.helpfile</source>
+<seg-source><mrk mid="0" mtype="seg">.helpfile</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.helpfile</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Source Object's helpfile for the error (contents from ExcepInfo.helpfile)</source>
+<seg-source><mrk mid="0" mtype="seg">Source Object's helpfile for the error (contents from ExcepInfo.helpfile)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source Object's helpfile for the error (contents from ExcepInfo.helpfile)</mrk></target>
+<note>.helpfile</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">.helpcontext</source>
+<seg-source><mrk mid="0" mtype="seg">.helpcontext</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.helpcontext</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Source Object's helpfile context id number (contents from ExcepInfo.helpcontext)</source>
+<seg-source><mrk mid="0" mtype="seg">Source Object's helpfile context id number (contents from ExcepInfo.helpcontext)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source Object's helpfile context id number (contents from ExcepInfo.helpcontext)</mrk></target>
+<note>.helpcontext</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">.lastdllerror</source>
+<seg-source><mrk mid="0" mtype="seg">.lastdllerror</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.lastdllerror</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">The number returned from GetLastError()</source>
+<seg-source><mrk mid="0" mtype="seg">The number returned from GetLastError()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The number returned from GetLastError()</mrk></target>
+<note>.lastdllerror</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">.scriptline</source>
+<seg-source><mrk mid="0" mtype="seg">.scriptline</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.scriptline</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">The script line on which the error was generated</source>
+<seg-source><mrk mid="0" mtype="seg">The script line on which the error was generated</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The script line on which the error was generated</mrk></target>
+<note>.scriptline</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en"> See the <bpt id="1" ctype="x-a">&lt;a href="../intro/ComRef.htm"></bpt>Obj/COM Reference<ept id="1">&lt;/a></ept> for a detailed explanation.</source>
+<seg-source> <mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-a">&lt;a href="../intro/ComRef.htm"></bpt>Obj/COM Reference<ept id="1">&lt;/a></ept> for a detailed explanation.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-a">&lt;a href="../intro/ComRef.htm"></bpt>Obj/COM Reference<ept id="1">&lt;/a></ept> for a detailed explanation.</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Error monitoring. This will trap all COM errors while alive.</source>
+<seg-source><mrk mid="0" mtype="seg">Error monitoring.</mrk> <mrk mid="1" mtype="seg">This will trap all COM errors while alive.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error monitoring.</mrk> <mrk mid="1" mtype="seg">This will trap all COM errors while alive.</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">This particular object is declared as local, meaning after the function returns it will not exist.</source>
+<seg-source><mrk mid="0" mtype="seg">This particular object is declared as local, meaning after the function returns it will not exist.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This particular object is declared as local, meaning after the function returns it will not exist.</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">AutoIt.Error</source>
+<seg-source><mrk mid="0" mtype="seg">AutoIt.</mrk><mrk mid="1" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AutoIt.</mrk><mrk mid="1" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">_ErrFunc</source>
+<seg-source><mrk mid="0" mtype="seg">_ErrFunc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_ErrFunc</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Create Internet Explorer object</source>
+<seg-source><mrk mid="0" mtype="seg">Create Internet Explorer object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create Internet Explorer object</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">InternetExplorer.Application</source>
+<seg-source><mrk mid="0" mtype="seg">InternetExplorer.</mrk><mrk mid="1" mtype="seg">Application</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">InternetExplorer.</mrk><mrk mid="1" mtype="seg">Application</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Check for errors</source>
+<seg-source><mrk mid="0" mtype="seg">Check for errors</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check for errors</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">set visibility</source>
+<seg-source><mrk mid="0" mtype="seg">set visibility</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">set visibility</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Custom sink object</source>
+<seg-source><mrk mid="0" mtype="seg">Custom sink object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Custom sink object</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">_IEEvent_</source>
+<seg-source><mrk mid="0" mtype="seg">_IEEvent_</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_IEEvent_</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">DWebBrowserEvents2</source>
+<seg-source><mrk mid="0" mtype="seg">DWebBrowserEvents2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DWebBrowserEvents2</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Navigate somewhere</source>
+<seg-source><mrk mid="0" mtype="seg">Navigate somewhere</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Navigate somewhere</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">http://www.google.com/</source>
+<seg-source><mrk mid="0" mtype="seg">http://www.google.com/</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">http://www.google.com/</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Check for errors while loading</source>
+<seg-source><mrk mid="0" mtype="seg">Check for errors while loading</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check for errors while loading</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Wait for page to load</source>
+<seg-source><mrk mid="0" mtype="seg">Wait for page to load</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wait for page to load</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">complete</source>
+<seg-source><mrk mid="0" mtype="seg">complete</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">complete</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Deliberately cause error by calling non-existing method</source>
+<seg-source><mrk mid="0" mtype="seg">Deliberately cause error by calling non-existing method</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Deliberately cause error by calling non-existing method</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Check for errors</source>
+<seg-source><mrk mid="0" mtype="seg">Check for errors</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check for errors</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">COM Error</source>
+<seg-source><mrk mid="0" mtype="seg">COM Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">COM Error</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">@error is set to COM error number.</source>
+<seg-source><mrk mid="0" mtype="seg">@error is set to COM error number.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error is set to COM error number.</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">@error = 0x</source>
+<seg-source><mrk mid="0" mtype="seg">@error = 0x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error = 0x</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Wait few seconds to see if more events will be fired</source>
+<seg-source><mrk mid="0" mtype="seg">Wait few seconds to see if more events will be fired</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wait few seconds to see if more events will be fired</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">Nothing more to do. Close IE and return from the function</source>
+<seg-source><mrk mid="0" mtype="seg">Nothing more to do.</mrk> <mrk mid="1" mtype="seg">Close IE and return from the function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Nothing more to do.</mrk> <mrk mid="1" mtype="seg">Close IE and return from the function</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">BeforeNavigate2 method definition</source>
+<seg-source><mrk mid="0" mtype="seg">BeforeNavigate2 method definition</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BeforeNavigate2 method definition</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!--BeforeNavigate2 fired--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</source>
+<seg-source><mrk mid="0" mtype="seg">!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!--BeforeNavigate2 fired--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!--BeforeNavigate2 fired--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">$oIEpDisp =</source>
+<seg-source><mrk mid="0" mtype="seg">$oIEpDisp =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$oIEpDisp =</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">-</source>
+<seg-source><mrk mid="0" mtype="seg">-</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">e.g. default property and name for the object</source>
+<seg-source><mrk mid="0" mtype="seg">e.g. default property and name for the object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">e.g. default property and name for the object</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">$sIEURL =</source>
+<seg-source><mrk mid="0" mtype="seg">$sIEURL =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$sIEURL =</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">$iIEFlags =</source>
+<seg-source><mrk mid="0" mtype="seg">$iIEFlags =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$iIEFlags =</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">$sIETargetFrameName =</source>
+<seg-source><mrk mid="0" mtype="seg">$sIETargetFrameName =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$sIETargetFrameName =</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">$sIEPostData =</source>
+<seg-source><mrk mid="0" mtype="seg">$sIEPostData =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$sIEPostData =</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">$iIEHeaders =</source>
+<seg-source><mrk mid="0" mtype="seg">$iIEHeaders =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$iIEHeaders =</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">$bIECancel =</source>
+<seg-source><mrk mid="0" mtype="seg">$bIECancel =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$bIECancel =</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</source>
+<seg-source><mrk mid="0" mtype="seg">!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">User's COM error function. Will be called if COM error occurs</source>
+<seg-source><mrk mid="0" mtype="seg">User's COM error function.</mrk> <mrk mid="1" mtype="seg">Will be called if COM error occurs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">User's COM error function.</mrk> <mrk mid="1" mtype="seg">Will be called if COM error occurs</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">Do anything here.</source>
+<seg-source><mrk mid="0" mtype="seg">Do anything here.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Do anything here.</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">(</source>
+<seg-source><mrk mid="0" mtype="seg">(</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">) : ==> COM Error intercepted !</source>
+<seg-source><mrk mid="0" mtype="seg">) : ==> COM Error intercepted !</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">) : ==> COM Error intercepted !</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">err.number is:</source>
+<seg-source><mrk mid="0" mtype="seg">err.number is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">err.number is:</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">0x</source>
+<seg-source><mrk mid="0" mtype="seg">0x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">err.windescription:</source>
+<seg-source><mrk mid="0" mtype="seg">err.windescription:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">err.windescription:</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">err.description is:</source>
+<seg-source><mrk mid="0" mtype="seg">err.description is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">err.description is:</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">err.source is:</source>
+<seg-source><mrk mid="0" mtype="seg">err.source is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">err.source is:</mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">err.helpfile is:</source>
+<seg-source><mrk mid="0" mtype="seg">err.helpfile is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">err.helpfile is:</mrk></target>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">err.helpcontext is:</source>
+<seg-source><mrk mid="0" mtype="seg">err.helpcontext is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">err.helpcontext is:</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">err.lastdllerror is:</source>
+<seg-source><mrk mid="0" mtype="seg">err.lastdllerror is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">err.lastdllerror is:</mrk></target>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en">err.scriptline is:</source>
+<seg-source><mrk mid="0" mtype="seg">err.scriptline is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">err.scriptline is:</mrk></target>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">err.retcode is:</source>
+<seg-source><mrk mid="0" mtype="seg">err.retcode is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">err.retcode is:</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">0x</source>
+<seg-source><mrk mid="0" mtype="seg">0x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x</mrk></target>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">Shell.Application</source>
+<seg-source><mrk mid="0" mtype="seg">Shell.</mrk><mrk mid="1" mtype="seg">Application</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shell.</mrk><mrk mid="1" mtype="seg">Application</mrk></target>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en">Wrap calls that are likely to fatal error</source>
+<seg-source><mrk mid="0" mtype="seg">Wrap calls that are likely to fatal error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wrap calls that are likely to fatal error</mrk></target>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en">This won't fatal error, it will set @error as in 3.3.11.0</source>
+<seg-source><mrk mid="0" mtype="seg">This won't fatal error, it will set @error as in 3.3.11.0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This won't fatal error, it will set @error as in 3.3.11.0</mrk></target>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en">COM Error Detected</source>
+<seg-source><mrk mid="0" mtype="seg">COM Error Detected</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">COM Error Detected</mrk></target>
+</trans-unit>
+<trans-unit id="94">
+<source xml:lang="en">This will fatal error, the 2nd line will not be reached.</source>
+<seg-source><mrk mid="0" mtype="seg">This will fatal error, the 2nd line will not be reached.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This will fatal error, the 2nd line will not be reached.</mrk></target>
+</trans-unit>
+<trans-unit id="95">
+<source xml:lang="en">COM Error Detected</source>
+<seg-source><mrk mid="0" mtype="seg">COM Error Detected</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">COM Error Detected</mrk></target>
+</trans-unit>
+<trans-unit id="96">
+<source xml:lang="en">AutoIt.Error</source>
+<seg-source><mrk mid="0" mtype="seg">AutoIt.</mrk><mrk mid="1" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AutoIt.</mrk><mrk mid="1" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="97">
+<source xml:lang="en">Template_COMErrFunc</source>
+<seg-source><mrk mid="0" mtype="seg">Template_COMErrFunc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Template_COMErrFunc</mrk></target>
+</trans-unit>
+<trans-unit id="98">
+<source xml:lang="en">Do nothing special, just check @error after suspect functions.</source>
+<seg-source><mrk mid="0" mtype="seg">Do nothing special, just check @error after suspect functions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Do nothing special, just check @error after suspect functions.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

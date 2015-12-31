@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_DecryptFile.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Decrypts an encrypted file or directory</source>
+<seg-source><mrk mid="0" mtype="seg">Decrypts an encrypted file or directory</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Decrypts an encrypted file or directory</mrk></target>
+<note>Function _WinAPI_DecryptFile</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The name of the file or directory to be decrypted. If $sFilePath specifies a read-only file, the function fails and the last error code is ERROR_FILE_READ_ONLY (6009). If $sFilePath specifies a directory that contains a read-only file, the functions succeeds but the directory is not decrypted.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the file or directory to be decrypted.</mrk> <mrk mid="1" mtype="seg">If $sFilePath specifies a read-only file, the function fails and the last error code is ERROR_FILE_READ_ONLY (6009).</mrk> <mrk mid="2" mtype="seg">If $sFilePath specifies a directory that contains a read-only file, the functions succeeds but the directory is not decrypted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the file or directory to be decrypted.</mrk> <mrk mid="1" mtype="seg">If $sFilePath specifies a read-only file, the function fails and the last error code is ERROR_FILE_READ_ONLY (6009).</mrk> <mrk mid="2" mtype="seg">If $sFilePath specifies a directory that contains a read-only file, the functions succeeds but the directory is not decrypted.</mrk></target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information </source>
+<seg-source> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DecryptFile.htm"></bpt>_WinAPI_DecryptFile()<ept id="1">&lt;/a></ept> function requires exclusive access to the file being decrypted, and will fail if another process is using the file.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DecryptFile.htm"></bpt>_WinAPI_DecryptFile()<ept id="1">&lt;/a></ept> function requires exclusive access to the file being decrypted, and will fail if another process is using the file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DecryptFile.htm"></bpt>_WinAPI_DecryptFile()<ept id="1">&lt;/a></ept> function requires exclusive access to the file being decrypted, and will fail if another process is using the file.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> If the file is not encrypted, the function simply returns a nonzero value, which indicates success.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the file is not encrypted, the function simply returns a nonzero value, which indicates success.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the file is not encrypted, the function simply returns a nonzero value, which indicates success.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DecryptFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DecryptFile<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DecryptFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DecryptFile<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DecryptFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DecryptFile<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Select File</source>
+<seg-source><mrk mid="0" mtype="seg">Select File</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Select File</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">All Files (*.*)</source>
+<seg-source><mrk mid="0" mtype="seg">All Files (*.*)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All Files (*.*)</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Encryption File</source>
+<seg-source><mrk mid="0" mtype="seg">Encryption File</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encryption File</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">The file encrypted is successfully.</source>
+<seg-source><mrk mid="0" mtype="seg">The file encrypted is successfully.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The file encrypted is successfully.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Encryption File</source>
+<seg-source><mrk mid="0" mtype="seg">Encryption File</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encryption File</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Unable to encrypt file.</source>
+<seg-source><mrk mid="0" mtype="seg">Unable to encrypt file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unable to encrypt file.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Encryption File</source>
+<seg-source><mrk mid="0" mtype="seg">Encryption File</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encryption File</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">The file is already encrypted.</source>
+<seg-source><mrk mid="0" mtype="seg">The file is already encrypted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The file is already encrypted.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Decrypt?</source>
+<seg-source><mrk mid="0" mtype="seg">Decrypt?</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Decrypt?</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Encryption File</source>
+<seg-source><mrk mid="0" mtype="seg">Encryption File</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encryption File</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">The file decrypted is successfully.</source>
+<seg-source><mrk mid="0" mtype="seg">The file decrypted is successfully.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The file decrypted is successfully.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Encryption File</source>
+<seg-source><mrk mid="0" mtype="seg">Encryption File</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encryption File</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Unable to decrypt file.</source>
+<seg-source><mrk mid="0" mtype="seg">Unable to decrypt file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unable to decrypt file.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Encryption File</source>
+<seg-source><mrk mid="0" mtype="seg">Encryption File</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encryption File</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Unable to perform operation.</source>
+<seg-source><mrk mid="0" mtype="seg">Unable to perform operation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unable to perform operation.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_IEFrameGetCollection.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Returns a collection object containing the frames in a FrameSet or the iFrames on a normal page or a single Frame or iFrame by index</source>
+<seg-source><mrk mid="0" mtype="seg">Returns a collection object containing the frames in a FrameSet or the iFrames on a normal page or a single Frame or iFrame by index</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns a collection object containing the frames in a FrameSet or the iFrames on a normal page or a single Frame or iFrame by index</mrk></target>
+<note>Function _IEFrameGetCollection</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Object variable of an InternetExplorer.Application, Window or Frame object</source>
+<seg-source><mrk mid="0" mtype="seg">Object variable of an InternetExplorer.</mrk><mrk mid="1" mtype="seg">Application, Window or Frame object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Object variable of an InternetExplorer.</mrk><mrk mid="1" mtype="seg">Application, Window or Frame object</mrk></target>
+<note>$oObject</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> specifies whether to return a collection or indexed instance</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">specifies whether to return a collection or indexed instance</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">specifies whether to return a collection or indexed instance</mrk></target>
+<note>$iIndex</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     0 or positive integer returns an indexed instance</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 or positive integer returns an indexed instance</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 or positive integer returns an indexed instance</mrk></target>
+<note>$iIndex</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     -1 = (Default) returns a collection</source>
+<seg-source> <mrk mid="0" mtype="seg">    -1 = (Default) returns a collection</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    -1 = (Default) returns a collection</mrk></target>
+<note>$iIndex</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">an object variable containing the Frames collection, @extended = Frame count.</source>
+<seg-source><mrk mid="0" mtype="seg">an object variable containing the Frames collection, @extended = Frame count.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an object variable containing the Frames collection, @extended = Frame count.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">3 ($_IEStatus_InvalidDataType) - Invalid Data Type</source>
+<seg-source><mrk mid="0" mtype="seg">3 ($_IEStatus_InvalidDataType) - Invalid Data Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3 ($_IEStatus_InvalidDataType) - Invalid Data Type</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> 5 ($_IEStatus_InvalidValue) - Invalid Value</source>
+<seg-source> <mrk mid="0" mtype="seg">5 ($_IEStatus_InvalidValue) - Invalid Value</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">5 ($_IEStatus_InvalidValue) - Invalid Value</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> 7 ($_IEStatus_NoMatch) - No Match</source>
+<seg-source> <mrk mid="0" mtype="seg">7 ($_IEStatus_NoMatch) - No Match</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">7 ($_IEStatus_NoMatch) - No Match</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">@extended:</source>
+<seg-source><mrk mid="0" mtype="seg">@extended:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@extended:</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Contains invalid parameter number</source>
+<seg-source><mrk mid="0" mtype="seg">Contains invalid parameter number</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains invalid parameter number</mrk></target>
+<note>@extended:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Although MSDN documents the return value for this function as a collection object, it cannot be looped through with a For...In...Next loop like a standard collection object.</source>
+<seg-source><mrk mid="0" mtype="seg">Although MSDN documents the return value for this function as a collection object, it cannot be looped through with a For...</mrk><mrk mid="1" mtype="seg">In...</mrk><mrk mid="2" mtype="seg">Next loop like a standard collection object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Although MSDN documents the return value for this function as a collection object, it cannot be looped through with a For...</mrk><mrk mid="1" mtype="seg">In...</mrk><mrk mid="2" mtype="seg">Next loop like a standard collection object.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> You must instead step through the collection by index - see example.</source>
+<seg-source> <mrk mid="0" mtype="seg">You must instead step through the collection by index - see example.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">You must instead step through the collection by index - see example.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Open frameset example, get collection of frames</source>
+<seg-source><mrk mid="0" mtype="seg">Open frameset example, get collection of frames</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open frameset example, get collection of frames</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">and loop through them displaying their source URL's</source>
+<seg-source><mrk mid="0" mtype="seg">and loop through them displaying their source URL's</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">and loop through them displaying their source URL's</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">frameset</source>
+<seg-source><mrk mid="0" mtype="seg">frameset</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">frameset</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">frames found</source>
+<seg-source><mrk mid="0" mtype="seg">frames found</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">frames found</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">innertext</source>
+<seg-source><mrk mid="0" mtype="seg">innertext</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">innertext</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Frames Info</source>
+<seg-source><mrk mid="0" mtype="seg">Frames Info</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Frames Info</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

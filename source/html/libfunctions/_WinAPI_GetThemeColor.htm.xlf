@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_GetThemeColor.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the value of a color property</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the value of a color property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the value of a color property</mrk></target>
+<note>Function _WinAPI_GetThemeColor</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to a window's specified theme data.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to a window's specified theme data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to a window's specified theme data.</mrk></target>
+<note>$hTheme</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The part that contains the color property.</source>
+<seg-source><mrk mid="0" mtype="seg">The part that contains the color property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The part that contains the color property.</mrk></target>
+<note>$iPartID</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The state of the part.</source>
+<seg-source><mrk mid="0" mtype="seg">The state of the part.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The state of the part.</mrk></target>
+<note>$iStateID</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The property to retrieve ($TMT_*).</source>
+<seg-source><mrk mid="0" mtype="seg">The property to retrieve ($TMT_*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The property to retrieve ($TMT_*).</mrk></target>
+<note>$iPropID</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">The color value, in RGB.</source>
+<seg-source><mrk mid="0" mtype="seg">The color value, in RGB.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The color value, in RGB.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetThemeColor);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetThemeColor<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetThemeColor);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetThemeColor<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetThemeColor);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetThemeColor<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">MS Shell Dlg</source>
+<seg-source><mrk mid="0" mtype="seg">MS Shell Dlg</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MS Shell Dlg</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Set Theme Color</source>
+<seg-source><mrk mid="0" mtype="seg">Set Theme Color</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set Theme Color</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">About</source>
+<seg-source><mrk mid="0" mtype="seg">About</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">About</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">TAB</source>
+<seg-source><mrk mid="0" mtype="seg">TAB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TAB</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">WIN_XP</source>
+<seg-source><mrk mid="0" mtype="seg">WIN_XP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WIN_XP</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">WIN_2003</source>
+<seg-source><mrk mid="0" mtype="seg">WIN_2003</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WIN_2003</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">TABP_BODY</source>
+<seg-source><mrk mid="0" mtype="seg">TABP_BODY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TABP_BODY</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">TABP_AEROWIZARDBODY</source>
+<seg-source><mrk mid="0" mtype="seg">TABP_AEROWIZARDBODY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TABP_AEROWIZARDBODY</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

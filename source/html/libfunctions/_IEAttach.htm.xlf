@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_IEAttach.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Attach to the specified instance of Internet Explorer where the search string sub-string matches (based on the selected mode)</source>
+<seg-source><mrk mid="0" mtype="seg">Attach to the specified instance of Internet Explorer where the search string sub-string matches (based on the selected mode)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Attach to the specified instance of Internet Explorer where the search string sub-string matches (based on the selected mode)</mrk></target>
+<note>Function _IEAttach</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">String to search for (for "embedded" or "dialogbox", use Title sub-string or HWND of window)</source>
+<seg-source><mrk mid="0" mtype="seg">String to search for (for "embedded" or "dialogbox", use Title sub-string or HWND of window)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String to search for (for "embedded" or "dialogbox", use Title sub-string or HWND of window)</mrk></target>
+<note>$sString</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> specifies search mode</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">specifies search mode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">specifies search mode</mrk></target>
+<note>$sMode</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     "title" = (Default) sub-string of main document title</source>
+<seg-source> <mrk mid="0" mtype="seg">    "title" = (Default) sub-string of main document title</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "title" = (Default) sub-string of main document title</mrk></target>
+<note>$sMode</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     "windowtitle" = sub-string of full window title (instead of document title)</source>
+<seg-source> <mrk mid="0" mtype="seg">    "windowtitle" = sub-string of full window title (instead of document title)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "windowtitle" = sub-string of full window title (instead of document title)</mrk></target>
+<note>$sMode</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     "url" = sub-string or url of the current page</source>
+<seg-source> <mrk mid="0" mtype="seg">    "url" = sub-string or url of the current page</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "url" = sub-string or url of the current page</mrk></target>
+<note>$sMode</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     "text" = sub-string in text from the body of the current page</source>
+<seg-source> <mrk mid="0" mtype="seg">    "text" = sub-string in text from the body of the current page</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "text" = sub-string in text from the body of the current page</mrk></target>
+<note>$sMode</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     "html" = sub-string in html from the body of the current page</source>
+<seg-source> <mrk mid="0" mtype="seg">    "html" = sub-string in html from the body of the current page</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "html" = sub-string in html from the body of the current page</mrk></target>
+<note>$sMode</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     "hwnd" = hwnd of the browser window</source>
+<seg-source> <mrk mid="0" mtype="seg">    "hwnd" = hwnd of the browser window</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "hwnd" = hwnd of the browser window</mrk></target>
+<note>$sMode</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     "embedded" = title sub-string or hwnd of the window embedding the control</source>
+<seg-source> <mrk mid="0" mtype="seg">    "embedded" = title sub-string or hwnd of the window embedding the control</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "embedded" = title sub-string or hwnd of the window embedding the control</mrk></target>
+<note>$sMode</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     "dialogbox" = title sub-string or hwnd of modal/modeless dialogbox</source>
+<seg-source> <mrk mid="0" mtype="seg">    "dialogbox" = title sub-string or hwnd of modal/modeless dialogbox</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "dialogbox" = title sub-string or hwnd of modal/modeless dialogbox</mrk></target>
+<note>$sMode</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     "instance" = $sString is ignored, one browser reference returned (by matching instance number) from all available browser instances</source>
+<seg-source> <mrk mid="0" mtype="seg">    "instance" = $sString is ignored, one browser reference returned (by matching instance number) from all available browser instances</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "instance" = $sString is ignored, one browser reference returned (by matching instance number) from all available browser instances</mrk></target>
+<note>$sMode</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> 1-based index into group of browsers or embedded browsers matching $sString and $sMode. See Remarks.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">1-based index into group of browsers or embedded browsers matching $sString and $sMode.</mrk> <mrk mid="2" mtype="seg">See Remarks.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">1-based index into group of browsers or embedded browsers matching $sString and $sMode.</mrk> <mrk mid="2" mtype="seg">See Remarks.</mrk></target>
+<note>$iInstance</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">an object variable pointing to the InternetExplorer Object for all but Embedded and DislogBox modes which return a Window Object.</source>
+<seg-source><mrk mid="0" mtype="seg">an object variable pointing to the InternetExplorer Object for all but Embedded and DislogBox modes which return a Window Object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an object variable pointing to the InternetExplorer Object for all but Embedded and DislogBox modes which return a Window Object.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">5 ($_IEStatus_InvalidValue) - Invalid Value</source>
+<seg-source><mrk mid="0" mtype="seg">5 ($_IEStatus_InvalidValue) - Invalid Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">5 ($_IEStatus_InvalidValue) - Invalid Value</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> 7 ($_IEStatus_NoMatch) - No Match</source>
+<seg-source> <mrk mid="0" mtype="seg">7 ($_IEStatus_NoMatch) - No Match</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">7 ($_IEStatus_NoMatch) - No Match</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">@extended:</source>
+<seg-source><mrk mid="0" mtype="seg">@extended:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@extended:</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Contains invalid parameter number</source>
+<seg-source><mrk mid="0" mtype="seg">Contains invalid parameter number</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains invalid parameter number</mrk></target>
+<note>@extended:</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="_IEAttach.htm"></bpt>_IEAttach()<ept id="1">&lt;/a></ept> provides the "dialogbox" parameter to attach to modal and modeless dialogs created by the browser.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_IEAttach.htm"></bpt>_IEAttach()<ept id="1">&lt;/a></ept> provides the "dialogbox" parameter to attach to modal and modeless dialogs created by the browser.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_IEAttach.htm"></bpt>_IEAttach()<ept id="1">&lt;/a></ept> provides the "dialogbox" parameter to attach to modal and modeless dialogs created by the browser.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> It is important to note that not all dialogs created through browser interaction can be attached to and controlled in this way.</source>
+<seg-source> <mrk mid="0" mtype="seg">It is important to note that not all dialogs created through browser interaction can be attached to and controlled in this way.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">It is important to note that not all dialogs created through browser interaction can be attached to and controlled in this way.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> Many of these dialogs are actually standard windows and can be controlled through the traditional AutoIt window functions. A reliable way to tell the difference between these types of windows is to use the "AutoIt Window Info" tool to examine it -- if the window contains a control called "Internet Explorer_Server" then you can attach to it with this function, if it does not it is a standard window and traditional AutoIt windows functions must be used to control it.</source>
+<seg-source> <mrk mid="0" mtype="seg">Many of these dialogs are actually standard windows and can be controlled through the traditional AutoIt window functions.</mrk> <mrk mid="1" mtype="seg">A reliable way to tell the difference between these types of windows is to use the "AutoIt Window Info" tool to examine it -- if the window contains a control called "Internet Explorer_Server" then you can attach to it with this function, if it does not it is a standard window and traditional AutoIt windows functions must be used to control it.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Many of these dialogs are actually standard windows and can be controlled through the traditional AutoIt window functions.</mrk> <mrk mid="1" mtype="seg">A reliable way to tell the difference between these types of windows is to use the "AutoIt Window Info" tool to examine it -- if the window contains a control called "Internet Explorer_Server" then you can attach to it with this function, if it does not it is a standard window and traditional AutoIt windows functions must be used to control it.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> HyperTextApplication (.hta) windows may be attached to using the "embedded" option.</source>
+<seg-source> <mrk mid="0" mtype="seg">HyperTextApplication (.hta) windows may be attached to using the "embedded" option.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">HyperTextApplication (.hta) windows may be attached to using the "embedded" option.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> The advanced Window Title selection syntax available to the standard Win* functions may be used in place of a title sub-string for the modes "dialogbox" and "embedded".</source>
+<seg-source> <mrk mid="0" mtype="seg">The advanced Window Title selection syntax available to the standard Win* functions may be used in place of a title sub-string for the modes "dialogbox" and "embedded".</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The advanced Window Title selection syntax available to the standard Win* functions may be used in place of a title sub-string for the modes "dialogbox" and "embedded".</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> Use of $iInstance with the "embedded" mode: used to return a reference to a specific instance of a WebBrowser and is particularly useful when more than one exists in a particular window.</source>
+<seg-source> <mrk mid="0" mtype="seg">Use of $iInstance with the "embedded" mode: used to return a reference to a specific instance of a WebBrowser and is particularly useful when more than one exists in a particular window.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Use of $iInstance with the "embedded" mode: used to return a reference to a specific instance of a WebBrowser and is particularly useful when more than one exists in a particular window.</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en"> If you pass a window title in $sString using embedded mode, only the first window matching that title will be used.</source>
+<seg-source> <mrk mid="0" mtype="seg">If you pass a window title in $sString using embedded mode, only the first window matching that title will be used.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If you pass a window title in $sString using embedded mode, only the first window matching that title will be used.</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en"> If the WebBrowser control you desire is in another window you must pass the HWnd of that window rather than the title, or use the advanced Window Title selection syntax available to the standard Win* functions.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the WebBrowser control you desire is in another window you must pass the HWnd of that window rather than the title, or use the advanced Window Title selection syntax available to the standard Win* functions.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the WebBrowser control you desire is in another window you must pass the HWnd of that window rather than the title, or use the advanced Window Title selection syntax available to the standard Win* functions.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en"> Use of $iInstance with all modes other than "embedded": used to return a browser reference from a groups of all windows that match the criteria from $sString and $sMode.</source>
+<seg-source> <mrk mid="0" mtype="seg">Use of $iInstance with all modes other than "embedded": used to return a browser reference from a groups of all windows that match the criteria from $sString and $sMode.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Use of $iInstance with all modes other than "embedded": used to return a browser reference from a groups of all windows that match the criteria from $sString and $sMode.</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en"> Instance order for "dialogbox" mode determined by the order returned by <bpt id="1" ctype="x-a">&lt;a href="../functions/WinList.htm"></bpt>WinList()<ept id="1">&lt;/a></ept> matching the title.</source>
+<seg-source> <mrk mid="0" mtype="seg">Instance order for "dialogbox" mode determined by the order returned by <bpt id="1" ctype="x-a">&lt;a href="../functions/WinList.htm"></bpt>WinList()<ept id="1">&lt;/a></ept> matching the title.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Instance order for "dialogbox" mode determined by the order returned by <bpt id="1" ctype="x-a">&lt;a href="../functions/WinList.htm"></bpt>WinList()<ept id="1">&lt;/a></ept> matching the title.</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"> For all other modes the Instance order is determined by the Shell.Windows collection.</source>
+<seg-source> <mrk mid="0" mtype="seg">For all other modes the Instance order is determined by the Shell.</mrk><mrk mid="1" mtype="seg">Windows collection.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For all other modes the Instance order is determined by the Shell.</mrk><mrk mid="1" mtype="seg">Windows collection.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en"> $iInstance values > 1 are set to 1 and a warning message is displayed when used with "hwnd" mode or with "dialogbox" mode when an HWnd is passed in $sString.</source>
+<seg-source> <mrk mid="0" mtype="seg">$iInstance values > 1 are set to 1 and a warning message is displayed when used with "hwnd" mode or with "dialogbox" mode when an HWnd is passed in $sString.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$iInstance values > 1 are set to 1 and a warning message is displayed when used with "hwnd" mode or with "dialogbox" mode when an HWnd is passed in $sString.</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en"> "dialogbox" and "embedded" modes can be used to attach to standard browser windows, but the object returned is that if the top level Window in the browser and not the InternetExplorer object.</source>
+<seg-source> <mrk mid="0" mtype="seg">"dialogbox" and "embedded" modes can be used to attach to standard browser windows, but the object returned is that if the top level Window in the browser and not the InternetExplorer object.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">"dialogbox" and "embedded" modes can be used to attach to standard browser windows, but the object returned is that if the top level Window in the browser and not the InternetExplorer object.</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en"> Window objects do not offer access to all of the attributes of the InternetExplorer object (e.g. status text, address bar etc.).</source>
+<seg-source> <mrk mid="0" mtype="seg">Window objects do not offer access to all of the attributes of the InternetExplorer object (e.g. status text, address bar etc.).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Window objects do not offer access to all of the attributes of the InternetExplorer object (e.g. status text, address bar etc.).</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en"> As well, if you attempt to use a function like <bpt id="1" ctype="x-a">&lt;a href="_IENavigate.htm"></bpt>_IENavigate()<ept id="1">&lt;/a></ept> on such an object you may receive COM errors due to the way that IE7 has implemented Tabs.</source>
+<seg-source> <mrk mid="0" mtype="seg">As well, if you attempt to use a function like <bpt id="1" ctype="x-a">&lt;a href="_IENavigate.htm"></bpt>_IENavigate()<ept id="1">&lt;/a></ept> on such an object you may receive COM errors due to the way that IE7 has implemented Tabs.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">As well, if you attempt to use a function like <bpt id="1" ctype="x-a">&lt;a href="_IENavigate.htm"></bpt>_IENavigate()<ept id="1">&lt;/a></ept> on such an object you may receive COM errors due to the way that IE7 has implemented Tabs.</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en"> It may be useful to find browser instances in this way, but it is recommended that you immediately use <bpt id="1" ctype="x-a">&lt;a href="_IEAttach.htm"></bpt>_IEAttach()<ept id="1">&lt;/a></ept> using one of the other modes and using information that you may have obtained from the Window object in order to get a reference to the associated InternetExplorer object.</source>
+<seg-source> <mrk mid="0" mtype="seg">It may be useful to find browser instances in this way, but it is recommended that you immediately use <bpt id="1" ctype="x-a">&lt;a href="_IEAttach.htm"></bpt>_IEAttach()<ept id="1">&lt;/a></ept> using one of the other modes and using information that you may have obtained from the Window object in order to get a reference to the associated InternetExplorer object.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">It may be useful to find browser instances in this way, but it is recommended that you immediately use <bpt id="1" ctype="x-a">&lt;a href="_IEAttach.htm"></bpt>_IEAttach()<ept id="1">&lt;/a></ept> using one of the other modes and using information that you may have obtained from the Window object in order to get a reference to the associated InternetExplorer object.</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Attach to a browser with "AutoIt" in its title, display the URL</source>
+<seg-source><mrk mid="0" mtype="seg">Attach to a browser with "AutoIt" in its title, display the URL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Attach to a browser with "AutoIt" in its title, display the URL</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">www.autoitscript.com</source>
+<seg-source><mrk mid="0" mtype="seg">www.autoitscript.com</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">www.autoitscript.com</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">www.google.com</source>
+<seg-source><mrk mid="0" mtype="seg">www.google.com</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">www.google.com</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">AutoIt</source>
+<seg-source><mrk mid="0" mtype="seg">AutoIt</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AutoIt</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">The URL</source>
+<seg-source><mrk mid="0" mtype="seg">The URL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The URL</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">locationurl</source>
+<seg-source><mrk mid="0" mtype="seg">locationurl</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">locationurl</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Attach to a browser with "simple HTML page"</source>
+<seg-source><mrk mid="0" mtype="seg">Attach to a browser with "simple HTML page"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Attach to a browser with "simple HTML page"</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">in the text of it's top-level document</source>
+<seg-source><mrk mid="0" mtype="seg">in the text of it's top-level document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">in the text of it's top-level document</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">basic</source>
+<seg-source><mrk mid="0" mtype="seg">basic</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">basic</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">simple HTML page</source>
+<seg-source><mrk mid="0" mtype="seg">simple HTML page</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">simple HTML page</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">text</source>
+<seg-source><mrk mid="0" mtype="seg">text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">text</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">@@ Debug(</source>
+<seg-source><mrk mid="0" mtype="seg">@@ Debug(</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@@ Debug(</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">) : $oIE =</source>
+<seg-source><mrk mid="0" mtype="seg">) : $oIE =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">) : $oIE =</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">>Error code:</source>
+<seg-source><mrk mid="0" mtype="seg">>Error code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">>Error code:</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">Extended code: 0x</source>
+<seg-source><mrk mid="0" mtype="seg">Extended code:</mrk> <mrk mid="1" mtype="seg">0x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Extended code:</mrk> <mrk mid="1" mtype="seg">0x</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">### Debug Console</source>
+<seg-source><mrk mid="0" mtype="seg">### Debug Console</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">### Debug Console</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">Attach to a browser control embedded in another window</source>
+<seg-source><mrk mid="0" mtype="seg">Attach to a browser control embedded in another window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Attach to a browser control embedded in another window</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">A Window Title</source>
+<seg-source><mrk mid="0" mtype="seg">A Window Title</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A Window Title</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">embedded</source>
+<seg-source><mrk mid="0" mtype="seg">embedded</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">embedded</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">@@ Debug(</source>
+<seg-source><mrk mid="0" mtype="seg">@@ Debug(</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@@ Debug(</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">) : $oIE =</source>
+<seg-source><mrk mid="0" mtype="seg">) : $oIE =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">) : $oIE =</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">>Error code:</source>
+<seg-source><mrk mid="0" mtype="seg">>Error code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">>Error code:</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">Extended code: 0x</source>
+<seg-source><mrk mid="0" mtype="seg">Extended code:</mrk> <mrk mid="1" mtype="seg">0x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Extended code:</mrk> <mrk mid="1" mtype="seg">0x</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">### Debug Console</source>
+<seg-source><mrk mid="0" mtype="seg">### Debug Console</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">### Debug Console</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">Example 4</source>
+<seg-source><mrk mid="0" mtype="seg">Example 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 4</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">Attach to the 3rd browser control embedded in another window</source>
+<seg-source><mrk mid="0" mtype="seg">Attach to the 3rd browser control embedded in another window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Attach to the 3rd browser control embedded in another window</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">Use the advanced window title syntax to use the 2nd window</source>
+<seg-source><mrk mid="0" mtype="seg">Use the advanced window title syntax to use the 2nd window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the advanced window title syntax to use the 2nd window</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">with the string 'ICQ' in the title</source>
+<seg-source><mrk mid="0" mtype="seg">with the string 'ICQ' in the title</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">with the string 'ICQ' in the title</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">[REGEXPTITLE:ICQ; INSTANCE:2]</source>
+<seg-source><mrk mid="0" mtype="seg">[REGEXPTITLE:ICQ; INSTANCE:2]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[REGEXPTITLE:ICQ; INSTANCE:2]</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">embedded</source>
+<seg-source><mrk mid="0" mtype="seg">embedded</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">embedded</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">Example 5</source>
+<seg-source><mrk mid="0" mtype="seg">Example 5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 5</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">Create an array of object references to all current browser instances</source>
+<seg-source><mrk mid="0" mtype="seg">Create an array of object references to all current browser instances</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create an array of object references to all current browser instances</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">The first array element will contain the number of instances found</source>
+<seg-source><mrk mid="0" mtype="seg">The first array element will contain the number of instances found</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The first array element will contain the number of instances found</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">instance</source>
+<seg-source><mrk mid="0" mtype="seg">instance</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">instance</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">Browsers Found</source>
+<seg-source><mrk mid="0" mtype="seg">Browsers Found</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Browsers Found</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">Number of browser instances in the array:</source>
+<seg-source><mrk mid="0" mtype="seg">Number of browser instances in the array:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Number of browser instances in the array:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

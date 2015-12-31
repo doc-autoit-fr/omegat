@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_FatalAppExit.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Displays a message box and terminates the application</source>
+<seg-source><mrk mid="0" mtype="seg">Displays a message box and terminates the application</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Displays a message box and terminates the application</mrk></target>
+<note>Function _WinAPI_FatalAppExit</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The string that is displayed in the message box</source>
+<seg-source><mrk mid="0" mtype="seg">The string that is displayed in the message box</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The string that is displayed in the message box</mrk></target>
+<note>$sMessage</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">None.</source>
+<seg-source><mrk mid="0" mtype="seg">None.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None.</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">An application calls FatalAppExit only when it is not capable of terminating any other way.</source>
+<seg-source><mrk mid="0" mtype="seg">An application calls FatalAppExit only when it is not capable of terminating any other way.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An application calls FatalAppExit only when it is not capable of terminating any other way.</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> FatalAppExit may not always free an application's memory or close its files, and it may cause a general failure of the system.</source>
+<seg-source> <mrk mid="0" mtype="seg">FatalAppExit may not always free an application's memory or close its files, and it may cause a general failure of the system.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">FatalAppExit may not always free an application's memory or close its files, and it may cause a general failure of the system.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> An application that encounters an unexpected error should terminate by freeing all its memory and returning from its main message loop.</source>
+<seg-source> <mrk mid="0" mtype="seg">An application that encounters an unexpected error should terminate by freeing all its memory and returning from its main message loop.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">An application that encounters an unexpected error should terminate by freeing all its memory and returning from its main message loop.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FatalAppExit);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FatalAppExit<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FatalAppExit);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FatalAppExit<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FatalAppExit);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FatalAppExit<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

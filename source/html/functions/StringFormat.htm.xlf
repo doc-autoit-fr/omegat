@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/StringFormat.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Returns a formatted string (similar to the C sprintf() function).</source>
+<seg-source><mrk mid="0" mtype="seg">Returns a formatted string (similar to the C sprintf() function).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns a formatted string (similar to the C sprintf() function).</mrk></target>
+<note>Function StringFormat</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The format and flags to use (see Remarks).</source>
+<seg-source><mrk mid="0" mtype="seg">The format and flags to use (see Remarks).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The format and flags to use (see Remarks).</mrk></target>
+<note>format control</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Up to 32 variables that will be output according to the "format control".</source>
+<seg-source><mrk mid="0" mtype="seg">Up to 32 variables that will be output according to the "format control".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Up to 32 variables that will be output according to the "format control".</mrk></target>
+<note>var1...var32</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Returns the formatted string according to "format control" parameter.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the formatted string according to "format control" parameter.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the formatted string according to "format control" parameter.</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">To prevent buffer overflow, each "variable" is limited to 65535 characters.</source>
+<seg-source><mrk mid="0" mtype="seg">To prevent buffer overflow, each "variable" is limited to 65535 characters.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To prevent buffer overflow, each "variable" is limited to 65535 characters.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> Escape characters can be contain in the "format control" such as \n (@LF), \r (@CR), \t (@TAB]. So if you want to have a "\" you need to use \\, samething for "%" %%.</source>
+<seg-source> <mrk mid="0" mtype="seg">Escape characters can be contain in the "format control" such as \n (@LF), \r (@CR), \t (@TAB].</mrk> <mrk mid="1" mtype="seg">So if you want to have a "\" you need to use \\, samething for "%" %%.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Escape characters can be contain in the "format control" such as \n (@LF), \r (@CR), \t (@TAB].</mrk> <mrk mid="1" mtype="seg">So if you want to have a "\" you need to use \\, samething for "%" %%.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> "variable format" is; %[flags] [width] [.precision] type</source>
+<seg-source> <mrk mid="0" mtype="seg">"variable format" is; %[flags] [width] [.precision] type</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">"variable format" is; %[flags] [width] [.precision] type</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> If a format specification is invalid, the behaviour is undefined. If you specify invalid input you can in special circumstances create unhandled exception and cause program termination.</source>
+<seg-source> <mrk mid="0" mtype="seg">If a format specification is invalid, the behaviour is undefined.</mrk> <mrk mid="1" mtype="seg">If you specify invalid input you can in special circumstances create unhandled exception and cause program termination.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If a format specification is invalid, the behaviour is undefined.</mrk> <mrk mid="1" mtype="seg">If you specify invalid input you can in special circumstances create unhandled exception and cause program termination.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     <bpt id="1" ctype="x-strong">&lt;strong></bpt>Width Specification<ept id="1">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg">    <bpt id="1" ctype="x-strong">&lt;strong></bpt>Width Specification<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    <bpt id="1" ctype="x-strong">&lt;strong></bpt>Width Specification<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> The second optional field of the format specification is the width specification. The width argument is a nonnegative decimal integer controlling the minimum number of characters printed. If the number of characters in the output value is less than the specified width, blanks are added to the left or the right of the values — depending on whether the – flag (for left alignment) is specified — until the minimum width is reached. If width is prefixed with 0, zeros are added until the minimum width is reached (not useful for left-aligned numbers).</source>
+<seg-source> <mrk mid="0" mtype="seg">The second optional field of the format specification is the width specification.</mrk> <mrk mid="1" mtype="seg">The width argument is a nonnegative decimal integer controlling the minimum number of characters printed.</mrk> <mrk mid="2" mtype="seg">If the number of characters in the output value is less than the specified width, blanks are added to the left or the right of the values — depending on whether the – flag (for left alignment) is specified — until the minimum width is reached.</mrk> <mrk mid="3" mtype="seg">If width is prefixed with 0, zeros are added until the minimum width is reached (not useful for left-aligned numbers).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The second optional field of the format specification is the width specification.</mrk> <mrk mid="1" mtype="seg">The width argument is a nonnegative decimal integer controlling the minimum number of characters printed.</mrk> <mrk mid="2" mtype="seg">If the number of characters in the output value is less than the specified width, blanks are added to the left or the right of the values — depending on whether the – flag (for left alignment) is specified — until the minimum width is reached.</mrk> <mrk mid="3" mtype="seg">If width is prefixed with 0, zeros are added until the minimum width is reached (not useful for left-aligned numbers).</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> The width specification never causes a value to be truncated. If the number of characters in the output value is greater than the specified width, or if width is not given, all characters of the value are printed (subject to the precision specification).</source>
+<seg-source> <mrk mid="0" mtype="seg">The width specification never causes a value to be truncated.</mrk> <mrk mid="1" mtype="seg">If the number of characters in the output value is greater than the specified width, or if width is not given, all characters of the value are printed (subject to the precision specification).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The width specification never causes a value to be truncated.</mrk> <mrk mid="1" mtype="seg">If the number of characters in the output value is greater than the specified width, or if width is not given, all characters of the value are printed (subject to the precision specification).</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     <bpt id="1" ctype="x-strong">&lt;strong></bpt>Type Specification<ept id="1">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg">    <bpt id="1" ctype="x-strong">&lt;strong></bpt>Type Specification<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    <bpt id="1" ctype="x-strong">&lt;strong></bpt>Type Specification<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Type<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Type<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Type<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Variable type<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Variable type<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Variable type<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Output format<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Output format<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Output format<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">d, i</source>
+<seg-source><mrk mid="0" mtype="seg">d, i</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">d, i</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Integer</source>
+<seg-source><mrk mid="0" mtype="seg">Integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Integer</mrk></target>
+<note>d, i</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Signed decimal integer.</source>
+<seg-source><mrk mid="0" mtype="seg">Signed decimal integer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Signed decimal integer.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">o</source>
+<seg-source><mrk mid="0" mtype="seg">o</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">o</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Integer</source>
+<seg-source><mrk mid="0" mtype="seg">Integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Integer</mrk></target>
+<note>o</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Unsigned octal integer.</source>
+<seg-source><mrk mid="0" mtype="seg">Unsigned octal integer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unsigned octal integer.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">u</source>
+<seg-source><mrk mid="0" mtype="seg">u</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">u</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Integer</source>
+<seg-source><mrk mid="0" mtype="seg">Integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Integer</mrk></target>
+<note>u</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Unsigned decimal integer.</source>
+<seg-source><mrk mid="0" mtype="seg">Unsigned decimal integer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unsigned decimal integer.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">x</source>
+<seg-source><mrk mid="0" mtype="seg">x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">x</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Integer</source>
+<seg-source><mrk mid="0" mtype="seg">Integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Integer</mrk></target>
+<note>x</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Unsigned hexadecimal integer, using "abcdef".</source>
+<seg-source><mrk mid="0" mtype="seg">Unsigned hexadecimal integer, using "abcdef".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unsigned hexadecimal integer, using "abcdef".</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Integer</source>
+<seg-source><mrk mid="0" mtype="seg">Integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Integer</mrk></target>
+<note>X</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Unsigned hexadecimal integer, using "ABCDEF".</source>
+<seg-source><mrk mid="0" mtype="seg">Unsigned hexadecimal integer, using "ABCDEF".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unsigned hexadecimal integer, using "ABCDEF".</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">e</source>
+<seg-source><mrk mid="0" mtype="seg">e</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">e</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Float</source>
+<seg-source><mrk mid="0" mtype="seg">Float</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Float</mrk></target>
+<note>e</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Signed value having the form [ - ]<bpt id="1" ctype="x-em">&lt;em></bpt>d<ept id="1">&lt;/em></ept><bpt id="2" ctype="x-strong">&lt;strong></bpt>.<ept id="2">&lt;/strong></ept><bpt id="3" ctype="x-em">&lt;em></bpt>dddd<ept id="3">&lt;/em></ept> <bpt id="4" ctype="x-strong">&lt;strong></bpt>e<ept id="4">&lt;/strong></ept> [<bpt id="5" ctype="x-em">&lt;em></bpt>sign<ept id="5">&lt;/em></ept>]<bpt id="6" ctype="x-em">&lt;em></bpt>ddd<ept id="6">&lt;/em></ept> where <bpt id="7" ctype="x-em">&lt;em></bpt>d<ept id="7">&lt;/em></ept> is a single decimal digit, <bpt id="8" ctype="x-em">&lt;em></bpt>dddd<ept id="8">&lt;/em></ept> is one or more decimal digits, <bpt id="9" ctype="x-em">&lt;em></bpt>ddd<ept id="9">&lt;/em></ept> is exactly three decimal digits, and <bpt id="10" ctype="x-em">&lt;em></bpt>sign<ept id="10">&lt;/em></ept> is + or -.</source>
+<seg-source><mrk mid="0" mtype="seg">Signed value having the form [ - ]<bpt id="1" ctype="x-em">&lt;em></bpt>d<ept id="1">&lt;/em></ept><bpt id="2" ctype="x-strong">&lt;strong></bpt>.<ept id="2">&lt;/strong></ept><bpt id="3" ctype="x-em">&lt;em></bpt>dddd<ept id="3">&lt;/em></ept> <bpt id="4" ctype="x-strong">&lt;strong></bpt>e<ept id="4">&lt;/strong></ept> [<bpt id="5" ctype="x-em">&lt;em></bpt>sign<ept id="5">&lt;/em></ept>]<bpt id="6" ctype="x-em">&lt;em></bpt>ddd<ept id="6">&lt;/em></ept> where <bpt id="7" ctype="x-em">&lt;em></bpt>d<ept id="7">&lt;/em></ept> is a single decimal digit, <bpt id="8" ctype="x-em">&lt;em></bpt>dddd<ept id="8">&lt;/em></ept> is one or more decimal digits, <bpt id="9" ctype="x-em">&lt;em></bpt>ddd<ept id="9">&lt;/em></ept> is exactly three decimal digits, and <bpt id="10" ctype="x-em">&lt;em></bpt>sign<ept id="10">&lt;/em></ept> is + or -.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Signed value having the form [ - ]<bpt id="1" ctype="x-em">&lt;em></bpt>d<ept id="1">&lt;/em></ept><bpt id="2" ctype="x-strong">&lt;strong></bpt>.<ept id="2">&lt;/strong></ept><bpt id="3" ctype="x-em">&lt;em></bpt>dddd<ept id="3">&lt;/em></ept> <bpt id="4" ctype="x-strong">&lt;strong></bpt>e<ept id="4">&lt;/strong></ept> [<bpt id="5" ctype="x-em">&lt;em></bpt>sign<ept id="5">&lt;/em></ept>]<bpt id="6" ctype="x-em">&lt;em></bpt>ddd<ept id="6">&lt;/em></ept> where <bpt id="7" ctype="x-em">&lt;em></bpt>d<ept id="7">&lt;/em></ept> is a single decimal digit, <bpt id="8" ctype="x-em">&lt;em></bpt>dddd<ept id="8">&lt;/em></ept> is one or more decimal digits, <bpt id="9" ctype="x-em">&lt;em></bpt>ddd<ept id="9">&lt;/em></ept> is exactly three decimal digits, and <bpt id="10" ctype="x-em">&lt;em></bpt>sign<ept id="10">&lt;/em></ept> is + or -.</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">E</source>
+<seg-source><mrk mid="0" mtype="seg">E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">E</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Float</source>
+<seg-source><mrk mid="0" mtype="seg">Float</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Float</mrk></target>
+<note>E</note>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Identical to the <bpt id="1" ctype="x-strong">&lt;strong></bpt>e<ept id="1">&lt;/strong></ept> format except that <bpt id="2" ctype="x-strong">&lt;strong></bpt>E<ept id="2">&lt;/strong></ept> rather than <bpt id="3" ctype="x-strong">&lt;strong></bpt>e<ept id="3">&lt;/strong></ept> introduces the exponent.</source>
+<seg-source><mrk mid="0" mtype="seg">Identical to the <bpt id="1" ctype="x-strong">&lt;strong></bpt>e<ept id="1">&lt;/strong></ept> format except that <bpt id="2" ctype="x-strong">&lt;strong></bpt>E<ept id="2">&lt;/strong></ept> rather than <bpt id="3" ctype="x-strong">&lt;strong></bpt>e<ept id="3">&lt;/strong></ept> introduces the exponent.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Identical to the <bpt id="1" ctype="x-strong">&lt;strong></bpt>e<ept id="1">&lt;/strong></ept> format except that <bpt id="2" ctype="x-strong">&lt;strong></bpt>E<ept id="2">&lt;/strong></ept> rather than <bpt id="3" ctype="x-strong">&lt;strong></bpt>e<ept id="3">&lt;/strong></ept> introduces the exponent.</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">f</source>
+<seg-source><mrk mid="0" mtype="seg">f</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">f</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Float</source>
+<seg-source><mrk mid="0" mtype="seg">Float</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Float</mrk></target>
+<note>f</note>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Signed value having the form [ - ]<bpt id="1" ctype="x-em">&lt;em></bpt>dddd<ept id="1">&lt;/em></ept><bpt id="2" ctype="x-strong">&lt;strong></bpt>.<ept id="2">&lt;/strong></ept><bpt id="3" ctype="x-em">&lt;em></bpt>dddd<ept id="3">&lt;/em></ept>, where <bpt id="4" ctype="x-em">&lt;em></bpt>dddd<ept id="4">&lt;/em></ept> is one or more decimal digits. The number of digits before the decimal point depends on the magnitude of the number, and the number of digits after the decimal point depends on the requested precision.</source>
+<seg-source><mrk mid="0" mtype="seg">Signed value having the form [ - ]<bpt id="1" ctype="x-em">&lt;em></bpt>dddd<ept id="1">&lt;/em></ept><bpt id="2" ctype="x-strong">&lt;strong></bpt>.<ept id="2">&lt;/strong></ept><bpt id="3" ctype="x-em">&lt;em></bpt>dddd<ept id="3">&lt;/em></ept>, where <bpt id="4" ctype="x-em">&lt;em></bpt>dddd<ept id="4">&lt;/em></ept> is one or more decimal digits.</mrk> <mrk mid="1" mtype="seg">The number of digits before the decimal point depends on the magnitude of the number, and the number of digits after the decimal point depends on the requested precision.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Signed value having the form [ - ]<bpt id="1" ctype="x-em">&lt;em></bpt>dddd<ept id="1">&lt;/em></ept><bpt id="2" ctype="x-strong">&lt;strong></bpt>.<ept id="2">&lt;/strong></ept><bpt id="3" ctype="x-em">&lt;em></bpt>dddd<ept id="3">&lt;/em></ept>, where <bpt id="4" ctype="x-em">&lt;em></bpt>dddd<ept id="4">&lt;/em></ept> is one or more decimal digits.</mrk> <mrk mid="1" mtype="seg">The number of digits before the decimal point depends on the magnitude of the number, and the number of digits after the decimal point depends on the requested precision.</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">g</source>
+<seg-source><mrk mid="0" mtype="seg">g</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">g</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Float</source>
+<seg-source><mrk mid="0" mtype="seg">Float</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Float</mrk></target>
+<note>g</note>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Signed value printed in <bpt id="1" ctype="x-strong">&lt;strong></bpt>f<ept id="1">&lt;/strong></ept> or <bpt id="2" ctype="x-strong">&lt;strong></bpt>e<ept id="2">&lt;/strong></ept> format, whichever is more compact for the given value and precision. The <bpt id="1" ctype="x-strong">&lt;strong></bpt>e<ept id="1">&lt;/strong></ept> format is used only when the exponent of the value is less than -4 or greater than or equal to the precision argument. Trailing zeros are truncated, and the decimal point appears only if one or more digits follow it.</source>
+<seg-source><mrk mid="0" mtype="seg">Signed value printed in <bpt id="1" ctype="x-strong">&lt;strong></bpt>f<ept id="1">&lt;/strong></ept> or <bpt id="2" ctype="x-strong">&lt;strong></bpt>e<ept id="2">&lt;/strong></ept> format, whichever is more compact for the given value and precision.</mrk> <mrk mid="1" mtype="seg">The <bpt id="1" ctype="x-strong">&lt;strong></bpt>e<ept id="1">&lt;/strong></ept> format is used only when the exponent of the value is less than -4 or greater than or equal to the precision argument.</mrk> <mrk mid="2" mtype="seg">Trailing zeros are truncated, and the decimal point appears only if one or more digits follow it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Signed value printed in <bpt id="1" ctype="x-strong">&lt;strong></bpt>f<ept id="1">&lt;/strong></ept> or <bpt id="2" ctype="x-strong">&lt;strong></bpt>e<ept id="2">&lt;/strong></ept> format, whichever is more compact for the given value and precision.</mrk> <mrk mid="1" mtype="seg">The <bpt id="1" ctype="x-strong">&lt;strong></bpt>e<ept id="1">&lt;/strong></ept> format is used only when the exponent of the value is less than -4 or greater than or equal to the precision argument.</mrk> <mrk mid="2" mtype="seg">Trailing zeros are truncated, and the decimal point appears only if one or more digits follow it.</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">G</source>
+<seg-source><mrk mid="0" mtype="seg">G</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">G</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Float</source>
+<seg-source><mrk mid="0" mtype="seg">Float</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Float</mrk></target>
+<note>G</note>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Identical to the <bpt id="1" ctype="x-strong">&lt;strong></bpt>g<ept id="1">&lt;/strong></ept> format, except that <bpt id="2" ctype="x-strong">&lt;strong></bpt>E<ept id="2">&lt;/strong></ept>, rather than <bpt id="3" ctype="x-strong">&lt;strong></bpt>e<ept id="3">&lt;/strong></ept>, introduces the exponent (where appropriate).</source>
+<seg-source><mrk mid="0" mtype="seg">Identical to the <bpt id="1" ctype="x-strong">&lt;strong></bpt>g<ept id="1">&lt;/strong></ept> format, except that <bpt id="2" ctype="x-strong">&lt;strong></bpt>E<ept id="2">&lt;/strong></ept>, rather than <bpt id="3" ctype="x-strong">&lt;strong></bpt>e<ept id="3">&lt;/strong></ept>, introduces the exponent (where appropriate).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Identical to the <bpt id="1" ctype="x-strong">&lt;strong></bpt>g<ept id="1">&lt;/strong></ept> format, except that <bpt id="2" ctype="x-strong">&lt;strong></bpt>E<ept id="2">&lt;/strong></ept>, rather than <bpt id="3" ctype="x-strong">&lt;strong></bpt>e<ept id="3">&lt;/strong></ept>, introduces the exponent (where appropriate).</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">s</source>
+<seg-source><mrk mid="0" mtype="seg">s</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">s</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">String</source>
+<seg-source><mrk mid="0" mtype="seg">String</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String</mrk></target>
+<note>s</note>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">String.</source>
+<seg-source><mrk mid="0" mtype="seg">String.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String.</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">     <bpt id="1" ctype="x-strong">&lt;strong></bpt>Flag Specification<ept id="1">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg">    <bpt id="1" ctype="x-strong">&lt;strong></bpt>Flag Specification<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    <bpt id="1" ctype="x-strong">&lt;strong></bpt>Flag Specification<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Flag<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Flag<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Flag<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Meaning<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Meaning<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Meaning<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Default<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Default<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Default<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">-</source>
+<seg-source><mrk mid="0" mtype="seg">-</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">Left align the result within the given field width.</source>
+<seg-source><mrk mid="0" mtype="seg">Left align the result within the given field width.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Left align the result within the given field width.</mrk></target>
+<note>-</note>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">Right align.</source>
+<seg-source><mrk mid="0" mtype="seg">Right align.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Right align.</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">+</source>
+<seg-source><mrk mid="0" mtype="seg">+</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Prefix the output value with a sign (+ or -) if the output value is of a signed type.</source>
+<seg-source><mrk mid="0" mtype="seg">Prefix the output value with a sign (+ or -) if the output value is of a signed type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Prefix the output value with a sign (+ or -) if the output value is of a signed type.</mrk></target>
+<note>+</note>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">Sign appears only for negative signed values (-).</source>
+<seg-source><mrk mid="0" mtype="seg">Sign appears only for negative signed values (-).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sign appears only for negative signed values (-).</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">0</source>
+<seg-source><mrk mid="0" mtype="seg">0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">If <bpt id="1" ctype="x-em">&lt;em></bpt>width<ept id="1">&lt;/em></ept> is prefixed with <bpt id="2" ctype="x-strong">&lt;strong></bpt>0<ept id="2">&lt;/strong></ept>, zeros are added until the minimum width is reached. If 0 and - appear, the <bpt id="1" ctype="x-strong">&lt;strong></bpt>0<ept id="1">&lt;/strong></ept> is ignored. If <bpt id="1" ctype="x-strong">&lt;strong></bpt>0<ept id="1">&lt;/strong></ept> is specified with an integer format (<bpt id="2" ctype="x-strong">&lt;strong></bpt>i<ept id="2">&lt;/strong></ept>, <bpt id="3" ctype="x-strong">&lt;strong></bpt>u<ept id="3">&lt;/strong></ept>, <bpt id="4" ctype="x-strong">&lt;strong></bpt>x<ept id="4">&lt;/strong></ept>, <bpt id="5" ctype="x-strong">&lt;strong></bpt>X<ept id="5">&lt;/strong></ept>, <bpt id="6" ctype="x-strong">&lt;strong></bpt>o<ept id="6">&lt;/strong></ept>, <bpt id="7" ctype="x-strong">&lt;strong></bpt>d<ept id="7">&lt;/strong></ept>) the <bpt id="8" ctype="x-strong">&lt;strong></bpt>0<ept id="8">&lt;/strong></ept> is ignored.</source>
+<seg-source><mrk mid="0" mtype="seg">If <bpt id="1" ctype="x-em">&lt;em></bpt>width<ept id="1">&lt;/em></ept> is prefixed with <bpt id="2" ctype="x-strong">&lt;strong></bpt>0<ept id="2">&lt;/strong></ept>, zeros are added until the minimum width is reached.</mrk> <mrk mid="1" mtype="seg">If 0 and - appear, the <bpt id="1" ctype="x-strong">&lt;strong></bpt>0<ept id="1">&lt;/strong></ept> is ignored.</mrk> <mrk mid="2" mtype="seg">If <bpt id="1" ctype="x-strong">&lt;strong></bpt>0<ept id="1">&lt;/strong></ept> is specified with an integer format (<bpt id="2" ctype="x-strong">&lt;strong></bpt>i<ept id="2">&lt;/strong></ept>, <bpt id="3" ctype="x-strong">&lt;strong></bpt>u<ept id="3">&lt;/strong></ept>, <bpt id="4" ctype="x-strong">&lt;strong></bpt>x<ept id="4">&lt;/strong></ept>, <bpt id="5" ctype="x-strong">&lt;strong></bpt>X<ept id="5">&lt;/strong></ept>, <bpt id="6" ctype="x-strong">&lt;strong></bpt>o<ept id="6">&lt;/strong></ept>, <bpt id="7" ctype="x-strong">&lt;strong></bpt>d<ept id="7">&lt;/strong></ept>) the <bpt id="8" ctype="x-strong">&lt;strong></bpt>0<ept id="8">&lt;/strong></ept> is ignored.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If <bpt id="1" ctype="x-em">&lt;em></bpt>width<ept id="1">&lt;/em></ept> is prefixed with <bpt id="2" ctype="x-strong">&lt;strong></bpt>0<ept id="2">&lt;/strong></ept>, zeros are added until the minimum width is reached.</mrk> <mrk mid="1" mtype="seg">If 0 and - appear, the <bpt id="1" ctype="x-strong">&lt;strong></bpt>0<ept id="1">&lt;/strong></ept> is ignored.</mrk> <mrk mid="2" mtype="seg">If <bpt id="1" ctype="x-strong">&lt;strong></bpt>0<ept id="1">&lt;/strong></ept> is specified with an integer format (<bpt id="2" ctype="x-strong">&lt;strong></bpt>i<ept id="2">&lt;/strong></ept>, <bpt id="3" ctype="x-strong">&lt;strong></bpt>u<ept id="3">&lt;/strong></ept>, <bpt id="4" ctype="x-strong">&lt;strong></bpt>x<ept id="4">&lt;/strong></ept>, <bpt id="5" ctype="x-strong">&lt;strong></bpt>X<ept id="5">&lt;/strong></ept>, <bpt id="6" ctype="x-strong">&lt;strong></bpt>o<ept id="6">&lt;/strong></ept>, <bpt id="7" ctype="x-strong">&lt;strong></bpt>d<ept id="7">&lt;/strong></ept>) the <bpt id="8" ctype="x-strong">&lt;strong></bpt>0<ept id="8">&lt;/strong></ept> is ignored.</mrk></target>
+<note>0</note>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">No padding.</source>
+<seg-source><mrk mid="0" mtype="seg">No padding.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No padding.</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">Blank</source>
+<seg-source><mrk mid="0" mtype="seg">Blank</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Blank</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">Prefix the output value with a blank if the output value is signed and positive; the blank is ignored if both the blank and + flags appear.</source>
+<seg-source><mrk mid="0" mtype="seg">Prefix the output value with a blank if the output value is signed and positive; the blank is ignored if both the blank and + flags appear.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Prefix the output value with a blank if the output value is signed and positive; the blank is ignored if both the blank and + flags appear.</mrk></target>
+<note>Blank</note>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">No blank appears.</source>
+<seg-source><mrk mid="0" mtype="seg">No blank appears.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No blank appears.</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">#</source>
+<seg-source><mrk mid="0" mtype="seg">#</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">#</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">When used with the <bpt id="1" ctype="x-strong">&lt;strong></bpt>o<ept id="1">&lt;/strong></ept>, <bpt id="2" ctype="x-strong">&lt;strong></bpt>x<ept id="2">&lt;/strong></ept>, or <bpt id="3" ctype="x-strong">&lt;strong></bpt>X<ept id="3">&lt;/strong></ept> format, the # flag prefixes any nonzero output value with 0, 0x, or 0X, respectively.</source>
+<seg-source><mrk mid="0" mtype="seg">When used with the <bpt id="1" ctype="x-strong">&lt;strong></bpt>o<ept id="1">&lt;/strong></ept>, <bpt id="2" ctype="x-strong">&lt;strong></bpt>x<ept id="2">&lt;/strong></ept>, or <bpt id="3" ctype="x-strong">&lt;strong></bpt>X<ept id="3">&lt;/strong></ept> format, the # flag prefixes any nonzero output value with 0, 0x, or 0X, respectively.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When used with the <bpt id="1" ctype="x-strong">&lt;strong></bpt>o<ept id="1">&lt;/strong></ept>, <bpt id="2" ctype="x-strong">&lt;strong></bpt>x<ept id="2">&lt;/strong></ept>, or <bpt id="3" ctype="x-strong">&lt;strong></bpt>X<ept id="3">&lt;/strong></ept> format, the # flag prefixes any nonzero output value with 0, 0x, or 0X, respectively.</mrk></target>
+<note>#</note>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">No blank appears.</source>
+<seg-source><mrk mid="0" mtype="seg">No blank appears.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No blank appears.</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">#</source>
+<seg-source><mrk mid="0" mtype="seg">#</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">#</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">When used with the <bpt id="1" ctype="x-strong">&lt;strong></bpt>e<ept id="1">&lt;/strong></ept>, <bpt id="2" ctype="x-strong">&lt;strong></bpt>E<ept id="2">&lt;/strong></ept>, or <bpt id="3" ctype="x-strong">&lt;strong></bpt>f<ept id="3">&lt;/strong></ept> format, the <bpt id="4" ctype="x-strong">&lt;strong></bpt>#<ept id="4">&lt;/strong></ept> flag forces the output value to contain a decimal point in all cases.</source>
+<seg-source><mrk mid="0" mtype="seg">When used with the <bpt id="1" ctype="x-strong">&lt;strong></bpt>e<ept id="1">&lt;/strong></ept>, <bpt id="2" ctype="x-strong">&lt;strong></bpt>E<ept id="2">&lt;/strong></ept>, or <bpt id="3" ctype="x-strong">&lt;strong></bpt>f<ept id="3">&lt;/strong></ept> format, the <bpt id="4" ctype="x-strong">&lt;strong></bpt>#<ept id="4">&lt;/strong></ept> flag forces the output value to contain a decimal point in all cases.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When used with the <bpt id="1" ctype="x-strong">&lt;strong></bpt>e<ept id="1">&lt;/strong></ept>, <bpt id="2" ctype="x-strong">&lt;strong></bpt>E<ept id="2">&lt;/strong></ept>, or <bpt id="3" ctype="x-strong">&lt;strong></bpt>f<ept id="3">&lt;/strong></ept> format, the <bpt id="4" ctype="x-strong">&lt;strong></bpt>#<ept id="4">&lt;/strong></ept> flag forces the output value to contain a decimal point in all cases.</mrk></target>
+<note>#</note>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">Decimal point appears only if digits follow it.</source>
+<seg-source><mrk mid="0" mtype="seg">Decimal point appears only if digits follow it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Decimal point appears only if digits follow it.</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">#</source>
+<seg-source><mrk mid="0" mtype="seg">#</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">#</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">When used with the <bpt id="1" ctype="x-strong">&lt;strong></bpt>g<ept id="1">&lt;/strong></ept> or <bpt id="2" ctype="x-strong">&lt;strong></bpt>G<ept id="2">&lt;/strong></ept> format, the <bpt id="3" ctype="x-strong">&lt;strong></bpt>#<ept id="3">&lt;/strong></ept> flag forces the output value to contain a decimal point in all cases and prevents the truncation of trailing zeros.</source>
+<seg-source><mrk mid="0" mtype="seg">When used with the <bpt id="1" ctype="x-strong">&lt;strong></bpt>g<ept id="1">&lt;/strong></ept> or <bpt id="2" ctype="x-strong">&lt;strong></bpt>G<ept id="2">&lt;/strong></ept> format, the <bpt id="3" ctype="x-strong">&lt;strong></bpt>#<ept id="3">&lt;/strong></ept> flag forces the output value to contain a decimal point in all cases and prevents the truncation of trailing zeros.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When used with the <bpt id="1" ctype="x-strong">&lt;strong></bpt>g<ept id="1">&lt;/strong></ept> or <bpt id="2" ctype="x-strong">&lt;strong></bpt>G<ept id="2">&lt;/strong></ept> format, the <bpt id="3" ctype="x-strong">&lt;strong></bpt>#<ept id="3">&lt;/strong></ept> flag forces the output value to contain a decimal point in all cases and prevents the truncation of trailing zeros.</mrk></target>
+<note>#</note>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en"> Ignored when used with <bpt id="1" ctype="x-strong">&lt;strong></bpt>d<ept id="1">&lt;/strong></ept>, <bpt id="2" ctype="x-strong">&lt;strong></bpt>i<ept id="2">&lt;/strong></ept>, <bpt id="3" ctype="x-strong">&lt;strong></bpt>u<ept id="3">&lt;/strong></ept>, or <bpt id="4" ctype="x-strong">&lt;strong></bpt>s<ept id="4">&lt;/strong></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">Ignored when used with <bpt id="1" ctype="x-strong">&lt;strong></bpt>d<ept id="1">&lt;/strong></ept>, <bpt id="2" ctype="x-strong">&lt;strong></bpt>i<ept id="2">&lt;/strong></ept>, <bpt id="3" ctype="x-strong">&lt;strong></bpt>u<ept id="3">&lt;/strong></ept>, or <bpt id="4" ctype="x-strong">&lt;strong></bpt>s<ept id="4">&lt;/strong></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Ignored when used with <bpt id="1" ctype="x-strong">&lt;strong></bpt>d<ept id="1">&lt;/strong></ept>, <bpt id="2" ctype="x-strong">&lt;strong></bpt>i<ept id="2">&lt;/strong></ept>, <bpt id="3" ctype="x-strong">&lt;strong></bpt>u<ept id="3">&lt;/strong></ept>, or <bpt id="4" ctype="x-strong">&lt;strong></bpt>s<ept id="4">&lt;/strong></ept>.</mrk></target>
+<note>#</note>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">Decimal point appears only if digits follow it. Trailing zeros are truncated.</source>
+<seg-source><mrk mid="0" mtype="seg">Decimal point appears only if digits follow it.</mrk> <mrk mid="1" mtype="seg">Trailing zeros are truncated.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Decimal point appears only if digits follow it.</mrk> <mrk mid="1" mtype="seg">Trailing zeros are truncated.</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">     <bpt id="1" ctype="x-strong">&lt;strong></bpt>Precision Specification<ept id="1">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg">    <bpt id="1" ctype="x-strong">&lt;strong></bpt>Precision Specification<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    <bpt id="1" ctype="x-strong">&lt;strong></bpt>Precision Specification<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en"> The third optional field of the format specification is the precision specification. It specifies a nonnegative decimal integer, preceded by a period (.), which specifies the number of characters to be printed, the number of decimal places, or the number of significant digits (see Table below). Unlike the width specification, the precision specification can cause either truncation of the output value or rounding of a floating-point value. If precision is specified as 0 and the value to be converted is 0, the result is no characters output, as shown below:</source>
+<seg-source> <mrk mid="0" mtype="seg">The third optional field of the format specification is the precision specification.</mrk> <mrk mid="1" mtype="seg">It specifies a nonnegative decimal integer, preceded by a period (.), which specifies the number of characters to be printed, the number of decimal places, or the number of significant digits (see Table below).</mrk> <mrk mid="2" mtype="seg">Unlike the width specification, the precision specification can cause either truncation of the output value or rounding of a floating-point value.</mrk> <mrk mid="3" mtype="seg">If precision is specified as 0 and the value to be converted is 0, the result is no characters output, as shown below:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The third optional field of the format specification is the precision specification.</mrk> <mrk mid="1" mtype="seg">It specifies a nonnegative decimal integer, preceded by a period (.), which specifies the number of characters to be printed, the number of decimal places, or the number of significant digits (see Table below).</mrk> <mrk mid="2" mtype="seg">Unlike the width specification, the precision specification can cause either truncation of the output value or rounding of a floating-point value.</mrk> <mrk mid="3" mtype="seg">If precision is specified as 0 and the value to be converted is 0, the result is no characters output, as shown below:</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="StringFormat.htm"></bpt>StringFormat<ept id="1">&lt;/a></ept>( "%.0d", 0 ); /* No characters return */</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="StringFormat.htm"></bpt>StringFormat<ept id="1">&lt;/a></ept>( "%.0d", 0 ); /* No characters return */</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="StringFormat.htm"></bpt>StringFormat<ept id="1">&lt;/a></ept>( "%.0d", 0 ); /* No characters return */</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">     <bpt id="1" ctype="x-strong">&lt;strong></bpt>How Precision Values Affect Type<ept id="1">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg">    <bpt id="1" ctype="x-strong">&lt;strong></bpt>How Precision Values Affect Type<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    <bpt id="1" ctype="x-strong">&lt;strong></bpt>How Precision Values Affect Type<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Type<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Type<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Type<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Meaning<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Meaning<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Meaning<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Default<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Default<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Default<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">d, i, u, o, x, X</source>
+<seg-source><mrk mid="0" mtype="seg">d, i, u, o, x, X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">d, i, u, o, x, X</mrk></target>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en">The precision specifies the minimum number of digits to be printed. If the number of digits in the argument is less than precision, the output value is padded on the left with zeros. The value is not truncated when the number of digits exceeds precision.</source>
+<seg-source><mrk mid="0" mtype="seg">The precision specifies the minimum number of digits to be printed.</mrk> <mrk mid="1" mtype="seg">If the number of digits in the argument is less than precision, the output value is padded on the left with zeros.</mrk> <mrk mid="2" mtype="seg">The value is not truncated when the number of digits exceeds precision.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The precision specifies the minimum number of digits to be printed.</mrk> <mrk mid="1" mtype="seg">If the number of digits in the argument is less than precision, the output value is padded on the left with zeros.</mrk> <mrk mid="2" mtype="seg">The value is not truncated when the number of digits exceeds precision.</mrk></target>
+<note>d, i, u, o, x, X</note>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">Default precision is 1.</source>
+<seg-source><mrk mid="0" mtype="seg">Default precision is 1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default precision is 1.</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">e, E</source>
+<seg-source><mrk mid="0" mtype="seg">e, E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">e, E</mrk></target>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en">The precision specifies the number of digits to be printed after the decimal point. The last printed digit is rounded.</source>
+<seg-source><mrk mid="0" mtype="seg">The precision specifies the number of digits to be printed after the decimal point.</mrk> <mrk mid="1" mtype="seg">The last printed digit is rounded.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The precision specifies the number of digits to be printed after the decimal point.</mrk> <mrk mid="1" mtype="seg">The last printed digit is rounded.</mrk></target>
+<note>e, E</note>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">Default precision is 6; if precision is 0 or the period (.) appears without a number following it, no decimal point is printed.</source>
+<seg-source><mrk mid="0" mtype="seg">Default precision is 6; if precision is 0 or the period (.) appears without a number following it, no decimal point is printed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default precision is 6; if precision is 0 or the period (.) appears without a number following it, no decimal point is printed.</mrk></target>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en">f The precision value specifies the number of digits after the decimal point. If a decimal point appears, at least one digit appears before it. The value is rounded to the appropriate number of digits.</source>
+<seg-source><mrk mid="0" mtype="seg">f The precision value specifies the number of digits after the decimal point.</mrk> <mrk mid="1" mtype="seg">If a decimal point appears, at least one digit appears before it.</mrk> <mrk mid="2" mtype="seg">The value is rounded to the appropriate number of digits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">f The precision value specifies the number of digits after the decimal point.</mrk> <mrk mid="1" mtype="seg">If a decimal point appears, at least one digit appears before it.</mrk> <mrk mid="2" mtype="seg">The value is rounded to the appropriate number of digits.</mrk></target>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en">Default precision is 6; if precision is 0, or if the period (.) appears without a number following it, no decimal point is printed.</source>
+<seg-source><mrk mid="0" mtype="seg">Default precision is 6; if precision is 0, or if the period (.) appears without a number following it, no decimal point is printed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default precision is 6; if precision is 0, or if the period (.) appears without a number following it, no decimal point is printed.</mrk></target>
+<note>f The precision value specifies the number of digits after the decimal point. If a decimal point appears, at least one digit appears before it. The value is rounded to the appropriate number of digits.</note>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en">g, G</source>
+<seg-source><mrk mid="0" mtype="seg">g, G</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">g, G</mrk></target>
+</trans-unit>
+<trans-unit id="94">
+<source xml:lang="en">The precision specifies the maximum number of significant digits printed.</source>
+<seg-source><mrk mid="0" mtype="seg">The precision specifies the maximum number of significant digits printed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The precision specifies the maximum number of significant digits printed.</mrk></target>
+<note>g, G</note>
+</trans-unit>
+<trans-unit id="95">
+<source xml:lang="en">Six significant digits are printed, with any trailing zeros truncated.</source>
+<seg-source><mrk mid="0" mtype="seg">Six significant digits are printed, with any trailing zeros truncated.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Six significant digits are printed, with any trailing zeros truncated.</mrk></target>
+</trans-unit>
+<trans-unit id="96">
+<source xml:lang="en">s</source>
+<seg-source><mrk mid="0" mtype="seg">s</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">s</mrk></target>
+</trans-unit>
+<trans-unit id="97">
+<source xml:lang="en">The precision specifies the maximum number of characters to be printed. Characters in excess of precision are not printed.</source>
+<seg-source><mrk mid="0" mtype="seg">The precision specifies the maximum number of characters to be printed.</mrk> <mrk mid="1" mtype="seg">Characters in excess of precision are not printed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The precision specifies the maximum number of characters to be printed.</mrk> <mrk mid="1" mtype="seg">Characters in excess of precision are not printed.</mrk></target>
+<note>s</note>
+</trans-unit>
+<trans-unit id="98">
+<source xml:lang="en">Characters are printed until a null character is encountered.</source>
+<seg-source><mrk mid="0" mtype="seg">Characters are printed until a null character is encountered.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Characters are printed until a null character is encountered.</mrk></target>
+</trans-unit>
+<trans-unit id="99">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="100">
+<source xml:lang="en">Numeric Formats</source>
+<seg-source><mrk mid="0" mtype="seg">Numeric Formats</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Numeric Formats</mrk></target>
+</trans-unit>
+<trans-unit id="101">
+<source xml:lang="en">%d</source>
+<seg-source><mrk mid="0" mtype="seg">%d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%d</mrk></target>
+</trans-unit>
+<trans-unit id="102">
+<source xml:lang="en">standard positive integer with no sign</source>
+<seg-source><mrk mid="0" mtype="seg">standard positive integer with no sign</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">standard positive integer with no sign</mrk></target>
+</trans-unit>
+<trans-unit id="103">
+<source xml:lang="en">43951789</source>
+<seg-source><mrk mid="0" mtype="seg">43951789</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">43951789</mrk></target>
+</trans-unit>
+<trans-unit id="104">
+<source xml:lang="en">%d</source>
+<seg-source><mrk mid="0" mtype="seg">%d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%d</mrk></target>
+</trans-unit>
+<trans-unit id="105">
+<source xml:lang="en">standard negative integer with sign</source>
+<seg-source><mrk mid="0" mtype="seg">standard negative integer with sign</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">standard negative integer with sign</mrk></target>
+</trans-unit>
+<trans-unit id="106">
+<source xml:lang="en">-43951789</source>
+<seg-source><mrk mid="0" mtype="seg">-43951789</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-43951789</mrk></target>
+</trans-unit>
+<trans-unit id="107">
+<source xml:lang="en">%i</source>
+<seg-source><mrk mid="0" mtype="seg">%i</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%i</mrk></target>
+</trans-unit>
+<trans-unit id="108">
+<source xml:lang="en">standard integer</source>
+<seg-source><mrk mid="0" mtype="seg">standard integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">standard integer</mrk></target>
+</trans-unit>
+<trans-unit id="109">
+<source xml:lang="en">43951789</source>
+<seg-source><mrk mid="0" mtype="seg">43951789</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">43951789</mrk></target>
+</trans-unit>
+<trans-unit id="110">
+<source xml:lang="en">%09i</source>
+<seg-source><mrk mid="0" mtype="seg">%09i</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%09i</mrk></target>
+</trans-unit>
+<trans-unit id="111">
+<source xml:lang="en">9 digits with leading zero</source>
+<seg-source><mrk mid="0" mtype="seg">9 digits with leading zero</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">9 digits with leading zero</mrk></target>
+</trans-unit>
+<trans-unit id="112">
+<source xml:lang="en">043951789</source>
+<seg-source><mrk mid="0" mtype="seg">043951789</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">043951789</mrk></target>
+</trans-unit>
+<trans-unit id="113">
+<source xml:lang="en">%e</source>
+<seg-source><mrk mid="0" mtype="seg">%e</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%e</mrk></target>
+</trans-unit>
+<trans-unit id="114">
+<source xml:lang="en">scientific notation</source>
+<seg-source><mrk mid="0" mtype="seg">scientific notation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">scientific notation</mrk></target>
+</trans-unit>
+<trans-unit id="115">
+<source xml:lang="en">4.395179e+007</source>
+<seg-source><mrk mid="0" mtype="seg">4.395179e+007</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">4.395179e+007</mrk></target>
+</trans-unit>
+<trans-unit id="116">
+<source xml:lang="en">%u</source>
+<seg-source><mrk mid="0" mtype="seg">%u</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%u</mrk></target>
+</trans-unit>
+<trans-unit id="117">
+<source xml:lang="en">unsigned integer with positive integer</source>
+<seg-source><mrk mid="0" mtype="seg">unsigned integer with positive integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">unsigned integer with positive integer</mrk></target>
+</trans-unit>
+<trans-unit id="118">
+<source xml:lang="en">43951789</source>
+<seg-source><mrk mid="0" mtype="seg">43951789</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">43951789</mrk></target>
+</trans-unit>
+<trans-unit id="119">
+<source xml:lang="en">%u</source>
+<seg-source><mrk mid="0" mtype="seg">%u</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%u</mrk></target>
+</trans-unit>
+<trans-unit id="120">
+<source xml:lang="en">unsigned integer with negative integer</source>
+<seg-source><mrk mid="0" mtype="seg">unsigned integer with negative integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">unsigned integer with negative integer</mrk></target>
+</trans-unit>
+<trans-unit id="121">
+<source xml:lang="en">4251015507</source>
+<seg-source><mrk mid="0" mtype="seg">4251015507</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">4251015507</mrk></target>
+</trans-unit>
+<trans-unit id="122">
+<source xml:lang="en">%f</source>
+<seg-source><mrk mid="0" mtype="seg">%f</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%f</mrk></target>
+</trans-unit>
+<trans-unit id="123">
+<source xml:lang="en">floating point</source>
+<seg-source><mrk mid="0" mtype="seg">floating point</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">floating point</mrk></target>
+</trans-unit>
+<trans-unit id="124">
+<source xml:lang="en">43951789.000000</source>
+<seg-source><mrk mid="0" mtype="seg">43951789.000000</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">43951789.000000</mrk></target>
+</trans-unit>
+<trans-unit id="125">
+<source xml:lang="en">%.2f</source>
+<seg-source><mrk mid="0" mtype="seg">%.2f</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%.2f</mrk></target>
+</trans-unit>
+<trans-unit id="126">
+<source xml:lang="en">floating point with 2 digits after decimal point</source>
+<seg-source><mrk mid="0" mtype="seg">floating point with 2 digits after decimal point</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">floating point with 2 digits after decimal point</mrk></target>
+</trans-unit>
+<trans-unit id="127">
+<source xml:lang="en">43951789.00</source>
+<seg-source><mrk mid="0" mtype="seg">43951789.00</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">43951789.00</mrk></target>
+</trans-unit>
+<trans-unit id="128">
+<source xml:lang="en">%o</source>
+<seg-source><mrk mid="0" mtype="seg">%o</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%o</mrk></target>
+</trans-unit>
+<trans-unit id="129">
+<source xml:lang="en">octal</source>
+<seg-source><mrk mid="0" mtype="seg">octal</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">octal</mrk></target>
+</trans-unit>
+<trans-unit id="130">
+<source xml:lang="en">247523255</source>
+<seg-source><mrk mid="0" mtype="seg">247523255</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">247523255</mrk></target>
+</trans-unit>
+<trans-unit id="131">
+<source xml:lang="en">%s</source>
+<seg-source><mrk mid="0" mtype="seg">%s</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%s</mrk></target>
+</trans-unit>
+<trans-unit id="132">
+<source xml:lang="en">string</source>
+<seg-source><mrk mid="0" mtype="seg">string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">string</mrk></target>
+</trans-unit>
+<trans-unit id="133">
+<source xml:lang="en">43951789</source>
+<seg-source><mrk mid="0" mtype="seg">43951789</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">43951789</mrk></target>
+</trans-unit>
+<trans-unit id="134">
+<source xml:lang="en">%x</source>
+<seg-source><mrk mid="0" mtype="seg">%x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%x</mrk></target>
+</trans-unit>
+<trans-unit id="135">
+<source xml:lang="en">hexadecimal (lower-case)</source>
+<seg-source><mrk mid="0" mtype="seg">hexadecimal (lower-case)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hexadecimal (lower-case)</mrk></target>
+</trans-unit>
+<trans-unit id="136">
+<source xml:lang="en">29ea6ad</source>
+<seg-source><mrk mid="0" mtype="seg">29ea6ad</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">29ea6ad</mrk></target>
+</trans-unit>
+<trans-unit id="137">
+<source xml:lang="en">%X</source>
+<seg-source><mrk mid="0" mtype="seg">%X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%X</mrk></target>
+</trans-unit>
+<trans-unit id="138">
+<source xml:lang="en">hexadecimal (upper-case)</source>
+<seg-source><mrk mid="0" mtype="seg">hexadecimal (upper-case)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hexadecimal (upper-case)</mrk></target>
+</trans-unit>
+<trans-unit id="139">
+<source xml:lang="en">29EA6AD</source>
+<seg-source><mrk mid="0" mtype="seg">29EA6AD</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">29EA6AD</mrk></target>
+</trans-unit>
+<trans-unit id="140">
+<source xml:lang="en">%+d</source>
+<seg-source><mrk mid="0" mtype="seg">%+d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%+d</mrk></target>
+</trans-unit>
+<trans-unit id="141">
+<source xml:lang="en">sign specifier on a positive integer</source>
+<seg-source><mrk mid="0" mtype="seg">sign specifier on a positive integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sign specifier on a positive integer</mrk></target>
+</trans-unit>
+<trans-unit id="142">
+<source xml:lang="en">+43951789</source>
+<seg-source><mrk mid="0" mtype="seg">+43951789</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+43951789</mrk></target>
+</trans-unit>
+<trans-unit id="143">
+<source xml:lang="en">%+d</source>
+<seg-source><mrk mid="0" mtype="seg">%+d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%+d</mrk></target>
+</trans-unit>
+<trans-unit id="144">
+<source xml:lang="en">sign specifier on a negative integer</source>
+<seg-source><mrk mid="0" mtype="seg">sign specifier on a negative integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sign specifier on a negative integer</mrk></target>
+</trans-unit>
+<trans-unit id="145">
+<source xml:lang="en">-43951789</source>
+<seg-source><mrk mid="0" mtype="seg">-43951789</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-43951789</mrk></target>
+</trans-unit>
+<trans-unit id="146">
+<source xml:lang="en">string</source>
+<seg-source><mrk mid="0" mtype="seg">string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">string</mrk></target>
+</trans-unit>
+<trans-unit id="147">
+<source xml:lang="en">longstring</source>
+<seg-source><mrk mid="0" mtype="seg">longstring</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">longstring</mrk></target>
+</trans-unit>
+<trans-unit id="148">
+<source xml:lang="en">String Formats - [ ] used to show beginning/end of string</source>
+<seg-source><mrk mid="0" mtype="seg">String Formats - [ ] used to show beginning/end of string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String Formats - [ ] used to show beginning/end of string</mrk></target>
+</trans-unit>
+<trans-unit id="149">
+<source xml:lang="en">[%s]</source>
+<seg-source><mrk mid="0" mtype="seg">[%s]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[%s]</mrk></target>
+</trans-unit>
+<trans-unit id="150">
+<source xml:lang="en">standard string</source>
+<seg-source><mrk mid="0" mtype="seg">standard string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">standard string</mrk></target>
+</trans-unit>
+<trans-unit id="151">
+<source xml:lang="en">[string]</source>
+<seg-source><mrk mid="0" mtype="seg">[string]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[string]</mrk></target>
+</trans-unit>
+<trans-unit id="152">
+<source xml:lang="en">[%10s]</source>
+<seg-source><mrk mid="0" mtype="seg">[%10s]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[%10s]</mrk></target>
+</trans-unit>
+<trans-unit id="153">
+<source xml:lang="en">10 chars right justified with added spaces</source>
+<seg-source><mrk mid="0" mtype="seg">10 chars right justified with added spaces</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10 chars right justified with added spaces</mrk></target>
+</trans-unit>
+<trans-unit id="154">
+<source xml:lang="en">[ string]</source>
+<seg-source><mrk mid="0" mtype="seg">[ string]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[ string]</mrk></target>
+</trans-unit>
+<trans-unit id="155">
+<source xml:lang="en">[%-10s]</source>
+<seg-source><mrk mid="0" mtype="seg">[%-10s]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[%-10s]</mrk></target>
+</trans-unit>
+<trans-unit id="156">
+<source xml:lang="en">10 chars left justified with added spaces</source>
+<seg-source><mrk mid="0" mtype="seg">10 chars left justified with added spaces</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10 chars left justified with added spaces</mrk></target>
+</trans-unit>
+<trans-unit id="157">
+<source xml:lang="en">[string ]</source>
+<seg-source><mrk mid="0" mtype="seg">[string ]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[string ]</mrk></target>
+</trans-unit>
+<trans-unit id="158">
+<source xml:lang="en">[%10.8s]</source>
+<seg-source><mrk mid="0" mtype="seg">[%10.8s]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[%10.8s]</mrk></target>
+</trans-unit>
+<trans-unit id="159">
+<source xml:lang="en">right justified but precision 8 so truncated</source>
+<seg-source><mrk mid="0" mtype="seg">right justified but precision 8 so truncated</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">right justified but precision 8 so truncated</mrk></target>
+</trans-unit>
+<trans-unit id="160">
+<source xml:lang="en">[ longer s]</source>
+<seg-source><mrk mid="0" mtype="seg">[ longer s]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[ longer s]</mrk></target>
+</trans-unit>
+<trans-unit id="161">
+<source xml:lang="en">[%-10.8s]</source>
+<seg-source><mrk mid="0" mtype="seg">[%-10.8s]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[%-10.8s]</mrk></target>
+</trans-unit>
+<trans-unit id="162">
+<source xml:lang="en">left justifed but precision 8 so truncated</source>
+<seg-source><mrk mid="0" mtype="seg">left justifed but precision 8 so truncated</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">left justifed but precision 8 so truncated</mrk></target>
+</trans-unit>
+<trans-unit id="163">
+<source xml:lang="en">[longer s ]</source>
+<seg-source><mrk mid="0" mtype="seg">[longer s ]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[longer s ]</mrk></target>
+</trans-unit>
+<trans-unit id="164">
+<source xml:lang="en">[%010s]</source>
+<seg-source><mrk mid="0" mtype="seg">[%010s]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[%010s]</mrk></target>
+</trans-unit>
+<trans-unit id="165">
+<source xml:lang="en">10 chars with leading zero</source>
+<seg-source><mrk mid="0" mtype="seg">10 chars with leading zero</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10 chars with leading zero</mrk></target>
+</trans-unit>
+<trans-unit id="166">
+<source xml:lang="en">[0000string]</source>
+<seg-source><mrk mid="0" mtype="seg">[0000string]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[0000string]</mrk></target>
+</trans-unit>
+<trans-unit id="167">
+<source xml:lang="en">Date Format - each % uses a new parameter</source>
+<seg-source><mrk mid="0" mtype="seg">Date Format - each % uses a new parameter</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Date Format - each % uses a new parameter</mrk></target>
+</trans-unit>
+<trans-unit id="168">
+<source xml:lang="en">"%02i\%02i\%04i" 0n (1, 9, 2013) =></source>
+<seg-source><mrk mid="0" mtype="seg">"%02i\%02i\%04i" 0n (1, 9, 2013) =></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"%02i\%02i\%04i" 0n (1, 9, 2013) =></mrk></target>
+</trans-unit>
+<trans-unit id="169">
+<source xml:lang="en">%02i\%02i\%04i</source>
+<seg-source><mrk mid="0" mtype="seg">%02i\%02i\%04i</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%02i\%02i\%04i</mrk></target>
+</trans-unit>
+<trans-unit id="170">
+<source xml:lang="en">" on</source>
+<seg-source><mrk mid="0" mtype="seg">" on</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">" on</mrk></target>
+</trans-unit>
+<trans-unit id="171">
+<source xml:lang="en">=></source>
+<seg-source><mrk mid="0" mtype="seg">=></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">=></mrk></target>
+</trans-unit>
+<trans-unit id="172">
+<source xml:lang="en">;</source>
+<seg-source><mrk mid="0" mtype="seg">;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">;</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

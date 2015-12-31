@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_EnumProcessThreads.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Enumerates a threads that belong to the specified process</source>
+<seg-source><mrk mid="0" mtype="seg">Enumerates a threads that belong to the specified process</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enumerates a threads that belong to the specified process</mrk></target>
+<note>Function _WinAPI_EnumProcessThreads</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The PID of the process. Default (0) is the current process.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The PID of the process.</mrk> <mrk mid="2" mtype="seg">Default (0) is the current process.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The PID of the process.</mrk> <mrk mid="2" mtype="seg">Default (0) is the current process.</mrk></target>
+<note>$iPID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The array of threads identifiers (ID). The zeroth array element contains the number of threads.</source>
+<seg-source><mrk mid="0" mtype="seg">The array of threads identifiers (ID).</mrk> <mrk mid="1" mtype="seg">The zeroth array element contains the number of threads.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The array of threads identifiers (ID).</mrk> <mrk mid="1" mtype="seg">The zeroth array element contains the number of threads.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

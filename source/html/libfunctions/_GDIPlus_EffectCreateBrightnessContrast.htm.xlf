@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GDIPlus_EffectCreateBrightnessContrast.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a BrightnessContrast class effect object</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a BrightnessContrast class effect object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a BrightnessContrast class effect object</mrk></target>
+<note>Function _GDIPlus_EffectCreateBrightnessContrast</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Integer in the range -255 through 255 that specifies the brightness level.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Integer in the range -255 through 255 that specifies the brightness level.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Integer in the range -255 through 255 that specifies the brightness level.</mrk></target>
+<note>$iBrightnessLevel</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Integer in the range -100 through 100 that specifies the contrast level.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Integer in the range -100 through 100 that specifies the contrast level.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Integer in the range -100 through 100 that specifies the contrast level.</mrk></target>
+<note>$iContrastLevel</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">a handle to an Effect object.</source>
+<seg-source><mrk mid="0" mtype="seg">a handle to an Effect object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a handle to an Effect object.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">0 and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">-1 - GDIPlus.dll does not support this function.</source>
+<seg-source><mrk mid="0" mtype="seg">-1 - GDIPlus.dll does not support this function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1 - GDIPlus.dll does not support this function.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> 10 - Invalid parameters.</source>
+<seg-source> <mrk mid="0" mtype="seg">10 - Invalid parameters.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">10 - Invalid parameters.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">When you are done with the Effect object, call <bpt id="1" ctype="x-a">&lt;a href="_GDIPlus_EffectDispose.htm"></bpt>_GDIPlus_EffectDispose()<ept id="1">&lt;/a></ept> to release the resources.</source>
+<seg-source><mrk mid="0" mtype="seg">When you are done with the Effect object, call <bpt id="1" ctype="x-a">&lt;a href="_GDIPlus_EffectDispose.htm"></bpt>_GDIPlus_EffectDispose()<ept id="1">&lt;/a></ept> to release the resources.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you are done with the Effect object, call <bpt id="1" ctype="x-a">&lt;a href="_GDIPlus_EffectDispose.htm"></bpt>_GDIPlus_EffectDispose()<ept id="1">&lt;/a></ept> to release the resources.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">ERROR</source>
+<seg-source><mrk mid="0" mtype="seg">ERROR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ERROR</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">GDIPlus.dll v1.1 not available</source>
+<seg-source><mrk mid="0" mtype="seg">GDIPlus.dll v1.1 not available</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GDIPlus.dll v1.1 not available</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Select an image</source>
+<seg-source><mrk mid="0" mtype="seg">Select an image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Select an image</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Images (*.bmp;*.png;*.jpg;*.gif;*.tif)</source>
+<seg-source><mrk mid="0" mtype="seg">Images (*.bmp;*.png;*.jpg;*.gif;*.tif)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Images (*.bmp;*.png;*.jpg;*.gif;*.tif)</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">GDI+ v1.1 (</source>
+<seg-source><mrk mid="0" mtype="seg">GDI+ v1.1 (</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GDI+ v1.1 (</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">)</source>
+<seg-source><mrk mid="0" mtype="seg">)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">)</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

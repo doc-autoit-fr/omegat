@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_SetFileValidData.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the valid data length of the specified file</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the valid data length of the specified file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the valid data length of the specified file</mrk></target>
+<note>Function _WinAPI_SetFileValidData</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">A handle to the file. This file must have been opened with the $GENERIC_WRITE access right, and the</source>
+<seg-source><mrk mid="0" mtype="seg">A handle to the file.</mrk> <mrk mid="1" mtype="seg">This file must have been opened with the $GENERIC_WRITE access right, and the</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A handle to the file.</mrk> <mrk mid="1" mtype="seg">This file must have been opened with the $GENERIC_WRITE access right, and the</mrk></target>
+<note>$hFile</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> $SE_MANAGE_VOLUME_NAME privilege enabled. The file cannot be a network file, or be compressed,</source>
+<seg-source> <mrk mid="0" mtype="seg">$SE_MANAGE_VOLUME_NAME privilege enabled.</mrk> <mrk mid="1" mtype="seg">The file cannot be a network file, or be compressed,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SE_MANAGE_VOLUME_NAME privilege enabled.</mrk> <mrk mid="1" mtype="seg">The file cannot be a network file, or be compressed,</mrk></target>
+<note>$hFile</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> sparse, or transacted.</source>
+<seg-source> <mrk mid="0" mtype="seg">sparse, or transacted.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">sparse, or transacted.</mrk></target>
+<note>$hFile</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The new valid data length. This parameter must be a positive value that is greater than the current</source>
+<seg-source><mrk mid="0" mtype="seg">The new valid data length.</mrk> <mrk mid="1" mtype="seg">This parameter must be a positive value that is greater than the current</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The new valid data length.</mrk> <mrk mid="1" mtype="seg">This parameter must be a positive value that is greater than the current</mrk></target>
+<note>$iLength</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> valid data length, but less than the current file size.</source>
+<seg-source> <mrk mid="0" mtype="seg">valid data length, but less than the current file size.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">valid data length, but less than the current file size.</mrk></target>
+<note>$iLength</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">False</source>
+<seg-source><mrk mid="0" mtype="seg">False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">This function sets the logical end of a file. To set the size of a file, use the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetEndOfFile.htm"></bpt>_WinAPI_SetEndOfFile()<ept id="1">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg">This function sets the logical end of a file.</mrk> <mrk mid="1" mtype="seg">To set the size of a file, use the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetEndOfFile.htm"></bpt>_WinAPI_SetEndOfFile()<ept id="1">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function sets the logical end of a file.</mrk> <mrk mid="1" mtype="seg">To set the size of a file, use the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetEndOfFile.htm"></bpt>_WinAPI_SetEndOfFile()<ept id="1">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> function. The physical file size is also referred to as the end of the file.</source>
+<seg-source> <mrk mid="0" mtype="seg">function.</mrk> <mrk mid="1" mtype="seg">The physical file size is also referred to as the end of the file.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">function.</mrk> <mrk mid="1" mtype="seg">The physical file size is also referred to as the end of the file.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> Typically, the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetFileValidData.htm"></bpt>_WinAPI_SetFileValidData()<ept id="1">&lt;/a></ept> function is used by system-level applications on their own private</source>
+<seg-source> <mrk mid="0" mtype="seg">Typically, the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetFileValidData.htm"></bpt>_WinAPI_SetFileValidData()<ept id="1">&lt;/a></ept> function is used by system-level applications on their own private</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Typically, the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetFileValidData.htm"></bpt>_WinAPI_SetFileValidData()<ept id="1">&lt;/a></ept> function is used by system-level applications on their own private</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> data. Not all file systems use valid data length. Some file systems can track multiple valid data ranges.</source>
+<seg-source> <mrk mid="0" mtype="seg">data.</mrk> <mrk mid="1" mtype="seg">Not all file systems use valid data length.</mrk> <mrk mid="2" mtype="seg">Some file systems can track multiple valid data ranges.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">data.</mrk> <mrk mid="1" mtype="seg">Not all file systems use valid data length.</mrk> <mrk mid="2" mtype="seg">Some file systems can track multiple valid data ranges.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> In general, most applications will never need to call this function.</source>
+<seg-source> <mrk mid="0" mtype="seg">In general, most applications will never need to call this function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">In general, most applications will never need to call this function.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetFileValidData);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetFileValidData<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetFileValidData);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetFileValidData<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetFileValidData);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetFileValidData<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

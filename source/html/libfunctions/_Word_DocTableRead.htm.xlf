@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_Word_DocTableRead.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Reads a Word table and returns the content as a two-dimensional array</source>
+<seg-source><mrk mid="0" mtype="seg">Reads a Word table and returns the content as a two-dimensional array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Reads a Word table and returns the content as a two-dimensional array</mrk></target>
+<note>Function _Word_DocTableRead</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Word document object</source>
+<seg-source><mrk mid="0" mtype="seg">Word document object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word document object</mrk></target>
+<note>$oDoc</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Table object or index of the table in the table collection</source>
+<seg-source><mrk mid="0" mtype="seg">Table object or index of the table in the table collection</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Table object or index of the table in the table collection</mrk></target>
+<note>$vTable</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Can be 0 or 1 and specifies if the array starts with row 0 or 1 (default = 1)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Can be 0 or 1 and specifies if the array starts with row 0 or 1 (default = 1)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Can be 0 or 1 and specifies if the array starts with row 0 or 1 (default = 1)</mrk></target>
+<note>$iIndexBase</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the character used to separate text into cells (default = @TAB)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the character used to separate text into cells (default = @TAB)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the character used to separate text into cells (default = @TAB)</mrk></target>
+<note>$sDelimiter</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Two-dimensional array with the content of the Word table.</source>
+<seg-source><mrk mid="0" mtype="seg">Two-dimensional array with the content of the Word table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Two-dimensional array with the content of the Word table.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">"" and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">"" and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"" and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">1 - $oDoc is not an object</source>
+<seg-source><mrk mid="0" mtype="seg">1 - $oDoc is not an object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - $oDoc is not an object</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> 2 - Error occurred when accessing the specified table index in the table collection. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - Error occurred when accessing the specified table index in the table collection.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - Error occurred when accessing the specified table index in the table collection.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> 3 - Error occurred when accessing the specified table. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - Error occurred when accessing the specified table.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - Error occurred when accessing the specified table.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> 4 - Error occurred when converting the text to a table. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">4 - Error occurred when converting the text to a table.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 - Error occurred when converting the text to a table.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Nested tables are ignored.</source>
+<seg-source><mrk mid="0" mtype="seg">Nested tables are ignored.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Nested tables are ignored.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> If $iIndexBase is set to 1 then row 0 of the array contains the row and column count.</source>
+<seg-source> <mrk mid="0" mtype="seg">If $iIndexBase is set to 1 then row 0 of the array contains the row and column count.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If $iIndexBase is set to 1 then row 0 of the array contains the row and column count.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Create application object</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Word UDF: _Word_DocTableRead Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocTableRead Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocTableRead Example</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Error creating a new Word application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating a new Word application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating a new Word application object.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Open the test document</source>
+<seg-source><mrk mid="0" mtype="seg">Open the test document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open the test document</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">\Extras\Test.doc</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\Test.doc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\Test.doc</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Word UDF: _Word_DocTableRead Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocTableRead Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocTableRead Example</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Error opening '.\Extras\Test.doc'.</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening '.\Extras\Test.doc'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening '.\Extras\Test.doc'.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Create a table from an array</source>
+<seg-source><mrk mid="0" mtype="seg">Create a table from an array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a table from an array</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">a</source>
+<seg-source><mrk mid="0" mtype="seg">a</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">b</source>
+<seg-source><mrk mid="0" mtype="seg">b</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">b</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">c</source>
+<seg-source><mrk mid="0" mtype="seg">c</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">c</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">x</source>
+<seg-source><mrk mid="0" mtype="seg">x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">x</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">y</source>
+<seg-source><mrk mid="0" mtype="seg">y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">y</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">z</source>
+<seg-source><mrk mid="0" mtype="seg">z</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">z</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Word UDF: _Word_DocTableRead Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocTableRead Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocTableRead Example</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Error creating the table.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the table.</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Read the first table in the document and return the content</source>
+<seg-source><mrk mid="0" mtype="seg">Read the first table in the document and return the content</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Read the first table in the document and return the content</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Word UDF: _Word_DocTableRead Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocTableRead Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocTableRead Example</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Error reading the table to an array.</source>
+<seg-source><mrk mid="0" mtype="seg">Error reading the table to an array.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error reading the table to an array.</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Word UDF: _Word_DocTableRead Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocTableRead Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocTableRead Example</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

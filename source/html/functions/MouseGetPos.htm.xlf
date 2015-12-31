@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/MouseGetPos.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the current position of the mouse cursor.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the current position of the mouse cursor.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the current position of the mouse cursor.</mrk></target>
+<note>Function MouseGetPos</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> argument that determines what the return value will be. See Return Value.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">argument that determines what the return value will be.</mrk> <mrk mid="2" mtype="seg">See Return Value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">argument that determines what the return value will be.</mrk> <mrk mid="2" mtype="seg">See Return Value.</mrk></target>
+<note>dimension</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Dimension</source>
+<seg-source><mrk mid="0" mtype="seg">Dimension</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dimension</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Values</source>
+<seg-source><mrk mid="0" mtype="seg">Values</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Values</mrk></target>
+<note>Dimension</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-em">&lt;em></bpt>None<ept id="1">&lt;/em></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-em">&lt;em></bpt>None<ept id="1">&lt;/em></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-em">&lt;em></bpt>None<ept id="1">&lt;/em></ept></mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Returns a two-element <bpt id="1" ctype="x-strong">&lt;strong></bpt>array<ept id="1">&lt;/strong></ept> containing the mouse coordinates: $aArray[0] = X coord (horizontal), $aArray[1] = Y coord (vertical)</source>
+<seg-source><mrk mid="0" mtype="seg">Returns a two-element <bpt id="1" ctype="x-strong">&lt;strong></bpt>array<ept id="1">&lt;/strong></ept> containing the mouse coordinates:</mrk> <mrk mid="1" mtype="seg">$aArray[0] = X coord (horizontal), $aArray[1] = Y coord (vertical)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns a two-element <bpt id="1" ctype="x-strong">&lt;strong></bpt>array<ept id="1">&lt;/strong></ept> containing the mouse coordinates:</mrk> <mrk mid="1" mtype="seg">$aArray[0] = X coord (horizontal), $aArray[1] = Y coord (vertical)</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">0</source>
+<seg-source><mrk mid="0" mtype="seg">0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Returns the X co-ordinate as an integer.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the X co-ordinate as an integer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the X co-ordinate as an integer.</mrk></target>
+<note>0</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Returns the Y co-ordinate as an integer.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the Y co-ordinate as an integer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the Y co-ordinate as an integer.</mrk></target>
+<note>1</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> If dimension is not a number @error will be set to 1.</source>
+<seg-source> <mrk mid="0" mtype="seg">If dimension is not a number @error will be set to 1.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If dimension is not a number @error will be set to 1.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">See MouseCoordMode for relative/absolute position settings. If relative positioning, numbers may be negative.</source>
+<seg-source><mrk mid="0" mtype="seg">See MouseCoordMode for relative/absolute position settings.</mrk> <mrk mid="1" mtype="seg">If relative positioning, numbers may be negative.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See MouseCoordMode for relative/absolute position settings.</mrk> <mrk mid="1" mtype="seg">If relative positioning, numbers may be negative.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="MouseClick.htm"></bpt>MouseClick<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="MouseClickDrag.htm"></bpt>MouseClickDrag<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="AutoItSetOption.htm#MouseCoordMode"></bpt>MouseCoordMode (Option)<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="MouseDown.htm"></bpt>MouseDown<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="MouseGetCursor.htm"></bpt>MouseGetCursor<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="MouseMove.htm"></bpt>MouseMove<ept id="6">&lt;/a></ept>, <bpt id="7" ctype="x-a">&lt;a href="MouseUp.htm"></bpt>MouseUp<ept id="7">&lt;/a></ept>, <bpt id="8" ctype="x-a">&lt;a href="MouseWheel.htm"></bpt>MouseWheel<ept id="8">&lt;/a></ept>, <bpt id="9" ctype="x-a">&lt;a href="PixelGetColor.htm"></bpt>PixelGetColor<ept id="9">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="MouseClick.htm"></bpt>MouseClick<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="MouseClickDrag.htm"></bpt>MouseClickDrag<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="AutoItSetOption.htm#MouseCoordMode"></bpt>MouseCoordMode (Option)<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="MouseDown.htm"></bpt>MouseDown<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="MouseGetCursor.htm"></bpt>MouseGetCursor<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="MouseMove.htm"></bpt>MouseMove<ept id="6">&lt;/a></ept>, <bpt id="7" ctype="x-a">&lt;a href="MouseUp.htm"></bpt>MouseUp<ept id="7">&lt;/a></ept>, <bpt id="8" ctype="x-a">&lt;a href="MouseWheel.htm"></bpt>MouseWheel<ept id="8">&lt;/a></ept>, <bpt id="9" ctype="x-a">&lt;a href="PixelGetColor.htm"></bpt>PixelGetColor<ept id="9">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="MouseClick.htm"></bpt>MouseClick<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="MouseClickDrag.htm"></bpt>MouseClickDrag<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="AutoItSetOption.htm#MouseCoordMode"></bpt>MouseCoordMode (Option)<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="MouseDown.htm"></bpt>MouseDown<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="MouseGetCursor.htm"></bpt>MouseGetCursor<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="MouseMove.htm"></bpt>MouseMove<ept id="6">&lt;/a></ept>, <bpt id="7" ctype="x-a">&lt;a href="MouseUp.htm"></bpt>MouseUp<ept id="7">&lt;/a></ept>, <bpt id="8" ctype="x-a">&lt;a href="MouseWheel.htm"></bpt>MouseWheel<ept id="8">&lt;/a></ept>, <bpt id="9" ctype="x-a">&lt;a href="PixelGetColor.htm"></bpt>PixelGetColor<ept id="9">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Mouse x, y:</source>
+<seg-source><mrk mid="0" mtype="seg">Mouse x, y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Mouse x, y:</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">,</source>
+<seg-source><mrk mid="0" mtype="seg">,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">,</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

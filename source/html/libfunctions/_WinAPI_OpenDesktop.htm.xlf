@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_OpenDesktop.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Opens the specified desktop object</source>
+<seg-source><mrk mid="0" mtype="seg">Opens the specified desktop object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Opens the specified desktop object</mrk></target>
+<note>Function _WinAPI_OpenDesktop</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The name of the desktop to be opened. Desktop names are case-insensitive. This desktop must belong to</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the desktop to be opened.</mrk> <mrk mid="1" mtype="seg">Desktop names are case-insensitive.</mrk> <mrk mid="2" mtype="seg">This desktop must belong to</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the desktop to be opened.</mrk> <mrk mid="1" mtype="seg">Desktop names are case-insensitive.</mrk> <mrk mid="2" mtype="seg">This desktop must belong to</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> the current window station.</source>
+<seg-source> <mrk mid="0" mtype="seg">the current window station.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">the current window station.</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The access to the desktop. This parameter can be one or more of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The access to the desktop.</mrk> <mrk mid="2" mtype="seg">This parameter can be one or more of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The access to the desktop.</mrk> <mrk mid="2" mtype="seg">This parameter can be one or more of the following values.</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> $DESKTOP_ALL_ACCESS</source>
+<seg-source> <mrk mid="0" mtype="seg">$DESKTOP_ALL_ACCESS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DESKTOP_ALL_ACCESS</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $DESKTOP_CREATEMENU</source>
+<seg-source> <mrk mid="0" mtype="seg">$DESKTOP_CREATEMENU</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DESKTOP_CREATEMENU</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $DESKTOP_CREATEWINDOW</source>
+<seg-source> <mrk mid="0" mtype="seg">$DESKTOP_CREATEWINDOW</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DESKTOP_CREATEWINDOW</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $DESKTOP_ENUMERATE</source>
+<seg-source> <mrk mid="0" mtype="seg">$DESKTOP_ENUMERATE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DESKTOP_ENUMERATE</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> $DESKTOP_HOOKCONTROL</source>
+<seg-source> <mrk mid="0" mtype="seg">$DESKTOP_HOOKCONTROL</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DESKTOP_HOOKCONTROL</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> $DESKTOP_JOURNALPLAYBACK</source>
+<seg-source> <mrk mid="0" mtype="seg">$DESKTOP_JOURNALPLAYBACK</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DESKTOP_JOURNALPLAYBACK</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> $DESKTOP_JOURNALRECORD</source>
+<seg-source> <mrk mid="0" mtype="seg">$DESKTOP_JOURNALRECORD</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DESKTOP_JOURNALRECORD</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> $DESKTOP_READOBJECTS</source>
+<seg-source> <mrk mid="0" mtype="seg">$DESKTOP_READOBJECTS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DESKTOP_READOBJECTS</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> $DESKTOP_SWITCHDESKTOP</source>
+<seg-source> <mrk mid="0" mtype="seg">$DESKTOP_SWITCHDESKTOP</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DESKTOP_SWITCHDESKTOP</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> $DESKTOP_WRITEOBJECTS</source>
+<seg-source> <mrk mid="0" mtype="seg">$DESKTOP_WRITEOBJECTS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DESKTOP_WRITEOBJECTS</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The optional flags. It can be zero or the following value.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The optional flags.</mrk> <mrk mid="2" mtype="seg">It can be zero or the following value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The optional flags.</mrk> <mrk mid="2" mtype="seg">It can be zero or the following value.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> $DF_ALLOWOTHERACCOUNTHOOK</source>
+<seg-source> <mrk mid="0" mtype="seg">$DF_ALLOWOTHERACCOUNTHOOK</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DF_ALLOWOTHERACCOUNTHOOK</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether inherites the handle by a processes, valid values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether inherites the handle by a processes, valid values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether inherites the handle by a processes, valid values:</mrk></target>
+<note>$bInherit</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     True - The processes created by this process will inherit the handle.</source>
+<seg-source> <mrk mid="0" mtype="seg">    True - The processes created by this process will inherit the handle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    True - The processes created by this process will inherit the handle.</mrk></target>
+<note>$bInherit</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     False - The processes do not inherit this handle (Default).</source>
+<seg-source> <mrk mid="0" mtype="seg">    False - The processes do not inherit this handle (Default).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    False - The processes do not inherit this handle (Default).</mrk></target>
+<note>$bInherit</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Handle to the opened desktop.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the opened desktop.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the opened desktop.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> 0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">When you are finished using the desktop, call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CloseDesktop.htm"></bpt>_WinAPI_CloseDesktop()<ept id="1">&lt;/a></ept> function to close it.</source>
+<seg-source><mrk mid="0" mtype="seg">When you are finished using the desktop, call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CloseDesktop.htm"></bpt>_WinAPI_CloseDesktop()<ept id="1">&lt;/a></ept> function to close it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you are finished using the desktop, call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CloseDesktop.htm"></bpt>_WinAPI_CloseDesktop()<ept id="1">&lt;/a></ept> function to close it.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(OpenDesktop);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>OpenDesktop<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(OpenDesktop);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>OpenDesktop<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(OpenDesktop);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>OpenDesktop<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

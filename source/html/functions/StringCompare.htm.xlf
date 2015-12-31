@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/StringCompare.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Compares two strings with options.</source>
+<seg-source><mrk mid="0" mtype="seg">Compares two strings with options.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Compares two strings with options.</mrk></target>
+<note>Function StringCompare</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The first string to evaluate.</source>
+<seg-source><mrk mid="0" mtype="seg">The first string to evaluate.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The first string to evaluate.</mrk></target>
+<note>string1</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The second string to evaluate.</source>
+<seg-source><mrk mid="0" mtype="seg">The second string to evaluate.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The second string to evaluate.</mrk></target>
+<note>string2</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Flag to indicate if the operations should be case sensitive.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Flag to indicate if the operations should be case sensitive.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Flag to indicate if the operations should be case sensitive.</mrk></target>
+<note>casesense</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $STR_NOCASESENSE (0) = not case sensitive, using the user's locale (default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STR_NOCASESENSE (0) = not case sensitive, using the user's locale (default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STR_NOCASESENSE (0) = not case sensitive, using the user's locale (default)</mrk></target>
+<note>casesense</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $STR_CASESENSE (1) = case sensitive</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STR_CASESENSE (1) = case sensitive</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STR_CASESENSE (1) = case sensitive</mrk></target>
+<note>casesense</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $STR_NOCASESENSEBASIC (2) = not case sensitive, using a basic/faster comparison</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STR_NOCASESENSEBASIC (2) = not case sensitive, using a basic/faster comparison</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STR_NOCASESENSEBASIC (2) = not case sensitive, using a basic/faster comparison</mrk></target>
+<note>casesense</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> Constants are defined in StringConstants.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in StringConstants.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in StringConstants.au3.</mrk></target>
+<note>casesense</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">0:</source>
+<seg-source><mrk mid="0" mtype="seg">0:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0:</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">string1 and string2 are equal</source>
+<seg-source><mrk mid="0" mtype="seg">string1 and string2 are equal</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">string1 and string2 are equal</mrk></target>
+<note>0:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">> 0:</source>
+<seg-source><mrk mid="0" mtype="seg">> 0:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">> 0:</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">string1 is greater than string2</source>
+<seg-source><mrk mid="0" mtype="seg">string1 is greater than string2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">string1 is greater than string2</mrk></target>
+<note>> 0:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">&lt; 0:</source>
+<seg-source><mrk mid="0" mtype="seg">&lt; 0:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&lt; 0:</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">string1 is less than string2</source>
+<seg-source><mrk mid="0" mtype="seg">string1 is less than string2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">string1 is less than string2</mrk></target>
+<note>&lt; 0:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Tiësto</source>
+<seg-source><mrk mid="0" mtype="seg">Tiësto</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Tiësto</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">TIËSTO</source>
+<seg-source><mrk mid="0" mtype="seg">TIËSTO</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TIËSTO</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Compare two strings without using case sensitivity.</source>
+<seg-source><mrk mid="0" mtype="seg">Compare two strings without using case sensitivity.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Compare two strings without using case sensitivity.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Comparing '</source>
+<seg-source><mrk mid="0" mtype="seg">Comparing '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Comparing '</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">' To '</source>
+<seg-source><mrk mid="0" mtype="seg">' To '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">' To '</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">StringCompare Result (mode $STR_NOCASESENSE):</source>
+<seg-source><mrk mid="0" mtype="seg">StringCompare Result (mode $STR_NOCASESENSE):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">StringCompare Result (mode $STR_NOCASESENSE):</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Compare two strings with using case sensitivity.</source>
+<seg-source><mrk mid="0" mtype="seg">Compare two strings with using case sensitivity.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Compare two strings with using case sensitivity.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Comparing '</source>
+<seg-source><mrk mid="0" mtype="seg">Comparing '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Comparing '</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">' To '</source>
+<seg-source><mrk mid="0" mtype="seg">' To '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">' To '</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">StringCompare Result (mode $STR_CASESENSE):</source>
+<seg-source><mrk mid="0" mtype="seg">StringCompare Result (mode $STR_CASESENSE):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">StringCompare Result (mode $STR_CASESENSE):</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Compare two strings without using case sensitivity.</source>
+<seg-source><mrk mid="0" mtype="seg">Compare two strings without using case sensitivity.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Compare two strings without using case sensitivity.</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Comparing '</source>
+<seg-source><mrk mid="0" mtype="seg">Comparing '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Comparing '</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">' To '</source>
+<seg-source><mrk mid="0" mtype="seg">' To '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">' To '</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">StringCompare Result (mode $STR_NOCASESENSEBASIC):</source>
+<seg-source><mrk mid="0" mtype="seg">StringCompare Result (mode $STR_NOCASESENSEBASIC):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">StringCompare Result (mode $STR_NOCASESENSEBASIC):</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

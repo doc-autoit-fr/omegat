@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/DriveGetFileSystem.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Returns File System Type of a drive.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns File System Type of a drive.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns File System Type of a drive.</mrk></target>
+<note>Function DriveGetFileSystem</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Path of drive to receive information from.</source>
+<seg-source><mrk mid="0" mtype="seg">Path of drive to receive information from.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Path of drive to receive information from.</mrk></target>
+<note>path</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">the File System Type of the drive as a string; see table below.</source>
+<seg-source><mrk mid="0" mtype="seg">the File System Type of the drive as a string; see table below.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the File System Type of the drive as a string; see table below.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">sets the @error flag to 1.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to 1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to 1.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Return Value<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Return Value<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Return Value<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Interpretation<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Interpretation<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Interpretation<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">$DT_UNDEFINED (1) <bpt id="1" ctype="x-em">&lt;em></bpt>(numeric)<ept id="1">&lt;/em></ept></source>
+<seg-source><mrk mid="0" mtype="seg">$DT_UNDEFINED (1) <bpt id="1" ctype="x-em">&lt;em></bpt>(numeric)<ept id="1">&lt;/em></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$DT_UNDEFINED (1) <bpt id="1" ctype="x-em">&lt;em></bpt>(numeric)<ept id="1">&lt;/em></ept></mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Drive does NOT contain media (CD, Floppy, Zip) or media is unformatted (RAW).</source>
+<seg-source><mrk mid="0" mtype="seg">Drive does NOT contain media (CD, Floppy, Zip) or media is unformatted (RAW).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Drive does NOT contain media (CD, Floppy, Zip) or media is unformatted (RAW).</mrk></target>
+<note>$DT_UNDEFINED (1) </note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">$DT_FAT ("FAT")</source>
+<seg-source><mrk mid="0" mtype="seg">$DT_FAT ("FAT")</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$DT_FAT ("FAT")</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Typical file system for drives under ~500 MB such as Floppy, RAM disks, USB "pen" drives, etc.</source>
+<seg-source><mrk mid="0" mtype="seg">Typical file system for drives under ~500 MB such as Floppy, RAM disks, USB "pen" drives, etc.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Typical file system for drives under ~500 MB such as Floppy, RAM disks, USB "pen" drives, etc.</mrk></target>
+<note>$DT_FAT ("FAT")</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">$DT_FAT32 ("FAT32")</source>
+<seg-source><mrk mid="0" mtype="seg">$DT_FAT32 ("FAT32")</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$DT_FAT32 ("FAT32")</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Typical file system for Windows 9x/Me hard drives.</source>
+<seg-source><mrk mid="0" mtype="seg">Typical file system for Windows 9x/Me hard drives.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Typical file system for Windows 9x/Me hard drives.</mrk></target>
+<note>$DT_FAT32 ("FAT32")</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">$DT_EXFAT ("exFAT")</source>
+<seg-source><mrk mid="0" mtype="seg">$DT_EXFAT ("exFAT")</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$DT_EXFAT ("exFAT")</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Typical file system for drives with files over 4 GB such as RAM disks, USB "pen" drives, etc.</source>
+<seg-source><mrk mid="0" mtype="seg">Typical file system for drives with files over 4 GB such as RAM disks, USB "pen" drives, etc.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Typical file system for drives with files over 4 GB such as RAM disks, USB "pen" drives, etc.</mrk></target>
+<note>$DT_EXFAT ("exFAT")</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">$DT_NTFS ("NTFS")</source>
+<seg-source><mrk mid="0" mtype="seg">$DT_NTFS ("NTFS")</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$DT_NTFS ("NTFS")</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Typical file system for Windows hard drives.</source>
+<seg-source><mrk mid="0" mtype="seg">Typical file system for Windows hard drives.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Typical file system for Windows hard drives.</mrk></target>
+<note>$DT_NTFS ("NTFS")</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">$DT_UNWFS ("NWFS")</source>
+<seg-source><mrk mid="0" mtype="seg">$DT_UNWFS ("NWFS")</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$DT_UNWFS ("NWFS")</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Typical file system for Novell Netware file servers.</source>
+<seg-source><mrk mid="0" mtype="seg">Typical file system for Novell Netware file servers.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Typical file system for Novell Netware file servers.</mrk></target>
+<note>$DT_UNWFS ("NWFS")</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">$DT_CDFS ("CDFS")</source>
+<seg-source><mrk mid="0" mtype="seg">$DT_CDFS ("CDFS")</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$DT_CDFS ("CDFS")</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Typically indicates a CD (or an ISO image mounted as a virtual CD drive).</source>
+<seg-source><mrk mid="0" mtype="seg">Typically indicates a CD (or an ISO image mounted as a virtual CD drive).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Typically indicates a CD (or an ISO image mounted as a virtual CD drive).</mrk></target>
+<note>$DT_CDFS ("CDFS")</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">$DT_UDF ("UDF")</source>
+<seg-source><mrk mid="0" mtype="seg">$DT_UDF ("UDF")</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$DT_UDF ("UDF")</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Typically indicates a DVD.</source>
+<seg-source><mrk mid="0" mtype="seg">Typically indicates a DVD.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Typically indicates a DVD.</mrk></target>
+<note>$DT_UDF ("UDF")</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> Constants are defined in "AutoItConstants.au3".</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in "AutoItConstants.au3".</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in "AutoItConstants.au3".</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">The list of possible return values might be incomplete.</source>
+<seg-source><mrk mid="0" mtype="seg">The list of possible return values might be incomplete.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The list of possible return values might be incomplete.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">\</source>
+<seg-source><mrk mid="0" mtype="seg">\</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Find the file system type of the home drive, generally this is the C:\ drive.</source>
+<seg-source><mrk mid="0" mtype="seg">Find the file system type of the home drive, generally this is the C:\ drive.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Find the file system type of the home drive, generally this is the C:\ drive.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">File System Type:</source>
+<seg-source><mrk mid="0" mtype="seg">File System Type:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File System Type:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

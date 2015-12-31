@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_INetSmtpMail.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sends an email without using an external email program</source>
+<seg-source><mrk mid="0" mtype="seg">Sends an email without using an external email program</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sends an email without using an external email program</mrk></target>
+<note>Function _INetSmtpMail</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Smtp server the eMail is to be sent though May be either alpha or a numeric IP address. In order to fight spam, many ISPs require this to be their server.</source>
+<seg-source><mrk mid="0" mtype="seg">Smtp server the eMail is to be sent though May be either alpha or a numeric IP address.</mrk> <mrk mid="1" mtype="seg">In order to fight spam, many ISPs require this to be their server.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Smtp server the eMail is to be sent though May be either alpha or a numeric IP address.</mrk> <mrk mid="1" mtype="seg">In order to fight spam, many ISPs require this to be their server.</mrk></target>
+<note>$sSMTPServer</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> eg "smtp.ispdomain.com", "mail.ispdomain.com" or "192.168.1.1"</source>
+<seg-source> <mrk mid="0" mtype="seg">eg "smtp.ispdomain.com", "mail.ispdomain.com" or "192.168.1.1"</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">eg "smtp.ispdomain.com", "mail.ispdomain.com" or "192.168.1.1"</mrk></target>
+<note>$sSMTPServer</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The name you wish the message to appear to be sent from.</source>
+<seg-source><mrk mid="0" mtype="seg">The name you wish the message to appear to be sent from.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name you wish the message to appear to be sent from.</mrk></target>
+<note>$sFromName</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> eg "Bob Smith"</source>
+<seg-source> <mrk mid="0" mtype="seg">eg "Bob Smith"</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">eg "Bob Smith"</mrk></target>
+<note>$sFromName</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">The email address you wish the message to appear to be sent from.</source>
+<seg-source><mrk mid="0" mtype="seg">The email address you wish the message to appear to be sent from.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The email address you wish the message to appear to be sent from.</mrk></target>
+<note>$sFromAddress</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> eg "bob.smith@mydomain.com".</source>
+<seg-source> <mrk mid="0" mtype="seg">eg "bob.smith@mydomain.com".</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">eg "bob.smith@mydomain.com".</mrk></target>
+<note>$sFromAddress</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">The email address the message is to go to.</source>
+<seg-source><mrk mid="0" mtype="seg">The email address the message is to go to.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The email address the message is to go to.</mrk></target>
+<note>$sToAddress</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> eg "jane.brown@yourdomain.com"</source>
+<seg-source> <mrk mid="0" mtype="seg">eg "jane.brown@yourdomain.com"</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">eg "jane.brown@yourdomain.com"</mrk></target>
+<note>$sToAddress</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The subject of the email.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The subject of the email.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The subject of the email.</mrk></target>
+<note>$sSubject</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The body of the email as a single dimensional array of strings. Each value in the array will be terminated with a @CRLF in the email.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The body of the email as a single dimensional array of strings.</mrk> <mrk mid="2" mtype="seg">Each value in the array will be terminated with a @CRLF in the email.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The body of the email as a single dimensional array of strings.</mrk> <mrk mid="2" mtype="seg">Each value in the array will be terminated with a @CRLF in the email.</mrk></target>
+<note>$aBody</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> identifier for the smtp server connection (by default @ComputerName). If Smtp server require a "EHLO" string just set the string to "EHLO " &amp; @ComputerName.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">identifier for the smtp server connection (by default @ComputerName).</mrk> <mrk mid="2" mtype="seg">If Smtp server require a "EHLO" string just set the string to "EHLO " &amp; @ComputerName.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">identifier for the smtp server connection (by default @ComputerName).</mrk> <mrk mid="2" mtype="seg">If Smtp server require a "EHLO" string just set the string to "EHLO " &amp; @ComputerName.</mrk></target>
+<note>$sEHLO</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> string sent before helo for the smtp server connection (by default {SPACE}). To not send any character this parameter must equal -1, some SMTP server required it.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">string sent before helo for the smtp server connection (by default {SPACE}).</mrk> <mrk mid="2" mtype="seg">To not send any character this parameter must equal -1, some SMTP server required it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">string sent before helo for the smtp server connection (by default {SPACE}).</mrk> <mrk mid="2" mtype="seg">To not send any character this parameter must equal -1, some SMTP server required it.</mrk></target>
+<note>$sFirst</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> trace the dialog in a splash window</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">trace the dialog in a splash window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">trace the dialog in a splash window</mrk></target>
+<note>$bTrace</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> 2 - Unable to start TCP</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - Unable to start TCP</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - Unable to start TCP</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> 3 - Unable to resolve IP</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - Unable to resolve IP</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - Unable to resolve IP</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> 4 - Unable to create socket</source>
+<seg-source> <mrk mid="0" mtype="seg">4 - Unable to create socket</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 - Unable to create socket</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> 5x - Cannot open SMTP session. x indicates the index number of last command issued to the SMTP server.</source>
+<seg-source> <mrk mid="0" mtype="seg">5x - Cannot open SMTP session.</mrk> <mrk mid="1" mtype="seg">x indicates the index number of last command issued to the SMTP server.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">5x - Cannot open SMTP session.</mrk> <mrk mid="1" mtype="seg">x indicates the index number of last command issued to the SMTP server.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> 50x - Cannot send body. x indicates the line number of $aBody (first line is 0).</source>
+<seg-source> <mrk mid="0" mtype="seg">50x - Cannot send body.</mrk> <mrk mid="1" mtype="seg">x indicates the line number of $aBody (first line is 0).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">50x - Cannot send body.</mrk> <mrk mid="1" mtype="seg">x indicates the line number of $aBody (first line is 0).</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> 5000 - Cannot close SMTP session</source>
+<seg-source> <mrk mid="0" mtype="seg">5000 - Cannot close SMTP session</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">5000 - Cannot close SMTP session</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">This function sends an email directly through an SMTP server without the use of a third party email client.</source>
+<seg-source><mrk mid="0" mtype="seg">This function sends an email directly through an SMTP server without the use of a third party email client.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function sends an email directly through an SMTP server without the use of a third party email client.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">mysmtpserver.com.au</source>
+<seg-source><mrk mid="0" mtype="seg">mysmtpserver.com.au</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mysmtpserver.com.au</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">My Name</source>
+<seg-source><mrk mid="0" mtype="seg">My Name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">My Name</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">From eMail Address</source>
+<seg-source><mrk mid="0" mtype="seg">From eMail Address</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">From eMail Address</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">To eMail Address</source>
+<seg-source><mrk mid="0" mtype="seg">To eMail Address</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To eMail Address</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">My Test UDF</source>
+<seg-source><mrk mid="0" mtype="seg">My Test UDF</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">My Test UDF</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Testing the new email udf</source>
+<seg-source><mrk mid="0" mtype="seg">Testing the new email udf</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Testing the new email udf</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Second Line</source>
+<seg-source><mrk mid="0" mtype="seg">Second Line</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Second Line</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Success!</source>
+<seg-source><mrk mid="0" mtype="seg">Success!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Success!</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Mail sent</source>
+<seg-source><mrk mid="0" mtype="seg">Mail sent</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Mail sent</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Error!</source>
+<seg-source><mrk mid="0" mtype="seg">Error!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error!</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Mail failed with error code</source>
+<seg-source><mrk mid="0" mtype="seg">Mail failed with error code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Mail failed with error code</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

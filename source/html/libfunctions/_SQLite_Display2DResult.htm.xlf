@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_SQLite_Display2DResult.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Returns or prints to Console a formated display of a 2Dimensional array</source>
+<seg-source><mrk mid="0" mtype="seg">Returns or prints to Console a formated display of a 2Dimensional array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns or prints to Console a formated display of a 2Dimensional array</mrk></target>
+<note>Function _SQLite_Display2DResult</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The array to be displayed</source>
+<seg-source><mrk mid="0" mtype="seg">The array to be displayed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The array to be displayed</mrk></target>
+<note>$aResult</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> specifies the size of a data field</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">specifies the size of a data field</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">specifies the size of a data field</mrk></target>
+<note>$iCellWidth</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> if True the formated string is returned, not displayed</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">if True the formated string is returned, not displayed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">if True the formated string is returned, not displayed</mrk></target>
+<note>$bReturn</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> If False the formatted string is send to StdOut</source>
+<seg-source> <mrk mid="0" mtype="seg">If False the formatted string is send to StdOut</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If False the formatted string is send to StdOut</mrk></target>
+<note>$bReturn</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">none or formated string.</source>
+<seg-source><mrk mid="0" mtype="seg">none or formated string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">none or formated string.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">1 - $aResult is no array or has wrong dimension</source>
+<seg-source><mrk mid="0" mtype="seg">1 - $aResult is no array or has wrong dimension</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - $aResult is no array or has wrong dimension</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">SQLite Error</source>
+<seg-source><mrk mid="0" mtype="seg">SQLite Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLite Error</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">SQLite.dll Can't be Loaded!</source>
+<seg-source><mrk mid="0" mtype="seg">SQLite.dll Can't be Loaded!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLite.dll Can't be Loaded!</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">_SQLite_LibVersion=</source>
+<seg-source><mrk mid="0" mtype="seg">_SQLite_LibVersion=</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_SQLite_LibVersion=</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Open a :memory: database</source>
+<seg-source><mrk mid="0" mtype="seg">Open a :memory: database</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open a :memory: database</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">SQLite Error</source>
+<seg-source><mrk mid="0" mtype="seg">SQLite Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLite Error</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Can't Load Database!</source>
+<seg-source><mrk mid="0" mtype="seg">Can't Load Database!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Can't Load Database!</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example Table</source>
+<seg-source><mrk mid="0" mtype="seg">Example Table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example Table</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Name | Age</source>
+<seg-source><mrk mid="0" mtype="seg">Name | Age</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Name | Age</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">-----------------------</source>
+<seg-source><mrk mid="0" mtype="seg">-----------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-----------------------</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Alice | 43</source>
+<seg-source><mrk mid="0" mtype="seg">Alice | 43</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Alice | 43</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Bob | 28</source>
+<seg-source><mrk mid="0" mtype="seg">Bob | 28</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bob | 28</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Cindy | 21</source>
+<seg-source><mrk mid="0" mtype="seg">Cindy | 21</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cindy | 21</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">CREATE TEMP TABLE persons (Name, Age);</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE TEMP TABLE persons (Name, Age);</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE TEMP TABLE persons (Name, Age);</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">SQLite Error</source>
+<seg-source><mrk mid="0" mtype="seg">SQLite Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLite Error</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">INSERT INTO persons VALUES ('Alice','43');</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT INTO persons VALUES ('Alice','43');</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT INTO persons VALUES ('Alice','43');</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">SQLite Error</source>
+<seg-source><mrk mid="0" mtype="seg">SQLite Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLite Error</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">INSERT INTO persons VALUES ('Bob','28');</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT INTO persons VALUES ('Bob','28');</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT INTO persons VALUES ('Bob','28');</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">SQLite Error</source>
+<seg-source><mrk mid="0" mtype="seg">SQLite Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLite Error</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">INSERT INTO persons VALUES ('Cindy','21');</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT INTO persons VALUES ('Cindy','21');</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT INTO persons VALUES ('Cindy','21');</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">SQLite Error</source>
+<seg-source><mrk mid="0" mtype="seg">SQLite Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLite Error</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Query</source>
+<seg-source><mrk mid="0" mtype="seg">Query</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Query</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">SELECT * FROM persons;</source>
+<seg-source><mrk mid="0" mtype="seg">SELECT * FROM persons;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECT * FROM persons;</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">$aResult looks like this:</source>
+<seg-source><mrk mid="0" mtype="seg">$aResult looks like this:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$aResult looks like this:</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Name Age</source>
+<seg-source><mrk mid="0" mtype="seg">Name Age</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Name Age</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Alice 43</source>
+<seg-source><mrk mid="0" mtype="seg">Alice 43</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Alice 43</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Bob 28</source>
+<seg-source><mrk mid="0" mtype="seg">Bob 28</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bob 28</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Cindy 21</source>
+<seg-source><mrk mid="0" mtype="seg">Cindy 21</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cindy 21</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">If the dimensions would be switched in _SQLite_GetTable2d the result would look like this:</source>
+<seg-source><mrk mid="0" mtype="seg">If the dimensions would be switched in _SQLite_GetTable2d the result would look like this:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the dimensions would be switched in _SQLite_GetTable2d the result would look like this:</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Name Alice Bob Cindy</source>
+<seg-source><mrk mid="0" mtype="seg">Name Alice Bob Cindy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Name Alice Bob Cindy</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Age 43 28 21</source>
+<seg-source><mrk mid="0" mtype="seg">Age 43 28 21</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Age 43 28 21</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">SQLite Error:</source>
+<seg-source><mrk mid="0" mtype="seg">SQLite Error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLite Error:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

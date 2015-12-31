@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/ControlGetPos.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the position and size of a control relative to its window.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the position and size of a control relative to its window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the position and size of a control relative to its window.</mrk></target>
+<note>Function ControlGetPos</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> The title/hWnd/class of the window to access. See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsadvanced.htm"></bpt>Title special definition<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">The title/hWnd/class of the window to access.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsadvanced.htm"></bpt>Title special definition<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The title/hWnd/class of the window to access.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsadvanced.htm"></bpt>Title special definition<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>title</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> The text of the window to access. See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsbasic.htm#specialtext"></bpt>Text special definition<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">The text of the window to access.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsbasic.htm#specialtext"></bpt>Text special definition<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The text of the window to access.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsbasic.htm#specialtext"></bpt>Text special definition<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>text</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> The control to interact with. See <bpt id="1" ctype="x-a">&lt;a href="../intro/controls.htm"></bpt>Controls<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">The control to interact with.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/controls.htm"></bpt>Controls<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The control to interact with.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/controls.htm"></bpt>Controls<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>controlID</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">an array containing the size and the control's position relative to its client window:</source>
+<seg-source><mrk mid="0" mtype="seg">an array containing the size and the control's position relative to its client window:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an array containing the size and the control's position relative to its client window:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $aArray[0] = X position</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[0] = X position</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[0] = X position</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $aArray[1] = Y position</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[1] = Y position</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[1] = Y position</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $aArray[2] = Width</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[2] = Width</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[2] = Width</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $aArray[3] = Height</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[3] = Height</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[3] = Height</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">sets the @error flag to 1.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to 1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to 1.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">The title/text is referencing the parent window, so be careful with "", which references the active window which may not be the one containing the controlID control.</source>
+<seg-source><mrk mid="0" mtype="seg">The title/text is referencing the parent window, so be careful with "", which references the active window which may not be the one containing the controlID control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The title/text is referencing the parent window, so be careful with "", which references the active window which may not be the one containing the controlID control.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Run Notepad</source>
+<seg-source><mrk mid="0" mtype="seg">Run Notepad</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Run Notepad</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">notepad.exe</source>
+<seg-source><mrk mid="0" mtype="seg">notepad.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">notepad.exe</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Wait 10 seconds for the Notepad window to appear.</source>
+<seg-source><mrk mid="0" mtype="seg">Wait 10 seconds for the Notepad window to appear.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wait 10 seconds for the Notepad window to appear.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">[CLASS:Notepad]</source>
+<seg-source><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Retrieve the position x, y and size (width and height) of the edit control in Notepad. The handle returned by WinWait is used for the "title" parameter of ControlGetPos.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve the position x, y and size (width and height) of the edit control in Notepad.</mrk> <mrk mid="1" mtype="seg">The handle returned by WinWait is used for the "title" parameter of ControlGetPos.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve the position x, y and size (width and height) of the edit control in Notepad.</mrk> <mrk mid="1" mtype="seg">The handle returned by WinWait is used for the "title" parameter of ControlGetPos.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Edit1</source>
+<seg-source><mrk mid="0" mtype="seg">Edit1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Edit1</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Display the position and size of the edit control.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the position and size of the edit control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the position and size of the edit control.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Position:</source>
+<seg-source><mrk mid="0" mtype="seg">Position:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Position:</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">,</source>
+<seg-source><mrk mid="0" mtype="seg">,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">,</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Size:</source>
+<seg-source><mrk mid="0" mtype="seg">Size:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Size:</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">,</source>
+<seg-source><mrk mid="0" mtype="seg">,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">,</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Close the Notepad window using the handle returned by WinWait.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the Notepad window using the handle returned by WinWait.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the Notepad window using the handle returned by WinWait.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_CreateFile.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates or opens a file or other device</source>
+<seg-source><mrk mid="0" mtype="seg">Creates or opens a file or other device</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates or opens a file or other device</mrk></target>
+<note>Function _WinAPI_CreateFile</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Name of an object to create or open</source>
+<seg-source><mrk mid="0" mtype="seg">Name of an object to create or open</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Name of an object to create or open</mrk></target>
+<note>$sFileName</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Action to take on files that exist and do not exist:</source>
+<seg-source><mrk mid="0" mtype="seg">Action to take on files that exist and do not exist:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Action to take on files that exist and do not exist:</mrk></target>
+<note>$iCreation</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     0 - Creates a new file. The function fails if the file exists</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 - Creates a new file.</mrk> <mrk mid="1" mtype="seg">The function fails if the file exists</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 - Creates a new file.</mrk> <mrk mid="1" mtype="seg">The function fails if the file exists</mrk></target>
+<note>$iCreation</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     1 - Creates a new file. If a file exists, it is overwritten</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 - Creates a new file.</mrk> <mrk mid="1" mtype="seg">If a file exists, it is overwritten</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 - Creates a new file.</mrk> <mrk mid="1" mtype="seg">If a file exists, it is overwritten</mrk></target>
+<note>$iCreation</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     2 - Opens a file. The function fails if the file does not exist</source>
+<seg-source> <mrk mid="0" mtype="seg">    2 - Opens a file.</mrk> <mrk mid="1" mtype="seg">The function fails if the file does not exist</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    2 - Opens a file.</mrk> <mrk mid="1" mtype="seg">The function fails if the file does not exist</mrk></target>
+<note>$iCreation</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     3 - Opens a file. If the file does not exist, the function creates the file</source>
+<seg-source> <mrk mid="0" mtype="seg">    3 - Opens a file.</mrk> <mrk mid="1" mtype="seg">If the file does not exist, the function creates the file</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    3 - Opens a file.</mrk> <mrk mid="1" mtype="seg">If the file does not exist, the function creates the file</mrk></target>
+<note>$iCreation</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     4 - Opens a file and truncates it so that its size is 0 bytes. The function fails if the file does not exist.</source>
+<seg-source> <mrk mid="0" mtype="seg">    4 - Opens a file and truncates it so that its size is 0 bytes.</mrk> <mrk mid="1" mtype="seg">The function fails if the file does not exist.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    4 - Opens a file and truncates it so that its size is 0 bytes.</mrk> <mrk mid="1" mtype="seg">The function fails if the file does not exist.</mrk></target>
+<note>$iCreation</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Access to the object:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Access to the object:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Access to the object:</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     1 - Execute</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 - Execute</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 - Execute</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     2 - Read</source>
+<seg-source> <mrk mid="0" mtype="seg">    2 - Read</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    2 - Read</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     4 - Write</source>
+<seg-source> <mrk mid="0" mtype="seg">    4 - Write</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    4 - Write</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Sharing mode of an object:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Sharing mode of an object:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Sharing mode of an object:</mrk></target>
+<note>$iShare</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     1 - Delete</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 - Delete</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 - Delete</mrk></target>
+<note>$iShare</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     2 - Read</source>
+<seg-source> <mrk mid="0" mtype="seg">    2 - Read</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    2 - Read</mrk></target>
+<note>$iShare</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     4 - Write</source>
+<seg-source> <mrk mid="0" mtype="seg">    4 - Write</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    4 - Write</mrk></target>
+<note>$iShare</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The file attributes:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The file attributes:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The file attributes:</mrk></target>
+<note>$iAttributes</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     1 - File should be archived</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 - File should be archived</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 - File should be archived</mrk></target>
+<note>$iAttributes</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     2 - File is hidden</source>
+<seg-source> <mrk mid="0" mtype="seg">    2 - File is hidden</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    2 - File is hidden</mrk></target>
+<note>$iAttributes</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     4 - File is read only</source>
+<seg-source> <mrk mid="0" mtype="seg">    4 - File is read only</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    4 - File is read only</mrk></target>
+<note>$iAttributes</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     8 - File is part of or used exclusively by an operating system.</source>
+<seg-source> <mrk mid="0" mtype="seg">    8 - File is part of or used exclusively by an operating system.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    8 - File is part of or used exclusively by an operating system.</mrk></target>
+<note>$iAttributes</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> a $tagSECURITY_ATTRIBUTES structure or a pointer to it that determines if the returned handle can be inherited by child processes.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">a $tagSECURITY_ATTRIBUTES structure or a pointer to it that determines if the returned handle can be inherited by child processes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">a $tagSECURITY_ATTRIBUTES structure or a pointer to it that determines if the returned handle can be inherited by child processes.</mrk></target>
+<note>$tSecurity</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> If $tSecurity is 0, the handle cannot be inherited.</source>
+<seg-source> <mrk mid="0" mtype="seg">If $tSecurity is 0, the handle cannot be inherited.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If $tSecurity is 0, the handle cannot be inherited.</mrk></target>
+<note>$tSecurity</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">The open handle to a specified file</source>
+<seg-source><mrk mid="0" mtype="seg">The open handle to a specified file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The open handle to a specified file</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> 0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information </source>
+<seg-source> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="$tagSECURITY_ATTRIBUTES.htm"></bpt>$tagSECURITY_ATTRIBUTES<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_CloseHandle.htm"></bpt>_WinAPI_CloseHandle<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="_WinAPI_FlushFileBuffers.htm"></bpt>_WinAPI_FlushFileBuffers<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="_WinAPI_GetFileSizeEx.htm"></bpt>_WinAPI_GetFileSizeEx<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="_WinAPI_ReadFile.htm"></bpt>_WinAPI_ReadFile<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="_WinAPI_SetEndOfFile.htm"></bpt>_WinAPI_SetEndOfFile<ept id="6">&lt;/a></ept>, <bpt id="7" ctype="x-a">&lt;a href="_WinAPI_SetFilePointer.htm"></bpt>_WinAPI_SetFilePointer<ept id="7">&lt;/a></ept>, <bpt id="8" ctype="x-a">&lt;a href="_WinAPI_WriteFile.htm"></bpt>_WinAPI_WriteFile<ept id="8">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagSECURITY_ATTRIBUTES.htm"></bpt>$tagSECURITY_ATTRIBUTES<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_CloseHandle.htm"></bpt>_WinAPI_CloseHandle<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="_WinAPI_FlushFileBuffers.htm"></bpt>_WinAPI_FlushFileBuffers<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="_WinAPI_GetFileSizeEx.htm"></bpt>_WinAPI_GetFileSizeEx<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="_WinAPI_ReadFile.htm"></bpt>_WinAPI_ReadFile<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="_WinAPI_SetEndOfFile.htm"></bpt>_WinAPI_SetEndOfFile<ept id="6">&lt;/a></ept>, <bpt id="7" ctype="x-a">&lt;a href="_WinAPI_SetFilePointer.htm"></bpt>_WinAPI_SetFilePointer<ept id="7">&lt;/a></ept>, <bpt id="8" ctype="x-a">&lt;a href="_WinAPI_WriteFile.htm"></bpt>_WinAPI_WriteFile<ept id="8">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagSECURITY_ATTRIBUTES.htm"></bpt>$tagSECURITY_ATTRIBUTES<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_CloseHandle.htm"></bpt>_WinAPI_CloseHandle<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="_WinAPI_FlushFileBuffers.htm"></bpt>_WinAPI_FlushFileBuffers<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="_WinAPI_GetFileSizeEx.htm"></bpt>_WinAPI_GetFileSizeEx<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="_WinAPI_ReadFile.htm"></bpt>_WinAPI_ReadFile<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="_WinAPI_SetEndOfFile.htm"></bpt>_WinAPI_SetEndOfFile<ept id="6">&lt;/a></ept>, <bpt id="7" ctype="x-a">&lt;a href="_WinAPI_SetFilePointer.htm"></bpt>_WinAPI_SetFilePointer<ept id="7">&lt;/a></ept>, <bpt id="8" ctype="x-a">&lt;a href="_WinAPI_WriteFile.htm"></bpt>_WinAPI_WriteFile<ept id="8">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateFile<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateFile<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateFile<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">1) create file and write data to it</source>
+<seg-source><mrk mid="0" mtype="seg">1) create file and write data to it</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1) create file and write data to it</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">\test.txt</source>
+<seg-source><mrk mid="0" mtype="seg">\test.txt</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\test.txt</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">abcdefghijklmnopqrstuvwxyz</source>
+<seg-source><mrk mid="0" mtype="seg">abcdefghijklmnopqrstuvwxyz</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">abcdefghijklmnopqrstuvwxyz</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">byte[</source>
+<seg-source><mrk mid="0" mtype="seg">byte[</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">byte[</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">]</source>
+<seg-source><mrk mid="0" mtype="seg">]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">]</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">1):</source>
+<seg-source><mrk mid="0" mtype="seg">1):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1):</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">2) read 6 bytes from position 3</source>
+<seg-source><mrk mid="0" mtype="seg">2) read 6 bytes from position 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2) read 6 bytes from position 3</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">byte[6]</source>
+<seg-source><mrk mid="0" mtype="seg">byte[6]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">byte[6]</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">2):</source>
+<seg-source><mrk mid="0" mtype="seg">2):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2):</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">3) write previously read 6 bytes from position 3 to the same position but in UpperCase</source>
+<seg-source><mrk mid="0" mtype="seg">3) write previously read 6 bytes from position 3 to the same position but in UpperCase</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3) write previously read 6 bytes from position 3 to the same position but in UpperCase</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">3):</source>
+<seg-source><mrk mid="0" mtype="seg">3):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3):</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">4) truncate file size to 12 bytes</source>
+<seg-source><mrk mid="0" mtype="seg">4) truncate file size to 12 bytes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">4) truncate file size to 12 bytes</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">4):</source>
+<seg-source><mrk mid="0" mtype="seg">4):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">4):</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_IECreateEmbedded.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Create a Webbrowser object suitable for embedding in an AutoIt GUI with GUICtrlCreateObj()</source>
+<seg-source><mrk mid="0" mtype="seg">Create a Webbrowser object suitable for embedding in an AutoIt GUI with GUICtrlCreateObj()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a Webbrowser object suitable for embedding in an AutoIt GUI with GUICtrlCreateObj()</mrk></target>
+<note>Function _IECreateEmbedded</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">a Webbrowser object reference.</source>
+<seg-source><mrk mid="0" mtype="seg">a Webbrowser object reference.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a Webbrowser object reference.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">1 ($_IEStatus_GeneralError) - General Error</source>
+<seg-source><mrk mid="0" mtype="seg">1 ($_IEStatus_GeneralError) - General Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 ($_IEStatus_GeneralError) - General Error</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">No actions can be performed on this object until it has been embedded into a parent application (e.g. you cannot perform an <bpt id="1" ctype="x-a">&lt;a href="_IENavigate.htm"></bpt>_IENavigate()<ept id="1">&lt;/a></ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">No actions can be performed on this object until it has been embedded into a parent application (e.g. you cannot perform an <bpt id="1" ctype="x-a">&lt;a href="_IENavigate.htm"></bpt>_IENavigate()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No actions can be performed on this object until it has been embedded into a parent application (e.g. you cannot perform an <bpt id="1" ctype="x-a">&lt;a href="_IENavigate.htm"></bpt>_IENavigate()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> Because of this restriction, the browser is not automatically navigated to 'about:blank' as is a browser created with <bpt id="1" ctype="x-a">&lt;a href="_IECreate.htm"></bpt>_IECreate()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">Because of this restriction, the browser is not automatically navigated to 'about:blank' as is a browser created with <bpt id="1" ctype="x-a">&lt;a href="_IECreate.htm"></bpt>_IECreate()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Because of this restriction, the browser is not automatically navigated to 'about:blank' as is a browser created with <bpt id="1" ctype="x-a">&lt;a href="_IECreate.htm"></bpt>_IECreate()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> You must therefore use <bpt id="1" ctype="x-a">&lt;a href="_IENavigate.htm"></bpt>_IENavigate()<ept id="1">&lt;/a></ept> to navigate this browser to 'about:blank' after it has been embedded into the parent application and before you attempt any operations that rely on having a document loaded (e.g. <bpt id="1" ctype="x-a">&lt;a href="_IEBodyWriteHTML.htm"></bpt>_IEBodyWriteHTML()<ept id="1">&lt;/a></ept></source>
+<seg-source> <mrk mid="0" mtype="seg">You must therefore use <bpt id="1" ctype="x-a">&lt;a href="_IENavigate.htm"></bpt>_IENavigate()<ept id="1">&lt;/a></ept> to navigate this browser to 'about:blank' after it has been embedded into the parent application and before you attempt any operations that rely on having a document loaded (e.g.</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_IEBodyWriteHTML.htm"></bpt>_IEBodyWriteHTML()<ept id="1">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">You must therefore use <bpt id="1" ctype="x-a">&lt;a href="_IENavigate.htm"></bpt>_IENavigate()<ept id="1">&lt;/a></ept> to navigate this browser to 'about:blank' after it has been embedded into the parent application and before you attempt any operations that rely on having a document loaded (e.g.</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_IEBodyWriteHTML.htm"></bpt>_IEBodyWriteHTML()<ept id="1">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> ).</source>
+<seg-source> <mrk mid="0" mtype="seg">).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">).</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> There are several properties related to an InternetExplorer object (e.g. returned by <bpt id="1" ctype="x-a">&lt;a href="_IECreate.htm"></bpt>_IECreate()<ept id="1">&lt;/a></ept> ) that do not apply to this object.</source>
+<seg-source> <mrk mid="0" mtype="seg">There are several properties related to an InternetExplorer object (e.g. returned by <bpt id="1" ctype="x-a">&lt;a href="_IECreate.htm"></bpt>_IECreate()<ept id="1">&lt;/a></ept> ) that do not apply to this object.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">There are several properties related to an InternetExplorer object (e.g. returned by <bpt id="1" ctype="x-a">&lt;a href="_IECreate.htm"></bpt>_IECreate()<ept id="1">&lt;/a></ept> ) that do not apply to this object.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> These include status text, addressbar and others that may exist for a browser, but do not exist for an embedded control.</source>
+<seg-source> <mrk mid="0" mtype="seg">These include status text, addressbar and others that may exist for a browser, but do not exist for an embedded control.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">These include status text, addressbar and others that may exist for a browser, but do not exist for an embedded control.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> You may have object visibility issues unless you use the Windows style $WS_CLIPCHILDREN in <bpt id="1" ctype="x-a">&lt;a href="../functions/GUICreate.htm"></bpt>GUICreate()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">You may have object visibility issues unless you use the Windows style $WS_CLIPCHILDREN in <bpt id="1" ctype="x-a">&lt;a href="../functions/GUICreate.htm"></bpt>GUICreate()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">You may have object visibility issues unless you use the Windows style $WS_CLIPCHILDREN in <bpt id="1" ctype="x-a">&lt;a href="../functions/GUICreate.htm"></bpt>GUICreate()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="_IEQuit.htm"></bpt>_IEQuit()<ept id="1">&lt;/a></ept> cannot be used with this object. The object will be destroyed when its parent GUI is destroyed.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_IEQuit.htm"></bpt>_IEQuit()<ept id="1">&lt;/a></ept> cannot be used with this object.</mrk> <mrk mid="1" mtype="seg">The object will be destroyed when its parent GUI is destroyed.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_IEQuit.htm"></bpt>_IEQuit()<ept id="1">&lt;/a></ept> cannot be used with this object.</mrk> <mrk mid="1" mtype="seg">The object will be destroyed when its parent GUI is destroyed.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Trap COM errors so that 'Back' and 'Forward'</source>
+<seg-source><mrk mid="0" mtype="seg">Trap COM errors so that 'Back' and 'Forward'</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Trap COM errors so that 'Back' and 'Forward'</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">outside of history bounds does not abort script</source>
+<seg-source><mrk mid="0" mtype="seg">outside of history bounds does not abort script</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">outside of history bounds does not abort script</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">(expect COM errors to be sent to the console)</source>
+<seg-source><mrk mid="0" mtype="seg">(expect COM errors to be sent to the console)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(expect COM errors to be sent to the console)</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Embedded Web control Test</source>
+<seg-source><mrk mid="0" mtype="seg">Embedded Web control Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Embedded Web control Test</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Back</source>
+<seg-source><mrk mid="0" mtype="seg">Back</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Back</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Forward</source>
+<seg-source><mrk mid="0" mtype="seg">Forward</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Forward</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Home</source>
+<seg-source><mrk mid="0" mtype="seg">Home</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Home</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Stop</source>
+<seg-source><mrk mid="0" mtype="seg">Stop</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Stop</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Show GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Show GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show GUI</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">http://www.autoitscript.com</source>
+<seg-source><mrk mid="0" mtype="seg">http://www.autoitscript.com</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">http://www.autoitscript.com</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">stop</source>
+<seg-source><mrk mid="0" mtype="seg">stop</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">stop</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Waiting for user to close the window</source>
+<seg-source><mrk mid="0" mtype="seg">Waiting for user to close the window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Waiting for user to close the window</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">http://www.autoitscript.com</source>
+<seg-source><mrk mid="0" mtype="seg">http://www.autoitscript.com</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">http://www.autoitscript.com</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">stop</source>
+<seg-source><mrk mid="0" mtype="seg">stop</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">stop</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">back</source>
+<seg-source><mrk mid="0" mtype="seg">back</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">back</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Home</source>
+<seg-source><mrk mid="0" mtype="seg">Home</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Home</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">back</source>
+<seg-source><mrk mid="0" mtype="seg">back</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">back</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Back</source>
+<seg-source><mrk mid="0" mtype="seg">Back</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Back</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">forward</source>
+<seg-source><mrk mid="0" mtype="seg">forward</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">forward</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Forward</source>
+<seg-source><mrk mid="0" mtype="seg">Forward</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Forward</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">stop</source>
+<seg-source><mrk mid="0" mtype="seg">stop</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">stop</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Stop</source>
+<seg-source><mrk mid="0" mtype="seg">Stop</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Stop</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Error using</source>
+<seg-source><mrk mid="0" mtype="seg">Error using</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error using</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">button (</source>
+<seg-source><mrk mid="0" mtype="seg">button (</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">button (</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">)</source>
+<seg-source><mrk mid="0" mtype="seg">)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">)</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

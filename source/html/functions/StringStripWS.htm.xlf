@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/StringStripWS.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Strips the white space in a string.</source>
+<seg-source><mrk mid="0" mtype="seg">Strips the white space in a string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Strips the white space in a string.</mrk></target>
+<note>Function StringStripWS</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The string to strip.</source>
+<seg-source><mrk mid="0" mtype="seg">The string to strip.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The string to strip.</mrk></target>
+<note>string</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Flag to indicate the type of stripping that should be performed (add the flags together for multiple operations):</source>
+<seg-source><mrk mid="0" mtype="seg">Flag to indicate the type of stripping that should be performed (add the flags together for multiple operations):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Flag to indicate the type of stripping that should be performed (add the flags together for multiple operations):</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $STR_STRIPLEADING (1) = strip leading white space</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STR_STRIPLEADING (1) = strip leading white space</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STR_STRIPLEADING (1) = strip leading white space</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $STR_STRIPTRAILING (2) = strip trailing white space</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STR_STRIPTRAILING (2) = strip trailing white space</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STR_STRIPTRAILING (2) = strip trailing white space</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $STR_STRIPSPACES (4) = strip double (or more) spaces between words</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STR_STRIPSPACES (4) = strip double (or more) spaces between words</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STR_STRIPSPACES (4) = strip double (or more) spaces between words</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $STR_STRIPALL (8) = strip all spaces (over-rides all other flags)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STR_STRIPALL (8) = strip all spaces (over-rides all other flags)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STR_STRIPALL (8) = strip all spaces (over-rides all other flags)</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> Constants are defined in StringConstants.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in StringConstants.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in StringConstants.au3.</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Returns the new string stripped of the requested white space.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the new string stripped of the requested white space.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the new string stripped of the requested white space.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Whitespace includes <bpt id="1" ctype="x-a">&lt;a href="Chr.htm"></bpt>Chr<ept id="1">&lt;/a></ept>(9) thru <bpt id="2" ctype="x-a">&lt;a href="Chr.htm"></bpt>Chr<ept id="2">&lt;/a></ept>(13) which are HorizontalTab, LineFeed, VerticalTab, FormFeed, and CarriageReturn. Whitespace also includes the null string ( <bpt id="1" ctype="x-a">&lt;a href="Chr.htm"></bpt>Chr<ept id="1">&lt;/a></ept>(0) ) and the standard space ( <bpt id="2" ctype="x-a">&lt;a href="Chr.htm"></bpt>Chr<ept id="2">&lt;/a></ept>(32) ).</source>
+<seg-source><mrk mid="0" mtype="seg">Whitespace includes <bpt id="1" ctype="x-a">&lt;a href="Chr.htm"></bpt>Chr<ept id="1">&lt;/a></ept>(9) thru <bpt id="2" ctype="x-a">&lt;a href="Chr.htm"></bpt>Chr<ept id="2">&lt;/a></ept>(13) which are HorizontalTab, LineFeed, VerticalTab, FormFeed, and CarriageReturn.</mrk> <mrk mid="1" mtype="seg">Whitespace also includes the null string ( <bpt id="1" ctype="x-a">&lt;a href="Chr.htm"></bpt>Chr<ept id="1">&lt;/a></ept>(0) ) and the standard space ( <bpt id="2" ctype="x-a">&lt;a href="Chr.htm"></bpt>Chr<ept id="2">&lt;/a></ept>(32) ).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Whitespace includes <bpt id="1" ctype="x-a">&lt;a href="Chr.htm"></bpt>Chr<ept id="1">&lt;/a></ept>(9) thru <bpt id="2" ctype="x-a">&lt;a href="Chr.htm"></bpt>Chr<ept id="2">&lt;/a></ept>(13) which are HorizontalTab, LineFeed, VerticalTab, FormFeed, and CarriageReturn.</mrk> <mrk mid="1" mtype="seg">Whitespace also includes the null string ( <bpt id="1" ctype="x-a">&lt;a href="Chr.htm"></bpt>Chr<ept id="1">&lt;/a></ept>(0) ) and the standard space ( <bpt id="2" ctype="x-a">&lt;a href="Chr.htm"></bpt>Chr<ept id="2">&lt;/a></ept>(32) ).</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> To strip single spaces between words, use the function <bpt id="1" ctype="x-a">&lt;a href="StringReplace.htm"></bpt>StringReplace()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">To strip single spaces between words, use the function <bpt id="1" ctype="x-a">&lt;a href="StringReplace.htm"></bpt>StringReplace()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To strip single spaces between words, use the function <bpt id="1" ctype="x-a">&lt;a href="StringReplace.htm"></bpt>StringReplace()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Strip leading and trailing whitespace as well as the double spaces (or more) in between the words.</source>
+<seg-source><mrk mid="0" mtype="seg">Strip leading and trailing whitespace as well as the double spaces (or more) in between the words.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Strip leading and trailing whitespace as well as the double spaces (or more) in between the words.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">This is a sentence with whitespace.</source>
+<seg-source><mrk mid="0" mtype="seg">This is a sentence with whitespace.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a sentence with whitespace.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

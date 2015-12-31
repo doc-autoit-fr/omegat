@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/StringRegExpReplace.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Replace text in a string based on regular expressions.</source>
+<seg-source><mrk mid="0" mtype="seg">Replace text in a string based on regular expressions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Replace text in a string based on regular expressions.</mrk></target>
+<note>Function StringRegExpReplace</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The string to check</source>
+<seg-source><mrk mid="0" mtype="seg">The string to check</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The string to check</mrk></target>
+<note>test</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> The regular expression to compare. See <bpt id="1" ctype="x-a">&lt;a href="StringRegExp.htm"></bpt>StringRegExp<ept id="1">&lt;/a></ept> for pattern definition characters. </source>
+<seg-source> <mrk mid="0" mtype="seg">The regular expression to compare.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="StringRegExp.htm"></bpt>StringRegExp<ept id="1">&lt;/a></ept> for pattern definition characters.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The regular expression to compare.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="StringRegExp.htm"></bpt>StringRegExp<ept id="1">&lt;/a></ept> for pattern definition characters.</mrk> </target>
+<note>pattern</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The text to replace the regular expression matching text with. To insert matched group text, \0 - \9 (or $0 - $9) can be used <bpt id="1" ctype="x-strong">&lt;strong></bpt>as<ept id="1">&lt;/strong></ept> back-references. (See remarks)</source>
+<seg-source><mrk mid="0" mtype="seg">The text to replace the regular expression matching text with.</mrk> <mrk mid="1" mtype="seg">To insert matched group text, \0 - \9 (or $0 - $9) can be used <bpt id="1" ctype="x-strong">&lt;strong></bpt>as<ept id="1">&lt;/strong></ept> back-references.</mrk> <mrk mid="2" mtype="seg">(See remarks)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The text to replace the regular expression matching text with.</mrk> <mrk mid="1" mtype="seg">To insert matched group text, \0 - \9 (or $0 - $9) can be used <bpt id="1" ctype="x-strong">&lt;strong></bpt>as<ept id="1">&lt;/strong></ept> back-references.</mrk> <mrk mid="2" mtype="seg">(See remarks)</mrk></target>
+<note>replace</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The number of times to execute the replacement in the string. The default is 0. Use 0 for global replacement.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The number of times to execute the replacement in the string.</mrk> <mrk mid="2" mtype="seg">The default is 0.</mrk> <mrk mid="3" mtype="seg">Use 0 for global replacement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The number of times to execute the replacement in the string.</mrk> <mrk mid="2" mtype="seg">The default is 0.</mrk> <mrk mid="3" mtype="seg">Use 0 for global replacement.</mrk></target>
+<note>count</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">an updated string based on regular expressions. Check @extended for the number of replacements performed.</source>
+<seg-source><mrk mid="0" mtype="seg">an updated string based on regular expressions.</mrk> <mrk mid="1" mtype="seg">Check @extended for the number of replacements performed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an updated string based on regular expressions.</mrk> <mrk mid="1" mtype="seg">Check @extended for the number of replacements performed.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">2 = Pattern invalid. @extended = offset of error in pattern.</source>
+<seg-source><mrk mid="0" mtype="seg">2 = Pattern invalid.</mrk> <mrk mid="1" mtype="seg">@extended = offset of error in pattern.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2 = Pattern invalid.</mrk> <mrk mid="1" mtype="seg">@extended = offset of error in pattern.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">To separate back-reference replacements from actual (replaced) numbers, wrap them with curly braces, i.e: "${1}5".</source>
+<seg-source><mrk mid="0" mtype="seg">To separate back-reference replacements from actual (replaced) numbers, wrap them with curly braces, i.e:</mrk> <mrk mid="1" mtype="seg">"${1}5".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To separate back-reference replacements from actual (replaced) numbers, wrap them with curly braces, i.e:</mrk> <mrk mid="1" mtype="seg">"${1}5".</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> If a "\" needs to be in the replaced string it must be doubled. This is a consequence of the back-references mechanism.</source>
+<seg-source> <mrk mid="0" mtype="seg">If a "\" needs to be in the replaced string it must be doubled.</mrk> <mrk mid="1" mtype="seg">This is a consequence of the back-references mechanism.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If a "\" needs to be in the replaced string it must be doubled.</mrk> <mrk mid="1" mtype="seg">This is a consequence of the back-references mechanism.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> The "\" and "$" replacement formats are the only valid back-references formats supported.</source>
+<seg-source> <mrk mid="0" mtype="seg">The "\" and "$" replacement formats are the only valid back-references formats supported.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The "\" and "$" replacement formats are the only valid back-references formats supported.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> See also the <bpt id="1" ctype="x-a">&lt;a href="../tutorials/regexp/regexp.htm"></bpt>Regular Expression<ept id="1">&lt;/a></ept> tutorial, in which you can run a script to test your regular expression(s).</source>
+<seg-source> <mrk mid="0" mtype="seg">See also the <bpt id="1" ctype="x-a">&lt;a href="../tutorials/regexp/regexp.htm"></bpt>Regular Expression<ept id="1">&lt;/a></ept> tutorial, in which you can run a script to test your regular expression(s).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">See also the <bpt id="1" ctype="x-a">&lt;a href="../tutorials/regexp/regexp.htm"></bpt>Regular Expression<ept id="1">&lt;/a></ept> tutorial, in which you can run a script to test your regular expression(s).</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">This example demonstrates a basic replacement. It replaces the vowels aeiou</source>
+<seg-source><mrk mid="0" mtype="seg">This example demonstrates a basic replacement.</mrk> <mrk mid="1" mtype="seg">It replaces the vowels aeiou</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This example demonstrates a basic replacement.</mrk> <mrk mid="1" mtype="seg">It replaces the vowels aeiou</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">with the @ character.</source>
+<seg-source><mrk mid="0" mtype="seg">with the @ character.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">with the @ character.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Where have all the flowers gone, long time passing?</source>
+<seg-source><mrk mid="0" mtype="seg">Where have all the flowers gone, long time passing?</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Where have all the flowers gone, long time passing?</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">[aeiou]</source>
+<seg-source><mrk mid="0" mtype="seg">[aeiou]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[aeiou]</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">@</source>
+<seg-source><mrk mid="0" mtype="seg">@</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">The following example demonstrates using back-references to change the date</source>
+<seg-source><mrk mid="0" mtype="seg">The following example demonstrates using back-references to change the date</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example demonstrates using back-references to change the date</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">from MM/DD/YYYY to DD.MM.YYYY</source>
+<seg-source><mrk mid="0" mtype="seg">from MM/DD/YYYY to DD.MM.YYYY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">from MM/DD/YYYY to DD.MM.YYYY</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">some text1 12/31/2009 01:02:03 some text2</source>
+<seg-source><mrk mid="0" mtype="seg">some text1 12/31/2009 01:02:03 some text2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">some text1 12/31/2009 01:02:03 some text2</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">some text3 02/28/2009 11:22:33 some text4</source>
+<seg-source><mrk mid="0" mtype="seg">some text3 02/28/2009 11:22:33 some text4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">some text3 02/28/2009 11:22:33 some text4</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">$2.$1.$3</source>
+<seg-source><mrk mid="0" mtype="seg">$2.$1.$3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$2.$1.$3</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">The following example demonstrates the need to double backslash</source>
+<seg-source><mrk mid="0" mtype="seg">The following example demonstrates the need to double backslash</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following example demonstrates the need to double backslash</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">%CommonProgramFiles%\Microsoft Shared\</source>
+<seg-source><mrk mid="0" mtype="seg">%CommonProgramFiles%\Microsoft Shared\</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%CommonProgramFiles%\Microsoft Shared\</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">%([^%]*?)%</source>
+<seg-source><mrk mid="0" mtype="seg">%([^%]*?)%</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%([^%]*?)%</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">C:\\WINDOWS\\Some Other Folder$</source>
+<seg-source><mrk mid="0" mtype="seg">C:\\WINDOWS\\Some Other Folder$</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">C:\\WINDOWS\\Some Other Folder$</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Format the output.</source>
+<seg-source><mrk mid="0" mtype="seg">Format the output.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Format the output.</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Input:\t%s\n\nOutput:\t%s</source>
+<seg-source><mrk mid="0" mtype="seg">Input:\t%s\n\nOutput:\t%s</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Input:\t%s\n\nOutput:\t%s</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Results</source>
+<seg-source><mrk mid="0" mtype="seg">Results</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Results</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="HTML Tidy for HTML5 for Windows version 5.1.14" name="generator">
+  <title>Function _WinAPI_GetBufferedPaintBits</title>
+  <meta charset="utf-8">
+  <link href="../css/default.css" rel="stylesheet">
+</head>
+<body>
+  <h1 class="small">Function Reference</h1>
+  <hr style="height:0px">
+  <h1>_WinAPI_GetBufferedPaintBits</h1>
+  <p class="funcdesc">Retrieves a pointer to the buffer bitmap if the buffer is a device-independent bitmap (DIB)<br></p>
+  <p class="codeheader">#include &lt;WinAPITheme.au3&gt;<br>
+  _WinAPI_GetBufferedPaintBits ( $hBP )<br></p>
+  <h2>Parameters</h2>
+  <table>
+    <tr>
+      <td style="width:15%">$hBP</td>
+      <td style="width:85%">Handle of the buffered paint context.</td>
+    </tr>
+  </table>
+  <h2>Return Value</h2>
+  <table class="noborder">
+    <tr>
+      <td class="valign-top" style="width:10%">Success:</td>
+      <td style="width:90%">A pointer to the address of the buffer bitmap pixels, @extended flag will contain the width of the buffer bitmap, in pixels.</td>
+    </tr>
+    <tr>
+      <td class="valign-top">Failure:</td>
+      <td>0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</td>
+    </tr>
+  </table>
+  <h2>Remarks</h2>
+  <p>This function requires <strong>Windows Vista or later</strong>.<br></p>
+  <h2>See Also</h2>
+  <p>Search <a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;l=EN-US&amp;k=k(GetBufferedPaintBits);k(DevLang-C);k(TargetOS-WINDOWS)&amp;rd=true">GetBufferedPaintBits</a> in MSDN Library.</p>
+</body>
+</html>

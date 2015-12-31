@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_GetSystemInfo.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves information about the current system</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves information about the current system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves information about the current system</mrk></target>
+<note>Function _WinAPI_GetSystemInfo</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Returns the array containing the following information:</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the array containing the following information:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the array containing the following information:</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> [0] - The processor architecture of the installed operating system ($PROCESSOR_ARCHITECTURE_*).</source>
+<seg-source> <mrk mid="0" mtype="seg">[0] - The processor architecture of the installed operating system ($PROCESSOR_ARCHITECTURE_*).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[0] - The processor architecture of the installed operating system ($PROCESSOR_ARCHITECTURE_*).</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> [1] - The page size and the granularity of page protection and commitment.</source>
+<seg-source> <mrk mid="0" mtype="seg">[1] - The page size and the granularity of page protection and commitment.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[1] - The page size and the granularity of page protection and commitment.</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> [2] - A pointer to the lowest memory address accessible to applications and dynamic-link libraries (DLLs).</source>
+<seg-source> <mrk mid="0" mtype="seg">[2] - A pointer to the lowest memory address accessible to applications and dynamic-link libraries (DLLs).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[2] - A pointer to the lowest memory address accessible to applications and dynamic-link libraries (DLLs).</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> [3] - A pointer to the highest memory address accessible to applications and DLLs.</source>
+<seg-source> <mrk mid="0" mtype="seg">[3] - A pointer to the highest memory address accessible to applications and DLLs.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[3] - A pointer to the highest memory address accessible to applications and DLLs.</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> [4] - A mask representing the set of processors configured into the system. Bit 0 is processor 0; bit 31 is processor 31.</source>
+<seg-source> <mrk mid="0" mtype="seg">[4] - A mask representing the set of processors configured into the system.</mrk> <mrk mid="1" mtype="seg">Bit 0 is processor 0; bit 31 is processor 31.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[4] - A mask representing the set of processors configured into the system.</mrk> <mrk mid="1" mtype="seg">Bit 0 is processor 0; bit 31 is processor 31.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> [5] - The number of physical processors in the system.</source>
+<seg-source> <mrk mid="0" mtype="seg">[5] - The number of physical processors in the system.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[5] - The number of physical processors in the system.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> [6] - An obsolete member that is retained for compatibility ($PROCESSOR_*).</source>
+<seg-source> <mrk mid="0" mtype="seg">[6] - An obsolete member that is retained for compatibility ($PROCESSOR_*).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[6] - An obsolete member that is retained for compatibility ($PROCESSOR_*).</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> [7] - The granularity for the starting address at which virtual memory can be allocated.</source>
+<seg-source> <mrk mid="0" mtype="seg">[7] - The granularity for the starting address at which virtual memory can be allocated.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[7] - The granularity for the starting address at which virtual memory can be allocated.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> [8] - The architecture-dependent processor level.</source>
+<seg-source> <mrk mid="0" mtype="seg">[8] - The architecture-dependent processor level.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[8] - The architecture-dependent processor level.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> [9] - The architecture-dependent processor revision (0x0000xxyy; xx - model; yy - stepping).</source>
+<seg-source> <mrk mid="0" mtype="seg">[9] - The architecture-dependent processor revision (0x0000xxyy; xx - model; yy - stepping).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[9] - The architecture-dependent processor revision (0x0000xxyy; xx - model; yy - stepping).</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetSystemInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetSystemInfo<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetSystemInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetSystemInfo<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetSystemInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetSystemInfo<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

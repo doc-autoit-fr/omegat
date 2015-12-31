@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_FindExecutable.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the name of the executable file associated with the specified file name</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the name of the executable file associated with the specified file name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the name of the executable file associated with the specified file name</mrk></target>
+<note>Function _WinAPI_FindExecutable</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Fully qualified path to existing file</source>
+<seg-source><mrk mid="0" mtype="seg">Fully qualified path to existing file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Fully qualified path to existing file</mrk></target>
+<note>$sFileName</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Default directory</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Default directory</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Default directory</mrk></target>
+<note>$sDirectory</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The Full path to the executable file started when an "open" by association is run on the file specified</source>
+<seg-source><mrk mid="0" mtype="seg">The Full path to the executable file started when an "open" by association is run on the file specified</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Full path to the executable file started when an "open" by association is run on the file specified</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Empty string if no association was found, @extended contains an error code as $SE_ERR_*</source>
+<seg-source><mrk mid="0" mtype="seg">Empty string if no association was found, @extended contains an error code as $SE_ERR_*</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Empty string if no association was found, @extended contains an error code as $SE_ERR_*</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">$SE_ERR_* constants require #include &lt;APIShellExConstants.au3></source>
+<seg-source><mrk mid="0" mtype="seg">$SE_ERR_* constants require #include &lt;APIShellExConstants.au3></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$SE_ERR_* constants require #include &lt;APIShellExConstants.au3></mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FindExecutable);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FindExecutable<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FindExecutable);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FindExecutable<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FindExecutable);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FindExecutable<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Find the executable that is associated with the AutoIt script.</source>
+<seg-source><mrk mid="0" mtype="seg">Find the executable that is associated with the AutoIt script.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Find the executable that is associated with the AutoIt script.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Find Executable</source>
+<seg-source><mrk mid="0" mtype="seg">Find Executable</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Find Executable</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">File:</source>
+<seg-source><mrk mid="0" mtype="seg">File:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File:</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Executable:</source>
+<seg-source><mrk mid="0" mtype="seg">Executable:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Executable:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

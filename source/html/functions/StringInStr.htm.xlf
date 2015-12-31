@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/StringInStr.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Checks if a string contains a given substring.</source>
+<seg-source><mrk mid="0" mtype="seg">Checks if a string contains a given substring.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Checks if a string contains a given substring.</mrk></target>
+<note>Function StringInStr</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The string to evaluate.</source>
+<seg-source><mrk mid="0" mtype="seg">The string to evaluate.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The string to evaluate.</mrk></target>
+<note>string</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The substring to search for.</source>
+<seg-source><mrk mid="0" mtype="seg">The substring to search for.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The substring to search for.</mrk></target>
+<note>substring</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Flag to indicate if the operations should be case sensitive.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Flag to indicate if the operations should be case sensitive.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Flag to indicate if the operations should be case sensitive.</mrk></target>
+<note>casesense</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $STR_NOCASESENSE (0) = not case sensitive, using the user's locale (default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STR_NOCASESENSE (0) = not case sensitive, using the user's locale (default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STR_NOCASESENSE (0) = not case sensitive, using the user's locale (default)</mrk></target>
+<note>casesense</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $STR_CASESENSE (1) = case sensitive</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STR_CASESENSE (1) = case sensitive</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STR_CASESENSE (1) = case sensitive</mrk></target>
+<note>casesense</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $STR_NOCASESENSEBASIC (2) = not case sensitive, using a basic/faster comparison</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STR_NOCASESENSEBASIC (2) = not case sensitive, using a basic/faster comparison</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STR_NOCASESENSEBASIC (2) = not case sensitive, using a basic/faster comparison</mrk></target>
+<note>casesense</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> Constants are defined in StringConstants.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in StringConstants.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in StringConstants.au3.</mrk></target>
+<note>casesense</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Which occurrence of the substring to find in the string. Use a negative occurrence to search from the right side. The default value is 1 (finds first occurrence).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Which occurrence of the substring to find in the string.</mrk> <mrk mid="2" mtype="seg">Use a negative occurrence to search from the right side.</mrk> <mrk mid="3" mtype="seg">The default value is 1 (finds first occurrence).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Which occurrence of the substring to find in the string.</mrk> <mrk mid="2" mtype="seg">Use a negative occurrence to search from the right side.</mrk> <mrk mid="3" mtype="seg">The default value is 1 (finds first occurrence).</mrk></target>
+<note>occurrence</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The starting position of the search.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The starting position of the search.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The starting position of the search.</mrk></target>
+<note>start</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The number of characters to search. This effectively limits the search to a portion of the full string. See remarks.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The number of characters to search.</mrk> <mrk mid="2" mtype="seg">This effectively limits the search to a portion of the full string.</mrk> <mrk mid="3" mtype="seg">See remarks.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The number of characters to search.</mrk> <mrk mid="2" mtype="seg">This effectively limits the search to a portion of the full string.</mrk> <mrk mid="3" mtype="seg">See remarks.</mrk></target>
+<note>count</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">the position of the substring.</source>
+<seg-source><mrk mid="0" mtype="seg">the position of the substring.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the position of the substring.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">0 if substring not found.</source>
+<seg-source><mrk mid="0" mtype="seg">0 if substring not found.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 if substring not found.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">1 = Invalid "start" or "occurrence" parameter given.</source>
+<seg-source><mrk mid="0" mtype="seg">1 = Invalid "start" or "occurrence" parameter given.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 = Invalid "start" or "occurrence" parameter given.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">The first character position is 1.</source>
+<seg-source><mrk mid="0" mtype="seg">The first character position is 1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The first character position is 1.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> The count parameter must not be shorter than the substring being searched for. The count parameter (combined with the start parameter) effectively limits the search to a substring of the full string. The following two statements are equivalent:</source>
+<seg-source> <mrk mid="0" mtype="seg">The count parameter must not be shorter than the substring being searched for.</mrk> <mrk mid="1" mtype="seg">The count parameter (combined with the start parameter) effectively limits the search to a substring of the full string.</mrk> <mrk mid="2" mtype="seg">The following two statements are equivalent:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The count parameter must not be shorter than the substring being searched for.</mrk> <mrk mid="1" mtype="seg">The count parameter (combined with the start parameter) effectively limits the search to a substring of the full string.</mrk> <mrk mid="2" mtype="seg">The following two statements are equivalent:</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="StringInStr.htm"></bpt>StringInStr<ept id="1">&lt;/a></ept>("the string to search", "string", 0, 1, 1, 11)</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="StringInStr.htm"></bpt>StringInStr<ept id="1">&lt;/a></ept>("the string to search", "string", 0, 1, 1, 11)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="StringInStr.htm"></bpt>StringInStr<ept id="1">&lt;/a></ept>("the string to search", "string", 0, 1, 1, 11)</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="StringInStr.htm"></bpt>StringInStr<ept id="1">&lt;/a></ept>(<bpt id="2" ctype="x-a">&lt;a href="StringMid.htm"></bpt>StringMid<ept id="2">&lt;/a></ept>("the string to search", 1, 11), "string")</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="StringInStr.htm"></bpt>StringInStr<ept id="1">&lt;/a></ept>(<bpt id="2" ctype="x-a">&lt;a href="StringMid.htm"></bpt>StringMid<ept id="2">&lt;/a></ept>("the string to search", 1, 11), "string")</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="StringInStr.htm"></bpt>StringInStr<ept id="1">&lt;/a></ept>(<bpt id="2" ctype="x-a">&lt;a href="StringMid.htm"></bpt>StringMid<ept id="2">&lt;/a></ept>("the string to search", 1, 11), "string")</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Retrieve the character position of where the string 'white' first occurs in the sentence.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve the character position of where the string 'white' first occurs in the sentence.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve the character position of where the string 'white' first occurs in the sentence.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">This is a sentence with whitespace.</source>
+<seg-source><mrk mid="0" mtype="seg">This is a sentence with whitespace.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a sentence with whitespace.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">white</source>
+<seg-source><mrk mid="0" mtype="seg">white</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">white</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">The search string 'white' first appears at position:</source>
+<seg-source><mrk mid="0" mtype="seg">The search string 'white' first appears at position:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The search string 'white' first appears at position:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

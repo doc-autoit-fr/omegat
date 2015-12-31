@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_ShellGetStockIconInfo.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves information about system-defined Shell icons</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves information about system-defined Shell icons</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves information about system-defined Shell icons</mrk></target>
+<note>Function _WinAPI_ShellGetStockIconInfo</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">One of the $SIID_* constants that specifies which icon should be retrieved.</source>
+<seg-source><mrk mid="0" mtype="seg">One of the $SIID_* constants that specifies which icon should be retrieved.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">One of the $SIID_* constants that specifies which icon should be retrieved.</mrk></target>
+<note>$iSIID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> Those constants are defined in APIShellExConstants.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Those constants are defined in APIShellExConstants.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Those constants are defined in APIShellExConstants.au3.</mrk></target>
+<note>$iSIID</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The flags that specify which information is requested. This parameter can be a combination of the</source>
+<seg-source><mrk mid="0" mtype="seg">The flags that specify which information is requested.</mrk> <mrk mid="1" mtype="seg">This parameter can be a combination of the</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The flags that specify which information is requested.</mrk> <mrk mid="1" mtype="seg">This parameter can be a combination of the</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> following values.</source>
+<seg-source> <mrk mid="0" mtype="seg">following values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">following values.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $SHGSI_ICONLOCATION</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHGSI_ICONLOCATION</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHGSI_ICONLOCATION</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $SHGSI_ICON</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHGSI_ICON</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHGSI_ICON</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $SHGSI_SYSICONINDEX</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHGSI_SYSICONINDEX</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHGSI_SYSICONINDEX</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> $SHGSI_LINKOVERLAY</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHGSI_LINKOVERLAY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHGSI_LINKOVERLAY</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> $SHGSI_SELECTED</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHGSI_SELECTED</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHGSI_SELECTED</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> $SHGSI_LARGEICON</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHGSI_LARGEICON</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHGSI_LARGEICON</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> $SHGSI_SMALLICON</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHGSI_SMALLICON</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHGSI_SMALLICON</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> $SHGSI_SHELLICONSIZE</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHGSI_SHELLICONSIZE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHGSI_SHELLICONSIZE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">$tagSHSTOCKICONINFO structure that contains the requested information.</source>
+<seg-source><mrk mid="0" mtype="seg">$tagSHSTOCKICONINFO structure that contains the requested information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$tagSHSTOCKICONINFO structure that contains the requested information.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">If this function returns an icon handle in the "hIcon" member of the $tagSHSTOCKICONINFO structure, you are</source>
+<seg-source><mrk mid="0" mtype="seg">If this function returns an icon handle in the "hIcon" member of the $tagSHSTOCKICONINFO structure, you are</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If this function returns an icon handle in the "hIcon" member of the $tagSHSTOCKICONINFO structure, you are</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> responsible for freeing the icon with <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DestroyIcon.htm"></bpt>_WinAPI_DestroyIcon()<ept id="1">&lt;/a></ept> when you no longer need it.</source>
+<seg-source> <mrk mid="0" mtype="seg">responsible for freeing the icon with <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DestroyIcon.htm"></bpt>_WinAPI_DestroyIcon()<ept id="1">&lt;/a></ept> when you no longer need it.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">responsible for freeing the icon with <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DestroyIcon.htm"></bpt>_WinAPI_DestroyIcon()<ept id="1">&lt;/a></ept> when you no longer need it.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHGetStockIconInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHGetStockIconInfo<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHGetStockIconInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHGetStockIconInfo<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHGetStockIconInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHGetStockIconInfo<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">6.0</source>
+<seg-source><mrk mid="0" mtype="seg">6.0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">6.0</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Require Windows Vista or later.</source>
+<seg-source><mrk mid="0" mtype="seg">Require Windows Vista or later.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Require Windows Vista or later.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">&lt;</source>
+<seg-source><mrk mid="0" mtype="seg">&lt;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&lt;</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">></source>
+<seg-source><mrk mid="0" mtype="seg">></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">></mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">SIID:</source>
+<seg-source><mrk mid="0" mtype="seg">SIID:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SIID:</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Path</source>
+<seg-source><mrk mid="0" mtype="seg">Path</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Path</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">iIcon</source>
+<seg-source><mrk mid="0" mtype="seg">iIcon</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">iIcon</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

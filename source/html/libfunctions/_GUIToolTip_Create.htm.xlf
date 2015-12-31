@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUIToolTip_Create.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a ToolTip control</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a ToolTip control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a ToolTip control</mrk></target>
+<note>Function _GUIToolTip_Create</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the window that will own the tool tip control. See remarks.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the window that will own the tool tip control.</mrk> <mrk mid="1" mtype="seg">See remarks.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the window that will own the tool tip control.</mrk> <mrk mid="1" mtype="seg">See remarks.</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> ToolTip style:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">ToolTip style:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">ToolTip style:</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> $TTS_ALWAYSTIP (0x01)- Indicates that the ToolTip control appears when the cursor is on a tool even if the ToolTip control's owner window is inactive. Without this style, the ToolTip appears only when the tool's owner window is active.</source>
+<seg-source> <mrk mid="0" mtype="seg">$TTS_ALWAYSTIP (0x01)- Indicates that the ToolTip control appears when the cursor is on a tool even if the ToolTip control's owner window is inactive.</mrk> <mrk mid="1" mtype="seg">Without this style, the ToolTip appears only when the tool's owner window is active.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TTS_ALWAYSTIP (0x01)- Indicates that the ToolTip control appears when the cursor is on a tool even if the ToolTip control's owner window is inactive.</mrk> <mrk mid="1" mtype="seg">Without this style, the ToolTip appears only when the tool's owner window is active.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> $TTS_NOPREFIX (0x02) - Prevents the system from stripping the ampersand character from a string. Without this style the system automatically strips ampersand characters. This allows an application to use the same string as both a menu item and as text in a ToolTip control.</source>
+<seg-source> <mrk mid="0" mtype="seg">$TTS_NOPREFIX (0x02) - Prevents the system from stripping the ampersand character from a string.</mrk> <mrk mid="1" mtype="seg">Without this style the system automatically strips ampersand characters.</mrk> <mrk mid="2" mtype="seg">This allows an application to use the same string as both a menu item and as text in a ToolTip control.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TTS_NOPREFIX (0x02) - Prevents the system from stripping the ampersand character from a string.</mrk> <mrk mid="1" mtype="seg">Without this style the system automatically strips ampersand characters.</mrk> <mrk mid="2" mtype="seg">This allows an application to use the same string as both a menu item and as text in a ToolTip control.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $TTS_NOANIMATE (0x10) - Disables sliding ToolTip animation.</source>
+<seg-source> <mrk mid="0" mtype="seg">$TTS_NOANIMATE (0x10) - Disables sliding ToolTip animation.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TTS_NOANIMATE (0x10) - Disables sliding ToolTip animation.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $TTS_NOFADE (0x20) - Disables fading ToolTip animation.</source>
+<seg-source> <mrk mid="0" mtype="seg">$TTS_NOFADE (0x20) - Disables fading ToolTip animation.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TTS_NOFADE (0x20) - Disables fading ToolTip animation.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $TTS_BALLOON (0x40) - Indicates that the ToolTip control has the appearance of a cartoon "balloon"</source>
+<seg-source> <mrk mid="0" mtype="seg">$TTS_BALLOON (0x40) - Indicates that the ToolTip control has the appearance of a cartoon "balloon"</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TTS_BALLOON (0x40) - Indicates that the ToolTip control has the appearance of a cartoon "balloon"</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> $TTS_CLOSE (0x80) - Displays a close icon so that the tooltip can be cancelled</source>
+<seg-source> <mrk mid="0" mtype="seg">$TTS_CLOSE (0x80) - Displays a close icon so that the tooltip can be cancelled</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TTS_CLOSE (0x80) - Displays a close icon so that the tooltip can be cancelled</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> Default: $_TT_ghTTDefaultStyle = BitOr($TTS_ALWAYSTIP, $TTS_NOPREFIX)</source>
+<seg-source> <mrk mid="0" mtype="seg">Default:</mrk> <mrk mid="1" mtype="seg">$_TT_ghTTDefaultStyle = BitOr($TTS_ALWAYSTIP, $TTS_NOPREFIX)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Default:</mrk> <mrk mid="1" mtype="seg">$_TT_ghTTDefaultStyle = BitOr($TTS_ALWAYSTIP, $TTS_NOPREFIX)</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">The handle to the Tooltip control.</source>
+<seg-source><mrk mid="0" mtype="seg">The handle to the Tooltip control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The handle to the Tooltip control.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">$hWnd is usually set to zero (0), or a handle to the parent or owner window of the window being created. To create a child window or an owned window, supply a valid window handle.</source>
+<seg-source><mrk mid="0" mtype="seg">$hWnd is usually set to zero (0), or a handle to the parent or owner window of the window being created.</mrk> <mrk mid="1" mtype="seg">To create a child window or an owned window, supply a valid window handle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$hWnd is usually set to zero (0), or a handle to the parent or owner window of the window being created.</mrk> <mrk mid="1" mtype="seg">To create a child window or an owned window, supply a valid window handle.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">.exe</source>
+<seg-source><mrk mid="0" mtype="seg">.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.exe</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Add</source>
+<seg-source><mrk mid="0" mtype="seg">Add</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Clear</source>
+<seg-source><mrk mid="0" mtype="seg">Clear</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Clear</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Item 1</source>
+<seg-source><mrk mid="0" mtype="seg">Item 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item 1</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Exit button</source>
+<seg-source><mrk mid="0" mtype="seg">Exit button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exit button</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Create 2 tooltip controls</source>
+<seg-source><mrk mid="0" mtype="seg">Create 2 tooltip controls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create 2 tooltip controls</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">balloon style tooltip</source>
+<seg-source><mrk mid="0" mtype="seg">balloon style tooltip</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">balloon style tooltip</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">default style tooltip</source>
+<seg-source><mrk mid="0" mtype="seg">default style tooltip</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">default style tooltip</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">this allows multiline tooltips to be used with $hToolTip2</source>
+<seg-source><mrk mid="0" mtype="seg">this allows multiline tooltips to be used with $hToolTip2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">this allows multiline tooltips to be used with $hToolTip2</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">add tools to the tooltip controls</source>
+<seg-source><mrk mid="0" mtype="seg">add tools to the tooltip controls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">add tools to the tooltip controls</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Adds an item to the list</source>
+<seg-source><mrk mid="0" mtype="seg">Adds an item to the list</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Adds an item to the list</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Exit the script</source>
+<seg-source><mrk mid="0" mtype="seg">Exit the script</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exit the script</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">The listbox</source>
+<seg-source><mrk mid="0" mtype="seg">The listbox</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The listbox</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Clears the list</source>
+<seg-source><mrk mid="0" mtype="seg">Clears the list</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Clears the list</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Multiline tooltip</source>
+<seg-source><mrk mid="0" mtype="seg">Multiline tooltip</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Multiline tooltip</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">for the GUI</source>
+<seg-source><mrk mid="0" mtype="seg">for the GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">for the GUI</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Multiline ToolTip</source>
+<seg-source><mrk mid="0" mtype="seg">Multiline ToolTip</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Multiline ToolTip</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">The Add button was pressed"|</source>
+<seg-source><mrk mid="0" mtype="seg">The Add button was pressed"|</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Add button was pressed"|</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Destroy the tooltip controls</source>
+<seg-source><mrk mid="0" mtype="seg">Destroy the tooltip controls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Destroy the tooltip controls</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

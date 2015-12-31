@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUICtrlToolbar_SetDrawTextFlags.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the text drawing flags for the toolbar</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the text drawing flags for the toolbar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the text drawing flags for the toolbar</mrk></target>
+<note>Function _GUICtrlToolbar_SetDrawTextFlags</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">One or more of the DT_ flags, specified in DrawText, that indicate which bits in $iDTFlags will be used when drawing the text.</source>
+<seg-source><mrk mid="0" mtype="seg">One or more of the DT_ flags, specified in DrawText, that indicate which bits in $iDTFlags will be used when drawing the text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">One or more of the DT_ flags, specified in DrawText, that indicate which bits in $iDTFlags will be used when drawing the text.</mrk></target>
+<note>$iMask</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">One or more of the DT_ flags, specified in DrawText, that indicate how the button text will be drawn. This value will be passed to the DrawText API when the button text is drawn.</source>
+<seg-source><mrk mid="0" mtype="seg">One or more of the DT_ flags, specified in DrawText, that indicate how the button text will be drawn.</mrk> <mrk mid="1" mtype="seg">This value will be passed to the DrawText API when the button text is drawn.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">One or more of the DT_ flags, specified in DrawText, that indicate how the button text will be drawn.</mrk> <mrk mid="1" mtype="seg">This value will be passed to the DrawText API when the button text is drawn.</mrk></target>
+<note>$iDTFlags</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Returns the previous text drawing flags.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the previous text drawing flags.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the previous text drawing flags.</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">The $iMask parameter allows you to specify which flags will be used when drawing the text, even if these flags are turned off.</source>
+<seg-source><mrk mid="0" mtype="seg">The $iMask parameter allows you to specify which flags will be used when drawing the text, even if these flags are turned off.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The $iMask parameter allows you to specify which flags will be used when drawing the text, even if these flags are turned off.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> For example, if you don't want the $DT_CENTER flag used when drawing text you would add the $DT_CENTER flag to $iMask and not specify the $DT_CENTER flag in $iDTFlags.</source>
+<seg-source> <mrk mid="0" mtype="seg">For example, if you don't want the $DT_CENTER flag used when drawing text you would add the $DT_CENTER flag to $iMask and not specify the $DT_CENTER flag in $iDTFlags.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For example, if you don't want the $DT_CENTER flag used when drawing text you would add the $DT_CENTER flag to $iMask and not specify the $DT_CENTER flag in $iDTFlags.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> This prevents the control from passing the $DT_CENTER flag to the DrawText API.</source>
+<seg-source> <mrk mid="0" mtype="seg">This prevents the control from passing the $DT_CENTER flag to the DrawText API.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This prevents the control from passing the $DT_CENTER flag to the DrawText API.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

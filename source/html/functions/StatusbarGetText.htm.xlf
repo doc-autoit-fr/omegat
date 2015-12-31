@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/StatusbarGetText.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the text from a standard status bar control.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the text from a standard status bar control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the text from a standard status bar control.</mrk></target>
+<note>Function StatusbarGetText</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The title/hWnd/class of the window to check.</source>
+<seg-source><mrk mid="0" mtype="seg">The title/hWnd/class of the window to check.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The title/hWnd/class of the window to check.</mrk></target>
+<note>title</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The text of the window to check. Default is an empty string.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The text of the window to check.</mrk> <mrk mid="2" mtype="seg">Default is an empty string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The text of the window to check.</mrk> <mrk mid="2" mtype="seg">Default is an empty string.</mrk></target>
+<note>text</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The "part" number of the status bar to read - the default is 1. 1 is the first possible part and usually the one that contains the useful messages like "Ready" "Loading...", etc.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The "part" number of the status bar to read - the default is 1.</mrk> <mrk mid="2" mtype="seg">1 is the first possible part and usually the one that contains the useful messages like "Ready" "Loading...", etc.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The "part" number of the status bar to read - the default is 1.</mrk> <mrk mid="2" mtype="seg">1 is the first possible part and usually the one that contains the useful messages like "Ready" "Loading...", etc.</mrk></target>
+<note>part</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">the text read.</source>
+<seg-source><mrk mid="0" mtype="seg">the text read.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the text read.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">"" (empty string) and sets the @error flag to 1 if no text could be read.</source>
+<seg-source><mrk mid="0" mtype="seg">"" (empty string) and sets the @error flag to 1 if no text could be read.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"" (empty string) and sets the @error flag to 1 if no text could be read.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">This functions attempts to read the first standard status bar on a window (Microsoft common control: msctls_statusbar32). Some programs use their own status bars or special versions of the MS common control which <bpt id="1" ctype="x-a">&lt;a href="StatusbarGetText.htm"></bpt>StatusbarGetText()<ept id="1">&lt;/a></ept> cannot read. For example, StatusbarGetText does not work on the program TextPad; however, the first region of TextPad's status bar can be read using <bpt id="1" ctype="x-a">&lt;a href="ControlGetText.htm"></bpt>ControlGetText<ept id="1">&lt;/a></ept>("TextPad", "", "HSStatusBar1")</source>
+<seg-source><mrk mid="0" mtype="seg">This functions attempts to read the first standard status bar on a window (Microsoft common control: msctls_statusbar32).</mrk> <mrk mid="1" mtype="seg">Some programs use their own status bars or special versions of the MS common control which <bpt id="1" ctype="x-a">&lt;a href="StatusbarGetText.htm"></bpt>StatusbarGetText()<ept id="1">&lt;/a></ept> cannot read.</mrk> <mrk mid="2" mtype="seg">For example, StatusbarGetText does not work on the program TextPad; however, the first region of TextPad's status bar can be read using <bpt id="1" ctype="x-a">&lt;a href="ControlGetText.htm"></bpt>ControlGetText<ept id="1">&lt;/a></ept>("TextPad", "", "HSStatusBar1")</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This functions attempts to read the first standard status bar on a window (Microsoft common control: msctls_statusbar32).</mrk> <mrk mid="1" mtype="seg">Some programs use their own status bars or special versions of the MS common control which <bpt id="1" ctype="x-a">&lt;a href="StatusbarGetText.htm"></bpt>StatusbarGetText()<ept id="1">&lt;/a></ept> cannot read.</mrk> <mrk mid="2" mtype="seg">For example, StatusbarGetText does not work on the program TextPad; however, the first region of TextPad's status bar can be read using <bpt id="1" ctype="x-a">&lt;a href="ControlGetText.htm"></bpt>ControlGetText<ept id="1">&lt;/a></ept>("TextPad", "", "HSStatusBar1")</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="StatusbarGetText.htm"></bpt>StatusbarGetText()<ept id="1">&lt;/a></ept> can work on windows that are minimized or even hidden.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="StatusbarGetText.htm"></bpt>StatusbarGetText()<ept id="1">&lt;/a></ept> can work on windows that are minimized or even hidden.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="StatusbarGetText.htm"></bpt>StatusbarGetText()<ept id="1">&lt;/a></ept> can work on windows that are minimized or even hidden.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">WinTitleMatchMode</source>
+<seg-source><mrk mid="0" mtype="seg">WinTitleMatchMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WinTitleMatchMode</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Internet Explorer</source>
+<seg-source><mrk mid="0" mtype="seg">Internet Explorer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Internet Explorer</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Internet Explorer's status bar says:</source>
+<seg-source><mrk mid="0" mtype="seg">Internet Explorer's status bar says:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Internet Explorer's status bar says:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

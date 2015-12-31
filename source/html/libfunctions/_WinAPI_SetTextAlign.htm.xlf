@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_SetTextAlign.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the text-alignment flags for the specified device context</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the text-alignment flags for the specified device context</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the text-alignment flags for the specified device context</mrk></target>
+<note>Function _WinAPI_SetTextAlign</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the device context.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the device context.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the device context.</mrk></target>
+<note>$hDC</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The text alignment by using a mask of the values in the following list. Only one flag can be chosen</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The text alignment by using a mask of the values in the following list.</mrk> <mrk mid="2" mtype="seg">Only one flag can be chosen</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The text alignment by using a mask of the values in the following list.</mrk> <mrk mid="2" mtype="seg">Only one flag can be chosen</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> from those that affect horizontal and vertical alignment. In addition, only one of the two flags that</source>
+<seg-source> <mrk mid="0" mtype="seg">from those that affect horizontal and vertical alignment.</mrk> <mrk mid="1" mtype="seg">In addition, only one of the two flags that</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">from those that affect horizontal and vertical alignment.</mrk> <mrk mid="1" mtype="seg">In addition, only one of the two flags that</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> alter the current position can be chosen.</source>
+<seg-source> <mrk mid="0" mtype="seg">alter the current position can be chosen.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">alter the current position can be chosen.</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $TA_BASELINE</source>
+<seg-source> <mrk mid="0" mtype="seg">$TA_BASELINE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TA_BASELINE</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $TA_BOTTOM</source>
+<seg-source> <mrk mid="0" mtype="seg">$TA_BOTTOM</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TA_BOTTOM</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $TA_TOP (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">$TA_TOP (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TA_TOP (Default)</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> $TA_CENTER</source>
+<seg-source> <mrk mid="0" mtype="seg">$TA_CENTER</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TA_CENTER</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> $TA_LEFT (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">$TA_LEFT (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TA_LEFT (Default)</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> $TA_RIGHT</source>
+<seg-source> <mrk mid="0" mtype="seg">$TA_RIGHT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TA_RIGHT</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> $TA_NOUPDATECP (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">$TA_NOUPDATECP (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TA_NOUPDATECP (Default)</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> $TA_RTLREADING</source>
+<seg-source> <mrk mid="0" mtype="seg">$TA_RTLREADING</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TA_RTLREADING</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> $TA_UPDATECP</source>
+<seg-source> <mrk mid="0" mtype="seg">$TA_UPDATECP</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TA_UPDATECP</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> When the current font has a vertical default base line, as with Kanji, the following values must be</source>
+<seg-source> <mrk mid="0" mtype="seg">When the current font has a vertical default base line, as with Kanji, the following values must be</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When the current font has a vertical default base line, as with Kanji, the following values must be</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> used instead of $TA_BASELINE and $TA_CENTER.</source>
+<seg-source> <mrk mid="0" mtype="seg">used instead of $TA_BASELINE and $TA_CENTER.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">used instead of $TA_BASELINE and $TA_CENTER.</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> $VTA_BASELINE</source>
+<seg-source> <mrk mid="0" mtype="seg">$VTA_BASELINE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$VTA_BASELINE</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> $VTA_CENTER</source>
+<seg-source> <mrk mid="0" mtype="seg">$VTA_CENTER</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$VTA_CENTER</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> The default values are $TA_LEFT, $TA_TOP, and $TA_NOUPDATECP.</source>
+<seg-source> <mrk mid="0" mtype="seg">The default values are $TA_LEFT, $TA_TOP, and $TA_NOUPDATECP.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The default values are $TA_LEFT, $TA_TOP, and $TA_NOUPDATECP.</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">The previous text-alignment setting ($TA_* and $VTA_*).</source>
+<seg-source><mrk mid="0" mtype="seg">The previous text-alignment setting ($TA_* and $VTA_*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The previous text-alignment setting ($TA_* and $VTA_*).</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">(-1) GDI_ERROR.</source>
+<seg-source><mrk mid="0" mtype="seg">(-1) GDI_ERROR.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(-1) GDI_ERROR.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetTextAlign);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetTextAlign<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetTextAlign);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetTextAlign<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetTextAlign);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetTextAlign<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

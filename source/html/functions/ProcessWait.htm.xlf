@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/ProcessWait.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Pauses script execution until a given process exists.</source>
+<seg-source><mrk mid="0" mtype="seg">Pauses script execution until a given process exists.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pauses script execution until a given process exists.</mrk></target>
+<note>Function ProcessWait</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The name of the process to check.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the process to check.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the process to check.</mrk></target>
+<note>process</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies how long to wait (in seconds). Default is to wait indefinitely.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies how long to wait (in seconds).</mrk> <mrk mid="2" mtype="seg">Default is to wait indefinitely.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies how long to wait (in seconds).</mrk> <mrk mid="2" mtype="seg">Default is to wait indefinitely.</mrk></target>
+<note>timeout</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">the Pid of the process.</source>
+<seg-source><mrk mid="0" mtype="seg">the Pid of the process.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the Pid of the process.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">0 if the wait timed out.</source>
+<seg-source><mrk mid="0" mtype="seg">0 if the wait timed out.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 if the wait timed out.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Process names are executables without the full path, e.g., "notepad.exe" or "winword.exe"</source>
+<seg-source><mrk mid="0" mtype="seg">Process names are executables without the full path, e.g.,</mrk> <mrk mid="1" mtype="seg">"notepad.exe" or "winword.exe"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Process names are executables without the full path, e.g.,</mrk> <mrk mid="1" mtype="seg">"notepad.exe" or "winword.exe"</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> The process is polled approximately every 250 milliseconds.</source>
+<seg-source> <mrk mid="0" mtype="seg">The process is polled approximately every 250 milliseconds.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The process is polled approximately every 250 milliseconds.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> This function is the only process function not to accept a PID. Because PIDs are allocated randomly, waiting for a particular PID to exist doesn't make sense.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function is the only process function not to accept a PID.</mrk> <mrk mid="1" mtype="seg">Because PIDs are allocated randomly, waiting for a particular PID to exist doesn't make sense.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function is the only process function not to accept a PID.</mrk> <mrk mid="1" mtype="seg">Because PIDs are allocated randomly, waiting for a particular PID to exist doesn't make sense.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Wait for the Notepad process to exist.</source>
+<seg-source><mrk mid="0" mtype="seg">Wait for the Notepad process to exist.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wait for the Notepad process to exist.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">notepad.exe</source>
+<seg-source><mrk mid="0" mtype="seg">notepad.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">notepad.exe</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

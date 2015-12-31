@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUICtrlListView_GetBkImage.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the background image in the control</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the background image in the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the background image in the control</mrk></target>
+<note>Function _GUICtrlListView_GetBkImage</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Control ID/Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Returns an array with the following format:</source>
+<seg-source><mrk mid="0" mtype="seg">Returns an array with the following format:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns an array with the following format:</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> [0] - One or more of the following flags:</source>
+<seg-source> <mrk mid="0" mtype="seg">[0] - One or more of the following flags:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[0] - One or more of the following flags:</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> 0 - The control has no background</source>
+<seg-source> <mrk mid="0" mtype="seg">0 - The control has no background</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 - The control has no background</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> 1 - The background is from a bitmap</source>
+<seg-source> <mrk mid="0" mtype="seg">1 - The background is from a bitmap</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 - The background is from a bitmap</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> 2 - The background is from a URL</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - The background is from a URL</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - The background is from a URL</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> [1] - URL of the background image</source>
+<seg-source> <mrk mid="0" mtype="seg">[1] - URL of the background image</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[1] - URL of the background image</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> [2] - Percentage of the client area that the image should be X offset</source>
+<seg-source> <mrk mid="0" mtype="seg">[2] - Percentage of the client area that the image should be X offset</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[2] - Percentage of the client area that the image should be X offset</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> [3] - Percentage of the client area that the image should be Y offset</source>
+<seg-source> <mrk mid="0" mtype="seg">[3] - Percentage of the client area that the image should be Y offset</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[3] - Percentage of the client area that the image should be Y offset</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">use UDF built listview</source>
+<seg-source><mrk mid="0" mtype="seg">use UDF built listview</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">use UDF built listview</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">(UDF Created) ListView Set Background Image</source>
+<seg-source><mrk mid="0" mtype="seg">(UDF Created) ListView Set Background Image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(UDF Created) ListView Set Background Image</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Last option Calls CoInitializeEx</source>
+<seg-source><mrk mid="0" mtype="seg">Last option Calls CoInitializeEx</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Last option Calls CoInitializeEx</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Load images</source>
+<seg-source><mrk mid="0" mtype="seg">Load images</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Load images</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Add columns</source>
+<seg-source><mrk mid="0" mtype="seg">Add columns</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add columns</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Column 1</source>
+<seg-source><mrk mid="0" mtype="seg">Column 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column 1</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Column 2</source>
+<seg-source><mrk mid="0" mtype="seg">Column 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column 2</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Column 3</source>
+<seg-source><mrk mid="0" mtype="seg">Column 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column 3</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Add items</source>
+<seg-source><mrk mid="0" mtype="seg">Add items</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add items</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Row 1: Col 1</source>
+<seg-source><mrk mid="0" mtype="seg">Row 1:</mrk> <mrk mid="1" mtype="seg">Col 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Row 1:</mrk> <mrk mid="1" mtype="seg">Col 1</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Row 1: Col 2</source>
+<seg-source><mrk mid="0" mtype="seg">Row 1:</mrk> <mrk mid="1" mtype="seg">Col 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Row 1:</mrk> <mrk mid="1" mtype="seg">Col 2</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Row 1: Col 3</source>
+<seg-source><mrk mid="0" mtype="seg">Row 1:</mrk> <mrk mid="1" mtype="seg">Col 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Row 1:</mrk> <mrk mid="1" mtype="seg">Col 3</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Row 2: Col 1</source>
+<seg-source><mrk mid="0" mtype="seg">Row 2:</mrk> <mrk mid="1" mtype="seg">Col 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Row 2:</mrk> <mrk mid="1" mtype="seg">Col 1</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Row 2: Col 2</source>
+<seg-source><mrk mid="0" mtype="seg">Row 2:</mrk> <mrk mid="1" mtype="seg">Col 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Row 2:</mrk> <mrk mid="1" mtype="seg">Col 2</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Row 3: Col 1</source>
+<seg-source><mrk mid="0" mtype="seg">Row 3:</mrk> <mrk mid="1" mtype="seg">Col 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Row 3:</mrk> <mrk mid="1" mtype="seg">Col 1</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Build groups</source>
+<seg-source><mrk mid="0" mtype="seg">Build groups</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Build groups</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Group 1</source>
+<seg-source><mrk mid="0" mtype="seg">Group 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Group 1</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Group 2</source>
+<seg-source><mrk mid="0" mtype="seg">Group 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Group 2</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Get the Image</source>
+<seg-source><mrk mid="0" mtype="seg">Get the Image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get the Image</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">http://www.autoitscript.com/autoit3/files/graphics/autoit9_wall_grey_800x600.jpg</source>
+<seg-source><mrk mid="0" mtype="seg">http://www.autoitscript.com/autoit3/files/graphics/autoit9_wall_grey_800x600.jpg</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">http://www.autoitscript.com/autoit3/files/graphics/autoit9_wall_grey_800x600.jpg</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">\AutoIt.jpg</source>
+<seg-source><mrk mid="0" mtype="seg">\AutoIt.jpg</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\AutoIt.jpg</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Set the Background Image</source>
+<seg-source><mrk mid="0" mtype="seg">Set the Background Image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the Background Image</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Information</source>
+<seg-source><mrk mid="0" mtype="seg">Information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Information</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Background Image:</source>
+<seg-source><mrk mid="0" mtype="seg">Background Image:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Background Image:</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">ole32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">ole32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ole32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">long</source>
+<seg-source><mrk mid="0" mtype="seg">long</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">long</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">CoUinitialize</source>
+<seg-source><mrk mid="0" mtype="seg">CoUinitialize</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CoUinitialize</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Must call for each CoInitializeEx call made</source>
+<seg-source><mrk mid="0" mtype="seg">Must call for each CoInitializeEx call made</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Must call for each CoInitializeEx call made</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

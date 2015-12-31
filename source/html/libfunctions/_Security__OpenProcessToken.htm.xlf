@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_Security__OpenProcessToken.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Returns the access token associated with a process</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the access token associated with a process</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the access token associated with a process</mrk></target>
+<note>Function _Security__OpenProcessToken</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">A handle to the process whose access token is opened.</source>
+<seg-source><mrk mid="0" mtype="seg">A handle to the process whose access token is opened.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A handle to the process whose access token is opened.</mrk></target>
+<note>$hProcess</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> The process must have been given the $PROCESS_QUERY_INFORMATION access permission.</source>
+<seg-source> <mrk mid="0" mtype="seg">The process must have been given the $PROCESS_QUERY_INFORMATION access permission.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The process must have been given the $PROCESS_QUERY_INFORMATION access permission.</mrk></target>
+<note>$hProcess</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Specifies an access mask that specifies the requested types of access to the access token.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies an access mask that specifies the requested types of access to the access token.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies an access mask that specifies the requested types of access to the access token.</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">an handle that identifies the newly opened access token when the function returns.</source>
+<seg-source><mrk mid="0" mtype="seg">an handle that identifies the newly opened access token when the function returns.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an handle that identifies the newly opened access token when the function returns.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Close the access token handle returned by calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CloseHandle.htm"></bpt>_WinAPI_CloseHandle()<ept id="1">&lt;/a></ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the access token handle returned by calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CloseHandle.htm"></bpt>_WinAPI_CloseHandle()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the access token handle returned by calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CloseHandle.htm"></bpt>_WinAPI_CloseHandle()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(OpenProcessToken);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>OpenProcessToken<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(OpenProcessToken);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>OpenProcessToken<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(OpenProcessToken);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>OpenProcessToken<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">$hToken is this process' token with $TOKEN_QUERY access</source>
+<seg-source><mrk mid="0" mtype="seg">$hToken is this process' token with $TOKEN_QUERY access</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$hToken is this process' token with $TOKEN_QUERY access</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">... Do whatever with this token now and here...</source>
+<seg-source><mrk mid="0" mtype="seg">...</mrk> <mrk mid="1" mtype="seg">Do whatever with this token now and here...</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">...</mrk> <mrk mid="1" mtype="seg">Do whatever with this token now and here...</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">OpenProcessToken</source>
+<seg-source><mrk mid="0" mtype="seg">OpenProcessToken</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OpenProcessToken</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">$hToken =</source>
+<seg-source><mrk mid="0" mtype="seg">$hToken =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$hToken =</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Close handle when done</source>
+<seg-source><mrk mid="0" mtype="seg">Close handle when done</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close handle when done</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

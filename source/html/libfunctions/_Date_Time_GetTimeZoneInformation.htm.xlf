@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_Date_Time_GetTimeZoneInformation.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the current time zone settings</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the current time zone settings</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the current time zone settings</mrk></target>
+<note>Function _Date_Time_GetTimeZoneInformation</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Returns an array with the following format:</source>
+<seg-source><mrk mid="0" mtype="seg">Returns an array with the following format:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns an array with the following format:</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> [0] - Daylight savings setting. Can be one of the following:</source>
+<seg-source> <mrk mid="0" mtype="seg">[0] - Daylight savings setting.</mrk> <mrk mid="1" mtype="seg">Can be one of the following:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[0] - Daylight savings setting.</mrk> <mrk mid="1" mtype="seg">Can be one of the following:</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> -1 - Failure</source>
+<seg-source> <mrk mid="0" mtype="seg">-1 - Failure</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">-1 - Failure</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> 0 - Daylight savings time is not used in the current time zone</source>
+<seg-source> <mrk mid="0" mtype="seg">0 - Daylight savings time is not used in the current time zone</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 - Daylight savings time is not used in the current time zone</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> 1 - Daylight savings time operating with standard time</source>
+<seg-source> <mrk mid="0" mtype="seg">1 - Daylight savings time operating with standard time</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 - Daylight savings time operating with standard time</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> 2 - Daylight savings time operating with daylight savings time</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - Daylight savings time operating with daylight savings time</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - Daylight savings time operating with daylight savings time</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> [1] - The current bias for local time translation on this computer.</source>
+<seg-source> <mrk mid="0" mtype="seg">[1] - The current bias for local time translation on this computer.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[1] - The current bias for local time translation on this computer.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> The bias is the difference in minutes between Coordinated Universal Time (UTC) and local time.</source>
+<seg-source> <mrk mid="0" mtype="seg">The bias is the difference in minutes between Coordinated Universal Time (UTC) and local time.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The bias is the difference in minutes between Coordinated Universal Time (UTC) and local time.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> All translations between UTC and local time use the following formula: UTC = local time + bias</source>
+<seg-source> <mrk mid="0" mtype="seg">All translations between UTC and local time use the following formula:</mrk> <mrk mid="1" mtype="seg">UTC = local time + bias</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">All translations between UTC and local time use the following formula:</mrk> <mrk mid="1" mtype="seg">UTC = local time + bias</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> [2] - The description for standard time</source>
+<seg-source> <mrk mid="0" mtype="seg">[2] - The description for standard time</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[2] - The description for standard time</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> [3] - A $tagSYSTEMTIME structure that contains a date and local time when the transition from daylight saving time to standard time occurs.</source>
+<seg-source> <mrk mid="0" mtype="seg">[3] - A $tagSYSTEMTIME structure that contains a date and local time when the transition from daylight saving time to standard time occurs.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[3] - A $tagSYSTEMTIME structure that contains a date and local time when the transition from daylight saving time to standard time occurs.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> [4] - The bias value to be used during local time translations that occur during standard time.</source>
+<seg-source> <mrk mid="0" mtype="seg">[4] - The bias value to be used during local time translations that occur during standard time.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[4] - The bias value to be used during local time translations that occur during standard time.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> This value is added to the value of the Bias to form the bias used during standard time.</source>
+<seg-source> <mrk mid="0" mtype="seg">This value is added to the value of the Bias to form the bias used during standard time.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This value is added to the value of the Bias to form the bias used during standard time.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> In most time zones, this value is zero.</source>
+<seg-source> <mrk mid="0" mtype="seg">In most time zones, this value is zero.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">In most time zones, this value is zero.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> [5] - The description for daylight saving time</source>
+<seg-source> <mrk mid="0" mtype="seg">[5] - The description for daylight saving time</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[5] - The description for daylight saving time</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> [6] - A $tagSYSTEMTIME structure that contains a date and local time when the transition from standard time to daylight saving time occurs.</source>
+<seg-source> <mrk mid="0" mtype="seg">[6] - A $tagSYSTEMTIME structure that contains a date and local time when the transition from standard time to daylight saving time occurs.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[6] - A $tagSYSTEMTIME structure that contains a date and local time when the transition from standard time to daylight saving time occurs.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> [7] - The bias value to be used during local time translations that occur during daylight saving time.</source>
+<seg-source> <mrk mid="0" mtype="seg">[7] - The bias value to be used during local time translations that occur during daylight saving time.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[7] - The bias value to be used during local time translations that occur during daylight saving time.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> This value is added to the value of the Bias member to form the bias used during daylight saving time. In most time zones this value is –60.</source>
+<seg-source> <mrk mid="0" mtype="seg">This value is added to the value of the Bias member to form the bias used during daylight saving time.</mrk> <mrk mid="1" mtype="seg">In most time zones this value is –60.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This value is added to the value of the Bias member to form the bias used during daylight saving time.</mrk> <mrk mid="1" mtype="seg">In most time zones this value is –60.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">In the $tagSYSTEMTIME structure, the wHour and wMinute members represent the transition time, the wDayOfWeek member to the appropriate weekday, and the wDay member indicating the occurrence of the day of the week within the month (1 to 5, where 5 indicates the final occurrence during the month if that day of the week does not occur 5 times).</source>
+<seg-source><mrk mid="0" mtype="seg">In the $tagSYSTEMTIME structure, the wHour and wMinute members represent the transition time, the wDayOfWeek member to the appropriate weekday, and the wDay member indicating the occurrence of the day of the week within the month (1 to 5, where 5 indicates the final occurrence during the month if that day of the week does not occur 5 times).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In the $tagSYSTEMTIME structure, the wHour and wMinute members represent the transition time, the wDayOfWeek member to the appropriate weekday, and the wDay member indicating the occurrence of the day of the week within the month (1 to 5, where 5 indicates the final occurrence during the month if that day of the week does not occur 5 times).</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> Using this notation, specify 02:00 on the first Sunday in April as follows: wHour = 2, wMonth = 4, wDayOfWeek = 0, wDay = 1. Specify 02:00 on the last Thursday in October as follows: wHour = 2, wMonth = 10, wDayOfWeek = 4, wDay = 5.</source>
+<seg-source> <mrk mid="0" mtype="seg">Using this notation, specify 02:00 on the first Sunday in April as follows: wHour = 2, wMonth = 4, wDayOfWeek = 0, wDay = 1.</mrk> <mrk mid="1" mtype="seg">Specify 02:00 on the last Thursday in October as follows: wHour = 2, wMonth = 10, wDayOfWeek = 4, wDay = 5.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Using this notation, specify 02:00 on the first Sunday in April as follows: wHour = 2, wMonth = 4, wDayOfWeek = 0, wDay = 1.</mrk> <mrk mid="1" mtype="seg">Specify 02:00 on the last Thursday in October as follows: wHour = 2, wMonth = 10, wDayOfWeek = 4, wDay = 5.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="$tagSYSTEMTIME.htm"></bpt>$tagSYSTEMTIME<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_Date_Time_SetTimeZoneInformation.htm"></bpt>_Date_Time_SetTimeZoneInformation<ept id="2">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagSYSTEMTIME.htm"></bpt>$tagSYSTEMTIME<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_Date_Time_SetTimeZoneInformation.htm"></bpt>_Date_Time_SetTimeZoneInformation<ept id="2">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagSYSTEMTIME.htm"></bpt>$tagSYSTEMTIME<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_Date_Time_SetTimeZoneInformation.htm"></bpt>_Date_Time_SetTimeZoneInformation<ept id="2">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Under Vista the Windows API "SetTimeZoneInformation" may be rejected due to system security</source>
+<seg-source><mrk mid="0" mtype="seg">Under Vista the Windows API "SetTimeZoneInformation" may be rejected due to system security</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Under Vista the Windows API "SetTimeZoneInformation" may be rejected due to system security</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Time</source>
+<seg-source><mrk mid="0" mtype="seg">Time</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Time</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Show current time zone information</source>
+<seg-source><mrk mid="0" mtype="seg">Show current time zone information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show current time zone information</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Current</source>
+<seg-source><mrk mid="0" mtype="seg">Current</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Current</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Set new time zone information</source>
+<seg-source><mrk mid="0" mtype="seg">Set new time zone information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set new time zone information</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">A3L CST</source>
+<seg-source><mrk mid="0" mtype="seg">A3L CST</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A3L CST</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">A3L CDT</source>
+<seg-source><mrk mid="0" mtype="seg">A3L CDT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A3L CDT</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">System timezone cannot be SET</source>
+<seg-source><mrk mid="0" mtype="seg">System timezone cannot be SET</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">System timezone cannot be SET</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Show new time zone information</source>
+<seg-source><mrk mid="0" mtype="seg">Show new time zone information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show new time zone information</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">New</source>
+<seg-source><mrk mid="0" mtype="seg">New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">New</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Reset original time zone information</source>
+<seg-source><mrk mid="0" mtype="seg">Reset original time zone information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Reset original time zone information</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Show current time zone information</source>
+<seg-source><mrk mid="0" mtype="seg">Show current time zone information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show current time zone information</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Reset</source>
+<seg-source><mrk mid="0" mtype="seg">Reset</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Reset</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Write a line to the memo control</source>
+<seg-source><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Show time zone information</source>
+<seg-source><mrk mid="0" mtype="seg">Show time zone information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show time zone information</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">*******************</source>
+<seg-source><mrk mid="0" mtype="seg">*******************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*******************</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">*******************</source>
+<seg-source><mrk mid="0" mtype="seg">*******************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*******************</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Result ............:</source>
+<seg-source><mrk mid="0" mtype="seg">Result ............:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Result ............:</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Current bias ......:</source>
+<seg-source><mrk mid="0" mtype="seg">Current bias ......:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Current bias ......:</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Standard name .....:</source>
+<seg-source><mrk mid="0" mtype="seg">Standard name .....:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Standard name .....:</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Standard date/time :</source>
+<seg-source><mrk mid="0" mtype="seg">Standard date/time :</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Standard date/time :</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Standard bias......:</source>
+<seg-source><mrk mid="0" mtype="seg">Standard bias......:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Standard bias......:</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Daylight name .....:</source>
+<seg-source><mrk mid="0" mtype="seg">Daylight name .....:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Daylight name .....:</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">Daylight date/time :</source>
+<seg-source><mrk mid="0" mtype="seg">Daylight date/time :</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Daylight date/time :</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Daylight bias......:</source>
+<seg-source><mrk mid="0" mtype="seg">Daylight bias......:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Daylight bias......:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

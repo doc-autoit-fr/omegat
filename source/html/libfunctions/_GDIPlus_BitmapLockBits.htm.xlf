@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GDIPlus_BitmapLockBits.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Locks a portion of a bitmap for reading or writing</source>
+<seg-source><mrk mid="0" mtype="seg">Locks a portion of a bitmap for reading or writing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Locks a portion of a bitmap for reading or writing</mrk></target>
+<note>Function _GDIPlus_BitmapLockBits</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to a bitmap object</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to a bitmap object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to a bitmap object</mrk></target>
+<note>$hBitmap</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">X coordinate of the upper-left corner of the rectangle to lock</source>
+<seg-source><mrk mid="0" mtype="seg">X coordinate of the upper-left corner of the rectangle to lock</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X coordinate of the upper-left corner of the rectangle to lock</mrk></target>
+<note>$iLeft</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Y coordinate of the upper-left corner of the rectangle to lock</source>
+<seg-source><mrk mid="0" mtype="seg">Y coordinate of the upper-left corner of the rectangle to lock</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y coordinate of the upper-left corner of the rectangle to lock</mrk></target>
+<note>$iTop</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The width of the rectangle to lock</source>
+<seg-source><mrk mid="0" mtype="seg">The width of the rectangle to lock</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The width of the rectangle to lock</mrk></target>
+<note>$iWidth</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">The height of the rectangle to lock</source>
+<seg-source><mrk mid="0" mtype="seg">The height of the rectangle to lock</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The height of the rectangle to lock</mrk></target>
+<note>$iHeight</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Set of flags that specify whether the locked portion of the bitmap is available for reading or for writing and whether the caller has already allocated a buffer. Can be a combination of the following:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Set of flags that specify whether the locked portion of the bitmap is available for reading or for writing and whether the caller has already allocated a buffer.</mrk> <mrk mid="2" mtype="seg">Can be a combination of the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Set of flags that specify whether the locked portion of the bitmap is available for reading or for writing and whether the caller has already allocated a buffer.</mrk> <mrk mid="2" mtype="seg">Can be a combination of the following:</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $GDIP_ILMREAD - A portion of the image is locked for reading</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_ILMREAD - A portion of the image is locked for reading</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_ILMREAD - A portion of the image is locked for reading</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $GDIP_ILMWRITE - A portion of the image is locked for writing</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_ILMWRITE - A portion of the image is locked for writing</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_ILMWRITE - A portion of the image is locked for writing</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $GDIP_ILMUSERINPUTBUF - The buffer is allocated by the user</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_ILMUSERINPUTBUF - The buffer is allocated by the user</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_ILMUSERINPUTBUF - The buffer is allocated by the user</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the format of the pixel data in the temporary buffer. Can be one of the following:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the format of the pixel data in the temporary buffer.</mrk> <mrk mid="2" mtype="seg">Can be one of the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the format of the pixel data in the temporary buffer.</mrk> <mrk mid="2" mtype="seg">Can be one of the following:</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $GDIP_PXF01INDEXED - 1 bpp, indexed</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_PXF01INDEXED - 1 bpp, indexed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_PXF01INDEXED - 1 bpp, indexed</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $GDIP_PXF04INDEXED - 4 bpp, indexed</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_PXF04INDEXED - 4 bpp, indexed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_PXF04INDEXED - 4 bpp, indexed</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $GDIP_PXF08INDEXED - 8 bpp, indexed</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_PXF08INDEXED - 8 bpp, indexed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_PXF08INDEXED - 8 bpp, indexed</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $GDIP_PXF16GRAYSCALE - 16 bpp, grayscale</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_PXF16GRAYSCALE - 16 bpp, grayscale</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_PXF16GRAYSCALE - 16 bpp, grayscale</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $GDIP_PXF16RGB555 - 16 bpp; 5 bits for each RGB</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_PXF16RGB555 - 16 bpp; 5 bits for each RGB</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_PXF16RGB555 - 16 bpp; 5 bits for each RGB</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $GDIP_PXF16RGB565 - 16 bpp; 5 bits red, 6 bits green, and 5 bits blue</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_PXF16RGB565 - 16 bpp; 5 bits red, 6 bits green, and 5 bits blue</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_PXF16RGB565 - 16 bpp; 5 bits red, 6 bits green, and 5 bits blue</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $GDIP_PXF16ARGB1555 - 16 bpp; 1 bit for alpha and 5 bits for each RGB component</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_PXF16ARGB1555 - 16 bpp; 1 bit for alpha and 5 bits for each RGB component</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_PXF16ARGB1555 - 16 bpp; 1 bit for alpha and 5 bits for each RGB component</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     $GDIP_PXF24RGB - 24 bpp; 8 bits for each RGB</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_PXF24RGB - 24 bpp; 8 bits for each RGB</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_PXF24RGB - 24 bpp; 8 bits for each RGB</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     $GDIP_PXF32RGB - 32 bpp; 8 bits for each RGB. No alpha.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_PXF32RGB - 32 bpp; 8 bits for each RGB.</mrk> <mrk mid="1" mtype="seg">No alpha.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_PXF32RGB - 32 bpp; 8 bits for each RGB.</mrk> <mrk mid="1" mtype="seg">No alpha.</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     $GDIP_PXF32ARGB - 32 bpp; 8 bits for each RGB and alpha</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_PXF32ARGB - 32 bpp; 8 bits for each RGB and alpha</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_PXF32ARGB - 32 bpp; 8 bits for each RGB and alpha</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">     $GDIP_PXF32PARGB - 32 bpp; 8 bits for each RGB and alpha, pre-multiplied</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_PXF32PARGB - 32 bpp; 8 bits for each RGB and alpha, pre-multiplied</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_PXF32PARGB - 32 bpp; 8 bits for each RGB and alpha, pre-multiplied</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">a $tagGDIPBITMAPDATA structure.</source>
+<seg-source><mrk mid="0" mtype="seg">a $tagGDIPBITMAPDATA structure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a $tagGDIPBITMAPDATA structure.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">When you are done with the locked portion, call <bpt id="1" ctype="x-a">&lt;a href="_GDIPlus_BitmapUnlockBits.htm"></bpt>_GDIPlus_BitmapUnlockBits()<ept id="1">&lt;/a></ept> to release the locked region.</source>
+<seg-source><mrk mid="0" mtype="seg">When you are done with the locked portion, call <bpt id="1" ctype="x-a">&lt;a href="_GDIPlus_BitmapUnlockBits.htm"></bpt>_GDIPlus_BitmapUnlockBits()<ept id="1">&lt;/a></ept> to release the locked region.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you are done with the locked portion, call <bpt id="1" ctype="x-a">&lt;a href="_GDIPlus_BitmapUnlockBits.htm"></bpt>_GDIPlus_BitmapUnlockBits()<ept id="1">&lt;/a></ept> to release the locked region.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipBitmapLockBits"></bpt>GdipBitmapLockBits<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipBitmapLockBits"></bpt>GdipBitmapLockBits<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipBitmapLockBits"></bpt>GdipBitmapLockBits<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">X64 running support</source>
+<seg-source><mrk mid="0" mtype="seg">X64 running support</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X64 running support</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">\Wow6432Node</source>
+<seg-source><mrk mid="0" mtype="seg">\Wow6432Node</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Wow6432Node</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">get AutoIt install dir</source>
+<seg-source><mrk mid="0" mtype="seg">get AutoIt install dir</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">get AutoIt install dir</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">HKLM\SOFTWARE</source>
+<seg-source><mrk mid="0" mtype="seg">HKLM\SOFTWARE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HKLM\SOFTWARE</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">\AutoIt v3\AutoIt</source>
+<seg-source><mrk mid="0" mtype="seg">\AutoIt v3\AutoIt</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\AutoIt v3\AutoIt</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">InstallDir</source>
+<seg-source><mrk mid="0" mtype="seg">InstallDir</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">InstallDir</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">\Examples\GUI\logo4.gif</source>
+<seg-source><mrk mid="0" mtype="seg">\Examples\GUI\logo4.gif</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Examples\GUI\logo4.gif</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">not found!</source>
+<seg-source><mrk mid="0" mtype="seg">not found!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">not found!</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">create an image object based on a file</source>
+<seg-source><mrk mid="0" mtype="seg">create an image object based on a file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">create an image object based on a file</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">An error has occured - unable to load image!</source>
+<seg-source><mrk mid="0" mtype="seg">An error has occured - unable to load image!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An error has occured - unable to load image!</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">get width and height of the image</source>
+<seg-source><mrk mid="0" mtype="seg">get width and height of the image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">get width and height of the image</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">locks a portion of a bitmap for reading and writing. More infor at http://msdn.microsoft.com/en-us/library/windows/desktop/ms536298(v=vs.85).aspx</source>
+<seg-source><mrk mid="0" mtype="seg">locks a portion of a bitmap for reading and writing.</mrk> <mrk mid="1" mtype="seg">More infor at http://msdn.microsoft.com/en-us/library/windows/desktop/ms536298(v=vs.85).aspx</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">locks a portion of a bitmap for reading and writing.</mrk> <mrk mid="1" mtype="seg">More infor at http://msdn.microsoft.com/en-us/library/windows/desktop/ms536298(v=vs.85).aspx</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Scan0</source>
+<seg-source><mrk mid="0" mtype="seg">Scan0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scan0</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">get scan0 (pixel data) from locked bitmap</source>
+<seg-source><mrk mid="0" mtype="seg">get scan0 (pixel data) from locked bitmap</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">get scan0 (pixel data) from locked bitmap</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">color format 0xAARRGGBB</source>
+<seg-source><mrk mid="0" mtype="seg">color format 0xAARRGGBB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">color format 0xAARRGGBB</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">int[</source>
+<seg-source><mrk mid="0" mtype="seg">int[</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int[</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">];</source>
+<seg-source><mrk mid="0" mtype="seg">];</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">];</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">get each pixel in each line and row</source>
+<seg-source><mrk mid="0" mtype="seg">get each pixel in each line and row</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">get each pixel in each line and row</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">get pixel color</source>
+<seg-source><mrk mid="0" mtype="seg">get pixel color</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">get pixel color</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">compare and replace pixel color (blue with transparent color)</source>
+<seg-source><mrk mid="0" mtype="seg">compare and replace pixel color (blue with transparent color)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">compare and replace pixel color (blue with transparent color)</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">unlocks a portion of a bitmap that was locked by _GDIPlus_BitmapLockBits</source>
+<seg-source><mrk mid="0" mtype="seg">unlocks a portion of a bitmap that was locked by _GDIPlus_BitmapLockBits</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">unlocks a portion of a bitmap that was locked by _GDIPlus_BitmapLockBits</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">to save manipulated image just use _GDIPlus_ImageSaveToFile()</source>
+<seg-source><mrk mid="0" mtype="seg">to save manipulated image just use _GDIPlus_ImageSaveToFile()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">to save manipulated image just use _GDIPlus_ImageSaveToFile()</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">display original image just to compare with manipulated one</source>
+<seg-source><mrk mid="0" mtype="seg">display original image just to compare with manipulated one</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">display original image just to compare with manipulated one</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">display manipulated image</source>
+<seg-source><mrk mid="0" mtype="seg">display manipulated image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">display manipulated image</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">_GDIPlus_BitmapLockBits Demo</source>
+<seg-source><mrk mid="0" mtype="seg">_GDIPlus_BitmapLockBits Demo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_GDIPlus_BitmapLockBits Demo</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">create a Graphics object from a window handle</source>
+<seg-source><mrk mid="0" mtype="seg">create a Graphics object from a window handle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">create a Graphics object from a window handle</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">copy manipulated image to graphics handle</source>
+<seg-source><mrk mid="0" mtype="seg">copy manipulated image to graphics handle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">copy manipulated image to graphics handle</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">cleanup resources</source>
+<seg-source><mrk mid="0" mtype="seg">cleanup resources</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">cleanup resources</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

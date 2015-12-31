@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUICtrlListBox_Create.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Create a Listbox control</source>
+<seg-source><mrk mid="0" mtype="seg">Create a Listbox control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a Listbox control</mrk></target>
+<note>Function _GUICtrlListBox_Create</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to parent or owner window</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to parent or owner window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to parent or owner window</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">String to add to the combobox</source>
+<seg-source><mrk mid="0" mtype="seg">String to add to the combobox</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String to add to the combobox</mrk></target>
+<note>$sText</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Horizontal position of the control</source>
+<seg-source><mrk mid="0" mtype="seg">Horizontal position of the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Horizontal position of the control</mrk></target>
+<note>$iX</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Vertical position of the control</source>
+<seg-source><mrk mid="0" mtype="seg">Vertical position of the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Vertical position of the control</mrk></target>
+<note>$iY</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Control width</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control width</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control width</mrk></target>
+<note>$iWidth</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Control height</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control height</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control height</mrk></target>
+<note>$iHeight</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Control style:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control style:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control style:</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $LBS_COMBOBOX - Notifies a list box that it is part of a combo box</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LBS_COMBOBOX - Notifies a list box that it is part of a combo box</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LBS_COMBOBOX - Notifies a list box that it is part of a combo box</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $LBS_DISABLENOSCROLL - Shows a disabled vertical scroll bar</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LBS_DISABLENOSCROLL - Shows a disabled vertical scroll bar</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LBS_DISABLENOSCROLL - Shows a disabled vertical scroll bar</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $LBS_EXTENDEDSEL - Allows multiple items to be selected</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LBS_EXTENDEDSEL - Allows multiple items to be selected</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LBS_EXTENDEDSEL - Allows multiple items to be selected</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $LBS_HASSTRINGS - Specifies that a list box contains items consisting of strings</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LBS_HASSTRINGS - Specifies that a list box contains items consisting of strings</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LBS_HASSTRINGS - Specifies that a list box contains items consisting of strings</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $LBS_MULTICOLUMN - Specifies a multi columnn list box that will be scrolled horizontally</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LBS_MULTICOLUMN - Specifies a multi columnn list box that will be scrolled horizontally</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LBS_MULTICOLUMN - Specifies a multi columnn list box that will be scrolled horizontally</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $LBS_MULTIPLESEL - Turns string selection on or off each time the user clicks a string</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LBS_MULTIPLESEL - Turns string selection on or off each time the user clicks a string</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LBS_MULTIPLESEL - Turns string selection on or off each time the user clicks a string</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $LBS_NODATA - Specifies a no-data list box</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LBS_NODATA - Specifies a no-data list box</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LBS_NODATA - Specifies a no-data list box</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $LBS_NOINTEGRALHEIGHT - Specifies that the size is exactly the size set by the application</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LBS_NOINTEGRALHEIGHT - Specifies that the size is exactly the size set by the application</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LBS_NOINTEGRALHEIGHT - Specifies that the size is exactly the size set by the application</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $LBS_NOREDRAW - Specifies that the list box's appearance is not updated when changes are made</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LBS_NOREDRAW - Specifies that the list box's appearance is not updated when changes are made</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LBS_NOREDRAW - Specifies that the list box's appearance is not updated when changes are made</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $LBS_NOSEL - Specifies that the list box contains items that can be viewed but not selected</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LBS_NOSEL - Specifies that the list box contains items that can be viewed but not selected</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LBS_NOSEL - Specifies that the list box contains items that can be viewed but not selected</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     $LBS_NOTIFY - Notifies whenever the user clicks or double clicks a string</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LBS_NOTIFY - Notifies whenever the user clicks or double clicks a string</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LBS_NOTIFY - Notifies whenever the user clicks or double clicks a string</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     $LBS_OWNERDRAWFIXED - Specifies that the list box is owner drawn</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LBS_OWNERDRAWFIXED - Specifies that the list box is owner drawn</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LBS_OWNERDRAWFIXED - Specifies that the list box is owner drawn</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     $LBS_OWNERDRAWVARIABLE - Specifies that the list box is owner drawn with variable height</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LBS_OWNERDRAWVARIABLE - Specifies that the list box is owner drawn with variable height</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LBS_OWNERDRAWVARIABLE - Specifies that the list box is owner drawn with variable height</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">     $LBS_SORT - Sorts strings in the list box alphabetically</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LBS_SORT - Sorts strings in the list box alphabetically</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LBS_SORT - Sorts strings in the list box alphabetically</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">     $LBS_STANDARD - Standard list box style</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LBS_STANDARD - Standard list box style</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LBS_STANDARD - Standard list box style</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">     $LBS_USETABSTOPS - Enables a list box to recognize and expand tab characters</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LBS_USETABSTOPS - Enables a list box to recognize and expand tab characters</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LBS_USETABSTOPS - Enables a list box to recognize and expand tab characters</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">     $LBS_WANTKEYBOARDINPUT - Specifies that the owner receives WM_VKEYTOITEM messages</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LBS_WANTKEYBOARDINPUT - Specifies that the owner receives WM_VKEYTOITEM messages</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LBS_WANTKEYBOARDINPUT - Specifies that the owner receives WM_VKEYTOITEM messages</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> Default: $LBS_SORT, $WS_HSCROLL, $WS_VSCROLL, $WS_BORDER</source>
+<seg-source> <mrk mid="0" mtype="seg">Default:</mrk> <mrk mid="1" mtype="seg">$LBS_SORT, $WS_HSCROLL, $WS_VSCROLL, $WS_BORDER</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Default:</mrk> <mrk mid="1" mtype="seg">$LBS_SORT, $WS_HSCROLL, $WS_VSCROLL, $WS_BORDER</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> Forced : $WS_CHILD, $WS_TABSTOP, $WS_VISIBLE, $LBS_NOTIFY</source>
+<seg-source> <mrk mid="0" mtype="seg">Forced :</mrk> <mrk mid="1" mtype="seg">$WS_CHILD, $WS_TABSTOP, $WS_VISIBLE, $LBS_NOTIFY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Forced :</mrk> <mrk mid="1" mtype="seg">$WS_CHILD, $WS_TABSTOP, $WS_VISIBLE, $LBS_NOTIFY</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Control extended style. These correspond to the standard $WS_EX_* constants. See <bpt id="1" ctype="x-a">&lt;a href="../appendix/GUIStyles.htm#Extended"></bpt>Extended Style Table<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control extended style.</mrk> <mrk mid="2" mtype="seg">These correspond to the standard $WS_EX_* constants.</mrk> <mrk mid="3" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../appendix/GUIStyles.htm#Extended"></bpt>Extended Style Table<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control extended style.</mrk> <mrk mid="2" mtype="seg">These correspond to the standard $WS_EX_* constants.</mrk> <mrk mid="3" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../appendix/GUIStyles.htm#Extended"></bpt>Extended Style Table<ept id="1">&lt;/a></ept>.</mrk></target>
+<note>$iExStyle</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en"> Default: $WS_EX_CLIENTEDGE </source>
+<seg-source> <mrk mid="0" mtype="seg">Default:</mrk> <mrk mid="1" mtype="seg">$WS_EX_CLIENTEDGE</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Default:</mrk> <mrk mid="1" mtype="seg">$WS_EX_CLIENTEDGE</mrk> </target>
+<note>$iExStyle</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">the handle to the Listbox control.</source>
+<seg-source><mrk mid="0" mtype="seg">the handle to the Listbox control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the handle to the Listbox control.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">This function is for Advanced users and for learning how the control works.</source>
+<seg-source><mrk mid="0" mtype="seg">This function is for Advanced users and for learning how the control works.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function is for Advanced users and for learning how the control works.</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">(UDF Created) List Box Create</source>
+<seg-source><mrk mid="0" mtype="seg">(UDF Created) List Box Create</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(UDF Created) List Box Create</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">String upon creation</source>
+<seg-source><mrk mid="0" mtype="seg">String upon creation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String upon creation</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Information</source>
+<seg-source><mrk mid="0" mtype="seg">Information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Information</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Adding Items</source>
+<seg-source><mrk mid="0" mtype="seg">Adding Items</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Adding Items</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">WM_COMMAND</source>
+<seg-source><mrk mid="0" mtype="seg">WM_COMMAND</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_COMMAND</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Add files</source>
+<seg-source><mrk mid="0" mtype="seg">Add files</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add files</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">\win*.exe</source>
+<seg-source><mrk mid="0" mtype="seg">\win*.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\win*.exe</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">\notepad.exe</source>
+<seg-source><mrk mid="0" mtype="seg">\notepad.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\notepad.exe</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Low Word</source>
+<seg-source><mrk mid="0" mtype="seg">Low Word</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Low Word</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Hi Word</source>
+<seg-source><mrk mid="0" mtype="seg">Hi Word</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hi Word</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Sent when the user double-clicks a string in a list box</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when the user double-clicks a string in a list box</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when the user double-clicks a string in a list box</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">$LBN_DBLCLK</source>
+<seg-source><mrk mid="0" mtype="seg">$LBN_DBLCLK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$LBN_DBLCLK</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Sent when a list box cannot allocate enough memory to meet a specific request</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when a list box cannot allocate enough memory to meet a specific request</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when a list box cannot allocate enough memory to meet a specific request</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">$LBN_ERRSPACE</source>
+<seg-source><mrk mid="0" mtype="seg">$LBN_ERRSPACE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$LBN_ERRSPACE</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">Sent when a list box loses the keyboard focus</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when a list box loses the keyboard focus</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when a list box loses the keyboard focus</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">$LBN_KILLFOCUS</source>
+<seg-source><mrk mid="0" mtype="seg">$LBN_KILLFOCUS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$LBN_KILLFOCUS</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">Sent when the user cancels the selection in a list box</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when the user cancels the selection in a list box</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when the user cancels the selection in a list box</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">$LBN_SELCANCEL</source>
+<seg-source><mrk mid="0" mtype="seg">$LBN_SELCANCEL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$LBN_SELCANCEL</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">Sent when the selection in a list box has changed</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when the selection in a list box has changed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when the selection in a list box has changed</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">$LBN_SELCHANGE</source>
+<seg-source><mrk mid="0" mtype="seg">$LBN_SELCHANGE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$LBN_SELCHANGE</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">Sent when a list box receives the keyboard focus</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when a list box receives the keyboard focus</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when a list box receives the keyboard focus</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">$LBN_SETFOCUS</source>
+<seg-source><mrk mid="0" mtype="seg">$LBN_SETFOCUS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$LBN_SETFOCUS</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en">Proceed the default AutoIt3 internal message commands.</source>
+<seg-source><mrk mid="0" mtype="seg">Proceed the default AutoIt3 internal message commands.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Proceed the default AutoIt3 internal message commands.</mrk></target>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">You also can complete let the line out.</source>
+<seg-source><mrk mid="0" mtype="seg">You also can complete let the line out.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You also can complete let the line out.</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">!!! But only 'Return' (without any value) will not proceed</source>
+<seg-source><mrk mid="0" mtype="seg">!!!</mrk> <mrk mid="1" mtype="seg">But only 'Return' (without any value) will not proceed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!!!</mrk> <mrk mid="1" mtype="seg">But only 'Return' (without any value) will not proceed</mrk></target>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en">the default AutoIt3-message in the future !!!</source>
+<seg-source><mrk mid="0" mtype="seg">the default AutoIt3-message in the future !!!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the default AutoIt3-message in the future !!!</mrk></target>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">--></source>
+<seg-source><mrk mid="0" mtype="seg">--></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--></mrk></target>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en">!===========================================================</source>
+<seg-source><mrk mid="0" mtype="seg">!===========================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!===========================================================</mrk></target>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en">+===========================================================</source>
+<seg-source><mrk mid="0" mtype="seg">+===========================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+===========================================================</mrk></target>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en">--></source>
+<seg-source><mrk mid="0" mtype="seg">--></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--></mrk></target>
+</trans-unit>
+<trans-unit id="94">
+<source xml:lang="en">+===========================================================</source>
+<seg-source><mrk mid="0" mtype="seg">+===========================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+===========================================================</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

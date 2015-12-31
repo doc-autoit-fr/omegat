@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/HttpSetProxy.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the internet proxy to use for http access.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the internet proxy to use for http access.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the internet proxy to use for http access.</mrk></target>
+<note>Function HttpSetProxy</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The proxy mode to use:</source>
+<seg-source><mrk mid="0" mtype="seg">The proxy mode to use:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The proxy mode to use:</mrk></target>
+<note>mode</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">     $PROXY_IE (0) = (default) Use current Internet Explorer settings for proxy.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PROXY_IE (0) = (default) Use current Internet Explorer settings for proxy.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PROXY_IE (0) = (default) Use current Internet Explorer settings for proxy.</mrk></target>
+<note>mode</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $PROXY_NONE (1) = Use no proxy (direct access)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PROXY_NONE (1) = Use no proxy (direct access)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PROXY_NONE (1) = Use no proxy (direct access)</mrk></target>
+<note>mode</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $PROXY_SPECIFIED (2) = Use the proxy specified</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PROXY_SPECIFIED (2) = Use the proxy specified</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PROXY_SPECIFIED (2) = Use the proxy specified</mrk></target>
+<note>mode</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> Constants are deined in "AutoItConstants.au3".</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are deined in "AutoItConstants.au3".</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are deined in "AutoItConstants.au3".</mrk></target>
+<note>mode</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The address and port of the proxy to use. See remarks below.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The address and port of the proxy to use.</mrk> <mrk mid="2" mtype="seg">See remarks below.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The address and port of the proxy to use.</mrk> <mrk mid="2" mtype="seg">See remarks below.</mrk></target>
+<note>proxy:port</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If required, the username for the proxy</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If required, the username for the proxy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If required, the username for the proxy</mrk></target>
+<note>username</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If required, the password for the proxy</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If required, the password for the proxy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If required, the password for the proxy</mrk></target>
+<note>password</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">None.</source>
+<seg-source><mrk mid="0" mtype="seg">None.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Internet Explorer 3 or greater must be installed for this function to work.</source>
+<seg-source><mrk mid="0" mtype="seg">Internet Explorer 3 or greater must be installed for this function to work.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Internet Explorer 3 or greater must be installed for this function to work.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> Only CERN proxy servers are supported.</source>
+<seg-source> <mrk mid="0" mtype="seg">Only CERN proxy servers are supported.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Only CERN proxy servers are supported.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> Proxy servers are usually made up of a web address and port number. Most ISPs use the port number of 8080. If your proxy was "www.proxy.com" and port was "8080" then you would use this to set the proxy:</source>
+<seg-source> <mrk mid="0" mtype="seg">Proxy servers are usually made up of a web address and port number.</mrk> <mrk mid="1" mtype="seg">Most ISPs use the port number of 8080.</mrk> <mrk mid="2" mtype="seg">If your proxy was "www.proxy.com" and port was "8080" then you would use this to set the proxy:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Proxy servers are usually made up of a web address and port number.</mrk> <mrk mid="1" mtype="seg">Most ISPs use the port number of 8080.</mrk> <mrk mid="2" mtype="seg">If your proxy was "www.proxy.com" and port was "8080" then you would use this to set the proxy:</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="HttpSetProxy.htm"></bpt>HttpSetProxy<ept id="1">&lt;/a></ept>(2, "www.proxy.com:8080")</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="HttpSetProxy.htm"></bpt>HttpSetProxy<ept id="1">&lt;/a></ept>(2, "www.proxy.com:8080")</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="HttpSetProxy.htm"></bpt>HttpSetProxy<ept id="1">&lt;/a></ept>(2, "www.proxy.com:8080")</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> Most proxy servers do not require a username and password.</source>
+<seg-source> <mrk mid="0" mtype="seg">Most proxy servers do not require a username and password.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Most proxy servers do not require a username and password.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> When using mode 0 you may specify a username and password and these will be used with the Internet Explorer configured proxy.</source>
+<seg-source> <mrk mid="0" mtype="seg">When using mode 0 you may specify a username and password and these will be used with the Internet Explorer configured proxy.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When using mode 0 you may specify a username and password and these will be used with the Internet Explorer configured proxy.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Use no proxy</source>
+<seg-source><mrk mid="0" mtype="seg">Use no proxy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use no proxy</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Use IE defaults for proxy</source>
+<seg-source><mrk mid="0" mtype="seg">Use IE defaults for proxy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use IE defaults for proxy</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Use the proxy "www-cache.myisp.net" on port 8080</source>
+<seg-source><mrk mid="0" mtype="seg">Use the proxy "www-cache.myisp.net" on port 8080</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the proxy "www-cache.myisp.net" on port 8080</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">www-cache.myisp.net:8080</source>
+<seg-source><mrk mid="0" mtype="seg">www-cache.myisp.net:8080</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">www-cache.myisp.net:8080</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

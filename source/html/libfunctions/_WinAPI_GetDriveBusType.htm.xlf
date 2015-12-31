@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_GetDriveBusType.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves a bus type for the specified drive</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves a bus type for the specified drive</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves a bus type for the specified drive</mrk></target>
+<note>Function _WinAPI_GetDriveBusType</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The drive letter to retrieve information, in the format D:, E:, etc.</source>
+<seg-source><mrk mid="0" mtype="seg">The drive letter to retrieve information, in the format D:,</mrk> <mrk mid="1" mtype="seg">E:, etc.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The drive letter to retrieve information, in the format D:,</mrk> <mrk mid="1" mtype="seg">E:, etc.</mrk></target>
+<note>$sDrive</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The bus type constant ($DRIVE_BUS_TYPE_*).</source>
+<seg-source><mrk mid="0" mtype="seg">The bus type constant ($DRIVE_BUS_TYPE_*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The bus type constant ($DRIVE_BUS_TYPE_*).</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">(-1) and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">(-1) and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(-1) and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">$DRIVE_BUS_TYPE_* constants require #include &lt;APIFilesConstants.au3></source>
+<seg-source><mrk mid="0" mtype="seg">$DRIVE_BUS_TYPE_* constants require #include &lt;APIFilesConstants.au3></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$DRIVE_BUS_TYPE_* constants require #include &lt;APIFilesConstants.au3></mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> This function works with the Plug and Play drivers only.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function works with the Plug and Play drivers only.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function works with the Plug and Play drivers only.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(IOCTL_STORAGE_QUERY_PROPERTY);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>IOCTL_STORAGE_QUERY_PROPERTY<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(IOCTL_STORAGE_QUERY_PROPERTY);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>IOCTL_STORAGE_QUERY_PROPERTY<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(IOCTL_STORAGE_QUERY_PROPERTY);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>IOCTL_STORAGE_QUERY_PROPERTY<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">ALL</source>
+<seg-source><mrk mid="0" mtype="seg">ALL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ALL</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">UNKNOWN</source>
+<seg-source><mrk mid="0" mtype="seg">UNKNOWN</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UNKNOWN</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">SCSI</source>
+<seg-source><mrk mid="0" mtype="seg">SCSI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SCSI</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">ATAPI</source>
+<seg-source><mrk mid="0" mtype="seg">ATAPI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ATAPI</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">ATA</source>
+<seg-source><mrk mid="0" mtype="seg">ATA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ATA</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">SSA</source>
+<seg-source><mrk mid="0" mtype="seg">SSA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SSA</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">FIBRE</source>
+<seg-source><mrk mid="0" mtype="seg">FIBRE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FIBRE</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">USB</source>
+<seg-source><mrk mid="0" mtype="seg">USB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">USB</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">RAID</source>
+<seg-source><mrk mid="0" mtype="seg">RAID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RAID</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">ISCSI</source>
+<seg-source><mrk mid="0" mtype="seg">ISCSI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ISCSI</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">SAS</source>
+<seg-source><mrk mid="0" mtype="seg">SAS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SAS</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">SATA</source>
+<seg-source><mrk mid="0" mtype="seg">SATA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SATA</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">SD</source>
+<seg-source><mrk mid="0" mtype="seg">SD</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SD</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">MMC</source>
+<seg-source><mrk mid="0" mtype="seg">MMC</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MMC</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">=></source>
+<seg-source><mrk mid="0" mtype="seg">=></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">=></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

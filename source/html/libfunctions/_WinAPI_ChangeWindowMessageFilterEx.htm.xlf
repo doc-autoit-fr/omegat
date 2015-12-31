@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_ChangeWindowMessageFilterEx.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Modifies the User Interface Privilege Isolation (UIPI) message filter for a specified window</source>
+<seg-source><mrk mid="0" mtype="seg">Modifies the User Interface Privilege Isolation (UIPI) message filter for a specified window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Modifies the User Interface Privilege Isolation (UIPI) message filter for a specified window</mrk></target>
+<note>Function _WinAPI_ChangeWindowMessageFilterEx</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the window whose UIPI message filter is to be modified.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the window whose UIPI message filter is to be modified.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the window whose UIPI message filter is to be modified.</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> If this parameter is 0, the UIPI message filter will be modified in a process-wide manner.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is 0, the UIPI message filter will be modified in a process-wide manner.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is 0, the UIPI message filter will be modified in a process-wide manner.</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> Moreover, under Windows Vista this parameter is not used and should be set to 0.</source>
+<seg-source> <mrk mid="0" mtype="seg">Moreover, under Windows Vista this parameter is not used and should be set to 0.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Moreover, under Windows Vista this parameter is not used and should be set to 0.</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The message that the message filter allows through or blocks.</source>
+<seg-source><mrk mid="0" mtype="seg">The message that the message filter allows through or blocks.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The message that the message filter allows through or blocks.</mrk></target>
+<note>$iMsg</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">The action to be performed. This parameter can be one of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg">The action to be performed.</mrk> <mrk mid="1" mtype="seg">This parameter can be one of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The action to be performed.</mrk> <mrk mid="1" mtype="seg">This parameter can be one of the following values:</mrk></target>
+<note>$iAction</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $MSGFLT_ALLOW</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MSGFLT_ALLOW</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MSGFLT_ALLOW</mrk></target>
+<note>$iAction</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $MSGFLT_DISALLOW</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MSGFLT_DISALLOW</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MSGFLT_DISALLOW</mrk></target>
+<note>$iAction</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows 7 or later<ept id="1">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows 7 or later<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows 7 or later<ept id="1">&lt;/strong></ept></mrk></target>
+<note>$iAction</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $MSGFLT_RESET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MSGFLT_RESET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MSGFLT_RESET</mrk></target>
+<note>$iAction</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">1 and sets the @extended flag to 0 or one of the following values (only under <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows 7 or later<ept id="1">&lt;/strong></ept>).</source>
+<seg-source><mrk mid="0" mtype="seg">1 and sets the @extended flag to 0 or one of the following values (only under <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows 7 or later<ept id="1">&lt;/strong></ept>).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 and sets the @extended flag to 0 or one of the following values (only under <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows 7 or later<ept id="1">&lt;/strong></ept>).</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $MSGFLTINFO_ALLOWED_HIGHER</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MSGFLTINFO_ALLOWED_HIGHER</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MSGFLTINFO_ALLOWED_HIGHER</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $MSGFLTINFO_ALREADYALLOWED_FORWND</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MSGFLTINFO_ALREADYALLOWED_FORWND</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MSGFLTINFO_ALREADYALLOWED_FORWND</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $MSGFLTINFO_ALREADYDISALLOWED_FORWND</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MSGFLTINFO_ALREADYDISALLOWED_FORWND</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MSGFLTINFO_ALREADYDISALLOWED_FORWND</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $MSGFLTINFO_NONE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MSGFLTINFO_NONE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MSGFLTINFO_NONE</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> (See MSDN for more information)</source>
+<seg-source> <mrk mid="0" mtype="seg">(See MSDN for more information)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">(See MSDN for more information)</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> 0 and sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended code information. </source>
+<seg-source> <mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended code information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended code information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">UIPI is a security feature that prevents messages from being received from a lower-integrity-level sender.</source>
+<seg-source><mrk mid="0" mtype="seg">UIPI is a security feature that prevents messages from being received from a lower-integrity-level sender.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UIPI is a security feature that prevents messages from being received from a lower-integrity-level sender.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> You can use this function to allow specific messages to be delivered to a window even if the message originates from a process at a lower integrity level.</source>
+<seg-source> <mrk mid="0" mtype="seg">You can use this function to allow specific messages to be delivered to a window even if the message originates from a process at a lower integrity level.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">You can use this function to allow specific messages to be delivered to a window even if the message originates from a process at a lower integrity level.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> Certain messages whose value is smaller than WM_USER are required to be passed through the filter, regardless of the filter setting. There will be no effect when you attempt to use this function to allow or block such messages.</source>
+<seg-source> <mrk mid="0" mtype="seg">Certain messages whose value is smaller than WM_USER are required to be passed through the filter, regardless of the filter setting.</mrk> <mrk mid="1" mtype="seg">There will be no effect when you attempt to use this function to allow or block such messages.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Certain messages whose value is smaller than WM_USER are required to be passed through the filter, regardless of the filter setting.</mrk> <mrk mid="1" mtype="seg">There will be no effect when you attempt to use this function to allow or block such messages.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ChangeWindowMessageFilterEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ChangeWindowMessageFilterEx<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ChangeWindowMessageFilterEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ChangeWindowMessageFilterEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ChangeWindowMessageFilterEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ChangeWindowMessageFilterEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

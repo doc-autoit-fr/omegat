@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_FreeResource.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Decrements (decreases by one) the reference count of a loaded resource</source>
+<seg-source><mrk mid="0" mtype="seg">Decrements (decreases by one) the reference count of a loaded resource</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Decrements (decreases by one) the reference count of a loaded resource</mrk></target>
+<note>Function _WinAPI_FreeResource</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> Handle of the resource was created by <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_LoadResource.htm"></bpt>_WinAPI_LoadResource()<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">Handle of the resource was created by <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_LoadResource.htm"></bpt>_WinAPI_LoadResource()<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Handle of the resource was created by <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_LoadResource.htm"></bpt>_WinAPI_LoadResource()<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>$hData</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">False</source>
+<seg-source><mrk mid="0" mtype="seg">False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">The reference count for a resource is incremented (increased by one) each time an application calls the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_LoadResource.htm"></bpt>_WinAPI_LoadResource()<ept id="1">&lt;/a></ept> function for the resource.</source>
+<seg-source><mrk mid="0" mtype="seg">The reference count for a resource is incremented (increased by one) each time an application calls the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_LoadResource.htm"></bpt>_WinAPI_LoadResource()<ept id="1">&lt;/a></ept> function for the resource.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The reference count for a resource is incremented (increased by one) each time an application calls the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_LoadResource.htm"></bpt>_WinAPI_LoadResource()<ept id="1">&lt;/a></ept> function for the resource.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> This function is obsolete and is only supported for backward compatibility with 16-bit Microsoft Windows.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function is obsolete and is only supported for backward compatibility with 16-bit Microsoft Windows.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function is obsolete and is only supported for backward compatibility with 16-bit Microsoft Windows.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> For 32-bit Windows applications, it is not necessary to free the resources loaded using function <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_LoadResource.htm"></bpt>_WinAPI_LoadResource()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">For 32-bit Windows applications, it is not necessary to free the resources loaded using function <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_LoadResource.htm"></bpt>_WinAPI_LoadResource()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For 32-bit Windows applications, it is not necessary to free the resources loaded using function <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_LoadResource.htm"></bpt>_WinAPI_LoadResource()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FreeResource);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FreeResource<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FreeResource);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FreeResource<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FreeResource);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FreeResource<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/BitShift.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Performs a bit shifting operation.</source>
+<seg-source><mrk mid="0" mtype="seg">Performs a bit shifting operation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Performs a bit shifting operation.</mrk></target>
+<note>Function BitShift</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The number to be shifted.</source>
+<seg-source><mrk mid="0" mtype="seg">The number to be shifted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The number to be shifted.</mrk></target>
+<note>value</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Number of bits to shift to the right (negative numbers shift left).</source>
+<seg-source><mrk mid="0" mtype="seg">Number of bits to shift to the right (negative numbers shift left).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Number of bits to shift to the right (negative numbers shift left).</mrk></target>
+<note>shift</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Returns the value shifted by the required number of bits.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the value shifted by the required number of bits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the value shifted by the required number of bits.</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> Bit operations are performed as 32-bit integers.</source>
+<seg-source> <mrk mid="0" mtype="seg">Bit operations are performed as 32-bit integers.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Bit operations are performed as 32-bit integers.</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remember hex notation can be used for numbers.</source>
+<seg-source><mrk mid="0" mtype="seg">Remember hex notation can be used for numbers.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remember hex notation can be used for numbers.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> Right shifts are equivalent to halving; left shifts to doubling.</source>
+<seg-source> <mrk mid="0" mtype="seg">Right shifts are equivalent to halving; left shifts to doubling.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Right shifts are equivalent to halving; left shifts to doubling.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Note: "b" is the symbol for byte.</source>
+<seg-source><mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">"b" is the symbol for byte.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">"b" is the symbol for byte.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Assign a Local variable the bitwise left-shift operation of 2.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign a Local variable the bitwise left-shift operation of 2.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign a Local variable the bitwise left-shift operation of 2.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">2 = 0010b left-shifted once -> 4 = 0100b</source>
+<seg-source><mrk mid="0" mtype="seg">2 = 0010b left-shifted once -> 4 = 0100b</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2 = 0010b left-shifted once -> 4 = 0100b</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Note: It is equivalent to do this: BitRotate(2, 1)</source>
+<seg-source><mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">It is equivalent to do this:</mrk> <mrk mid="2" mtype="seg">BitRotate(2, 1)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">It is equivalent to do this:</mrk> <mrk mid="2" mtype="seg">BitRotate(2, 1)</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Display the result.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the result.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the result.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Assign a Local variable the bitwise right-shift operation of 1.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign a Local variable the bitwise right-shift operation of 1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign a Local variable the bitwise right-shift operation of 1.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">1 = 0001b right-shifted once -> 0 = 0000b</source>
+<seg-source><mrk mid="0" mtype="seg">1 = 0001b right-shifted once -> 0 = 0000b</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 = 0001b right-shifted once -> 0 = 0000b</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Display the result.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the result.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the result.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Assign a Local variable the bitwise left-shift operation of 14.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign a Local variable the bitwise left-shift operation of 14.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign a Local variable the bitwise left-shift operation of 14.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">14 = 1110b left-shifted twice -> 56 = 0011 1000b</source>
+<seg-source><mrk mid="0" mtype="seg">14 = 1110b left-shifted twice -> 56 = 0011 1000b</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">14 = 1110b left-shifted twice -> 56 = 0011 1000b</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Display the result.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the result.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the result.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Assign a Local variable the bitwise</source>
+<seg-source><mrk mid="0" mtype="seg">Assign a Local variable the bitwise</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign a Local variable the bitwise</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">1 = 0001b right-shifted 31 times -> -2147483648 (32 bits) = 1000 0000 0000 0000 0000 0000 0000 0000b</source>
+<seg-source><mrk mid="0" mtype="seg">1 = 0001b right-shifted 31 times -> -2147483648 (32 bits) = 1000 0000 0000 0000 0000 0000 0000 0000b</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 = 0001b right-shifted 31 times -> -2147483648 (32 bits) = 1000 0000 0000 0000 0000 0000 0000 0000b</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Note: in 2's-complement notation, the 32nd digit from the right has a negative sign.</source>
+<seg-source><mrk mid="0" mtype="seg">Note: in 2's-complement notation, the 32nd digit from the right has a negative sign.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Note: in 2's-complement notation, the 32nd digit from the right has a negative sign.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Display the result.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the result.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the result.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

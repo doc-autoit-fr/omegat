@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_FlashWindowEx.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Flashes the specified window</source>
+<seg-source><mrk mid="0" mtype="seg">Flashes the specified window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Flashes the specified window</mrk></target>
+<note>Function _WinAPI_FlashWindowEx</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the window to be flashed. The window can be either open or minimized.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the window to be flashed.</mrk> <mrk mid="1" mtype="seg">The window can be either open or minimized.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the window to be flashed.</mrk> <mrk mid="1" mtype="seg">The window can be either open or minimized.</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The flash status. Can be one or more of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The flash status.</mrk> <mrk mid="2" mtype="seg">Can be one or more of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The flash status.</mrk> <mrk mid="2" mtype="seg">Can be one or more of the following values:</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     0 - Stop flashing. The system restores the window to its original state.</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 - Stop flashing.</mrk> <mrk mid="1" mtype="seg">The system restores the window to its original state.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 - Stop flashing.</mrk> <mrk mid="1" mtype="seg">The system restores the window to its original state.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     1 - Flash the window caption</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 - Flash the window caption</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 - Flash the window caption</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     2 - Flash the taskbar button</source>
+<seg-source> <mrk mid="0" mtype="seg">    2 - Flash the taskbar button</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    2 - Flash the taskbar button</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     4 - Flash continuously until stopped</source>
+<seg-source> <mrk mid="0" mtype="seg">    4 - Flash continuously until stopped</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    4 - Flash continuously until stopped</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     8 - Flash continuously until the window comes to the foreground</source>
+<seg-source> <mrk mid="0" mtype="seg">    8 - Flash continuously until the window comes to the foreground</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    8 - Flash continuously until the window comes to the foreground</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The number of times to flash the window</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The number of times to flash the window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The number of times to flash the window</mrk></target>
+<note>$iCount</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The rate at which the window is to be flashed, in milliseconds.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The rate at which the window is to be flashed, in milliseconds.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The rate at which the window is to be flashed, in milliseconds.</mrk></target>
+<note>$iTimeout</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> If 0, the function uses the default cursor blink rate.</source>
+<seg-source> <mrk mid="0" mtype="seg">If 0, the function uses the default cursor blink rate.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If 0, the function uses the default cursor blink rate.</mrk></target>
+<note>$iTimeout</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">False</source>
+<seg-source><mrk mid="0" mtype="seg">False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Typically, you flash a window to inform the user that the window requires attention but does not currently have the keyboard focus.</source>
+<seg-source><mrk mid="0" mtype="seg">Typically, you flash a window to inform the user that the window requires attention but does not currently have the keyboard focus.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Typically, you flash a window to inform the user that the window requires attention but does not currently have the keyboard focus.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> When a window flashes, it appears to change from inactive to active status.</source>
+<seg-source> <mrk mid="0" mtype="seg">When a window flashes, it appears to change from inactive to active status.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When a window flashes, it appears to change from inactive to active status.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> An inactive caption bar changes to an active caption bar; an active caption bar changes to an inactive caption bar.</source>
+<seg-source> <mrk mid="0" mtype="seg">An inactive caption bar changes to an active caption bar; an active caption bar changes to an inactive caption bar.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">An inactive caption bar changes to an active caption bar; an active caption bar changes to an inactive caption bar.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FlashWindowEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FlashWindowEx<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FlashWindowEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FlashWindowEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FlashWindowEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FlashWindowEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Form1</source>
+<seg-source><mrk mid="0" mtype="seg">Form1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Form1</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Please input the flash rate, and the time between flashes</source>
+<seg-source><mrk mid="0" mtype="seg">Please input the flash rate, and the time between flashes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Please input the flash rate, and the time between flashes</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Flash Rate:</source>
+<seg-source><mrk mid="0" mtype="seg">Flash Rate:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Flash Rate:</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Timeout (ms)</source>
+<seg-source><mrk mid="0" mtype="seg">Timeout (ms)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Timeout (ms)</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Flash Window</source>
+<seg-source><mrk mid="0" mtype="seg">Flash Window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Flash Window</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Stop Flashing</source>
+<seg-source><mrk mid="0" mtype="seg">Stop Flashing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Stop Flashing</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

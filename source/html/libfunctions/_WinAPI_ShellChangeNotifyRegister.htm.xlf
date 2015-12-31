@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_ShellChangeNotifyRegister.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Registers a window to receive notifications from the file system or Shell</source>
+<seg-source><mrk mid="0" mtype="seg">Registers a window to receive notifications from the file system or Shell</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Registers a window to receive notifications from the file system or Shell</mrk></target>
+<note>Function _WinAPI_ShellChangeNotifyRegister</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the window that receives the change or notification messages.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the window that receives the change or notification messages.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the window that receives the change or notification messages.</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Message to be posted to the window procedure.</source>
+<seg-source><mrk mid="0" mtype="seg">Message to be posted to the window procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Message to be posted to the window procedure.</mrk></target>
+<note>$iMsg</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Change notification events for which to receive notification. This parameter can be one or more</source>
+<seg-source><mrk mid="0" mtype="seg">Change notification events for which to receive notification.</mrk> <mrk mid="1" mtype="seg">This parameter can be one or more</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Change notification events for which to receive notification.</mrk> <mrk mid="1" mtype="seg">This parameter can be one or more</mrk></target>
+<note>$iEvents</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> of the $SHCNE_* values.</source>
+<seg-source> <mrk mid="0" mtype="seg">of the $SHCNE_* values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">of the $SHCNE_* values.</mrk></target>
+<note>$iEvents</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">One or more of the following values that indicate the type of events for which to receive</source>
+<seg-source><mrk mid="0" mtype="seg">One or more of the following values that indicate the type of events for which to receive</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">One or more of the following values that indicate the type of events for which to receive</mrk></target>
+<note>$iSources</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> notifications.</source>
+<seg-source> <mrk mid="0" mtype="seg">notifications.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">notifications.</mrk></target>
+<note>$iSources</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $SHCNRF_INTERRUPTLEVEL</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNRF_INTERRUPTLEVEL</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNRF_INTERRUPTLEVEL</mrk></target>
+<note>$iSources</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> $SHCNRF_SHELLLEVEL</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNRF_SHELLLEVEL</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNRF_SHELLLEVEL</mrk></target>
+<note>$iSources</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> $SHCNRF_RECURSIVEINTERRUPT</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNRF_RECURSIVEINTERRUPT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNRF_RECURSIVEINTERRUPT</mrk></target>
+<note>$iSources</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> $SHCNRF_NEWDELIVERY</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNRF_NEWDELIVERY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNRF_NEWDELIVERY</mrk></target>
+<note>$iSources</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Single path or array of paths for which to receive notifications. These names should be</source>
+<seg-source><mrk mid="0" mtype="seg">Single path or array of paths for which to receive notifications.</mrk> <mrk mid="1" mtype="seg">These names should be</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Single path or array of paths for which to receive notifications.</mrk> <mrk mid="1" mtype="seg">These names should be</mrk></target>
+<note>$aPaths</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> fully-qualified paths to prevent unexpected results.</source>
+<seg-source> <mrk mid="0" mtype="seg">fully-qualified paths to prevent unexpected results.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">fully-qualified paths to prevent unexpected results.</mrk></target>
+<note>$aPaths</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether to post notifications for children paths in $aPaths parameter, valid values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to post notifications for children paths in $aPaths parameter, valid values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to post notifications for children paths in $aPaths parameter, valid values:</mrk></target>
+<note>$bRecursive</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     True - Notifications would come from the folder's children.</source>
+<seg-source> <mrk mid="0" mtype="seg">    True - Notifications would come from the folder's children.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    True - Notifications would come from the folder's children.</mrk></target>
+<note>$bRecursive</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     False - Notifications would come from the specified folder's only (Default).</source>
+<seg-source> <mrk mid="0" mtype="seg">    False - Notifications would come from the specified folder's only (Default).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    False - Notifications would come from the specified folder's only (Default).</mrk></target>
+<note>$bRecursive</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">The registration ID.</source>
+<seg-source><mrk mid="0" mtype="seg">The registration ID.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The registration ID.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">When a change notification event is raised, the message indicated by $iMsg is delivered to the window</source>
+<seg-source><mrk mid="0" mtype="seg">When a change notification event is raised, the message indicated by $iMsg is delivered to the window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a change notification event is raised, the message indicated by $iMsg is delivered to the window</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> specified by the $hWnd parameter.</source>
+<seg-source> <mrk mid="0" mtype="seg">specified by the $hWnd parameter.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">specified by the $hWnd parameter.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> For performance reasons, multiple notifications can be combined into a single notification. For example,</source>
+<seg-source> <mrk mid="0" mtype="seg">For performance reasons, multiple notifications can be combined into a single notification.</mrk> <mrk mid="1" mtype="seg">For example,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For performance reasons, multiple notifications can be combined into a single notification.</mrk> <mrk mid="1" mtype="seg">For example,</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> if a large number of $SHCNE_UPDATEITEM notifications are generated for files in the same folder, they can be</source>
+<seg-source> <mrk mid="0" mtype="seg">if a large number of $SHCNE_UPDATEITEM notifications are generated for files in the same folder, they can be</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">if a large number of $SHCNE_UPDATEITEM notifications are generated for files in the same folder, they can be</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> joined into a single $SHCNE_UPDATEDIR notification.</source>
+<seg-source> <mrk mid="0" mtype="seg">joined into a single $SHCNE_UPDATEDIR notification.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">joined into a single $SHCNE_UPDATEDIR notification.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHChangeNotifyRegister);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHChangeNotifyRegister<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHChangeNotifyRegister);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHChangeNotifyRegister<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHChangeNotifyRegister);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHChangeNotifyRegister<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">TrayAutoPause</source>
+<seg-source><mrk mid="0" mtype="seg">TrayAutoPause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayAutoPause</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">\~TEST~</source>
+<seg-source><mrk mid="0" mtype="seg">\~TEST~</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\~TEST~</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Unable to create folder.</source>
+<seg-source><mrk mid="0" mtype="seg">Unable to create folder.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unable to create folder.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">OnAutoItExit</source>
+<seg-source><mrk mid="0" mtype="seg">OnAutoItExit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OnAutoItExit</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">SHELLCHANGENOTIFY</source>
+<seg-source><mrk mid="0" mtype="seg">SHELLCHANGENOTIFY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SHELLCHANGENOTIFY</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">WM_SHELLCHANGENOTIFY</source>
+<seg-source><mrk mid="0" mtype="seg">WM_SHELLCHANGENOTIFY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_SHELLCHANGENOTIFY</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Window does not registered.</source>
+<seg-source><mrk mid="0" mtype="seg">Window does not registered.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Window does not registered.</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">dword Item1; dword Item2</source>
+<seg-source><mrk mid="0" mtype="seg">dword Item1; dword Item2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">dword Item1; dword Item2</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Item1</source>
+<seg-source><mrk mid="0" mtype="seg">Item1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item1</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Event: 0x</source>
+<seg-source><mrk mid="0" mtype="seg">Event:</mrk> <mrk mid="1" mtype="seg">0x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Event:</mrk> <mrk mid="1" mtype="seg">0x</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">| Path:</source>
+<seg-source><mrk mid="0" mtype="seg">| Path:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">| Path:</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Event: 0x</source>
+<seg-source><mrk mid="0" mtype="seg">Event:</mrk> <mrk mid="1" mtype="seg">0x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Event:</mrk> <mrk mid="1" mtype="seg">0x</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_EnumFontFamilies.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Enumerates all uniquely-named fonts in the system that match the specified font characteristics</source>
+<seg-source><mrk mid="0" mtype="seg">Enumerates all uniquely-named fonts in the system that match the specified font characteristics</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enumerates all uniquely-named fonts in the system that match the specified font characteristics</mrk></target>
+<note>Function _WinAPI_EnumFontFamilies</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> A handle to the device context from which to enumerate the fonts.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A handle to the device context from which to enumerate the fonts.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A handle to the device context from which to enumerate the fonts.</mrk></target>
+<note>$hDC</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> If this parameter is 0, the function uses a DC for the application's current screen.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is 0, the function uses a DC for the application's current screen.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is 0, the function uses a DC for the application's current screen.</mrk></target>
+<note>$hDC</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The typeface name of the font.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The typeface name of the font.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The typeface name of the font.</mrk></target>
+<note>$sFaceName</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> If this parameter is an empty string (Default), the function enumerates one font is each available typeface name.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is an empty string (Default), the function enumerates one font is each available typeface name.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is an empty string (Default), the function enumerates one font is each available typeface name.</mrk></target>
+<note>$sFaceName</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> If this parameter is a valid typeface name, the function enumerates all fonts with the specified name.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is a valid typeface name, the function enumerates all fonts with the specified name.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is a valid typeface name, the function enumerates all fonts with the specified name.</mrk></target>
+<note>$sFaceName</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The character set. It can be one of the following predefined values.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The character set.</mrk> <mrk mid="2" mtype="seg">It can be one of the following predefined values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The character set.</mrk> <mrk mid="2" mtype="seg">It can be one of the following predefined values.</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> If this parameter is set to $DEFAULT_CHARSET (Default), the function enumerates all uniquely-named fonts in all character sets.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is set to $DEFAULT_CHARSET (Default), the function enumerates all uniquely-named fonts in all character sets.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is set to $DEFAULT_CHARSET (Default), the function enumerates all uniquely-named fonts in all character sets.</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> If there are two fonts with the same name, only one is enumerated.</source>
+<seg-source> <mrk mid="0" mtype="seg">If there are two fonts with the same name, only one is enumerated.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If there are two fonts with the same name, only one is enumerated.</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> If this parameter is set to a valid character set value, the function enumerates only fonts in the specified character set.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is set to a valid character set value, the function enumerates only fonts in the specified character set.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is set to a valid character set value, the function enumerates only fonts in the specified character set.</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $ANSI_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ANSI_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ANSI_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $BALTIC_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BALTIC_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BALTIC_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $CHINESEBIG5_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CHINESEBIG5_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CHINESEBIG5_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $DEFAULT_CHARSET (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DEFAULT_CHARSET (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DEFAULT_CHARSET (Default)</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $EASTEUROPE_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $EASTEUROPE_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $EASTEUROPE_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $GB2312_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GB2312_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GB2312_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $GREEK_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GREEK_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GREEK_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $HANGEUL_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $HANGEUL_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $HANGEUL_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     $MAC_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MAC_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MAC_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     $OEM_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OEM_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OEM_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     $RUSSIAN_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $RUSSIAN_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $RUSSIAN_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">     $SHIFTJIS_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SHIFTJIS_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SHIFTJIS_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">     $SYMBOL_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SYMBOL_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SYMBOL_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">     $TURKISH_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TURKISH_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TURKISH_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">     $VIETNAMESE_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $VIETNAMESE_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $VIETNAMESE_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> Korean language edition of Windows:</source>
+<seg-source> <mrk mid="0" mtype="seg">Korean language edition of Windows:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Korean language edition of Windows:</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">     $JOHAB_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $JOHAB_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $JOHAB_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> Middle East language edition of Windows:</source>
+<seg-source> <mrk mid="0" mtype="seg">Middle East language edition of Windows:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Middle East language edition of Windows:</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">     $ARABIC_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ARABIC_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ARABIC_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">     $HEBREW_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $HEBREW_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $HEBREW_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en"> Thai language edition of Windows:</source>
+<seg-source> <mrk mid="0" mtype="seg">Thai language edition of Windows:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Thai language edition of Windows:</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">     $THAI_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $THAI_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $THAI_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The type of the fonts to enumerating. This parameter can be 0 (vector fonts), (-1) (all fonts), or any combination of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The type of the fonts to enumerating.</mrk> <mrk mid="2" mtype="seg">This parameter can be 0 (vector fonts), (-1) (all fonts), or any combination of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The type of the fonts to enumerating.</mrk> <mrk mid="2" mtype="seg">This parameter can be 0 (vector fonts), (-1) (all fonts), or any combination of the following values.</mrk></target>
+<note>$iFontType</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">     $DEVICE_FONTTYPE (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DEVICE_FONTTYPE (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DEVICE_FONTTYPE (Default)</mrk></target>
+<note>$iFontType</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">     $RASTER_FONTTYPE (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $RASTER_FONTTYPE (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $RASTER_FONTTYPE (Default)</mrk></target>
+<note>$iFontType</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">     $TRUETYPE_FONTTYPE (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TRUETYPE_FONTTYPE (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TRUETYPE_FONTTYPE (Default)</mrk></target>
+<note>$iFontType</note>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The pattern string to include (exclude) the fonts in (from) the enumerating.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The pattern string to include (exclude) the fonts in (from) the enumerating.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The pattern string to include (exclude) the fonts in (from) the enumerating.</mrk></target>
+<note>$sPattern</note>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en"> This makes sense only if the typeface name is not specified. This string can contain wildcard characters.</source>
+<seg-source> <mrk mid="0" mtype="seg">This makes sense only if the typeface name is not specified.</mrk> <mrk mid="1" mtype="seg">This string can contain wildcard characters.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This makes sense only if the typeface name is not specified.</mrk> <mrk mid="1" mtype="seg">This string can contain wildcard characters.</mrk></target>
+<note>$sPattern</note>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en"> The pattern will be ignored if this parameter is omitted or an empty string.</source>
+<seg-source> <mrk mid="0" mtype="seg">The pattern will be ignored if this parameter is omitted or an empty string.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The pattern will be ignored if this parameter is omitted or an empty string.</mrk></target>
+<note>$sPattern</note>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether to use the pattern to exclude the fonts, valid values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to use the pattern to exclude the fonts, valid values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to use the pattern to exclude the fonts, valid values:</mrk></target>
+<note>$bExclude</note>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">     True - Exclude the matching fonts.</source>
+<seg-source> <mrk mid="0" mtype="seg">    True - Exclude the matching fonts.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    True - Exclude the matching fonts.</mrk></target>
+<note>$bExclude</note>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">     False - Include the matching fonts (Default).</source>
+<seg-source> <mrk mid="0" mtype="seg">    False - Include the matching fonts (Default).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    False - Include the matching fonts (Default).</mrk></target>
+<note>$bExclude</note>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">The 2D array containing the following information:</source>
+<seg-source><mrk mid="0" mtype="seg">The 2D array containing the following information:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The 2D array containing the following information:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">     [0][0] - Number of rows in array (n)</source>
+<seg-source> <mrk mid="0" mtype="seg">    [0][0] - Number of rows in array (n)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [0][0] - Number of rows in array (n)</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">     [0][1] - Unused</source>
+<seg-source> <mrk mid="0" mtype="seg">    [0][1] - Unused</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [0][1] - Unused</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">     [n][0] - The typeface name of the font.</source>
+<seg-source> <mrk mid="0" mtype="seg">    [n][0] - The typeface name of the font.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [n][0] - The typeface name of the font.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">     [n][1] - The style of the font.</source>
+<seg-source> <mrk mid="0" mtype="seg">    [n][1] - The style of the font.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [n][1] - The style of the font.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">     [n][2] - The unique name of the font.</source>
+<seg-source> <mrk mid="0" mtype="seg">    [n][2] - The unique name of the font.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [n][2] - The unique name of the font.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">     [n][3] - The script, that is, the character set, of the font.</source>
+<seg-source> <mrk mid="0" mtype="seg">    [n][3] - The script, that is, the character set, of the font.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [n][3] - The script, that is, the character set, of the font.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">     [n][4] - The type of the font ($*_FONTTYPE).</source>
+<seg-source> <mrk mid="0" mtype="seg">    [n][4] - The type of the font ($*_FONTTYPE).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [n][4] - The type of the font ($*_FONTTYPE).</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">     [n][5] - The pitch, technology, and family of the font (same as in the TEXTMETRIC structure).</source>
+<seg-source> <mrk mid="0" mtype="seg">    [n][5] - The pitch, technology, and family of the font (same as in the TEXTMETRIC structure).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [n][5] - The pitch, technology, and family of the font (same as in the TEXTMETRIC structure).</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">     [n][6] - The character set of the font ($*_CHARSET).</source>
+<seg-source> <mrk mid="0" mtype="seg">    [n][6] - The character set of the font ($*_CHARSET).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [n][6] - The character set of the font ($*_CHARSET).</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">     [n][7] - The font flags ($NTM_*).</source>
+<seg-source> <mrk mid="0" mtype="seg">    [n][7] - The font flags ($NTM_*).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [n][7] - The font flags ($NTM_*).</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">The fonts for many East Asian languages have two typeface names: an English name and a localized name.</source>
+<seg-source><mrk mid="0" mtype="seg">The fonts for many East Asian languages have two typeface names: an English name and a localized name.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The fonts for many East Asian languages have two typeface names: an English name and a localized name.</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en"> The function returns the English typeface name if the system locale does not match the language of the font.</source>
+<seg-source> <mrk mid="0" mtype="seg">The function returns the English typeface name if the system locale does not match the language of the font.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The function returns the English typeface name if the system locale does not match the language of the font.</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en"> When the graphics mode on the device context is set to $GM_ADVANCED and the $DEVICE_FONTTYPE flag is specified,</source>
+<seg-source> <mrk mid="0" mtype="seg">When the graphics mode on the device context is set to $GM_ADVANCED and the $DEVICE_FONTTYPE flag is specified,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When the graphics mode on the device context is set to $GM_ADVANCED and the $DEVICE_FONTTYPE flag is specified,</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_EnumFontFamilies.htm"></bpt>_WinAPI_EnumFontFamilies()<ept id="1">&lt;/a></ept> returns a list of Type 1 and OpenType fonts on the system.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_EnumFontFamilies.htm"></bpt>_WinAPI_EnumFontFamilies()<ept id="1">&lt;/a></ept> returns a list of Type 1 and OpenType fonts on the system.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_EnumFontFamilies.htm"></bpt>_WinAPI_EnumFontFamilies()<ept id="1">&lt;/a></ept> returns a list of Type 1 and OpenType fonts on the system.</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en"> When the graphics mode is not set to $GM_ADVANCED, this function returns a list of Type 1, OpenType, and TrueType fonts on the system.</source>
+<seg-source> <mrk mid="0" mtype="seg">When the graphics mode is not set to $GM_ADVANCED, this function returns a list of Type 1, OpenType, and TrueType fonts on the system.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When the graphics mode is not set to $GM_ADVANCED, this function returns a list of Type 1, OpenType, and TrueType fonts on the system.</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EnumFontFamiliesEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EnumFontFamiliesEx<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EnumFontFamiliesEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EnumFontFamiliesEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EnumFontFamiliesEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EnumFontFamiliesEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">Enumerates all uniquely-named fonts excluding "@" fonts, which is designed for vertical text, in the ANSI character set</source>
+<seg-source><mrk mid="0" mtype="seg">Enumerates all uniquely-named fonts excluding "@" fonts, which is designed for vertical text, in the ANSI character set</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enumerates all uniquely-named fonts excluding "@" fonts, which is designed for vertical text, in the ANSI character set</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">@*</source>
+<seg-source><mrk mid="0" mtype="seg">@*</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@*</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">_WinAPI_EnumFontFamilies</source>
+<seg-source><mrk mid="0" mtype="seg">_WinAPI_EnumFontFamilies</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinAPI_EnumFontFamilies</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">Enumerates all styles of "Arial" font in the ANSI character set</source>
+<seg-source><mrk mid="0" mtype="seg">Enumerates all styles of "Arial" font in the ANSI character set</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enumerates all styles of "Arial" font in the ANSI character set</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">Arial</source>
+<seg-source><mrk mid="0" mtype="seg">Arial</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Arial</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">_WinAPI_EnumFontFamilies</source>
+<seg-source><mrk mid="0" mtype="seg">_WinAPI_EnumFontFamilies</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinAPI_EnumFontFamilies</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

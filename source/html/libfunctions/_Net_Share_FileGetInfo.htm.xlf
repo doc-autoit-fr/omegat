@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_Net_Share_FileGetInfo.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves information about a particular opening of a server resource</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves information about a particular opening of a server resource</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves information about a particular opening of a server resource</mrk></target>
+<note>Function _Net_Share_FileGetInfo</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Specifies the DNS or NetBIOS name of the remote server on which the function is to execute.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the DNS or NetBIOS name of the remote server on which the function is to execute.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the DNS or NetBIOS name of the remote server on which the function is to execute.</mrk></target>
+<note>$sServer</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> If this parameter is blank, the local computer is used.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is blank, the local computer is used.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is blank, the local computer is used.</mrk></target>
+<note>$sServer</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">File identifier of the resource for which to return information.</source>
+<seg-source><mrk mid="0" mtype="seg">File identifier of the resource for which to return information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File identifier of the resource for which to return information.</mrk></target>
+<note>$iFileID</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> The value of this parameter must have been returned in a previous enumeration call.</source>
+<seg-source> <mrk mid="0" mtype="seg">The value of this parameter must have been returned in a previous enumeration call.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The value of this parameter must have been returned in a previous enumeration call.</mrk></target>
+<note>$iFileID</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">an array with the following format:</source>
+<seg-source><mrk mid="0" mtype="seg">an array with the following format:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an array with the following format:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     [0] - ID number assigned to the resource when it is opened</source>
+<seg-source> <mrk mid="0" mtype="seg">    [0] - ID number assigned to the resource when it is opened</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [0] - ID number assigned to the resource when it is opened</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     [1] - Access permissions associated with the opening application:</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1] - Access permissions associated with the opening application:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1] - Access permissions associated with the opening application:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">         1 - Permission to read a resource and execute the resource</source>
+<seg-source> <mrk mid="0" mtype="seg">        1 - Permission to read a resource and execute the resource</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        1 - Permission to read a resource and execute the resource</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">         2 - Permission to write to a resource.</source>
+<seg-source> <mrk mid="0" mtype="seg">        2 - Permission to write to a resource.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        2 - Permission to write to a resource.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">         4 - Permission to create a resource</source>
+<seg-source> <mrk mid="0" mtype="seg">        4 - Permission to create a resource</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        4 - Permission to create a resource</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">         8 - Execute permission</source>
+<seg-source> <mrk mid="0" mtype="seg">        8 - Execute permission</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        8 - Execute permission</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">         16 - Delete permission</source>
+<seg-source> <mrk mid="0" mtype="seg">        16 - Delete permission</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        16 - Delete permission</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">         32 - Change attribute permission</source>
+<seg-source> <mrk mid="0" mtype="seg">        32 - Change attribute permission</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        32 - Change attribute permission</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">         64 - Change ACL permission</source>
+<seg-source> <mrk mid="0" mtype="seg">        64 - Change ACL permission</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        64 - Change ACL permission</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     [2] - Contains the number of file locks on the resource</source>
+<seg-source> <mrk mid="0" mtype="seg">    [2] - Contains the number of file locks on the resource</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [2] - Contains the number of file locks on the resource</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     [3] - Specifies the path of the opened resource</source>
+<seg-source> <mrk mid="0" mtype="seg">    [3] - Specifies the path of the opened resource</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [3] - Specifies the path of the opened resource</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     [4] - Specifies which user or which computer opened the resource</source>
+<seg-source> <mrk mid="0" mtype="seg">    [4] - Specifies which user or which computer opened the resource</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [4] - Specifies which user or which computer opened the resource</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Administrator, Server or Print Operator or Power User group membership is required to execute this function.</source>
+<seg-source><mrk mid="0" mtype="seg">Administrator, Server or Print Operator or Power User group membership is required to execute this function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Administrator, Server or Print Operator or Power User group membership is required to execute this function.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(NetFileGetInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>NetFileGetInfo<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(NetFileGetInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>NetFileGetInfo<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(NetFileGetInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>NetFileGetInfo<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">NetShare</source>
+<seg-source><mrk mid="0" mtype="seg">NetShare</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NetShare</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Create memo control</source>
+<seg-source><mrk mid="0" mtype="seg">Create memo control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create memo control</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Get server and share information</source>
+<seg-source><mrk mid="0" mtype="seg">Get server and share information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get server and share information</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">NetWork Demo</source>
+<seg-source><mrk mid="0" mtype="seg">NetWork Demo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NetWork Demo</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Enter Server Name:</source>
+<seg-source><mrk mid="0" mtype="seg">Enter Server Name:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enter Server Name:</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">\\MyServer</source>
+<seg-source><mrk mid="0" mtype="seg">\\MyServer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\\MyServer</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Enumerate open files on the server</source>
+<seg-source><mrk mid="0" mtype="seg">Enumerate open files on the server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enumerate open files on the server</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Error ...................:</source>
+<seg-source><mrk mid="0" mtype="seg">Error ...................:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error ...................:</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Entries read ............:</source>
+<seg-source><mrk mid="0" mtype="seg">Entries read ............:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Entries read ............:</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Get information for each open file (same as $aFile info)</source>
+<seg-source><mrk mid="0" mtype="seg">Get information for each open file (same as $aFile info)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get information for each open file (same as $aFile info)</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Error ...................:</source>
+<seg-source><mrk mid="0" mtype="seg">Error ...................:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error ...................:</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">File permissions ........:</source>
+<seg-source><mrk mid="0" mtype="seg">File permissions ........:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File permissions ........:</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">File locks ..............:</source>
+<seg-source><mrk mid="0" mtype="seg">File locks ..............:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File locks ..............:</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">File path ...............:</source>
+<seg-source><mrk mid="0" mtype="seg">File path ...............:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File path ...............:</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">File user ...............:</source>
+<seg-source><mrk mid="0" mtype="seg">File user ...............:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File user ...............:</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Write message to memo</source>
+<seg-source><mrk mid="0" mtype="seg">Write message to memo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write message to memo</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

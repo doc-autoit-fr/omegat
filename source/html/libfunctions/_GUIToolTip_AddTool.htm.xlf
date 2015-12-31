@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUIToolTip_AddTool.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Registers a tool with the ToolTip control</source>
+<seg-source><mrk mid="0" mtype="seg">Registers a tool with the ToolTip control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Registers a tool with the ToolTip control</mrk></target>
+<note>Function _GUIToolTip_AddTool</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> Handle to the ToolTip control (returned by <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_Create.htm"></bpt>_GUIToolTip_Create.<ept id="1">&lt;/a></ept>) </source>
+<seg-source> <mrk mid="0" mtype="seg">Handle to the ToolTip control (returned by <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_Create.htm"></bpt>_GUIToolTip_Create.<ept id="1">&lt;/a></ept>)</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Handle to the ToolTip control (returned by <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_Create.htm"></bpt>_GUIToolTip_Create.<ept id="1">&lt;/a></ept>)</mrk> </target>
+<note>$hTool</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Handle of the window that contains the tool, or 0</source>
+<seg-source><mrk mid="0" mtype="seg">Handle of the window that contains the tool, or 0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle of the window that contains the tool, or 0</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Text for the ToolTip control. See remark.</source>
+<seg-source><mrk mid="0" mtype="seg">Text for the ToolTip control.</mrk> <mrk mid="1" mtype="seg">See remark.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text for the ToolTip control.</mrk> <mrk mid="1" mtype="seg">See remark.</mrk></target>
+<note>$sText</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Identifier of the tool, or Window handle of the control the tool is to be assigned to</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Identifier of the tool, or Window handle of the control the tool is to be assigned to</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Identifier of the tool, or Window handle of the control the tool is to be assigned to</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> X coordinate of the upper left corner of the rectangle</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">X coordinate of the upper left corner of the rectangle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">X coordinate of the upper left corner of the rectangle</mrk></target>
+<note>$iLeft</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Y coordinate of the upper left corner of the rectangle</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Y coordinate of the upper left corner of the rectangle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Y coordinate of the upper left corner of the rectangle</mrk></target>
+<note>$iTop</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> X coordinate of the lower right corner of the rectangle</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">X coordinate of the lower right corner of the rectangle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">X coordinate of the lower right corner of the rectangle</mrk></target>
+<note>$iRight</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Y coordinate of the lower right corner of the rectangle</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Y coordinate of the lower right corner of the rectangle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Y coordinate of the lower right corner of the rectangle</mrk></target>
+<note>$iBottom</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Flags that control the ToolTip display:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Flags that control the ToolTip display:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Flags that control the ToolTip display:</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> $TTF_IDISHWND - Indicates that $iID is a window or control handle, instead of the ID of the tool</source>
+<seg-source> <mrk mid="0" mtype="seg">$TTF_IDISHWND - Indicates that $iID is a window or control handle, instead of the ID of the tool</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TTF_IDISHWND - Indicates that $iID is a window or control handle, instead of the ID of the tool</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> $TTF_CENTERTIP - Centers the tooltip below the control specified by $iID</source>
+<seg-source> <mrk mid="0" mtype="seg">$TTF_CENTERTIP - Centers the tooltip below the control specified by $iID</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TTF_CENTERTIP - Centers the tooltip below the control specified by $iID</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> $TTF_RTLREADING - Indicates that text will be displayed in the opposite direction of the parent window (see remarks)</source>
+<seg-source> <mrk mid="0" mtype="seg">$TTF_RTLREADING - Indicates that text will be displayed in the opposite direction of the parent window (see remarks)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TTF_RTLREADING - Indicates that text will be displayed in the opposite direction of the parent window (see remarks)</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> $TTF_SUBCLASS - Indicates that the control should subclass the tool's window</source>
+<seg-source> <mrk mid="0" mtype="seg">$TTF_SUBCLASS - Indicates that the control should subclass the tool's window</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TTF_SUBCLASS - Indicates that the control should subclass the tool's window</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> $TTF_TRACK    - Positions the tooltip window next to the tool to which it corresponds</source>
+<seg-source> <mrk mid="0" mtype="seg">$TTF_TRACK    - Positions the tooltip window next to the tool to which it corresponds</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TTF_TRACK    - Positions the tooltip window next to the tool to which it corresponds</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> $TTF_ABSOLUTE - Positions the window at the same coordinates provided by TTM_TRACKPOSITION. (see remarks)</source>
+<seg-source> <mrk mid="0" mtype="seg">$TTF_ABSOLUTE - Positions the window at the same coordinates provided by TTM_TRACKPOSITION.</mrk> <mrk mid="1" mtype="seg">(see remarks)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TTF_ABSOLUTE - Positions the window at the same coordinates provided by TTM_TRACKPOSITION.</mrk> <mrk mid="1" mtype="seg">(see remarks)</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> $TTF_TRANSPARENT- Causes the control to forward mouse messages to the parent window</source>
+<seg-source> <mrk mid="0" mtype="seg">$TTF_TRANSPARENT- Causes the control to forward mouse messages to the parent window</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TTF_TRANSPARENT- Causes the control to forward mouse messages to the parent window</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> $TTF_PARSELINKS - Indicates that links in the control text should be displayed as links</source>
+<seg-source> <mrk mid="0" mtype="seg">$TTF_PARSELINKS - Indicates that links in the control text should be displayed as links</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TTF_PARSELINKS - Indicates that links in the control text should be displayed as links</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> Default = BitOr($TTF_SUBCLASS, $TTF_IDISHWND)</source>
+<seg-source> <mrk mid="0" mtype="seg">Default = BitOr($TTF_SUBCLASS, $TTF_IDISHWND)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Default = BitOr($TTF_SUBCLASS, $TTF_IDISHWND)</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Application-defined value that is associated with the tool</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Application-defined value that is associated with the tool</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Application-defined value that is associated with the tool</mrk></target>
+<note>$iParam</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">False.</source>
+<seg-source><mrk mid="0" mtype="seg">False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">If a notification callback is needed, you have to set $sText = -1 (LPSTR_TEXTCALLBACK).</source>
+<seg-source><mrk mid="0" mtype="seg">If a notification callback is needed, you have to set $sText = -1 (LPSTR_TEXTCALLBACK).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a notification callback is needed, you have to set $sText = -1 (LPSTR_TEXTCALLBACK).</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> If you use the flag $TTF_IDISHWND then the coordinates in $iLeft, $iTop, $iRight and $iBottom are ignored.</source>
+<seg-source> <mrk mid="0" mtype="seg">If you use the flag $TTF_IDISHWND then the coordinates in $iLeft, $iTop, $iRight and $iBottom are ignored.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If you use the flag $TTF_IDISHWND then the coordinates in $iLeft, $iTop, $iRight and $iBottom are ignored.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> If you use the flag $TTF_ABSOLUTE it must be used with the $TTF_TRACK flag.</source>
+<seg-source> <mrk mid="0" mtype="seg">If you use the flag $TTF_ABSOLUTE it must be used with the $TTF_TRACK flag.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If you use the flag $TTF_ABSOLUTE it must be used with the $TTF_TRACK flag.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> Normal windows display text left-to-right (LTR). Windows can be mirrored to display languages such as Hebrew or Arabic that read right-to-left (RTL). Normally, tooltip text is displayed in the same direction as the text in its parent window. If $TTF_RTLREADING is set, tooltip text will read in the opposite direction from the text in the parent window.</source>
+<seg-source> <mrk mid="0" mtype="seg">Normal windows display text left-to-right (LTR).</mrk> <mrk mid="1" mtype="seg">Windows can be mirrored to display languages such as Hebrew or Arabic that read right-to-left (RTL).</mrk> <mrk mid="2" mtype="seg">Normally, tooltip text is displayed in the same direction as the text in its parent window.</mrk> <mrk mid="3" mtype="seg">If $TTF_RTLREADING is set, tooltip text will read in the opposite direction from the text in the parent window.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Normal windows display text left-to-right (LTR).</mrk> <mrk mid="1" mtype="seg">Windows can be mirrored to display languages such as Hebrew or Arabic that read right-to-left (RTL).</mrk> <mrk mid="2" mtype="seg">Normally, tooltip text is displayed in the same direction as the text in its parent window.</mrk> <mrk mid="3" mtype="seg">If $TTF_RTLREADING is set, tooltip text will read in the opposite direction from the text in the parent window.</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">.exe</source>
+<seg-source><mrk mid="0" mtype="seg">.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.exe</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">This is a button</source>
+<seg-source><mrk mid="0" mtype="seg">This is a button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a button</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">create a tooltip control using default settings</source>
+<seg-source><mrk mid="0" mtype="seg">create a tooltip control using default settings</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">create a tooltip control using default settings</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">add a tool to the tooltip control</source>
+<seg-source><mrk mid="0" mtype="seg">add a tool to the tooltip control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">add a tool to the tooltip control</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">This is a ToolTip</source>
+<seg-source><mrk mid="0" mtype="seg">This is a ToolTip</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a ToolTip</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Destroy the tooltip control</source>
+<seg-source><mrk mid="0" mtype="seg">Destroy the tooltip control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Destroy the tooltip control</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">This example demonstrates how to add a tool, it does not assign the tool to any control, just an area of the GUI</source>
+<seg-source><mrk mid="0" mtype="seg">This example demonstrates how to add a tool, it does not assign the tool to any control, just an area of the GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This example demonstrates how to add a tool, it does not assign the tool to any control, just an area of the GUI</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">.exe</source>
+<seg-source><mrk mid="0" mtype="seg">.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.exe</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">create frames to indicate where the tooltip will display when the mouse is in the</source>
+<seg-source><mrk mid="0" mtype="seg">create frames to indicate where the tooltip will display when the mouse is in the</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">create frames to indicate where the tooltip will display when the mouse is in the</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">correct location on the GUI, these frames do not have a tooltip assigned to it</source>
+<seg-source><mrk mid="0" mtype="seg">correct location on the GUI, these frames do not have a tooltip assigned to it</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">correct location on the GUI, these frames do not have a tooltip assigned to it</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">these frames are ONLY for visual representation as to where the tooltip will display,</source>
+<seg-source><mrk mid="0" mtype="seg">these frames are ONLY for visual representation as to where the tooltip will display,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">these frames are ONLY for visual representation as to where the tooltip will display,</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">they are not needed to make the tooltip display.</source>
+<seg-source><mrk mid="0" mtype="seg">they are not needed to make the tooltip display.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">they are not needed to make the tooltip display.</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">this label control must be disabled or the tooltip will not display when the mouse</source>
+<seg-source><mrk mid="0" mtype="seg">this label control must be disabled or the tooltip will not display when the mouse</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">this label control must be disabled or the tooltip will not display when the mouse</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">is over it.</source>
+<seg-source><mrk mid="0" mtype="seg">is over it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">is over it.</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">this label control must be disabled or the tooltip will not display when the mouse</source>
+<seg-source><mrk mid="0" mtype="seg">this label control must be disabled or the tooltip will not display when the mouse</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">this label control must be disabled or the tooltip will not display when the mouse</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">is over it.</source>
+<seg-source><mrk mid="0" mtype="seg">is over it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">is over it.</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">this label control must be disabled or the tooltip will not display when the mouse</source>
+<seg-source><mrk mid="0" mtype="seg">this label control must be disabled or the tooltip will not display when the mouse</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">this label control must be disabled or the tooltip will not display when the mouse</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">is over it.</source>
+<seg-source><mrk mid="0" mtype="seg">is over it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">is over it.</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">this label control must be disabled or the tooltip will not display when the mouse</source>
+<seg-source><mrk mid="0" mtype="seg">this label control must be disabled or the tooltip will not display when the mouse</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">this label control must be disabled or the tooltip will not display when the mouse</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">is over it.</source>
+<seg-source><mrk mid="0" mtype="seg">is over it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">is over it.</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">This is a button</source>
+<seg-source><mrk mid="0" mtype="seg">This is a button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a button</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">create a tooltip control using default settings</source>
+<seg-source><mrk mid="0" mtype="seg">create a tooltip control using default settings</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">create a tooltip control using default settings</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">add 4 tools to the tooltip control, these tools are created using the location on the GUI</source>
+<seg-source><mrk mid="0" mtype="seg">add 4 tools to the tooltip control, these tools are created using the location on the GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">add 4 tools to the tooltip control, these tools are created using the location on the GUI</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">rather than assigning them to a specific control.</source>
+<seg-source><mrk mid="0" mtype="seg">rather than assigning them to a specific control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">rather than assigning them to a specific control.</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">Upper Left corner</source>
+<seg-source><mrk mid="0" mtype="seg">Upper Left corner</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Upper Left corner</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">Upper Right corner</source>
+<seg-source><mrk mid="0" mtype="seg">Upper Right corner</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Upper Right corner</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Lower Left corner</source>
+<seg-source><mrk mid="0" mtype="seg">Lower Left corner</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Lower Left corner</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">Lower Right corner</source>
+<seg-source><mrk mid="0" mtype="seg">Lower Right corner</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Lower Right corner</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">add a tool to the tooltip control that is assigned to the button control</source>
+<seg-source><mrk mid="0" mtype="seg">add a tool to the tooltip control that is assigned to the button control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">add a tool to the tooltip control that is assigned to the button control</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">This tooltip belongs to the button</source>
+<seg-source><mrk mid="0" mtype="seg">This tooltip belongs to the button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This tooltip belongs to the button</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">Destroy the tooltip control</source>
+<seg-source><mrk mid="0" mtype="seg">Destroy the tooltip control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Destroy the tooltip control</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

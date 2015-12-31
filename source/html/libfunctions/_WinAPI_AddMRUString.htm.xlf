@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_AddMRUString.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Adds a string to the top of the most recently used (MRU) list</source>
+<seg-source><mrk mid="0" mtype="seg">Adds a string to the top of the most recently used (MRU) list</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Adds a string to the top of the most recently used (MRU) list</mrk></target>
+<note>Function _WinAPI_AddMRUString</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle of the MRU list.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle of the MRU list.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle of the MRU list.</mrk></target>
+<note>$hMRU</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The string be added.</source>
+<seg-source><mrk mid="0" mtype="seg">The string be added.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The string be added.</mrk></target>
+<note>$sStr</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Non negative value.</source>
+<seg-source><mrk mid="0" mtype="seg">Non negative value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Non negative value.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">(-1).</source>
+<seg-source><mrk mid="0" mtype="seg">(-1).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(-1).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(AddMRUStringW);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>AddMRUStringW<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(AddMRUStringW);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>AddMRUStringW<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(AddMRUStringW);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>AddMRUStringW<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Software\MyProg\MRU</source>
+<seg-source><mrk mid="0" mtype="seg">Software\MyProg\MRU</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Software\MyProg\MRU</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Create MRU list in the registry (only at first start example)</source>
+<seg-source><mrk mid="0" mtype="seg">Create MRU list in the registry (only at first start example)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create MRU list in the registry (only at first start example)</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">HKCU\Software\MyProg\MRU</source>
+<seg-source><mrk mid="0" mtype="seg">HKCU\Software\MyProg\MRU</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HKCU\Software\MyProg\MRU</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">MRUList</source>
+<seg-source><mrk mid="0" mtype="seg">MRUList</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MRUList</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">String</source>
+<seg-source><mrk mid="0" mtype="seg">String</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">|</source>
+<seg-source><mrk mid="0" mtype="seg">|</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">|</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">OK</source>
+<seg-source><mrk mid="0" mtype="seg">OK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OK</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

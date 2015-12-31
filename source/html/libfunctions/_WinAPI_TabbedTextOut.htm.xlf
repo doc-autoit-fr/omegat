@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_TabbedTextOut.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Writes a character string at a specified location and expanding tabs to the specified tab-stop positions</source>
+<seg-source><mrk mid="0" mtype="seg">Writes a character string at a specified location and expanding tabs to the specified tab-stop positions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Writes a character string at a specified location and expanding tabs to the specified tab-stop positions</mrk></target>
+<note>Function _WinAPI_TabbedTextOut</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">A handle to the device context.</source>
+<seg-source><mrk mid="0" mtype="seg">A handle to the device context.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A handle to the device context.</mrk></target>
+<note>$hDC</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The x-coordinate of the starting point of the string, in logical units.</source>
+<seg-source><mrk mid="0" mtype="seg">The x-coordinate of the starting point of the string, in logical units.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The x-coordinate of the starting point of the string, in logical units.</mrk></target>
+<note>$iX</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The y-coordinate of the starting point of the string, in logical units.</source>
+<seg-source><mrk mid="0" mtype="seg">The y-coordinate of the starting point of the string, in logical units.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The y-coordinate of the starting point of the string, in logical units.</mrk></target>
+<note>$iY</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The character string to draw.</source>
+<seg-source><mrk mid="0" mtype="seg">The character string to draw.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The character string to draw.</mrk></target>
+<note>$sText</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The array containing the tab-stop positions, in logical units. The tab stops must be sorted in increasing</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The array containing the tab-stop positions, in logical units.</mrk> <mrk mid="2" mtype="seg">The tab stops must be sorted in increasing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The array containing the tab-stop positions, in logical units.</mrk> <mrk mid="2" mtype="seg">The tab stops must be sorted in increasing</mrk></target>
+<note>$aTab</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> order; the smallest x-value should be the first item in the array. Also, it can be an integer value that is</source>
+<seg-source> <mrk mid="0" mtype="seg">order; the smallest x-value should be the first item in the array.</mrk> <mrk mid="1" mtype="seg">Also, it can be an integer value that is</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">order; the smallest x-value should be the first item in the array.</mrk> <mrk mid="1" mtype="seg">Also, it can be an integer value that is</mrk></target>
+<note>$aTab</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> one tab-stop position. In this case, the tab stops are separated by the distance specified by this value.</source>
+<seg-source> <mrk mid="0" mtype="seg">one tab-stop position.</mrk> <mrk mid="1" mtype="seg">In this case, the tab stops are separated by the distance specified by this value.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">one tab-stop position.</mrk> <mrk mid="1" mtype="seg">In this case, the tab stops are separated by the distance specified by this value.</mrk></target>
+<note>$aTab</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> If this parameter is 0, tabs are expanded to eight times the average character width.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is 0, tabs are expanded to eight times the average character width.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is 0, tabs are expanded to eight times the average character width.</mrk></target>
+<note>$aTab</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The index of array element that contains the first tab-stop position.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array element that contains the first tab-stop position.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array element that contains the first tab-stop position.</mrk></target>
+<note>$iStart</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The index of array element that contains the last tab-stop position.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array element that contains the last tab-stop position.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array element that contains the last tab-stop position.</mrk></target>
+<note>$iEnd</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The x-coordinate of the starting position from which tabs are expanded, in logical units. This allows</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The x-coordinate of the starting position from which tabs are expanded, in logical units.</mrk> <mrk mid="2" mtype="seg">This allows</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The x-coordinate of the starting position from which tabs are expanded, in logical units.</mrk> <mrk mid="2" mtype="seg">This allows</mrk></target>
+<note>$iOrigin</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> an application to call the function several times for a single line. If the application calls the function</source>
+<seg-source> <mrk mid="0" mtype="seg">an application to call the function several times for a single line.</mrk> <mrk mid="1" mtype="seg">If the application calls the function</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">an application to call the function several times for a single line.</mrk> <mrk mid="1" mtype="seg">If the application calls the function</mrk></target>
+<note>$iOrigin</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> more than once with the starting position set to the same value each time, the function expands</source>
+<seg-source> <mrk mid="0" mtype="seg">more than once with the starting position set to the same value each time, the function expands</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">more than once with the starting position set to the same value each time, the function expands</mrk></target>
+<note>$iOrigin</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> all tabs relative to the position specified by this parameter.</source>
+<seg-source> <mrk mid="0" mtype="seg">all tabs relative to the position specified by this parameter.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">all tabs relative to the position specified by this parameter.</mrk></target>
+<note>$iOrigin</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">The string is written in the currently selected font, background color, and text color.</source>
+<seg-source><mrk mid="0" mtype="seg">The string is written in the currently selected font, background color, and text color.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The string is written in the currently selected font, background color, and text color.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> By default, the current position is not used or updated by this function. If an application needs to update the</source>
+<seg-source> <mrk mid="0" mtype="seg">By default, the current position is not used or updated by this function.</mrk> <mrk mid="1" mtype="seg">If an application needs to update the</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">By default, the current position is not used or updated by this function.</mrk> <mrk mid="1" mtype="seg">If an application needs to update the</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> current position when it calls the function, the application can call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetTextAlign.htm"></bpt>_WinAPI_SetTextAlign()<ept id="1">&lt;/a></ept> with the $TA_UPDATECP</source>
+<seg-source> <mrk mid="0" mtype="seg">current position when it calls the function, the application can call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetTextAlign.htm"></bpt>_WinAPI_SetTextAlign()<ept id="1">&lt;/a></ept> with the $TA_UPDATECP</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">current position when it calls the function, the application can call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetTextAlign.htm"></bpt>_WinAPI_SetTextAlign()<ept id="1">&lt;/a></ept> with the $TA_UPDATECP</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> flag set. Then the system ignores the X and Y parameters on subsequent calls to the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_TabbedTextOut.htm"></bpt>_WinAPI_TabbedTextOut()<ept id="1">&lt;/a></ept></source>
+<seg-source> <mrk mid="0" mtype="seg">flag set.</mrk> <mrk mid="1" mtype="seg">Then the system ignores the X and Y parameters on subsequent calls to the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_TabbedTextOut.htm"></bpt>_WinAPI_TabbedTextOut()<ept id="1">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">flag set.</mrk> <mrk mid="1" mtype="seg">Then the system ignores the X and Y parameters on subsequent calls to the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_TabbedTextOut.htm"></bpt>_WinAPI_TabbedTextOut()<ept id="1">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> function, using the current position instead.</source>
+<seg-source> <mrk mid="0" mtype="seg">function, using the current position instead.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">function, using the current position instead.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> Call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetExtended.htm"></bpt>_WinAPI_GetExtended()<ept id="1">&lt;/a></ept> to retrieve a $tagSIZE structure containing the dimensions of the string.</source>
+<seg-source> <mrk mid="0" mtype="seg">Call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetExtended.htm"></bpt>_WinAPI_GetExtended()<ept id="1">&lt;/a></ept> to retrieve a $tagSIZE structure containing the dimensions of the string.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetExtended.htm"></bpt>_WinAPI_GetExtended()<ept id="1">&lt;/a></ept> to retrieve a $tagSIZE structure containing the dimensions of the string.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(TabbedTextOut);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>TabbedTextOut<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(TabbedTextOut);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>TabbedTextOut<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(TabbedTextOut);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>TabbedTextOut<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Create bitmap</source>
+<seg-source><mrk mid="0" mtype="seg">Create bitmap</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create bitmap</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Draw objects</source>
+<seg-source><mrk mid="0" mtype="seg">Draw objects</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draw objects</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Arial Black</source>
+<seg-source><mrk mid="0" mtype="seg">Arial Black</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Arial Black</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Simple Text</source>
+<seg-source><mrk mid="0" mtype="seg">Simple Text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Simple Text</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Tabbed</source>
+<seg-source><mrk mid="0" mtype="seg">Tabbed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Tabbed</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Text</source>
+<seg-source><mrk mid="0" mtype="seg">Text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Out</source>
+<seg-source><mrk mid="0" mtype="seg">Out</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Out</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">; Merge bitmap</source>
+<seg-source><mrk mid="0" mtype="seg">; Merge bitmap</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">; Merge bitmap</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Set bitmap to control</source>
+<seg-source><mrk mid="0" mtype="seg">Set bitmap to control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set bitmap to control</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

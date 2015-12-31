@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_Excel_PictureAdd.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Adds a picture on the specified workbook and worksheet</source>
+<seg-source><mrk mid="0" mtype="seg">Adds a picture on the specified workbook and worksheet</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Adds a picture on the specified workbook and worksheet</mrk></target>
+<note>Function _Excel_PictureAdd</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Excel workbook object</source>
+<seg-source><mrk mid="0" mtype="seg">Excel workbook object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel workbook object</mrk></target>
+<note>$oWorkbook</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Name, index or worksheet object to be written to. If set to keyword Default the active sheet will be used</source>
+<seg-source><mrk mid="0" mtype="seg">Name, index or worksheet object to be written to.</mrk> <mrk mid="1" mtype="seg">If set to keyword Default the active sheet will be used</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Name, index or worksheet object to be written to.</mrk> <mrk mid="1" mtype="seg">If set to keyword Default the active sheet will be used</mrk></target>
+<note>$vWorksheet</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Full path to picture file being added</source>
+<seg-source><mrk mid="0" mtype="seg">Full path to picture file being added</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Full path to picture file being added</mrk></target>
+<note>$sFile</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Either an A1 range, a range object or an integer denoting the left position of the pictures upper left corner</source>
+<seg-source><mrk mid="0" mtype="seg">Either an A1 range, a range object or an integer denoting the left position of the pictures upper left corner</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Either an A1 range, a range object or an integer denoting the left position of the pictures upper left corner</mrk></target>
+<note>$vRangeOrLeft</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If $vRangeOrLeft is an integer then $iTop is the top position of the pictures upper left corner.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If $vRangeOrLeft is an integer then $iTop is the top position of the pictures upper left corner.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If $vRangeOrLeft is an integer then $iTop is the top position of the pictures upper left corner.</mrk></target>
+<note>$iTop</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If specified, sets the width of the picture. If not specified, width will adjust automatically (default = Automatic)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If specified, sets the width of the picture.</mrk> <mrk mid="2" mtype="seg">If not specified, width will adjust automatically (default = Automatic)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If specified, sets the width of the picture.</mrk> <mrk mid="2" mtype="seg">If not specified, width will adjust automatically (default = Automatic)</mrk></target>
+<note>$iWidth</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If specified, sets the height of the picture. If not specified, height will adjust automatically (default = Automatic)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If specified, sets the height of the picture.</mrk> <mrk mid="2" mtype="seg">If not specified, height will adjust automatically (default = Automatic)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If specified, sets the height of the picture.</mrk> <mrk mid="2" mtype="seg">If not specified, height will adjust automatically (default = Automatic)</mrk></target>
+<note>$iHeight</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Only used if $vRangeOrLeft is a multi-cell range (default = True)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Only used if $vRangeOrLeft is a multi-cell range (default = True)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Only used if $vRangeOrLeft is a multi-cell range (default = True)</mrk></target>
+<note>$bKeepRatio</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     True will maintain image aspect ratio while staying within the bounds of $vRangeOrLeft.</source>
+<seg-source> <mrk mid="0" mtype="seg">    True will maintain image aspect ratio while staying within the bounds of $vRangeOrLeft.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    True will maintain image aspect ratio while staying within the bounds of $vRangeOrLeft.</mrk></target>
+<note>$bKeepRatio</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     False will fill the $vRangeOrLeft regardless of original aspect ratio.</source>
+<seg-source> <mrk mid="0" mtype="seg">    False will fill the $vRangeOrLeft regardless of original aspect ratio.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    False will fill the $vRangeOrLeft regardless of original aspect ratio.</mrk></target>
+<note>$bKeepRatio</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">a Shape object that represents the new picture.</source>
+<seg-source><mrk mid="0" mtype="seg">a Shape object that represents the new picture.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a Shape object that represents the new picture.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">0 and sets @error.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets @error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets @error.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">1 - $oWorkbook is not an object or not a workbook object</source>
+<seg-source><mrk mid="0" mtype="seg">1 - $oWorkbook is not an object or not a workbook object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - $oWorkbook is not an object or not a workbook object</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> 2 - $vWorksheet name or index are invalid or $vWorksheet is not a worksheet object. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - $vWorksheet name or index are invalid or $vWorksheet is not a worksheet object.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - $vWorksheet name or index are invalid or $vWorksheet is not a worksheet object.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> 3 - $vRangeOrLeft is invalid. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - $vRangeOrLeft is invalid.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - $vRangeOrLeft is invalid.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> 4 - Error occurred when adding picture. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">4 - Error occurred when adding picture.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 - Error occurred when adding picture.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> 5 - $sFile does not exist</source>
+<seg-source> <mrk mid="0" mtype="seg">5 - $sFile does not exist</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">5 - $sFile does not exist</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">If $vRangeOrLeft is a multi cell range $iWidth and $iHeight will be ignored (to specify width/height not based on range width/height, specify a single cell $vRangeOrLeft).</source>
+<seg-source><mrk mid="0" mtype="seg">If $vRangeOrLeft is a multi cell range $iWidth and $iHeight will be ignored (to specify width/height not based on range width/height, specify a single cell $vRangeOrLeft).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If $vRangeOrLeft is a multi cell range $iWidth and $iHeight will be ignored (to specify width/height not based on range width/height, specify a single cell $vRangeOrLeft).</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> If only one of $iWidth and $iHeight is specified, the other (set to default) will be scaled to maintain the original aspect ratio of the picture.</source>
+<seg-source> <mrk mid="0" mtype="seg">If only one of $iWidth and $iHeight is specified, the other (set to default) will be scaled to maintain the original aspect ratio of the picture.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If only one of $iWidth and $iHeight is specified, the other (set to default) will be scaled to maintain the original aspect ratio of the picture.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> If both $iWidth and $iHeight are specified, the picture will use the specified values regardless of original aspect ratio of the picture.</source>
+<seg-source> <mrk mid="0" mtype="seg">If both $iWidth and $iHeight are specified, the picture will use the specified values regardless of original aspect ratio of the picture.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If both $iWidth and $iHeight are specified, the picture will use the specified values regardless of original aspect ratio of the picture.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> If neither $iWidth nor $iHeight are specified, the picture will be auto sized to the size of the original picture.</source>
+<seg-source> <mrk mid="0" mtype="seg">If neither $iWidth nor $iHeight are specified, the picture will be auto sized to the size of the original picture.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If neither $iWidth nor $iHeight are specified, the picture will be auto sized to the size of the original picture.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> $bKeepRatio will be ignored unless a multi cell range is specified (see Parameters for details).</source>
+<seg-source> <mrk mid="0" mtype="seg">$bKeepRatio will be ignored unless a multi cell range is specified (see Parameters for details).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$bKeepRatio will be ignored unless a multi cell range is specified (see Parameters for details).</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Create application object and open an example workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Excel UDF: _Excel_PictureAdd Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Error creating the Excel application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Create new Workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Create new Workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create new Workbook</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Excel UDF: _Excel_PictureAdd Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Error creating workbook.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating workbook.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating workbook.</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Insert and resize the picture into a range of cells. Aspect ratio retained</source>
+<seg-source><mrk mid="0" mtype="seg">Insert and resize the picture into a range of cells.</mrk> <mrk mid="1" mtype="seg">Aspect ratio retained</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insert and resize the picture into a range of cells.</mrk> <mrk mid="1" mtype="seg">Aspect ratio retained</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">\Extras\_Excel.jpg</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel.jpg</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel.jpg</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">B2:D8</source>
+<seg-source><mrk mid="0" mtype="seg">B2:D8</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">B2:D8</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Excel UDF: _Excel_PictureAdd Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Error inserting picture.</source>
+<seg-source><mrk mid="0" mtype="seg">Error inserting picture.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error inserting picture.</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Excel UDF: _Excel_PictureAdd Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Picture inserted/resized at 'B2:D8', aspect ratio retained.</source>
+<seg-source><mrk mid="0" mtype="seg">Picture inserted/resized at 'B2:D8', aspect ratio retained.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Picture inserted/resized at 'B2:D8', aspect ratio retained.</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Insert the picture without resizing.</source>
+<seg-source><mrk mid="0" mtype="seg">Insert the picture without resizing.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insert the picture without resizing.</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">F8</source>
+<seg-source><mrk mid="0" mtype="seg">F8</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">F8</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">Excel UDF: _Excel_PictureAdd Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Error inserting picture.</source>
+<seg-source><mrk mid="0" mtype="seg">Error inserting picture.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error inserting picture.</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">Excel UDF: _Excel_PictureAdd Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">Picture inserted at 'F8' without resizing.</source>
+<seg-source><mrk mid="0" mtype="seg">Picture inserted at 'F8' without resizing.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Picture inserted at 'F8' without resizing.</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">Insert the picture with a defined size/height.</source>
+<seg-source><mrk mid="0" mtype="seg">Insert the picture with a defined size/height.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insert the picture with a defined size/height.</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">A8</source>
+<seg-source><mrk mid="0" mtype="seg">A8</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A8</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">Excel UDF: _Excel_PictureAdd Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">Error inserting picture.</source>
+<seg-source><mrk mid="0" mtype="seg">Error inserting picture.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error inserting picture.</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">Excel UDF: _Excel_PictureAdd Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">Picture inserted at 'A8' with defined size/height, aspect ratio ignored</source>
+<seg-source><mrk mid="0" mtype="seg">Picture inserted at 'A8' with defined size/height, aspect ratio ignored</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Picture inserted at 'A8' with defined size/height, aspect ratio ignored</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">Insert the picture with a defined size/height.</source>
+<seg-source><mrk mid="0" mtype="seg">Insert the picture with a defined size/height.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insert the picture with a defined size/height.</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">Excel UDF: _Excel_PictureAdd Example 4</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example 4</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">Error inserting picture.</source>
+<seg-source><mrk mid="0" mtype="seg">Error inserting picture.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error inserting picture.</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">Excel UDF: _Excel_PictureAdd Example 4</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example 4</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">Picture inserted at position 250/300' with defined size/height, aspect ratio ignored</source>
+<seg-source><mrk mid="0" mtype="seg">Picture inserted at position 250/300' with defined size/height, aspect ratio ignored</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Picture inserted at position 250/300' with defined size/height, aspect ratio ignored</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">Insert the picture with a defined size/height.</source>
+<seg-source><mrk mid="0" mtype="seg">Insert the picture with a defined size/height.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insert the picture with a defined size/height.</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">F2:H9</source>
+<seg-source><mrk mid="0" mtype="seg">F2:H9</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">F2:H9</mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">Excel UDF: _Excel_PictureAdd Example 5</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example 5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example 5</mrk></target>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">Error inserting picture.</source>
+<seg-source><mrk mid="0" mtype="seg">Error inserting picture.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error inserting picture.</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">Excel UDF: _Excel_PictureAdd Example 5</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example 5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_PictureAdd Example 5</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">Picture inserted/resized at 'F2:H9', aspect ratio ignored.</source>
+<seg-source><mrk mid="0" mtype="seg">Picture inserted/resized at 'F2:H9', aspect ratio ignored.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Picture inserted/resized at 'F2:H9', aspect ratio ignored.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

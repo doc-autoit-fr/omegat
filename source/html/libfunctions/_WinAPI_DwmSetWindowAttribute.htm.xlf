@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_DwmSetWindowAttribute.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the value of the specified attributes for non-client rendering to apply to the window</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the value of the specified attributes for non-client rendering to apply to the window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the value of the specified attributes for non-client rendering to apply to the window</mrk></target>
+<note>Function _WinAPI_DwmSetWindowAttribute</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The window handle to apply the given attribute.</source>
+<seg-source><mrk mid="0" mtype="seg">The window handle to apply the given attribute.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The window handle to apply the given attribute.</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The attribute to apply to the window. This parameter can be one of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg">The attribute to apply to the window.</mrk> <mrk mid="1" mtype="seg">This parameter can be one of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The attribute to apply to the window.</mrk> <mrk mid="1" mtype="seg">This parameter can be one of the following values:</mrk></target>
+<note>$iAttribute</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $DWMWA_NCRENDERING_POLICY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DWMWA_NCRENDERING_POLICY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DWMWA_NCRENDERING_POLICY</mrk></target>
+<note>$iAttribute</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $DWMWA_TRANSITIONS_FORCEDISABLED</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DWMWA_TRANSITIONS_FORCEDISABLED</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DWMWA_TRANSITIONS_FORCEDISABLED</mrk></target>
+<note>$iAttribute</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $DWMWA_ALLOW_NCPAINT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DWMWA_ALLOW_NCPAINT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DWMWA_ALLOW_NCPAINT</mrk></target>
+<note>$iAttribute</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $DWMWA_NONCLIENT_RTL_LAYOUT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DWMWA_NONCLIENT_RTL_LAYOUT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DWMWA_NONCLIENT_RTL_LAYOUT</mrk></target>
+<note>$iAttribute</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $DWMWA_FORCE_ICONIC_REPRESENTATION</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DWMWA_FORCE_ICONIC_REPRESENTATION</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DWMWA_FORCE_ICONIC_REPRESENTATION</mrk></target>
+<note>$iAttribute</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $DWMWA_FLIP3D_POLICY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DWMWA_FLIP3D_POLICY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DWMWA_FLIP3D_POLICY</mrk></target>
+<note>$iAttribute</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows 7 or later<ept id="1">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows 7 or later<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows 7 or later<ept id="1">&lt;/strong></ept></mrk></target>
+<note>$iAttribute</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $DWMWA_HAS_ICONIC_BITMAP</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DWMWA_HAS_ICONIC_BITMAP</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DWMWA_HAS_ICONIC_BITMAP</mrk></target>
+<note>$iAttribute</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $DWMWA_DISALLOW_PEEK</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DWMWA_DISALLOW_PEEK</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DWMWA_DISALLOW_PEEK</mrk></target>
+<note>$iAttribute</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $DWMWA_EXCLUDED_FROM_PEEK</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DWMWA_EXCLUDED_FROM_PEEK</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DWMWA_EXCLUDED_FROM_PEEK</mrk></target>
+<note>$iAttribute</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">The value of the attribute.</source>
+<seg-source><mrk mid="0" mtype="seg">The value of the attribute.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The value of the attribute.</mrk></target>
+<note>$iData</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DwmSetWindowAttribute);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DwmSetWindowAttribute<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DwmSetWindowAttribute);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DwmSetWindowAttribute<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DwmSetWindowAttribute);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DwmSetWindowAttribute<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

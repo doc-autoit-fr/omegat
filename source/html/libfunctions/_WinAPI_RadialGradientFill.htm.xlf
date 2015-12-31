@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_RadialGradientFill.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Fills radial gradient</source>
+<seg-source><mrk mid="0" mtype="seg">Fills radial gradient</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Fills radial gradient</mrk></target>
+<note>Function _WinAPI_RadialGradientFill</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the device context.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the device context.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the device context.</mrk></target>
+<note>$hDC</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The x-coordinate of the central point, in logical units.</source>
+<seg-source><mrk mid="0" mtype="seg">The x-coordinate of the central point, in logical units.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The x-coordinate of the central point, in logical units.</mrk></target>
+<note>$iX</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The y-coordinate of the central point, in logical units.</source>
+<seg-source><mrk mid="0" mtype="seg">The y-coordinate of the central point, in logical units.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The y-coordinate of the central point, in logical units.</mrk></target>
+<note>$iY</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The circle radius to filling the gradient.</source>
+<seg-source><mrk mid="0" mtype="seg">The circle radius to filling the gradient.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The circle radius to filling the gradient.</mrk></target>
+<note>$iRadius</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">The color information at the central point.</source>
+<seg-source><mrk mid="0" mtype="seg">The color information at the central point.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The color information at the central point.</mrk></target>
+<note>$iRGB1</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">The color information at the edges of circle.</source>
+<seg-source><mrk mid="0" mtype="seg">The color information at the edges of circle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The color information at the edges of circle.</mrk></target>
+<note>$iRGB2</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The angle to start filling at, in degree. Default is 0.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The angle to start filling at, in degree.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The angle to start filling at, in degree.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></target>
+<note>$fAngleStart</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The angle to end filling at, in degree. Default is 360.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The angle to end filling at, in degree.</mrk> <mrk mid="2" mtype="seg">Default is 360.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The angle to end filling at, in degree.</mrk> <mrk mid="2" mtype="seg">Default is 360.</mrk></target>
+<note>$fAngleEnd</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The gradient filling step in degree. The larger value of this parameter, the gradient will be</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The gradient filling step in degree.</mrk> <mrk mid="2" mtype="seg">The larger value of this parameter, the gradient will be</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The gradient filling step in degree.</mrk> <mrk mid="2" mtype="seg">The larger value of this parameter, the gradient will be</mrk></target>
+<note>$fStep</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> better, but it's require more time, and vice versa. Default is 5.</source>
+<seg-source> <mrk mid="0" mtype="seg">better, but it's require more time, and vice versa.</mrk> <mrk mid="1" mtype="seg">Default is 5.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">better, but it's require more time, and vice versa.</mrk> <mrk mid="1" mtype="seg">Default is 5.</mrk></target>
+<note>$fStep</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">This function does not fills gradient with transparency, and does not use antialiasing.</source>
+<seg-source><mrk mid="0" mtype="seg">This function does not fills gradient with transparency, and does not use antialiasing.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function does not fills gradient with transparency, and does not use antialiasing.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Create gradient</source>
+<seg-source><mrk mid="0" mtype="seg">Create gradient</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create gradient</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Set gradient to control</source>
+<seg-source><mrk mid="0" mtype="seg">Set gradient to control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set gradient to control</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

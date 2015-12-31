@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_SetCurrentProcessExplicitAppUserModelID.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Specifies a unique application-defined Application User Model ID that identifies the current process to the taskbar</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies a unique application-defined Application User Model ID that identifies the current process to the taskbar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies a unique application-defined Application User Model ID that identifies the current process to the taskbar</mrk></target>
+<note>Function _WinAPI_SetCurrentProcessExplicitAppUserModelID</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The string that represents an Application User Model ID (AppUserModelID). This identifier allows an</source>
+<seg-source><mrk mid="0" mtype="seg">The string that represents an Application User Model ID (AppUserModelID).</mrk> <mrk mid="1" mtype="seg">This identifier allows an</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The string that represents an Application User Model ID (AppUserModelID).</mrk> <mrk mid="1" mtype="seg">This identifier allows an</mrk></target>
+<note>$sAppID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> application to group its associated processes and windows under a single taskbar button. An application</source>
+<seg-source> <mrk mid="0" mtype="seg">application to group its associated processes and windows under a single taskbar button.</mrk> <mrk mid="1" mtype="seg">An application</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">application to group its associated processes and windows under a single taskbar button.</mrk> <mrk mid="1" mtype="seg">An application</mrk></target>
+<note>$sAppID</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> must provide its AppUserModelID in the following form and can have no more than 128 characters and</source>
+<seg-source> <mrk mid="0" mtype="seg">must provide its AppUserModelID in the following form and can have no more than 128 characters and</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">must provide its AppUserModelID in the following form and can have no more than 128 characters and</mrk></target>
+<note>$sAppID</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> cannot contain spaces.</source>
+<seg-source> <mrk mid="0" mtype="seg">cannot contain spaces.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">cannot contain spaces.</mrk></target>
+<note>$sAppID</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> CompanyName.ProductName.SubProduct.VersionInformation</source>
+<seg-source> <mrk mid="0" mtype="seg">CompanyName.</mrk><mrk mid="1" mtype="seg">ProductName.</mrk><mrk mid="2" mtype="seg">SubProduct.</mrk><mrk mid="3" mtype="seg">VersionInformation</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">CompanyName.</mrk><mrk mid="1" mtype="seg">ProductName.</mrk><mrk mid="2" mtype="seg">SubProduct.</mrk><mrk mid="3" mtype="seg">VersionInformation</mrk></target>
+<note>$sAppID</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> (See MSDN for more information)</source>
+<seg-source> <mrk mid="0" mtype="seg">(See MSDN for more information)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">(See MSDN for more information)</mrk></target>
+<note>$sAppID</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">This method must be called during an application's initial startup routine before the application presents any</source>
+<seg-source><mrk mid="0" mtype="seg">This method must be called during an application's initial startup routine before the application presents any</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This method must be called during an application's initial startup routine before the application presents any</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> UI or makes any manipulation of its Jump Lists.</source>
+<seg-source> <mrk mid="0" mtype="seg">UI or makes any manipulation of its Jump Lists.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">UI or makes any manipulation of its Jump Lists.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows 7 or later<ept id="1">&lt;/strong></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows 7 or later<ept id="1">&lt;/strong></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows 7 or later<ept id="1">&lt;/strong></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetCurrentProcessExplicitAppUserModelID);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetCurrentProcessExplicitAppUserModelID<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetCurrentProcessExplicitAppUserModelID);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetCurrentProcessExplicitAppUserModelID<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetCurrentProcessExplicitAppUserModelID);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetCurrentProcessExplicitAppUserModelID<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">6.1</source>
+<seg-source><mrk mid="0" mtype="seg">6.1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">6.1</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Require Windows 7 or later.</source>
+<seg-source><mrk mid="0" mtype="seg">Require Windows 7 or later.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Require Windows 7 or later.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Yashied.WinAPIEx.UDF</source>
+<seg-source><mrk mid="0" mtype="seg">Yashied.</mrk><mrk mid="1" mtype="seg">WinAPIEx.UDF</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yashied.</mrk><mrk mid="1" mtype="seg">WinAPIEx.UDF</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">.</source>
+<seg-source><mrk mid="0" mtype="seg">.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">.3</source>
+<seg-source><mrk mid="0" mtype="seg">.3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.3</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUIToolTip_AdjustRect.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Calculates the text display rectangle from the window rectangle</source>
+<seg-source><mrk mid="0" mtype="seg">Calculates the text display rectangle from the window rectangle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Calculates the text display rectangle from the window rectangle</mrk></target>
+<note>Function _GUIToolTip_AdjustRect</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> Handle to the ToolTip control (returned by <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_Create.htm"></bpt>_GUIToolTip_Create.<ept id="1">&lt;/a></ept>) </source>
+<seg-source> <mrk mid="0" mtype="seg">Handle to the ToolTip control (returned by <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_Create.htm"></bpt>_GUIToolTip_Create.<ept id="1">&lt;/a></ept>)</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Handle to the ToolTip control (returned by <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_Create.htm"></bpt>_GUIToolTip_Create.<ept id="1">&lt;/a></ept>)</mrk> </target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">$tagRECT structure that holds a window or text display rectangle</source>
+<seg-source><mrk mid="0" mtype="seg">$tagRECT structure that holds a window or text display rectangle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$tagRECT structure that holds a window or text display rectangle</mrk></target>
+<note>$tRECT</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Value that specifies which operation to perform. If True, $tRECT is used to specify a text display rectangle and it receives the corresponding window rectangle. If False, $tRECT is used to specify a window rectangle and it receives the corresponding text display rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Value that specifies which operation to perform.</mrk> <mrk mid="2" mtype="seg">If True, $tRECT is used to specify a text display rectangle and it receives the corresponding window rectangle.</mrk> <mrk mid="3" mtype="seg">If False, $tRECT is used to specify a window rectangle and it receives the corresponding text display rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Value that specifies which operation to perform.</mrk> <mrk mid="2" mtype="seg">If True, $tRECT is used to specify a text display rectangle and it receives the corresponding window rectangle.</mrk> <mrk mid="3" mtype="seg">If False, $tRECT is used to specify a window rectangle and it receives the corresponding text display rectangle.</mrk></target>
+<note>$bLarger</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Returns a $tagRECT structure.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns a $tagRECT structure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns a $tagRECT structure.</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">The ToolTip's window rectangle is somewhat larger than the text display rectangle that bounds the ToolTip string.</source>
+<seg-source><mrk mid="0" mtype="seg">The ToolTip's window rectangle is somewhat larger than the text display rectangle that bounds the ToolTip string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The ToolTip's window rectangle is somewhat larger than the text display rectangle that bounds the ToolTip string.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> The window origin is also offset up and to the left from the origin of the text display rectangle.</source>
+<seg-source> <mrk mid="0" mtype="seg">The window origin is also offset up and to the left from the origin of the text display rectangle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The window origin is also offset up and to the left from the origin of the text display rectangle.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> To position the text display rectangle, you must calculate the corresponding window rectangle and use that rectangle to position the ToolTip.</source>
+<seg-source> <mrk mid="0" mtype="seg">To position the text display rectangle, you must calculate the corresponding window rectangle and use that rectangle to position the ToolTip.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To position the text display rectangle, you must calculate the corresponding window rectangle and use that rectangle to position the ToolTip.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_AdjustRect.htm"></bpt>_GUIToolTip_AdjustRect()<ept id="1">&lt;/a></ept> handles this calculation for you.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_AdjustRect.htm"></bpt>_GUIToolTip_AdjustRect()<ept id="1">&lt;/a></ept> handles this calculation for you.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_AdjustRect.htm"></bpt>_GUIToolTip_AdjustRect()<ept id="1">&lt;/a></ept> handles this calculation for you.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> If you set $bLarger to True, <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_AdjustRect.htm"></bpt>_GUIToolTip_AdjustRect()<ept id="1">&lt;/a></ept> takes the size and position of the desired ToolTip text display rectangle, and passes back the size and position of the ToolTip window needed to display the text in the specified position.</source>
+<seg-source> <mrk mid="0" mtype="seg">If you set $bLarger to True, <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_AdjustRect.htm"></bpt>_GUIToolTip_AdjustRect()<ept id="1">&lt;/a></ept> takes the size and position of the desired ToolTip text display rectangle, and passes back the size and position of the ToolTip window needed to display the text in the specified position.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If you set $bLarger to True, <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_AdjustRect.htm"></bpt>_GUIToolTip_AdjustRect()<ept id="1">&lt;/a></ept> takes the size and position of the desired ToolTip text display rectangle, and passes back the size and position of the ToolTip window needed to display the text in the specified position.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> If you set $bLarger to False you can specify a ToolTip window rectangle and <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_AdjustRect.htm"></bpt>_GUIToolTip_AdjustRect()<ept id="1">&lt;/a></ept> will return the size and position of its text rectangle.</source>
+<seg-source> <mrk mid="0" mtype="seg">If you set $bLarger to False you can specify a ToolTip window rectangle and <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_AdjustRect.htm"></bpt>_GUIToolTip_AdjustRect()<ept id="1">&lt;/a></ept> will return the size and position of its text rectangle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If you set $bLarger to False you can specify a ToolTip window rectangle and <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_AdjustRect.htm"></bpt>_GUIToolTip_AdjustRect()<ept id="1">&lt;/a></ept> will return the size and position of its text rectangle.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

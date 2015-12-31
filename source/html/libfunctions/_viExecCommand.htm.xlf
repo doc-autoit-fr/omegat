@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_viExecCommand.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Send a Command/Query to an Instrument/Device through the VISA interface (GPIB / TCP)</source>
+<seg-source><mrk mid="0" mtype="seg">Send a Command/Query to an Instrument/Device through the VISA interface (GPIB / TCP)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Send a Command/Query to an Instrument/Device through the VISA interface (GPIB / TCP)</mrk></target>
+<note>Function _viExecCommand</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> A VISA descriptor (STRING) OR a VISA session handle (INTEGER)</source>
+<seg-source> <mrk mid="0" mtype="seg">A VISA descriptor (STRING) OR a VISA session handle (INTEGER)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">A VISA descriptor (STRING) OR a VISA session handle (INTEGER)</mrk></target>
+<note>$hSession</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> This it can be a string or an integer (a handle):</source>
+<seg-source> <mrk mid="0" mtype="seg">This it can be a string or an integer (a handle):</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This it can be a string or an integer (a handle):</mrk></target>
+<note>$hSession</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> * STRING -&amp;gr; A VISA DESCRIPTOR is a string which specifies the resource with which to establish a communication session.</source>
+<seg-source> <mrk mid="0" mtype="seg">* STRING -&amp;gr; A VISA DESCRIPTOR is a string which specifies the resource with which to establish a communication session.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">* STRING -&amp;gr; A VISA DESCRIPTOR is a string which specifies the resource with which to establish a communication session.</mrk></target>
+<note>$hSession</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> An example descriptor is "GPIB::20::0".</source>
+<seg-source> <mrk mid="0" mtype="seg">An example descriptor is "GPIB::20::0".</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">An example descriptor is "GPIB::20::0".</mrk></target>
+<note>$hSession</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> This function supports all valid VISA descriptors, including GPIB, TCP, VXI and Serial Interface instruments (ASRL).</source>
+<seg-source> <mrk mid="0" mtype="seg">This function supports all valid VISA descriptors, including GPIB, TCP, VXI and Serial Interface instruments (ASRL).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function supports all valid VISA descriptors, including GPIB, TCP, VXI and Serial Interface instruments (ASRL).</mrk></target>
+<note>$hSession</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> A detailed explanation of VISA descriptors is shown in the Remarks section of this function.</source>
+<seg-source> <mrk mid="0" mtype="seg">A detailed explanation of VISA descriptors is shown in the Remarks section of this function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">A detailed explanation of VISA descriptors is shown in the Remarks section of this function.</mrk></target>
+<note>$hSession</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> As a SHORTCUT you can also use a STRING containing the address number (e.g. "20") of a GPIB instrument instead of typing the full descriptor (in that case, "GPIB::20::0")</source>
+<seg-source> <mrk mid="0" mtype="seg">As a SHORTCUT you can also use a STRING containing the address number (e.g.</mrk> <mrk mid="1" mtype="seg">"20") of a GPIB instrument instead of typing the full descriptor (in that case, "GPIB::20::0")</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">As a SHORTCUT you can also use a STRING containing the address number (e.g.</mrk> <mrk mid="1" mtype="seg">"20") of a GPIB instrument instead of typing the full descriptor (in that case, "GPIB::20::0")</mrk></target>
+<note>$hSession</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> * INTEGER -&amp;gr; A VISA session handle is an integer value returned by <bpt id="1" ctype="x-a">&lt;a href="_viOpen.htm"></bpt>_viOpen()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">* INTEGER -&amp;gr; A VISA session handle is an integer value returned by <bpt id="1" ctype="x-a">&lt;a href="_viOpen.htm"></bpt>_viOpen()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">* INTEGER -&amp;gr; A VISA session handle is an integer value returned by <bpt id="1" ctype="x-a">&lt;a href="_viOpen.htm"></bpt>_viOpen()<ept id="1">&lt;/a></ept>.</mrk></target>
+<note>$hSession</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> It is recommended that instead you use <bpt id="1" ctype="x-a">&lt;a href="_viOpen.htm"></bpt>_viOpen()<ept id="1">&lt;/a></ept> and VISA session handles instead of descriptors if you plan to communicate repeteadly with an Instrument or Device, as otherwise each time that you contact the instrument you would incur the overhead of opening and closing the communication link.</source>
+<seg-source> <mrk mid="0" mtype="seg">It is recommended that instead you use <bpt id="1" ctype="x-a">&lt;a href="_viOpen.htm"></bpt>_viOpen()<ept id="1">&lt;/a></ept> and VISA session handles instead of descriptors if you plan to communicate repeteadly with an Instrument or Device, as otherwise each time that you contact the instrument you would incur the overhead of opening and closing the communication link.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">It is recommended that instead you use <bpt id="1" ctype="x-a">&lt;a href="_viOpen.htm"></bpt>_viOpen()<ept id="1">&lt;/a></ept> and VISA session handles instead of descriptors if you plan to communicate repeteadly with an Instrument or Device, as otherwise each time that you contact the instrument you would incur the overhead of opening and closing the communication link.</mrk></target>
+<note>$hSession</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> Once you are done using the instrument you must remember to close the link with <bpt id="1" ctype="x-a">&lt;a href="_viClose.htm"></bpt>_viClose()<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">Once you are done using the instrument you must remember to close the link with <bpt id="1" ctype="x-a">&lt;a href="_viClose.htm"></bpt>_viClose()<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Once you are done using the instrument you must remember to close the link with <bpt id="1" ctype="x-a">&lt;a href="_viClose.htm"></bpt>_viClose()<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>$hSession</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Command/Query to execute (e.g. "*IDN?" or "SOURCE:POWER -20 dBM")</source>
+<seg-source><mrk mid="0" mtype="seg">Command/Query to execute (e.g.</mrk> <mrk mid="1" mtype="seg">"*IDN?" or "SOURCE:POWER -20 dBM")</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command/Query to execute (e.g.</mrk> <mrk mid="1" mtype="seg">"*IDN?" or "SOURCE:POWER -20 dBM")</mrk></target>
+<note>$sCommand</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> A query MUST contain a QUESTION MARK (?)</source>
+<seg-source> <mrk mid="0" mtype="seg">A query MUST contain a QUESTION MARK (?)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">A query MUST contain a QUESTION MARK (?)</mrk></target>
+<note>$sCommand</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> When the command is a QUERY the function will automatically wait for the instrument's answer (or until the operation times out)</source>
+<seg-source> <mrk mid="0" mtype="seg">When the command is a QUERY the function will automatically wait for the instrument's answer (or until the operation times out)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When the command is a QUERY the function will automatically wait for the instrument's answer (or until the operation times out)</mrk></target>
+<note>$sCommand</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The operation timeout in MILISECONDS.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The operation timeout in MILISECONDS.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The operation timeout in MILISECONDS.</mrk></target>
+<note>$iTimeoutMS</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> This is mostly important for QUERIES only.</source>
+<seg-source> <mrk mid="0" mtype="seg">This is mostly important for QUERIES only.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This is mostly important for QUERIES only.</mrk></target>
+<note>$iTimeoutMS</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> If it is not specified the last set timeout will be used. If it was never set before the default timeout (which depends on the VISA implementation) will be used.</source>
+<seg-source> <mrk mid="0" mtype="seg">If it is not specified the last set timeout will be used.</mrk> <mrk mid="1" mtype="seg">If it was never set before the default timeout (which depends on the VISA implementation) will be used.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If it is not specified the last set timeout will be used.</mrk> <mrk mid="1" mtype="seg">If it was never set before the default timeout (which depends on the VISA implementation) will be used.</mrk></target>
+<note>$iTimeoutMS</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> Timeouts can also be set separatelly with the <bpt id="1" ctype="x-a">&lt;a href="_viSetTimeout.htm"></bpt>_viSetTimeout()<ept id="1">&lt;/a></ept> function.</source>
+<seg-source> <mrk mid="0" mtype="seg">Timeouts can also be set separatelly with the <bpt id="1" ctype="x-a">&lt;a href="_viSetTimeout.htm"></bpt>_viSetTimeout()<ept id="1">&lt;/a></ept> function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Timeouts can also be set separatelly with the <bpt id="1" ctype="x-a">&lt;a href="_viSetTimeout.htm"></bpt>_viSetTimeout()<ept id="1">&lt;/a></ept> function.</mrk></target>
+<note>$iTimeoutMS</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> Depending on the bus type (GPIB, TCP, etc) the timeout might not be set to the exact value that you request. Instead the closest valid timeout bigger than the one that you requested will be used. </source>
+<seg-source> <mrk mid="0" mtype="seg">Depending on the bus type (GPIB, TCP, etc) the timeout might not be set to the exact value that you request.</mrk> <mrk mid="1" mtype="seg">Instead the closest valid timeout bigger than the one that you requested will be used.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Depending on the bus type (GPIB, TCP, etc) the timeout might not be set to the exact value that you request.</mrk> <mrk mid="1" mtype="seg">Instead the closest valid timeout bigger than the one that you requested will be used.</mrk> </target>
+<note>$iTimeoutMS</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Control the mode in which the VISA viPrintf is called when $sCommand is not a query.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control the mode in which the VISA viPrintf is called when $sCommand is not a query.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control the mode in which the VISA viPrintf is called when $sCommand is not a query.</mrk></target>
+<note>$sMode</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> Default is @LF, which means "attach @LF mode".</source>
+<seg-source> <mrk mid="0" mtype="seg">Default is @LF, which means "attach @LF mode".</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Default is @LF, which means "attach @LF mode".</mrk></target>
+<note>$sMode</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> Some instruments and in particular many GPIB cards do not honor the terminator character attribute in those cases an @LF terminator needs to be added.</source>
+<seg-source> <mrk mid="0" mtype="seg">Some instruments and in particular many GPIB cards do not honor the terminator character attribute in those cases an @LF terminator needs to be added.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Some instruments and in particular many GPIB cards do not honor the terminator character attribute in those cases an @LF terminator needs to be added.</mrk></target>
+<note>$sMode</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> As this is the most common case, by default the mode is set to @LF, which appends @LF to the SCPI command you can also set this mode to @CR and @CRLF if your card uses those terminators.</source>
+<seg-source> <mrk mid="0" mtype="seg">As this is the most common case, by default the mode is set to @LF, which appends @LF to the SCPI command you can also set this mode to @CR and @CRLF if your card uses those terminators.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">As this is the most common case, by default the mode is set to @LF, which appends @LF to the SCPI command you can also set this mode to @CR and @CRLF if your card uses those terminators.</mrk></target>
+<note>$sMode</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> If you do not want to use a terminator, set this parameter to an empty string ("")</source>
+<seg-source> <mrk mid="0" mtype="seg">If you do not want to use a terminator, set this parameter to an empty string ("")</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If you do not want to use a terminator, set this parameter to an empty string ("")</mrk></target>
+<note>$sMode</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> Also, some cards support the execution of a "sprintf" on the SCPI string prior to sending it through the VISA interface.</source>
+<seg-source> <mrk mid="0" mtype="seg">Also, some cards support the execution of a "sprintf" on the SCPI string prior to sending it through the VISA interface.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Also, some cards support the execution of a "sprintf" on the SCPI string prior to sending it through the VISA interface.</mrk></target>
+<note>$sMode</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> For those who do, it is possible, by setting this parameter to "str" to "protect" the VISa interface from accidentally applying an escape sequence when a "/" is found within the VISA command string.</source>
+<seg-source> <mrk mid="0" mtype="seg">For those who do, it is possible, by setting this parameter to "str" to "protect" the VISa interface from accidentally applying an escape sequence when a "/" is found within the VISA command string.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For those who do, it is possible, by setting this parameter to "str" to "protect" the VISa interface from accidentally applying an escape sequence when a "/" is found within the VISA command string.</mrk></target>
+<note>$sMode</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> This is normally NOT necessary and should only be set if your GPIB card or instrument require it.</source>
+<seg-source> <mrk mid="0" mtype="seg">This is normally NOT necessary and should only be set if your GPIB card or instrument require it.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This is normally NOT necessary and should only be set if your GPIB card or instrument require it.</mrk></target>
+<note>$sMode</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Returns a value which depends on whether the command is a QUERY or not and in whether the operation was successful or not.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns a value which depends on whether the command is a QUERY or not and in whether the operation was successful or not.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns a value which depends on whether the command is a QUERY or not and in whether the operation was successful or not.</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en"> * Command, NON QUERY:</source>
+<seg-source> <mrk mid="0" mtype="seg">* Command, NON QUERY:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">* Command, NON QUERY:</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">-1 if the VISA DLL could not be open</source>
+<seg-source><mrk mid="0" mtype="seg">-1 if the VISA DLL could not be open</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1 if the VISA DLL could not be open</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"> or a NON ZERO value representing the VISA error code (see the VISA programmer's guide)</source>
+<seg-source> <mrk mid="0" mtype="seg">or a NON ZERO value representing the VISA error code (see the VISA programmer's guide)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">or a NON ZERO value representing the VISA error code (see the VISA programmer's guide)</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">the answer of the instrument to the QUERY</source>
+<seg-source><mrk mid="0" mtype="seg">the answer of the instrument to the QUERY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the answer of the instrument to the QUERY</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">-1 if the VISA DLL could not be open</source>
+<seg-source><mrk mid="0" mtype="seg">-1 if the VISA DLL could not be open</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1 if the VISA DLL could not be open</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en"> -3 if the VISA DLL returned an unexpected number of results</source>
+<seg-source> <mrk mid="0" mtype="seg">-3 if the VISA DLL returned an unexpected number of results</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">-3 if the VISA DLL returned an unexpected number of results</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en"> or a NON ZERO value representing the VISA error code (see the VISA programmer's guide)</source>
+<seg-source> <mrk mid="0" mtype="seg">or a NON ZERO value representing the VISA error code (see the VISA programmer's guide)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">or a NON ZERO value representing the VISA error code (see the VISA programmer's guide)</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">* The VISA queries only return the 1st line of the device answer.</source>
+<seg-source><mrk mid="0" mtype="seg">* The VISA queries only return the 1st line of the device answer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">* The VISA queries only return the 1st line of the device answer.</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en"> This is not a problem in most cases, as most devices will always answer with a single line.</source>
+<seg-source> <mrk mid="0" mtype="seg">This is not a problem in most cases, as most devices will always answer with a single line.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This is not a problem in most cases, as most devices will always answer with a single line.</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en"> * The following is a description of the MOST COMMON VISA DESCRIPTORS</source>
+<seg-source> <mrk mid="0" mtype="seg">* The following is a description of the MOST COMMON VISA DESCRIPTORS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">* The following is a description of the MOST COMMON VISA DESCRIPTORS</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en"> Note that there are some more types. For more info please refer to a VISA programmer's guide (available at www.ni.com).</source>
+<seg-source> <mrk mid="0" mtype="seg">Note that there are some more types.</mrk> <mrk mid="1" mtype="seg">For more info please refer to a VISA programmer's guide (available at www.ni.com).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Note that there are some more types.</mrk> <mrk mid="1" mtype="seg">For more info please refer to a VISA programmer's guide (available at www.ni.com).</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en"> Optional segments are shown in square brackets ([]).</source>
+<seg-source> <mrk mid="0" mtype="seg">Optional segments are shown in square brackets ([]).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Optional segments are shown in square brackets ([]).</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en"> Required segments that must be filled in are denoted by angle brackets (&lt;&amp;gr;).</source>
+<seg-source> <mrk mid="0" mtype="seg">Required segments that must be filled in are denoted by angle brackets (&lt;&amp;gr;).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Required segments that must be filled in are denoted by angle brackets (&lt;&amp;gr;).</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en"> Interface    Syntax</source>
+<seg-source> <mrk mid="0" mtype="seg">Interface    Syntax</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Interface    Syntax</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en"> ------------------------------------------------------------</source>
+<seg-source> <mrk mid="0" mtype="seg">------------------------------------------------------------</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">------------------------------------------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en"> GPIB INSTR    GPIB[board]::primary address</source>
+<seg-source> <mrk mid="0" mtype="seg">GPIB INSTR    GPIB[board]::primary address</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">GPIB INSTR    GPIB[board]::primary address</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">     [::secondary address] [::INSTR]</source>
+<seg-source> <mrk mid="0" mtype="seg">    [::secondary address] [::INSTR]</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [::secondary address] [::INSTR]</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en"> GPIB INTFC    GPIB[board]::INTFC</source>
+<seg-source> <mrk mid="0" mtype="seg">GPIB INTFC    GPIB[board]::INTFC</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">GPIB INTFC    GPIB[board]::INTFC</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en"> TCPIP SOCKET    TCPIP[board]::host address::port::SOCKET</source>
+<seg-source> <mrk mid="0" mtype="seg">TCPIP SOCKET    TCPIP[board]::host address::port::SOCKET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">TCPIP SOCKET    TCPIP[board]::host address::port::SOCKET</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en"> Serial INSTR    ASRL[board][::INSTR]</source>
+<seg-source> <mrk mid="0" mtype="seg">Serial INSTR    ASRL[board][::INSTR]</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Serial INSTR    ASRL[board][::INSTR]</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en"> PXI INSTR    PXI[board]::device[::function][::INSTR]</source>
+<seg-source> <mrk mid="0" mtype="seg">PXI INSTR    PXI[board]::device[::function][::INSTR]</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">PXI INSTR    PXI[board]::device[::function][::INSTR]</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en"> VXI INSTR    VXI[board]::VXI logical address[::INSTR]</source>
+<seg-source> <mrk mid="0" mtype="seg">VXI INSTR    VXI[board]::VXI logical address[::INSTR]</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">VXI INSTR    VXI[board]::VXI logical address[::INSTR]</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en"> GPIB-VXI INSTR    GPIB-VXI[board]::VXI logical address[::INSTR]</source>
+<seg-source> <mrk mid="0" mtype="seg">GPIB-VXI INSTR    GPIB-VXI[board]::VXI logical address[::INSTR]</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">GPIB-VXI INSTR    GPIB-VXI[board]::VXI logical address[::INSTR]</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en"> TCPIP INSTR    TCPIP[board]::host address[::LAN device name]</source>
+<seg-source> <mrk mid="0" mtype="seg">TCPIP INSTR    TCPIP[board]::host address[::LAN device name]</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">TCPIP INSTR    TCPIP[board]::host address[::LAN device name]</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">     [::INSTR]</source>
+<seg-source> <mrk mid="0" mtype="seg">    [::INSTR]</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [::INSTR]</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en"> The GPIB keyword is used for GPIB instruments.</source>
+<seg-source> <mrk mid="0" mtype="seg">The GPIB keyword is used for GPIB instruments.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The GPIB keyword is used for GPIB instruments.</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en"> The TCPIP keyword is used for TCP/IP communication.</source>
+<seg-source> <mrk mid="0" mtype="seg">The TCPIP keyword is used for TCP/IP communication.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The TCPIP keyword is used for TCP/IP communication.</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en"> The ASRL keyword is used for serial instruments.</source>
+<seg-source> <mrk mid="0" mtype="seg">The ASRL keyword is used for serial instruments.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The ASRL keyword is used for serial instruments.</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en"> The PXI keyword is used for PXI instruments.</source>
+<seg-source> <mrk mid="0" mtype="seg">The PXI keyword is used for PXI instruments.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The PXI keyword is used for PXI instruments.</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en"> The VXI keyword is used for VXI instruments via either embedded or MXIbus controllers.</source>
+<seg-source> <mrk mid="0" mtype="seg">The VXI keyword is used for VXI instruments via either embedded or MXIbus controllers.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The VXI keyword is used for VXI instruments via either embedded or MXIbus controllers.</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en"> The GPIB-VXI keyword is used for VXI instruments via a GPIB-VXI controller.</source>
+<seg-source> <mrk mid="0" mtype="seg">The GPIB-VXI keyword is used for VXI instruments via a GPIB-VXI controller.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The GPIB-VXI keyword is used for VXI instruments via a GPIB-VXI controller.</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en"> The default values for optional parameters are shown below.</source>
+<seg-source> <mrk mid="0" mtype="seg">The default values for optional parameters are shown below.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The default values for optional parameters are shown below.</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en"> Optional Segment    Default Value</source>
+<seg-source> <mrk mid="0" mtype="seg">Optional Segment    Default Value</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Optional Segment    Default Value</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en"> ---------------------------------------</source>
+<seg-source> <mrk mid="0" mtype="seg">---------------------------------------</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">---------------------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en"> board    0</source>
+<seg-source> <mrk mid="0" mtype="seg">board    0</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">board    0</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en"> secondary address    none</source>
+<seg-source> <mrk mid="0" mtype="seg">secondary address    none</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">secondary address    none</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en"> LAN device name    inst0</source>
+<seg-source> <mrk mid="0" mtype="seg">LAN device name    inst0</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">LAN device name    inst0</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en"> Example Resource Strings:</source>
+<seg-source> <mrk mid="0" mtype="seg">Example Resource Strings:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Example Resource Strings:</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en"> --------------------------------------------------------------</source>
+<seg-source> <mrk mid="0" mtype="seg">--------------------------------------------------------------</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">--------------------------------------------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en"> GPIB::1::0::INSTR    A GPIB device at primary address 1 and</source>
+<seg-source> <mrk mid="0" mtype="seg">GPIB::1::0::INSTR    A GPIB device at primary address 1 and</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">GPIB::1::0::INSTR    A GPIB device at primary address 1 and</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">     secondary address 0 in GPIB interface 0.</source>
+<seg-source> <mrk mid="0" mtype="seg">    secondary address 0 in GPIB interface 0.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    secondary address 0 in GPIB interface 0.</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en"> GPIB2::INTFC    Interface or raw resource for GPIB</source>
+<seg-source> <mrk mid="0" mtype="seg">GPIB2::INTFC    Interface or raw resource for GPIB</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">GPIB2::INTFC    Interface or raw resource for GPIB</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">     interface 2.</source>
+<seg-source> <mrk mid="0" mtype="seg">    interface 2.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    interface 2.</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en"> TCPIP0::1.2.3.4::999::SOCKET    Raw TCP/IP access to port 999</source>
+<seg-source> <mrk mid="0" mtype="seg">TCPIP0::1.2.3.4::999::SOCKET    Raw TCP/IP access to port 999</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">TCPIP0::1.2.3.4::999::SOCKET    Raw TCP/IP access to port 999</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">     at the specified IP address.</source>
+<seg-source> <mrk mid="0" mtype="seg">    at the specified IP address.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    at the specified IP address.</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en"> ASRL1::INSTR    A serial device attached to interface</source>
+<seg-source> <mrk mid="0" mtype="seg">ASRL1::INSTR    A serial device attached to interface</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">ASRL1::INSTR    A serial device attached to interface</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">     ASRL1.    VXI::MEMACC Board-level register</source>
+<seg-source> <mrk mid="0" mtype="seg">    ASRL1.</mrk><mrk mid="1" mtype="seg"> </mrk><mrk mid="2" mtype="seg">   VXI::MEMACC Board-level register</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    ASRL1.</mrk><mrk mid="1" mtype="seg"> </mrk><mrk mid="2" mtype="seg">   VXI::MEMACC Board-level register</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">     access to the VXI interface.</source>
+<seg-source> <mrk mid="0" mtype="seg">    access to the VXI interface.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    access to the VXI interface.</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en"> PXI::15::INSTR    PXI device number 15 on bus 0.</source>
+<seg-source> <mrk mid="0" mtype="seg">PXI::15::INSTR    PXI device number 15 on bus 0.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">PXI::15::INSTR    PXI device number 15 on bus 0.</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en"> VXI0::1::INSTR    A VXI device at logical address 1 in VXI</source>
+<seg-source> <mrk mid="0" mtype="seg">VXI0::1::INSTR    A VXI device at logical address 1 in VXI</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">VXI0::1::INSTR    A VXI device at logical address 1 in VXI</mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">     interface VXI0.</source>
+<seg-source> <mrk mid="0" mtype="seg">    interface VXI0.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    interface VXI0.</mrk></target>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en"> GPIB-VXI::9::INSTR    A VXI device at logical address 9 in a</source>
+<seg-source> <mrk mid="0" mtype="seg">GPIB-VXI::9::INSTR    A VXI device at logical address 9 in a</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">GPIB-VXI::9::INSTR    A VXI device at logical address 9 in a</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">     GPIB-VXI controlled system.</source>
+<seg-source> <mrk mid="0" mtype="seg">    GPIB-VXI controlled system.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    GPIB-VXI controlled system.</mrk></target>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">- This assumes that you have instrument set to GPIB address 3</source>
+<seg-source><mrk mid="0" mtype="seg">- This assumes that you have instrument set to GPIB address 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">- This assumes that you have instrument set to GPIB address 3</mrk></target>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en">If you have an instrument in a different address change "GPIB::3::0" to the</source>
+<seg-source><mrk mid="0" mtype="seg">If you have an instrument in a different address change "GPIB::3::0" to the</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you have an instrument in a different address change "GPIB::3::0" to the</mrk></target>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">corresponding descriptor. Do the same for the call to _viOpen</source>
+<seg-source><mrk mid="0" mtype="seg">corresponding descriptor.</mrk> <mrk mid="1" mtype="seg">Do the same for the call to _viOpen</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">corresponding descriptor.</mrk> <mrk mid="1" mtype="seg">Do the same for the call to _viOpen</mrk></target>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en">It shows how to use the _viExecCommand function in stand alone mode and combined</source>
+<seg-source><mrk mid="0" mtype="seg">It shows how to use the _viExecCommand function in stand alone mode and combined</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It shows how to use the _viExecCommand function in stand alone mode and combined</mrk></target>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en">with _viOpen and _viClose.</source>
+<seg-source><mrk mid="0" mtype="seg">with _viOpen and _viClose.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">with _viOpen and _viClose.</mrk></target>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en">It also shows the _viGTL function</source>
+<seg-source><mrk mid="0" mtype="seg">It also shows the _viGTL function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It also shows the _viGTL function</mrk></target>
+</trans-unit>
+<trans-unit id="94">
+<source xml:lang="en">Query the ID of the instrument in GPIB address 3</source>
+<seg-source><mrk mid="0" mtype="seg">Query the ID of the instrument in GPIB address 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Query the ID of the instrument in GPIB address 3</mrk></target>
+</trans-unit>
+<trans-unit id="95">
+<source xml:lang="en">Step 1</source>
+<seg-source><mrk mid="0" mtype="seg">Step 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Step 1</mrk></target>
+</trans-unit>
+<trans-unit id="96">
+<source xml:lang="en">Simple GPIB query using a VISA Descriptor</source>
+<seg-source><mrk mid="0" mtype="seg">Simple GPIB query using a VISA Descriptor</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Simple GPIB query using a VISA Descriptor</mrk></target>
+</trans-unit>
+<trans-unit id="97">
+<source xml:lang="en">GPIB::3::0</source>
+<seg-source><mrk mid="0" mtype="seg">GPIB::3::0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GPIB::3::0</mrk></target>
+</trans-unit>
+<trans-unit id="98">
+<source xml:lang="en">*IDN?</source>
+<seg-source><mrk mid="0" mtype="seg">*IDN?</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*IDN?</mrk></target>
+</trans-unit>
+<trans-unit id="99">
+<source xml:lang="en">10 secs timeout</source>
+<seg-source><mrk mid="0" mtype="seg">10 secs timeout</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10 secs timeout</mrk></target>
+</trans-unit>
+<trans-unit id="100">
+<source xml:lang="en">GPIB QUERY result</source>
+<seg-source><mrk mid="0" mtype="seg">GPIB QUERY result</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GPIB QUERY result</mrk></target>
+</trans-unit>
+<trans-unit id="101">
+<source xml:lang="en">Show the answer</source>
+<seg-source><mrk mid="0" mtype="seg">Show the answer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show the answer</mrk></target>
+</trans-unit>
+<trans-unit id="102">
+<source xml:lang="en">Step 2</source>
+<seg-source><mrk mid="0" mtype="seg">Step 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Step 2</mrk></target>
+</trans-unit>
+<trans-unit id="103">
+<source xml:lang="en">Go to LOCAL using VISA Descriptor</source>
+<seg-source><mrk mid="0" mtype="seg">Go to LOCAL using VISA Descriptor</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Go to LOCAL using VISA Descriptor</mrk></target>
+</trans-unit>
+<trans-unit id="104">
+<source xml:lang="en">GPIB::1::0</source>
+<seg-source><mrk mid="0" mtype="seg">GPIB::1::0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GPIB::1::0</mrk></target>
+</trans-unit>
+<trans-unit id="105">
+<source xml:lang="en">Go to local (exit remote control mode)</source>
+<seg-source><mrk mid="0" mtype="seg">Go to local (exit remote control mode)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Go to local (exit remote control mode)</mrk></target>
+</trans-unit>
+<trans-unit id="106">
+<source xml:lang="en">Step 3</source>
+<seg-source><mrk mid="0" mtype="seg">Step 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Step 3</mrk></target>
+</trans-unit>
+<trans-unit id="107">
+<source xml:lang="en">Simple GPIB query using a VISA address shortcut</source>
+<seg-source><mrk mid="0" mtype="seg">Simple GPIB query using a VISA address shortcut</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Simple GPIB query using a VISA address shortcut</mrk></target>
+</trans-unit>
+<trans-unit id="108">
+<source xml:lang="en">*IDN?</source>
+<seg-source><mrk mid="0" mtype="seg">*IDN?</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*IDN?</mrk></target>
+</trans-unit>
+<trans-unit id="109">
+<source xml:lang="en">The address MUST BE A STRING</source>
+<seg-source><mrk mid="0" mtype="seg">The address MUST BE A STRING</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The address MUST BE A STRING</mrk></target>
+</trans-unit>
+<trans-unit id="110">
+<source xml:lang="en">GPIB QUERY result</source>
+<seg-source><mrk mid="0" mtype="seg">GPIB QUERY result</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GPIB QUERY result</mrk></target>
+</trans-unit>
+<trans-unit id="111">
+<source xml:lang="en">Show the answer</source>
+<seg-source><mrk mid="0" mtype="seg">Show the answer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show the answer</mrk></target>
+</trans-unit>
+<trans-unit id="112">
+<source xml:lang="en">Info</source>
+<seg-source><mrk mid="0" mtype="seg">Info</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Info</mrk></target>
+</trans-unit>
+<trans-unit id="113">
+<source xml:lang="en">Now let's use _viOpen and _viClose</source>
+<seg-source><mrk mid="0" mtype="seg">Now let's use _viOpen and _viClose</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Now let's use _viOpen and _viClose</mrk></target>
+</trans-unit>
+<trans-unit id="114">
+<source xml:lang="en">Step 4</source>
+<seg-source><mrk mid="0" mtype="seg">Step 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Step 4</mrk></target>
+</trans-unit>
+<trans-unit id="115">
+<source xml:lang="en">Open the instrument connection with _viOpen</source>
+<seg-source><mrk mid="0" mtype="seg">Open the instrument connection with _viOpen</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open the instrument connection with _viOpen</mrk></target>
+</trans-unit>
+<trans-unit id="116">
+<source xml:lang="en">Instrument Handle obtained</source>
+<seg-source><mrk mid="0" mtype="seg">Instrument Handle obtained</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Instrument Handle obtained</mrk></target>
+</trans-unit>
+<trans-unit id="117">
+<source xml:lang="en">$h_Instr =</source>
+<seg-source><mrk mid="0" mtype="seg">$h_Instr =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$h_Instr =</mrk></target>
+</trans-unit>
+<trans-unit id="118">
+<source xml:lang="en">Show the Session Handle</source>
+<seg-source><mrk mid="0" mtype="seg">Show the Session Handle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show the Session Handle</mrk></target>
+</trans-unit>
+<trans-unit id="119">
+<source xml:lang="en">Query the instrument</source>
+<seg-source><mrk mid="0" mtype="seg">Query the instrument</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Query the instrument</mrk></target>
+</trans-unit>
+<trans-unit id="120">
+<source xml:lang="en">Step 5</source>
+<seg-source><mrk mid="0" mtype="seg">Step 5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Step 5</mrk></target>
+</trans-unit>
+<trans-unit id="121">
+<source xml:lang="en">Query the instrument using the VISA instrument handle</source>
+<seg-source><mrk mid="0" mtype="seg">Query the instrument using the VISA instrument handle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Query the instrument using the VISA instrument handle</mrk></target>
+</trans-unit>
+<trans-unit id="122">
+<source xml:lang="en">*IDN?</source>
+<seg-source><mrk mid="0" mtype="seg">*IDN?</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*IDN?</mrk></target>
+</trans-unit>
+<trans-unit id="123">
+<source xml:lang="en">$h_Instr is NOT A STRING now!</source>
+<seg-source><mrk mid="0" mtype="seg">$h_Instr is NOT A STRING now!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$h_Instr is NOT A STRING now!</mrk></target>
+</trans-unit>
+<trans-unit id="124">
+<source xml:lang="en">GPIB QUERY result</source>
+<seg-source><mrk mid="0" mtype="seg">GPIB QUERY result</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GPIB QUERY result</mrk></target>
+</trans-unit>
+<trans-unit id="125">
+<source xml:lang="en">Show the answer</source>
+<seg-source><mrk mid="0" mtype="seg">Show the answer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show the answer</mrk></target>
+</trans-unit>
+<trans-unit id="126">
+<source xml:lang="en">Query again. There is no need to OPEN the link again</source>
+<seg-source><mrk mid="0" mtype="seg">Query again.</mrk> <mrk mid="1" mtype="seg">There is no need to OPEN the link again</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Query again.</mrk> <mrk mid="1" mtype="seg">There is no need to OPEN the link again</mrk></target>
+</trans-unit>
+<trans-unit id="127">
+<source xml:lang="en">Step 6</source>
+<seg-source><mrk mid="0" mtype="seg">Step 6</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Step 6</mrk></target>
+</trans-unit>
+<trans-unit id="128">
+<source xml:lang="en">Query again. There is no need to OPEN the link again</source>
+<seg-source><mrk mid="0" mtype="seg">Query again.</mrk> <mrk mid="1" mtype="seg">There is no need to OPEN the link again</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Query again.</mrk> <mrk mid="1" mtype="seg">There is no need to OPEN the link again</mrk></target>
+</trans-unit>
+<trans-unit id="129">
+<source xml:lang="en">*IDN?</source>
+<seg-source><mrk mid="0" mtype="seg">*IDN?</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*IDN?</mrk></target>
+</trans-unit>
+<trans-unit id="130">
+<source xml:lang="en">GPIB QUERY result</source>
+<seg-source><mrk mid="0" mtype="seg">GPIB QUERY result</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GPIB QUERY result</mrk></target>
+</trans-unit>
+<trans-unit id="131">
+<source xml:lang="en">Show the answer</source>
+<seg-source><mrk mid="0" mtype="seg">Show the answer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show the answer</mrk></target>
+</trans-unit>
+<trans-unit id="132">
+<source xml:lang="en">Step 7</source>
+<seg-source><mrk mid="0" mtype="seg">Step 7</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Step 7</mrk></target>
+</trans-unit>
+<trans-unit id="133">
+<source xml:lang="en">Go to LOCAL using VISA instrument handle</source>
+<seg-source><mrk mid="0" mtype="seg">Go to LOCAL using VISA instrument handle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Go to LOCAL using VISA instrument handle</mrk></target>
+</trans-unit>
+<trans-unit id="134">
+<source xml:lang="en">Go to local (this is optional)</source>
+<seg-source><mrk mid="0" mtype="seg">Go to local (this is optional)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Go to local (this is optional)</mrk></target>
+</trans-unit>
+<trans-unit id="135">
+<source xml:lang="en">Step 8</source>
+<seg-source><mrk mid="0" mtype="seg">Step 8</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Step 8</mrk></target>
+</trans-unit>
+<trans-unit id="136">
+<source xml:lang="en">Close the Instrument connection using _viClose</source>
+<seg-source><mrk mid="0" mtype="seg">Close the Instrument connection using _viClose</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the Instrument connection using _viClose</mrk></target>
+</trans-unit>
+<trans-unit id="137">
+<source xml:lang="en">Close the instrument connection</source>
+<seg-source><mrk mid="0" mtype="seg">Close the instrument connection</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the instrument connection</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

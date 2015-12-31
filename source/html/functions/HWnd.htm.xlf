@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/HWnd.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Converts an expression into an HWND handle.</source>
+<seg-source><mrk mid="0" mtype="seg">Converts an expression into an HWND handle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Converts an expression into an HWND handle.</mrk></target>
+<note>Function HWnd</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">An expression to convert into an HWND handle.</source>
+<seg-source><mrk mid="0" mtype="seg">An expression to convert into an HWND handle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An expression to convert into an HWND handle.</mrk></target>
+<note>expression</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">If the value can be converted to an HWND, the HWND representation will be returned.</source>
+<seg-source><mrk mid="0" mtype="seg">If the value can be converted to an HWND, the HWND representation will be returned.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the value can be converted to an HWND, the HWND representation will be returned.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">If the HWND does not denote a valid window, a 0 (NULL) HWND will be returned and sets the @error flag to 1.</source>
+<seg-source><mrk mid="0" mtype="seg">If the HWND does not denote a valid window, a 0 (NULL) HWND will be returned and sets the @error flag to 1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the HWND does not denote a valid window, a 0 (NULL) HWND will be returned and sets the @error flag to 1.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Double numbers can not be converted to an HWND.</source>
+<seg-source><mrk mid="0" mtype="seg">Double numbers can not be converted to an HWND.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Double numbers can not be converted to an HWND.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> No literal string should be converted to an HWND because there is no guarantee that a given window will have the same HWND ever again. This is not strictly forbidden, but it is a programming mistake and should be avoided.</source>
+<seg-source> <mrk mid="0" mtype="seg">No literal string should be converted to an HWND because there is no guarantee that a given window will have the same HWND ever again.</mrk> <mrk mid="1" mtype="seg">This is not strictly forbidden, but it is a programming mistake and should be avoided.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">No literal string should be converted to an HWND because there is no guarantee that a given window will have the same HWND ever again.</mrk> <mrk mid="1" mtype="seg">This is not strictly forbidden, but it is a programming mistake and should be avoided.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Run Notepad</source>
+<seg-source><mrk mid="0" mtype="seg">Run Notepad</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Run Notepad</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">notepad.exe</source>
+<seg-source><mrk mid="0" mtype="seg">notepad.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">notepad.exe</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Wait 10 seconds for the Notepad window to appear.</source>
+<seg-source><mrk mid="0" mtype="seg">Wait 10 seconds for the Notepad window to appear.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wait 10 seconds for the Notepad window to appear.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">[CLASS:Notepad]</source>
+<seg-source><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Convert the handle to a string.</source>
+<seg-source><mrk mid="0" mtype="seg">Convert the handle to a string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Convert the handle to a string.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Minimize the Notepad window and wait for 2 seconds.</source>
+<seg-source><mrk mid="0" mtype="seg">Minimize the Notepad window and wait for 2 seconds.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Minimize the Notepad window and wait for 2 seconds.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Restore the Notepad window and wait for 2 seconds.</source>
+<seg-source><mrk mid="0" mtype="seg">Restore the Notepad window and wait for 2 seconds.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Restore the Notepad window and wait for 2 seconds.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Close the Notepad window.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the Notepad window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the Notepad window.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

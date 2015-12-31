@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_EventLog__Clear.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Clears the event log</source>
+<seg-source><mrk mid="0" mtype="seg">Clears the event log</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Clears the event log</mrk></target>
+<note>Function _EventLog__Clear</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the event log</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the event log</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the event log</mrk></target>
+<note>$hEventLog</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The name of the backup file. If the name is blank, the current event log is not backed up.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the backup file.</mrk> <mrk mid="1" mtype="seg">If the name is blank, the current event log is not backed up.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the backup file.</mrk> <mrk mid="1" mtype="seg">If the name is blank, the current event log is not backed up.</mrk></target>
+<note>$sFileName</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">False</source>
+<seg-source><mrk mid="0" mtype="seg">False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">This function fails if the event log is empty or a file already exists with the same name as $sFileName.</source>
+<seg-source><mrk mid="0" mtype="seg">This function fails if the event log is empty or a file already exists with the same name as $sFileName.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function fails if the event log is empty or a file already exists with the same name as $sFileName.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> After this function returns, any handles that reference the cleared event log cannot be used to read the log.</source>
+<seg-source> <mrk mid="0" mtype="seg">After this function returns, any handles that reference the cleared event log cannot be used to read the log.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">After this function returns, any handles that reference the cleared event log cannot be used to read the log.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Application</source>
+<seg-source><mrk mid="0" mtype="seg">Application</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Application</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">C:\EventLog.bak</source>
+<seg-source><mrk mid="0" mtype="seg">C:\EventLog.bak</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">C:\EventLog.bak</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

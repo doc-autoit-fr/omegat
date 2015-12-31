@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_IEHeadInsertEventScript.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Inserts a Javascript into the Head of the document</source>
+<seg-source><mrk mid="0" mtype="seg">Inserts a Javascript into the Head of the document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Inserts a Javascript into the Head of the document</mrk></target>
+<note>Function _IEHeadInsertEventScript</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Object variable of an InternetExplorer.Application, Window or Frame object</source>
+<seg-source><mrk mid="0" mtype="seg">Object variable of an InternetExplorer.</mrk><mrk mid="1" mtype="seg">Application, Window or Frame object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Object variable of an InternetExplorer.</mrk><mrk mid="1" mtype="seg">Application, Window or Frame object</mrk></target>
+<note>$oObject</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The HTML element for event monitoring (e.g. "document", "window" or an element ID)</source>
+<seg-source><mrk mid="0" mtype="seg">The HTML element for event monitoring (e.g.</mrk> <mrk mid="1" mtype="seg">"document", "window" or an element ID)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The HTML element for event monitoring (e.g.</mrk> <mrk mid="1" mtype="seg">"document", "window" or an element ID)</mrk></target>
+<note>$sHTMLFor</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The event to monitor (e.g. "onclick" or "oncontextmenu")</source>
+<seg-source><mrk mid="0" mtype="seg">The event to monitor (e.g.</mrk> <mrk mid="1" mtype="seg">"onclick" or "oncontextmenu")</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The event to monitor (e.g.</mrk> <mrk mid="1" mtype="seg">"onclick" or "oncontextmenu")</mrk></target>
+<note>$sEvent</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Javascript string to be executed</source>
+<seg-source><mrk mid="0" mtype="seg">Javascript string to be executed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Javascript string to be executed</mrk></target>
+<note>$sScript</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">2 ($_IEStatus_COMError) - COM Error in Object reference</source>
+<seg-source><mrk mid="0" mtype="seg">2 ($_IEStatus_COMError) - COM Error in Object reference</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2 ($_IEStatus_COMError) - COM Error in Object reference</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> 3 ($_IEStatus_InvalidDataType) - Invalid Data Type</source>
+<seg-source> <mrk mid="0" mtype="seg">3 ($_IEStatus_InvalidDataType) - Invalid Data Type</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 ($_IEStatus_InvalidDataType) - Invalid Data Type</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">@extended:</source>
+<seg-source><mrk mid="0" mtype="seg">@extended:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@extended:</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Contains invalid parameter number</source>
+<seg-source><mrk mid="0" mtype="seg">Contains invalid parameter number</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains invalid parameter number</mrk></target>
+<note>@extended:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Using <bpt id="1" ctype="x-a">&lt;a href="../functions/ObjEvent.htm"></bpt>ObjEvent()<ept id="1">&lt;/a></ept>, AutoIt is able to be notified of events via COM, but it manages them asynchronously (rather than synchronously as they are handled in the browser context).</source>
+<seg-source><mrk mid="0" mtype="seg">Using <bpt id="1" ctype="x-a">&lt;a href="../functions/ObjEvent.htm"></bpt>ObjEvent()<ept id="1">&lt;/a></ept>, AutoIt is able to be notified of events via COM, but it manages them asynchronously (rather than synchronously as they are handled in the browser context).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using <bpt id="1" ctype="x-a">&lt;a href="../functions/ObjEvent.htm"></bpt>ObjEvent()<ept id="1">&lt;/a></ept>, AutoIt is able to be notified of events via COM, but it manages them asynchronously (rather than synchronously as they are handled in the browser context).</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> This routine allows you to inject code that is managed inside the browser context.</source>
+<seg-source> <mrk mid="0" mtype="seg">This routine allows you to inject code that is managed inside the browser context.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This routine allows you to inject code that is managed inside the browser context.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> Note that elements that do not have an ID assigned can still be used by obtaining their "uniqueID" property with <bpt id="1" ctype="x-a">&lt;a href="_IEPropertyGet.htm"></bpt>_IEPropertyGet()<ept id="1">&lt;/a></ept></source>
+<seg-source> <mrk mid="0" mtype="seg">Note that elements that do not have an ID assigned can still be used by obtaining their "uniqueID" property with <bpt id="1" ctype="x-a">&lt;a href="_IEPropertyGet.htm"></bpt>_IEPropertyGet()<ept id="1">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Note that elements that do not have an ID assigned can still be used by obtaining their "uniqueID" property with <bpt id="1" ctype="x-a">&lt;a href="_IEPropertyGet.htm"></bpt>_IEPropertyGet()<ept id="1">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Open a browser with the basic example page, insert an</source>
+<seg-source><mrk mid="0" mtype="seg">Open a browser with the basic example page, insert an</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open a browser with the basic example page, insert an</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">event script into the head of the document that creates</source>
+<seg-source><mrk mid="0" mtype="seg">event script into the head of the document that creates</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">event script into the head of the document that creates</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">a JavaScript alert when someone clicks on the document</source>
+<seg-source><mrk mid="0" mtype="seg">a JavaScript alert when someone clicks on the document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a JavaScript alert when someone clicks on the document</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">basic</source>
+<seg-source><mrk mid="0" mtype="seg">basic</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">basic</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">document</source>
+<seg-source><mrk mid="0" mtype="seg">document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">document</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">onclick</source>
+<seg-source><mrk mid="0" mtype="seg">onclick</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">onclick</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">alert('Someone clicked the document!');</source>
+<seg-source><mrk mid="0" mtype="seg">alert('Someone clicked the document!');</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">alert('Someone clicked the document!');</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Open a browser with the basic example page, insert an</source>
+<seg-source><mrk mid="0" mtype="seg">Open a browser with the basic example page, insert an</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open a browser with the basic example page, insert an</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">event script into the head of the document that creates</source>
+<seg-source><mrk mid="0" mtype="seg">event script into the head of the document that creates</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">event script into the head of the document that creates</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">a JavaScript alert when someone tries to right-click on the</source>
+<seg-source><mrk mid="0" mtype="seg">a JavaScript alert when someone tries to right-click on the</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a JavaScript alert when someone tries to right-click on the</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">document and then the event script returns "false" to prevent</source>
+<seg-source><mrk mid="0" mtype="seg">document and then the event script returns "false" to prevent</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">document and then the event script returns "false" to prevent</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">the right-click context menu from appearing</source>
+<seg-source><mrk mid="0" mtype="seg">the right-click context menu from appearing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the right-click context menu from appearing</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">basic</source>
+<seg-source><mrk mid="0" mtype="seg">basic</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">basic</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">document</source>
+<seg-source><mrk mid="0" mtype="seg">document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">document</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">oncontextmenu</source>
+<seg-source><mrk mid="0" mtype="seg">oncontextmenu</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">oncontextmenu</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">alert('No Context Menu');return false</source>
+<seg-source><mrk mid="0" mtype="seg">alert('No Context Menu');return false</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">alert('No Context Menu');return false</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Open a browser with the basic example page, insert an</source>
+<seg-source><mrk mid="0" mtype="seg">Open a browser with the basic example page, insert an</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open a browser with the basic example page, insert an</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">event script into the head of the document that creates a</source>
+<seg-source><mrk mid="0" mtype="seg">event script into the head of the document that creates a</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">event script into the head of the document that creates a</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">JavaScript alert when we are about to navigate away from the</source>
+<seg-source><mrk mid="0" mtype="seg">JavaScript alert when we are about to navigate away from the</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">JavaScript alert when we are about to navigate away from the</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">page and presents the option to cancel the operation.</source>
+<seg-source><mrk mid="0" mtype="seg">page and presents the option to cancel the operation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">page and presents the option to cancel the operation.</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">basic</source>
+<seg-source><mrk mid="0" mtype="seg">basic</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">basic</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">window</source>
+<seg-source><mrk mid="0" mtype="seg">window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">window</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">onbeforeunload</source>
+<seg-source><mrk mid="0" mtype="seg">onbeforeunload</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">onbeforeunload</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">alert('Example warning follows...');return 'Pending changes may be lost';</source>
+<seg-source><mrk mid="0" mtype="seg">alert('Example warning follows...');return 'Pending changes may be lost';</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">alert('Example warning follows...');return 'Pending changes may be lost';</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">www.autoitscript.com</source>
+<seg-source><mrk mid="0" mtype="seg">www.autoitscript.com</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">www.autoitscript.com</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Example 4</source>
+<seg-source><mrk mid="0" mtype="seg">Example 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 4</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Open a browser with the basic example page, insert an</source>
+<seg-source><mrk mid="0" mtype="seg">Open a browser with the basic example page, insert an</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open a browser with the basic example page, insert an</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">event script into the head of the document that prevents</source>
+<seg-source><mrk mid="0" mtype="seg">event script into the head of the document that prevents</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">event script into the head of the document that prevents</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">selection of text in the document</source>
+<seg-source><mrk mid="0" mtype="seg">selection of text in the document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">selection of text in the document</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">document</source>
+<seg-source><mrk mid="0" mtype="seg">document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">document</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">ondrag</source>
+<seg-source><mrk mid="0" mtype="seg">ondrag</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ondrag</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">return false;</source>
+<seg-source><mrk mid="0" mtype="seg">return false;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">return false;</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">document</source>
+<seg-source><mrk mid="0" mtype="seg">document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">document</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">onselectstart</source>
+<seg-source><mrk mid="0" mtype="seg">onselectstart</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">onselectstart</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">return false;</source>
+<seg-source><mrk mid="0" mtype="seg">return false;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">return false;</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">Example 5</source>
+<seg-source><mrk mid="0" mtype="seg">Example 5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 5</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Open a browser with the AutoIt homepage, insert an</source>
+<seg-source><mrk mid="0" mtype="seg">Open a browser with the AutoIt homepage, insert an</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open a browser with the AutoIt homepage, insert an</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">event script into the head of the document that prevents</source>
+<seg-source><mrk mid="0" mtype="seg">event script into the head of the document that prevents</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">event script into the head of the document that prevents</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">navigation when any link is clicked and log the URL of the</source>
+<seg-source><mrk mid="0" mtype="seg">navigation when any link is clicked and log the URL of the</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">navigation when any link is clicked and log the URL of the</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">clicked link to the console</source>
+<seg-source><mrk mid="0" mtype="seg">clicked link to the console</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">clicked link to the console</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">http://www.autoitscript.com</source>
+<seg-source><mrk mid="0" mtype="seg">http://www.autoitscript.com</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">http://www.autoitscript.com</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">uniqueid</source>
+<seg-source><mrk mid="0" mtype="seg">uniqueid</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">uniqueid</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">onclick</source>
+<seg-source><mrk mid="0" mtype="seg">onclick</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">onclick</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">return false;</source>
+<seg-source><mrk mid="0" mtype="seg">return false;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">return false;</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">_Evt_</source>
+<seg-source><mrk mid="0" mtype="seg">_Evt_</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_Evt_</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">idle as long as the browser window exists</source>
+<seg-source><mrk mid="0" mtype="seg">idle as long as the browser window exists</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">idle as long as the browser window exists</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

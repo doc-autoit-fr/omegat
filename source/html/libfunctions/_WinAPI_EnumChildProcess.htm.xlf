@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_EnumChildProcess.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Enumerates a child processes that belong to the specified process</source>
+<seg-source><mrk mid="0" mtype="seg">Enumerates a child processes that belong to the specified process</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enumerates a child processes that belong to the specified process</mrk></target>
+<note>Function _WinAPI_EnumChildProcess</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The PID of the process. Default (0) is the current process.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The PID of the process.</mrk> <mrk mid="2" mtype="seg">Default (0) is the current process.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The PID of the process.</mrk> <mrk mid="2" mtype="seg">Default (0) is the current process.</mrk></target>
+<note>$iPID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The 2D array of the PIDs and process names.</source>
+<seg-source><mrk mid="0" mtype="seg">The 2D array of the PIDs and process names.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The 2D array of the PIDs and process names.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> [0][0] - Number of rows in array (n)</source>
+<seg-source> <mrk mid="0" mtype="seg">[0][0] - Number of rows in array (n)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[0][0] - Number of rows in array (n)</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> [0][1] - Unused</source>
+<seg-source> <mrk mid="0" mtype="seg">[0][1] - Unused</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[0][1] - Unused</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> [n][0] - PID</source>
+<seg-source> <mrk mid="0" mtype="seg">[n][0] - PID</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[n][0] - PID</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> [n][1] - Process name</source>
+<seg-source> <mrk mid="0" mtype="seg">[n][1] - Process name</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[n][1] - Process name</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">_WinAPI_EnumChildProcess</source>
+<seg-source><mrk mid="0" mtype="seg">_WinAPI_EnumChildProcess</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinAPI_EnumChildProcess</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

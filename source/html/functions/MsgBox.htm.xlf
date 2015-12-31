@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/MsgBox.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Displays a simple message box with optional timeout.</source>
+<seg-source><mrk mid="0" mtype="seg">Displays a simple message box with optional timeout.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Displays a simple message box with optional timeout.</mrk></target>
+<note>Function MsgBox</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The flag indicates the type of message box and the possible button combinations. See remarks.</source>
+<seg-source><mrk mid="0" mtype="seg">The flag indicates the type of message box and the possible button combinations.</mrk> <mrk mid="1" mtype="seg">See remarks.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The flag indicates the type of message box and the possible button combinations.</mrk> <mrk mid="1" mtype="seg">See remarks.</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The title of the message box.</source>
+<seg-source><mrk mid="0" mtype="seg">The title of the message box.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The title of the message box.</mrk></target>
+<note>title</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The text of the message box.</source>
+<seg-source><mrk mid="0" mtype="seg">The text of the message box.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The text of the message box.</mrk></target>
+<note>text</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Timeout in seconds. After the timeout has elapsed the message box will be automatically closed. The default is 0, which is no timeout.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Timeout in seconds.</mrk> <mrk mid="2" mtype="seg">After the timeout has elapsed the message box will be automatically closed.</mrk> <mrk mid="3" mtype="seg">The default is 0, which is no timeout.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Timeout in seconds.</mrk> <mrk mid="2" mtype="seg">After the timeout has elapsed the message box will be automatically closed.</mrk> <mrk mid="3" mtype="seg">The default is 0, which is no timeout.</mrk></target>
+<note>timeout</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The window handle to use as the parent for this dialog.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The window handle to use as the parent for this dialog.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The window handle to use as the parent for this dialog.</mrk></target>
+<note>hwnd</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">the ID of the button pressed.</source>
+<seg-source><mrk mid="0" mtype="seg">the ID of the button pressed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the ID of the button pressed.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">$IDTIMEOUT (-1) if the message box timed out.</source>
+<seg-source><mrk mid="0" mtype="seg">$IDTIMEOUT (-1) if the message box timed out.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$IDTIMEOUT (-1) if the message box timed out.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Button Pressed<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Button Pressed<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Button Pressed<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Return Value<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Return Value<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Return Value<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">OK</source>
+<seg-source><mrk mid="0" mtype="seg">OK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OK</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">$IDOK (1)</source>
+<seg-source><mrk mid="0" mtype="seg">$IDOK (1)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$IDOK (1)</mrk></target>
+<note>OK</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">CANCEL</source>
+<seg-source><mrk mid="0" mtype="seg">CANCEL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CANCEL</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">$IDCANCEL (2)</source>
+<seg-source><mrk mid="0" mtype="seg">$IDCANCEL (2)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$IDCANCEL (2)</mrk></target>
+<note>CANCEL</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">ABORT</source>
+<seg-source><mrk mid="0" mtype="seg">ABORT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ABORT</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">$IDABORT (3)</source>
+<seg-source><mrk mid="0" mtype="seg">$IDABORT (3)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$IDABORT (3)</mrk></target>
+<note>ABORT</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">RETRY</source>
+<seg-source><mrk mid="0" mtype="seg">RETRY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RETRY</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">$IDRETRY (4)</source>
+<seg-source><mrk mid="0" mtype="seg">$IDRETRY (4)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$IDRETRY (4)</mrk></target>
+<note>RETRY</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">IGNORE</source>
+<seg-source><mrk mid="0" mtype="seg">IGNORE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IGNORE</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">$IDIGNORE (5)</source>
+<seg-source><mrk mid="0" mtype="seg">$IDIGNORE (5)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$IDIGNORE (5)</mrk></target>
+<note>IGNORE</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">YES</source>
+<seg-source><mrk mid="0" mtype="seg">YES</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">YES</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">$IDYES (6)</source>
+<seg-source><mrk mid="0" mtype="seg">$IDYES (6)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$IDYES (6)</mrk></target>
+<note>YES</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">NO</source>
+<seg-source><mrk mid="0" mtype="seg">NO</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NO</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">$IDNO (7)</source>
+<seg-source><mrk mid="0" mtype="seg">$IDNO (7)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$IDNO (7)</mrk></target>
+<note>NO</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">TRY AGAIN **</source>
+<seg-source><mrk mid="0" mtype="seg">TRY AGAIN **</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TRY AGAIN **</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">$IDTRYAGAIN (10)</source>
+<seg-source><mrk mid="0" mtype="seg">$IDTRYAGAIN (10)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$IDTRYAGAIN (10)</mrk></target>
+<note>TRY AGAIN **</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">CONTINUE **</source>
+<seg-source><mrk mid="0" mtype="seg">CONTINUE **</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CONTINUE **</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">$IDCONTINUE (11)</source>
+<seg-source><mrk mid="0" mtype="seg">$IDCONTINUE (11)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$IDCONTINUE (11)</mrk></target>
+<note>CONTINUE **</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en"> Constants are defined in MsgBoxConstants.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in MsgBoxConstants.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in MsgBoxConstants.au3.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">The flag parameter can be a combination of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg">The flag parameter can be a combination of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The flag parameter can be a combination of the following values:</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Constant Name<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Constant Name<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Constant Name<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Decimal flag<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Decimal flag<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Decimal flag<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Button-related result<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Button-related result<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Button-related result<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Hexadecimal flag<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Hexadecimal flag<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Hexadecimal flag<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">$MB_OK</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_OK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_OK</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">0</source>
+<seg-source><mrk mid="0" mtype="seg">0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0</mrk></target>
+<note>$MB_OK</note>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">OK button</source>
+<seg-source><mrk mid="0" mtype="seg">OK button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OK button</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">0x0</source>
+<seg-source><mrk mid="0" mtype="seg">0x0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x0</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">$MB_OKCANCEL</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_OKCANCEL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_OKCANCEL</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+<note>$MB_OKCANCEL</note>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">OK and Cancel</source>
+<seg-source><mrk mid="0" mtype="seg">OK and Cancel</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OK and Cancel</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">0x1</source>
+<seg-source><mrk mid="0" mtype="seg">0x1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x1</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">$MB_ABORTRETRYIGNORE</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_ABORTRETRYIGNORE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_ABORTRETRYIGNORE</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">2</source>
+<seg-source><mrk mid="0" mtype="seg">2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2</mrk></target>
+<note>$MB_ABORTRETRYIGNORE</note>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Abort, Retry, and Ignore</source>
+<seg-source><mrk mid="0" mtype="seg">Abort, Retry, and Ignore</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Abort, Retry, and Ignore</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">0x2</source>
+<seg-source><mrk mid="0" mtype="seg">0x2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x2</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">$MB_YESNOCANCEL</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_YESNOCANCEL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_YESNOCANCEL</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">3</source>
+<seg-source><mrk mid="0" mtype="seg">3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3</mrk></target>
+<note>$MB_YESNOCANCEL</note>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Yes, No, and Cancel</source>
+<seg-source><mrk mid="0" mtype="seg">Yes, No, and Cancel</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes, No, and Cancel</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">0x3</source>
+<seg-source><mrk mid="0" mtype="seg">0x3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x3</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">$MB_YESNO</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_YESNO</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_YESNO</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">4</source>
+<seg-source><mrk mid="0" mtype="seg">4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">4</mrk></target>
+<note>$MB_YESNO</note>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Yes and No</source>
+<seg-source><mrk mid="0" mtype="seg">Yes and No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes and No</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">0x4</source>
+<seg-source><mrk mid="0" mtype="seg">0x4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x4</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">$MB_RETRYCANCEL</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_RETRYCANCEL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_RETRYCANCEL</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">5</source>
+<seg-source><mrk mid="0" mtype="seg">5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">5</mrk></target>
+<note>$MB_RETRYCANCEL</note>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Retry and Cancel</source>
+<seg-source><mrk mid="0" mtype="seg">Retry and Cancel</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retry and Cancel</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">0x5</source>
+<seg-source><mrk mid="0" mtype="seg">0x5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x5</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">$MB_CANCELTRYCONTINUE</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_CANCELTRYCONTINUE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_CANCELTRYCONTINUE</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">6</source>
+<seg-source><mrk mid="0" mtype="seg">6</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">6</mrk></target>
+<note>$MB_CANCELTRYCONTINUE</note>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">Cancel, Try Again, Continue</source>
+<seg-source><mrk mid="0" mtype="seg">Cancel, Try Again, Continue</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cancel, Try Again, Continue</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">0x6</source>
+<seg-source><mrk mid="0" mtype="seg">0x6</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x6</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">$MB_HELP</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_HELP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_HELP</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">16384</source>
+<seg-source><mrk mid="0" mtype="seg">16384</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">16384</mrk></target>
+<note>$MB_HELP</note>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">Adds a Help button to the message box. When the user clicks the Help button or presses F1, the system sends a WM_HELP message to the owner.</source>
+<seg-source><mrk mid="0" mtype="seg">Adds a Help button to the message box.</mrk> <mrk mid="1" mtype="seg">When the user clicks the Help button or presses F1, the system sends a WM_HELP message to the owner.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Adds a Help button to the message box.</mrk> <mrk mid="1" mtype="seg">When the user clicks the Help button or presses F1, the system sends a WM_HELP message to the owner.</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">0x4000</source>
+<seg-source><mrk mid="0" mtype="seg">0x4000</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x4000</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Constant Name<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Constant Name<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Constant Name<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>decimal flag<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>decimal flag<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>decimal flag<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Icon-related Result<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Icon-related Result<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Icon-related Result<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>hexadecimal flag<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>hexadecimal flag<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>hexadecimal flag<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">0</source>
+<seg-source><mrk mid="0" mtype="seg">0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">(No icon)</source>
+<seg-source><mrk mid="0" mtype="seg">(No icon)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(No icon)</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">0x0</source>
+<seg-source><mrk mid="0" mtype="seg">0x0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x0</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">$MB_ICONERROR</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_ICONERROR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_ICONERROR</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">16</source>
+<seg-source><mrk mid="0" mtype="seg">16</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">16</mrk></target>
+<note>$MB_ICONERROR</note>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">Stop-sign icon</source>
+<seg-source><mrk mid="0" mtype="seg">Stop-sign icon</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Stop-sign icon</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">0x10</source>
+<seg-source><mrk mid="0" mtype="seg">0x10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x10</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">$MB_ICONQUESTION</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_ICONQUESTION</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_ICONQUESTION</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">32</source>
+<seg-source><mrk mid="0" mtype="seg">32</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">32</mrk></target>
+<note>$MB_ICONQUESTION</note>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">Question-mark icon</source>
+<seg-source><mrk mid="0" mtype="seg">Question-mark icon</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Question-mark icon</mrk></target>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">0x20</source>
+<seg-source><mrk mid="0" mtype="seg">0x20</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x20</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">$MB_ICONWARNING</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_ICONWARNING</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_ICONWARNING</mrk></target>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en">48</source>
+<seg-source><mrk mid="0" mtype="seg">48</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">48</mrk></target>
+<note>$MB_ICONWARNING</note>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">Exclamation-point icon</source>
+<seg-source><mrk mid="0" mtype="seg">Exclamation-point icon</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exclamation-point icon</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">0x30</source>
+<seg-source><mrk mid="0" mtype="seg">0x30</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x30</mrk></target>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en">$MB_ICONINFORMATION</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_ICONINFORMATION</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_ICONINFORMATION</mrk></target>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">64</source>
+<seg-source><mrk mid="0" mtype="seg">64</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">64</mrk></target>
+<note>$MB_ICONINFORMATION</note>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en">Information-sign icon consisting of an 'i' in a circle</source>
+<seg-source><mrk mid="0" mtype="seg">Information-sign icon consisting of an 'i' in a circle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Information-sign icon consisting of an 'i' in a circle</mrk></target>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en">0x40</source>
+<seg-source><mrk mid="0" mtype="seg">0x40</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x40</mrk></target>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Constant Name<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Constant Name<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Constant Name<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="94">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>decimal flag<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>decimal flag<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>decimal flag<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="95">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Default-related Result<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Default-related Result<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Default-related Result<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="96">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>hexadecimal flag<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>hexadecimal flag<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>hexadecimal flag<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="97">
+<source xml:lang="en">$MB_DEFBUTTON1</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_DEFBUTTON1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_DEFBUTTON1</mrk></target>
+</trans-unit>
+<trans-unit id="98">
+<source xml:lang="en">0</source>
+<seg-source><mrk mid="0" mtype="seg">0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0</mrk></target>
+<note>$MB_DEFBUTTON1</note>
+</trans-unit>
+<trans-unit id="99">
+<source xml:lang="en">First button is default button</source>
+<seg-source><mrk mid="0" mtype="seg">First button is default button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">First button is default button</mrk></target>
+</trans-unit>
+<trans-unit id="100">
+<source xml:lang="en">0x0</source>
+<seg-source><mrk mid="0" mtype="seg">0x0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x0</mrk></target>
+</trans-unit>
+<trans-unit id="101">
+<source xml:lang="en">$MB_DEFBUTTON2</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_DEFBUTTON2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_DEFBUTTON2</mrk></target>
+</trans-unit>
+<trans-unit id="102">
+<source xml:lang="en">256</source>
+<seg-source><mrk mid="0" mtype="seg">256</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">256</mrk></target>
+<note>$MB_DEFBUTTON2</note>
+</trans-unit>
+<trans-unit id="103">
+<source xml:lang="en">Second button is default button</source>
+<seg-source><mrk mid="0" mtype="seg">Second button is default button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Second button is default button</mrk></target>
+</trans-unit>
+<trans-unit id="104">
+<source xml:lang="en">0x100</source>
+<seg-source><mrk mid="0" mtype="seg">0x100</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x100</mrk></target>
+</trans-unit>
+<trans-unit id="105">
+<source xml:lang="en">$MB_DEFBUTTON3</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_DEFBUTTON3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_DEFBUTTON3</mrk></target>
+</trans-unit>
+<trans-unit id="106">
+<source xml:lang="en">512</source>
+<seg-source><mrk mid="0" mtype="seg">512</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">512</mrk></target>
+<note>$MB_DEFBUTTON3</note>
+</trans-unit>
+<trans-unit id="107">
+<source xml:lang="en">Third button is default button</source>
+<seg-source><mrk mid="0" mtype="seg">Third button is default button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Third button is default button</mrk></target>
+</trans-unit>
+<trans-unit id="108">
+<source xml:lang="en">0x200</source>
+<seg-source><mrk mid="0" mtype="seg">0x200</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x200</mrk></target>
+</trans-unit>
+<trans-unit id="109">
+<source xml:lang="en">$MB_DEFBUTTON4</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_DEFBUTTON4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_DEFBUTTON4</mrk></target>
+</trans-unit>
+<trans-unit id="110">
+<source xml:lang="en">768</source>
+<seg-source><mrk mid="0" mtype="seg">768</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">768</mrk></target>
+<note>$MB_DEFBUTTON4</note>
+</trans-unit>
+<trans-unit id="111">
+<source xml:lang="en">Fourth button is default button</source>
+<seg-source><mrk mid="0" mtype="seg">Fourth button is default button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Fourth button is default button</mrk></target>
+</trans-unit>
+<trans-unit id="112">
+<source xml:lang="en">0x300</source>
+<seg-source><mrk mid="0" mtype="seg">0x300</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x300</mrk></target>
+</trans-unit>
+<trans-unit id="113">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Constant Name<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Constant Name<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Constant Name<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="114">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>decimal flag<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>decimal flag<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>decimal flag<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="115">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Modality-related Result<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Modality-related Result<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Modality-related Result<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="116">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>hexadecimal flag<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>hexadecimal flag<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>hexadecimal flag<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="117">
+<source xml:lang="en">$MB_APPLMODAL</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_APPLMODAL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_APPLMODAL</mrk></target>
+</trans-unit>
+<trans-unit id="118">
+<source xml:lang="en">0</source>
+<seg-source><mrk mid="0" mtype="seg">0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0</mrk></target>
+<note>$MB_APPLMODAL</note>
+</trans-unit>
+<trans-unit id="119">
+<source xml:lang="en">Application 0x0</source>
+<seg-source><mrk mid="0" mtype="seg">Application 0x0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Application 0x0</mrk></target>
+</trans-unit>
+<trans-unit id="120">
+<source xml:lang="en">$MB_SYSTEMMODAL</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_SYSTEMMODAL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_SYSTEMMODAL</mrk></target>
+</trans-unit>
+<trans-unit id="121">
+<source xml:lang="en">4096</source>
+<seg-source><mrk mid="0" mtype="seg">4096</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">4096</mrk></target>
+<note>$MB_SYSTEMMODAL</note>
+</trans-unit>
+<trans-unit id="122">
+<source xml:lang="en">System modal (dialog has an icon)</source>
+<seg-source><mrk mid="0" mtype="seg">System modal (dialog has an icon)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">System modal (dialog has an icon)</mrk></target>
+</trans-unit>
+<trans-unit id="123">
+<source xml:lang="en">0x1000</source>
+<seg-source><mrk mid="0" mtype="seg">0x1000</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x1000</mrk></target>
+</trans-unit>
+<trans-unit id="124">
+<source xml:lang="en">$MB_TASKMODAL</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_TASKMODAL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_TASKMODAL</mrk></target>
+</trans-unit>
+<trans-unit id="125">
+<source xml:lang="en">8192</source>
+<seg-source><mrk mid="0" mtype="seg">8192</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">8192</mrk></target>
+<note>$MB_TASKMODAL</note>
+</trans-unit>
+<trans-unit id="126">
+<source xml:lang="en">Task modal</source>
+<seg-source><mrk mid="0" mtype="seg">Task modal</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Task modal</mrk></target>
+</trans-unit>
+<trans-unit id="127">
+<source xml:lang="en">0x2000</source>
+<seg-source><mrk mid="0" mtype="seg">0x2000</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x2000</mrk></target>
+</trans-unit>
+<trans-unit id="128">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Constant Name<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Constant Name<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Constant Name<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="129">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>decimal flag<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>decimal flag<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>decimal flag<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="130">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Miscellaneous-related Result<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Miscellaneous-related Result<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Miscellaneous-related Result<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="131">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>hexadecimal flag<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>hexadecimal flag<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>hexadecimal flag<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="132">
+<source xml:lang="en">0</source>
+<seg-source><mrk mid="0" mtype="seg">0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0</mrk></target>
+</trans-unit>
+<trans-unit id="133">
+<source xml:lang="en">(nothing else special)</source>
+<seg-source><mrk mid="0" mtype="seg">(nothing else special)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(nothing else special)</mrk></target>
+</trans-unit>
+<trans-unit id="134">
+<source xml:lang="en">0x0</source>
+<seg-source><mrk mid="0" mtype="seg">0x0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x0</mrk></target>
+</trans-unit>
+<trans-unit id="135">
+<source xml:lang="en">$MB_DEFAULT_DESKTOP_ONLY</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_DEFAULT_DESKTOP_ONLY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_DEFAULT_DESKTOP_ONLY</mrk></target>
+</trans-unit>
+<trans-unit id="136">
+<source xml:lang="en">131072</source>
+<seg-source><mrk mid="0" mtype="seg">131072</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">131072</mrk></target>
+<note>$MB_DEFAULT_DESKTOP_ONLY</note>
+</trans-unit>
+<trans-unit id="137">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="MsgBox.htm"></bpt>MsgBox()<ept id="1">&lt;/a></ept> shows on the desktop of the interactive window station. </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="MsgBox.htm"></bpt>MsgBox()<ept id="1">&lt;/a></ept> shows on the desktop of the interactive window station.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="MsgBox.htm"></bpt>MsgBox()<ept id="1">&lt;/a></ept> shows on the desktop of the interactive window station.</mrk> </target>
+</trans-unit>
+<trans-unit id="138">
+<source xml:lang="en">0x20000</source>
+<seg-source><mrk mid="0" mtype="seg">0x20000</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x20000</mrk></target>
+</trans-unit>
+<trans-unit id="139">
+<source xml:lang="en">$MB_RIGHT</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_RIGHT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_RIGHT</mrk></target>
+</trans-unit>
+<trans-unit id="140">
+<source xml:lang="en">524288</source>
+<seg-source><mrk mid="0" mtype="seg">524288</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">524288</mrk></target>
+<note>$MB_RIGHT</note>
+</trans-unit>
+<trans-unit id="141">
+<source xml:lang="en">title and text are right-justified</source>
+<seg-source><mrk mid="0" mtype="seg">title and text are right-justified</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">title and text are right-justified</mrk></target>
+</trans-unit>
+<trans-unit id="142">
+<source xml:lang="en">0x80000</source>
+<seg-source><mrk mid="0" mtype="seg">0x80000</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x80000</mrk></target>
+</trans-unit>
+<trans-unit id="143">
+<source xml:lang="en">$MB_RTLREADING</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_RTLREADING</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_RTLREADING</mrk></target>
+</trans-unit>
+<trans-unit id="144">
+<source xml:lang="en">1048576</source>
+<seg-source><mrk mid="0" mtype="seg">1048576</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1048576</mrk></target>
+<note>$MB_RTLREADING</note>
+</trans-unit>
+<trans-unit id="145">
+<source xml:lang="en">Displays message and caption text using right-to-left reading order on Hebrew and Arabic systems.</source>
+<seg-source><mrk mid="0" mtype="seg">Displays message and caption text using right-to-left reading order on Hebrew and Arabic systems.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Displays message and caption text using right-to-left reading order on Hebrew and Arabic systems.</mrk></target>
+</trans-unit>
+<trans-unit id="146">
+<source xml:lang="en">0x100000</source>
+<seg-source><mrk mid="0" mtype="seg">0x100000</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x100000</mrk></target>
+</trans-unit>
+<trans-unit id="147">
+<source xml:lang="en">$MB_SETFOREGROUND</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_SETFOREGROUND</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_SETFOREGROUND</mrk></target>
+</trans-unit>
+<trans-unit id="148">
+<source xml:lang="en">65536</source>
+<seg-source><mrk mid="0" mtype="seg">65536</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">65536</mrk></target>
+<note>$MB_SETFOREGROUND</note>
+</trans-unit>
+<trans-unit id="149">
+<source xml:lang="en">The message box becomes the foreground window.</source>
+<seg-source><mrk mid="0" mtype="seg">The message box becomes the foreground window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The message box becomes the foreground window.</mrk></target>
+</trans-unit>
+<trans-unit id="150">
+<source xml:lang="en">0x10000</source>
+<seg-source><mrk mid="0" mtype="seg">0x10000</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x10000</mrk></target>
+</trans-unit>
+<trans-unit id="151">
+<source xml:lang="en">$MB_TOPMOST</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_TOPMOST</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_TOPMOST</mrk></target>
+</trans-unit>
+<trans-unit id="152">
+<source xml:lang="en">262144</source>
+<seg-source><mrk mid="0" mtype="seg">262144</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">262144</mrk></target>
+<note>$MB_TOPMOST</note>
+</trans-unit>
+<trans-unit id="153">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="MsgBox.htm"></bpt>MsgBox()<ept id="1">&lt;/a></ept> has top-most attribute set </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="MsgBox.htm"></bpt>MsgBox()<ept id="1">&lt;/a></ept> has top-most attribute set</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="MsgBox.htm"></bpt>MsgBox()<ept id="1">&lt;/a></ept> has top-most attribute set</mrk> </target>
+</trans-unit>
+<trans-unit id="154">
+<source xml:lang="en">0x40000</source>
+<seg-source><mrk mid="0" mtype="seg">0x40000</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x40000</mrk></target>
+</trans-unit>
+<trans-unit id="155">
+<source xml:lang="en">$MB_SERVICE_NOTIFICATION</source>
+<seg-source><mrk mid="0" mtype="seg">$MB_SERVICE_NOTIFICATION</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$MB_SERVICE_NOTIFICATION</mrk></target>
+</trans-unit>
+<trans-unit id="156">
+<source xml:lang="en">2097152</source>
+<seg-source><mrk mid="0" mtype="seg">2097152</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2097152</mrk></target>
+<note>$MB_SERVICE_NOTIFICATION</note>
+</trans-unit>
+<trans-unit id="157">
+<source xml:lang="en">The function displays a message box on the current active desktop, even if there is no user logged on to the computer.</source>
+<seg-source><mrk mid="0" mtype="seg">The function displays a message box on the current active desktop, even if there is no user logged on to the computer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The function displays a message box on the current active desktop, even if there is no user logged on to the computer.</mrk></target>
+</trans-unit>
+<trans-unit id="158">
+<source xml:lang="en">0x200000</source>
+<seg-source><mrk mid="0" mtype="seg">0x200000</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x200000</mrk></target>
+</trans-unit>
+<trans-unit id="159">
+<source xml:lang="en"> For example, to specify a SYSTEMMODAL box with the YES/NO buttons the flag value would be 4096+4 (or 4100) If using hexadecimal flags, that would be 0x1000+0x4 (or 0x1004).</source>
+<seg-source> <mrk mid="0" mtype="seg">For example, to specify a SYSTEMMODAL box with the YES/NO buttons the flag value would be 4096+4 (or 4100) If using hexadecimal flags, that would be 0x1000+0x4 (or 0x1004).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For example, to specify a SYSTEMMODAL box with the YES/NO buttons the flag value would be 4096+4 (or 4100) If using hexadecimal flags, that would be 0x1000+0x4 (or 0x1004).</mrk></target>
+</trans-unit>
+<trans-unit id="160">
+<source xml:lang="en"> A message box appears centered on screen and resizes according to the text it contains. However, the title could get truncated if the SYSTEMMODAL flag (4096) is used..</source>
+<seg-source> <mrk mid="0" mtype="seg">A message box appears centered on screen and resizes according to the text it contains.</mrk> <mrk mid="1" mtype="seg">However, the title could get truncated if the SYSTEMMODAL flag (4096) is used..</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">A message box appears centered on screen and resizes according to the text it contains.</mrk> <mrk mid="1" mtype="seg">However, the title could get truncated if the SYSTEMMODAL flag (4096) is used..</mrk></target>
+</trans-unit>
+<trans-unit id="161">
+<source xml:lang="en"> If "title" is equal to <bpt id="1" ctype="x-a">&lt;a href="../keywords/Default.htm"></bpt>Default keyword<ept id="1">&lt;/a></ept> @Scriptname is used</source>
+<seg-source> <mrk mid="0" mtype="seg">If "title" is equal to <bpt id="1" ctype="x-a">&lt;a href="../keywords/Default.htm"></bpt>Default keyword<ept id="1">&lt;/a></ept> @Scriptname is used</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If "title" is equal to <bpt id="1" ctype="x-a">&lt;a href="../keywords/Default.htm"></bpt>Default keyword<ept id="1">&lt;/a></ept> @Scriptname is used</mrk></target>
+</trans-unit>
+<trans-unit id="162">
+<source xml:lang="en"> Special note; MsgBox does not support the use of the timeout parameter when the $MB_SERVICE_NOTIFICATION flag is used when calling MsgBox from a service. The message box window is not owned by the process calling MsgBox when $MB_SERVICE_NOTIFICATION is specified.</source>
+<seg-source> <mrk mid="0" mtype="seg">Special note; MsgBox does not support the use of the timeout parameter when the $MB_SERVICE_NOTIFICATION flag is used when calling MsgBox from a service.</mrk> <mrk mid="1" mtype="seg">The message box window is not owned by the process calling MsgBox when $MB_SERVICE_NOTIFICATION is specified.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Special note; MsgBox does not support the use of the timeout parameter when the $MB_SERVICE_NOTIFICATION flag is used when calling MsgBox from a service.</mrk> <mrk mid="1" mtype="seg">The message box window is not owned by the process calling MsgBox when $MB_SERVICE_NOTIFICATION is specified.</mrk></target>
+</trans-unit>
+<trans-unit id="163">
+<source xml:lang="en"> Constants are defined in MsgBoxConstants.au3</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in MsgBoxConstants.au3</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in MsgBoxConstants.au3</mrk></target>
+</trans-unit>
+<trans-unit id="164">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="165">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="166">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="167">
+<source xml:lang="en">Title</source>
+<seg-source><mrk mid="0" mtype="seg">Title</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Title</mrk></target>
+</trans-unit>
+<trans-unit id="168">
+<source xml:lang="en">This message box will timeout after 10 seconds or select the OK button.</source>
+<seg-source><mrk mid="0" mtype="seg">This message box will timeout after 10 seconds or select the OK button.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This message box will timeout after 10 seconds or select the OK button.</mrk></target>
+</trans-unit>
+<trans-unit id="169">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="170">
+<source xml:lang="en">Display a message box with a nested variable in its text.</source>
+<seg-source><mrk mid="0" mtype="seg">Display a message box with a nested variable in its text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display a message box with a nested variable in its text.</mrk></target>
+</trans-unit>
+<trans-unit id="171">
+<source xml:lang="en">Title</source>
+<seg-source><mrk mid="0" mtype="seg">Title</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Title</mrk></target>
+</trans-unit>
+<trans-unit id="172">
+<source xml:lang="en">This message box will timeout after</source>
+<seg-source><mrk mid="0" mtype="seg">This message box will timeout after</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This message box will timeout after</mrk></target>
+</trans-unit>
+<trans-unit id="173">
+<source xml:lang="en">seconds or select the OK button.</source>
+<seg-source><mrk mid="0" mtype="seg">seconds or select the OK button.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">seconds or select the OK button.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

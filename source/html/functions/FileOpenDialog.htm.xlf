@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/FileOpenDialog.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Initiates a Open File Dialog.</source>
+<seg-source><mrk mid="0" mtype="seg">Initiates a Open File Dialog.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Initiates a Open File Dialog.</mrk></target>
+<note>Function FileOpenDialog</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Title text of the Dialog GUI.</source>
+<seg-source><mrk mid="0" mtype="seg">Title text of the Dialog GUI.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Title text of the Dialog GUI.</mrk></target>
+<note>title</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Initial directory selected in the GUI file tree.</source>
+<seg-source><mrk mid="0" mtype="seg">Initial directory selected in the GUI file tree.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Initial directory selected in the GUI file tree.</mrk></target>
+<note>init dir</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">File type single filter such as "All (*.*)" or "Text files (*.txt)" or multiple filter groups such as "All (*.*)|Text files (*.txt)" (See Remarks).</source>
+<seg-source><mrk mid="0" mtype="seg">File type single filter such as "All (*.*)" or "Text files (*.txt)" or multiple filter groups such as "All (*.*)|Text files (*.txt)" (See Remarks).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File type single filter such as "All (*.*)" or "Text files (*.txt)" or multiple filter groups such as "All (*.*)|Text files (*.txt)" (See Remarks).</mrk></target>
+<note>filter</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Dialog Options: To use more than one option, BitOR the required values together.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Dialog Options:</mrk> <mrk mid="2" mtype="seg">To use more than one option, BitOR the required values together.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Dialog Options:</mrk> <mrk mid="2" mtype="seg">To use more than one option, BitOR the required values together.</mrk></target>
+<note>options</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $FD_FILEMUSTEXIST (1) = File Must Exist (if user types a filename)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FD_FILEMUSTEXIST (1) = File Must Exist (if user types a filename)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FD_FILEMUSTEXIST (1) = File Must Exist (if user types a filename)</mrk></target>
+<note>options</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $FD_PATHMUSTEXIST (2) = Path Must Exist (if user types a path, ending with a backslash)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FD_PATHMUSTEXIST (2) = Path Must Exist (if user types a path, ending with a backslash)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FD_PATHMUSTEXIST (2) = Path Must Exist (if user types a path, ending with a backslash)</mrk></target>
+<note>options</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $FD_MULTISELECT (4) = Allow MultiSelect</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FD_MULTISELECT (4) = Allow MultiSelect</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FD_MULTISELECT (4) = Allow MultiSelect</mrk></target>
+<note>options</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $FD_PROMPTCREATENEW (8) = Prompt to Create New File (if does not exist)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FD_PROMPTCREATENEW (8) = Prompt to Create New File (if does not exist)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FD_PROMPTCREATENEW (8) = Prompt to Create New File (if does not exist)</mrk></target>
+<note>options</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> Constants are defined in FileConstants.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in FileConstants.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in FileConstants.au3.</mrk></target>
+<note>options</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Suggested file name for the user to open. Default is blank ("").</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Suggested file name for the user to open.</mrk> <mrk mid="2" mtype="seg">Default is blank ("").</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Suggested file name for the user to open.</mrk> <mrk mid="2" mtype="seg">Default is blank ("").</mrk></target>
+<note>default name</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The window handle to use as the parent for this dialog.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The window handle to use as the parent for this dialog.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The window handle to use as the parent for this dialog.</mrk></target>
+<note>hwnd</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">the full path of the file(s) chosen. Results for multiple selections are "Directory|file1|file2|...".</source>
+<seg-source><mrk mid="0" mtype="seg">the full path of the file(s) chosen.</mrk> <mrk mid="1" mtype="seg">Results for multiple selections are "Directory|file1|file2|...".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the full path of the file(s) chosen.</mrk> <mrk mid="1" mtype="seg">Results for multiple selections are "Directory|file1|file2|...".</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">1 = File selection failed.</source>
+<seg-source><mrk mid="0" mtype="seg">1 = File selection failed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 = File selection failed.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> 2 = Bad file filter</source>
+<seg-source> <mrk mid="0" mtype="seg">2 = Bad file filter</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 = Bad file filter</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Separate the file filters with a semicolon as shown in the example.</source>
+<seg-source><mrk mid="0" mtype="seg">Separate the file filters with a semicolon as shown in the example.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Separate the file filters with a semicolon as shown in the example.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> Multiple groups of filters are separated by a pipe "|".</source>
+<seg-source> <mrk mid="0" mtype="seg">Multiple groups of filters are separated by a pipe "|".</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Multiple groups of filters are separated by a pipe "|".</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> If default name is given, options must also be given. If none of the options are wanted, use 0 for options.</source>
+<seg-source> <mrk mid="0" mtype="seg">If default name is given, options must also be given.</mrk> <mrk mid="1" mtype="seg">If none of the options are wanted, use 0 for options.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If default name is given, options must also be given.</mrk> <mrk mid="1" mtype="seg">If none of the options are wanted, use 0 for options.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> Special Windows folders (such as "My Documents") can be set as root by using the right CLSID detailed in the <bpt id="1" ctype="x-a">&lt;a href="../appendix/clsid.htm"></bpt>Appendix<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">Special Windows folders (such as "My Documents") can be set as root by using the right CLSID detailed in the <bpt id="1" ctype="x-a">&lt;a href="../appendix/clsid.htm"></bpt>Appendix<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Special Windows folders (such as "My Documents") can be set as root by using the right CLSID detailed in the <bpt id="1" ctype="x-a">&lt;a href="../appendix/clsid.htm"></bpt>Appendix<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="../macros/AutoItRelated.htm"></bpt>@WorkingDir<ept id="1">&lt;/a></ept> is changed on successful return.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="../macros/AutoItRelated.htm"></bpt>@WorkingDir<ept id="1">&lt;/a></ept> is changed on successful return.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="../macros/AutoItRelated.htm"></bpt>@WorkingDir<ept id="1">&lt;/a></ept> is changed on successful return.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Create a constant variable in Local scope of the message to display in FileOpenDialog.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a constant variable in Local scope of the message to display in FileOpenDialog.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a constant variable in Local scope of the message to display in FileOpenDialog.</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Hold down Ctrl or Shift to choose multiple files.</source>
+<seg-source><mrk mid="0" mtype="seg">Hold down Ctrl or Shift to choose multiple files.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hold down Ctrl or Shift to choose multiple files.</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Display an open dialog to select a list of file(s).</source>
+<seg-source><mrk mid="0" mtype="seg">Display an open dialog to select a list of file(s).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display an open dialog to select a list of file(s).</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">\</source>
+<seg-source><mrk mid="0" mtype="seg">\</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Images (*.jpg;*.bmp)|Videos (*.avi;*.mpg)</source>
+<seg-source><mrk mid="0" mtype="seg">Images (*.jpg;*.bmp)|Videos (*.avi;*.mpg)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Images (*.jpg;*.bmp)|Videos (*.avi;*.mpg)</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Display the error message.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the error message.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the error message.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">No file(s) were selected.</source>
+<seg-source><mrk mid="0" mtype="seg">No file(s) were selected.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No file(s) were selected.</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Change the working directory (@WorkingDir) back to the location of the script directory as FileOpenDialog sets it to the last accessed folder.</source>
+<seg-source><mrk mid="0" mtype="seg">Change the working directory (@WorkingDir) back to the location of the script directory as FileOpenDialog sets it to the last accessed folder.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Change the working directory (@WorkingDir) back to the location of the script directory as FileOpenDialog sets it to the last accessed folder.</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Change the working directory (@WorkingDir) back to the location of the script directory as FileOpenDialog sets it to the last accessed folder.</source>
+<seg-source><mrk mid="0" mtype="seg">Change the working directory (@WorkingDir) back to the location of the script directory as FileOpenDialog sets it to the last accessed folder.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Change the working directory (@WorkingDir) back to the location of the script directory as FileOpenDialog sets it to the last accessed folder.</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Replace instances of "|" with @CRLF in the string returned by FileOpenDialog.</source>
+<seg-source><mrk mid="0" mtype="seg">Replace instances of "|" with @CRLF in the string returned by FileOpenDialog.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Replace instances of "|" with @CRLF in the string returned by FileOpenDialog.</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">|</source>
+<seg-source><mrk mid="0" mtype="seg">|</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">|</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Display the list of selected files.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the list of selected files.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the list of selected files.</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">You chose the following files:</source>
+<seg-source><mrk mid="0" mtype="seg">You chose the following files:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You chose the following files:</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Create a constant variable in Local scope of the message to display in FileOpenDialog.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a constant variable in Local scope of the message to display in FileOpenDialog.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a constant variable in Local scope of the message to display in FileOpenDialog.</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Select a single file of any type.</source>
+<seg-source><mrk mid="0" mtype="seg">Select a single file of any type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Select a single file of any type.</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Display an open dialog to select a file.</source>
+<seg-source><mrk mid="0" mtype="seg">Display an open dialog to select a file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display an open dialog to select a file.</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">\</source>
+<seg-source><mrk mid="0" mtype="seg">\</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">All (*.*)</source>
+<seg-source><mrk mid="0" mtype="seg">All (*.*)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All (*.*)</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Display the error message.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the error message.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the error message.</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">No file was selected.</source>
+<seg-source><mrk mid="0" mtype="seg">No file was selected.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No file was selected.</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Change the working directory (@WorkingDir) back to the location of the script directory as FileOpenDialog sets it to the last accessed folder.</source>
+<seg-source><mrk mid="0" mtype="seg">Change the working directory (@WorkingDir) back to the location of the script directory as FileOpenDialog sets it to the last accessed folder.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Change the working directory (@WorkingDir) back to the location of the script directory as FileOpenDialog sets it to the last accessed folder.</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Change the working directory (@WorkingDir) back to the location of the script directory as FileOpenDialog sets it to the last accessed folder.</source>
+<seg-source><mrk mid="0" mtype="seg">Change the working directory (@WorkingDir) back to the location of the script directory as FileOpenDialog sets it to the last accessed folder.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Change the working directory (@WorkingDir) back to the location of the script directory as FileOpenDialog sets it to the last accessed folder.</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Replace instances of "|" with @CRLF in the string returned by FileOpenDialog.</source>
+<seg-source><mrk mid="0" mtype="seg">Replace instances of "|" with @CRLF in the string returned by FileOpenDialog.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Replace instances of "|" with @CRLF in the string returned by FileOpenDialog.</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">|</source>
+<seg-source><mrk mid="0" mtype="seg">|</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">|</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">Display the selected file.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the selected file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the selected file.</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">You chose the following file:</source>
+<seg-source><mrk mid="0" mtype="seg">You chose the following file:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You chose the following file:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

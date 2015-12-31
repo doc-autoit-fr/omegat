@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUICtrlEdit_Scroll.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Scrolls the text vertically</source>
+<seg-source><mrk mid="0" mtype="seg">Scrolls the text vertically</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scrolls the text vertically</mrk></target>
+<note>Function _GUICtrlEdit_Scroll</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Control ID/Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">This parameter can be one of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg">This parameter can be one of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This parameter can be one of the following values:</mrk></target>
+<note>$iDirection</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $SB_LINEDOWN - Scrolls down one line</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SB_LINEDOWN - Scrolls down one line</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SB_LINEDOWN - Scrolls down one line</mrk></target>
+<note>$iDirection</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $SB_LINEUP - Scrolls up one line</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SB_LINEUP - Scrolls up one line</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SB_LINEUP - Scrolls up one line</mrk></target>
+<note>$iDirection</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $SB_PAGEDOWN - Scrolls down one page</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SB_PAGEDOWN - Scrolls down one page</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SB_PAGEDOWN - Scrolls down one page</mrk></target>
+<note>$iDirection</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $SB_PAGEUP - Scrolls up one page</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SB_PAGEUP - Scrolls up one page</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SB_PAGEUP - Scrolls up one page</mrk></target>
+<note>$iDirection</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $SB_SCROLLCARET - Scrolls the caret into view</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SB_SCROLLCARET - Scrolls the caret into view</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SB_SCROLLCARET - Scrolls the caret into view</mrk></target>
+<note>$iDirection</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">The high-order word of the return value is 1.</source>
+<seg-source><mrk mid="0" mtype="seg">The high-order word of the return value is 1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The high-order word of the return value is 1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> The low-order word is the number of lines that the command scrolls.</source>
+<seg-source> <mrk mid="0" mtype="seg">The low-order word is the number of lines that the command scrolls.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The low-order word is the number of lines that the command scrolls.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">$SB_xxxxx require #include &lt;ScrollBarsConstants.au3></source>
+<seg-source><mrk mid="0" mtype="seg">$SB_xxxxx require #include &lt;ScrollBarsConstants.au3></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$SB_xxxxx require #include &lt;ScrollBarsConstants.au3></mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Edit Scroll</source>
+<seg-source><mrk mid="0" mtype="seg">Edit Scroll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Edit Scroll</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Set Text</source>
+<seg-source><mrk mid="0" mtype="seg">Set Text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set Text</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Information</source>
+<seg-source><mrk mid="0" mtype="seg">Information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Information</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Scroll Line Down</source>
+<seg-source><mrk mid="0" mtype="seg">Scroll Line Down</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scroll Line Down</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Information</source>
+<seg-source><mrk mid="0" mtype="seg">Information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Information</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Scroll Line Up</source>
+<seg-source><mrk mid="0" mtype="seg">Scroll Line Up</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scroll Line Up</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Information</source>
+<seg-source><mrk mid="0" mtype="seg">Information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Information</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Scroll Page Down</source>
+<seg-source><mrk mid="0" mtype="seg">Scroll Page Down</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scroll Page Down</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Information</source>
+<seg-source><mrk mid="0" mtype="seg">Information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Information</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Scroll Page Up</source>
+<seg-source><mrk mid="0" mtype="seg">Scroll Page Up</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scroll Page Up</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Information</source>
+<seg-source><mrk mid="0" mtype="seg">Information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Information</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Scroll Caret</source>
+<seg-source><mrk mid="0" mtype="seg">Scroll Caret</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scroll Caret</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_Security__CreateProcessWithToken.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a new process and its primary thread running in the security context of the specified token</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a new process and its primary thread running in the security context of the specified token</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a new process and its primary thread running in the security context of the specified token</mrk></target>
+<note>Function _Security__CreateProcessWithToken</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">A handle to the primary token that represents a user</source>
+<seg-source><mrk mid="0" mtype="seg">A handle to the primary token that represents a user</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A handle to the primary token that represents a user</mrk></target>
+<note>$hToken</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The logon option</source>
+<seg-source><mrk mid="0" mtype="seg">The logon option</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The logon option</mrk></target>
+<note>$iLogonFlags</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The command line to be executed</source>
+<seg-source><mrk mid="0" mtype="seg">The command line to be executed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The command line to be executed</mrk></target>
+<note>$sCommandLine</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The flags that control how the process is created</source>
+<seg-source><mrk mid="0" mtype="seg">The flags that control how the process is created</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The flags that control how the process is created</mrk></target>
+<note>$iCreationFlags</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">The full path to the current directory for the process</source>
+<seg-source><mrk mid="0" mtype="seg">The full path to the current directory for the process</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The full path to the current directory for the process</mrk></target>
+<note>$sCurDir</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">A (pointer to a) STARTUPINFO structure</source>
+<seg-source><mrk mid="0" mtype="seg">A (pointer to a) STARTUPINFO structure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A (pointer to a) STARTUPINFO structure</mrk></target>
+<note>$tSTARTUPINFO</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">A (pointer to a) PROCESS_INFORMATION structure that receives identification information for the new process</source>
+<seg-source><mrk mid="0" mtype="seg">A (pointer to a) PROCESS_INFORMATION structure that receives identification information for the new process</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A (pointer to a) PROCESS_INFORMATION structure that receives identification information for the new process</mrk></target>
+<note>$tPROCESS_INFORMATION</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">False.</source>
+<seg-source><mrk mid="0" mtype="seg">False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">The module name must be the first white space–delimited token in the $sCommandLine parameter.</source>
+<seg-source><mrk mid="0" mtype="seg">The module name must be the first white space–delimited token in the $sCommandLine parameter.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The module name must be the first white space–delimited token in the $sCommandLine parameter.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateProcessWithTokenW);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateProcessWithTokenW<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateProcessWithTokenW);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateProcessWithTokenW<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateProcessWithTokenW);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateProcessWithTokenW<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">for this example to have sense</source>
+<seg-source><mrk mid="0" mtype="seg">for this example to have sense</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">for this example to have sense</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Run AutoIt non-elevated regardless of having full administrator rights obtained using #RequireAdmin or by any other means</source>
+<seg-source><mrk mid="0" mtype="seg">Run AutoIt non-elevated regardless of having full administrator rights obtained using #RequireAdmin or by any other means</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Run AutoIt non-elevated regardless of having full administrator rights obtained using #RequireAdmin or by any other means</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">" /AutoIt3ExecuteLine "MsgBox(4096, ''RunNonElevated'', ''IsAdmin() = '' &amp; "IsAdmin()" &amp; '', PID = '' &amp; "@AutoItPID")"</source>
+<seg-source><mrk mid="0" mtype="seg">" /AutoIt3ExecuteLine "MsgBox(4096, ''RunNonElevated'', ''IsAdmin() = '' &amp; "IsAdmin()" &amp; '', PID = '' &amp; "@AutoItPID")"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">" /AutoIt3ExecuteLine "MsgBox(4096, ''RunNonElevated'', ''IsAdmin() = '' &amp; "IsAdmin()" &amp; '', PID = '' &amp; "@AutoItPID")"</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">if current process is run non-elevated then just Run new one.</source>
+<seg-source><mrk mid="0" mtype="seg">if current process is run non-elevated then just Run new one.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">if current process is run non-elevated then just Run new one.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Structures needed for creating process</source>
+<seg-source><mrk mid="0" mtype="seg">Structures needed for creating process</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Structures needed for creating process</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Process handle of some process that's run non-elevated. For example "Explorer"</source>
+<seg-source><mrk mid="0" mtype="seg">Process handle of some process that's run non-elevated.</mrk> <mrk mid="1" mtype="seg">For example "Explorer"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Process handle of some process that's run non-elevated.</mrk> <mrk mid="1" mtype="seg">For example "Explorer"</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">explorer.exe</source>
+<seg-source><mrk mid="0" mtype="seg">explorer.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">explorer.exe</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">If successful</source>
+<seg-source><mrk mid="0" mtype="seg">If successful</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If successful</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Token...</source>
+<seg-source><mrk mid="0" mtype="seg">Token...</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Token...</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Process handle is no longer needed. Close it</source>
+<seg-source><mrk mid="0" mtype="seg">Process handle is no longer needed.</mrk> <mrk mid="1" mtype="seg">Close it</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Process handle is no longer needed.</mrk> <mrk mid="1" mtype="seg">Close it</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">If successful</source>
+<seg-source><mrk mid="0" mtype="seg">If successful</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If successful</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Duplicate the original token</source>
+<seg-source><mrk mid="0" mtype="seg">Duplicate the original token</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Duplicate the original token</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Close the original token</source>
+<seg-source><mrk mid="0" mtype="seg">Close the original token</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the original token</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">If successful</source>
+<seg-source><mrk mid="0" mtype="seg">If successful</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If successful</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Create process with this new token</source>
+<seg-source><mrk mid="0" mtype="seg">Create process with this new token</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create process with this new token</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Close that token</source>
+<seg-source><mrk mid="0" mtype="seg">Close that token</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close that token</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Close get handles</source>
+<seg-source><mrk mid="0" mtype="seg">Close get handles</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close get handles</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">hProcess</source>
+<seg-source><mrk mid="0" mtype="seg">hProcess</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hProcess</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">hThread</source>
+<seg-source><mrk mid="0" mtype="seg">hThread</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hThread</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Return PID of newly created process</source>
+<seg-source><mrk mid="0" mtype="seg">Return PID of newly created process</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return PID of newly created process</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">ProcessID</source>
+<seg-source><mrk mid="0" mtype="seg">ProcessID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ProcessID</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

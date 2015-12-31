@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUICtrlButton_GetSplitInfo.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Gets information for a split button control</source>
+<seg-source><mrk mid="0" mtype="seg">Gets information for a split button control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Gets information for a split button control</mrk></target>
+<note>Function _GUICtrlButton_GetSplitInfo</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Control ID/Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">an array of the following</source>
+<seg-source><mrk mid="0" mtype="seg">an array of the following</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an array of the following</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> [0] - A handle to the image list</source>
+<seg-source> <mrk mid="0" mtype="seg">[0] - A handle to the image list</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[0] - A handle to the image list</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> [1] - The split button style, can be one or more of the following:</source>
+<seg-source> <mrk mid="0" mtype="seg">[1] - The split button style, can be one or more of the following:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[1] - The split button style, can be one or more of the following:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $BCSS_ALIGNLEFT - Align the image or glyph horizontally with the left margin</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BCSS_ALIGNLEFT - Align the image or glyph horizontally with the left margin</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BCSS_ALIGNLEFT - Align the image or glyph horizontally with the left margin</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $BCSS_IMAGE - Draw an icon image as the glyph</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BCSS_IMAGE - Draw an icon image as the glyph</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BCSS_IMAGE - Draw an icon image as the glyph</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $BCSS_NOSPLIT - No split</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BCSS_NOSPLIT - No split</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BCSS_NOSPLIT - No split</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $BCSS_STRETCH - Stretch glyph, but try to retain aspect ratio</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BCSS_STRETCH - Stretch glyph, but try to retain aspect ratio</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BCSS_STRETCH - Stretch glyph, but try to retain aspect ratio</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> [2] - Width of the glyph</source>
+<seg-source> <mrk mid="0" mtype="seg">[2] - Width of the glyph</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[2] - Width of the glyph</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> [3] - Height of the glyph</source>
+<seg-source> <mrk mid="0" mtype="seg">[3] - Height of the glyph</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[3] - Height of the glyph</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">This function works only with the $BS_SPLITBUTTON and $BS_DEFSPLITBUTTON button styles.</source>
+<seg-source><mrk mid="0" mtype="seg">This function works only with the $BS_SPLITBUTTON and $BS_DEFSPLITBUTTON button styles.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function works only with the $BS_SPLITBUTTON and $BS_DEFSPLITBUTTON button styles.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(BCM_GETSPLITINFO);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>BCM_GETSPLITINFO<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(BCM_GETSPLITINFO);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>BCM_GETSPLITINFO<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(BCM_GETSPLITINFO);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>BCM_GETSPLITINFO<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Note the controlID from these buttons can NOT be read with GUICtrlRead</source>
+<seg-source><mrk mid="0" mtype="seg">Note the controlID from these buttons can NOT be read with GUICtrlRead</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Note the controlID from these buttons can NOT be read with GUICtrlRead</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Buttons</source>
+<seg-source><mrk mid="0" mtype="seg">Buttons</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Buttons</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Split Button</source>
+<seg-source><mrk mid="0" mtype="seg">Split Button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Split Button</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Split Button 2</source>
+<seg-source><mrk mid="0" mtype="seg">Split Button 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Split Button 2</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">WM_COMMAND</source>
+<seg-source><mrk mid="0" mtype="seg">WM_COMMAND</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_COMMAND</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">WM_NOTIFY</source>
+<seg-source><mrk mid="0" mtype="seg">WM_NOTIFY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_NOTIFY</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Split Info</source>
+<seg-source><mrk mid="0" mtype="seg">Split Info</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Split Info</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">----------------</source>
+<seg-source><mrk mid="0" mtype="seg">----------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">----------------</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">$ainfo[</source>
+<seg-source><mrk mid="0" mtype="seg">$ainfo[</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$ainfo[</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">] =</source>
+<seg-source><mrk mid="0" mtype="seg">] =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">] =</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Split Info</source>
+<seg-source><mrk mid="0" mtype="seg">Split Info</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Split Info</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">----------------</source>
+<seg-source><mrk mid="0" mtype="seg">----------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">----------------</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Write a line to the memo control</source>
+<seg-source><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">hwnd hWndFrom;int IDFrom;int Code;dword dwFlags</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd hWndFrom;int IDFrom;int Code;dword dwFlags</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd hWndFrom;int IDFrom;int Code;dword dwFlags</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">dwFlags</source>
+<seg-source><mrk mid="0" mtype="seg">dwFlags</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">dwFlags</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Win XP and Above</source>
+<seg-source><mrk mid="0" mtype="seg">Win XP and Above</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Win XP and Above</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">$BCN_HOTITEMCHANGE - Entering:</source>
+<seg-source><mrk mid="0" mtype="seg">$BCN_HOTITEMCHANGE - Entering:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$BCN_HOTITEMCHANGE - Entering:</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">$BCN_HOTITEMCHANGE - Leaving:</source>
+<seg-source><mrk mid="0" mtype="seg">$BCN_HOTITEMCHANGE - Leaving:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$BCN_HOTITEMCHANGE - Leaving:</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">-----------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">-----------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-----------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">WM_NOTIFY - Infos:</source>
+<seg-source><mrk mid="0" mtype="seg">WM_NOTIFY - Infos:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_NOTIFY - Infos:</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">-----------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">-----------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-----------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">:</source>
+<seg-source><mrk mid="0" mtype="seg">:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">:</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">CtrlID</source>
+<seg-source><mrk mid="0" mtype="seg">CtrlID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CtrlID</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">:</source>
+<seg-source><mrk mid="0" mtype="seg">:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">:</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">CtrlHWnd:</source>
+<seg-source><mrk mid="0" mtype="seg">CtrlHWnd:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CtrlHWnd:</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">$BCN_DROPDOWN</source>
+<seg-source><mrk mid="0" mtype="seg">$BCN_DROPDOWN</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$BCN_DROPDOWN</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Open</source>
+<seg-source><mrk mid="0" mtype="seg">Open</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">Save</source>
+<seg-source><mrk mid="0" mtype="seg">Save</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Save</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Info</source>
+<seg-source><mrk mid="0" mtype="seg">Info</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Info</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Open - Selected</source>
+<seg-source><mrk mid="0" mtype="seg">Open - Selected</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open - Selected</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">Save - Selected</source>
+<seg-source><mrk mid="0" mtype="seg">Save - Selected</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Save - Selected</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">Info - Selected</source>
+<seg-source><mrk mid="0" mtype="seg">Info - Selected</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Info - Selected</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">React on a button click</source>
+<seg-source><mrk mid="0" mtype="seg">React on a button click</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">React on a button click</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">$BN_CLICKED</source>
+<seg-source><mrk mid="0" mtype="seg">$BN_CLICKED</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$BN_CLICKED</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">$BN_PAINT</source>
+<seg-source><mrk mid="0" mtype="seg">$BN_PAINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$BN_PAINT</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">$BN_PUSHED, $BN_HILITE</source>
+<seg-source><mrk mid="0" mtype="seg">$BN_PUSHED, $BN_HILITE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$BN_PUSHED, $BN_HILITE</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">$BN_UNPUSHED</source>
+<seg-source><mrk mid="0" mtype="seg">$BN_UNPUSHED</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$BN_UNPUSHED</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">$BN_DISABLE</source>
+<seg-source><mrk mid="0" mtype="seg">$BN_DISABLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$BN_DISABLE</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">$BN_DBLCLK, $BN_DOUBLECLICKED</source>
+<seg-source><mrk mid="0" mtype="seg">$BN_DBLCLK, $BN_DOUBLECLICKED</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$BN_DBLCLK, $BN_DOUBLECLICKED</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">$BN_SETFOCUS</source>
+<seg-source><mrk mid="0" mtype="seg">$BN_SETFOCUS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$BN_SETFOCUS</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">$BN_KILLFOCUS</source>
+<seg-source><mrk mid="0" mtype="seg">$BN_KILLFOCUS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$BN_KILLFOCUS</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">-----------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">-----------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-----------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">WM_COMMAND - Infos:</source>
+<seg-source><mrk mid="0" mtype="seg">WM_COMMAND - Infos:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_COMMAND - Infos:</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">-----------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">-----------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-----------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">:</source>
+<seg-source><mrk mid="0" mtype="seg">:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">:</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">CtrlID</source>
+<seg-source><mrk mid="0" mtype="seg">CtrlID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CtrlID</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">:</source>
+<seg-source><mrk mid="0" mtype="seg">:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">:</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">CtrlHWnd:</source>
+<seg-source><mrk mid="0" mtype="seg">CtrlHWnd:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CtrlHWnd:</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">Only workout clicking on the button</source>
+<seg-source><mrk mid="0" mtype="seg">Only workout clicking on the button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Only workout clicking on the button</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">Proceed the default AutoIt3 internal message commands.</source>
+<seg-source><mrk mid="0" mtype="seg">Proceed the default AutoIt3 internal message commands.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Proceed the default AutoIt3 internal message commands.</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">You also can complete let the line out.</source>
+<seg-source><mrk mid="0" mtype="seg">You also can complete let the line out.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You also can complete let the line out.</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">!!! But only 'Return' (without any value) will not proceed</source>
+<seg-source><mrk mid="0" mtype="seg">!!!</mrk> <mrk mid="1" mtype="seg">But only 'Return' (without any value) will not proceed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!!!</mrk> <mrk mid="1" mtype="seg">But only 'Return' (without any value) will not proceed</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">the default AutoIt3-message in the future !!!</source>
+<seg-source><mrk mid="0" mtype="seg">the default AutoIt3-message in the future !!!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the default AutoIt3-message in the future !!!</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

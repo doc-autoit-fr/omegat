@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUIToolTip_GetMargin.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the top, left, bottom, and right margins of a ToolTip control</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the top, left, bottom, and right margins of a ToolTip control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the top, left, bottom, and right margins of a ToolTip control</mrk></target>
+<note>Function _GUIToolTip_GetMargin</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> Handle to the ToolTip control (returned by <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_Create.htm"></bpt>_GUIToolTip_Create.<ept id="1">&lt;/a></ept>) </source>
+<seg-source> <mrk mid="0" mtype="seg">Handle to the ToolTip control (returned by <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_Create.htm"></bpt>_GUIToolTip_Create.<ept id="1">&lt;/a></ept>)</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Handle to the ToolTip control (returned by <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_Create.htm"></bpt>_GUIToolTip_Create.<ept id="1">&lt;/a></ept>)</mrk> </target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Returns an array with the following format:</source>
+<seg-source><mrk mid="0" mtype="seg">Returns an array with the following format:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns an array with the following format:</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> [0] - Distance between top left border and top left of text, in pixels</source>
+<seg-source> <mrk mid="0" mtype="seg">[0] - Distance between top left border and top left of text, in pixels</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[0] - Distance between top left border and top left of text, in pixels</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> [1] - Distance between left top border and left top end of text, in pixels</source>
+<seg-source> <mrk mid="0" mtype="seg">[1] - Distance between left top border and left top end of text, in pixels</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[1] - Distance between left top border and left top end of text, in pixels</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> [2] - Distance between bottom right border and bottom right of text, in pixels</source>
+<seg-source> <mrk mid="0" mtype="seg">[2] - Distance between bottom right border and bottom right of text, in pixels</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[2] - Distance between bottom right border and bottom right of text, in pixels</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> [3] - Distance between right bottom border and right bottom end of text, in pixels</source>
+<seg-source> <mrk mid="0" mtype="seg">[3] - Distance between right bottom border and right bottom end of text, in pixels</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[3] - Distance between right bottom border and right bottom end of text, in pixels</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">.exe</source>
+<seg-source><mrk mid="0" mtype="seg">.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.exe</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Button ToolTip</source>
+<seg-source><mrk mid="0" mtype="seg">Button ToolTip</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Button ToolTip</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Create a tooltip control</source>
+<seg-source><mrk mid="0" mtype="seg">Create a tooltip control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a tooltip control</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">If using a Windows theme setting, this will disable that for the tooltip displayed, so you can change</source>
+<seg-source><mrk mid="0" mtype="seg">If using a Windows theme setting, this will disable that for the tooltip displayed, so you can change</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If using a Windows theme setting, this will disable that for the tooltip displayed, so you can change</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">the margins and have the change seen</source>
+<seg-source><mrk mid="0" mtype="seg">the margins and have the change seen</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the margins and have the change seen</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">This is only used because the tooltip is a multiline tool, you don't need this to change</source>
+<seg-source><mrk mid="0" mtype="seg">This is only used because the tooltip is a multiline tool, you don't need this to change</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is only used because the tooltip is a multiline tool, you don't need this to change</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">the margins</source>
+<seg-source><mrk mid="0" mtype="seg">the margins</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the margins</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Manually set the margins of the tooltip instead of using default settings.</source>
+<seg-source><mrk mid="0" mtype="seg">Manually set the margins of the tooltip instead of using default settings.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Manually set the margins of the tooltip instead of using default settings.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Add a tool to the first tooltip control</source>
+<seg-source><mrk mid="0" mtype="seg">Add a tool to the first tooltip control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add a tool to the first tooltip control</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Left :</source>
+<seg-source><mrk mid="0" mtype="seg">Left :</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Left :</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Top :</source>
+<seg-source><mrk mid="0" mtype="seg">Top :</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Top :</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Right :</source>
+<seg-source><mrk mid="0" mtype="seg">Right :</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Right :</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Bottom :</source>
+<seg-source><mrk mid="0" mtype="seg">Bottom :</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bottom :</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">This is the ToolTip with manually set margins</source>
+<seg-source><mrk mid="0" mtype="seg">This is the ToolTip with manually set margins</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is the ToolTip with manually set margins</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Add a tool to the second tooltip control</source>
+<seg-source><mrk mid="0" mtype="seg">Add a tool to the second tooltip control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add a tool to the second tooltip control</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Left :</source>
+<seg-source><mrk mid="0" mtype="seg">Left :</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Left :</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Top :</source>
+<seg-source><mrk mid="0" mtype="seg">Top :</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Top :</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Right :</source>
+<seg-source><mrk mid="0" mtype="seg">Right :</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Right :</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Bottom :</source>
+<seg-source><mrk mid="0" mtype="seg">Bottom :</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bottom :</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">This is the ToolTip with default margins</source>
+<seg-source><mrk mid="0" mtype="seg">This is the ToolTip with default margins</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is the ToolTip with default margins</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Destroy the tooltip control</source>
+<seg-source><mrk mid="0" mtype="seg">Destroy the tooltip control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Destroy the tooltip control</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

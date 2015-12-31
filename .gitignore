@@ -1,0 +1,22 @@
+*.*
+
+!.gitignore
+
+!/manifest.rkm
+!/omegat.project
+
+!/dictionary/
+!/glossary/glossary.txt
+!/omegat/filters.xml
+!/omegat/project_save.tmx
+!/original/**
+!/source/**
+!/tm/**
+
+# doit toujours être ignoré
+/omegat/ignored_words.txt
+/omegat/learned_words.txt
+/omegat/project_stats.txt
+/omegat/project_stats_match.txt
+
+*.bak

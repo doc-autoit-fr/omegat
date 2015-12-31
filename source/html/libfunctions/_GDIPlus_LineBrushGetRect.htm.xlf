@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GDIPlus_LineBrushGetRect.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Gets the rectangle that defines the boundaries of a linear gradient brush</source>
+<seg-source><mrk mid="0" mtype="seg">Gets the rectangle that defines the boundaries of a linear gradient brush</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Gets the rectangle that defines the boundaries of a linear gradient brush</mrk></target>
+<note>Function _GDIPlus_LineBrushGetRect</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Pointer to a LinearGradientBrush object</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to a LinearGradientBrush object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to a LinearGradientBrush object</mrk></target>
+<note>$hLineGradientBrush</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">an array containing the rectangle boundaries:</source>
+<seg-source><mrk mid="0" mtype="seg">an array containing the rectangle boundaries:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an array containing the rectangle boundaries:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     [0] - X coordinate of the upper-left corner of the rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">    [0] - X coordinate of the upper-left corner of the rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [0] - X coordinate of the upper-left corner of the rectangle</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     [1] - Y coordinate of the upper-left corner of the rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1] - Y coordinate of the upper-left corner of the rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1] - Y coordinate of the upper-left corner of the rectangle</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     [2] - Width of the rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">    [2] - Width of the rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [2] - Width of the rectangle</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     [3] - Height of the rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">    [3] - Height of the rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [3] - Height of the rectangle</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipGetLineRect"></bpt>GdipGetLineRect<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipGetLineRect"></bpt>GdipGetLineRect<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipGetLineRect"></bpt>GdipGetLineRect<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">GDI+</source>
+<seg-source><mrk mid="0" mtype="seg">GDI+</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GDI+</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Clean up resources</source>
+<seg-source><mrk mid="0" mtype="seg">Clean up resources</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Clean up resources</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

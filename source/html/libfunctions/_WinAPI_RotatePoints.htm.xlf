@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_RotatePoints.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Rotates a points from the array by the specified angle</source>
+<seg-source><mrk mid="0" mtype="seg">Rotates a points from the array by the specified angle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Rotates a points from the array by the specified angle</mrk></target>
+<note>Function _WinAPI_RotatePoints</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The 2D array ([x1, y1, ...], [x2, y2, ...], ... [xN, yN, ...]). Every first two elements from this</source>
+<seg-source><mrk mid="0" mtype="seg">The 2D array ([x1, y1, ...],</mrk> <mrk mid="1" mtype="seg">[x2, y2, ...],</mrk> <mrk mid="2" mtype="seg">... [xN, yN, ...]).</mrk> <mrk mid="3" mtype="seg">Every first two elements from this</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The 2D array ([x1, y1, ...],</mrk> <mrk mid="1" mtype="seg">[x2, y2, ...],</mrk> <mrk mid="2" mtype="seg">... [xN, yN, ...]).</mrk> <mrk mid="3" mtype="seg">Every first two elements from this</mrk></target>
+<note>$aPoint</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> array specifies a point to be rotate. Other array elements (if any) do not change.</source>
+<seg-source> <mrk mid="0" mtype="seg">array specifies a point to be rotate.</mrk> <mrk mid="1" mtype="seg">Other array elements (if any) do not change.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">array specifies a point to be rotate.</mrk> <mrk mid="1" mtype="seg">Other array elements (if any) do not change.</mrk></target>
+<note>$aPoint</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The x-coordinates of the point on which there is a rotation, in logical units.</source>
+<seg-source><mrk mid="0" mtype="seg">The x-coordinates of the point on which there is a rotation, in logical units.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The x-coordinates of the point on which there is a rotation, in logical units.</mrk></target>
+<note>$iXC</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The y-coordinates of the point on which there is a rotation, in logical units.</source>
+<seg-source><mrk mid="0" mtype="seg">The y-coordinates of the point on which there is a rotation, in logical units.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The y-coordinates of the point on which there is a rotation, in logical units.</mrk></target>
+<note>$iYC</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">The angle to rotate, in degree.</source>
+<seg-source><mrk mid="0" mtype="seg">The angle to rotate, in degree.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The angle to rotate, in degree.</mrk></target>
+<note>$fAngle</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The index of array to start rotating at.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array to start rotating at.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array to start rotating at.</mrk></target>
+<note>$iStart</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The index of array to stop rotating at.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array to stop rotating at.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array to stop rotating at.</mrk></target>
+<note>$iEnd</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">This function does not round a coordinate values after transformation, it can be a float type.</source>
+<seg-source><mrk mid="0" mtype="seg">This function does not round a coordinate values after transformation, it can be a float type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function does not round a coordinate values after transformation, it can be a float type.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">TrayAutoPause</source>
+<seg-source><mrk mid="0" mtype="seg">TrayAutoPause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayAutoPause</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Load image</source>
+<seg-source><mrk mid="0" mtype="seg">Load image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Load image</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">\Extras\Compass.bmp</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\Compass.bmp</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\Compass.bmp</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Set bitmap to control with rotate</source>
+<seg-source><mrk mid="0" mtype="seg">Set bitmap to control with rotate</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set bitmap to control with rotate</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Register WM_HSCROLL message for live scrolling and show GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Register WM_HSCROLL message for live scrolling and show GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Register WM_HSCROLL message for live scrolling and show GUI</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">WM_HSCROLL</source>
+<seg-source><mrk mid="0" mtype="seg">WM_HSCROLL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_HSCROLL</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUICtrlComboBoxEx_LimitText.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Limits the length of the text the user may type into the edit control of a ComboBox</source>
+<seg-source><mrk mid="0" mtype="seg">Limits the length of the text the user may type into the edit control of a ComboBox</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Limits the length of the text the user may type into the edit control of a ComboBox</mrk></target>
+<note>Function _GUICtrlComboBoxEx_LimitText</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Limit length of the text</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Limit length of the text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Limit length of the text</mrk></target>
+<note>$iLimit</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">None.</source>
+<seg-source><mrk mid="0" mtype="seg">None.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None.</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">If the $iLimit parameter is zero, the text length is limited to 0x7FFFFFFE characters.</source>
+<seg-source><mrk mid="0" mtype="seg">If the $iLimit parameter is zero, the text length is limited to 0x7FFFFFFE characters.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the $iLimit parameter is zero, the text length is limited to 0x7FFFFFFE characters.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> If the ComboBox does not have the $CBS_AUTOHSCROLL style, setting the text limit to be larger than the size of the edit control has no effect.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the ComboBox does not have the $CBS_AUTOHSCROLL style, setting the text limit to be larger than the size of the edit control has no effect.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the ComboBox does not have the $CBS_AUTOHSCROLL style, setting the text limit to be larger than the size of the edit control has no effect.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> The <bpt id="1" ctype="x-a">&lt;a href="_GUICtrlComboBox_LimitText.htm"></bpt>_GUICtrlComboBox_LimitText()<ept id="1">&lt;/a></ept> function limits only the text the user can enter.</source>
+<seg-source> <mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_GUICtrlComboBox_LimitText.htm"></bpt>_GUICtrlComboBox_LimitText()<ept id="1">&lt;/a></ept> function limits only the text the user can enter.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_GUICtrlComboBox_LimitText.htm"></bpt>_GUICtrlComboBox_LimitText()<ept id="1">&lt;/a></ept> function limits only the text the user can enter.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> It has no effect on any text already in the edit control when the message is sent, nor does it affect the length of the text copied to the edit control when a string in the ListBox is selected.</source>
+<seg-source> <mrk mid="0" mtype="seg">It has no effect on any text already in the edit control when the message is sent, nor does it affect the length of the text copied to the edit control when a string in the ListBox is selected.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">It has no effect on any text already in the edit control when the message is sent, nor does it affect the length of the text copied to the edit control when a string in the ListBox is selected.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> The default limit to the text a user can enter in the edit control is 30,000 characters.</source>
+<seg-source> <mrk mid="0" mtype="seg">The default limit to the text a user can enter in the edit control is 30,000 characters.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The default limit to the text a user can enter in the edit control is 30,000 characters.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">ComboBoxEx Limit Text</source>
+<seg-source><mrk mid="0" mtype="seg">ComboBoxEx Limit Text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ComboBoxEx Limit Text</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Add files</source>
+<seg-source><mrk mid="0" mtype="seg">Add files</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add files</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">\*.exe</source>
+<seg-source><mrk mid="0" mtype="seg">\*.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\*.exe</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Limit Text in Edit control</source>
+<seg-source><mrk mid="0" mtype="seg">Limit Text in Edit control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Limit Text in Edit control</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

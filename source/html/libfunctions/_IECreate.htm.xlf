@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_IECreate.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Create an Internet Explorer Browser Window</source>
+<seg-source><mrk mid="0" mtype="seg">Create an Internet Explorer Browser Window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create an Internet Explorer Browser Window</mrk></target>
+<note>Function _IECreate</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> specifies the Url to navigate to upon creation</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">specifies the Url to navigate to upon creation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">specifies the Url to navigate to upon creation</mrk></target>
+<note>$sUrl</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> specifies whether to try to attach to an existing window</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">specifies whether to try to attach to an existing window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">specifies whether to try to attach to an existing window</mrk></target>
+<note>$iTryAttach</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     0 = (Default) do not try to attach</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 = (Default) do not try to attach</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 = (Default) do not try to attach</mrk></target>
+<note>$iTryAttach</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     1 = Try to attach to an existing window</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 = Try to attach to an existing window</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 = Try to attach to an existing window</mrk></target>
+<note>$iTryAttach</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> specifies whether the browser window will be visible</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">specifies whether the browser window will be visible</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">specifies whether the browser window will be visible</mrk></target>
+<note>$iVisible</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     0 = Browser Window is hidden</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 = Browser Window is hidden</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 = Browser Window is hidden</mrk></target>
+<note>$iVisible</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     1 = (Default) Browser Window is visible</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 = (Default) Browser Window is visible</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 = (Default) Browser Window is visible</mrk></target>
+<note>$iVisible</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> specifies whether to wait for page to load before returning</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">specifies whether to wait for page to load before returning</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">specifies whether to wait for page to load before returning</mrk></target>
+<note>$iWait</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     0 = Return immediately, not waiting for page to load</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 = Return immediately, not waiting for page to load</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 = Return immediately, not waiting for page to load</mrk></target>
+<note>$iWait</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     1 = (Default) Wait for page load to complete before returning</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 = (Default) Wait for page load to complete before returning</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 = (Default) Wait for page load to complete before returning</mrk></target>
+<note>$iWait</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> specifies whether to bring the attached window to focus</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">specifies whether to bring the attached window to focus</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">specifies whether to bring the attached window to focus</mrk></target>
+<note>$iTakeFocus</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     0 = Do not bring window into focus</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 = Do not bring window into focus</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 = Do not bring window into focus</mrk></target>
+<note>$iTakeFocus</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     1 = (Default) bring window into focus</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 = (Default) bring window into focus</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 = (Default) bring window into focus</mrk></target>
+<note>$iTakeFocus</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">an object variable pointing to an InternetExplorer.Application object.</source>
+<seg-source><mrk mid="0" mtype="seg">an object variable pointing to an InternetExplorer.</mrk><mrk mid="1" mtype="seg">Application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an object variable pointing to an InternetExplorer.</mrk><mrk mid="1" mtype="seg">Application object.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">1 ($_IEStatus_GeneralError) - General Error</source>
+<seg-source><mrk mid="0" mtype="seg">1 ($_IEStatus_GeneralError) - General Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 ($_IEStatus_GeneralError) - General Error</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> 3 ($_IEStatus_InvalidDataType) - Invalid Data Type</source>
+<seg-source> <mrk mid="0" mtype="seg">3 ($_IEStatus_InvalidDataType) - Invalid Data Type</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 ($_IEStatus_InvalidDataType) - Invalid Data Type</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> 4 ($_IEStatus_InvalidObjectType) - Invalid Object Type</source>
+<seg-source> <mrk mid="0" mtype="seg">4 ($_IEStatus_InvalidObjectType) - Invalid Object Type</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 ($_IEStatus_InvalidObjectType) - Invalid Object Type</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> 6 ($_IEStatus_LoadWaitTimeout) - Load Wait Timeout</source>
+<seg-source> <mrk mid="0" mtype="seg">6 ($_IEStatus_LoadWaitTimeout) - Load Wait Timeout</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">6 ($_IEStatus_LoadWaitTimeout) - Load Wait Timeout</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> 8 ($_IEStatus_AccessIsDenied) - Access Is Denied</source>
+<seg-source> <mrk mid="0" mtype="seg">8 ($_IEStatus_AccessIsDenied) - Access Is Denied</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">8 ($_IEStatus_AccessIsDenied) - Access Is Denied</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> 9 ($_IEStatus_ClientDisconnected) - Client Disconnected</source>
+<seg-source> <mrk mid="0" mtype="seg">9 ($_IEStatus_ClientDisconnected) - Client Disconnected</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">9 ($_IEStatus_ClientDisconnected) - Client Disconnected</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">@extended:</source>
+<seg-source><mrk mid="0" mtype="seg">@extended:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@extended:</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Set to true (1) or false (0) depending on the success of $iTryAttach</source>
+<seg-source><mrk mid="0" mtype="seg">Set to true (1) or false (0) depending on the success of $iTryAttach</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set to true (1) or false (0) depending on the success of $iTryAttach</mrk></target>
+<note>@extended:</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">When using tryAttach, a No Match error will be displayed to the console from <bpt id="1" ctype="x-a">&lt;a href="_IEAttach.htm"></bpt>_IEAttach()<ept id="1">&lt;/a></ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">When using tryAttach, a No Match error will be displayed to the console from <bpt id="1" ctype="x-a">&lt;a href="_IEAttach.htm"></bpt>_IEAttach()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When using tryAttach, a No Match error will be displayed to the console from <bpt id="1" ctype="x-a">&lt;a href="_IEAttach.htm"></bpt>_IEAttach()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en"> This can be controlled with <bpt id="1" ctype="x-a">&lt;a href="_IEErrorNotify.htm"></bpt>_IEErrorNotify()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">This can be controlled with <bpt id="1" ctype="x-a">&lt;a href="_IEErrorNotify.htm"></bpt>_IEErrorNotify()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This can be controlled with <bpt id="1" ctype="x-a">&lt;a href="_IEErrorNotify.htm"></bpt>_IEErrorNotify()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en"> When opening a local HyperTextApplication (.hta) file, Internet Explorer will open a new browser process for it that will not be accessible through the object variable returned by <bpt id="1" ctype="x-a">&lt;a href="_IECreate.htm"></bpt>_IECreate()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">When opening a local HyperTextApplication (.hta) file, Internet Explorer will open a new browser process for it that will not be accessible through the object variable returned by <bpt id="1" ctype="x-a">&lt;a href="_IECreate.htm"></bpt>_IECreate()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When opening a local HyperTextApplication (.hta) file, Internet Explorer will open a new browser process for it that will not be accessible through the object variable returned by <bpt id="1" ctype="x-a">&lt;a href="_IECreate.htm"></bpt>_IECreate()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en"> To control this new browser you must use <bpt id="1" ctype="x-a">&lt;a href="_IEAttach.htm"></bpt>_IEAttach()<ept id="1">&lt;/a></ept> with the "embedded" option.</source>
+<seg-source> <mrk mid="0" mtype="seg">To control this new browser you must use <bpt id="1" ctype="x-a">&lt;a href="_IEAttach.htm"></bpt>_IEAttach()<ept id="1">&lt;/a></ept> with the "embedded" option.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To control this new browser you must use <bpt id="1" ctype="x-a">&lt;a href="_IEAttach.htm"></bpt>_IEAttach()<ept id="1">&lt;/a></ept> with the "embedded" option.</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en"> New security in Windows Vista causes a new browser window to be created when a browser is instructed to navigate to a URL in a different security zone.</source>
+<seg-source> <mrk mid="0" mtype="seg">New security in Windows Vista causes a new browser window to be created when a browser is instructed to navigate to a URL in a different security zone.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">New security in Windows Vista causes a new browser window to be created when a browser is instructed to navigate to a URL in a different security zone.</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"> This occurs as well with the initial creation and navigation initiated with <bpt id="1" ctype="x-a">&lt;a href="_IECreate.htm"></bpt>_IECreate()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">This occurs as well with the initial creation and navigation initiated with <bpt id="1" ctype="x-a">&lt;a href="_IECreate.htm"></bpt>_IECreate()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This occurs as well with the initial creation and navigation initiated with <bpt id="1" ctype="x-a">&lt;a href="_IECreate.htm"></bpt>_IECreate()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en"> The new window is a new browser instance and the previous browser object variable no longer points to it.</source>
+<seg-source> <mrk mid="0" mtype="seg">The new window is a new browser instance and the previous browser object variable no longer points to it.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The new window is a new browser instance and the previous browser object variable no longer points to it.</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en"> There are several workarounds:</source>
+<seg-source> <mrk mid="0" mtype="seg">There are several workarounds:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">There are several workarounds:</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">     1) add #RequireAdmin to your code (this is required even if the account is part of the Administrator's Group and will prompt for credentials if necessary),</source>
+<seg-source> <mrk mid="0" mtype="seg">    1) add #RequireAdmin to your code (this is required even if the account is part of the Administrator's Group and will prompt for credentials if necessary),</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1) add #RequireAdmin to your code (this is required even if the account is part of the Administrator's Group and will prompt for credentials if necessary),</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">     2) use <bpt id="1" ctype="x-a">&lt;a href="_IEAttach.htm"></bpt>_IEAttach()<ept id="1">&lt;/a></ept> to connect to the new browser window</source>
+<seg-source> <mrk mid="0" mtype="seg">    2) use <bpt id="1" ctype="x-a">&lt;a href="_IEAttach.htm"></bpt>_IEAttach()<ept id="1">&lt;/a></ept> to connect to the new browser window</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    2) use <bpt id="1" ctype="x-a">&lt;a href="_IEAttach.htm"></bpt>_IEAttach()<ept id="1">&lt;/a></ept> to connect to the new browser window</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">     3) add the target website to the Trusted Sites security zone in IE,</source>
+<seg-source> <mrk mid="0" mtype="seg">    3) add the target website to the Trusted Sites security zone in IE,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    3) add the target website to the Trusted Sites security zone in IE,</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">     4) turn off "Protected Mode" in IE,</source>
+<seg-source> <mrk mid="0" mtype="seg">    4) turn off "Protected Mode" in IE,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    4) turn off "Protected Mode" in IE,</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">     or 5) disable UAC. Care must be taken to understand the implications of disabling IE security features when accessing untrusted sites.</source>
+<seg-source> <mrk mid="0" mtype="seg">    or 5) disable UAC.</mrk> <mrk mid="1" mtype="seg">Care must be taken to understand the implications of disabling IE security features when accessing untrusted sites.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    or 5) disable UAC.</mrk> <mrk mid="1" mtype="seg">Care must be taken to understand the implications of disabling IE security features when accessing untrusted sites.</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Create a browser window and navigate to a website</source>
+<seg-source><mrk mid="0" mtype="seg">Create a browser window and navigate to a website</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a browser window and navigate to a website</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">www.autoitscript.com</source>
+<seg-source><mrk mid="0" mtype="seg">www.autoitscript.com</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">www.autoitscript.com</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Create new browser windows pointing to each of 3 different URLs</source>
+<seg-source><mrk mid="0" mtype="seg">Create new browser windows pointing to each of 3 different URLs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create new browser windows pointing to each of 3 different URLs</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">if one does not already exist ($f_tryAttach = 1)</source>
+<seg-source><mrk mid="0" mtype="seg">if one does not already exist ($f_tryAttach = 1)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">if one does not already exist ($f_tryAttach = 1)</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">do not wait for the page loads to complete ($f_wait = 0)</source>
+<seg-source><mrk mid="0" mtype="seg">do not wait for the page loads to complete ($f_wait = 0)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">do not wait for the page loads to complete ($f_wait = 0)</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">www.autoitscript.com</source>
+<seg-source><mrk mid="0" mtype="seg">www.autoitscript.com</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">www.autoitscript.com</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">my.yahoo.com</source>
+<seg-source><mrk mid="0" mtype="seg">my.yahoo.com</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">my.yahoo.com</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">www.google.com</source>
+<seg-source><mrk mid="0" mtype="seg">www.google.com</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">www.google.com</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Attempt to attach to an existing browser displaying a particular website URL</source>
+<seg-source><mrk mid="0" mtype="seg">Attempt to attach to an existing browser displaying a particular website URL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Attempt to attach to an existing browser displaying a particular website URL</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Create a new browser and navigate to that site if one does not already exist</source>
+<seg-source><mrk mid="0" mtype="seg">Create a new browser and navigate to that site if one does not already exist</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a new browser and navigate to that site if one does not already exist</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">www.autoitscript.com</source>
+<seg-source><mrk mid="0" mtype="seg">www.autoitscript.com</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">www.autoitscript.com</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">Check @extended return value to see if attach was successful</source>
+<seg-source><mrk mid="0" mtype="seg">Check @extended return value to see if attach was successful</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check @extended return value to see if attach was successful</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">Attached to Existing Browser</source>
+<seg-source><mrk mid="0" mtype="seg">Attached to Existing Browser</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Attached to Existing Browser</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Created New Browser</source>
+<seg-source><mrk mid="0" mtype="seg">Created New Browser</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Created New Browser</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">Example 4</source>
+<seg-source><mrk mid="0" mtype="seg">Example 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 4</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">Create an empty browser window and populate it with custom HTML</source>
+<seg-source><mrk mid="0" mtype="seg">Create an empty browser window and populate it with custom HTML</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create an empty browser window and populate it with custom HTML</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">&lt;h1>Hello World!&lt;/h1></source>
+<seg-source><mrk mid="0" mtype="seg">&lt;h1>Hello World!&lt;/h1></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&lt;h1>Hello World!&lt;/h1></mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">Example 5</source>
+<seg-source><mrk mid="0" mtype="seg">Example 5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 5</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">Create a browser window attached to a new instance of iexplore.exe</source>
+<seg-source><mrk mid="0" mtype="seg">Create a browser window attached to a new instance of iexplore.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a browser window attached to a new instance of iexplore.exe</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">This is often necessary in order to get a new session cookie context</source>
+<seg-source><mrk mid="0" mtype="seg">This is often necessary in order to get a new session cookie context</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is often necessary in order to get a new session cookie context</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">(session cookies are shared among all browser instances sharing the same iexplore.exe)</source>
+<seg-source><mrk mid="0" mtype="seg">(session cookies are shared among all browser instances sharing the same iexplore.exe)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(session cookies are shared among all browser instances sharing the same iexplore.exe)</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">WinTitleMatchMode</source>
+<seg-source><mrk mid="0" mtype="seg">WinTitleMatchMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WinTitleMatchMode</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">iexplore.exe</source>
+<seg-source><mrk mid="0" mtype="seg">iexplore.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">iexplore.exe</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">about:blank</source>
+<seg-source><mrk mid="0" mtype="seg">about:blank</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">about:blank</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">Windows Internet Explorer</source>
+<seg-source><mrk mid="0" mtype="seg">Windows Internet Explorer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Windows Internet Explorer</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">about:blank</source>
+<seg-source><mrk mid="0" mtype="seg">about:blank</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">about:blank</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">url</source>
+<seg-source><mrk mid="0" mtype="seg">url</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">url</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">www.autoitscript.com</source>
+<seg-source><mrk mid="0" mtype="seg">www.autoitscript.com</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">www.autoitscript.com</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

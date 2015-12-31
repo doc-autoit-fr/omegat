@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_EnumPageFiles.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves information for each installed pagefile in the system</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves information for each installed pagefile in the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves information for each installed pagefile in the system</mrk></target>
+<note>Function _WinAPI_EnumPageFiles</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The 2D array containing pagefile's information.</source>
+<seg-source><mrk mid="0" mtype="seg">The 2D array containing pagefile's information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The 2D array containing pagefile's information.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> [0][0] - Number of rows in array (n)</source>
+<seg-source> <mrk mid="0" mtype="seg">[0][0] - Number of rows in array (n)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[0][0] - Number of rows in array (n)</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> [0][i] - Unused</source>
+<seg-source> <mrk mid="0" mtype="seg">[0][i] - Unused</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[0][i] - Unused</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> [n][0] - The path to pagefile.</source>
+<seg-source> <mrk mid="0" mtype="seg">[n][0] - The path to pagefile.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[n][0] - The path to pagefile.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> [n][1] - The total size of the pagefile, in bytes.</source>
+<seg-source> <mrk mid="0" mtype="seg">[n][1] - The total size of the pagefile, in bytes.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[n][1] - The total size of the pagefile, in bytes.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> [n][2] - The current pagefile usage, in bytes.</source>
+<seg-source> <mrk mid="0" mtype="seg">[n][2] - The current pagefile usage, in bytes.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[n][2] - The current pagefile usage, in bytes.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> [n][3] - The peak pagefile usage, in bytes.</source>
+<seg-source> <mrk mid="0" mtype="seg">[n][3] - The peak pagefile usage, in bytes.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[n][3] - The peak pagefile usage, in bytes.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EnumPageFiles);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EnumPageFiles<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EnumPageFiles);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EnumPageFiles<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EnumPageFiles);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EnumPageFiles<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">_WinAPI_EnumPageFiles</source>
+<seg-source><mrk mid="0" mtype="seg">_WinAPI_EnumPageFiles</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinAPI_EnumPageFiles</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/StringIsFloat.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Checks if a string is a floating point number.</source>
+<seg-source><mrk mid="0" mtype="seg">Checks if a string is a floating point number.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Checks if a string is a floating point number.</mrk></target>
+<note>Function StringIsFloat</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The string or expression to check.</source>
+<seg-source><mrk mid="0" mtype="seg">The string or expression to check.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The string or expression to check.</mrk></target>
+<note>string</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">0 if not floating point format.</source>
+<seg-source><mrk mid="0" mtype="seg">0 if not floating point format.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 if not floating point format.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">A string is a float if it contains at least one decimal digit and exactly one period; the only other character allowed is an optional plus or minus at the beginning. (<bpt id="1" ctype="x-a">&lt;a href="StringIsFloat.htm"></bpt>StringIsFloat()<ept id="1">&lt;/a></ept> does not accept a comma character as the decimal point even if the computer Locale settings use that symbol.) If parameter is not a string, its value is converted to a string. See examples.</source>
+<seg-source><mrk mid="0" mtype="seg">A string is a float if it contains at least one decimal digit and exactly one period; the only other character allowed is an optional plus or minus at the beginning.</mrk> <mrk mid="1" mtype="seg">(<bpt id="1" ctype="x-a">&lt;a href="StringIsFloat.htm"></bpt>StringIsFloat()<ept id="1">&lt;/a></ept> does not accept a comma character as the decimal point even if the computer Locale settings use that symbol.)</mrk> <mrk mid="2" mtype="seg">If parameter is not a string, its value is converted to a string.</mrk> <mrk mid="3" mtype="seg">See examples.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A string is a float if it contains at least one decimal digit and exactly one period; the only other character allowed is an optional plus or minus at the beginning.</mrk> <mrk mid="1" mtype="seg">(<bpt id="1" ctype="x-a">&lt;a href="StringIsFloat.htm"></bpt>StringIsFloat()<ept id="1">&lt;/a></ept> does not accept a comma character as the decimal point even if the computer Locale settings use that symbol.)</mrk> <mrk mid="2" mtype="seg">If parameter is not a string, its value is converted to a string.</mrk> <mrk mid="3" mtype="seg">See examples.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Is the string 1.5 a floating point number:</source>
+<seg-source><mrk mid="0" mtype="seg">Is the string 1.5 a floating point number:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Is the string 1.5 a floating point number:</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">1.5</source>
+<seg-source><mrk mid="0" mtype="seg">1.5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.5</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Returns 1, due to the decimal point.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns 1, due to the decimal point.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns 1, due to the decimal point.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Is the string 7. a floating point number:</source>
+<seg-source><mrk mid="0" mtype="seg">Is the string 7.</mrk> <mrk mid="1" mtype="seg">a floating point number:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Is the string 7.</mrk> <mrk mid="1" mtype="seg">a floating point number:</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">7.</source>
+<seg-source><mrk mid="0" mtype="seg">7.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">7.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Returns 1, due to the decimal point.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns 1, due to the decimal point.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns 1, due to the decimal point.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Is the string 3/4 a floating point number:</source>
+<seg-source><mrk mid="0" mtype="seg">Is the string 3/4 a floating point number:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Is the string 3/4 a floating point number:</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">3/4</source>
+<seg-source><mrk mid="0" mtype="seg">3/4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3/4</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Returns 0, as the string 3 / (forward slash) 4 is not a floating point number.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns 0, as the string 3 / (forward slash) 4 is not a floating point number.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns 0, as the string 3 / (forward slash) 4 is not a floating point number.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Is the number 1.0 a floating point number:</source>
+<seg-source><mrk mid="0" mtype="seg">Is the number 1.0 a floating point number:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Is the number 1.0 a floating point number:</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Returns 1, due to the number to string conversion as well as the decimal point.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns 1, due to the number to string conversion as well as the decimal point.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns 1, due to the number to string conversion as well as the decimal point.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Is the string 2 a floating point number:</source>
+<seg-source><mrk mid="0" mtype="seg">Is the string 2 a floating point number:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Is the string 2 a floating point number:</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Returns 0, due to 2 being an integer.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns 0, due to 2 being an integer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns 0, due to 2 being an integer.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

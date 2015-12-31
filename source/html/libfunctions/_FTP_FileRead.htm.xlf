@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_FTP_FileRead.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Reads data from a handle opened by _FTP_FileOpen()</source>
+<seg-source><mrk mid="0" mtype="seg">Reads data from a handle opened by _FTP_FileOpen()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Reads data from a handle opened by _FTP_FileOpen()</mrk></target>
+<note>Function _FTP_FileRead</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> Handle returned by <bpt id="1" ctype="x-a">&lt;a href="_FTP_FileOpen.htm"></bpt>_FTP_FileOpen()<ept id="1">&lt;/a></ept> to the ftp file. </source>
+<seg-source> <mrk mid="0" mtype="seg">Handle returned by <bpt id="1" ctype="x-a">&lt;a href="_FTP_FileOpen.htm"></bpt>_FTP_FileOpen()<ept id="1">&lt;/a></ept> to the ftp file.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Handle returned by <bpt id="1" ctype="x-a">&lt;a href="_FTP_FileOpen.htm"></bpt>_FTP_FileOpen()<ept id="1">&lt;/a></ept> to the ftp file.</mrk> </target>
+<note>$hFTPFile</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Number of bytes to read.</source>
+<seg-source><mrk mid="0" mtype="seg">Number of bytes to read.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Number of bytes to read.</mrk></target>
+<note>$iNumberOfBytesToRead</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">the binary/string read.</source>
+<seg-source><mrk mid="0" mtype="seg">the binary/string read.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the binary/string read.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">-1 for end-of-file</source>
+<seg-source><mrk mid="0" mtype="seg">-1 for end-of-file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1 for end-of-file</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> Non-zero for other errors.</source>
+<seg-source> <mrk mid="0" mtype="seg">Non-zero for other errors.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Non-zero for other errors.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(InternetReadFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>InternetReadFile<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(InternetReadFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>InternetReadFile<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(InternetReadFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>InternetReadFile<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

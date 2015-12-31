@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_FTP_Command.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sends a command to an FTP server</source>
+<seg-source><mrk mid="0" mtype="seg">Sends a command to an FTP server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sends a command to an FTP server</mrk></target>
+<note>Function _FTP_Command</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> as returned by <bpt id="1" ctype="x-a">&lt;a href="_FTP_Connect.htm"></bpt>_FTP_Connect()<ept id="1">&lt;/a></ept> </source>
+<seg-source> <mrk mid="0" mtype="seg">as returned by <bpt id="1" ctype="x-a">&lt;a href="_FTP_Connect.htm"></bpt>_FTP_Connect()<ept id="1">&lt;/a></ept></mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">as returned by <bpt id="1" ctype="x-a">&lt;a href="_FTP_Connect.htm"></bpt>_FTP_Connect()<ept id="1">&lt;/a></ept></mrk> </target>
+<note>$hFTPSession</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Command string to send to FTP Server</source>
+<seg-source><mrk mid="0" mtype="seg">Command string to send to FTP Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command string to send to FTP Server</mrk></target>
+<note>$sFTPCommand</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> $FTP_TRANSFER_TYPE_ASCII or $FTP_TRANSFER_TYPE_BINARY</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">$FTP_TRANSFER_TYPE_ASCII or $FTP_TRANSFER_TYPE_BINARY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">$FTP_TRANSFER_TYPE_ASCII or $FTP_TRANSFER_TYPE_BINARY</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Data socket for response in Async mode. See remarks.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Data socket for response in Async mode.</mrk> <mrk mid="2" mtype="seg">See remarks.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Data socket for response in Async mode.</mrk> <mrk mid="2" mtype="seg">See remarks.</mrk></target>
+<note>$iExpectResponse</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> A variable that contains the application-defined value that associates this search with any application data.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A variable that contains the application-defined value that associates this search with any application data.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A variable that contains the application-defined value that associates this search with any application data.</mrk></target>
+<note>$iContext</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> This is only used if the application has already called <bpt id="1" ctype="x-a">&lt;a href="_FTP_SetStatusCallback.htm"></bpt>_FTP_SetStatusCallback()<ept id="1">&lt;/a></ept> to set up a status callback function. </source>
+<seg-source> <mrk mid="0" mtype="seg">This is only used if the application has already called <bpt id="1" ctype="x-a">&lt;a href="_FTP_SetStatusCallback.htm"></bpt>_FTP_SetStatusCallback()<ept id="1">&lt;/a></ept> to set up a status callback function.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This is only used if the application has already called <bpt id="1" ctype="x-a">&lt;a href="_FTP_SetStatusCallback.htm"></bpt>_FTP_SetStatusCallback()<ept id="1">&lt;/a></ept> to set up a status callback function.</mrk> </target>
+<note>$iContext</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">an identifier.</source>
+<seg-source><mrk mid="0" mtype="seg">an identifier.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an identifier.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Command Examples: depends on server syntax/</source>
+<seg-source><mrk mid="0" mtype="seg">Command Examples: depends on server syntax/</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command Examples: depends on server syntax/</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> The following is for Binary transfer, ASCII transfer, Passive transfer mode (used with firewalls) 'type I' 'type A' 'pasv'</source>
+<seg-source> <mrk mid="0" mtype="seg">The following is for Binary transfer, ASCII transfer, Passive transfer mode (used with firewalls) 'type I' 'type A' 'pasv'</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The following is for Binary transfer, ASCII transfer, Passive transfer mode (used with firewalls) 'type I' 'type A' 'pasv'</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> If $iExpectResponse is set to True, a pointer to a handle that is created if a valid data socket is opened is returned in @extended.</source>
+<seg-source> <mrk mid="0" mtype="seg">If $iExpectResponse is set to True, a pointer to a handle that is created if a valid data socket is opened is returned in @extended.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If $iExpectResponse is set to True, a pointer to a handle that is created if a valid data socket is opened is returned in @extended.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FtpCommand);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FtpCommand<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FtpCommand);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FtpCommand<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FtpCommand);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FtpCommand<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

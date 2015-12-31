@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_GetCursorInfo.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves information about the global cursor</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves information about the global cursor</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves information about the global cursor</mrk></target>
+<note>Function _WinAPI_GetCursorInfo</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Array with the following format:</source>
+<seg-source><mrk mid="0" mtype="seg">Array with the following format:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Array with the following format:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> $aCursor[0] - True</source>
+<seg-source> <mrk mid="0" mtype="seg">$aCursor[0] - True</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$aCursor[0] - True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> $aCursor[1] - True if cursor is showing, otherwise False</source>
+<seg-source> <mrk mid="0" mtype="seg">$aCursor[1] - True if cursor is showing, otherwise False</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$aCursor[1] - True if cursor is showing, otherwise False</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> $aCursor[2] - Handle to the cursor</source>
+<seg-source> <mrk mid="0" mtype="seg">$aCursor[2] - Handle to the cursor</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$aCursor[2] - Handle to the cursor</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $aCursor[3] - X coordinate of the cursor</source>
+<seg-source> <mrk mid="0" mtype="seg">$aCursor[3] - X coordinate of the cursor</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$aCursor[3] - X coordinate of the cursor</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $aCursor[4] - Y coordinate of the cursor</source>
+<seg-source> <mrk mid="0" mtype="seg">$aCursor[4] - Y coordinate of the cursor</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$aCursor[4] - Y coordinate of the cursor</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> Sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information </source>
+<seg-source> <mrk mid="0" mtype="seg">Sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetCursorInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetCursorInfo<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetCursorInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetCursorInfo<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetCursorInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetCursorInfo<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Was the operation sucessful?</source>
+<seg-source><mrk mid="0" mtype="seg">Was the operation sucessful?</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Was the operation sucessful?</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Is the cursor showing?</source>
+<seg-source><mrk mid="0" mtype="seg">Is the cursor showing?</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Is the cursor showing?</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Cursor Handle:</source>
+<seg-source><mrk mid="0" mtype="seg">Cursor Handle:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cursor Handle:</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">X Coordinate:</source>
+<seg-source><mrk mid="0" mtype="seg">X Coordinate:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X Coordinate:</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Y Coordinate:</source>
+<seg-source><mrk mid="0" mtype="seg">Y Coordinate:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y Coordinate:</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">_WinAPI_GetCursorInfo Example</source>
+<seg-source><mrk mid="0" mtype="seg">_WinAPI_GetCursorInfo Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinAPI_GetCursorInfo Example</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

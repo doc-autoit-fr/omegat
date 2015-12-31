@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_UrlCompare.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Makes a case-sensitive comparison of two URL strings</source>
+<seg-source><mrk mid="0" mtype="seg">Makes a case-sensitive comparison of two URL strings</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Makes a case-sensitive comparison of two URL strings</mrk></target>
+<note>Function _WinAPI_UrlCompare</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The first URL.</source>
+<seg-source><mrk mid="0" mtype="seg">The first URL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The first URL.</mrk></target>
+<note>$sUrl1</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The second URL.</source>
+<seg-source><mrk mid="0" mtype="seg">The second URL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The second URL.</mrk></target>
+<note>$sUrl2</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether to ignore a trailing '/' character on either or both URLs, valid values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to ignore a trailing '/' character on either or both URLs, valid values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to ignore a trailing '/' character on either or both URLs, valid values:</mrk></target>
+<note>$bIgnoreSlash</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     True - The function ignores a trailing characters.</source>
+<seg-source> <mrk mid="0" mtype="seg">    True - The function ignores a trailing characters.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    True - The function ignores a trailing characters.</mrk></target>
+<note>$bIgnoreSlash</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     False - The function takes into account the trailing characters (Default).</source>
+<seg-source> <mrk mid="0" mtype="seg">    False - The function takes into account the trailing characters (Default).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    False - The function takes into account the trailing characters (Default).</mrk></target>
+<note>$bIgnoreSlash</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Returns 0 - The URLs are equal.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns 0 - The URLs are equal.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns 0 - The URLs are equal.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> >0 - The first URL is greater than the second URL.</source>
+<seg-source> <mrk mid="0" mtype="seg">>0 - The first URL is greater than the second URL.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">>0 - The first URL is greater than the second URL.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> &lt;0 - The first URL is less than the second URL.</source>
+<seg-source> <mrk mid="0" mtype="seg">&lt;0 - The first URL is less than the second URL.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">&lt;0 - The first URL is less than the second URL.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">For best results, you should first canonicalize the URLs with <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_UrlCanonicalize.htm"></bpt>_WinAPI_UrlCanonicalize()<ept id="1">&lt;/a></ept>. Then, compare the</source>
+<seg-source><mrk mid="0" mtype="seg">For best results, you should first canonicalize the URLs with <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_UrlCanonicalize.htm"></bpt>_WinAPI_UrlCanonicalize()<ept id="1">&lt;/a></ept>.</mrk> <mrk mid="1" mtype="seg">Then, compare the</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For best results, you should first canonicalize the URLs with <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_UrlCanonicalize.htm"></bpt>_WinAPI_UrlCanonicalize()<ept id="1">&lt;/a></ept>.</mrk> <mrk mid="1" mtype="seg">Then, compare the</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> canonicalized URLs with <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_UrlCompare.htm"></bpt>_WinAPI_UrlCompare()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">canonicalized URLs with <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_UrlCompare.htm"></bpt>_WinAPI_UrlCompare()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">canonicalized URLs with <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_UrlCompare.htm"></bpt>_WinAPI_UrlCompare()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(UrlCompare);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>UrlCompare<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(UrlCompare);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>UrlCompare<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(UrlCompare);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>UrlCompare<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">http://xyz/abc/</source>
+<seg-source><mrk mid="0" mtype="seg">http://xyz/abc/</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">http://xyz/abc/</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">http://xyz/abc</source>
+<seg-source><mrk mid="0" mtype="seg">http://xyz/abc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">http://xyz/abc</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">URLs comparison result:</source>
+<seg-source><mrk mid="0" mtype="seg">URLs comparison result:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">URLs comparison result:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

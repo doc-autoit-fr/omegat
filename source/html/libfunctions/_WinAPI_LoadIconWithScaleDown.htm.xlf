@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_LoadIconWithScaleDown.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Loads an icon and scales down a larger image instead of scaling up a smaller image</source>
+<seg-source><mrk mid="0" mtype="seg">Loads an icon and scales down a larger image instead of scaling up a smaller image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loads an icon and scales down a larger image instead of scaling up a smaller image</mrk></target>
+<note>Function _WinAPI_LoadIconWithScaleDown</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the module of either a DLL or executable (.exe) file that contains the icon to be loaded.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the module of either a DLL or executable (.exe) file that contains the icon to be loaded.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the module of either a DLL or executable (.exe) file that contains the icon to be loaded.</mrk></target>
+<note>$hInstance</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The information about the icon to load. If $hInstance is not 0, $sName specifies the icon resource</source>
+<seg-source><mrk mid="0" mtype="seg">The information about the icon to load.</mrk> <mrk mid="1" mtype="seg">If $hInstance is not 0, $sName specifies the icon resource</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The information about the icon to load.</mrk> <mrk mid="1" mtype="seg">If $hInstance is not 0, $sName specifies the icon resource</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> either by name or ordinal, otherwise, $sName specifies either the name of a standalone icon (.ico)</source>
+<seg-source> <mrk mid="0" mtype="seg">either by name or ordinal, otherwise, $sName specifies either the name of a standalone icon (.ico)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">either by name or ordinal, otherwise, $sName specifies either the name of a standalone icon (.ico)</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> file or the identifier of a predefined icon to load.</source>
+<seg-source> <mrk mid="0" mtype="seg">file or the identifier of a predefined icon to load.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">file or the identifier of a predefined icon to load.</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $IDI_APPLICATION</source>
+<seg-source> <mrk mid="0" mtype="seg">$IDI_APPLICATION</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$IDI_APPLICATION</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $IDI_HAND</source>
+<seg-source> <mrk mid="0" mtype="seg">$IDI_HAND</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$IDI_HAND</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $IDI_QUESTION</source>
+<seg-source> <mrk mid="0" mtype="seg">$IDI_QUESTION</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$IDI_QUESTION</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> $IDI_EXCLAMATION</source>
+<seg-source> <mrk mid="0" mtype="seg">$IDI_EXCLAMATION</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$IDI_EXCLAMATION</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> $IDI_ASTERISK</source>
+<seg-source> <mrk mid="0" mtype="seg">$IDI_ASTERISK</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$IDI_ASTERISK</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> $IDI_WINLOGO</source>
+<seg-source> <mrk mid="0" mtype="seg">$IDI_WINLOGO</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$IDI_WINLOGO</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> $IDI_SHIELD</source>
+<seg-source> <mrk mid="0" mtype="seg">$IDI_SHIELD</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$IDI_SHIELD</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> $IDI_ERROR</source>
+<seg-source> <mrk mid="0" mtype="seg">$IDI_ERROR</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$IDI_ERROR</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> $IDI_INFORMATION</source>
+<seg-source> <mrk mid="0" mtype="seg">$IDI_INFORMATION</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$IDI_INFORMATION</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> $IDI_WARNING</source>
+<seg-source> <mrk mid="0" mtype="seg">$IDI_WARNING</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$IDI_WARNING</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">The desired width, in pixels, of the icon.</source>
+<seg-source><mrk mid="0" mtype="seg">The desired width, in pixels, of the icon.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The desired width, in pixels, of the icon.</mrk></target>
+<note>$iWidth</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">The desired height, in pixels, of the icon.</source>
+<seg-source><mrk mid="0" mtype="seg">The desired height, in pixels, of the icon.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The desired height, in pixels, of the icon.</mrk></target>
+<note>$iHeight</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">The icon handle.</source>
+<seg-source><mrk mid="0" mtype="seg">The icon handle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The icon handle.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">When you are finished using the icon, destroy it using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DestroyIcon.htm"></bpt>_WinAPI_DestroyIcon()<ept id="1">&lt;/a></ept> function.</source>
+<seg-source><mrk mid="0" mtype="seg">When you are finished using the icon, destroy it using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DestroyIcon.htm"></bpt>_WinAPI_DestroyIcon()<ept id="1">&lt;/a></ept> function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you are finished using the icon, destroy it using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DestroyIcon.htm"></bpt>_WinAPI_DestroyIcon()<ept id="1">&lt;/a></ept> function.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(LoadIconWithScaleDown);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>LoadIconWithScaleDown<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(LoadIconWithScaleDown);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>LoadIconWithScaleDown<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(LoadIconWithScaleDown);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>LoadIconWithScaleDown<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">6.0</source>
+<seg-source><mrk mid="0" mtype="seg">6.0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">6.0</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Require Windows Vista or later.</source>
+<seg-source><mrk mid="0" mtype="seg">Require Windows Vista or later.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Require Windows Vista or later.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">\Extras\Soccer.ico</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\Soccer.ico</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\Soccer.ico</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

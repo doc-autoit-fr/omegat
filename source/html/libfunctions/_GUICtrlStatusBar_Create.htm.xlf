@@ -1,0 +1,3539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUICtrlStatusBar_Create.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Create a statusbar</source>
+<seg-source><mrk mid="0" mtype="seg">Create a statusbar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a statusbar</mrk></target>
+<note>Function _GUICtrlStatusBar_Create</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to parent window</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to parent window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to parent window</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Width of part or parts, for more than 1 part pass in 0-based array in the following format:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Width of part or parts, for more than 1 part pass in 0-based array in the following format:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Width of part or parts, for more than 1 part pass in 0-based array in the following format:</mrk></target>
+<note>$vPartEdge</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $vPartEdge[0] - Right edge of part #1</source>
+<seg-source> <mrk mid="0" mtype="seg">    $vPartEdge[0] - Right edge of part #1</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $vPartEdge[0] - Right edge of part #1</mrk></target>
+<note>$vPartEdge</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $vPartEdge[1] - Right edge of part #2</source>
+<seg-source> <mrk mid="0" mtype="seg">    $vPartEdge[1] - Right edge of part #2</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $vPartEdge[1] - Right edge of part #2</mrk></target>
+<note>$vPartEdge</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $vPartEdge[n] - Right edge of part n</source>
+<seg-source> <mrk mid="0" mtype="seg">    $vPartEdge[n] - Right edge of part n</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $vPartEdge[n] - Right edge of part n</mrk></target>
+<note>$vPartEdge</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Text of part or parts, for more than 1 part pass in 0-based array in the following format:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Text of part or parts, for more than 1 part pass in 0-based array in the following format:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Text of part or parts, for more than 1 part pass in 0-based array in the following format:</mrk></target>
+<note>$vPartText</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $vPartText[0] - First part</source>
+<seg-source> <mrk mid="0" mtype="seg">    $vPartText[0] - First part</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $vPartText[0] - First part</mrk></target>
+<note>$vPartText</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $vPartText[1] - Second part</source>
+<seg-source> <mrk mid="0" mtype="seg">    $vPartText[1] - Second part</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $vPartText[1] - Second part</mrk></target>
+<note>$vPartText</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $vPartText[n] - Last part</source>
+<seg-source> <mrk mid="0" mtype="seg">    $vPartText[n] - Last part</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $vPartText[n] - Last part</mrk></target>
+<note>$vPartText</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Control styles:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control styles:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control styles:</mrk></target>
+<note>$iStyles</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $SBARS_SIZEGRIP - The status bar control will include a sizing grip at the right end of the status bar</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SBARS_SIZEGRIP - The status bar control will include a sizing grip at the right end of the status bar</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SBARS_SIZEGRIP - The status bar control will include a sizing grip at the right end of the status bar</mrk></target>
+<note>$iStyles</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $SBARS_TOOLTIPS - The status bar will have tooltips</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SBARS_TOOLTIPS - The status bar will have tooltips</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SBARS_TOOLTIPS - The status bar will have tooltips</mrk></target>
+<note>$iStyles</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> Forced: $WS_CHILD, $WS_VISIBLE</source>
+<seg-source> <mrk mid="0" mtype="seg">Forced:</mrk> <mrk mid="1" mtype="seg">$WS_CHILD, $WS_VISIBLE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Forced:</mrk> <mrk mid="1" mtype="seg">$WS_CHILD, $WS_VISIBLE</mrk></target>
+<note>$iStyles</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Control extended style. These correspond to the standard $WS_EX_* constants. See <bpt id="1" ctype="x-a">&lt;a href="../appendix/GUIStyles.htm#Extended"></bpt>Extended Style Table<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control extended style.</mrk> <mrk mid="2" mtype="seg">These correspond to the standard $WS_EX_* constants.</mrk> <mrk mid="3" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../appendix/GUIStyles.htm#Extended"></bpt>Extended Style Table<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control extended style.</mrk> <mrk mid="2" mtype="seg">These correspond to the standard $WS_EX_* constants.</mrk> <mrk mid="3" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../appendix/GUIStyles.htm#Extended"></bpt>Extended Style Table<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>$iExStyles</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">the handle to the control.</source>
+<seg-source><mrk mid="0" mtype="seg">the handle to the control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the handle to the control.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">If using GUICtrlCreateMenu() then use <bpt id="1" ctype="x-a">&lt;a href="_GUICtrlStatusBar_Create.htm"></bpt>_GUICtrlStatusBar_Create()<ept id="1">&lt;/a></ept> after GUICtrlCreateMenu().</source>
+<seg-source><mrk mid="0" mtype="seg">If using GUICtrlCreateMenu() then use <bpt id="1" ctype="x-a">&lt;a href="_GUICtrlStatusBar_Create.htm"></bpt>_GUICtrlStatusBar_Create()<ept id="1">&lt;/a></ept> after GUICtrlCreateMenu().</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If using GUICtrlCreateMenu() then use <bpt id="1" ctype="x-a">&lt;a href="_GUICtrlStatusBar_Create.htm"></bpt>_GUICtrlStatusBar_Create()<ept id="1">&lt;/a></ept> after GUICtrlCreateMenu().</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">(Example 1) StatusBar Create</source>
+<seg-source><mrk mid="0" mtype="seg">(Example 1) StatusBar Create</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(Example 1) StatusBar Create</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">defaults to 1 part, no text</source>
+<seg-source><mrk mid="0" mtype="seg">defaults to 1 part, no text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">defaults to 1 part, no text</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Create memo control</source>
+<seg-source><mrk mid="0" mtype="seg">Create memo control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create memo control</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">StatusBar Created with:</source>
+<seg-source><mrk mid="0" mtype="seg">StatusBar Created with:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">StatusBar Created with:</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Handle to GUI window</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to GUI window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to GUI window</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">WM_NOTIFY</source>
+<seg-source><mrk mid="0" mtype="seg">WM_NOTIFY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_NOTIFY</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Get border sizes</source>
+<seg-source><mrk mid="0" mtype="seg">Get border sizes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get border sizes</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Horizontal border width .:</source>
+<seg-source><mrk mid="0" mtype="seg">Horizontal border width .:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Horizontal border width .:</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Vertical border width ...:</source>
+<seg-source><mrk mid="0" mtype="seg">Vertical border width ...:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Vertical border width ...:</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Width between rectangles :</source>
+<seg-source><mrk mid="0" mtype="seg">Width between rectangles :</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Width between rectangles :</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Write message to memo</source>
+<seg-source><mrk mid="0" mtype="seg">Write message to memo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write message to memo</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">The user has clicked the left mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has clicked the left mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has clicked the left mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">$NM_CLICK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_CLICK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_CLICK</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">The user has double-clicked the left mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has double-clicked the left mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has double-clicked the left mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">$NM_DBLCLK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_DBLCLK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_DBLCLK</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">The user has clicked the right mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has clicked the right mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has clicked the right mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en">$NM_RCLICK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_RCLICK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_RCLICK</mrk></target>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="94">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="95">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="96">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="97">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="98">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="99">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="100">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="101">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="102">
+<source xml:lang="en">The user has double-clicked the right mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has double-clicked the right mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has double-clicked the right mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="103">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="104">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="105">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="106">
+<source xml:lang="en">$NM_RDBLCLK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_RDBLCLK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_RDBLCLK</mrk></target>
+</trans-unit>
+<trans-unit id="107">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="108">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="109">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="110">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="111">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="112">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="113">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="114">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="115">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="116">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="117">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="118">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="119">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="120">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="121">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="122">
+<source xml:lang="en">Simple mode changes</source>
+<seg-source><mrk mid="0" mtype="seg">Simple mode changes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Simple mode changes</mrk></target>
+</trans-unit>
+<trans-unit id="123">
+<source xml:lang="en">$SBN_SIMPLEMODECHANGE</source>
+<seg-source><mrk mid="0" mtype="seg">$SBN_SIMPLEMODECHANGE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$SBN_SIMPLEMODECHANGE</mrk></target>
+</trans-unit>
+<trans-unit id="124">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="125">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="126">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="127">
+<source xml:lang="en">No return value</source>
+<seg-source><mrk mid="0" mtype="seg">No return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No return value</mrk></target>
+</trans-unit>
+<trans-unit id="128">
+<source xml:lang="en">!===========================================================</source>
+<seg-source><mrk mid="0" mtype="seg">!===========================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!===========================================================</mrk></target>
+</trans-unit>
+<trans-unit id="129">
+<source xml:lang="en">+======================================================</source>
+<seg-source><mrk mid="0" mtype="seg">+======================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+======================================================</mrk></target>
+</trans-unit>
+<trans-unit id="130">
+<source xml:lang="en">-->Line(</source>
+<seg-source><mrk mid="0" mtype="seg">-->Line(</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Line(</mrk></target>
+</trans-unit>
+<trans-unit id="131">
+<source xml:lang="en">%04d</source>
+<seg-source><mrk mid="0" mtype="seg">%04d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%04d</mrk></target>
+</trans-unit>
+<trans-unit id="132">
+<source xml:lang="en">):</source>
+<seg-source><mrk mid="0" mtype="seg">):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">):</mrk></target>
+</trans-unit>
+<trans-unit id="133">
+<source xml:lang="en">+======================================================</source>
+<seg-source><mrk mid="0" mtype="seg">+======================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+======================================================</mrk></target>
+</trans-unit>
+<trans-unit id="134">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="135">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="136">
+<source xml:lang="en">(Example 2) StatusBar Create</source>
+<seg-source><mrk mid="0" mtype="seg">(Example 2) StatusBar Create</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(Example 2) StatusBar Create</mrk></target>
+</trans-unit>
+<trans-unit id="137">
+<source xml:lang="en">sets parts with no text</source>
+<seg-source><mrk mid="0" mtype="seg">sets parts with no text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets parts with no text</mrk></target>
+</trans-unit>
+<trans-unit id="138">
+<source xml:lang="en">Create memo control</source>
+<seg-source><mrk mid="0" mtype="seg">Create memo control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create memo control</mrk></target>
+</trans-unit>
+<trans-unit id="139">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="140">
+<source xml:lang="en">StatusBar Created with:</source>
+<seg-source><mrk mid="0" mtype="seg">StatusBar Created with:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">StatusBar Created with:</mrk></target>
+</trans-unit>
+<trans-unit id="141">
+<source xml:lang="en">Handle to GUI window</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to GUI window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to GUI window</mrk></target>
+</trans-unit>
+<trans-unit id="142">
+<source xml:lang="en">part width array of 3 elements</source>
+<seg-source><mrk mid="0" mtype="seg">part width array of 3 elements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">part width array of 3 elements</mrk></target>
+</trans-unit>
+<trans-unit id="143">
+<source xml:lang="en">WM_NOTIFY</source>
+<seg-source><mrk mid="0" mtype="seg">WM_NOTIFY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_NOTIFY</mrk></target>
+</trans-unit>
+<trans-unit id="144">
+<source xml:lang="en">Get border sizes</source>
+<seg-source><mrk mid="0" mtype="seg">Get border sizes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get border sizes</mrk></target>
+</trans-unit>
+<trans-unit id="145">
+<source xml:lang="en">Horizontal border width .:</source>
+<seg-source><mrk mid="0" mtype="seg">Horizontal border width .:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Horizontal border width .:</mrk></target>
+</trans-unit>
+<trans-unit id="146">
+<source xml:lang="en">Vertical border width ...:</source>
+<seg-source><mrk mid="0" mtype="seg">Vertical border width ...:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Vertical border width ...:</mrk></target>
+</trans-unit>
+<trans-unit id="147">
+<source xml:lang="en">Width between rectangles :</source>
+<seg-source><mrk mid="0" mtype="seg">Width between rectangles :</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Width between rectangles :</mrk></target>
+</trans-unit>
+<trans-unit id="148">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="149">
+<source xml:lang="en">Write message to memo</source>
+<seg-source><mrk mid="0" mtype="seg">Write message to memo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write message to memo</mrk></target>
+</trans-unit>
+<trans-unit id="150">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="151">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="152">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="153">
+<source xml:lang="en">The user has clicked the left mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has clicked the left mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has clicked the left mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="154">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="155">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="156">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="157">
+<source xml:lang="en">$NM_CLICK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_CLICK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_CLICK</mrk></target>
+</trans-unit>
+<trans-unit id="158">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="159">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="160">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="161">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="162">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="163">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="164">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="165">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="166">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="167">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="168">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="169">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="170">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="171">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="172">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="173">
+<source xml:lang="en">The user has double-clicked the left mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has double-clicked the left mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has double-clicked the left mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="174">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="175">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="176">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="177">
+<source xml:lang="en">$NM_DBLCLK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_DBLCLK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_DBLCLK</mrk></target>
+</trans-unit>
+<trans-unit id="178">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="179">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="180">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="181">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="182">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="183">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="184">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="185">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="186">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="187">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="188">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="189">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="190">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="191">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="192">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="193">
+<source xml:lang="en">The user has clicked the right mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has clicked the right mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has clicked the right mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="194">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="195">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="196">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="197">
+<source xml:lang="en">$NM_RCLICK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_RCLICK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_RCLICK</mrk></target>
+</trans-unit>
+<trans-unit id="198">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="199">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="200">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="201">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="202">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="203">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="204">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="205">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="206">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="207">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="208">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="209">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="210">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="211">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="212">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="213">
+<source xml:lang="en">The user has double-clicked the right mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has double-clicked the right mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has double-clicked the right mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="214">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="215">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="216">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="217">
+<source xml:lang="en">$NM_RDBLCLK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_RDBLCLK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_RDBLCLK</mrk></target>
+</trans-unit>
+<trans-unit id="218">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="219">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="220">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="221">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="222">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="223">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="224">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="225">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="226">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="227">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="228">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="229">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="230">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="231">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="232">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="233">
+<source xml:lang="en">Simple mode changes</source>
+<seg-source><mrk mid="0" mtype="seg">Simple mode changes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Simple mode changes</mrk></target>
+</trans-unit>
+<trans-unit id="234">
+<source xml:lang="en">$SBN_SIMPLEMODECHANGE</source>
+<seg-source><mrk mid="0" mtype="seg">$SBN_SIMPLEMODECHANGE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$SBN_SIMPLEMODECHANGE</mrk></target>
+</trans-unit>
+<trans-unit id="235">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="236">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="237">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="238">
+<source xml:lang="en">No return value</source>
+<seg-source><mrk mid="0" mtype="seg">No return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No return value</mrk></target>
+</trans-unit>
+<trans-unit id="239">
+<source xml:lang="en">!===========================================================</source>
+<seg-source><mrk mid="0" mtype="seg">!===========================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!===========================================================</mrk></target>
+</trans-unit>
+<trans-unit id="240">
+<source xml:lang="en">+======================================================</source>
+<seg-source><mrk mid="0" mtype="seg">+======================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+======================================================</mrk></target>
+</trans-unit>
+<trans-unit id="241">
+<source xml:lang="en">-->Line(</source>
+<seg-source><mrk mid="0" mtype="seg">-->Line(</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Line(</mrk></target>
+</trans-unit>
+<trans-unit id="242">
+<source xml:lang="en">%04d</source>
+<seg-source><mrk mid="0" mtype="seg">%04d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%04d</mrk></target>
+</trans-unit>
+<trans-unit id="243">
+<source xml:lang="en">):</source>
+<seg-source><mrk mid="0" mtype="seg">):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">):</mrk></target>
+</trans-unit>
+<trans-unit id="244">
+<source xml:lang="en">+======================================================</source>
+<seg-source><mrk mid="0" mtype="seg">+======================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+======================================================</mrk></target>
+</trans-unit>
+<trans-unit id="245">
+<source xml:lang="en">Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="246">
+<source xml:lang="en">Left Justified</source>
+<seg-source><mrk mid="0" mtype="seg">Left Justified</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Left Justified</mrk></target>
+</trans-unit>
+<trans-unit id="247">
+<source xml:lang="en">Centered</source>
+<seg-source><mrk mid="0" mtype="seg">Centered</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Centered</mrk></target>
+</trans-unit>
+<trans-unit id="248">
+<source xml:lang="en">Right Justified</source>
+<seg-source><mrk mid="0" mtype="seg">Right Justified</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Right Justified</mrk></target>
+</trans-unit>
+<trans-unit id="249">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="250">
+<source xml:lang="en">(Example 3) StatusBar Create</source>
+<seg-source><mrk mid="0" mtype="seg">(Example 3) StatusBar Create</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(Example 3) StatusBar Create</mrk></target>
+</trans-unit>
+<trans-unit id="251">
+<source xml:lang="en">sets parts and text</source>
+<seg-source><mrk mid="0" mtype="seg">sets parts and text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets parts and text</mrk></target>
+</trans-unit>
+<trans-unit id="252">
+<source xml:lang="en">Create memo control</source>
+<seg-source><mrk mid="0" mtype="seg">Create memo control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create memo control</mrk></target>
+</trans-unit>
+<trans-unit id="253">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="254">
+<source xml:lang="en">StatusBar Created with:</source>
+<seg-source><mrk mid="0" mtype="seg">StatusBar Created with:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">StatusBar Created with:</mrk></target>
+</trans-unit>
+<trans-unit id="255">
+<source xml:lang="en">only Handle,</source>
+<seg-source><mrk mid="0" mtype="seg">only Handle,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">only Handle,</mrk></target>
+</trans-unit>
+<trans-unit id="256">
+<source xml:lang="en">part width array of 3 elements</source>
+<seg-source><mrk mid="0" mtype="seg">part width array of 3 elements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">part width array of 3 elements</mrk></target>
+</trans-unit>
+<trans-unit id="257">
+<source xml:lang="en">part text array of 3 elements</source>
+<seg-source><mrk mid="0" mtype="seg">part text array of 3 elements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">part text array of 3 elements</mrk></target>
+</trans-unit>
+<trans-unit id="258">
+<source xml:lang="en">WM_NOTIFY</source>
+<seg-source><mrk mid="0" mtype="seg">WM_NOTIFY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_NOTIFY</mrk></target>
+</trans-unit>
+<trans-unit id="259">
+<source xml:lang="en">Get border sizes</source>
+<seg-source><mrk mid="0" mtype="seg">Get border sizes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get border sizes</mrk></target>
+</trans-unit>
+<trans-unit id="260">
+<source xml:lang="en">Horizontal border width .:</source>
+<seg-source><mrk mid="0" mtype="seg">Horizontal border width .:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Horizontal border width .:</mrk></target>
+</trans-unit>
+<trans-unit id="261">
+<source xml:lang="en">Vertical border width ...:</source>
+<seg-source><mrk mid="0" mtype="seg">Vertical border width ...:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Vertical border width ...:</mrk></target>
+</trans-unit>
+<trans-unit id="262">
+<source xml:lang="en">Width between rectangles :</source>
+<seg-source><mrk mid="0" mtype="seg">Width between rectangles :</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Width between rectangles :</mrk></target>
+</trans-unit>
+<trans-unit id="263">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="264">
+<source xml:lang="en">Write message to memo</source>
+<seg-source><mrk mid="0" mtype="seg">Write message to memo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write message to memo</mrk></target>
+</trans-unit>
+<trans-unit id="265">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="266">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="267">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="268">
+<source xml:lang="en">The user has clicked the left mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has clicked the left mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has clicked the left mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="269">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="270">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="271">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="272">
+<source xml:lang="en">$NM_CLICK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_CLICK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_CLICK</mrk></target>
+</trans-unit>
+<trans-unit id="273">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="274">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="275">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="276">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="277">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="278">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="279">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="280">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="281">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="282">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="283">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="284">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="285">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="286">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="287">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="288">
+<source xml:lang="en">The user has double-clicked the left mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has double-clicked the left mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has double-clicked the left mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="289">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="290">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="291">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="292">
+<source xml:lang="en">$NM_DBLCLK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_DBLCLK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_DBLCLK</mrk></target>
+</trans-unit>
+<trans-unit id="293">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="294">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="295">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="296">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="297">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="298">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="299">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="300">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="301">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="302">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="303">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="304">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="305">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="306">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="307">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="308">
+<source xml:lang="en">The user has clicked the right mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has clicked the right mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has clicked the right mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="309">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="310">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="311">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="312">
+<source xml:lang="en">$NM_RCLICK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_RCLICK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_RCLICK</mrk></target>
+</trans-unit>
+<trans-unit id="313">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="314">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="315">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="316">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="317">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="318">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="319">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="320">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="321">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="322">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="323">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="324">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="325">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="326">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="327">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="328">
+<source xml:lang="en">The user has double-clicked the right mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has double-clicked the right mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has double-clicked the right mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="329">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="330">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="331">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="332">
+<source xml:lang="en">$NM_RDBLCLK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_RDBLCLK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_RDBLCLK</mrk></target>
+</trans-unit>
+<trans-unit id="333">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="334">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="335">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="336">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="337">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="338">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="339">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="340">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="341">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="342">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="343">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="344">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="345">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="346">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="347">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="348">
+<source xml:lang="en">Simple mode changes</source>
+<seg-source><mrk mid="0" mtype="seg">Simple mode changes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Simple mode changes</mrk></target>
+</trans-unit>
+<trans-unit id="349">
+<source xml:lang="en">$SBN_SIMPLEMODECHANGE</source>
+<seg-source><mrk mid="0" mtype="seg">$SBN_SIMPLEMODECHANGE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$SBN_SIMPLEMODECHANGE</mrk></target>
+</trans-unit>
+<trans-unit id="350">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="351">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="352">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="353">
+<source xml:lang="en">No return value</source>
+<seg-source><mrk mid="0" mtype="seg">No return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No return value</mrk></target>
+</trans-unit>
+<trans-unit id="354">
+<source xml:lang="en">!===========================================================</source>
+<seg-source><mrk mid="0" mtype="seg">!===========================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!===========================================================</mrk></target>
+</trans-unit>
+<trans-unit id="355">
+<source xml:lang="en">+======================================================</source>
+<seg-source><mrk mid="0" mtype="seg">+======================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+======================================================</mrk></target>
+</trans-unit>
+<trans-unit id="356">
+<source xml:lang="en">-->Line(</source>
+<seg-source><mrk mid="0" mtype="seg">-->Line(</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Line(</mrk></target>
+</trans-unit>
+<trans-unit id="357">
+<source xml:lang="en">%04d</source>
+<seg-source><mrk mid="0" mtype="seg">%04d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%04d</mrk></target>
+</trans-unit>
+<trans-unit id="358">
+<source xml:lang="en">):</source>
+<seg-source><mrk mid="0" mtype="seg">):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">):</mrk></target>
+</trans-unit>
+<trans-unit id="359">
+<source xml:lang="en">+======================================================</source>
+<seg-source><mrk mid="0" mtype="seg">+======================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+======================================================</mrk></target>
+</trans-unit>
+<trans-unit id="360">
+<source xml:lang="en">Example 4</source>
+<seg-source><mrk mid="0" mtype="seg">Example 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 4</mrk></target>
+</trans-unit>
+<trans-unit id="361">
+<source xml:lang="en">Left Justified</source>
+<seg-source><mrk mid="0" mtype="seg">Left Justified</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Left Justified</mrk></target>
+</trans-unit>
+<trans-unit id="362">
+<source xml:lang="en">Centered</source>
+<seg-source><mrk mid="0" mtype="seg">Centered</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Centered</mrk></target>
+</trans-unit>
+<trans-unit id="363">
+<source xml:lang="en">Right Justified</source>
+<seg-source><mrk mid="0" mtype="seg">Right Justified</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Right Justified</mrk></target>
+</trans-unit>
+<trans-unit id="364">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="365">
+<source xml:lang="en">(Example 4) StatusBar Create</source>
+<seg-source><mrk mid="0" mtype="seg">(Example 4) StatusBar Create</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(Example 4) StatusBar Create</mrk></target>
+</trans-unit>
+<trans-unit id="366">
+<source xml:lang="en">will create part widths based on part size passed in</source>
+<seg-source><mrk mid="0" mtype="seg">will create part widths based on part size passed in</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">will create part widths based on part size passed in</mrk></target>
+</trans-unit>
+<trans-unit id="367">
+<source xml:lang="en">Create memo control</source>
+<seg-source><mrk mid="0" mtype="seg">Create memo control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create memo control</mrk></target>
+</trans-unit>
+<trans-unit id="368">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="369">
+<source xml:lang="en">StatusBar Created with:</source>
+<seg-source><mrk mid="0" mtype="seg">StatusBar Created with:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">StatusBar Created with:</mrk></target>
+</trans-unit>
+<trans-unit id="370">
+<source xml:lang="en">only Handle,</source>
+<seg-source><mrk mid="0" mtype="seg">only Handle,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">only Handle,</mrk></target>
+</trans-unit>
+<trans-unit id="371">
+<source xml:lang="en">part width number</source>
+<seg-source><mrk mid="0" mtype="seg">part width number</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">part width number</mrk></target>
+</trans-unit>
+<trans-unit id="372">
+<source xml:lang="en">part text array of 3 elements</source>
+<seg-source><mrk mid="0" mtype="seg">part text array of 3 elements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">part text array of 3 elements</mrk></target>
+</trans-unit>
+<trans-unit id="373">
+<source xml:lang="en">WM_NOTIFY</source>
+<seg-source><mrk mid="0" mtype="seg">WM_NOTIFY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_NOTIFY</mrk></target>
+</trans-unit>
+<trans-unit id="374">
+<source xml:lang="en">Get border sizes</source>
+<seg-source><mrk mid="0" mtype="seg">Get border sizes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get border sizes</mrk></target>
+</trans-unit>
+<trans-unit id="375">
+<source xml:lang="en">Horizontal border width .:</source>
+<seg-source><mrk mid="0" mtype="seg">Horizontal border width .:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Horizontal border width .:</mrk></target>
+</trans-unit>
+<trans-unit id="376">
+<source xml:lang="en">Vertical border width ...:</source>
+<seg-source><mrk mid="0" mtype="seg">Vertical border width ...:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Vertical border width ...:</mrk></target>
+</trans-unit>
+<trans-unit id="377">
+<source xml:lang="en">Width between rectangles :</source>
+<seg-source><mrk mid="0" mtype="seg">Width between rectangles :</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Width between rectangles :</mrk></target>
+</trans-unit>
+<trans-unit id="378">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="379">
+<source xml:lang="en">Write message to memo</source>
+<seg-source><mrk mid="0" mtype="seg">Write message to memo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write message to memo</mrk></target>
+</trans-unit>
+<trans-unit id="380">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="381">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="382">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="383">
+<source xml:lang="en">The user has clicked the left mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has clicked the left mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has clicked the left mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="384">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="385">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="386">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="387">
+<source xml:lang="en">$NM_CLICK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_CLICK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_CLICK</mrk></target>
+</trans-unit>
+<trans-unit id="388">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="389">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="390">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="391">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="392">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="393">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="394">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="395">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="396">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="397">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="398">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="399">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="400">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="401">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="402">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="403">
+<source xml:lang="en">The user has double-clicked the left mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has double-clicked the left mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has double-clicked the left mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="404">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="405">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="406">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="407">
+<source xml:lang="en">$NM_DBLCLK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_DBLCLK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_DBLCLK</mrk></target>
+</trans-unit>
+<trans-unit id="408">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="409">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="410">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="411">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="412">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="413">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="414">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="415">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="416">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="417">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="418">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="419">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="420">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="421">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="422">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="423">
+<source xml:lang="en">The user has clicked the right mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has clicked the right mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has clicked the right mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="424">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="425">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="426">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="427">
+<source xml:lang="en">$NM_RCLICK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_RCLICK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_RCLICK</mrk></target>
+</trans-unit>
+<trans-unit id="428">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="429">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="430">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="431">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="432">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="433">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="434">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="435">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="436">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="437">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="438">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="439">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="440">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="441">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="442">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="443">
+<source xml:lang="en">The user has double-clicked the right mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has double-clicked the right mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has double-clicked the right mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="444">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="445">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="446">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="447">
+<source xml:lang="en">$NM_RDBLCLK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_RDBLCLK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_RDBLCLK</mrk></target>
+</trans-unit>
+<trans-unit id="448">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="449">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="450">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="451">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="452">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="453">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="454">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="455">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="456">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="457">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="458">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="459">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="460">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="461">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="462">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="463">
+<source xml:lang="en">Simple mode changes</source>
+<seg-source><mrk mid="0" mtype="seg">Simple mode changes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Simple mode changes</mrk></target>
+</trans-unit>
+<trans-unit id="464">
+<source xml:lang="en">$SBN_SIMPLEMODECHANGE</source>
+<seg-source><mrk mid="0" mtype="seg">$SBN_SIMPLEMODECHANGE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$SBN_SIMPLEMODECHANGE</mrk></target>
+</trans-unit>
+<trans-unit id="465">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="466">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="467">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="468">
+<source xml:lang="en">No return value</source>
+<seg-source><mrk mid="0" mtype="seg">No return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No return value</mrk></target>
+</trans-unit>
+<trans-unit id="469">
+<source xml:lang="en">!===========================================================</source>
+<seg-source><mrk mid="0" mtype="seg">!===========================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!===========================================================</mrk></target>
+</trans-unit>
+<trans-unit id="470">
+<source xml:lang="en">+======================================================</source>
+<seg-source><mrk mid="0" mtype="seg">+======================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+======================================================</mrk></target>
+</trans-unit>
+<trans-unit id="471">
+<source xml:lang="en">-->Line(</source>
+<seg-source><mrk mid="0" mtype="seg">-->Line(</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Line(</mrk></target>
+</trans-unit>
+<trans-unit id="472">
+<source xml:lang="en">%04d</source>
+<seg-source><mrk mid="0" mtype="seg">%04d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%04d</mrk></target>
+</trans-unit>
+<trans-unit id="473">
+<source xml:lang="en">):</source>
+<seg-source><mrk mid="0" mtype="seg">):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">):</mrk></target>
+</trans-unit>
+<trans-unit id="474">
+<source xml:lang="en">+======================================================</source>
+<seg-source><mrk mid="0" mtype="seg">+======================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+======================================================</mrk></target>
+</trans-unit>
+<trans-unit id="475">
+<source xml:lang="en">Example 5</source>
+<seg-source><mrk mid="0" mtype="seg">Example 5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 5</mrk></target>
+</trans-unit>
+<trans-unit id="476">
+<source xml:lang="en">Left Justified</source>
+<seg-source><mrk mid="0" mtype="seg">Left Justified</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Left Justified</mrk></target>
+</trans-unit>
+<trans-unit id="477">
+<source xml:lang="en">Centered</source>
+<seg-source><mrk mid="0" mtype="seg">Centered</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Centered</mrk></target>
+</trans-unit>
+<trans-unit id="478">
+<source xml:lang="en">Right Justified</source>
+<seg-source><mrk mid="0" mtype="seg">Right Justified</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Right Justified</mrk></target>
+</trans-unit>
+<trans-unit id="479">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="480">
+<source xml:lang="en">(Example 5) StatusBar Create</source>
+<seg-source><mrk mid="0" mtype="seg">(Example 5) StatusBar Create</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(Example 5) StatusBar Create</mrk></target>
+</trans-unit>
+<trans-unit id="481">
+<source xml:lang="en">adjusts array to largest array passed in (this time the text array is the largest)</source>
+<seg-source><mrk mid="0" mtype="seg">adjusts array to largest array passed in (this time the text array is the largest)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">adjusts array to largest array passed in (this time the text array is the largest)</mrk></target>
+</trans-unit>
+<trans-unit id="482">
+<source xml:lang="en">Create memo control</source>
+<seg-source><mrk mid="0" mtype="seg">Create memo control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create memo control</mrk></target>
+</trans-unit>
+<trans-unit id="483">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="484">
+<source xml:lang="en">StatusBar Created with:</source>
+<seg-source><mrk mid="0" mtype="seg">StatusBar Created with:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">StatusBar Created with:</mrk></target>
+</trans-unit>
+<trans-unit id="485">
+<source xml:lang="en">only Handle,</source>
+<seg-source><mrk mid="0" mtype="seg">only Handle,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">only Handle,</mrk></target>
+</trans-unit>
+<trans-unit id="486">
+<source xml:lang="en">part width array of 2 elements</source>
+<seg-source><mrk mid="0" mtype="seg">part width array of 2 elements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">part width array of 2 elements</mrk></target>
+</trans-unit>
+<trans-unit id="487">
+<source xml:lang="en">part text array of 3 elements</source>
+<seg-source><mrk mid="0" mtype="seg">part text array of 3 elements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">part text array of 3 elements</mrk></target>
+</trans-unit>
+<trans-unit id="488">
+<source xml:lang="en">WM_NOTIFY</source>
+<seg-source><mrk mid="0" mtype="seg">WM_NOTIFY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_NOTIFY</mrk></target>
+</trans-unit>
+<trans-unit id="489">
+<source xml:lang="en">Get border sizes</source>
+<seg-source><mrk mid="0" mtype="seg">Get border sizes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get border sizes</mrk></target>
+</trans-unit>
+<trans-unit id="490">
+<source xml:lang="en">Horizontal border width .:</source>
+<seg-source><mrk mid="0" mtype="seg">Horizontal border width .:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Horizontal border width .:</mrk></target>
+</trans-unit>
+<trans-unit id="491">
+<source xml:lang="en">Vertical border width ...:</source>
+<seg-source><mrk mid="0" mtype="seg">Vertical border width ...:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Vertical border width ...:</mrk></target>
+</trans-unit>
+<trans-unit id="492">
+<source xml:lang="en">Width between rectangles :</source>
+<seg-source><mrk mid="0" mtype="seg">Width between rectangles :</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Width between rectangles :</mrk></target>
+</trans-unit>
+<trans-unit id="493">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="494">
+<source xml:lang="en">Write message to memo</source>
+<seg-source><mrk mid="0" mtype="seg">Write message to memo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write message to memo</mrk></target>
+</trans-unit>
+<trans-unit id="495">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="496">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="497">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="498">
+<source xml:lang="en">The user has clicked the left mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has clicked the left mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has clicked the left mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="499">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="500">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="501">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="502">
+<source xml:lang="en">$NM_CLICK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_CLICK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_CLICK</mrk></target>
+</trans-unit>
+<trans-unit id="503">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="504">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="505">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="506">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="507">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="508">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="509">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="510">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="511">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="512">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="513">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="514">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="515">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="516">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="517">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="518">
+<source xml:lang="en">The user has double-clicked the left mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has double-clicked the left mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has double-clicked the left mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="519">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="520">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="521">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="522">
+<source xml:lang="en">$NM_DBLCLK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_DBLCLK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_DBLCLK</mrk></target>
+</trans-unit>
+<trans-unit id="523">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="524">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="525">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="526">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="527">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="528">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="529">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="530">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="531">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="532">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="533">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="534">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="535">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="536">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="537">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="538">
+<source xml:lang="en">The user has clicked the right mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has clicked the right mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has clicked the right mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="539">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="540">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="541">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="542">
+<source xml:lang="en">$NM_RCLICK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_RCLICK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_RCLICK</mrk></target>
+</trans-unit>
+<trans-unit id="543">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="544">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="545">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="546">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="547">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="548">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="549">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="550">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="551">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="552">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="553">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="554">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="555">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="556">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="557">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="558">
+<source xml:lang="en">The user has double-clicked the right mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has double-clicked the right mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has double-clicked the right mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="559">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="560">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="561">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="562">
+<source xml:lang="en">$NM_RDBLCLK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_RDBLCLK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_RDBLCLK</mrk></target>
+</trans-unit>
+<trans-unit id="563">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="564">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="565">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="566">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="567">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="568">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="569">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="570">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="571">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="572">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="573">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="574">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="575">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="576">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="577">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="578">
+<source xml:lang="en">Simple mode changes</source>
+<seg-source><mrk mid="0" mtype="seg">Simple mode changes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Simple mode changes</mrk></target>
+</trans-unit>
+<trans-unit id="579">
+<source xml:lang="en">$SBN_SIMPLEMODECHANGE</source>
+<seg-source><mrk mid="0" mtype="seg">$SBN_SIMPLEMODECHANGE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$SBN_SIMPLEMODECHANGE</mrk></target>
+</trans-unit>
+<trans-unit id="580">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="581">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="582">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="583">
+<source xml:lang="en">No return value</source>
+<seg-source><mrk mid="0" mtype="seg">No return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No return value</mrk></target>
+</trans-unit>
+<trans-unit id="584">
+<source xml:lang="en">!===========================================================</source>
+<seg-source><mrk mid="0" mtype="seg">!===========================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!===========================================================</mrk></target>
+</trans-unit>
+<trans-unit id="585">
+<source xml:lang="en">+======================================================</source>
+<seg-source><mrk mid="0" mtype="seg">+======================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+======================================================</mrk></target>
+</trans-unit>
+<trans-unit id="586">
+<source xml:lang="en">-->Line(</source>
+<seg-source><mrk mid="0" mtype="seg">-->Line(</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Line(</mrk></target>
+</trans-unit>
+<trans-unit id="587">
+<source xml:lang="en">%04d</source>
+<seg-source><mrk mid="0" mtype="seg">%04d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%04d</mrk></target>
+</trans-unit>
+<trans-unit id="588">
+<source xml:lang="en">):</source>
+<seg-source><mrk mid="0" mtype="seg">):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">):</mrk></target>
+</trans-unit>
+<trans-unit id="589">
+<source xml:lang="en">+======================================================</source>
+<seg-source><mrk mid="0" mtype="seg">+======================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+======================================================</mrk></target>
+</trans-unit>
+<trans-unit id="590">
+<source xml:lang="en">Example 6</source>
+<seg-source><mrk mid="0" mtype="seg">Example 6</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 6</mrk></target>
+</trans-unit>
+<trans-unit id="591">
+<source xml:lang="en">Left Justified</source>
+<seg-source><mrk mid="0" mtype="seg">Left Justified</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Left Justified</mrk></target>
+</trans-unit>
+<trans-unit id="592">
+<source xml:lang="en">Centered</source>
+<seg-source><mrk mid="0" mtype="seg">Centered</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Centered</mrk></target>
+</trans-unit>
+<trans-unit id="593">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="594">
+<source xml:lang="en">(Example 6) StatusBar Create</source>
+<seg-source><mrk mid="0" mtype="seg">(Example 6) StatusBar Create</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(Example 6) StatusBar Create</mrk></target>
+</trans-unit>
+<trans-unit id="595">
+<source xml:lang="en">adjusts array to largest array passed in (this time the part width array)</source>
+<seg-source><mrk mid="0" mtype="seg">adjusts array to largest array passed in (this time the part width array)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">adjusts array to largest array passed in (this time the part width array)</mrk></target>
+</trans-unit>
+<trans-unit id="596">
+<source xml:lang="en">Create memo control</source>
+<seg-source><mrk mid="0" mtype="seg">Create memo control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create memo control</mrk></target>
+</trans-unit>
+<trans-unit id="597">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="598">
+<source xml:lang="en">StatusBar Created with:</source>
+<seg-source><mrk mid="0" mtype="seg">StatusBar Created with:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">StatusBar Created with:</mrk></target>
+</trans-unit>
+<trans-unit id="599">
+<source xml:lang="en">only Handle,</source>
+<seg-source><mrk mid="0" mtype="seg">only Handle,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">only Handle,</mrk></target>
+</trans-unit>
+<trans-unit id="600">
+<source xml:lang="en">part width array of 3 elements</source>
+<seg-source><mrk mid="0" mtype="seg">part width array of 3 elements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">part width array of 3 elements</mrk></target>
+</trans-unit>
+<trans-unit id="601">
+<source xml:lang="en">part text array of 2 elements</source>
+<seg-source><mrk mid="0" mtype="seg">part text array of 2 elements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">part text array of 2 elements</mrk></target>
+</trans-unit>
+<trans-unit id="602">
+<source xml:lang="en">WM_NOTIFY</source>
+<seg-source><mrk mid="0" mtype="seg">WM_NOTIFY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_NOTIFY</mrk></target>
+</trans-unit>
+<trans-unit id="603">
+<source xml:lang="en">Get border sizes</source>
+<seg-source><mrk mid="0" mtype="seg">Get border sizes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get border sizes</mrk></target>
+</trans-unit>
+<trans-unit id="604">
+<source xml:lang="en">Horizontal border width .:</source>
+<seg-source><mrk mid="0" mtype="seg">Horizontal border width .:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Horizontal border width .:</mrk></target>
+</trans-unit>
+<trans-unit id="605">
+<source xml:lang="en">Vertical border width ...:</source>
+<seg-source><mrk mid="0" mtype="seg">Vertical border width ...:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Vertical border width ...:</mrk></target>
+</trans-unit>
+<trans-unit id="606">
+<source xml:lang="en">Width between rectangles :</source>
+<seg-source><mrk mid="0" mtype="seg">Width between rectangles :</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Width between rectangles :</mrk></target>
+</trans-unit>
+<trans-unit id="607">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="608">
+<source xml:lang="en">Write message to memo</source>
+<seg-source><mrk mid="0" mtype="seg">Write message to memo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write message to memo</mrk></target>
+</trans-unit>
+<trans-unit id="609">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="610">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="611">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="612">
+<source xml:lang="en">The user has clicked the left mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has clicked the left mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has clicked the left mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="613">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="614">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="615">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="616">
+<source xml:lang="en">$NM_CLICK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_CLICK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_CLICK</mrk></target>
+</trans-unit>
+<trans-unit id="617">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="618">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="619">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="620">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="621">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="622">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="623">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="624">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="625">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="626">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="627">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="628">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="629">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="630">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="631">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="632">
+<source xml:lang="en">The user has double-clicked the left mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has double-clicked the left mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has double-clicked the left mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="633">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="634">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="635">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="636">
+<source xml:lang="en">$NM_DBLCLK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_DBLCLK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_DBLCLK</mrk></target>
+</trans-unit>
+<trans-unit id="637">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="638">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="639">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="640">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="641">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="642">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="643">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="644">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="645">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="646">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="647">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="648">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="649">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="650">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="651">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="652">
+<source xml:lang="en">The user has clicked the right mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has clicked the right mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has clicked the right mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="653">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="654">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="655">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="656">
+<source xml:lang="en">$NM_RCLICK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_RCLICK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_RCLICK</mrk></target>
+</trans-unit>
+<trans-unit id="657">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="658">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="659">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="660">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="661">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="662">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="663">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="664">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="665">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="666">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="667">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="668">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="669">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="670">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="671">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="672">
+<source xml:lang="en">The user has double-clicked the right mouse button within the control</source>
+<seg-source><mrk mid="0" mtype="seg">The user has double-clicked the right mouse button within the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user has double-clicked the right mouse button within the control</mrk></target>
+</trans-unit>
+<trans-unit id="673">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="674">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="675">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="676">
+<source xml:lang="en">$NM_RDBLCLK</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_RDBLCLK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_RDBLCLK</mrk></target>
+</trans-unit>
+<trans-unit id="677">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="678">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="679">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="680">
+<source xml:lang="en">-->ItemSpec:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemSpec:</mrk></target>
+</trans-unit>
+<trans-unit id="681">
+<source xml:lang="en">ItemSpec</source>
+<seg-source><mrk mid="0" mtype="seg">ItemSpec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemSpec</mrk></target>
+</trans-unit>
+<trans-unit id="682">
+<source xml:lang="en">-->ItemData:</source>
+<seg-source><mrk mid="0" mtype="seg">-->ItemData:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->ItemData:</mrk></target>
+</trans-unit>
+<trans-unit id="683">
+<source xml:lang="en">ItemData</source>
+<seg-source><mrk mid="0" mtype="seg">ItemData</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ItemData</mrk></target>
+</trans-unit>
+<trans-unit id="684">
+<source xml:lang="en">-->X:</source>
+<seg-source><mrk mid="0" mtype="seg">-->X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->X:</mrk></target>
+</trans-unit>
+<trans-unit id="685">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="686">
+<source xml:lang="en">-->Y:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Y:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Y:</mrk></target>
+</trans-unit>
+<trans-unit id="687">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="688">
+<source xml:lang="en">-->HitInfo:</source>
+<seg-source><mrk mid="0" mtype="seg">-->HitInfo:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->HitInfo:</mrk></target>
+</trans-unit>
+<trans-unit id="689">
+<source xml:lang="en">HitInfo</source>
+<seg-source><mrk mid="0" mtype="seg">HitInfo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HitInfo</mrk></target>
+</trans-unit>
+<trans-unit id="690">
+<source xml:lang="en">indicate that the mouse click was handled and suppress default processing by the system</source>
+<seg-source><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicate that the mouse click was handled and suppress default processing by the system</mrk></target>
+</trans-unit>
+<trans-unit id="691">
+<source xml:lang="en">Return FALSE ;to allow default processing of the click.</source>
+<seg-source><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return FALSE ;to allow default processing of the click.</mrk></target>
+</trans-unit>
+<trans-unit id="692">
+<source xml:lang="en">Simple mode changes</source>
+<seg-source><mrk mid="0" mtype="seg">Simple mode changes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Simple mode changes</mrk></target>
+</trans-unit>
+<trans-unit id="693">
+<source xml:lang="en">$SBN_SIMPLEMODECHANGE</source>
+<seg-source><mrk mid="0" mtype="seg">$SBN_SIMPLEMODECHANGE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$SBN_SIMPLEMODECHANGE</mrk></target>
+</trans-unit>
+<trans-unit id="694">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="695">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="696">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="697">
+<source xml:lang="en">No return value</source>
+<seg-source><mrk mid="0" mtype="seg">No return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No return value</mrk></target>
+</trans-unit>
+<trans-unit id="698">
+<source xml:lang="en">!===========================================================</source>
+<seg-source><mrk mid="0" mtype="seg">!===========================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!===========================================================</mrk></target>
+</trans-unit>
+<trans-unit id="699">
+<source xml:lang="en">+======================================================</source>
+<seg-source><mrk mid="0" mtype="seg">+======================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+======================================================</mrk></target>
+</trans-unit>
+<trans-unit id="700">
+<source xml:lang="en">-->Line(</source>
+<seg-source><mrk mid="0" mtype="seg">-->Line(</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Line(</mrk></target>
+</trans-unit>
+<trans-unit id="701">
+<source xml:lang="en">%04d</source>
+<seg-source><mrk mid="0" mtype="seg">%04d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%04d</mrk></target>
+</trans-unit>
+<trans-unit id="702">
+<source xml:lang="en">):</source>
+<seg-source><mrk mid="0" mtype="seg">):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">):</mrk></target>
+</trans-unit>
+<trans-unit id="703">
+<source xml:lang="en">+======================================================</source>
+<seg-source><mrk mid="0" mtype="seg">+======================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+======================================================</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

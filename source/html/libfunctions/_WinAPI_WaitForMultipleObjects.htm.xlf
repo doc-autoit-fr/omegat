@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_WaitForMultipleObjects.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Waits until one or all of the specified objects are in the signaled state</source>
+<seg-source><mrk mid="0" mtype="seg">Waits until one or all of the specified objects are in the signaled state</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Waits until one or all of the specified objects are in the signaled state</mrk></target>
+<note>Function _WinAPI_WaitForMultipleObjects</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The number of object handles in the array pointed to by $paHandles</source>
+<seg-source><mrk mid="0" mtype="seg">The number of object handles in the array pointed to by $paHandles</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The number of object handles in the array pointed to by $paHandles</mrk></target>
+<note>$iCount</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Pointer to an array of object handles</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to an array of object handles</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to an array of object handles</mrk></target>
+<note>$paHandles</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If True, the function returns when the state of all objects in the $paHandles array is signaled.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True, the function returns when the state of all objects in the $paHandles array is signaled.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True, the function returns when the state of all objects in the $paHandles array is signaled.</mrk></target>
+<note>$bWaitAll</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> If False, the function returns when the state of any one of the objects is set to signaled.</source>
+<seg-source> <mrk mid="0" mtype="seg">If False, the function returns when the state of any one of the objects is set to signaled.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If False, the function returns when the state of any one of the objects is set to signaled.</mrk></target>
+<note>$bWaitAll</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> In the latter case, the return value indicates the object whose state caused the function to return.</source>
+<seg-source> <mrk mid="0" mtype="seg">In the latter case, the return value indicates the object whose state caused the function to return.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">In the latter case, the return value indicates the object whose state caused the function to return.</mrk></target>
+<note>$bWaitAll</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The time-out interval, in milliseconds.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The time-out interval, in milliseconds.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The time-out interval, in milliseconds.</mrk></target>
+<note>$iTimeout</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> The function returns if the interval elapses, even if the conditions specified by the $bWaitAll parameter are not met.</source>
+<seg-source> <mrk mid="0" mtype="seg">The function returns if the interval elapses, even if the conditions specified by the $bWaitAll parameter are not met.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The function returns if the interval elapses, even if the conditions specified by the $bWaitAll parameter are not met.</mrk></target>
+<note>$iTimeout</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> If 0, the function tests the states of the specified objects and returns immediately.</source>
+<seg-source> <mrk mid="0" mtype="seg">If 0, the function tests the states of the specified objects and returns immediately.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If 0, the function tests the states of the specified objects and returns immediately.</mrk></target>
+<note>$iTimeout</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> If -1, the function's time-out interval never elapses.</source>
+<seg-source> <mrk mid="0" mtype="seg">If -1, the function's time-out interval never elapses.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If -1, the function's time-out interval never elapses.</mrk></target>
+<note>$iTimeout</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">indicates the event that caused the function to return.</source>
+<seg-source><mrk mid="0" mtype="seg">indicates the event that caused the function to return.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">indicates the event that caused the function to return.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> (-1) WAIT_FAILED, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">(-1) WAIT_FAILED, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">(-1) WAIT_FAILED, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(WaitForMultipleObjects);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>WaitForMultipleObjects<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(WaitForMultipleObjects);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>WaitForMultipleObjects<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(WaitForMultipleObjects);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>WaitForMultipleObjects<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">needed for _WinAPI_ResetEvent()</source>
+<seg-source><mrk mid="0" mtype="seg">needed for _WinAPI_ResetEvent()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">needed for _WinAPI_ResetEvent()</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">handle Event[3];</source>
+<seg-source><mrk mid="0" mtype="seg">handle Event[3];</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">handle Event[3];</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">_Exit</source>
+<seg-source><mrk mid="0" mtype="seg">_Exit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_Exit</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">_FireEvent_1</source>
+<seg-source><mrk mid="0" mtype="seg">_FireEvent_1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_FireEvent_1</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">_FireEvent_2</source>
+<seg-source><mrk mid="0" mtype="seg">_FireEvent_2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_FireEvent_2</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">+ First Event</source>
+<seg-source><mrk mid="0" mtype="seg">+ First Event</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+ First Event</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">> Second Event</source>
+<seg-source><mrk mid="0" mtype="seg">> Second Event</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">> Second Event</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">! Exit Event</source>
+<seg-source><mrk mid="0" mtype="seg">!</mrk> <mrk mid="1" mtype="seg">Exit Event</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!</mrk> <mrk mid="1" mtype="seg">Exit Event</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">_FireEvent_1</source>
+<seg-source><mrk mid="0" mtype="seg">_FireEvent_1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_FireEvent_1</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">_FireEvent_2</source>
+<seg-source><mrk mid="0" mtype="seg">_FireEvent_2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_FireEvent_2</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

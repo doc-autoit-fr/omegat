@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_GetIconInfoEx.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves information about the specified icon or cursor</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves information about the specified icon or cursor</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves information about the specified icon or cursor</mrk></target>
+<note>Function _WinAPI_GetIconInfoEx</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the icon or cursor. To retrieve information about a standard icon or cursor, use $IDC_* constants.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the icon or cursor.</mrk> <mrk mid="1" mtype="seg">To retrieve information about a standard icon or cursor, use $IDC_* constants.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the icon or cursor.</mrk> <mrk mid="1" mtype="seg">To retrieve information about a standard icon or cursor, use $IDC_* constants.</mrk></target>
+<note>$hIcon</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The array that contains the following information:</source>
+<seg-source><mrk mid="0" mtype="seg">The array that contains the following information:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The array that contains the following information:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     [0] - A value of 1 specifies an icon; 0 specifies a cursor.</source>
+<seg-source> <mrk mid="0" mtype="seg">    [0] - A value of 1 specifies an icon; 0 specifies a cursor.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [0] - A value of 1 specifies an icon; 0 specifies a cursor.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     [1] - The x-coordinate of the cursor's hot spot.</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1] - The x-coordinate of the cursor's hot spot.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1] - The x-coordinate of the cursor's hot spot.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     [2] - The y-coordinate of the cursor's hot spot.</source>
+<seg-source> <mrk mid="0" mtype="seg">    [2] - The y-coordinate of the cursor's hot spot.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [2] - The y-coordinate of the cursor's hot spot.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     [3] - A handle to the icon bitmask bitmap.</source>
+<seg-source> <mrk mid="0" mtype="seg">    [3] - A handle to the icon bitmask bitmap.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [3] - A handle to the icon bitmask bitmap.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     [4] - A handle to the icon color bitmap.</source>
+<seg-source> <mrk mid="0" mtype="seg">    [4] - A handle to the icon color bitmap.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [4] - A handle to the icon color bitmap.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     [5] - The icon or cursor resource bits.</source>
+<seg-source> <mrk mid="0" mtype="seg">    [5] - The icon or cursor resource bits.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [5] - The icon or cursor resource bits.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     [6] - The fully qualified path of the module.</source>
+<seg-source> <mrk mid="0" mtype="seg">    [6] - The fully qualified path of the module.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [6] - The fully qualified path of the module.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     [7] - The fully qualified path of the resource.</source>
+<seg-source> <mrk mid="0" mtype="seg">    [7] - The fully qualified path of the resource.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [7] - The fully qualified path of the resource.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetIconInfoEx.htm"></bpt>_WinAPI_GetIconInfoEx()<ept id="1">&lt;/a></ept> creates bitmaps [3] and [4].</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetIconInfoEx.htm"></bpt>_WinAPI_GetIconInfoEx()<ept id="1">&lt;/a></ept> creates bitmaps [3] and [4].</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetIconInfoEx.htm"></bpt>_WinAPI_GetIconInfoEx()<ept id="1">&lt;/a></ept> creates bitmaps [3] and [4].</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> The calling application must manage these bitmaps and delete them when they are no longer necessary.</source>
+<seg-source> <mrk mid="0" mtype="seg">The calling application must manage these bitmaps and delete them when they are no longer necessary.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The calling application must manage these bitmaps and delete them when they are no longer necessary.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetIconInfoEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetIconInfoEx<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetIconInfoEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetIconInfoEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetIconInfoEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetIconInfoEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">6.0</source>
+<seg-source><mrk mid="0" mtype="seg">6.0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">6.0</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Require Windows Vista or later.</source>
+<seg-source><mrk mid="0" mtype="seg">Require Windows Vista or later.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Require Windows Vista or later.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Handle:</source>
+<seg-source><mrk mid="0" mtype="seg">Handle:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle:</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Path:</source>
+<seg-source><mrk mid="0" mtype="seg">Path:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Path:</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">ID:</source>
+<seg-source><mrk mid="0" mtype="seg">ID:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ID:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

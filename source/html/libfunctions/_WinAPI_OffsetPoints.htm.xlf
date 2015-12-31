@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_OffsetPoints.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Moves a points from the array by the specified offsets</source>
+<seg-source><mrk mid="0" mtype="seg">Moves a points from the array by the specified offsets</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Moves a points from the array by the specified offsets</mrk></target>
+<note>Function _WinAPI_OffsetPoints</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The 2D array ([x1, y1, ...], [x2, y2, ...], ... [xN, yN, ...]). Every first two elements from this</source>
+<seg-source><mrk mid="0" mtype="seg">The 2D array ([x1, y1, ...],</mrk> <mrk mid="1" mtype="seg">[x2, y2, ...],</mrk> <mrk mid="2" mtype="seg">... [xN, yN, ...]).</mrk> <mrk mid="3" mtype="seg">Every first two elements from this</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The 2D array ([x1, y1, ...],</mrk> <mrk mid="1" mtype="seg">[x2, y2, ...],</mrk> <mrk mid="2" mtype="seg">... [xN, yN, ...]).</mrk> <mrk mid="3" mtype="seg">Every first two elements from this</mrk></target>
+<note>$aPoint</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> array specifies a point to be move. Other array elements (if any) do not change.</source>
+<seg-source> <mrk mid="0" mtype="seg">array specifies a point to be move.</mrk> <mrk mid="1" mtype="seg">Other array elements (if any) do not change.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">array specifies a point to be move.</mrk> <mrk mid="1" mtype="seg">Other array elements (if any) do not change.</mrk></target>
+<note>$aPoint</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The number of logical units to move left or right.</source>
+<seg-source><mrk mid="0" mtype="seg">The number of logical units to move left or right.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The number of logical units to move left or right.</mrk></target>
+<note>$iXOffset</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The number of logical units to move up or down.</source>
+<seg-source><mrk mid="0" mtype="seg">The number of logical units to move up or down.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The number of logical units to move up or down.</mrk></target>
+<note>$iYOffset</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The index of array to start moving at.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array to start moving at.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array to start moving at.</mrk></target>
+<note>$iStart</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The index of array to stop moving at.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array to stop moving at.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array to stop moving at.</mrk></target>
+<note>$iEnd</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Create bitmap</source>
+<seg-source><mrk mid="0" mtype="seg">Create bitmap</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create bitmap</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Draw objects</source>
+<seg-source><mrk mid="0" mtype="seg">Draw objects</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draw objects</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Arial Black</source>
+<seg-source><mrk mid="0" mtype="seg">Arial Black</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Arial Black</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Simple Text</source>
+<seg-source><mrk mid="0" mtype="seg">Simple Text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Simple Text</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">\Extras\Pattern.bmp</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\Pattern.bmp</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\Pattern.bmp</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">$hPattern = _WinAPI_LoadBitmap(_WinAPI_GetModuleHandle(@SystemDir &amp; '\shell32.dll'), 138)</source>
+<seg-source><mrk mid="0" mtype="seg">$hPattern = _WinAPI_LoadBitmap(_WinAPI_GetModuleHandle(@SystemDir &amp; '\shell32.dll'), 138)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$hPattern = _WinAPI_LoadBitmap(_WinAPI_GetModuleHandle(@SystemDir &amp; '\shell32.dll'), 138)</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Merge bitmap</source>
+<seg-source><mrk mid="0" mtype="seg">Merge bitmap</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Merge bitmap</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Set bitmap to control</source>
+<seg-source><mrk mid="0" mtype="seg">Set bitmap to control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set bitmap to control</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

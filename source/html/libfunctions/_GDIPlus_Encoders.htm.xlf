@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GDIPlus_Encoders.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Get an array of information about the available image encoders</source>
+<seg-source><mrk mid="0" mtype="seg">Get an array of information about the available image encoders</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get an array of information about the available image encoders</mrk></target>
+<note>Function _GDIPlus_Encoders</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">an array with the following format:</source>
+<seg-source><mrk mid="0" mtype="seg">an array with the following format:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an array with the following format:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">     [0][ 0] - Number of decoders</source>
+<seg-source> <mrk mid="0" mtype="seg">    [0][ 0] - Number of decoders</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [0][ 0] - Number of decoders</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     [1][ 1] - Codec identifier</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1][ 1] - Codec identifier</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1][ 1] - Codec identifier</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     [1][ 2] - File format identifier</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1][ 2] - File format identifier</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1][ 2] - File format identifier</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     [1][ 3] - Codec name</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1][ 3] - Codec name</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1][ 3] - Codec name</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     [1][ 4] - DLL in which the code resides</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1][ 4] - DLL in which the code resides</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1][ 4] - DLL in which the code resides</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     [1][ 5] - The name of the file format used by the codec</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1][ 5] - The name of the file format used by the codec</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1][ 5] - The name of the file format used by the codec</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     [1][ 6] - Filename extensions associated with the codec</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1][ 6] - Filename extensions associated with the codec</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1][ 6] - Filename extensions associated with the codec</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     [1][ 7] - The mime type of the codec</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1][ 7] - The mime type of the codec</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1][ 7] - The mime type of the codec</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     [1][ 8] - Combination of $GDIP_ICF flags</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1][ 8] - Combination of $GDIP_ICF flags</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1][ 8] - Combination of $GDIP_ICF flags</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     [1][ 9] - The version of the codec</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1][ 9] - The version of the codec</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1][ 9] - The version of the codec</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     [1][10] - The number of signatures used by the file format</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1][10] - The number of signatures used by the file format</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1][10] - The number of signatures used by the file format</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     [1][11] - The number of bytes in each signature</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1][11] - The number of bytes in each signature</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1][11] - The number of bytes in each signature</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     [1][12] - Pointer to the pattern for each signature</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1][12] - Pointer to the pattern for each signature</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1][12] - Pointer to the pattern for each signature</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     [1][13] - Pointer to the mask for each signature</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1][13] - Pointer to the mask for each signature</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1][13] - Pointer to the mask for each signature</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">sets the @error flag to non-zero, @extended may contain GPSTATUS error code (GDIP_ERR*).</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero, @extended may contain GPSTATUS error code (GDIP_ERR*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero, @extended may contain GPSTATUS error code (GDIP_ERR*).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipGetImageEncoders"></bpt>GdipGetImageEncoders<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipGetImageEncoders"></bpt>GdipGetImageEncoders<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipGetImageEncoders"></bpt>GdipGetImageEncoders<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">GDI+</source>
+<seg-source><mrk mid="0" mtype="seg">GDI+</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GDI+</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Initialize GDI+ library</source>
+<seg-source><mrk mid="0" mtype="seg">Initialize GDI+ library</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Initialize GDI+ library</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Create an image to use for paramater lists</source>
+<seg-source><mrk mid="0" mtype="seg">Create an image to use for paramater lists</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create an image to use for paramater lists</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Show encoder parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Show encoder parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show encoder parameters</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Encoder</source>
+<seg-source><mrk mid="0" mtype="seg">Encoder</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encoder</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Show decoder parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Show decoder parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show decoder parameters</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Decoder</source>
+<seg-source><mrk mid="0" mtype="seg">Decoder</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Decoder</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Clean up resources</source>
+<seg-source><mrk mid="0" mtype="seg">Clean up resources</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Clean up resources</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Shut down GDI+ library</source>
+<seg-source><mrk mid="0" mtype="seg">Shut down GDI+ library</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shut down GDI+ library</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Write a line to the memo control</source>
+<seg-source><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Show codex information</source>
+<seg-source><mrk mid="0" mtype="seg">Show codex information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show codex information</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Image</source>
+<seg-source><mrk mid="0" mtype="seg">Image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Image</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Codec GUID ............:</source>
+<seg-source><mrk mid="0" mtype="seg">Codec GUID ............:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Codec GUID ............:</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">File format GUID ......:</source>
+<seg-source><mrk mid="0" mtype="seg">File format GUID ......:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File format GUID ......:</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Codec name ............:</source>
+<seg-source><mrk mid="0" mtype="seg">Codec name ............:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Codec name ............:</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Codec Dll file name ...:</source>
+<seg-source><mrk mid="0" mtype="seg">Codec Dll file name ...:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Codec Dll file name ...:</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Codec file format .....:</source>
+<seg-source><mrk mid="0" mtype="seg">Codec file format .....:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Codec file format .....:</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">File name extensions ..:</source>
+<seg-source><mrk mid="0" mtype="seg">File name extensions ..:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File name extensions ..:</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Mime type .............:</source>
+<seg-source><mrk mid="0" mtype="seg">Mime type .............:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Mime type .............:</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Flags .................: 0x</source>
+<seg-source><mrk mid="0" mtype="seg">Flags .................:</mrk> <mrk mid="1" mtype="seg">0x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Flags .................:</mrk> <mrk mid="1" mtype="seg">0x</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Version ...............:</source>
+<seg-source><mrk mid="0" mtype="seg">Version ...............:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Version ...............:</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Signature count .......:</source>
+<seg-source><mrk mid="0" mtype="seg">Signature count .......:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Signature count .......:</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Signature size ........:</source>
+<seg-source><mrk mid="0" mtype="seg">Signature size ........:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Signature size ........:</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Signature pattern ptr .: 0x</source>
+<seg-source><mrk mid="0" mtype="seg">Signature pattern ptr .:</mrk> <mrk mid="1" mtype="seg">0x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Signature pattern ptr .:</mrk> <mrk mid="1" mtype="seg">0x</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Signature mask ptr ....: 0x</source>
+<seg-source><mrk mid="0" mtype="seg">Signature mask ptr ....:</mrk> <mrk mid="1" mtype="seg">0x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Signature mask ptr ....:</mrk> <mrk mid="1" mtype="seg">0x</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">~ If $sTitle = "Decoder" Then ContinueLoop</source>
+<seg-source><mrk mid="0" mtype="seg">~ If $sTitle = "Decoder" Then ContinueLoop</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">~ If $sTitle = "Decoder" Then ContinueLoop</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Parameter list size ...:</source>
+<seg-source><mrk mid="0" mtype="seg">Parameter list size ...:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameter list size ...:</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Parameters Count ......:</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters Count ......:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters Count ......:</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">Count</source>
+<seg-source><mrk mid="0" mtype="seg">Count</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Count</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Count</source>
+<seg-source><mrk mid="0" mtype="seg">Count</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Count</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Image</source>
+<seg-source><mrk mid="0" mtype="seg">Image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Image</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">Parameter</source>
+<seg-source><mrk mid="0" mtype="seg">Parameter</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameter</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">GUID</source>
+<seg-source><mrk mid="0" mtype="seg">GUID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUID</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">Parameter GUID ......:</source>
+<seg-source><mrk mid="0" mtype="seg">Parameter GUID ......:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameter GUID ......:</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">GUID</source>
+<seg-source><mrk mid="0" mtype="seg">GUID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUID</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">Number of values ....:</source>
+<seg-source><mrk mid="0" mtype="seg">Number of values ....:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Number of values ....:</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">NumberOfValues</source>
+<seg-source><mrk mid="0" mtype="seg">NumberOfValues</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NumberOfValues</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">Parameter type.......:</source>
+<seg-source><mrk mid="0" mtype="seg">Parameter type.......:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameter type.......:</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">Type</source>
+<seg-source><mrk mid="0" mtype="seg">Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Type</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">Parameter pointer ...: 0x</source>
+<seg-source><mrk mid="0" mtype="seg">Parameter pointer ...:</mrk> <mrk mid="1" mtype="seg">0x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameter pointer ...:</mrk> <mrk mid="1" mtype="seg">0x</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">Values</source>
+<seg-source><mrk mid="0" mtype="seg">Values</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Values</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">Type</source>
+<seg-source><mrk mid="0" mtype="seg">Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Type</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">int Data[</source>
+<seg-source><mrk mid="0" mtype="seg">int Data[</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int Data[</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">NumberOfValues</source>
+<seg-source><mrk mid="0" mtype="seg">NumberOfValues</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NumberOfValues</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">]</source>
+<seg-source><mrk mid="0" mtype="seg">]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">]</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">Values</source>
+<seg-source><mrk mid="0" mtype="seg">Values</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Values</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">NumberOfValues</source>
+<seg-source><mrk mid="0" mtype="seg">NumberOfValues</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NumberOfValues</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">Value .............:</source>
+<seg-source><mrk mid="0" mtype="seg">Value .............:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Value .............:</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">int Low;int High</source>
+<seg-source><mrk mid="0" mtype="seg">int Low;int High</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int Low;int High</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">Values</source>
+<seg-source><mrk mid="0" mtype="seg">Values</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Values</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">Low range .........:</source>
+<seg-source><mrk mid="0" mtype="seg">Low range .........:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Low range .........:</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">Low</source>
+<seg-source><mrk mid="0" mtype="seg">Low</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Low</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">High range ........:</source>
+<seg-source><mrk mid="0" mtype="seg">High range ........:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">High range ........:</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">High</source>
+<seg-source><mrk mid="0" mtype="seg">High</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">High</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

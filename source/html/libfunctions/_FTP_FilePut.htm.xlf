@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_FTP_FilePut.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Puts an file on an FTP server</source>
+<seg-source><mrk mid="0" mtype="seg">Puts an file on an FTP server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Puts an file on an FTP server</mrk></target>
+<note>Function _FTP_FilePut</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> as returned by <bpt id="1" ctype="x-a">&lt;a href="_FTP_Connect.htm"></bpt>_FTP_Connect()<ept id="1">&lt;/a></ept> </source>
+<seg-source> <mrk mid="0" mtype="seg">as returned by <bpt id="1" ctype="x-a">&lt;a href="_FTP_Connect.htm"></bpt>_FTP_Connect()<ept id="1">&lt;/a></ept></mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">as returned by <bpt id="1" ctype="x-a">&lt;a href="_FTP_Connect.htm"></bpt>_FTP_Connect()<ept id="1">&lt;/a></ept></mrk> </target>
+<note>$hFTPSession</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The local file.</source>
+<seg-source><mrk mid="0" mtype="seg">The local file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The local file.</mrk></target>
+<note>$sLocalFile</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The remote Location for the file.</source>
+<seg-source><mrk mid="0" mtype="seg">The remote Location for the file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The remote Location for the file.</mrk></target>
+<note>$sRemoteFile</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specify the conditions under which the transfers occur. The application should select one transfer type and any of the flags that indicate how the caching of the file will be controlled.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specify the conditions under which the transfers occur.</mrk> <mrk mid="2" mtype="seg">The application should select one transfer type and any of the flags that indicate how the caching of the file will be controlled.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specify the conditions under which the transfers occur.</mrk> <mrk mid="2" mtype="seg">The application should select one transfer type and any of the flags that indicate how the caching of the file will be controlled.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> The transfer type can be one of the following values:</source>
+<seg-source> <mrk mid="0" mtype="seg">The transfer type can be one of the following values:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The transfer type can be one of the following values:</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $FTP_TRANSFER_TYPE_ASCII - Transfers the file using FTP's ASCII (Type A) transfer method. Control and formatting information is converted to local equivalents.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FTP_TRANSFER_TYPE_ASCII - Transfers the file using FTP's ASCII (Type A) transfer method.</mrk> <mrk mid="1" mtype="seg">Control and formatting information is converted to local equivalents.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FTP_TRANSFER_TYPE_ASCII - Transfers the file using FTP's ASCII (Type A) transfer method.</mrk> <mrk mid="1" mtype="seg">Control and formatting information is converted to local equivalents.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $FTP_TRANSFER_TYPE_BINARY - Transfers the file using FTP's Image (Type I) transfer method. The file is transferred exactly as it exists with no changes. This is the default transfer method.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FTP_TRANSFER_TYPE_BINARY - Transfers the file using FTP's Image (Type I) transfer method.</mrk> <mrk mid="1" mtype="seg">The file is transferred exactly as it exists with no changes.</mrk> <mrk mid="2" mtype="seg">This is the default transfer method.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FTP_TRANSFER_TYPE_BINARY - Transfers the file using FTP's Image (Type I) transfer method.</mrk> <mrk mid="1" mtype="seg">The file is transferred exactly as it exists with no changes.</mrk> <mrk mid="2" mtype="seg">This is the default transfer method.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $FTP_TRANSFER_TYPE_UNKNOWN - Defaults to $FTP_TRANSFER_TYPE_BINARY.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FTP_TRANSFER_TYPE_UNKNOWN - Defaults to $FTP_TRANSFER_TYPE_BINARY.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FTP_TRANSFER_TYPE_UNKNOWN - Defaults to $FTP_TRANSFER_TYPE_BINARY.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $INTERNET_FLAG_TRANSFER_ASCII - Transfers the file as ASCII.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INTERNET_FLAG_TRANSFER_ASCII - Transfers the file as ASCII.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INTERNET_FLAG_TRANSFER_ASCII - Transfers the file as ASCII.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $INTERNET_FLAG_TRANSFER_BINARY - Transfers the file as binary.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INTERNET_FLAG_TRANSFER_BINARY - Transfers the file as binary.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INTERNET_FLAG_TRANSFER_BINARY - Transfers the file as binary.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> The following values are used to control the caching of the file. The application can use one or more of these values:</source>
+<seg-source> <mrk mid="0" mtype="seg">The following values are used to control the caching of the file.</mrk> <mrk mid="1" mtype="seg">The application can use one or more of these values:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The following values are used to control the caching of the file.</mrk> <mrk mid="1" mtype="seg">The application can use one or more of these values:</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $INTERNET_FLAG_HYPERLINK - Forces a reload if there was no Expires time and no LastModified time returned from the server when determining whether to reload the item from the network.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INTERNET_FLAG_HYPERLINK - Forces a reload if there was no Expires time and no LastModified time returned from the server when determining whether to reload the item from the network.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INTERNET_FLAG_HYPERLINK - Forces a reload if there was no Expires time and no LastModified time returned from the server when determining whether to reload the item from the network.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $INTERNET_FLAG_NEED_FILE - Causes a temporary file to be created if the file cannot be cached.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INTERNET_FLAG_NEED_FILE - Causes a temporary file to be created if the file cannot be cached.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INTERNET_FLAG_NEED_FILE - Causes a temporary file to be created if the file cannot be cached.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $INTERNET_FLAG_RELOAD - Forces a download of the requested file, object, or directory listing from the origin server, not from the cache.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INTERNET_FLAG_RELOAD - Forces a download of the requested file, object, or directory listing from the origin server, not from the cache.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INTERNET_FLAG_RELOAD - Forces a download of the requested file, object, or directory listing from the origin server, not from the cache.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $INTERNET_FLAG_RESYNCHRONIZE - Reloads HTTP resources if the resource has been modified since the last time it was downloaded. All FTP and Gopher resources are reloaded.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INTERNET_FLAG_RESYNCHRONIZE - Reloads HTTP resources if the resource has been modified since the last time it was downloaded.</mrk> <mrk mid="1" mtype="seg">All FTP and Gopher resources are reloaded.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INTERNET_FLAG_RESYNCHRONIZE - Reloads HTTP resources if the resource has been modified since the last time it was downloaded.</mrk> <mrk mid="1" mtype="seg">All FTP and Gopher resources are reloaded.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> A variable that contains the application-defined value that associates this search with any application data.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A variable that contains the application-defined value that associates this search with any application data.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A variable that contains the application-defined value that associates this search with any application data.</mrk></target>
+<note>$iContext</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> This is only used if the application has already called <bpt id="1" ctype="x-a">&lt;a href="_FTP_SetStatusCallback.htm"></bpt>_FTP_SetStatusCallback()<ept id="1">&lt;/a></ept> to set up a status callback function. </source>
+<seg-source> <mrk mid="0" mtype="seg">This is only used if the application has already called <bpt id="1" ctype="x-a">&lt;a href="_FTP_SetStatusCallback.htm"></bpt>_FTP_SetStatusCallback()<ept id="1">&lt;/a></ept> to set up a status callback function.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This is only used if the application has already called <bpt id="1" ctype="x-a">&lt;a href="_FTP_SetStatusCallback.htm"></bpt>_FTP_SetStatusCallback()<ept id="1">&lt;/a></ept> to set up a status callback function.</mrk> </target>
+<note>$iContext</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Both $sLocalFile and $sRemoteFile may be partial or fully qualified names relative to the current directory.</source>
+<seg-source><mrk mid="0" mtype="seg">Both $sLocalFile and $sRemoteFile may be partial or fully qualified names relative to the current directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Both $sLocalFile and $sRemoteFile may be partial or fully qualified names relative to the current directory.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FtpPutFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FtpPutFile<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FtpPutFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FtpPutFile<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FtpPutFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FtpPutFile<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

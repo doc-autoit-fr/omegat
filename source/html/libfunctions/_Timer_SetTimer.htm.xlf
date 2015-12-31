@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_Timer_SetTimer.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a timer with the specified time-out value</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a timer with the specified time-out value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a timer with the specified time-out value</mrk></target>
+<note>Function _Timer_SetTimer</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the window to be associated with the timer.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the window to be associated with the timer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the window to be associated with the timer.</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> This window must be owned by the calling thread</source>
+<seg-source> <mrk mid="0" mtype="seg">This window must be owned by the calling thread</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This window must be owned by the calling thread</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the time-out value, in milliseconds</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the time-out value, in milliseconds</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the time-out value, in milliseconds</mrk></target>
+<note>$iElapse</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Function name to be notified when the time-out value elapses</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Function name to be notified when the time-out value elapses</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Function name to be notified when the time-out value elapses</mrk></target>
+<note>$sTimerFunc</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies a timer identifier.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies a timer identifier.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies a timer identifier.</mrk></target>
+<note>$iTimerID</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> If $iTimerID = -1 then a new timer is created</source>
+<seg-source> <mrk mid="0" mtype="seg">If $iTimerID = -1 then a new timer is created</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If $iTimerID = -1 then a new timer is created</mrk></target>
+<note>$iTimerID</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> If $iTimerID matches an existing timer then the timer is replaced</source>
+<seg-source> <mrk mid="0" mtype="seg">If $iTimerID matches an existing timer then the timer is replaced</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If $iTimerID matches an existing timer then the timer is replaced</mrk></target>
+<note>$iTimerID</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> If $iTimerID = -1 and $sTimerFunc = "" then timer will use WM_TIMER events</source>
+<seg-source> <mrk mid="0" mtype="seg">If $iTimerID = -1 and $sTimerFunc = "" then timer will use WM_TIMER events</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If $iTimerID = -1 and $sTimerFunc = "" then timer will use WM_TIMER events</mrk></target>
+<note>$iTimerID</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Integer identifying the new timer</source>
+<seg-source><mrk mid="0" mtype="seg">Integer identifying the new timer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Integer identifying the new timer</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">0</source>
+<seg-source><mrk mid="0" mtype="seg">0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">The callback function is called with the following parameters:</source>
+<seg-source><mrk mid="0" mtype="seg">The callback function is called with the following parameters:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The callback function is called with the following parameters:</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> $hWnd, $iMsg, $iIDTimer, $iTime</source>
+<seg-source> <mrk mid="0" mtype="seg">$hWnd, $iMsg, $iIDTimer, $iTime</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$hWnd, $iMsg, $iIDTimer, $iTime</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $hWnd - A handle to the window associated with the timer.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $hWnd - A handle to the window associated with the timer.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $hWnd - A handle to the window associated with the timer.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $iMsg - The WM_TIMER (0x113) message.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $iMsg - The WM_TIMER (0x113) message.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $iMsg - The WM_TIMER (0x113) message.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $iIDTimer - The timer's identifier.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $iIDTimer - The timer's identifier.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $iIDTimer - The timer's identifier.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     $iTime - The number of milliseconds that have elapsed since the system was started. This is the value returned by the _Date_Time_GetTickCount() function.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $iTime - The number of milliseconds that have elapsed since the system was started.</mrk> <mrk mid="1" mtype="seg">This is the value returned by the _Date_Time_GetTickCount() function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $iTime - The number of milliseconds that have elapsed since the system was started.</mrk> <mrk mid="1" mtype="seg">This is the value returned by the _Date_Time_GetTickCount() function.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetTimer);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetTimer<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetTimer);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetTimer<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetTimer);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetTimer<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Timers Using CallBack Function(s)</source>
+<seg-source><mrk mid="0" mtype="seg">Timers Using CallBack Function(s)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Timers Using CallBack Function(s)</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Start Progress Bar</source>
+<seg-source><mrk mid="0" mtype="seg">Start Progress Bar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Start Progress Bar</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Change</source>
+<seg-source><mrk mid="0" mtype="seg">Change</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Change</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Timers</source>
+<seg-source><mrk mid="0" mtype="seg">Timers</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Timers</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">%02d:%02d:%02d</source>
+<seg-source><mrk mid="0" mtype="seg">%02d:%02d:%02d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%02d:%02d:%02d</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">_UpdateStatusBarClock</source>
+<seg-source><mrk mid="0" mtype="seg">_UpdateStatusBarClock</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_UpdateStatusBarClock</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">create timer</source>
+<seg-source><mrk mid="0" mtype="seg">create timer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">create timer</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Start Progress Bar</source>
+<seg-source><mrk mid="0" mtype="seg">Start Progress Bar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Start Progress Bar</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">_UpdateProgressBar</source>
+<seg-source><mrk mid="0" mtype="seg">_UpdateProgressBar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_UpdateProgressBar</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">create timer</source>
+<seg-source><mrk mid="0" mtype="seg">create timer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">create timer</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Stop Progress Bar</source>
+<seg-source><mrk mid="0" mtype="seg">Stop Progress Bar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Stop Progress Bar</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Start Progress Bar</source>
+<seg-source><mrk mid="0" mtype="seg">Start Progress Bar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Start Progress Bar</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Timer for _UpdateProgressBar set at:</source>
+<seg-source><mrk mid="0" mtype="seg">Timer for _UpdateProgressBar set at:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Timer for _UpdateProgressBar set at:</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">milliseconds</source>
+<seg-source><mrk mid="0" mtype="seg">milliseconds</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">milliseconds</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">reuse timer with different interval</source>
+<seg-source><mrk mid="0" mtype="seg">reuse timer with different interval</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">reuse timer with different interval</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Killed All Timers?</source>
+<seg-source><mrk mid="0" mtype="seg">Killed All Timers?</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Killed All Timers?</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">must be True as the timer to "_UpdateStatusBarClock" have not been killed</source>
+<seg-source><mrk mid="0" mtype="seg">must be True as the timer to "_UpdateStatusBarClock" have not been killed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">must be True as the timer to "_UpdateStatusBarClock" have not been killed</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">call back function</source>
+<seg-source><mrk mid="0" mtype="seg">call back function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">call back function</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">%02d:%02d:%02d</source>
+<seg-source><mrk mid="0" mtype="seg">%02d:%02d:%02d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%02d:%02d:%02d</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">call back function</source>
+<seg-source><mrk mid="0" mtype="seg">call back function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">call back function</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Write a line to the memo control</source>
+<seg-source><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">CDROM</source>
+<seg-source><mrk mid="0" mtype="seg">CDROM</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CDROM</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Insert a CD into the tray</source>
+<seg-source><mrk mid="0" mtype="seg">Insert a CD into the tray</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insert a CD into the tray</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Check_mounted</source>
+<seg-source><mrk mid="0" mtype="seg">Check_mounted</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check_mounted</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">create timer</source>
+<seg-source><mrk mid="0" mtype="seg">create timer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">create timer</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Killed All Timers?</source>
+<seg-source><mrk mid="0" mtype="seg">Killed All Timers?</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Killed All Timers?</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">must be False as all timer have already been killed</source>
+<seg-source><mrk mid="0" mtype="seg">must be False as all timer have already been killed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">must be False as all timer have already been killed</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">\</source>
+<seg-source><mrk mid="0" mtype="seg">\</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">inserted</source>
+<seg-source><mrk mid="0" mtype="seg">inserted</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">inserted</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">on drive</source>
+<seg-source><mrk mid="0" mtype="seg">on drive</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">on drive</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">timed out</source>
+<seg-source><mrk mid="0" mtype="seg">timed out</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">timed out</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

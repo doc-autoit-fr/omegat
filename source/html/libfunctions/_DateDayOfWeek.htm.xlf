@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_DateDayOfWeek.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Returns the name of the weekday, based on the specified day</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the name of the weekday, based on the specified day</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the name of the weekday, based on the specified day</mrk></target>
+<note>Function _DateDayOfWeek</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Day number</source>
+<seg-source><mrk mid="0" mtype="seg">Day number</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Day number</mrk></target>
+<note>$iDayNum</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">     1 = Sunday</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 = Sunday</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 = Sunday</mrk></target>
+<note>$iDayNum</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     2 = Monday</source>
+<seg-source> <mrk mid="0" mtype="seg">    2 = Monday</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    2 = Monday</mrk></target>
+<note>$iDayNum</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     3 = Tuesday</source>
+<seg-source> <mrk mid="0" mtype="seg">    3 = Tuesday</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    3 = Tuesday</mrk></target>
+<note>$iDayNum</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     4 = Wednesday</source>
+<seg-source> <mrk mid="0" mtype="seg">    4 = Wednesday</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    4 = Wednesday</mrk></target>
+<note>$iDayNum</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     5 = Thursday</source>
+<seg-source> <mrk mid="0" mtype="seg">    5 = Thursday</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    5 = Thursday</mrk></target>
+<note>$iDayNum</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     6 = Friday</source>
+<seg-source> <mrk mid="0" mtype="seg">    6 = Friday</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    6 = Friday</mrk></target>
+<note>$iDayNum</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     7 = Saturday</source>
+<seg-source> <mrk mid="0" mtype="seg">    7 = Saturday</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    7 = Saturday</mrk></target>
+<note>$iDayNum</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Format:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Format:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Format:</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> $DMW_LOCALE_USER (0) - Long name of the weekday (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">$DMW_LOCALE_USER (0) - Long name of the weekday (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DMW_LOCALE_USER (0) - Long name of the weekday (Default)</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> $DMW_SHORTNAME (1) - Short name of the weekday e.g. Mon</source>
+<seg-source> <mrk mid="0" mtype="seg">$DMW_SHORTNAME (1) - Short name of the weekday e.g.</mrk> <mrk mid="1" mtype="seg">Mon</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DMW_SHORTNAME (1) - Short name of the weekday e.g.</mrk> <mrk mid="1" mtype="seg">Mon</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> $DMW_LOCALE_LONGNAME (2) - Long name of the weekday in the user's default language</source>
+<seg-source> <mrk mid="0" mtype="seg">$DMW_LOCALE_LONGNAME (2) - Long name of the weekday in the user's default language</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DMW_LOCALE_LONGNAME (2) - Long name of the weekday in the user's default language</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> $DMW_LOCALE_SHORTNAME (3) - Short name of the weekday in the user's default language</source>
+<seg-source> <mrk mid="0" mtype="seg">$DMW_LOCALE_SHORTNAME (3) - Short name of the weekday in the user's default language</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DMW_LOCALE_SHORTNAME (3) - Short name of the weekday in the user's default language</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Weekday name</source>
+<seg-source><mrk mid="0" mtype="seg">Weekday name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Weekday name</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">An empty string and sets @error to non-zero</source>
+<seg-source><mrk mid="0" mtype="seg">An empty string and sets @error to non-zero</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An empty string and sets @error to non-zero</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">1 - Invalid weekday number.</source>
+<seg-source><mrk mid="0" mtype="seg">1 - Invalid weekday number.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - Invalid weekday number.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">The function returns weekday names in English or the user's default language.</source>
+<seg-source><mrk mid="0" mtype="seg">The function returns weekday names in English or the user's default language.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The function returns weekday names in English or the user's default language.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Retrieve the long name</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve the long name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve the long name</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Retrieve the abbreviated name</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve the abbreviated name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve the abbreviated name</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Day of Week</source>
+<seg-source><mrk mid="0" mtype="seg">Day of Week</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Day of Week</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Today is:</source>
+<seg-source><mrk mid="0" mtype="seg">Today is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Today is:</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">(</source>
+<seg-source><mrk mid="0" mtype="seg">(</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">)</source>
+<seg-source><mrk mid="0" mtype="seg">)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">)</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

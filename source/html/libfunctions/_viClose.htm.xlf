@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_viClose.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Closes a VISA connection to an Instrument/Device</source>
+<seg-source><mrk mid="0" mtype="seg">Closes a VISA connection to an Instrument/Device</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Closes a VISA connection to an Instrument/Device</mrk></target>
+<note>Function _viClose</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> A VISA session handle as returned by <bpt id="1" ctype="x-a">&lt;a href="_viOpen.htm"></bpt>_viOpen()<ept id="1">&lt;/a></ept> </source>
+<seg-source> <mrk mid="0" mtype="seg">A VISA session handle as returned by <bpt id="1" ctype="x-a">&lt;a href="_viOpen.htm"></bpt>_viOpen()<ept id="1">&lt;/a></ept></mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">A VISA session handle as returned by <bpt id="1" ctype="x-a">&lt;a href="_viOpen.htm"></bpt>_viOpen()<ept id="1">&lt;/a></ept></mrk> </target>
+<note>$hSession</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">-1 if the VISA DLL could not be open or a NON ZERO value representing the VISA error code (see the VISA programmer's guide).</source>
+<seg-source><mrk mid="0" mtype="seg">-1 if the VISA DLL could not be open or a NON ZERO value representing the VISA error code (see the VISA programmer's guide).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1 if the VISA DLL could not be open or a NON ZERO value representing the VISA error code (see the VISA programmer's guide).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">As for all the VISA functions the VISA libraries must be installed (you can check whether visa32.dll is in {WINDOWS}\system32) and a GPIB card (such as a National Instruments NI PCI-GPIB card or an Agilent 82350B PCI High-Performance GPIB card) must be installed</source>
+<seg-source><mrk mid="0" mtype="seg">As for all the VISA functions the VISA libraries must be installed (you can check whether visa32.dll is in {WINDOWS}\system32) and a GPIB card (such as a National Instruments NI PCI-GPIB card or an Agilent 82350B PCI High-Performance GPIB card) must be installed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">As for all the VISA functions the VISA libraries must be installed (you can check whether visa32.dll is in {WINDOWS}\system32) and a GPIB card (such as a National Instruments NI PCI-GPIB card or an Agilent 82350B PCI High-Performance GPIB card) must be installed</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">- This assumes that you have instrument set to GPIB address 1</source>
+<seg-source><mrk mid="0" mtype="seg">- This assumes that you have instrument set to GPIB address 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">- This assumes that you have instrument set to GPIB address 1</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">It shows how to use the _viExecCommand function in stand alone mode and combined</source>
+<seg-source><mrk mid="0" mtype="seg">It shows how to use the _viExecCommand function in stand alone mode and combined</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It shows how to use the _viExecCommand function in stand alone mode and combined</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">with _viOpen and _viClose.</source>
+<seg-source><mrk mid="0" mtype="seg">with _viOpen and _viClose.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">with _viOpen and _viClose.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">It also shows the _viGTL function</source>
+<seg-source><mrk mid="0" mtype="seg">It also shows the _viGTL function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It also shows the _viGTL function</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Query the ID of the instrument in GPIB address 3</source>
+<seg-source><mrk mid="0" mtype="seg">Query the ID of the instrument in GPIB address 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Query the ID of the instrument in GPIB address 3</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Step 1</source>
+<seg-source><mrk mid="0" mtype="seg">Step 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Step 1</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Open the instrument connection with _viOpen</source>
+<seg-source><mrk mid="0" mtype="seg">Open the instrument connection with _viOpen</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open the instrument connection with _viOpen</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">GPIB::3::0</source>
+<seg-source><mrk mid="0" mtype="seg">GPIB::3::0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GPIB::3::0</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Instrument Handle obtained</source>
+<seg-source><mrk mid="0" mtype="seg">Instrument Handle obtained</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Instrument Handle obtained</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">$h_Instr =</source>
+<seg-source><mrk mid="0" mtype="seg">$h_Instr =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$h_Instr =</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Show the Session Handle</source>
+<seg-source><mrk mid="0" mtype="seg">Show the Session Handle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show the Session Handle</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Query the instrument</source>
+<seg-source><mrk mid="0" mtype="seg">Query the instrument</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Query the instrument</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Step 2</source>
+<seg-source><mrk mid="0" mtype="seg">Step 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Step 2</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Query the instrument using the VISA instrument handle</source>
+<seg-source><mrk mid="0" mtype="seg">Query the instrument using the VISA instrument handle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Query the instrument using the VISA instrument handle</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">*IDN?</source>
+<seg-source><mrk mid="0" mtype="seg">*IDN?</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*IDN?</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">$h_Instr is NOT A STRING now!</source>
+<seg-source><mrk mid="0" mtype="seg">$h_Instr is NOT A STRING now!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$h_Instr is NOT A STRING now!</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">GPIB QUERY result</source>
+<seg-source><mrk mid="0" mtype="seg">GPIB QUERY result</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GPIB QUERY result</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Show the answer</source>
+<seg-source><mrk mid="0" mtype="seg">Show the answer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show the answer</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Query again. There is no need to OPEN the link again</source>
+<seg-source><mrk mid="0" mtype="seg">Query again.</mrk> <mrk mid="1" mtype="seg">There is no need to OPEN the link again</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Query again.</mrk> <mrk mid="1" mtype="seg">There is no need to OPEN the link again</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Step 3</source>
+<seg-source><mrk mid="0" mtype="seg">Step 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Step 3</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Query again. There is no need to OPEN the link again</source>
+<seg-source><mrk mid="0" mtype="seg">Query again.</mrk> <mrk mid="1" mtype="seg">There is no need to OPEN the link again</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Query again.</mrk> <mrk mid="1" mtype="seg">There is no need to OPEN the link again</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">*IDN?</source>
+<seg-source><mrk mid="0" mtype="seg">*IDN?</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*IDN?</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">GPIB QUERY result</source>
+<seg-source><mrk mid="0" mtype="seg">GPIB QUERY result</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GPIB QUERY result</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Show the answer</source>
+<seg-source><mrk mid="0" mtype="seg">Show the answer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show the answer</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Step 4</source>
+<seg-source><mrk mid="0" mtype="seg">Step 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Step 4</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Close the instrument connection using _viClose</source>
+<seg-source><mrk mid="0" mtype="seg">Close the instrument connection using _viClose</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the instrument connection using _viClose</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Close the instrument connection</source>
+<seg-source><mrk mid="0" mtype="seg">Close the instrument connection</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the instrument connection</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

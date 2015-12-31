@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/ProcessClose.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Terminates a named process.</source>
+<seg-source><mrk mid="0" mtype="seg">Terminates a named process.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Terminates a named process.</mrk></target>
+<note>Function ProcessClose</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The name or PID of the process to terminate.</source>
+<seg-source><mrk mid="0" mtype="seg">The name or PID of the process to terminate.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name or PID of the process to terminate.</mrk></target>
+<note>process</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">1 = OpenProcess failed</source>
+<seg-source><mrk mid="0" mtype="seg">1 = OpenProcess failed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 = OpenProcess failed</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> 2 = AdjustTokenPrivileges Failed</source>
+<seg-source> <mrk mid="0" mtype="seg">2 = AdjustTokenPrivileges Failed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 = AdjustTokenPrivileges Failed</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> 3 = TerminateProcess Failed</source>
+<seg-source> <mrk mid="0" mtype="seg">3 = TerminateProcess Failed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 = TerminateProcess Failed</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> 4 = Cannot verify if process exists</source>
+<seg-source> <mrk mid="0" mtype="seg">4 = Cannot verify if process exists</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 = Cannot verify if process exists</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">@extended:</source>
+<seg-source><mrk mid="0" mtype="seg">@extended:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@extended:</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">sets to Windows API GetLastError()</source>
+<seg-source><mrk mid="0" mtype="seg">sets to Windows API GetLastError()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets to Windows API GetLastError()</mrk></target>
+<note>@extended:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Process names are executables without the full path, e.g., "notepad.exe" or "winword.exe"</source>
+<seg-source><mrk mid="0" mtype="seg">Process names are executables without the full path, e.g.,</mrk> <mrk mid="1" mtype="seg">"notepad.exe" or "winword.exe"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Process names are executables without the full path, e.g.,</mrk> <mrk mid="1" mtype="seg">"notepad.exe" or "winword.exe"</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> If multiple processes have the same name, the one with the highest PID is terminated--regardless of how recently the process was spawned.</source>
+<seg-source> <mrk mid="0" mtype="seg">If multiple processes have the same name, the one with the highest PID is terminated--regardless of how recently the process was spawned.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If multiple processes have the same name, the one with the highest PID is terminated--regardless of how recently the process was spawned.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> PID is the unique number which identifies a Process. A PID can be obtained through the <bpt id="1" ctype="x-a">&lt;a href="ProcessExists.htm"></bpt>ProcessExists()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="Run.htm"></bpt>Run()<ept id="2">&lt;/a></ept> commands.</source>
+<seg-source> <mrk mid="0" mtype="seg">PID is the unique number which identifies a Process.</mrk> <mrk mid="1" mtype="seg">A PID can be obtained through the <bpt id="1" ctype="x-a">&lt;a href="ProcessExists.htm"></bpt>ProcessExists()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="Run.htm"></bpt>Run()<ept id="2">&lt;/a></ept> commands.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">PID is the unique number which identifies a Process.</mrk> <mrk mid="1" mtype="seg">A PID can be obtained through the <bpt id="1" ctype="x-a">&lt;a href="ProcessExists.htm"></bpt>ProcessExists()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="Run.htm"></bpt>Run()<ept id="2">&lt;/a></ept> commands.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> The process is polled approximately every 250 milliseconds.</source>
+<seg-source> <mrk mid="0" mtype="seg">The process is polled approximately every 250 milliseconds.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The process is polled approximately every 250 milliseconds.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Run Notepad</source>
+<seg-source><mrk mid="0" mtype="seg">Run Notepad</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Run Notepad</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">notepad.exe</source>
+<seg-source><mrk mid="0" mtype="seg">notepad.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">notepad.exe</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Wait 10 seconds for the Notepad window to appear.</source>
+<seg-source><mrk mid="0" mtype="seg">Wait 10 seconds for the Notepad window to appear.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wait 10 seconds for the Notepad window to appear.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">[CLASS:Notepad]</source>
+<seg-source><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Wait for 2 seconds.</source>
+<seg-source><mrk mid="0" mtype="seg">Wait for 2 seconds.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wait for 2 seconds.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Close the Notepad process using the PID returned by Run.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the Notepad process using the PID returned by Run.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the Notepad process using the PID returned by Run.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

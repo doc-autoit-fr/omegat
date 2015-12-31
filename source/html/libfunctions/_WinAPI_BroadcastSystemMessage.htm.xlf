@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_BroadcastSystemMessage.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sends a message to the specified recipients</source>
+<seg-source><mrk mid="0" mtype="seg">Sends a message to the specified recipients</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sends a message to the specified recipients</mrk></target>
+<note>Function _WinAPI_BroadcastSystemMessage</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The message to be sent.</source>
+<seg-source><mrk mid="0" mtype="seg">The message to be sent.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The message to be sent.</mrk></target>
+<note>$iMsg</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The message-specific information.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The message-specific information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The message-specific information.</mrk></target>
+<note>$wParam</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The message-specific information.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The message-specific information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The message-specific information.</mrk></target>
+<note>$lParam</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The broadcast option. This parameter can be one or more of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The broadcast option.</mrk> <mrk mid="2" mtype="seg">This parameter can be one or more of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The broadcast option.</mrk> <mrk mid="2" mtype="seg">This parameter can be one or more of the following values:</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $BSF_ALLOWSFW</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BSF_ALLOWSFW</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BSF_ALLOWSFW</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $BSF_FLUSHDISK</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BSF_FLUSHDISK</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BSF_FLUSHDISK</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $BSF_FORCEIFHUNG</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BSF_FORCEIFHUNG</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BSF_FORCEIFHUNG</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $BSF_IGNORECURRENTTASK</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BSF_IGNORECURRENTTASK</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BSF_IGNORECURRENTTASK</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $BSF_NOHANG</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BSF_NOHANG</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BSF_NOHANG</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $BSF_NOTIMEOUTIFNOTHUNG</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BSF_NOTIMEOUTIFNOTHUNG</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BSF_NOTIMEOUTIFNOTHUNG</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $BSF_POSTMESSAGE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BSF_POSTMESSAGE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BSF_POSTMESSAGE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $BSF_QUERY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BSF_QUERY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BSF_QUERY</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $BSF_SENDNOTIFYMESSAGE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BSF_SENDNOTIFYMESSAGE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BSF_SENDNOTIFYMESSAGE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The recipients of the message. This parameter can be one or more of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The recipients of the message.</mrk> <mrk mid="2" mtype="seg">This parameter can be one or more of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The recipients of the message.</mrk> <mrk mid="2" mtype="seg">This parameter can be one or more of the following values:</mrk></target>
+<note>$iRecipients</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $BSM_ALLCOMPONENTS (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BSM_ALLCOMPONENTS (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BSM_ALLCOMPONENTS (Default)</mrk></target>
+<note>$iRecipients</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $BSM_ALLDESKTOPS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BSM_ALLDESKTOPS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BSM_ALLDESKTOPS</mrk></target>
+<note>$iRecipients</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $BSM_APPLICATIONS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BSM_APPLICATIONS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BSM_APPLICATIONS</mrk></target>
+<note>$iRecipients</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     $BSM_INSTALLABLEDRIVERS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BSM_INSTALLABLEDRIVERS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BSM_INSTALLABLEDRIVERS</mrk></target>
+<note>$iRecipients</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     $BSM_NETDRIVER</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BSM_NETDRIVER</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BSM_NETDRIVER</mrk></target>
+<note>$iRecipients</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     $BSM_VXDS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BSM_VXDS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BSM_VXDS</mrk></target>
+<note>$iRecipients</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">>0 or 0 (see below), @extended flag receives a combination of $BSM_* values identifying which recipients actually received the message.</source>
+<seg-source><mrk mid="0" mtype="seg">>0 or 0 (see below), @extended flag receives a combination of $BSM_* values identifying which recipients actually received the message.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">>0 or 0 (see below), @extended flag receives a combination of $BSM_* values identifying which recipients actually received the message.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> (-1), call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">(-1), call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">(-1), call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">If the $iFlags parameter is $BSF_QUERY and at least one recipient returned BROADCAST_QUERY_DENY to the corresponding message, the return value is 0.</source>
+<seg-source><mrk mid="0" mtype="seg">If the $iFlags parameter is $BSF_QUERY and at least one recipient returned BROADCAST_QUERY_DENY to the corresponding message, the return value is 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the $iFlags parameter is $BSF_QUERY and at least one recipient returned BROADCAST_QUERY_DENY to the corresponding message, the return value is 0.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> The system only does marshalling for system messages (those in the range 0 to (WM_USER-1)).</source>
+<seg-source> <mrk mid="0" mtype="seg">The system only does marshalling for system messages (those in the range 0 to (WM_USER-1)).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The system only does marshalling for system messages (those in the range 0 to (WM_USER-1)).</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> To send other messages (those >= WM_USER) to another process, you must do custom marshalling.</source>
+<seg-source> <mrk mid="0" mtype="seg">To send other messages (those >= WM_USER) to another process, you must do custom marshalling.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To send other messages (those >= WM_USER) to another process, you must do custom marshalling.</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(BroadcastSystemMessage);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>BroadcastSystemMessage<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(BroadcastSystemMessage);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>BroadcastSystemMessage<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(BroadcastSystemMessage);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>BroadcastSystemMessage<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

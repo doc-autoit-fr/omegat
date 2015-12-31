@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/DriveMapAdd.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Maps a network drive.</source>
+<seg-source><mrk mid="0" mtype="seg">Maps a network drive.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Maps a network drive.</mrk></target>
+<note>Function DriveMapAdd</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The device to map, for example "O:" or "LPT1:". If you pass an empty string for this parameter a connection is made but not mapped to a specific drive. If you specify "*" an unused drive letter will be automatically selected.</source>
+<seg-source><mrk mid="0" mtype="seg">The device to map, for example "O:" or "LPT1:".</mrk> <mrk mid="1" mtype="seg">If you pass an empty string for this parameter a connection is made but not mapped to a specific drive.</mrk> <mrk mid="2" mtype="seg">If you specify "*" an unused drive letter will be automatically selected.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The device to map, for example "O:" or "LPT1:".</mrk> <mrk mid="1" mtype="seg">If you pass an empty string for this parameter a connection is made but not mapped to a specific drive.</mrk> <mrk mid="2" mtype="seg">If you specify "*" an unused drive letter will be automatically selected.</mrk></target>
+<note>device</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The remote share to connect to in the form "\\server\share".</source>
+<seg-source><mrk mid="0" mtype="seg">The remote share to connect to in the form "\\server\share".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The remote share to connect to in the form "\\server\share".</mrk></target>
+<note>remote share</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> A combination of the following:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A combination of the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A combination of the following:</mrk></target>
+<note>flags</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $DMA_DEFAULT (0) = default</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DMA_DEFAULT (0) = default</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DMA_DEFAULT (0) = default</mrk></target>
+<note>flags</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $DMA_PERSISTENT (1) = Persistent mapping</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DMA_PERSISTENT (1) = Persistent mapping</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DMA_PERSISTENT (1) = Persistent mapping</mrk></target>
+<note>flags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $DMA_AUTHENTICATION (8) = Show authentication dialog if required</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DMA_AUTHENTICATION (8) = Show authentication dialog if required</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DMA_AUTHENTICATION (8) = Show authentication dialog if required</mrk></target>
+<note>flags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> Constants are defined in "AutoItConstants.au3"</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in "AutoItConstants.au3"</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in "AutoItConstants.au3"</mrk></target>
+<note>flags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The username to use to connect. In the form "username" or "domain\username".</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The username to use to connect.</mrk> <mrk mid="2" mtype="seg">In the form "username" or "domain\username".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The username to use to connect.</mrk> <mrk mid="2" mtype="seg">In the form "username" or "domain\username".</mrk></target>
+<note>user</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The password to use to connect.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The password to use to connect.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The password to use to connect.</mrk></target>
+<note>password</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">1. (See Remarks)</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk> <mrk mid="1" mtype="seg">(See Remarks)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk> <mrk mid="1" mtype="seg">(See Remarks)</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">0 if a new mapping could not be created and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 if a new mapping could not be created and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 if a new mapping could not be created and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">1 = Undefined / Other error. @extended set with Windows API return</source>
+<seg-source><mrk mid="0" mtype="seg">1 = Undefined / Other error.</mrk> <mrk mid="1" mtype="seg">@extended set with Windows API return</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 = Undefined / Other error.</mrk> <mrk mid="1" mtype="seg">@extended set with Windows API return</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> 2 = Access to the remote share was denied</source>
+<seg-source> <mrk mid="0" mtype="seg">2 = Access to the remote share was denied</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 = Access to the remote share was denied</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> 3 = The device is already assigned</source>
+<seg-source> <mrk mid="0" mtype="seg">3 = The device is already assigned</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 = The device is already assigned</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> 4 = Invalid device name</source>
+<seg-source> <mrk mid="0" mtype="seg">4 = Invalid device name</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 = Invalid device name</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> 5 = Invalid remote share</source>
+<seg-source> <mrk mid="0" mtype="seg">5 = Invalid remote share</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">5 = Invalid remote share</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> 6 = Invalid password</source>
+<seg-source> <mrk mid="0" mtype="seg">6 = Invalid password</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">6 = Invalid password</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Note: When using "*" for the device parameter the drive letter selected will be returned instead of 1 or 0, e.g. "U:". If there was an error using "*" then an empty string "" will be returned.</source>
+<seg-source><mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">When using "*" for the device parameter the drive letter selected will be returned instead of 1 or 0, e.g.</mrk> <mrk mid="2" mtype="seg">"U:".</mrk> <mrk mid="3" mtype="seg">If there was an error using "*" then an empty string "" will be returned.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">When using "*" for the device parameter the drive letter selected will be returned instead of 1 or 0, e.g.</mrk> <mrk mid="2" mtype="seg">"U:".</mrk> <mrk mid="3" mtype="seg">If there was an error using "*" then an empty string "" will be returned.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> If defined the user/password will be presented to the remote computer that will validate the credential.</source>
+<seg-source> <mrk mid="0" mtype="seg">If defined the user/password will be presented to the remote computer that will validate the credential.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If defined the user/password will be presented to the remote computer that will validate the credential.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Map X drive to \\myserver\stuff using current user</source>
+<seg-source><mrk mid="0" mtype="seg">Map X drive to \\myserver\stuff using current user</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Map X drive to \\myserver\stuff using current user</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">X:</source>
+<seg-source><mrk mid="0" mtype="seg">X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X:</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">\\myserver\stuff</source>
+<seg-source><mrk mid="0" mtype="seg">\\myserver\stuff</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\\myserver\stuff</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Map X drive to \\myserver2\stuff2 using the user "jon" from "domainx" with password "tickle"</source>
+<seg-source><mrk mid="0" mtype="seg">Map X drive to \\myserver2\stuff2 using the user "jon" from "domainx" with password "tickle"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Map X drive to \\myserver2\stuff2 using the user "jon" from "domainx" with password "tickle"</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">X:</source>
+<seg-source><mrk mid="0" mtype="seg">X:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X:</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">\\myserver2\stuff2</source>
+<seg-source><mrk mid="0" mtype="seg">\\myserver2\stuff2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\\myserver2\stuff2</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">domainx\jon</source>
+<seg-source><mrk mid="0" mtype="seg">domainx\jon</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">domainx\jon</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">tickle</source>
+<seg-source><mrk mid="0" mtype="seg">tickle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tickle</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

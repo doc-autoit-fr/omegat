@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_GetSystemPowerStatus.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the power status of the system</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the power status of the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the power status of the system</mrk></target>
+<note>Function _WinAPI_GetSystemPowerStatus</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The array containing the following information:</source>
+<seg-source><mrk mid="0" mtype="seg">The array containing the following information:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The array containing the following information:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> [0] - The AC power status. This parameter can be one of the following values.</source>
+<seg-source> <mrk mid="0" mtype="seg">[0] - The AC power status.</mrk> <mrk mid="1" mtype="seg">This parameter can be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[0] - The AC power status.</mrk> <mrk mid="1" mtype="seg">This parameter can be one of the following values.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> 0 - Offline</source>
+<seg-source> <mrk mid="0" mtype="seg">0 - Offline</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 - Offline</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> 1 - Online</source>
+<seg-source> <mrk mid="0" mtype="seg">1 - Online</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 - Online</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> 255 - Unknown status</source>
+<seg-source> <mrk mid="0" mtype="seg">255 - Unknown status</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">255 - Unknown status</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> [1] - The battery charge status. This parameter can be a combination of the following values.</source>
+<seg-source> <mrk mid="0" mtype="seg">[1] - The battery charge status.</mrk> <mrk mid="1" mtype="seg">This parameter can be a combination of the following values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[1] - The battery charge status.</mrk> <mrk mid="1" mtype="seg">This parameter can be a combination of the following values.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> 0 - The battery is not being charged and its capacity is between low and high</source>
+<seg-source> <mrk mid="0" mtype="seg">0 - The battery is not being charged and its capacity is between low and high</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 - The battery is not being charged and its capacity is between low and high</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> 1 - High - the battery capacity is at more than 66 percent</source>
+<seg-source> <mrk mid="0" mtype="seg">1 - High - the battery capacity is at more than 66 percent</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 - High - the battery capacity is at more than 66 percent</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> 2 - Low - the battery capacity is at less than 33 percent</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - Low - the battery capacity is at less than 33 percent</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - Low - the battery capacity is at less than 33 percent</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> 4 - Critical - the battery capacity is at less than 5 percent</source>
+<seg-source> <mrk mid="0" mtype="seg">4 - Critical - the battery capacity is at less than 5 percent</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 - Critical - the battery capacity is at less than 5 percent</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> 8 - Charging</source>
+<seg-source> <mrk mid="0" mtype="seg">8 - Charging</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">8 - Charging</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> 128 - No system battery</source>
+<seg-source> <mrk mid="0" mtype="seg">128 - No system battery</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">128 - No system battery</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> 255 - Unknown status - unable to read the battery flag information</source>
+<seg-source> <mrk mid="0" mtype="seg">255 - Unknown status - unable to read the battery flag information</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">255 - Unknown status - unable to read the battery flag information</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> [2] - The percentage of full battery charge remaining. This member can be a value in the range 0 to 100, or 255 if status is unknown.</source>
+<seg-source> <mrk mid="0" mtype="seg">[2] - The percentage of full battery charge remaining.</mrk> <mrk mid="1" mtype="seg">This member can be a value in the range 0 to 100, or 255 if status is unknown.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[2] - The percentage of full battery charge remaining.</mrk> <mrk mid="1" mtype="seg">This member can be a value in the range 0 to 100, or 255 if status is unknown.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> [3] - The number of seconds of battery life remaining, or (–1) if remaining seconds are unknown.</source>
+<seg-source> <mrk mid="0" mtype="seg">[3] - The number of seconds of battery life remaining, or (–1) if remaining seconds are unknown.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[3] - The number of seconds of battery life remaining, or (–1) if remaining seconds are unknown.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> [4] - The number of seconds of battery life when at full charge, or (–1) if full battery lifetime is unknown.</source>
+<seg-source> <mrk mid="0" mtype="seg">[4] - The number of seconds of battery life when at full charge, or (–1) if full battery lifetime is unknown.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[4] - The number of seconds of battery life when at full charge, or (–1) if full battery lifetime is unknown.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> Sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">Sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetSystemPowerStatus);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetSystemPowerStatus<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetSystemPowerStatus);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetSystemPowerStatus<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetSystemPowerStatus);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetSystemPowerStatus<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">OK</source>
+<seg-source><mrk mid="0" mtype="seg">OK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OK</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">AC power:</source>
+<seg-source><mrk mid="0" mtype="seg">AC power:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AC power:</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Status:</source>
+<seg-source><mrk mid="0" mtype="seg">Status:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Status:</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Charge:</source>
+<seg-source><mrk mid="0" mtype="seg">Charge:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Charge:</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Time remaining:</source>
+<seg-source><mrk mid="0" mtype="seg">Time remaining:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Time remaining:</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Unknown</source>
+<seg-source><mrk mid="0" mtype="seg">Unknown</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unknown</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">_BatteryStatus</source>
+<seg-source><mrk mid="0" mtype="seg">_BatteryStatus</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_BatteryStatus</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Not present</source>
+<seg-source><mrk mid="0" mtype="seg">Not present</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Not present</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Unknown</source>
+<seg-source><mrk mid="0" mtype="seg">Unknown</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unknown</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Offline</source>
+<seg-source><mrk mid="0" mtype="seg">Offline</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Offline</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Online</source>
+<seg-source><mrk mid="0" mtype="seg">Online</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Online</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Unknown</source>
+<seg-source><mrk mid="0" mtype="seg">Unknown</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unknown</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">%</source>
+<seg-source><mrk mid="0" mtype="seg">%</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Unknown</source>
+<seg-source><mrk mid="0" mtype="seg">Unknown</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unknown</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Unknown</source>
+<seg-source><mrk mid="0" mtype="seg">Unknown</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unknown</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">:%02d</source>
+<seg-source><mrk mid="0" mtype="seg">:%02d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">:%02d</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Charging</source>
+<seg-source><mrk mid="0" mtype="seg">Charging</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Charging</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">High</source>
+<seg-source><mrk mid="0" mtype="seg">High</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">High</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Low</source>
+<seg-source><mrk mid="0" mtype="seg">Low</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Low</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Critical</source>
+<seg-source><mrk mid="0" mtype="seg">Critical</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Critical</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Unknown</source>
+<seg-source><mrk mid="0" mtype="seg">Unknown</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unknown</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_Word_DocSaveAs.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Saves the specified Word document with a new name or format</source>
+<seg-source><mrk mid="0" mtype="seg">Saves the specified Word document with a new name or format</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Saves the specified Word document with a new name or format</mrk></target>
+<note>Function _Word_DocSaveAs</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Word document object</source>
+<seg-source><mrk mid="0" mtype="seg">Word document object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word document object</mrk></target>
+<note>$oDoc</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The full path name for the document (default = Current folder and current file name).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The full path name for the document (default = Current folder and current file name).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The full path name for the document (default = Current folder and current file name).</mrk></target>
+<note>$sFileName</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> If the document has never been saved, the default name is used (for example, Doc1.doc)</source>
+<seg-source> <mrk mid="0" mtype="seg">If the document has never been saved, the default name is used (for example, Doc1.doc)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the document has never been saved, the default name is used (for example, Doc1.doc)</mrk></target>
+<note>$sFileName</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The format in which the document is saved.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The format in which the document is saved.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The format in which the document is saved.</mrk></target>
+<note>$iFileFormat</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> Can be any WdSaveFormat constant (default = $WdFormatDocument)</source>
+<seg-source> <mrk mid="0" mtype="seg">Can be any WdSaveFormat constant (default = $WdFormatDocument)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Can be any WdSaveFormat constant (default = $WdFormatDocument)</mrk></target>
+<note>$iFileFormat</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> True to have Word suggest read-only status whenever the document is opened (default = False)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True to have Word suggest read-only status whenever the document is opened (default = False)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True to have Word suggest read-only status whenever the document is opened (default = False)</mrk></target>
+<note>$bReadOnlyRecommended</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> True to add the document to the list of recently used files (default = True)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True to add the document to the list of recently used files (default = True)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True to add the document to the list of recently used files (default = True)</mrk></target>
+<note>$bAddToRecentFiles</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> A password string for opening the document (default = "")</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A password string for opening the document (default = "")</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A password string for opening the document (default = "")</mrk></target>
+<note>$sPassword</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> A password string for saving changes to the document (default = "")</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A password string for saving changes to the document (default = "")</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A password string for saving changes to the document (default = "")</mrk></target>
+<note>$sWritePassword</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">1 - $oDoc is not an object</source>
+<seg-source><mrk mid="0" mtype="seg">1 - $oDoc is not an object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - $oDoc is not an object</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> 2 - Error occurred when saving the specified document. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - Error occurred when saving the specified document.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - Error occurred when saving the specified document.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">If a document with the specified file name already exists, the document is overwritten without the user being prompted first.</source>
+<seg-source><mrk mid="0" mtype="seg">If a document with the specified file name already exists, the document is overwritten without the user being prompted first.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a document with the specified file name already exists, the document is overwritten without the user being prompted first.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Copy \Extras\Test.doc to @TempDir</source>
+<seg-source><mrk mid="0" mtype="seg">Copy \Extras\Test.doc to @TempDir</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Copy \Extras\Test.doc to @TempDir</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">\Extras\Test.doc</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\Test.doc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\Test.doc</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">\_Word_Test.doc</source>
+<seg-source><mrk mid="0" mtype="seg">\_Word_Test.doc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\_Word_Test.doc</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Word UDF: _Word_DocSaveAs Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocSaveAs Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocSaveAs Example</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Couldn't copy '.\Extras\Test.doc' as '_Word_Test.doc' to the @TempDir directory.</source>
+<seg-source><mrk mid="0" mtype="seg">Couldn't copy '.\Extras\Test.doc' as '_Word_Test.doc' to the @TempDir directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Couldn't copy '.\Extras\Test.doc' as '_Word_Test.doc' to the @TempDir directory.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Create application object</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Word UDF: _Word_DocSaveAs Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocSaveAs Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocSaveAs Example</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Error creating a new Word application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating a new Word application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating a new Word application object.</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Open the test document</source>
+<seg-source><mrk mid="0" mtype="seg">Open the test document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open the test document</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">\_Word_Test.doc</source>
+<seg-source><mrk mid="0" mtype="seg">\_Word_Test.doc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\_Word_Test.doc</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Word UDF: _Word_DocSaveAs Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocSaveAs Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocSaveAs Example</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Error opening '_Word_Test.doc'.</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening '_Word_Test.doc'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening '_Word_Test.doc'.</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Save the document as _Word_Test2.doc</source>
+<seg-source><mrk mid="0" mtype="seg">Save the document as _Word_Test2.doc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Save the document as _Word_Test2.doc</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Insert text at the beginning</source>
+<seg-source><mrk mid="0" mtype="seg">Insert text at the beginning</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insert text at the beginning</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Bold text at the beginning.</source>
+<seg-source><mrk mid="0" mtype="seg">Bold text at the beginning.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bold text at the beginning.</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Save document</source>
+<seg-source><mrk mid="0" mtype="seg">Save document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Save document</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">\_Word_Test2.doc</source>
+<seg-source><mrk mid="0" mtype="seg">\_Word_Test2.doc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\_Word_Test2.doc</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Word UDF: _Word_DocSaveAs Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocSaveAs Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocSaveAs Example</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Error saving the Word document.</source>
+<seg-source><mrk mid="0" mtype="seg">Error saving the Word document.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error saving the Word document.</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Word UDF: _Word_DocSaveAs Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocSaveAs Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocSaveAs Example</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Document successfully saved as '</source>
+<seg-source><mrk mid="0" mtype="seg">Document successfully saved as '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Document successfully saved as '</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">\_Word_Test2.doc'.</source>
+<seg-source><mrk mid="0" mtype="seg">\_Word_Test2.doc'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\_Word_Test2.doc'.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

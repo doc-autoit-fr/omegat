@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_ColorAdjustLuma.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Changes the luminance of a RGB value</source>
+<seg-source><mrk mid="0" mtype="seg">Changes the luminance of a RGB value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Changes the luminance of a RGB value</mrk></target>
+<note>Function _WinAPI_ColorAdjustLuma</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The initial RGB value.</source>
+<seg-source><mrk mid="0" mtype="seg">The initial RGB value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The initial RGB value.</mrk></target>
+<note>$iRGB</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The luminance of the total range, in percent, or absolute luminance.</source>
+<seg-source><mrk mid="0" mtype="seg">The luminance of the total range, in percent, or absolute luminance.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The luminance of the total range, in percent, or absolute luminance.</mrk></target>
+<note>$iPercent</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies how to use the $iPercent parameter, valid values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies how to use the $iPercent parameter, valid values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies how to use the $iPercent parameter, valid values:</mrk></target>
+<note>$bScale</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     True - The $iPercent specifies how much to increment or decrement the current luminance, $iPercent can range from -1000 to +1000.</source>
+<seg-source> <mrk mid="0" mtype="seg">    True - The $iPercent specifies how much to increment or decrement the current luminance, $iPercent can range from -1000 to +1000.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    True - The $iPercent specifies how much to increment or decrement the current luminance, $iPercent can range from -1000 to +1000.</mrk></target>
+<note>$bScale</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     False - The $iPercent specifies the absolute luminance, $iPercent can range 0 to 1000. Available luminance values range from 0 to a maximum. If the requested value is negative or exceeds the maximum, the luminance will be set to either zero or the maximum value, respectively.</source>
+<seg-source> <mrk mid="0" mtype="seg">    False - The $iPercent specifies the absolute luminance, $iPercent can range 0 to 1000.</mrk> <mrk mid="1" mtype="seg">Available luminance values range from 0 to a maximum.</mrk> <mrk mid="2" mtype="seg">If the requested value is negative or exceeds the maximum, the luminance will be set to either zero or the maximum value, respectively.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    False - The $iPercent specifies the absolute luminance, $iPercent can range 0 to 1000.</mrk> <mrk mid="1" mtype="seg">Available luminance values range from 0 to a maximum.</mrk> <mrk mid="2" mtype="seg">If the requested value is negative or exceeds the maximum, the luminance will be set to either zero or the maximum value, respectively.</mrk></target>
+<note>$bScale</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">         Default is True.</source>
+<seg-source> <mrk mid="0" mtype="seg">        Default is True.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        Default is True.</mrk></target>
+<note>$bScale</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Returns the modified RGB value.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the modified RGB value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the modified RGB value.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ColorAdjustLuma);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ColorAdjustLuma<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ColorAdjustLuma);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ColorAdjustLuma<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ColorAdjustLuma);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ColorAdjustLuma<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">TrayAutoPause</source>
+<seg-source><mrk mid="0" mtype="seg">TrayAutoPause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayAutoPause</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">0%</source>
+<seg-source><mrk mid="0" mtype="seg">0%</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0%</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Arial</source>
+<seg-source><mrk mid="0" mtype="seg">Arial</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Arial</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Register WM_HSCROLL message for live scrolling and show GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Register WM_HSCROLL message for live scrolling and show GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Register WM_HSCROLL message for live scrolling and show GUI</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">WM_HSCROLL</source>
+<seg-source><mrk mid="0" mtype="seg">WM_HSCROLL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_HSCROLL</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">%</source>
+<seg-source><mrk mid="0" mtype="seg">%</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/FileReadLine.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Read in a line of text from a previously opened text file.</source>
+<seg-source><mrk mid="0" mtype="seg">Read in a line of text from a previously opened text file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Read in a line of text from a previously opened text file.</mrk></target>
+<note>Function FileReadLine</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> The handle of a file, as returned by a previous call to <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept>. Alternatively you may use a string filename as the first parameter. </source>
+<seg-source> <mrk mid="0" mtype="seg">The handle of a file, as returned by a previous call to <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept>.</mrk> <mrk mid="1" mtype="seg">Alternatively you may use a string filename as the first parameter.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The handle of a file, as returned by a previous call to <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept>.</mrk> <mrk mid="1" mtype="seg">Alternatively you may use a string filename as the first parameter.</mrk> </target>
+<note>filehandle/filename</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The line number to read. The first line of a text file is line 1 (not zero), last line is -1.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The line number to read.</mrk> <mrk mid="2" mtype="seg">The first line of a text file is line 1 (not zero), last line is -1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The line number to read.</mrk> <mrk mid="2" mtype="seg">The first line of a text file is line 1 (not zero), last line is -1.</mrk></target>
+<note>line</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">a line of text.</source>
+<seg-source><mrk mid="0" mtype="seg">a line of text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a line of text.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">1 = if file not opened in read mode or other error</source>
+<seg-source><mrk mid="0" mtype="seg">1 = if file not opened in read mode or other error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 = if file not opened in read mode or other error</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> -1 = if end-of-file is reached</source>
+<seg-source> <mrk mid="0" mtype="seg">-1 = if end-of-file is reached</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">-1 = if end-of-file is reached</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Returns the text of the line read, any newline characters ( <bpt id="1" ctype="x-a">&lt;a href="Chr.htm"></bpt>Chr<ept id="1">&lt;/a></ept>(10) or @LF ) at the end of a line read in are automatically stripped.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the text of the line read, any newline characters ( <bpt id="1" ctype="x-a">&lt;a href="Chr.htm"></bpt>Chr<ept id="1">&lt;/a></ept>(10) or @LF ) at the end of a line read in are automatically stripped.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the text of the line read, any newline characters ( <bpt id="1" ctype="x-a">&lt;a href="Chr.htm"></bpt>Chr<ept id="1">&lt;/a></ept>(10) or @LF ) at the end of a line read in are automatically stripped.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> If no line number to read is given, the "next" line will be read. ("Next" for a newly opened file is initially the first line.)</source>
+<seg-source> <mrk mid="0" mtype="seg">If no line number to read is given, the "next" line will be read.</mrk> <mrk mid="1" mtype="seg">("Next" for a newly opened file is initially the first line.)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If no line number to read is given, the "next" line will be read.</mrk> <mrk mid="1" mtype="seg">("Next" for a newly opened file is initially the first line.)</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> If a filename is given rather than a file handle - the file will be opened and closed during the function call - for parsing large text files this will be much slower than using filehandles.</source>
+<seg-source> <mrk mid="0" mtype="seg">If a filename is given rather than a file handle - the file will be opened and closed during the function call - for parsing large text files this will be much slower than using filehandles.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If a filename is given rather than a file handle - the file will be opened and closed during the function call - for parsing large text files this will be much slower than using filehandles.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> Note: Do not mix filehandles and filenames, i.e., don't <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> a file and then use a filename in this function. Use either filehandles or filenames in your routines, not both!</source>
+<seg-source> <mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">Do not mix filehandles and filenames, i.e., don't <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> a file and then use a filename in this function.</mrk> <mrk mid="2" mtype="seg">Use either filehandles or filenames in your routines, not both!</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">Do not mix filehandles and filenames, i.e., don't <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> a file and then use a filename in this function.</mrk> <mrk mid="2" mtype="seg">Use either filehandles or filenames in your routines, not both!</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> From a performance standpoint it is a bad idea to read line by line specifying "line" parameter whose value is incrementing by one. This forces AutoIt to reread the file from the beginning until it reach the specified line.</source>
+<seg-source> <mrk mid="0" mtype="seg">From a performance standpoint it is a bad idea to read line by line specifying "line" parameter whose value is incrementing by one.</mrk> <mrk mid="1" mtype="seg">This forces AutoIt to reread the file from the beginning until it reach the specified line.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">From a performance standpoint it is a bad idea to read line by line specifying "line" parameter whose value is incrementing by one.</mrk> <mrk mid="1" mtype="seg">This forces AutoIt to reread the file from the beginning until it reach the specified line.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> Both ANSI and UTF16/UTF8 text formats can be read - See <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> for details.</source>
+<seg-source> <mrk mid="0" mtype="seg">Both ANSI and UTF16/UTF8 text formats can be read - See <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> for details.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Both ANSI and UTF16/UTF8 text formats can be read - See <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> for details.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Create a constant variable in Local scope of the filepath that will be read/written to.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a constant variable in Local scope of the filepath that will be read/written to.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a constant variable in Local scope of the filepath that will be read/written to.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Create a temporary file to read data from.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a temporary file to read data from.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a temporary file to read data from.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">This is an example of using FileReadLine.</source>
+<seg-source><mrk mid="0" mtype="seg">This is an example of using FileReadLine.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is an example of using FileReadLine.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">An error occurred whilst writing the temporary file.</source>
+<seg-source><mrk mid="0" mtype="seg">An error occurred whilst writing the temporary file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An error occurred whilst writing the temporary file.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Open the file for reading and store the handle to a variable.</source>
+<seg-source><mrk mid="0" mtype="seg">Open the file for reading and store the handle to a variable.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open the file for reading and store the handle to a variable.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">An error occurred when reading the file.</source>
+<seg-source><mrk mid="0" mtype="seg">An error occurred when reading the file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An error occurred when reading the file.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Read the fist line of the file using the handle returned by FileOpen.</source>
+<seg-source><mrk mid="0" mtype="seg">Read the fist line of the file using the handle returned by FileOpen.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Read the fist line of the file using the handle returned by FileOpen.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Close the handle returned by FileOpen.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the handle returned by FileOpen.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the handle returned by FileOpen.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Display the first line of the file.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the first line of the file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the first line of the file.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">First line of the file:</source>
+<seg-source><mrk mid="0" mtype="seg">First line of the file:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">First line of the file:</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Delete the temporary file.</source>
+<seg-source><mrk mid="0" mtype="seg">Delete the temporary file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete the temporary file.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

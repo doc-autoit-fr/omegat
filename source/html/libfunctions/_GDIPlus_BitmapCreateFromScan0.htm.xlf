@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GDIPlus_BitmapCreateFromScan0.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a Bitmap object based on an array of bytes along with size and format information</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a Bitmap object based on an array of bytes along with size and format information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a Bitmap object based on an array of bytes along with size and format information</mrk></target>
+<note>Function _GDIPlus_BitmapCreateFromScan0</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The bitmap width, in pixels.</source>
+<seg-source><mrk mid="0" mtype="seg">The bitmap width, in pixels.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The bitmap width, in pixels.</mrk></target>
+<note>$iWidth</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The bitmap height, in pixels.</source>
+<seg-source><mrk mid="0" mtype="seg">The bitmap height, in pixels.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The bitmap height, in pixels.</mrk></target>
+<note>$iHeight</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the format of the pixel data.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the format of the pixel data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the format of the pixel data.</mrk></target>
+<note>$iPixelFormat</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $GDIP_PXF01INDEXED = 1 bit per pixel, indexed</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_PXF01INDEXED = 1 bit per pixel, indexed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_PXF01INDEXED = 1 bit per pixel, indexed</mrk></target>
+<note>$iPixelFormat</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $GDIP_PXF04INDEXED = 4 bits per pixel, indexed</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_PXF04INDEXED = 4 bits per pixel, indexed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_PXF04INDEXED = 4 bits per pixel, indexed</mrk></target>
+<note>$iPixelFormat</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $GDIP_PXF08INDEXED = 8 bits per pixel, indexed</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_PXF08INDEXED = 8 bits per pixel, indexed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_PXF08INDEXED = 8 bits per pixel, indexed</mrk></target>
+<note>$iPixelFormat</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $GDIP_PXF16GRAYSCALE = 16 bits per pixel, grayscale</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_PXF16GRAYSCALE = 16 bits per pixel, grayscale</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_PXF16GRAYSCALE = 16 bits per pixel, grayscale</mrk></target>
+<note>$iPixelFormat</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $GDIP_PXF16RGB555 = 16 bits per pixel; 5 bits for each RGB component</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_PXF16RGB555 = 16 bits per pixel; 5 bits for each RGB component</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_PXF16RGB555 = 16 bits per pixel; 5 bits for each RGB component</mrk></target>
+<note>$iPixelFormat</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $GDIP_PXF16RGB565 = 16 bits per pixel; 5 bits for red, 6 bits for green and 5 bits blue</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_PXF16RGB565 = 16 bits per pixel; 5 bits for red, 6 bits for green and 5 bits blue</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_PXF16RGB565 = 16 bits per pixel; 5 bits for red, 6 bits for green and 5 bits blue</mrk></target>
+<note>$iPixelFormat</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $GDIP_PXF16ARGB1555 = 16 bits per pixel; 1 bit for alpha and 5 bits for each RGB component</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_PXF16ARGB1555 = 16 bits per pixel; 1 bit for alpha and 5 bits for each RGB component</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_PXF16ARGB1555 = 16 bits per pixel; 1 bit for alpha and 5 bits for each RGB component</mrk></target>
+<note>$iPixelFormat</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $GDIP_PXF24RGB = 24 bits per pixel; 8 bits for each RGB component</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_PXF24RGB = 24 bits per pixel; 8 bits for each RGB component</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_PXF24RGB = 24 bits per pixel; 8 bits for each RGB component</mrk></target>
+<note>$iPixelFormat</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $GDIP_PXF32RGB = 32 bits per pixel; 8 bits for each RGB component. No alpha component.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_PXF32RGB = 32 bits per pixel; 8 bits for each RGB component.</mrk> <mrk mid="1" mtype="seg">No alpha component.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_PXF32RGB = 32 bits per pixel; 8 bits for each RGB component.</mrk> <mrk mid="1" mtype="seg">No alpha component.</mrk></target>
+<note>$iPixelFormat</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $GDIP_PXF32ARGB = 32 bits per pixel; 8 bits for each RGB and alpha component</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_PXF32ARGB = 32 bits per pixel; 8 bits for each RGB and alpha component</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_PXF32ARGB = 32 bits per pixel; 8 bits for each RGB and alpha component</mrk></target>
+<note>$iPixelFormat</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $GDIP_PXF32PARGB = 32 bits per pixel; 8 bits for each RGB and alpha component, pre-multiplied</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GDIP_PXF32PARGB = 32 bits per pixel; 8 bits for each RGB and alpha component, pre-multiplied</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GDIP_PXF32PARGB = 32 bits per pixel; 8 bits for each RGB and alpha component, pre-multiplied</mrk></target>
+<note>$iPixelFormat</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Integer that specifies the byte offset between the beginning of one scan line and the next.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Integer that specifies the byte offset between the beginning of one scan line and the next.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Integer that specifies the byte offset between the beginning of one scan line and the next.</mrk></target>
+<note>$iStride</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Pointer to an array of bytes that contains the pixel data.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Pointer to an array of bytes that contains the pixel data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Pointer to an array of bytes that contains the pixel data.</mrk></target>
+<note>$pScan0</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">a handle to a new Bitmap object.</source>
+<seg-source><mrk mid="0" mtype="seg">a handle to a new Bitmap object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a handle to a new Bitmap object.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">0 and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">After you are done with the object, call <bpt id="1" ctype="x-a">&lt;a href="_GDIPlus_BitmapDispose.htm"></bpt>_GDIPlus_BitmapDispose()<ept id="1">&lt;/a></ept> to release the object resources.</source>
+<seg-source><mrk mid="0" mtype="seg">After you are done with the object, call <bpt id="1" ctype="x-a">&lt;a href="_GDIPlus_BitmapDispose.htm"></bpt>_GDIPlus_BitmapDispose()<ept id="1">&lt;/a></ept> to release the object resources.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">After you are done with the object, call <bpt id="1" ctype="x-a">&lt;a href="_GDIPlus_BitmapDispose.htm"></bpt>_GDIPlus_BitmapDispose()<ept id="1">&lt;/a></ept> to release the object resources.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipCreateBitmapFromScan0"></bpt>GdipCreateBitmapFromScan0<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipCreateBitmapFromScan0"></bpt>GdipCreateBitmapFromScan0<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipCreateBitmapFromScan0"></bpt>GdipCreateBitmapFromScan0<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">create an empty bitmap</source>
+<seg-source><mrk mid="0" mtype="seg">create an empty bitmap</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">create an empty bitmap</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">get the graphics context of the bitmap</source>
+<seg-source><mrk mid="0" mtype="seg">get the graphics context of the bitmap</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">get the graphics context of the bitmap</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">clear bitmap with color white</source>
+<seg-source><mrk mid="0" mtype="seg">clear bitmap with color white</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">clear bitmap with color white</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">AutoIt rulez!</source>
+<seg-source><mrk mid="0" mtype="seg">AutoIt rulez!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AutoIt rulez!</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Comic Sans MS</source>
+<seg-source><mrk mid="0" mtype="seg">Comic Sans MS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Comic Sans MS</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">draw some text to the bitmap</source>
+<seg-source><mrk mid="0" mtype="seg">draw some text to the bitmap</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">draw some text to the bitmap</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">\Test.jpg</source>
+<seg-source><mrk mid="0" mtype="seg">\Test.jpg</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Test.jpg</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">save bitmap to disk</source>
+<seg-source><mrk mid="0" mtype="seg">save bitmap to disk</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">save bitmap to disk</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">cleanup GDI+ resources</source>
+<seg-source><mrk mid="0" mtype="seg">cleanup GDI+ resources</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">cleanup GDI+ resources</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">open bitmap with default app</source>
+<seg-source><mrk mid="0" mtype="seg">open bitmap with default app</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">open bitmap with default app</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">uint[</source>
+<seg-source><mrk mid="0" mtype="seg">uint[</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">uint[</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">];</source>
+<seg-source><mrk mid="0" mtype="seg">];</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">];</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">to redraw the Bitmap</source>
+<seg-source><mrk mid="0" mtype="seg">to redraw the Bitmap</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">to redraw the Bitmap</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

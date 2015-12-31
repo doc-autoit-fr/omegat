@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/TCPRecv.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Receives data from a connected socket.</source>
+<seg-source><mrk mid="0" mtype="seg">Receives data from a connected socket.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Receives data from a connected socket.</mrk></target>
+<note>Function TCPRecv</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> The connected socket identifier (SocketID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="TCPAccept.htm"></bpt>TCPAccept()<ept id="1">&lt;/a></ept> or a <bpt id="2" ctype="x-a">&lt;a href="TCPConnect.htm"></bpt>TCPConnect()<ept id="2">&lt;/a></ept> function. </source>
+<seg-source> <mrk mid="0" mtype="seg">The connected socket identifier (SocketID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="TCPAccept.htm"></bpt>TCPAccept()<ept id="1">&lt;/a></ept> or a <bpt id="2" ctype="x-a">&lt;a href="TCPConnect.htm"></bpt>TCPConnect()<ept id="2">&lt;/a></ept> function.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The connected socket identifier (SocketID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="TCPAccept.htm"></bpt>TCPAccept()<ept id="1">&lt;/a></ept> or a <bpt id="2" ctype="x-a">&lt;a href="TCPConnect.htm"></bpt>TCPConnect()<ept id="2">&lt;/a></ept> function.</mrk> </target>
+<note>mainsocket</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">max # of characters to receive.</source>
+<seg-source><mrk mid="0" mtype="seg">max # of characters to receive.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">max # of characters to receive.</mrk></target>
+<note>maxlen</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Forces the function to return binary data if set to 1 (default is 0, and will auto detect between binary/string).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Forces the function to return binary data if set to 1 (default is 0, and will auto detect between binary/string).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Forces the function to return binary data if set to 1 (default is 0, and will auto detect between binary/string).</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $TCP_DATA_DEFAULT (0) - (Default) will auto detect between binary/string</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TCP_DATA_DEFAULT (0) - (Default) will auto detect between binary/string</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TCP_DATA_DEFAULT (0) - (Default) will auto detect between binary/string</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $TCP_DATA_BINARY (1) - return binary data</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TCP_DATA_BINARY (1) - return binary data</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TCP_DATA_BINARY (1) - return binary data</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> Constants are defined in "AutoItConstants.au3".</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in "AutoItConstants.au3".</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in "AutoItConstants.au3".</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">the binary/string sent by the connected socket.</source>
+<seg-source><mrk mid="0" mtype="seg">the binary/string sent by the connected socket.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the binary/string sent by the connected socket.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">"" and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">"" and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"" and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> -1 invalid socket.</source>
+<seg-source> <mrk mid="0" mtype="seg">-1 invalid socket.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">-1 invalid socket.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> -2 not connected.</source>
+<seg-source> <mrk mid="0" mtype="seg">-2 not connected.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">-2 not connected.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> Windows API WSAGetError return value (see <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ms740668.aspx"></bpt>MSDN<ept id="1">&lt;/a></ept>). </source>
+<seg-source> <mrk mid="0" mtype="seg">Windows API WSAGetError return value (see <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ms740668.aspx"></bpt>MSDN<ept id="1">&lt;/a></ept>).</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Windows API WSAGetError return value (see <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ms740668.aspx"></bpt>MSDN<ept id="1">&lt;/a></ept>).</mrk> </target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">@extended:</source>
+<seg-source><mrk mid="0" mtype="seg">@extended:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@extended:</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">1 no byte received.</source>
+<seg-source><mrk mid="0" mtype="seg">1 no byte received.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 no byte received.</mrk></target>
+<note>@extended:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">For backwards compatibility reasons this function will try to return strings by default. If null (0x00) characters are received then the return value will be a binary type.</source>
+<seg-source><mrk mid="0" mtype="seg">For backwards compatibility reasons this function will try to return strings by default.</mrk> <mrk mid="1" mtype="seg">If null (0x00) characters are received then the return value will be a binary type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">For backwards compatibility reasons this function will try to return strings by default.</mrk> <mrk mid="1" mtype="seg">If null (0x00) characters are received then the return value will be a binary type.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> To force the function to always return binary data (the most sensible option) then use the "flag" parameter set to 1.</source>
+<seg-source> <mrk mid="0" mtype="seg">To force the function to always return binary data (the most sensible option) then use the "flag" parameter set to 1.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To force the function to always return binary data (the most sensible option) then use the "flag" parameter set to 1.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> If Unicode strings need to be transmitted they must be encoded/decoded with <bpt id="1" ctype="x-a">&lt;a href="StringToBinary.htm"></bpt>StringToBinary()<ept id="1">&lt;/a></ept>/<bpt id="2" ctype="x-a">&lt;a href="BinaryToString.htm"></bpt>BinaryToString()<ept id="2">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">If Unicode strings need to be transmitted they must be encoded/decoded with <bpt id="1" ctype="x-a">&lt;a href="StringToBinary.htm"></bpt>StringToBinary()<ept id="1">&lt;/a></ept>/<bpt id="2" ctype="x-a">&lt;a href="BinaryToString.htm"></bpt>BinaryToString()<ept id="2">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If Unicode strings need to be transmitted they must be encoded/decoded with <bpt id="1" ctype="x-a">&lt;a href="StringToBinary.htm"></bpt>StringToBinary()<ept id="1">&lt;/a></ept>/<bpt id="2" ctype="x-a">&lt;a href="BinaryToString.htm"></bpt>BinaryToString()<ept id="2">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="BinaryLen.htm"></bpt>BinaryLen<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="BinaryMid.htm"></bpt>BinaryMid<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="BinaryToString.htm"></bpt>BinaryToString<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="TCPAccept.htm"></bpt>TCPAccept<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="TCPConnect.htm"></bpt>TCPConnect<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="TCPSend.htm"></bpt>TCPSend<ept id="6">&lt;/a></ept>, <bpt id="7" ctype="x-a">&lt;a href="TCPStartup.htm"></bpt>TCPStartup<ept id="7">&lt;/a></ept>, <bpt id="8" ctype="x-a">&lt;a href="AutoItSetOption.htm#TCPTimeout"></bpt>TCPTimeout (Option)<ept id="8">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="BinaryLen.htm"></bpt>BinaryLen<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="BinaryMid.htm"></bpt>BinaryMid<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="BinaryToString.htm"></bpt>BinaryToString<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="TCPAccept.htm"></bpt>TCPAccept<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="TCPConnect.htm"></bpt>TCPConnect<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="TCPSend.htm"></bpt>TCPSend<ept id="6">&lt;/a></ept>, <bpt id="7" ctype="x-a">&lt;a href="TCPStartup.htm"></bpt>TCPStartup<ept id="7">&lt;/a></ept>, <bpt id="8" ctype="x-a">&lt;a href="AutoItSetOption.htm#TCPTimeout"></bpt>TCPTimeout (Option)<ept id="8">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="BinaryLen.htm"></bpt>BinaryLen<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="BinaryMid.htm"></bpt>BinaryMid<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="BinaryToString.htm"></bpt>BinaryToString<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="TCPAccept.htm"></bpt>TCPAccept<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="TCPConnect.htm"></bpt>TCPConnect<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="TCPSend.htm"></bpt>TCPSend<ept id="6">&lt;/a></ept>, <bpt id="7" ctype="x-a">&lt;a href="TCPStartup.htm"></bpt>TCPStartup<ept id="7">&lt;/a></ept>, <bpt id="8" ctype="x-a">&lt;a href="AutoItSetOption.htm#TCPTimeout"></bpt>TCPTimeout (Option)<ept id="8">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Start First clicking on "1. Server"</source>
+<seg-source><mrk mid="0" mtype="seg">Start First clicking on "1.</mrk> <mrk mid="1" mtype="seg">Server"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Start First clicking on "1.</mrk> <mrk mid="1" mtype="seg">Server"</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Then start a second instance of the script selecting "2. Client"</source>
+<seg-source><mrk mid="0" mtype="seg">Then start a second instance of the script selecting "2.</mrk> <mrk mid="1" mtype="seg">Client"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Then start a second instance of the script selecting "2.</mrk> <mrk mid="1" mtype="seg">Client"</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Start the TCP service.</source>
+<seg-source><mrk mid="0" mtype="seg">Start the TCP service.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Start the TCP service.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Register OnAutoItExit to be called when the script is closed.</source>
+<seg-source><mrk mid="0" mtype="seg">Register OnAutoItExit to be called when the script is closed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Register OnAutoItExit to be called when the script is closed.</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">OnAutoItExit</source>
+<seg-source><mrk mid="0" mtype="seg">OnAutoItExit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OnAutoItExit</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Assign Local variables the loopback IP Address and the Port.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign Local variables the loopback IP Address and the Port.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign Local variables the loopback IP Address and the Port.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">127.0.0.1</source>
+<seg-source><mrk mid="0" mtype="seg">127.0.0.1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">127.0.0.1</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">This IP Address only works for testing on your own computer.</source>
+<seg-source><mrk mid="0" mtype="seg">This IP Address only works for testing on your own computer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This IP Address only works for testing on your own computer.</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Port used for the connection.</source>
+<seg-source><mrk mid="0" mtype="seg">Port used for the connection.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Port used for the connection.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">TCP Start</source>
+<seg-source><mrk mid="0" mtype="seg">TCP Start</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TCP Start</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">1. Server</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk> <mrk mid="1" mtype="seg">Server</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk> <mrk mid="1" mtype="seg">Server</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">2. Client</source>
+<seg-source><mrk mid="0" mtype="seg">2.</mrk> <mrk mid="1" mtype="seg">Client</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2.</mrk> <mrk mid="1" mtype="seg">Client</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">TCP Server started</source>
+<seg-source><mrk mid="0" mtype="seg">TCP Server started</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TCP Server started</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">TCP Client started</source>
+<seg-source><mrk mid="0" mtype="seg">TCP Client started</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TCP Client started</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Assign a Local variable the socket and connect to a listening socket with the IP Address and Port specified.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign a Local variable the socket and connect to a listening socket with the IP Address and Port specified.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign a Local variable the socket and connect to a listening socket with the IP Address and Port specified.</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">If an error occurred display the error code and return False.</source>
+<seg-source><mrk mid="0" mtype="seg">If an error occurred display the error code and return False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If an error occurred display the error code and return False.</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">The server is probably offline/port is not opened on the server.</source>
+<seg-source><mrk mid="0" mtype="seg">The server is probably offline/port is not opened on the server.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The server is probably offline/port is not opened on the server.</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Client:</source>
+<seg-source><mrk mid="0" mtype="seg">Client:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Client:</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Could not connect, Error code:</source>
+<seg-source><mrk mid="0" mtype="seg">Could not connect, Error code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Could not connect, Error code:</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Send the string "tata" to the server.</source>
+<seg-source><mrk mid="0" mtype="seg">Send the string "tata" to the server.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Send the string "tata" to the server.</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">tata</source>
+<seg-source><mrk mid="0" mtype="seg">tata</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tata</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">If an error occurred display the error code and return False.</source>
+<seg-source><mrk mid="0" mtype="seg">If an error occurred display the error code and return False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If an error occurred display the error code and return False.</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Client:</source>
+<seg-source><mrk mid="0" mtype="seg">Client:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Client:</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Could not send the data, Error code:</source>
+<seg-source><mrk mid="0" mtype="seg">Could not send the data, Error code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Could not send the data, Error code:</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Close the socket.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the socket.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the socket.</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Assign a Local variable the socket and bind to the IP Address and Port specified with a maximum of 100 pending connexions.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign a Local variable the socket and bind to the IP Address and Port specified with a maximum of 100 pending connexions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign a Local variable the socket and bind to the IP Address and Port specified with a maximum of 100 pending connexions.</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Someone is probably already listening on this IP Address and Port (script already running?).</source>
+<seg-source><mrk mid="0" mtype="seg">Someone is probably already listening on this IP Address and Port (script already running?).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Someone is probably already listening on this IP Address and Port (script already running?).</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Server:</source>
+<seg-source><mrk mid="0" mtype="seg">Server:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Server:</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">Could not listen, Error code:</source>
+<seg-source><mrk mid="0" mtype="seg">Could not listen, Error code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Could not listen, Error code:</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Assign a Local variable to be used by the Client socket.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign a Local variable to be used by the Client socket.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign a Local variable to be used by the Client socket.</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Wait for someone to connect (Unlimited).</source>
+<seg-source><mrk mid="0" mtype="seg">Wait for someone to connect (Unlimited).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wait for someone to connect (Unlimited).</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">Accept incomming connexions if present (Socket to close when finished; one socket per client).</source>
+<seg-source><mrk mid="0" mtype="seg">Accept incomming connexions if present (Socket to close when finished; one socket per client).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Accept incomming connexions if present (Socket to close when finished; one socket per client).</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">If an error occurred display the error code and return False.</source>
+<seg-source><mrk mid="0" mtype="seg">If an error occurred display the error code and return False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If an error occurred display the error code and return False.</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">Server:</source>
+<seg-source><mrk mid="0" mtype="seg">Server:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Server:</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Could not accept the incoming connection, Error code:</source>
+<seg-source><mrk mid="0" mtype="seg">Could not accept the incoming connection, Error code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Could not accept the incoming connection, Error code:</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">if different from -1 a client is connected.</source>
+<seg-source><mrk mid="0" mtype="seg">if different from -1 a client is connected.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">if different from -1 a client is connected.</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">Close the Listening socket to allow afterward binds.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the Listening socket to allow afterward binds.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the Listening socket to allow afterward binds.</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">Assign a Local variable the data received.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign a Local variable the data received.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign a Local variable the data received.</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">we're waiting for the string "tata" OR "toto" (example script TCPRecv): 4 bytes length.</source>
+<seg-source><mrk mid="0" mtype="seg">we're waiting for the string "tata" OR "toto" (example script TCPRecv):</mrk> <mrk mid="1" mtype="seg">4 bytes length.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">we're waiting for the string "tata" OR "toto" (example script TCPRecv):</mrk> <mrk mid="1" mtype="seg">4 bytes length.</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">Notes: If you don't know how much length will be the data,</source>
+<seg-source><mrk mid="0" mtype="seg">Notes:</mrk> <mrk mid="1" mtype="seg">If you don't know how much length will be the data,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notes:</mrk> <mrk mid="1" mtype="seg">If you don't know how much length will be the data,</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">use e.g: 2048 for maxlen parameter and call the function until the it returns nothing/error.</source>
+<seg-source><mrk mid="0" mtype="seg">use e.g:</mrk> <mrk mid="1" mtype="seg">2048 for maxlen parameter and call the function until the it returns nothing/error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">use e.g:</mrk> <mrk mid="1" mtype="seg">2048 for maxlen parameter and call the function until the it returns nothing/error.</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">Display the string received.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the string received.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the string received.</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">Server:</source>
+<seg-source><mrk mid="0" mtype="seg">Server:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Server:</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">Received:</source>
+<seg-source><mrk mid="0" mtype="seg">Received:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Received:</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">Close the socket.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the socket.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the socket.</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">Close the TCP service.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the TCP service.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the TCP service.</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">I am the client, start me after the server! (Start first the example 2 of the TCPSend function).</source>
+<seg-source><mrk mid="0" mtype="seg">I am the client, start me after the server!</mrk> <mrk mid="1" mtype="seg">(Start first the example 2 of the TCPSend function).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">I am the client, start me after the server!</mrk> <mrk mid="1" mtype="seg">(Start first the example 2 of the TCPSend function).</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">Start the TCP service.</source>
+<seg-source><mrk mid="0" mtype="seg">Start the TCP service.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Start the TCP service.</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">Register OnAutoItExit to be called when the script is closed.</source>
+<seg-source><mrk mid="0" mtype="seg">Register OnAutoItExit to be called when the script is closed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Register OnAutoItExit to be called when the script is closed.</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">OnAutoItExit</source>
+<seg-source><mrk mid="0" mtype="seg">OnAutoItExit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OnAutoItExit</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">Assign Local variables the loopback IP Address and the Port.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign Local variables the loopback IP Address and the Port.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign Local variables the loopback IP Address and the Port.</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">127.0.0.1</source>
+<seg-source><mrk mid="0" mtype="seg">127.0.0.1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">127.0.0.1</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">This IP Address only works for testing on your own computer.</source>
+<seg-source><mrk mid="0" mtype="seg">This IP Address only works for testing on your own computer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This IP Address only works for testing on your own computer.</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">Port used for the connection.</source>
+<seg-source><mrk mid="0" mtype="seg">Port used for the connection.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Port used for the connection.</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">Assign a Local variable the socket and connect to a listening socket with the IP Address and Port specified.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign a Local variable the socket and connect to a listening socket with the IP Address and Port specified.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign a Local variable the socket and connect to a listening socket with the IP Address and Port specified.</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">If an error occurred display the error code and return False.</source>
+<seg-source><mrk mid="0" mtype="seg">If an error occurred display the error code and return False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If an error occurred display the error code and return False.</mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">The server is probably offline/port is not opened on the server.</source>
+<seg-source><mrk mid="0" mtype="seg">The server is probably offline/port is not opened on the server.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The server is probably offline/port is not opened on the server.</mrk></target>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">Client:</source>
+<seg-source><mrk mid="0" mtype="seg">Client:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Client:</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">Could not connect, Error code:</source>
+<seg-source><mrk mid="0" mtype="seg">Could not connect, Error code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Could not connect, Error code:</mrk></target>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en">Assign a Local variable the path of the file which will be received.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign a Local variable the path of the file which will be received.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign a Local variable the path of the file which will be received.</mrk></target>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">Save as</source>
+<seg-source><mrk mid="0" mtype="seg">Save as</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Save as</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">All types (*.*)</source>
+<seg-source><mrk mid="0" mtype="seg">All types (*.*)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All types (*.*)</mrk></target>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en">If an error occurred display the error code and return False.</source>
+<seg-source><mrk mid="0" mtype="seg">If an error occurred display the error code and return False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If an error occurred display the error code and return False.</mrk></target>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">Client:</source>
+<seg-source><mrk mid="0" mtype="seg">Client:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Client:</mrk></target>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en">Invalid file chosen, Error code:</source>
+<seg-source><mrk mid="0" mtype="seg">Invalid file chosen, Error code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Invalid file chosen, Error code:</mrk></target>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en">Assign a Local variable the handle of the file opened in binary overwrite mode.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign a Local variable the handle of the file opened in binary overwrite mode.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign a Local variable the handle of the file opened in binary overwrite mode.</mrk></target>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en">Assign Locales Constant variables the number representing 4 KiB; the binary code for the end of the file and the length of the binary code.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign Locales Constant variables the number representing 4 KiB; the binary code for the end of the file and the length of the binary code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign Locales Constant variables the number representing 4 KiB; the binary code for the end of the file and the length of the binary code.</mrk></target>
+</trans-unit>
+<trans-unit id="94">
+<source xml:lang="en">{EOF}</source>
+<seg-source><mrk mid="0" mtype="seg">{EOF}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">{EOF}</mrk></target>
+</trans-unit>
+<trans-unit id="95">
+<source xml:lang="en">Assign a Local variable the empty binary data which will contain the binary data of the file.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign a Local variable the empty binary data which will contain the binary data of the file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign a Local variable the empty binary data which will contain the binary data of the file.</mrk></target>
+</trans-unit>
+<trans-unit id="96">
+<source xml:lang="en">Assign a Local variable to store the length of the data received.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign a Local variable to store the length of the data received.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign a Local variable to store the length of the data received.</mrk></target>
+</trans-unit>
+<trans-unit id="97">
+<source xml:lang="en">Assign a Local variable a boolean.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign a Local variable a boolean.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign a Local variable a boolean.</mrk></target>
+</trans-unit>
+<trans-unit id="98">
+<source xml:lang="en">If an error occurred display the error code and return False.</source>
+<seg-source><mrk mid="0" mtype="seg">If an error occurred display the error code and return False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If an error occurred display the error code and return False.</mrk></target>
+</trans-unit>
+<trans-unit id="99">
+<source xml:lang="en">Client:</source>
+<seg-source><mrk mid="0" mtype="seg">Client:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Client:</mrk></target>
+</trans-unit>
+<trans-unit id="100">
+<source xml:lang="en">Connection lost, Error code:</source>
+<seg-source><mrk mid="0" mtype="seg">Connection lost, Error code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connection lost, Error code:</mrk></target>
+</trans-unit>
+<trans-unit id="101">
+<source xml:lang="en">If nothing is received, retry for the incoming data.</source>
+<seg-source><mrk mid="0" mtype="seg">If nothing is received, retry for the incoming data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If nothing is received, retry for the incoming data.</mrk></target>
+</trans-unit>
+<trans-unit id="102">
+<source xml:lang="en">If the end of the file is reached.</source>
+<seg-source><mrk mid="0" mtype="seg">If the end of the file is reached.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the end of the file is reached.</mrk></target>
+</trans-unit>
+<trans-unit id="103">
+<source xml:lang="en">Strip the EOF code from the file data.</source>
+<seg-source><mrk mid="0" mtype="seg">Strip the EOF code from the file data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Strip the EOF code from the file data.</mrk></target>
+</trans-unit>
+<trans-unit id="104">
+<source xml:lang="en">Set the EOFReached to True.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the EOFReached to True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the EOFReached to True.</mrk></target>
+</trans-unit>
+<trans-unit id="105">
+<source xml:lang="en">Close the file handle.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the file handle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the file handle.</mrk></target>
+</trans-unit>
+<trans-unit id="106">
+<source xml:lang="en">Display the successful message.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the successful message.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the successful message.</mrk></target>
+</trans-unit>
+<trans-unit id="107">
+<source xml:lang="en">Client:</source>
+<seg-source><mrk mid="0" mtype="seg">Client:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Client:</mrk></target>
+</trans-unit>
+<trans-unit id="108">
+<source xml:lang="en">File received.</source>
+<seg-source><mrk mid="0" mtype="seg">File received.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File received.</mrk></target>
+</trans-unit>
+<trans-unit id="109">
+<source xml:lang="en">Close the socket.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the socket.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the socket.</mrk></target>
+</trans-unit>
+<trans-unit id="110">
+<source xml:lang="en">Close the TCP service.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the TCP service.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the TCP service.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

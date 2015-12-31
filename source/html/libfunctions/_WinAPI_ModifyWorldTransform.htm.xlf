@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_ModifyWorldTransform.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Changes the world transformation for a device context using the specified mode</source>
+<seg-source><mrk mid="0" mtype="seg">Changes the world transformation for a device context using the specified mode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Changes the world transformation for a device context using the specified mode</mrk></target>
+<note>Function _WinAPI_ModifyWorldTransform</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the device context.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the device context.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the device context.</mrk></target>
+<note>$hDC</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">$tagXFORM structure used to modify the world transformation for the given device context.</source>
+<seg-source><mrk mid="0" mtype="seg">$tagXFORM structure used to modify the world transformation for the given device context.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$tagXFORM structure used to modify the world transformation for the given device context.</mrk></target>
+<note>$tXFORM</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Specifies how the transformation data modifies the current world transformation.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies how the transformation data modifies the current world transformation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies how the transformation data modifies the current world transformation.</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> This parameter must be one of the following values.</source>
+<seg-source> <mrk mid="0" mtype="seg">This parameter must be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This parameter must be one of the following values.</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $MWT_IDENTITY</source>
+<seg-source> <mrk mid="0" mtype="seg">$MWT_IDENTITY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$MWT_IDENTITY</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $MWT_LEFTMULTIPLY</source>
+<seg-source> <mrk mid="0" mtype="seg">$MWT_LEFTMULTIPLY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$MWT_LEFTMULTIPLY</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $MWT_RIGHTMULTIPLY</source>
+<seg-source> <mrk mid="0" mtype="seg">$MWT_RIGHTMULTIPLY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$MWT_RIGHTMULTIPLY</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">False</source>
+<seg-source><mrk mid="0" mtype="seg">False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ModifyWorldTransform.htm"></bpt>_WinAPI_ModifyWorldTransform()<ept id="1">&lt;/a></ept> will fail unless graphics mode for the specified device context has been set</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ModifyWorldTransform.htm"></bpt>_WinAPI_ModifyWorldTransform()<ept id="1">&lt;/a></ept> will fail unless graphics mode for the specified device context has been set</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ModifyWorldTransform.htm"></bpt>_WinAPI_ModifyWorldTransform()<ept id="1">&lt;/a></ept> will fail unless graphics mode for the specified device context has been set</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> to $GM_ADVANCED by previously calling the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetGraphicsMode.htm"></bpt>_WinAPI_SetGraphicsMode()<ept id="1">&lt;/a></ept>. Likewise, it will not be possible to reset</source>
+<seg-source> <mrk mid="0" mtype="seg">to $GM_ADVANCED by previously calling the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetGraphicsMode.htm"></bpt>_WinAPI_SetGraphicsMode()<ept id="1">&lt;/a></ept>.</mrk> <mrk mid="1" mtype="seg">Likewise, it will not be possible to reset</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">to $GM_ADVANCED by previously calling the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetGraphicsMode.htm"></bpt>_WinAPI_SetGraphicsMode()<ept id="1">&lt;/a></ept>.</mrk> <mrk mid="1" mtype="seg">Likewise, it will not be possible to reset</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> the graphics mode for the device context to the default $GM_COMPATIBLE mode, unless world transform has first</source>
+<seg-source> <mrk mid="0" mtype="seg">the graphics mode for the device context to the default $GM_COMPATIBLE mode, unless world transform has first</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">the graphics mode for the device context to the default $GM_COMPATIBLE mode, unless world transform has first</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> been reset to the default identity transform by calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetWorldTransform.htm"></bpt>_WinAPI_SetWorldTransform()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">been reset to the default identity transform by calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetWorldTransform.htm"></bpt>_WinAPI_SetWorldTransform()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">been reset to the default identity transform by calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetWorldTransform.htm"></bpt>_WinAPI_SetWorldTransform()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ModifyWorldTransform);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ModifyWorldTransform<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ModifyWorldTransform);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ModifyWorldTransform<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ModifyWorldTransform);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ModifyWorldTransform<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Create bitmap</source>
+<seg-source><mrk mid="0" mtype="seg">Create bitmap</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create bitmap</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Set advanced graphics mode to be able to set the world transformation</source>
+<seg-source><mrk mid="0" mtype="seg">Set advanced graphics mode to be able to set the world transformation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set advanced graphics mode to be able to set the world transformation</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Create transformation matrix for rotate of 5 degrees</source>
+<seg-source><mrk mid="0" mtype="seg">Create transformation matrix for rotate of 5 degrees</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create transformation matrix for rotate of 5 degrees</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Draw ellipses with rotation</source>
+<seg-source><mrk mid="0" mtype="seg">Draw ellipses with rotation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draw ellipses with rotation</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Release objects</source>
+<seg-source><mrk mid="0" mtype="seg">Release objects</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Release objects</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Set bitmap to control</source>
+<seg-source><mrk mid="0" mtype="seg">Set bitmap to control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set bitmap to control</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUICtrlListBox_FindString.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Search for a string</source>
+<seg-source><mrk mid="0" mtype="seg">Search for a string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search for a string</mrk></target>
+<note>Function _GUICtrlListBox_FindString</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Control ID/Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">String to search for</source>
+<seg-source><mrk mid="0" mtype="seg">String to search for</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String to search for</mrk></target>
+<note>$sText</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Exact match or not</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Exact match or not</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Exact match or not</mrk></target>
+<note>$bExact</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">the 0-based index of the item.</source>
+<seg-source><mrk mid="0" mtype="seg">the 0-based index of the item.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the 0-based index of the item.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">-1.</source>
+<seg-source><mrk mid="0" mtype="seg">-1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Find the first string in a list box that begins with the specified string.</source>
+<seg-source><mrk mid="0" mtype="seg">Find the first string in a list box that begins with the specified string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Find the first string in a list box that begins with the specified string.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> If exact is specified find the first list box string that exactly matches the specified string, except that the search is not case sensitive.</source>
+<seg-source> <mrk mid="0" mtype="seg">If exact is specified find the first list box string that exactly matches the specified string, except that the search is not case sensitive.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If exact is specified find the first list box string that exactly matches the specified string, except that the search is not case sensitive.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">List Box Find String</source>
+<seg-source><mrk mid="0" mtype="seg">List Box Find String</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">List Box Find String</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Add strings</source>
+<seg-source><mrk mid="0" mtype="seg">Add strings</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add strings</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">%03d : Random string</source>
+<seg-source><mrk mid="0" mtype="seg">%03d :</mrk> <mrk mid="1" mtype="seg">Random string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%03d :</mrk> <mrk mid="1" mtype="seg">Random string</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">eXaCt tExT</source>
+<seg-source><mrk mid="0" mtype="seg">eXaCt tExT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">eXaCt tExT</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Find an item</source>
+<seg-source><mrk mid="0" mtype="seg">Find an item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Find an item</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">exa</source>
+<seg-source><mrk mid="0" mtype="seg">exa</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">exa</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">List Box Find String Exact</source>
+<seg-source><mrk mid="0" mtype="seg">List Box Find String Exact</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">List Box Find String Exact</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Add strings</source>
+<seg-source><mrk mid="0" mtype="seg">Add strings</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add strings</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">%03d : Random string</source>
+<seg-source><mrk mid="0" mtype="seg">%03d :</mrk> <mrk mid="1" mtype="seg">Random string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%03d :</mrk> <mrk mid="1" mtype="seg">Random string</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">eXa</source>
+<seg-source><mrk mid="0" mtype="seg">eXa</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">eXa</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">eXaCt tExT</source>
+<seg-source><mrk mid="0" mtype="seg">eXaCt tExT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">eXaCt tExT</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Find an item</source>
+<seg-source><mrk mid="0" mtype="seg">Find an item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Find an item</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">exact text</source>
+<seg-source><mrk mid="0" mtype="seg">exact text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">exact text</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_DrawFrameControl.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Draws a frame control of the specified type and style</source>
+<seg-source><mrk mid="0" mtype="seg">Draws a frame control of the specified type and style</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draws a frame control of the specified type and style</mrk></target>
+<note>Function _WinAPI_DrawFrameControl</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the device context into which the frame is drawn</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the device context into which the frame is drawn</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the device context into which the frame is drawn</mrk></target>
+<note>$hDC</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">a $tagRECT structure or a pointer to it that contains the logical coordinates of the rectangle</source>
+<seg-source><mrk mid="0" mtype="seg">a $tagRECT structure or a pointer to it that contains the logical coordinates of the rectangle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a $tagRECT structure or a pointer to it that contains the logical coordinates of the rectangle</mrk></target>
+<note>$tRECT</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Specifies the type of frame control to draw. This parameter can be one of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the type of frame control to draw.</mrk> <mrk mid="1" mtype="seg">This parameter can be one of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the type of frame control to draw.</mrk> <mrk mid="1" mtype="seg">This parameter can be one of the following values:</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $DFC_BUTTON - Standard button</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFC_BUTTON - Standard button</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFC_BUTTON - Standard button</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $DFC_CAPTION - Title bar</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFC_CAPTION - Title bar</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFC_CAPTION - Title bar</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $DFC_MENU - Menu bar</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFC_MENU - Menu bar</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFC_MENU - Menu bar</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $DFC_POPUPMENU - Popup menu item</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFC_POPUPMENU - Popup menu item</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFC_POPUPMENU - Popup menu item</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $DFC_SCROLL - Scroll bar</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFC_SCROLL - Scroll bar</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFC_SCROLL - Scroll bar</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Specifies the initial state of the frame control. If $iType is $DFC_BUTTON, $iState can be one of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the initial state of the frame control.</mrk> <mrk mid="1" mtype="seg">If $iType is $DFC_BUTTON, $iState can be one of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the initial state of the frame control.</mrk> <mrk mid="1" mtype="seg">If $iType is $DFC_BUTTON, $iState can be one of the following values:</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $DFCS_BUTTON3STATE - Three-state button</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_BUTTON3STATE - Three-state button</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_BUTTON3STATE - Three-state button</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $DFCS_BUTTONCHECK - Check box</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_BUTTONCHECK - Check box</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_BUTTONCHECK - Check box</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $DFCS_BUTTONPUSH - Push button</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_BUTTONPUSH - Push button</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_BUTTONPUSH - Push button</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $DFCS_BUTTONRADIO - Radio button</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_BUTTONRADIO - Radio button</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_BUTTONRADIO - Radio button</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $DFCS_BUTTONRADIOIMAGE - Image for radio button (nonsquare needs image)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_BUTTONRADIOIMAGE - Image for radio button (nonsquare needs image)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_BUTTONRADIOIMAGE - Image for radio button (nonsquare needs image)</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $DFCS_BUTTONRADIOMASK - Mask for radio button (nonsquare needs mask)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_BUTTONRADIOMASK - Mask for radio button (nonsquare needs mask)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_BUTTONRADIOMASK - Mask for radio button (nonsquare needs mask)</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> If $iType is $DFC_CAPTION, $iState can be one of the following values:</source>
+<seg-source> <mrk mid="0" mtype="seg">If $iType is $DFC_CAPTION, $iState can be one of the following values:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If $iType is $DFC_CAPTION, $iState can be one of the following values:</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $DFCS_CAPTIONCLOSE - Close button</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_CAPTIONCLOSE - Close button</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_CAPTIONCLOSE - Close button</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     $DFCS_CAPTIONHELP - Help button</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_CAPTIONHELP - Help button</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_CAPTIONHELP - Help button</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     $DFCS_CAPTIONMAX - Maximize button</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_CAPTIONMAX - Maximize button</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_CAPTIONMAX - Maximize button</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     $DFCS_CAPTIONMIN - Minimize button</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_CAPTIONMIN - Minimize button</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_CAPTIONMIN - Minimize button</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">     $DFCS_CAPTIONRESTORE - Restore button</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_CAPTIONRESTORE - Restore button</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_CAPTIONRESTORE - Restore button</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> If $iType is $DFC_MENU, $iState can be one of the following values:</source>
+<seg-source> <mrk mid="0" mtype="seg">If $iType is $DFC_MENU, $iState can be one of the following values:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If $iType is $DFC_MENU, $iState can be one of the following values:</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">     $DFCS_MENUARROW - Submenu arrow</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_MENUARROW - Submenu arrow</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_MENUARROW - Submenu arrow</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">     $DFCS_MENUARROWRIGHT - Submenu arrow pointing left. This is used for the right-to-left cascading menus used with right-to-left languages such as Arabic or Hebrew</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_MENUARROWRIGHT - Submenu arrow pointing left.</mrk> <mrk mid="1" mtype="seg">This is used for the right-to-left cascading menus used with right-to-left languages such as Arabic or Hebrew</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_MENUARROWRIGHT - Submenu arrow pointing left.</mrk> <mrk mid="1" mtype="seg">This is used for the right-to-left cascading menus used with right-to-left languages such as Arabic or Hebrew</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">     $DFCS_MENUBULLET - Bullet</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_MENUBULLET - Bullet</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_MENUBULLET - Bullet</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">     $DFCS_MENUCHECK - Check mark</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_MENUCHECK - Check mark</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_MENUCHECK - Check mark</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> If $iType is $DFC_SCROLL, $iState can be one of the following values:</source>
+<seg-source> <mrk mid="0" mtype="seg">If $iType is $DFC_SCROLL, $iState can be one of the following values:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If $iType is $DFC_SCROLL, $iState can be one of the following values:</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">     $DFCS_SCROLLCOMBOBOX - Combo box scroll bar</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_SCROLLCOMBOBOX - Combo box scroll bar</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_SCROLLCOMBOBOX - Combo box scroll bar</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">     $DFCS_SCROLLDOWN - Down arrow of scroll bar</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_SCROLLDOWN - Down arrow of scroll bar</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_SCROLLDOWN - Down arrow of scroll bar</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">     $DFCS_SCROLLLEFT - Left arrow of scroll bar</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_SCROLLLEFT - Left arrow of scroll bar</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_SCROLLLEFT - Left arrow of scroll bar</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">     $DFCS_SCROLLRIGHT - Right arrow of scroll bar</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_SCROLLRIGHT - Right arrow of scroll bar</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_SCROLLRIGHT - Right arrow of scroll bar</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">     $DFCS_SCROLLSIZEGRIP - Size grip in bottom-right corner of window</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_SCROLLSIZEGRIP - Size grip in bottom-right corner of window</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_SCROLLSIZEGRIP - Size grip in bottom-right corner of window</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">     $DFCS_SCROLLSIZEGRIPRIGHT - Size grip in bottom-left corner of window. This is used with right-to-left languages such as Arabic or Hebrew</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_SCROLLSIZEGRIPRIGHT - Size grip in bottom-left corner of window.</mrk> <mrk mid="1" mtype="seg">This is used with right-to-left languages such as Arabic or Hebrew</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_SCROLLSIZEGRIPRIGHT - Size grip in bottom-left corner of window.</mrk> <mrk mid="1" mtype="seg">This is used with right-to-left languages such as Arabic or Hebrew</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">     $DFCS_SCROLLUP - Up arrow of scroll bar</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_SCROLLUP - Up arrow of scroll bar</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_SCROLLUP - Up arrow of scroll bar</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en"> The following style can be used to adjust the bounding rectangle of the push button:</source>
+<seg-source> <mrk mid="0" mtype="seg">The following style can be used to adjust the bounding rectangle of the push button:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The following style can be used to adjust the bounding rectangle of the push button:</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">     $DFCS_ADJUSTRECT - Bounding rectangle is adjusted to exclude the surrounding edge of the push button</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_ADJUSTRECT - Bounding rectangle is adjusted to exclude the surrounding edge of the push button</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_ADJUSTRECT - Bounding rectangle is adjusted to exclude the surrounding edge of the push button</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en"> One or more of the following values can be used to set the state of the control to be drawn:</source>
+<seg-source> <mrk mid="0" mtype="seg">One or more of the following values can be used to set the state of the control to be drawn:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">One or more of the following values can be used to set the state of the control to be drawn:</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">     $DFCS_CHECKED - Button is checked</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_CHECKED - Button is checked</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_CHECKED - Button is checked</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">     $DFCS_FLAT - Button has a flat border</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_FLAT - Button has a flat border</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_FLAT - Button has a flat border</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">     $DFCS_HOT - Button is hot-tracked</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_HOT - Button is hot-tracked</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_HOT - Button is hot-tracked</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">     $DFCS_INACTIVE - Button is inactive (grayed)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_INACTIVE - Button is inactive (grayed)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_INACTIVE - Button is inactive (grayed)</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">     $DFCS_PUSHED - Button is pushed</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_PUSHED - Button is pushed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_PUSHED - Button is pushed</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">     $DFCS_TRANSPARENT - The background remains untouched. This flag can only be combined with $DFCS_MENUARROWUP or $DFCS_MENUARROWDOWN</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DFCS_TRANSPARENT - The background remains untouched.</mrk> <mrk mid="1" mtype="seg">This flag can only be combined with $DFCS_MENUARROWUP or $DFCS_MENUARROWDOWN</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DFCS_TRANSPARENT - The background remains untouched.</mrk> <mrk mid="1" mtype="seg">This flag can only be combined with $DFCS_MENUARROWUP or $DFCS_MENUARROWDOWN</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">False</source>
+<seg-source><mrk mid="0" mtype="seg">False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Above constants require #include &lt;FrameConstants.au3></source>
+<seg-source><mrk mid="0" mtype="seg">Above constants require #include &lt;FrameConstants.au3></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Above constants require #include &lt;FrameConstants.au3></mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="$tagRECT.htm"></bpt>$tagRECT<ept id="1">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagRECT.htm"></bpt>$tagRECT<ept id="1">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagRECT.htm"></bpt>$tagRECT<ept id="1">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DrawFrameControl);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DrawFrameControl<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DrawFrameControl);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DrawFrameControl<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DrawFrameControl);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DrawFrameControl<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

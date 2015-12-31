@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_EnumDllProc.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Enumerates an exported functions of the specified dynamic-link library (DLL)</source>
+<seg-source><mrk mid="0" mtype="seg">Enumerates an exported functions of the specified dynamic-link library (DLL)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enumerates an exported functions of the specified dynamic-link library (DLL)</mrk></target>
+<note>Function _WinAPI_EnumDllProc</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The path to the library.</source>
+<seg-source><mrk mid="0" mtype="seg">The path to the library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The path to the library.</mrk></target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> Although this function searches for a file path when it specified as the relative path or the name without a path, will better to specify a fully qualified path to the library for an unequivocal result.</source>
+<seg-source> <mrk mid="0" mtype="seg">Although this function searches for a file path when it specified as the relative path or the name without a path, will better to specify a fully qualified path to the library for an unequivocal result.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Although this function searches for a file path when it specified as the relative path or the name without a path, will better to specify a fully qualified path to the library for an unequivocal result.</mrk></target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> A wildcard string that indicates the function names to be enumerated.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A wildcard string that indicates the function names to be enumerated.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A wildcard string that indicates the function names to be enumerated.</mrk></target>
+<note>$sMask</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> This string can optionally contain the wildcards, "*" and "?". If this parameter is an empty string or omitted (Default), all the exported functions will be enumerated.</source>
+<seg-source> <mrk mid="0" mtype="seg">This string can optionally contain the wildcards, "*" and "?".</mrk> <mrk mid="1" mtype="seg">If this parameter is an empty string or omitted (Default), all the exported functions will be enumerated.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This string can optionally contain the wildcards, "*" and "?".</mrk> <mrk mid="1" mtype="seg">If this parameter is an empty string or omitted (Default), all the exported functions will be enumerated.</mrk></target>
+<note>$sMask</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The optional flags. This parameter can be one or more of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The optional flags.</mrk> <mrk mid="2" mtype="seg">This parameter can be one or more of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The optional flags.</mrk> <mrk mid="2" mtype="seg">This parameter can be one or more of the following values:</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $SYMOPT_CASE_INSENSITIVE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SYMOPT_CASE_INSENSITIVE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SYMOPT_CASE_INSENSITIVE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $SYMOPT_UNDNAME</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SYMOPT_UNDNAME</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SYMOPT_UNDNAME</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">The 2D array containing the following information, @extended flag will contain one of the $IMAGE_FILE_MACHINE_* constants.</source>
+<seg-source><mrk mid="0" mtype="seg">The 2D array containing the following information, @extended flag will contain one of the $IMAGE_FILE_MACHINE_* constants.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The 2D array containing the following information, @extended flag will contain one of the $IMAGE_FILE_MACHINE_* constants.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     [0][0] - Number of rows in array (n)</source>
+<seg-source> <mrk mid="0" mtype="seg">    [0][0] - Number of rows in array (n)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [0][0] - Number of rows in array (n)</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     [0][1] - Unused</source>
+<seg-source> <mrk mid="0" mtype="seg">    [0][1] - Unused</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [0][1] - Unused</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     [n][0] - The function address relative to the library base address (UINT64).</source>
+<seg-source> <mrk mid="0" mtype="seg">    [n][0] - The function address relative to the library base address (UINT64).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [n][0] - The function address relative to the library base address (UINT64).</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     [n][1] - The function name.</source>
+<seg-source> <mrk mid="0" mtype="seg">    [n][1] - The function name.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [n][1] - The function name.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">This function works with 32- and 64-bit DLLs regardless of the system (32- or 64-bit), although 64-bit executables cannot load 32-bit DLLs and vice-versa.</source>
+<seg-source><mrk mid="0" mtype="seg">This function works with 32- and 64-bit DLLs regardless of the system (32- or 64-bit), although 64-bit executables cannot load 32-bit DLLs and vice-versa.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function works with 32- and 64-bit DLLs regardless of the system (32- or 64-bit), although 64-bit executables cannot load 32-bit DLLs and vice-versa.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> Call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetExtended.htm"></bpt>_WinAPI_GetExtended()<ept id="1">&lt;/a></ept> to retrieve a fully qualified path to the found DLL that was loaded for enumerating functions.</source>
+<seg-source> <mrk mid="0" mtype="seg">Call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetExtended.htm"></bpt>_WinAPI_GetExtended()<ept id="1">&lt;/a></ept> to retrieve a fully qualified path to the found DLL that was loaded for enumerating functions.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetExtended.htm"></bpt>_WinAPI_GetExtended()<ept id="1">&lt;/a></ept> to retrieve a fully qualified path to the found DLL that was loaded for enumerating functions.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> Note, use the fully qualified path to be sure that the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_EnumDllProc.htm"></bpt>_WinAPI_EnumDllProc()<ept id="1">&lt;/a></ept> loads the DLL that is of interest.</source>
+<seg-source> <mrk mid="0" mtype="seg">Note, use the fully qualified path to be sure that the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_EnumDllProc.htm"></bpt>_WinAPI_EnumDllProc()<ept id="1">&lt;/a></ept> loads the DLL that is of interest.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Note, use the fully qualified path to be sure that the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_EnumDllProc.htm"></bpt>_WinAPI_EnumDllProc()<ept id="1">&lt;/a></ept> loads the DLL that is of interest.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> In addition, this function does not use the file system redirection.</source>
+<seg-source> <mrk mid="0" mtype="seg">In addition, this function does not use the file system redirection.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">In addition, this function does not use the file system redirection.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> This function requires dbghelp.dll version 5.1 or later.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function requires dbghelp.dll version 5.1 or later.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function requires dbghelp.dll version 5.1 or later.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SymEnumSymbols);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SymEnumSymbols<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SymEnumSymbols);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SymEnumSymbols<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SymEnumSymbols);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SymEnumSymbols<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">ntdll.dll</source>
+<seg-source><mrk mid="0" mtype="seg">ntdll.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ntdll.dll</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Rtl*</source>
+<seg-source><mrk mid="0" mtype="seg">Rtl*</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Rtl*</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">0x</source>
+<seg-source><mrk mid="0" mtype="seg">0x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

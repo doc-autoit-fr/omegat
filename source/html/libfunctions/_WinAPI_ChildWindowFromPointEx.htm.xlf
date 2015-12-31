@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_ChildWindowFromPointEx.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Determines which, if any, of the child windows belonging to the specified parent window contains the specified point</source>
+<seg-source><mrk mid="0" mtype="seg">Determines which, if any, of the child windows belonging to the specified parent window contains the specified point</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Determines which, if any, of the child windows belonging to the specified parent window contains the specified point</mrk></target>
+<note>Function _WinAPI_ChildWindowFromPointEx</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the parent window.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the parent window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the parent window.</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">$tagPOINT structure that defines the client coordinates (relative to hwndParent) of the point to be checked.</source>
+<seg-source><mrk mid="0" mtype="seg">$tagPOINT structure that defines the client coordinates (relative to hwndParent) of the point to be checked.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$tagPOINT structure that defines the client coordinates (relative to hwndParent) of the point to be checked.</mrk></target>
+<note>$tPOINT</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The flags that specify which child windows to skip. This parameter can be one or more of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The flags that specify which child windows to skip.</mrk> <mrk mid="2" mtype="seg">This parameter can be one or more of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The flags that specify which child windows to skip.</mrk> <mrk mid="2" mtype="seg">This parameter can be one or more of the following values:</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $CWP_ALL (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CWP_ALL (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CWP_ALL (Default)</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $CWP_SKIPINVISIBLE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CWP_SKIPINVISIBLE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CWP_SKIPINVISIBLE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $CWP_SKIPDISABLED</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CWP_SKIPDISABLED</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CWP_SKIPDISABLED</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $CWP_SKIPTRANSPARENT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CWP_SKIPTRANSPARENT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CWP_SKIPTRANSPARENT</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Handle to the first child window. If the point is within the parent window but not within any child window that meets the criteria, the return value is a handle to the parent window. If the point lies outside the parent window, the return value is 0.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the first child window.</mrk> <mrk mid="1" mtype="seg">If the point is within the parent window but not within any child window that meets the criteria, the return value is a handle to the parent window.</mrk> <mrk mid="2" mtype="seg">If the point lies outside the parent window, the return value is 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the first child window.</mrk> <mrk mid="1" mtype="seg">If the point is within the parent window but not within any child window that meets the criteria, the return value is a handle to the parent window.</mrk> <mrk mid="2" mtype="seg">If the point lies outside the parent window, the return value is 0.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">The system maintains an internal list that contains the handles of the child windows associated with a parent window.</source>
+<seg-source><mrk mid="0" mtype="seg">The system maintains an internal list that contains the handles of the child windows associated with a parent window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The system maintains an internal list that contains the handles of the child windows associated with a parent window.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> The order of the handles in the list depends on the Z order of the child windows.</source>
+<seg-source> <mrk mid="0" mtype="seg">The order of the handles in the list depends on the Z order of the child windows.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The order of the handles in the list depends on the Z order of the child windows.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> If more than one child window contains the specified point, the system returns a handle to the first window in the list that contains the point and meets the criteria specified by $iFlags.</source>
+<seg-source> <mrk mid="0" mtype="seg">If more than one child window contains the specified point, the system returns a handle to the first window in the list that contains the point and meets the criteria specified by $iFlags.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If more than one child window contains the specified point, the system returns a handle to the first window in the list that contains the point and meets the criteria specified by $iFlags.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ChildWindowFromPointEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ChildWindowFromPointEx<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ChildWindowFromPointEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ChildWindowFromPointEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ChildWindowFromPointEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ChildWindowFromPointEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

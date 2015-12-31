@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_CreateEvent.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates or opens a named or unnamed event object</source>
+<seg-source><mrk mid="0" mtype="seg">Creates or opens a named or unnamed event object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates or opens a named or unnamed event object</mrk></target>
+<note>Function _WinAPI_CreateEvent</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> a $tagSECURITY_ATTRIBUTES structure or a pointer to it. If 0, the handle cannot be inherited by child processes.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">a $tagSECURITY_ATTRIBUTES structure or a pointer to it.</mrk> <mrk mid="2" mtype="seg">If 0, the handle cannot be inherited by child processes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">a $tagSECURITY_ATTRIBUTES structure or a pointer to it.</mrk> <mrk mid="2" mtype="seg">If 0, the handle cannot be inherited by child processes.</mrk></target>
+<note>$tAttributes</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> The Descriptor member of the structure specifies a security descriptor for the new event.</source>
+<seg-source> <mrk mid="0" mtype="seg">The Descriptor member of the structure specifies a security descriptor for the new event.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The Descriptor member of the structure specifies a security descriptor for the new event.</mrk></target>
+<note>$tAttributes</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> If $tAttributes is 0, the event gets a default security descriptor.</source>
+<seg-source> <mrk mid="0" mtype="seg">If $tAttributes is 0, the event gets a default security descriptor.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If $tAttributes is 0, the event gets a default security descriptor.</mrk></target>
+<note>$tAttributes</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> The ACLs in the default security descriptor for an event come from the primary or impersonation token of the creator.</source>
+<seg-source> <mrk mid="0" mtype="seg">The ACLs in the default security descriptor for an event come from the primary or impersonation token of the creator.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The ACLs in the default security descriptor for an event come from the primary or impersonation token of the creator.</mrk></target>
+<note>$tAttributes</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If True, the function creates a manual-reset event object, which requires the use of the ResetEvent function to set the event state to nonsignaled.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True, the function creates a manual-reset event object, which requires the use of the ResetEvent function to set the event state to nonsignaled.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True, the function creates a manual-reset event object, which requires the use of the ResetEvent function to set the event state to nonsignaled.</mrk></target>
+<note>$bManualReset</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> If False, the function creates an auto-reset event object and system automatically resets the event state to nonsignaled after a single waiting thread has been released.</source>
+<seg-source> <mrk mid="0" mtype="seg">If False, the function creates an auto-reset event object and system automatically resets the event state to nonsignaled after a single waiting thread has been released.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If False, the function creates an auto-reset event object and system automatically resets the event state to nonsignaled after a single waiting thread has been released.</mrk></target>
+<note>$bManualReset</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If True, the initial state of the event object is signaled; otherwise, it is nonsignaled</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True, the initial state of the event object is signaled; otherwise, it is nonsignaled</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True, the initial state of the event object is signaled; otherwise, it is nonsignaled</mrk></target>
+<note>$bInitialState</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The name of the event object. Name comparison is case sensitive.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The name of the event object.</mrk> <mrk mid="2" mtype="seg">Name comparison is case sensitive.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The name of the event object.</mrk> <mrk mid="2" mtype="seg">Name comparison is case sensitive.</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> If $sName matches the name of an existing named event object, this function requests the EVENT_ALL_ACCESS access right.</source>
+<seg-source> <mrk mid="0" mtype="seg">If $sName matches the name of an existing named event object, this function requests the EVENT_ALL_ACCESS access right.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If $sName matches the name of an existing named event object, this function requests the EVENT_ALL_ACCESS access right.</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> In this case the $bManualReset and $bInitialState parameters are ignored because they have already been set by the creating process.</source>
+<seg-source> <mrk mid="0" mtype="seg">In this case the $bManualReset and $bInitialState parameters are ignored because they have already been set by the creating process.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">In this case the $bManualReset and $bInitialState parameters are ignored because they have already been set by the creating process.</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> If the $tAttributes parameter is not 0, it determines whether the handle can be inherited, but its security-descriptor member is ignored.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the $tAttributes parameter is not 0, it determines whether the handle can be inherited, but its security-descriptor member is ignored.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the $tAttributes parameter is not 0, it determines whether the handle can be inherited, but its security-descriptor member is ignored.</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> If Name is blank, the event object is created without a name.</source>
+<seg-source> <mrk mid="0" mtype="seg">If Name is blank, the event object is created without a name.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If Name is blank, the event object is created without a name.</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">The handle to the event object.</source>
+<seg-source><mrk mid="0" mtype="seg">The handle to the event object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The handle to the event object.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> If the named event object existed before the function call the function returns a handle to the existing object and GetLastError returns ERROR_ALREADY_EXISTS.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the named event object existed before the function call the function returns a handle to the existing object and GetLastError returns ERROR_ALREADY_EXISTS.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the named event object existed before the function call the function returns a handle to the existing object and GetLastError returns ERROR_ALREADY_EXISTS.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> 0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information </source>
+<seg-source> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="$tagSECURITY_ATTRIBUTES.htm"></bpt>$tagSECURITY_ATTRIBUTES<ept id="1">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagSECURITY_ATTRIBUTES.htm"></bpt>$tagSECURITY_ATTRIBUTES<ept id="1">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagSECURITY_ATTRIBUTES.htm"></bpt>$tagSECURITY_ATTRIBUTES<ept id="1">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateEvent);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateEvent<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateEvent);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateEvent<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateEvent);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateEvent<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">needed for _WinAPI_ResetEvent()</source>
+<seg-source><mrk mid="0" mtype="seg">needed for _WinAPI_ResetEvent()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">needed for _WinAPI_ResetEvent()</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">handle Event[3];</source>
+<seg-source><mrk mid="0" mtype="seg">handle Event[3];</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">handle Event[3];</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">_Exit</source>
+<seg-source><mrk mid="0" mtype="seg">_Exit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_Exit</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">_FireEvent_1</source>
+<seg-source><mrk mid="0" mtype="seg">_FireEvent_1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_FireEvent_1</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">_FireEvent_2</source>
+<seg-source><mrk mid="0" mtype="seg">_FireEvent_2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_FireEvent_2</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">+ First Event</source>
+<seg-source><mrk mid="0" mtype="seg">+ First Event</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+ First Event</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">> Second Event</source>
+<seg-source><mrk mid="0" mtype="seg">> Second Event</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">> Second Event</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">! Exit Event</source>
+<seg-source><mrk mid="0" mtype="seg">!</mrk> <mrk mid="1" mtype="seg">Exit Event</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!</mrk> <mrk mid="1" mtype="seg">Exit Event</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">_FireEvent_1</source>
+<seg-source><mrk mid="0" mtype="seg">_FireEvent_1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_FireEvent_1</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">_FireEvent_2</source>
+<seg-source><mrk mid="0" mtype="seg">_FireEvent_2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_FireEvent_2</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

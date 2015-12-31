@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUICtrlToolbar_SetButtonStyle.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the style flags of a button</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the style flags of a button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the style flags of a button</mrk></target>
+<note>Function _GUICtrlToolbar_SetButtonStyle</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Button command ID</source>
+<seg-source><mrk mid="0" mtype="seg">Button command ID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Button command ID</mrk></target>
+<note>$iCommandID</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Button style. Can be one or more of the following:</source>
+<seg-source><mrk mid="0" mtype="seg">Button style.</mrk> <mrk mid="1" mtype="seg">Can be one or more of the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Button style.</mrk> <mrk mid="1" mtype="seg">Can be one or more of the following:</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $BTNS_AUTOSIZE - The toolbar control should not assign the standard width to the button</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BTNS_AUTOSIZE - The toolbar control should not assign the standard width to the button</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BTNS_AUTOSIZE - The toolbar control should not assign the standard width to the button</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $BTNS_CHECK - Toggles between the pressed and nonpressed</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BTNS_CHECK - Toggles between the pressed and nonpressed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BTNS_CHECK - Toggles between the pressed and nonpressed</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $BTNS_CHECKGROUP - Button that stays pressed until another button in the group is pressed</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BTNS_CHECKGROUP - Button that stays pressed until another button in the group is pressed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BTNS_CHECKGROUP - Button that stays pressed until another button in the group is pressed</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $BTNS_DROPDOWN - Drop-down style button that can display a list</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BTNS_DROPDOWN - Drop-down style button that can display a list</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BTNS_DROPDOWN - Drop-down style button that can display a list</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $BTNS_GROUP - Button that stays pressed until another button in the group is pressed</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BTNS_GROUP - Button that stays pressed until another button in the group is pressed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BTNS_GROUP - Button that stays pressed until another button in the group is pressed</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $BTNS_NOPREFIX - The button text will not have an accelerator prefix</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BTNS_NOPREFIX - The button text will not have an accelerator prefix</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BTNS_NOPREFIX - The button text will not have an accelerator prefix</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $BTNS_SEP - Separator</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BTNS_SEP - Separator</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BTNS_SEP - Separator</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $BTNS_SHOWTEXT - Button text should be displayed</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BTNS_SHOWTEXT - Button text should be displayed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BTNS_SHOWTEXT - Button text should be displayed</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $BTNS_WHOLEDROPDOWN - The button has a drop-down arrow</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BTNS_WHOLEDROPDOWN - The button has a drop-down arrow</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BTNS_WHOLEDROPDOWN - The button has a drop-down arrow</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">False.</source>
+<seg-source><mrk mid="0" mtype="seg">False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Toolbar</source>
+<seg-source><mrk mid="0" mtype="seg">Toolbar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Toolbar</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Add standard system bitmaps</source>
+<seg-source><mrk mid="0" mtype="seg">Add standard system bitmaps</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add standard system bitmaps</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Add buttons</source>
+<seg-source><mrk mid="0" mtype="seg">Add buttons</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add buttons</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Set Save button style</source>
+<seg-source><mrk mid="0" mtype="seg">Set Save button style</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set Save button style</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Show Save button style</source>
+<seg-source><mrk mid="0" mtype="seg">Show Save button style</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show Save button style</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Save button style:</source>
+<seg-source><mrk mid="0" mtype="seg">Save button style:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Save button style:</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Write message to memo</source>
+<seg-source><mrk mid="0" mtype="seg">Write message to memo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write message to memo</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

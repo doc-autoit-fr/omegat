@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/GUIGetMsg.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Polls the GUI to see if any events have occurred.</source>
+<seg-source><mrk mid="0" mtype="seg">Polls the GUI to see if any events have occurred.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Polls the GUI to see if any events have occurred.</mrk></target>
+<note>Function GUIGetMsg</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> return extended information in an array.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">return extended information in an array.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">return extended information in an array.</mrk></target>
+<note>advanced</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">     $GUI_EVENT_SINGLE (0) = (default) Returns a single event.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GUI_EVENT_SINGLE (0) = (default) Returns a single event.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GUI_EVENT_SINGLE (0) = (default) Returns a single event.</mrk></target>
+<note>advanced</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $GUI_EVENT_ARRAY (1) = returns an array containing the event and extended information.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GUI_EVENT_ARRAY (1) = returns an array containing the event and extended information.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GUI_EVENT_ARRAY (1) = returns an array containing the event and extended information.</mrk></target>
+<note>advanced</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> Constants are defined in GUIConstantsEx.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in GUIConstantsEx.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in GUIConstantsEx.au3.</mrk></target>
+<note>advanced</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Returns an event, or an array depending on the "advanced" parameter.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns an event, or an array depending on the "advanced" parameter.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns an event, or an array depending on the "advanced" parameter.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> The "event" returned is the control ID of the control sending the message, or it is a special event (like the window is closing, minimizing). Or if there is no message, the event is 0.</source>
+<seg-source> <mrk mid="0" mtype="seg">The "event" returned is the control ID of the control sending the message, or it is a special event (like the window is closing, minimizing).</mrk> <mrk mid="1" mtype="seg">Or if there is no message, the event is 0.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The "event" returned is the control ID of the control sending the message, or it is a special event (like the window is closing, minimizing).</mrk> <mrk mid="1" mtype="seg">Or if there is no message, the event is 0.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Event ID<ept id="1">&lt;/strong></ept>:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Event ID<ept id="1">&lt;/strong></ept>:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Event ID<ept id="1">&lt;/strong></ept>:</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>the ID of the control sending the message<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>the ID of the control sending the message<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>the ID of the control sending the message<ept id="1">&lt;/strong></ept></mrk></target>
+<note>:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">$GUI_EVENT_NONE (0):</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_EVENT_NONE (0):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_EVENT_NONE (0):</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">No event</source>
+<seg-source><mrk mid="0" mtype="seg">No event</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No event</mrk></target>
+<note>$GUI_EVENT_NONE (0):</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">$GUI_EVENT_CLOSE:</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_EVENT_CLOSE:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_EVENT_CLOSE:</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">dialog box being closed (either by defined button or system menu).</source>
+<seg-source><mrk mid="0" mtype="seg">dialog box being closed (either by defined button or system menu).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">dialog box being closed (either by defined button or system menu).</mrk></target>
+<note>$GUI_EVENT_CLOSE:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">$GUI_EVENT_MINIMIZE:</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_EVENT_MINIMIZE:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_EVENT_MINIMIZE:</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">dialog box minimized with Windows title bar button.</source>
+<seg-source><mrk mid="0" mtype="seg">dialog box minimized with Windows title bar button.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">dialog box minimized with Windows title bar button.</mrk></target>
+<note>$GUI_EVENT_MINIMIZE:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">$GUI_EVENT_RESTORE:</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_EVENT_RESTORE:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_EVENT_RESTORE:</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">dialog box restored by click on task bar icon.</source>
+<seg-source><mrk mid="0" mtype="seg">dialog box restored by click on task bar icon.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">dialog box restored by click on task bar icon.</mrk></target>
+<note>$GUI_EVENT_RESTORE:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">$GUI_EVENT_MAXIMIZE:</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_EVENT_MAXIMIZE:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_EVENT_MAXIMIZE:</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">dialog box maximized with Windows title bar button.</source>
+<seg-source><mrk mid="0" mtype="seg">dialog box maximized with Windows title bar button.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">dialog box maximized with Windows title bar button.</mrk></target>
+<note>$GUI_EVENT_MAXIMIZE:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">$GUI_EVENT_MOUSEMOVE:</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_EVENT_MOUSEMOVE:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_EVENT_MOUSEMOVE:</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">the mouse cursor has moved.</source>
+<seg-source><mrk mid="0" mtype="seg">the mouse cursor has moved.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the mouse cursor has moved.</mrk></target>
+<note>$GUI_EVENT_MOUSEMOVE:</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">$GUI_EVENT_PRIMARYDOWN:</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_EVENT_PRIMARYDOWN:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_EVENT_PRIMARYDOWN:</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">the primary mouse button was pressed.</source>
+<seg-source><mrk mid="0" mtype="seg">the primary mouse button was pressed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the primary mouse button was pressed.</mrk></target>
+<note>$GUI_EVENT_PRIMARYDOWN:</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">$GUI_EVENT_PRIMARYUP:</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_EVENT_PRIMARYUP:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_EVENT_PRIMARYUP:</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">the primary mouse button was released.</source>
+<seg-source><mrk mid="0" mtype="seg">the primary mouse button was released.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the primary mouse button was released.</mrk></target>
+<note>$GUI_EVENT_PRIMARYUP:</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">$GUI_EVENT_SECONDARYDOWN:</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_EVENT_SECONDARYDOWN:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_EVENT_SECONDARYDOWN:</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">the secondary mouse button was pressed.</source>
+<seg-source><mrk mid="0" mtype="seg">the secondary mouse button was pressed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the secondary mouse button was pressed.</mrk></target>
+<note>$GUI_EVENT_SECONDARYDOWN:</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">$GUI_EVENT_SECONDARYUP:</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_EVENT_SECONDARYUP:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_EVENT_SECONDARYUP:</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">the secondary mouse button was released.</source>
+<seg-source><mrk mid="0" mtype="seg">the secondary mouse button was released.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the secondary mouse button was released.</mrk></target>
+<note>$GUI_EVENT_SECONDARYUP:</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">$GUI_EVENT_RESIZED:</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_EVENT_RESIZED:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_EVENT_RESIZED:</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">dialog box has been resized.</source>
+<seg-source><mrk mid="0" mtype="seg">dialog box has been resized.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">dialog box has been resized.</mrk></target>
+<note>$GUI_EVENT_RESIZED:</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">$GUI_EVENT_DROPPED:</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_EVENT_DROPPED:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_EVENT_DROPPED:</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">End of a Drag&amp;Drop action @GUI_DragId, @GUI_DragFile and @GUI_DropId will be used to retrieve the ID's/file corresponding to the involve control.</source>
+<seg-source><mrk mid="0" mtype="seg">End of a Drag&amp;Drop action @GUI_DragId, @GUI_DragFile and @GUI_DropId will be used to retrieve the ID's/file corresponding to the involve control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">End of a Drag&amp;Drop action @GUI_DragId, @GUI_DragFile and @GUI_DropId will be used to retrieve the ID's/file corresponding to the involve control.</mrk></target>
+<note>$GUI_EVENT_DROPPED:</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en"> Constants are defined in GUIConstantsEx.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in GUIConstantsEx.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in GUIConstantsEx.au3.</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en"> When using the "advanced" parameter the information is returned in an array with extended information:</source>
+<seg-source> <mrk mid="0" mtype="seg">When using the "advanced" parameter the information is returned in an array with extended information:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When using the "advanced" parameter the information is returned in an array with extended information:</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en"> $aArray[0] = 0 or Event ID or Control ID</source>
+<seg-source> <mrk mid="0" mtype="seg">$aArray[0] = 0 or Event ID or Control ID</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$aArray[0] = 0 or Event ID or Control ID</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en"> $aArray[1] = The window handle the event is from</source>
+<seg-source> <mrk mid="0" mtype="seg">$aArray[1] = The window handle the event is from</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$aArray[1] = The window handle the event is from</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en"> $aArray[2] = The control handle the event is from (if applicable)</source>
+<seg-source> <mrk mid="0" mtype="seg">$aArray[2] = The control handle the event is from (if applicable)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$aArray[2] = The control handle the event is from (if applicable)</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en"> $aArray[3] = The current X position of the mouse cursor (relative to the GUI window)</source>
+<seg-source> <mrk mid="0" mtype="seg">$aArray[3] = The current X position of the mouse cursor (relative to the GUI window)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$aArray[3] = The current X position of the mouse cursor (relative to the GUI window)</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en"> $aArray[4] = The current Y position of the mouse cursor (relative to the GUI window)</source>
+<seg-source> <mrk mid="0" mtype="seg">$aArray[4] = The current Y position of the mouse cursor (relative to the GUI window)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$aArray[4] = The current Y position of the mouse cursor (relative to the GUI window)</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en"> If the GUIOnEventMode option is set to 1 then the return from GUIGetMsg is always 0 and the @error is set to 1.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the GUIOnEventMode option is set to 1 then the return from GUIGetMsg is always 0 and the @error is set to 1.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the GUIOnEventMode option is set to 1 then the return from GUIGetMsg is always 0 and the @error is set to 1.</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en"> If the option GUIEventOptions is set to 1 the minimize, restore and maximize button will not do any action on the window just a simple notification.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the option GUIEventOptions is set to 1 the minimize, restore and maximize button will not do any action on the window just a simple notification.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the option GUIEventOptions is set to 1 the minimize, restore and maximize button will not do any action on the window just a simple notification.</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">This function automatically idles the CPU when required so that it can be safely used in tight loops without hogging all the CPU.</source>
+<seg-source><mrk mid="0" mtype="seg">This function automatically idles the CPU when required so that it can be safely used in tight loops without hogging all the CPU.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function automatically idles the CPU when required so that it can be safely used in tight loops without hogging all the CPU.</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en"> Information about the mouse position and the hovering control can be retrieved with <bpt id="1" ctype="x-a">&lt;a href="GUIGetCursorInfo.htm"></bpt>GUIGetCursorInfo()<ept id="1">&lt;/a></ept>. No event is fired when the mouse is over a control so <bpt id="1" ctype="x-a">&lt;a href="GUIGetCursorInfo.htm"></bpt>GUIGetCursorInfo()<ept id="1">&lt;/a></ept> must be called to retrieve the controlID.</source>
+<seg-source> <mrk mid="0" mtype="seg">Information about the mouse position and the hovering control can be retrieved with <bpt id="1" ctype="x-a">&lt;a href="GUIGetCursorInfo.htm"></bpt>GUIGetCursorInfo()<ept id="1">&lt;/a></ept>.</mrk> <mrk mid="1" mtype="seg">No event is fired when the mouse is over a control so <bpt id="1" ctype="x-a">&lt;a href="GUIGetCursorInfo.htm"></bpt>GUIGetCursorInfo()<ept id="1">&lt;/a></ept> must be called to retrieve the controlID.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Information about the mouse position and the hovering control can be retrieved with <bpt id="1" ctype="x-a">&lt;a href="GUIGetCursorInfo.htm"></bpt>GUIGetCursorInfo()<ept id="1">&lt;/a></ept>.</mrk> <mrk mid="1" mtype="seg">No event is fired when the mouse is over a control so <bpt id="1" ctype="x-a">&lt;a href="GUIGetCursorInfo.htm"></bpt>GUIGetCursorInfo()<ept id="1">&lt;/a></ept> must be called to retrieve the controlID.</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="GUICreate.htm"></bpt>GUICreate<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...<ept id="2">&lt;/a></ept>, <bpt id="1" ctype="x-a">&lt;a href="GUICtrlRead.htm"></bpt>GUICtrlRead<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="GUICtrlSendMsg.htm"></bpt>GUICtrlSendMsg<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="GUICtrlSetOnEvent.htm"></bpt>GUICtrlSetOnEvent<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIEventOptions"></bpt>GUIEventOptions (Option)<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="GUIGetCursorInfo.htm"></bpt>GUIGetCursorInfo<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIOnEventMode"></bpt>GUIOnEventMode (Option)<ept id="6">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICreate.htm"></bpt>GUICreate<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...<ept id="2">&lt;/a></ept>,</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlRead.htm"></bpt>GUICtrlRead<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="GUICtrlSendMsg.htm"></bpt>GUICtrlSendMsg<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="GUICtrlSetOnEvent.htm"></bpt>GUICtrlSetOnEvent<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIEventOptions"></bpt>GUIEventOptions (Option)<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="GUIGetCursorInfo.htm"></bpt>GUIGetCursorInfo<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIOnEventMode"></bpt>GUIOnEventMode (Option)<ept id="6">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICreate.htm"></bpt>GUICreate<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...<ept id="2">&lt;/a></ept>,</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlRead.htm"></bpt>GUICtrlRead<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="GUICtrlSendMsg.htm"></bpt>GUICtrlSendMsg<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="GUICtrlSetOnEvent.htm"></bpt>GUICtrlSetOnEvent<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIEventOptions"></bpt>GUIEventOptions (Option)<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="GUIGetCursorInfo.htm"></bpt>GUIGetCursorInfo<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIOnEventMode"></bpt>GUIOnEventMode (Option)<ept id="6">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">-------------------------------------------------------------------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">-------------------------------------------------------------------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-------------------------------------------------------------------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Example - Press the button to see the value of the radio boxes</source>
+<seg-source><mrk mid="0" mtype="seg">Example - Press the button to see the value of the radio boxes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example - Press the button to see the value of the radio boxes</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">The script also detects state changes (closed/minimized/timeouts, etc).</source>
+<seg-source><mrk mid="0" mtype="seg">The script also detects state changes (closed/minimized/timeouts, etc).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The script also detects state changes (closed/minimized/timeouts, etc).</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">GUICoordMode</source>
+<seg-source><mrk mid="0" mtype="seg">GUICoordMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUICoordMode</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Radio Box Demo</source>
+<seg-source><mrk mid="0" mtype="seg">Radio Box Demo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Radio Box Demo</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">Create the controls</source>
+<seg-source><mrk mid="0" mtype="seg">Create the controls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create the controls</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">B&amp;utton 1</source>
+<seg-source><mrk mid="0" mtype="seg">B&amp;utton 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">B&amp;utton 1</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">Group 1</source>
+<seg-source><mrk mid="0" mtype="seg">Group 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Group 1</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Radio &amp;0</source>
+<seg-source><mrk mid="0" mtype="seg">Radio &amp;0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Radio &amp;0</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">Radio &amp;1</source>
+<seg-source><mrk mid="0" mtype="seg">Radio &amp;1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Radio &amp;1</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">Radio &amp;2</source>
+<seg-source><mrk mid="0" mtype="seg">Radio &amp;2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Radio &amp;2</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">Init our vars that we will use to keep track of GUI events</source>
+<seg-source><mrk mid="0" mtype="seg">Init our vars that we will use to keep track of GUI events</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Init our vars that we will use to keep track of GUI events</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">We will assume 0 = first radio button selected, 2 = last button</source>
+<seg-source><mrk mid="0" mtype="seg">We will assume 0 = first radio button selected, 2 = last button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">We will assume 0 = first radio button selected, 2 = last button</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">Show the GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Show the GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show the GUI</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">In this message loop we use variables to keep track of changes to the radios, another</source>
+<seg-source><mrk mid="0" mtype="seg">In this message loop we use variables to keep track of changes to the radios, another</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In this message loop we use variables to keep track of changes to the radios, another</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">way would be to use GUICtrlRead() at the end to read in the state of each control</source>
+<seg-source><mrk mid="0" mtype="seg">way would be to use GUICtrlRead() at the end to read in the state of each control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">way would be to use GUICtrlRead() at the end to read in the state of each control</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">Dialog was closed</source>
+<seg-source><mrk mid="0" mtype="seg">Dialog was closed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dialog was closed</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">Dialog minimized</source>
+<seg-source><mrk mid="0" mtype="seg">Dialog minimized</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dialog minimized</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">Dialog restored</source>
+<seg-source><mrk mid="0" mtype="seg">Dialog restored</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dialog restored</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">Default button clicked:</source>
+<seg-source><mrk mid="0" mtype="seg">Default button clicked:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default button clicked:</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">Radio</source>
+<seg-source><mrk mid="0" mtype="seg">Radio</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Radio</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">Create a GUI.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a GUI.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a GUI.</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">Example GUI1</source>
+<seg-source><mrk mid="0" mtype="seg">Example GUI1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example GUI1</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">Create a button.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a button.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a button.</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">Button1</source>
+<seg-source><mrk mid="0" mtype="seg">Button1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Button1</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">Display the GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Display the GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the GUI</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">Create a GUI.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a GUI.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a GUI.</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">Example GUI2</source>
+<seg-source><mrk mid="0" mtype="seg">Example GUI2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example GUI2</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">Create a button.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a button.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a button.</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">Button2</source>
+<seg-source><mrk mid="0" mtype="seg">Button2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Button2</mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">Display the GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Display the GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the GUI</mrk></target>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">Initialize a Local variable.</source>
+<seg-source><mrk mid="0" mtype="seg">Initialize a Local variable.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Initialize a Local variable.</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">Assign to $aMsg the advanced GUI messages.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign to $aMsg the advanced GUI messages.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign to $aMsg the advanced GUI messages.</mrk></target>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en">Switch from GUIs</source>
+<seg-source><mrk mid="0" mtype="seg">Switch from GUIs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Switch from GUIs</mrk></target>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">The event comes from the GUI1</source>
+<seg-source><mrk mid="0" mtype="seg">The event comes from the GUI1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The event comes from the GUI1</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">Switch from event ID</source>
+<seg-source><mrk mid="0" mtype="seg">Switch from event ID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Switch from event ID</mrk></target>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en">Button1 clicked.</source>
+<seg-source><mrk mid="0" mtype="seg">Button1 clicked.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Button1 clicked.</mrk></target>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">The event comes from the GUI2</source>
+<seg-source><mrk mid="0" mtype="seg">The event comes from the GUI2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The event comes from the GUI2</mrk></target>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en">Switch from event ID</source>
+<seg-source><mrk mid="0" mtype="seg">Switch from event ID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Switch from event ID</mrk></target>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en">Button2 clicked.</source>
+<seg-source><mrk mid="0" mtype="seg">Button2 clicked.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Button2 clicked.</mrk></target>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en">Delete the previous GUIs and all controls.</source>
+<seg-source><mrk mid="0" mtype="seg">Delete the previous GUIs and all controls.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete the previous GUIs and all controls.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUIScrollBars_GetScrollInfoEx.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the parameters of a scroll bar</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the parameters of a scroll bar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the parameters of a scroll bar</mrk></target>
+<note>Function _GUIScrollBars_GetScrollInfoEx</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the window</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the window</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Specifies the type of scroll bar. This parameter can be one of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the type of scroll bar.</mrk> <mrk mid="1" mtype="seg">This parameter can be one of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the type of scroll bar.</mrk> <mrk mid="1" mtype="seg">This parameter can be one of the following values:</mrk></target>
+<note>$iBar</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $SB_CTL - Retrieves the parameters for a scroll bar control. The $hWnd parameter must be the handle to the scroll bar control.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SB_CTL - Retrieves the parameters for a scroll bar control.</mrk> <mrk mid="1" mtype="seg">The $hWnd parameter must be the handle to the scroll bar control.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SB_CTL - Retrieves the parameters for a scroll bar control.</mrk> <mrk mid="1" mtype="seg">The $hWnd parameter must be the handle to the scroll bar control.</mrk></target>
+<note>$iBar</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $SB_HORZ - Retrieves the parameters for the window's standard horizontal scroll bar.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SB_HORZ - Retrieves the parameters for the window's standard horizontal scroll bar.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SB_HORZ - Retrieves the parameters for the window's standard horizontal scroll bar.</mrk></target>
+<note>$iBar</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $SB_VERT - Retrieves the parameters for the window's standard vertical scroll bar.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SB_VERT - Retrieves the parameters for the window's standard vertical scroll bar.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SB_VERT - Retrieves the parameters for the window's standard vertical scroll bar.</mrk></target>
+<note>$iBar</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">a $tagSCROLLINFO structure.</source>
+<seg-source><mrk mid="0" mtype="seg">a $tagSCROLLINFO structure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a $tagSCROLLINFO structure.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="$tagSCROLLINFO.htm"></bpt>$tagSCROLLINFO<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_GUIScrollBars_GetScrollInfo.htm"></bpt>_GUIScrollBars_GetScrollInfo<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="_GUIScrollBars_GetScrollInfoMax.htm"></bpt>_GUIScrollBars_GetScrollInfoMax<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="_GUIScrollBars_GetScrollInfoMin.htm"></bpt>_GUIScrollBars_GetScrollInfoMin<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="_GUIScrollBars_GetScrollInfoPage.htm"></bpt>_GUIScrollBars_GetScrollInfoPage<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="_GUIScrollBars_GetScrollInfoPos.htm"></bpt>_GUIScrollBars_GetScrollInfoPos<ept id="6">&lt;/a></ept>, <bpt id="7" ctype="x-a">&lt;a href="_GUIScrollBars_GetScrollInfoTrackPos.htm"></bpt>_GUIScrollBars_GetScrollInfoTrackPos<ept id="7">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagSCROLLINFO.htm"></bpt>$tagSCROLLINFO<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_GUIScrollBars_GetScrollInfo.htm"></bpt>_GUIScrollBars_GetScrollInfo<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="_GUIScrollBars_GetScrollInfoMax.htm"></bpt>_GUIScrollBars_GetScrollInfoMax<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="_GUIScrollBars_GetScrollInfoMin.htm"></bpt>_GUIScrollBars_GetScrollInfoMin<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="_GUIScrollBars_GetScrollInfoPage.htm"></bpt>_GUIScrollBars_GetScrollInfoPage<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="_GUIScrollBars_GetScrollInfoPos.htm"></bpt>_GUIScrollBars_GetScrollInfoPos<ept id="6">&lt;/a></ept>, <bpt id="7" ctype="x-a">&lt;a href="_GUIScrollBars_GetScrollInfoTrackPos.htm"></bpt>_GUIScrollBars_GetScrollInfoTrackPos<ept id="7">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagSCROLLINFO.htm"></bpt>$tagSCROLLINFO<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_GUIScrollBars_GetScrollInfo.htm"></bpt>_GUIScrollBars_GetScrollInfo<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="_GUIScrollBars_GetScrollInfoMax.htm"></bpt>_GUIScrollBars_GetScrollInfoMax<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="_GUIScrollBars_GetScrollInfoMin.htm"></bpt>_GUIScrollBars_GetScrollInfoMin<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="_GUIScrollBars_GetScrollInfoPage.htm"></bpt>_GUIScrollBars_GetScrollInfoPage<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="_GUIScrollBars_GetScrollInfoPos.htm"></bpt>_GUIScrollBars_GetScrollInfoPos<ept id="6">&lt;/a></ept>, <bpt id="7" ctype="x-a">&lt;a href="_GUIScrollBars_GetScrollInfoTrackPos.htm"></bpt>_GUIScrollBars_GetScrollInfoTrackPos<ept id="7">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetScrollInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetScrollInfo<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetScrollInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetScrollInfo<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetScrollInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetScrollInfo<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">ScrollBar Example</source>
+<seg-source><mrk mid="0" mtype="seg">ScrollBar Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ScrollBar Example</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Horizontal</source>
+<seg-source><mrk mid="0" mtype="seg">Horizontal</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Horizontal</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">--------------------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">--------------------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--------------------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Left.........:</source>
+<seg-source><mrk mid="0" mtype="seg">Left.........:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Left.........:</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Left</source>
+<seg-source><mrk mid="0" mtype="seg">Left</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Left</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Top..........:</source>
+<seg-source><mrk mid="0" mtype="seg">Top..........:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Top..........:</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Top</source>
+<seg-source><mrk mid="0" mtype="seg">Top</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Top</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Right........:</source>
+<seg-source><mrk mid="0" mtype="seg">Right........:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Right........:</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Right</source>
+<seg-source><mrk mid="0" mtype="seg">Right</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Right</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Bottom.......:</source>
+<seg-source><mrk mid="0" mtype="seg">Bottom.......:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bottom.......:</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Bottom</source>
+<seg-source><mrk mid="0" mtype="seg">Bottom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bottom</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">dxyLineButton:</source>
+<seg-source><mrk mid="0" mtype="seg">dxyLineButton:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">dxyLineButton:</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">dxyLineButton</source>
+<seg-source><mrk mid="0" mtype="seg">dxyLineButton</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">dxyLineButton</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">xyThumbTop...:</source>
+<seg-source><mrk mid="0" mtype="seg">xyThumbTop...:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">xyThumbTop...:</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">xyThumbTop</source>
+<seg-source><mrk mid="0" mtype="seg">xyThumbTop</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">xyThumbTop</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">xyThumbBottom:</source>
+<seg-source><mrk mid="0" mtype="seg">xyThumbBottom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">xyThumbBottom:</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">xyThumbBottom</source>
+<seg-source><mrk mid="0" mtype="seg">xyThumbBottom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">xyThumbBottom</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">rgstate[</source>
+<seg-source><mrk mid="0" mtype="seg">rgstate[</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">rgstate[</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">]...:</source>
+<seg-source><mrk mid="0" mtype="seg">]...:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">]...:</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">rgstate</source>
+<seg-source><mrk mid="0" mtype="seg">rgstate</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">rgstate</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Write a line to the memo control</source>
+<seg-source><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

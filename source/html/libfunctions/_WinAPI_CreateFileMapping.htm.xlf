@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_CreateFileMapping.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates or opens a named or unnamed file mapping object for a specified file</source>
+<seg-source><mrk mid="0" mtype="seg">Creates or opens a named or unnamed file mapping object for a specified file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates or opens a named or unnamed file mapping object for a specified file</mrk></target>
+<note>Function _WinAPI_CreateFileMapping</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> Handle to the file from which to create a file mapping object.</source>
+<seg-source> <mrk mid="0" mtype="seg">Handle to the file from which to create a file mapping object.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Handle to the file from which to create a file mapping object.</mrk></target>
+<note>$hFile</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> If this parameter is (-1), the calling process must also specify a size for the file mapping object in the $iSize parameters.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is (-1), the calling process must also specify a size for the file mapping object in the $iSize parameters.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is (-1), the calling process must also specify a size for the file mapping object in the $iSize parameters.</mrk></target>
+<note>$hFile</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> In this scenario, <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateFileMapping.htm"></bpt>_WinAPI_CreateFileMapping()<ept id="1">&lt;/a></ept> creates a file mapping object of a specified size that is backed by the system paging file instead of by a file in the file system. </source>
+<seg-source> <mrk mid="0" mtype="seg">In this scenario, <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateFileMapping.htm"></bpt>_WinAPI_CreateFileMapping()<ept id="1">&lt;/a></ept> creates a file mapping object of a specified size that is backed by the system paging file instead of by a file in the file system.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">In this scenario, <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateFileMapping.htm"></bpt>_WinAPI_CreateFileMapping()<ept id="1">&lt;/a></ept> creates a file mapping object of a specified size that is backed by the system paging file instead of by a file in the file system.</mrk> </target>
+<note>$hFile</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The maximum size of the file mapping object.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The maximum size of the file mapping object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The maximum size of the file mapping object.</mrk></target>
+<note>$iSize</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> If this parameter is 0 (Default), the maximum size of the file mapping object is equal to the current size of the file that $hFile identifies.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is 0 (Default), the maximum size of the file mapping object is equal to the current size of the file that $hFile identifies.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is 0 (Default), the maximum size of the file mapping object is equal to the current size of the file that $hFile identifies.</mrk></target>
+<note>$iSize</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The name of the file mapping object.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The name of the file mapping object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The name of the file mapping object.</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the page protection of the file mapping object and can be one of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the page protection of the file mapping object and can be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the page protection of the file mapping object and can be one of the following values.</mrk></target>
+<note>$iProtect</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $PAGE_EXECUTE_READ</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PAGE_EXECUTE_READ</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PAGE_EXECUTE_READ</mrk></target>
+<note>$iProtect</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $PAGE_EXECUTE_READWRITE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PAGE_EXECUTE_READWRITE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PAGE_EXECUTE_READWRITE</mrk></target>
+<note>$iProtect</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $PAGE_EXECUTE_WRITECOPY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PAGE_EXECUTE_WRITECOPY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PAGE_EXECUTE_WRITECOPY</mrk></target>
+<note>$iProtect</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $PAGE_READONLY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PAGE_READONLY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PAGE_READONLY</mrk></target>
+<note>$iProtect</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $PAGE_READWRITE (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PAGE_READWRITE (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PAGE_READWRITE (Default)</mrk></target>
+<note>$iProtect</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $PAGE_WRITECOPY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PAGE_WRITECOPY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PAGE_WRITECOPY</mrk></target>
+<note>$iProtect</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> An application can specify one or more of the following attributes for the file mapping object by combining them with one of the preceding page protection values.</source>
+<seg-source> <mrk mid="0" mtype="seg">An application can specify one or more of the following attributes for the file mapping object by combining them with one of the preceding page protection values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">An application can specify one or more of the following attributes for the file mapping object by combining them with one of the preceding page protection values.</mrk></target>
+<note>$iProtect</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $SEC_COMMIT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SEC_COMMIT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SEC_COMMIT</mrk></target>
+<note>$iProtect</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $SEC_IMAGE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SEC_IMAGE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SEC_IMAGE</mrk></target>
+<note>$iProtect</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $SEC_LARGE_PAGES</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SEC_LARGE_PAGES</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SEC_LARGE_PAGES</mrk></target>
+<note>$iProtect</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     $SEC_NOCACHE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SEC_NOCACHE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SEC_NOCACHE</mrk></target>
+<note>$iProtect</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     $SEC_RESERVE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SEC_RESERVE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SEC_RESERVE</mrk></target>
+<note>$iProtect</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     $SEC_WRITECOMBINE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SEC_WRITECOMBINE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SEC_WRITECOMBINE</mrk></target>
+<note>$iProtect</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> $tagSECURITY_ATTRIBUTES structure that determines whether a returned handle can be inherited by child processes.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">$tagSECURITY_ATTRIBUTES structure that determines whether a returned handle can be inherited by child processes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">$tagSECURITY_ATTRIBUTES structure that determines whether a returned handle can be inherited by child processes.</mrk></target>
+<note>$tSecurity</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> If this parameter is 0 (Default), the handle cannot be inherited and the file mapping object gets a default security descriptor.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is 0 (Default), the handle cannot be inherited and the file mapping object gets a default security descriptor.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is 0 (Default), the handle cannot be inherited and the file mapping object gets a default security descriptor.</mrk></target>
+<note>$tSecurity</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Handle to the newly created file mapping object.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the newly created file mapping object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the newly created file mapping object.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> If the object exists before the function call, the function returns a handle to the existing object (with its current size, not the specified size), and sets the @extended flag to $ERROR_ALREADY_EXISTS (183).</source>
+<seg-source> <mrk mid="0" mtype="seg">If the object exists before the function call, the function returns a handle to the existing object (with its current size, not the specified size), and sets the @extended flag to $ERROR_ALREADY_EXISTS (183).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the object exists before the function call, the function returns a handle to the existing object (with its current size, not the specified size), and sets the @extended flag to $ERROR_ALREADY_EXISTS (183).</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> 0, @extended flag is set to <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">0, @extended flag is set to <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0, @extended flag is set to <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">After a file mapping object is created, the size of the file must not exceed the size of the file mapping object; if it does, not all of the file contents are available for sharing.</source>
+<seg-source><mrk mid="0" mtype="seg">After a file mapping object is created, the size of the file must not exceed the size of the file mapping object; if it does, not all of the file contents are available for sharing.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">After a file mapping object is created, the size of the file must not exceed the size of the file mapping object; if it does, not all of the file contents are available for sharing.</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en"> Multiple processes can share a view of the same file by either using a single shared file mapping object or creating separate file mapping objects backed by the same file. A single file mapping object can be shared by multiple processes through inheriting the handle at process creation, duplicating the handle, or opening the file mapping object by name.</source>
+<seg-source> <mrk mid="0" mtype="seg">Multiple processes can share a view of the same file by either using a single shared file mapping object or creating separate file mapping objects backed by the same file.</mrk> <mrk mid="1" mtype="seg">A single file mapping object can be shared by multiple processes through inheriting the handle at process creation, duplicating the handle, or opening the file mapping object by name.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Multiple processes can share a view of the same file by either using a single shared file mapping object or creating separate file mapping objects backed by the same file.</mrk> <mrk mid="1" mtype="seg">A single file mapping object can be shared by multiple processes through inheriting the handle at process creation, duplicating the handle, or opening the file mapping object by name.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en"> A file mapping object does not actually map the view into a process address space. The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_MapViewOfFile.htm"></bpt>_WinAPI_MapViewOfFile()<ept id="1">&lt;/a></ept> functions map a view of a file into a process address space.</source>
+<seg-source> <mrk mid="0" mtype="seg">A file mapping object does not actually map the view into a process address space.</mrk> <mrk mid="1" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_MapViewOfFile.htm"></bpt>_WinAPI_MapViewOfFile()<ept id="1">&lt;/a></ept> functions map a view of a file into a process address space.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">A file mapping object does not actually map the view into a process address space.</mrk> <mrk mid="1" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_MapViewOfFile.htm"></bpt>_WinAPI_MapViewOfFile()<ept id="1">&lt;/a></ept> functions map a view of a file into a process address space.</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en"> Mapped views of a file mapping object maintain internal references to the object, and a file mapping object does not close until all references to it are released.</source>
+<seg-source> <mrk mid="0" mtype="seg">Mapped views of a file mapping object maintain internal references to the object, and a file mapping object does not close until all references to it are released.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Mapped views of a file mapping object maintain internal references to the object, and a file mapping object does not close until all references to it are released.</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"> Therefore, to fully close a file mapping object, an application must unmap all mapped views of the file mapping object by calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_UnmapViewOfFile.htm"></bpt>_WinAPI_UnmapViewOfFile()<ept id="1">&lt;/a></ept> and close the file mapping object handle by calling <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_CloseHandle.htm"></bpt>_WinAPI_CloseHandle()<ept id="2">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">Therefore, to fully close a file mapping object, an application must unmap all mapped views of the file mapping object by calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_UnmapViewOfFile.htm"></bpt>_WinAPI_UnmapViewOfFile()<ept id="1">&lt;/a></ept> and close the file mapping object handle by calling <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_CloseHandle.htm"></bpt>_WinAPI_CloseHandle()<ept id="2">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Therefore, to fully close a file mapping object, an application must unmap all mapped views of the file mapping object by calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_UnmapViewOfFile.htm"></bpt>_WinAPI_UnmapViewOfFile()<ept id="1">&lt;/a></ept> and close the file mapping object handle by calling <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_CloseHandle.htm"></bpt>_WinAPI_CloseHandle()<ept id="2">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en"> These functions can be called in any order.</source>
+<seg-source> <mrk mid="0" mtype="seg">These functions can be called in any order.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">These functions can be called in any order.</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateFileMapping);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateFileMapping<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateFileMapping);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateFileMapping<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateFileMapping);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateFileMapping<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">WinWaitDelay</source>
+<seg-source><mrk mid="0" mtype="seg">WinWaitDelay</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WinWaitDelay</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">_WinAPI_MapViewOfFile</source>
+<seg-source><mrk mid="0" mtype="seg">_WinAPI_MapViewOfFile</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinAPI_MapViewOfFile</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">" /</source>
+<seg-source><mrk mid="0" mtype="seg">" /</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">" /</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">/</source>
+<seg-source><mrk mid="0" mtype="seg">/</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">TrayIconHide</source>
+<seg-source><mrk mid="0" mtype="seg">TrayIconHide</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayIconHide</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">/1</source>
+<seg-source><mrk mid="0" mtype="seg">/1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/1</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">/2</source>
+<seg-source><mrk mid="0" mtype="seg">/2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/2</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">MyFileMapping</source>
+<seg-source><mrk mid="0" mtype="seg">MyFileMapping</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MyFileMapping</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">wchar[1024]</source>
+<seg-source><mrk mid="0" mtype="seg">wchar[1024]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">wchar[1024]</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">(receiver)</source>
+<seg-source><mrk mid="0" mtype="seg">(receiver)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(receiver)</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">MyFileMapping</source>
+<seg-source><mrk mid="0" mtype="seg">MyFileMapping</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MyFileMapping</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Unable to create file mapping (@extended=</source>
+<seg-source><mrk mid="0" mtype="seg">Unable to create file mapping (@extended=</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unable to create file mapping (@extended=</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">).</source>
+<seg-source><mrk mid="0" mtype="seg">).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">).</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">wchar[1024]</source>
+<seg-source><mrk mid="0" mtype="seg">wchar[1024]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">wchar[1024]</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">(sender)</source>
+<seg-source><mrk mid="0" mtype="seg">(sender)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(sender)</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Type some text message.</source>
+<seg-source><mrk mid="0" mtype="seg">Type some text message.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Type some text message.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

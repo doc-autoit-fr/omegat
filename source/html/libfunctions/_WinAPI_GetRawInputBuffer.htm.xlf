@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_GetRawInputBuffer.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Performs a buffered read of the raw input data</source>
+<seg-source><mrk mid="0" mtype="seg">Performs a buffered read of the raw input data</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Performs a buffered read of the raw input data</mrk></target>
+<note>Function _WinAPI_GetRawInputBuffer</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">A pointer to the buffer to receive an array of $tagRAWINPUT structures containing the raw input data.</source>
+<seg-source><mrk mid="0" mtype="seg">A pointer to the buffer to receive an array of $tagRAWINPUT structures containing the raw input data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A pointer to the buffer to receive an array of $tagRAWINPUT structures containing the raw input data.</mrk></target>
+<note>$pBuffer</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The size of the buffer, in bytes.</source>
+<seg-source><mrk mid="0" mtype="seg">The size of the buffer, in bytes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The size of the buffer, in bytes.</mrk></target>
+<note>$iLength</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The number of $tagRAWINPUT structures written to the buffer.</source>
+<seg-source><mrk mid="0" mtype="seg">The number of $tagRAWINPUT structures written to the buffer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The number of $tagRAWINPUT structures written to the buffer.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> 0 and sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">To obtain the minimum required buffer size to call this function, use <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetRawInputBufferLength.htm"></bpt>_WinAPI_GetRawInputBufferLength()<ept id="1">&lt;/a></ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">To obtain the minimum required buffer size to call this function, use <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetRawInputBufferLength.htm"></bpt>_WinAPI_GetRawInputBufferLength()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To obtain the minimum required buffer size to call this function, use <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetRawInputBufferLength.htm"></bpt>_WinAPI_GetRawInputBufferLength()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> To ensure the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetRawInputBuffer.htm"></bpt>_WinAPI_GetRawInputBuffer()<ept id="1">&lt;/a></ept> function behaves properly on WOW64,</source>
+<seg-source> <mrk mid="0" mtype="seg">To ensure the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetRawInputBuffer.htm"></bpt>_WinAPI_GetRawInputBuffer()<ept id="1">&lt;/a></ept> function behaves properly on WOW64,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To ensure the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetRawInputBuffer.htm"></bpt>_WinAPI_GetRawInputBuffer()<ept id="1">&lt;/a></ept> function behaves properly on WOW64,</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> you must align the $tagRAWINPUT structure by 8 bytes.</source>
+<seg-source> <mrk mid="0" mtype="seg">you must align the $tagRAWINPUT structure by 8 bytes.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">you must align the $tagRAWINPUT structure by 8 bytes.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetRawInputBuffer);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetRawInputBuffer<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetRawInputBuffer);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetRawInputBuffer<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetRawInputBuffer);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetRawInputBuffer<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

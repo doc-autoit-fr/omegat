@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_DwmExtendFrameIntoClientArea.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Extends the window frame behind the client area</source>
+<seg-source><mrk mid="0" mtype="seg">Extends the window frame behind the client area</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Extends the window frame behind the client area</mrk></target>
+<note>Function _WinAPI_DwmExtendFrameIntoClientArea</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the window for which the frame is extended into the client area.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the window for which the frame is extended into the client area.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the window for which the frame is extended into the client area.</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> $tagMARGINS structure that describes the margins to use when extending the frame into the client area.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">$tagMARGINS structure that describes the margins to use when extending the frame into the client area.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">$tagMARGINS structure that describes the margins to use when extending the frame into the client area.</mrk></target>
+<note>$tMARGINS</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> Negative margins are used to create the "sheet of glass" effect where the client area is rendered as a solid surface with no window border (Default).</source>
+<seg-source> <mrk mid="0" mtype="seg">Negative margins are used to create the "sheet of glass" effect where the client area is rendered as a solid surface with no window border (Default).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Negative margins are used to create the "sheet of glass" effect where the client area is rendered as a solid surface with no window border (Default).</mrk></target>
+<note>$tMARGINS</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">This function must be called whenever Desktop Window Manager (DWM) composition is toggled.</source>
+<seg-source><mrk mid="0" mtype="seg">This function must be called whenever Desktop Window Manager (DWM) composition is toggled.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function must be called whenever Desktop Window Manager (DWM) composition is toggled.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> Handle the WM_DWMCOMPOSITIONCHANGED message for composition change notification.</source>
+<seg-source> <mrk mid="0" mtype="seg">Handle the WM_DWMCOMPOSITIONCHANGED message for composition change notification.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Handle the WM_DWMCOMPOSITIONCHANGED message for composition change notification.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DwmExtendFrameIntoClientArea);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DwmExtendFrameIntoClientArea<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DwmExtendFrameIntoClientArea);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DwmExtendFrameIntoClientArea<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DwmExtendFrameIntoClientArea);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DwmExtendFrameIntoClientArea<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">TrayAutoPause</source>
+<seg-source><mrk mid="0" mtype="seg">TrayAutoPause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayAutoPause</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Require Windows Vista or later with enabled Aero theme.</source>
+<seg-source><mrk mid="0" mtype="seg">Require Windows Vista or later with enabled Aero theme.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Require Windows Vista or later with enabled Aero theme.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">OnAutoItExit</source>
+<seg-source><mrk mid="0" mtype="seg">OnAutoItExit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OnAutoItExit</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Tab 1</source>
+<seg-source><mrk mid="0" mtype="seg">Tab 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Tab 1</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Button</source>
+<seg-source><mrk mid="0" mtype="seg">Button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Button</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Tab 2</source>
+<seg-source><mrk mid="0" mtype="seg">Tab 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Tab 2</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Tab 3</source>
+<seg-source><mrk mid="0" mtype="seg">Tab 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Tab 3</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Register Tab window proc</source>
+<seg-source><mrk mid="0" mtype="seg">Register Tab window proc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Register Tab window proc</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">_WinProc</source>
+<seg-source><mrk mid="0" mtype="seg">_WinProc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinProc</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">ptr</source>
+<seg-source><mrk mid="0" mtype="seg">ptr</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ptr</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">hwnd;uint;wparam;lparam</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd;uint;wparam;lparam</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd;uint;wparam;lparam</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Create the "sheet of glass" effect for the Tab client area. You must call this function whenever DWM composition is toggled.</source>
+<seg-source><mrk mid="0" mtype="seg">Create the "sheet of glass" effect for the Tab client area.</mrk> <mrk mid="1" mtype="seg">You must call this function whenever DWM composition is toggled.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create the "sheet of glass" effect for the Tab client area.</mrk> <mrk mid="1" mtype="seg">You must call this function whenever DWM composition is toggled.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

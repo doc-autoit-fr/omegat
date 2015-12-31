@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/StdoutRead.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Reads from the STDOUT stream of a previously run child process.</source>
+<seg-source><mrk mid="0" mtype="seg">Reads from the STDOUT stream of a previously run child process.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Reads from the STDOUT stream of a previously run child process.</mrk></target>
+<note>Function StdoutRead</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The process ID of a child process, as returned by a previous call to Run.</source>
+<seg-source><mrk mid="0" mtype="seg">The process ID of a child process, as returned by a previous call to Run.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The process ID of a child process, as returned by a previous call to Run.</mrk></target>
+<note>process_id</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If True the function does not remove the read characters from the stream.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True the function does not remove the read characters from the stream.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True the function does not remove the read characters from the stream.</mrk></target>
+<note>peek</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If True the function reads the data as binary instead of text (default is text).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True the function reads the data as binary instead of text (default is text).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True the function reads the data as binary instead of text (default is text).</mrk></target>
+<note>binary</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">the data read. @extended contains the number of bytes read.</source>
+<seg-source><mrk mid="0" mtype="seg">the data read.</mrk> <mrk mid="1" mtype="seg">@extended contains the number of bytes read.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the data read.</mrk> <mrk mid="1" mtype="seg">@extended contains the number of bytes read.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">sets the @error flag to non-zero if EOF is reached, STDOUT was not redirected for the process or other error.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero if EOF is reached, STDOUT was not redirected for the process or other error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero if EOF is reached, STDOUT was not redirected for the process or other error.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="StdoutRead.htm"></bpt>StdoutRead()<ept id="1">&lt;/a></ept> reads from the console standard output stream of a child process, which is normally used by console applications to write to the screen. During the call to <bpt id="1" ctype="x-a">&lt;a href="Run.htm"></bpt>Run()<ept id="1">&lt;/a></ept> for the child process you wish to read from the STD I/O parameter must have included the value of $STDOUT_CHILD (2) for this function to work properly (see the <bpt id="2" ctype="x-a">&lt;a href="Run.htm"></bpt>Run()<ept id="2">&lt;/a></ept> function).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="StdoutRead.htm"></bpt>StdoutRead()<ept id="1">&lt;/a></ept> reads from the console standard output stream of a child process, which is normally used by console applications to write to the screen.</mrk> <mrk mid="1" mtype="seg">During the call to <bpt id="1" ctype="x-a">&lt;a href="Run.htm"></bpt>Run()<ept id="1">&lt;/a></ept> for the child process you wish to read from the STD I/O parameter must have included the value of $STDOUT_CHILD (2) for this function to work properly (see the <bpt id="2" ctype="x-a">&lt;a href="Run.htm"></bpt>Run()<ept id="2">&lt;/a></ept> function).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="StdoutRead.htm"></bpt>StdoutRead()<ept id="1">&lt;/a></ept> reads from the console standard output stream of a child process, which is normally used by console applications to write to the screen.</mrk> <mrk mid="1" mtype="seg">During the call to <bpt id="1" ctype="x-a">&lt;a href="Run.htm"></bpt>Run()<ept id="1">&lt;/a></ept> for the child process you wish to read from the STD I/O parameter must have included the value of $STDOUT_CHILD (2) for this function to work properly (see the <bpt id="2" ctype="x-a">&lt;a href="Run.htm"></bpt>Run()<ept id="2">&lt;/a></ept> function).</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="StdoutRead.htm"></bpt>StdoutRead()<ept id="1">&lt;/a></ept> does not block, it will return immediately. In order to get all data, it must be called in a loop.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="StdoutRead.htm"></bpt>StdoutRead()<ept id="1">&lt;/a></ept> does not block, it will return immediately.</mrk> <mrk mid="1" mtype="seg">In order to get all data, it must be called in a loop.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="StdoutRead.htm"></bpt>StdoutRead()<ept id="1">&lt;/a></ept> does not block, it will return immediately.</mrk> <mrk mid="1" mtype="seg">In order to get all data, it must be called in a loop.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> Peeking on the stream does not remove the data from the buffer, however, it does return the available data as normal.</source>
+<seg-source> <mrk mid="0" mtype="seg">Peeking on the stream does not remove the data from the buffer, however, it does return the available data as normal.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Peeking on the stream does not remove the data from the buffer, however, it does return the available data as normal.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> By default, data is returned in text format. By using the binary option, the data will be returned in binary format.</source>
+<seg-source> <mrk mid="0" mtype="seg">By default, data is returned in text format.</mrk> <mrk mid="1" mtype="seg">By using the binary option, the data will be returned in binary format.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">By default, data is returned in text format.</mrk> <mrk mid="1" mtype="seg">By using the binary option, the data will be returned in binary format.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Required for _ArrayDisplay only.</source>
+<seg-source><mrk mid="0" mtype="seg">Required for _ArrayDisplay only.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Required for _ArrayDisplay only.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Recursively display a list of files in a directory.</source>
+<seg-source><mrk mid="0" mtype="seg">Recursively display a list of files in a directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Recursively display a list of files in a directory.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Search the current script directory.</source>
+<seg-source><mrk mid="0" mtype="seg">Search the current script directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search the current script directory.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">*.*</source>
+<seg-source><mrk mid="0" mtype="seg">*.*</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*.*</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Search for all files in the current directory. For a list of valid wildcards, search for 'Wildcards' in the Help file.</source>
+<seg-source><mrk mid="0" mtype="seg">Search for all files in the current directory.</mrk> <mrk mid="1" mtype="seg">For a list of valid wildcards, search for 'Wildcards' in the Help file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search for all files in the current directory.</mrk> <mrk mid="1" mtype="seg">For a list of valid wildcards, search for 'Wildcards' in the Help file.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">If the file path isn't a directory then return from the 'Example' function.</source>
+<seg-source><mrk mid="0" mtype="seg">If the file path isn't a directory then return from the 'Example' function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the file path isn't a directory then return from the 'Example' function.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">D</source>
+<seg-source><mrk mid="0" mtype="seg">D</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">D</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Remove trailing backslashes and append a single trailing backslash.</source>
+<seg-source><mrk mid="0" mtype="seg">Remove trailing backslashes and append a single trailing backslash.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remove trailing backslashes and append a single trailing backslash.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">[\\/]+\z</source>
+<seg-source><mrk mid="0" mtype="seg">[\\/]+\z</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[\\/]+\z</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">\</source>
+<seg-source><mrk mid="0" mtype="seg">\</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">/C DIR "</source>
+<seg-source><mrk mid="0" mtype="seg">/C DIR "</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/C DIR "</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">" /B /A-D /S</source>
+<seg-source><mrk mid="0" mtype="seg">" /B /A-D /S</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">" /B /A-D /S</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">If you want to search with files that contains unicode characters, then use the /U commandline parameter.</source>
+<seg-source><mrk mid="0" mtype="seg">If you want to search with files that contains unicode characters, then use the /U commandline parameter.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you want to search with files that contains unicode characters, then use the /U commandline parameter.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Wait until the process has closed using the PID returned by Run.</source>
+<seg-source><mrk mid="0" mtype="seg">Wait until the process has closed using the PID returned by Run.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wait until the process has closed using the PID returned by Run.</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Read the Stdout stream of the PID returned by Run. This can also be done in a while loop. Look at the example for StderrRead.</source>
+<seg-source><mrk mid="0" mtype="seg">Read the Stdout stream of the PID returned by Run.</mrk> <mrk mid="1" mtype="seg">This can also be done in a while loop.</mrk> <mrk mid="2" mtype="seg">Look at the example for StderrRead.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Read the Stdout stream of the PID returned by Run.</mrk> <mrk mid="1" mtype="seg">This can also be done in a while loop.</mrk> <mrk mid="2" mtype="seg">Look at the example for StderrRead.</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Use StringSplit to split the output of StdoutRead to an array. All carriage returns (@CRLF) are stripped and @CRLF (line feed) is used as the delimiter.</source>
+<seg-source><mrk mid="0" mtype="seg">Use StringSplit to split the output of StdoutRead to an array.</mrk> <mrk mid="1" mtype="seg">All carriage returns (@CRLF) are stripped and @CRLF (line feed) is used as the delimiter.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use StringSplit to split the output of StdoutRead to an array.</mrk> <mrk mid="1" mtype="seg">All carriage returns (@CRLF) are stripped and @CRLF (line feed) is used as the delimiter.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">It appears there was an error trying to find all the files in the current script directory.</source>
+<seg-source><mrk mid="0" mtype="seg">It appears there was an error trying to find all the files in the current script directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It appears there was an error trying to find all the files in the current script directory.</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Display the results.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the results.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the results.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

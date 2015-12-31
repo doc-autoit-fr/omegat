@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUICtrlListView_GetStringWidth.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Determines the width of a specified string</source>
+<seg-source><mrk mid="0" mtype="seg">Determines the width of a specified string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Determines the width of a specified string</mrk></target>
+<note>Function _GUICtrlListView_GetStringWidth</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Control ID/Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">String for which the width will be calculated</source>
+<seg-source><mrk mid="0" mtype="seg">String for which the width will be calculated</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String for which the width will be calculated</mrk></target>
+<note>$sString</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">the string width.</source>
+<seg-source><mrk mid="0" mtype="seg">the string width.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the string width.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">0</source>
+<seg-source><mrk mid="0" mtype="seg">0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">This function returns the exact width, in pixels, of the specified string.</source>
+<seg-source><mrk mid="0" mtype="seg">This function returns the exact width, in pixels, of the specified string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function returns the exact width, in pixels, of the specified string.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> If you use the returned string width as the column width in the <bpt id="1" ctype="x-a">&lt;a href="_GUICtrlListView_SetColumnWidth.htm"></bpt>_GUICtrlListView_SetColumnWidth()<ept id="1">&lt;/a></ept> function the string will be truncated.</source>
+<seg-source> <mrk mid="0" mtype="seg">If you use the returned string width as the column width in the <bpt id="1" ctype="x-a">&lt;a href="_GUICtrlListView_SetColumnWidth.htm"></bpt>_GUICtrlListView_SetColumnWidth()<ept id="1">&lt;/a></ept> function the string will be truncated.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If you use the returned string width as the column width in the <bpt id="1" ctype="x-a">&lt;a href="_GUICtrlListView_SetColumnWidth.htm"></bpt>_GUICtrlListView_SetColumnWidth()<ept id="1">&lt;/a></ept> function the string will be truncated.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> To retrieve the column width that can contain the string without truncating it, you must add padding to the returned string width.</source>
+<seg-source> <mrk mid="0" mtype="seg">To retrieve the column width that can contain the string without truncating it, you must add padding to the returned string width.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To retrieve the column width that can contain the string without truncating it, you must add padding to the returned string width.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">ListView Get String Width</source>
+<seg-source><mrk mid="0" mtype="seg">ListView Get String Width</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ListView Get String Width</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Add columns</source>
+<seg-source><mrk mid="0" mtype="seg">Add columns</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add columns</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Column 1</source>
+<seg-source><mrk mid="0" mtype="seg">Column 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column 1</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Add items</source>
+<seg-source><mrk mid="0" mtype="seg">Add items</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add items</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Item 1</source>
+<seg-source><mrk mid="0" mtype="seg">Item 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item 1</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Item 2</source>
+<seg-source><mrk mid="0" mtype="seg">Item 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item 2</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Item 3</source>
+<seg-source><mrk mid="0" mtype="seg">Item 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item 3</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Get width of string</source>
+<seg-source><mrk mid="0" mtype="seg">Get width of string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get width of string</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Information</source>
+<seg-source><mrk mid="0" mtype="seg">Information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Information</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Width of "Test":</source>
+<seg-source><mrk mid="0" mtype="seg">Width of "Test":</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Width of "Test":</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

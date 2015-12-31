@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_Excel_ColumnToNumber.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Converts the column letter(s) to a number</source>
+<seg-source><mrk mid="0" mtype="seg">Converts the column letter(s) to a number</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Converts the column letter(s) to a number</mrk></target>
+<note>Function _Excel_ColumnToNumber</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The column letter(s) which you want to turn into a number (e.g. "ZZ" to 702)</source>
+<seg-source><mrk mid="0" mtype="seg">The column letter(s) which you want to turn into a number (e.g.</mrk> <mrk mid="1" mtype="seg">"ZZ" to 702)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The column letter(s) which you want to turn into a number (e.g.</mrk> <mrk mid="1" mtype="seg">"ZZ" to 702)</mrk></target>
+<note>$sColumn</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">the column number.</source>
+<seg-source><mrk mid="0" mtype="seg">the column number.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the column number.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">0 and sets @error.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets @error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets @error.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">1 - $sColumn is not a valid string</source>
+<seg-source><mrk mid="0" mtype="seg">1 - $sColumn is not a valid string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - $sColumn is not a valid string</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Translate a column number to the Excel colunm letter</source>
+<seg-source><mrk mid="0" mtype="seg">Translate a column number to the Excel colunm letter</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Translate a column number to the Excel colunm letter</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Excel UDF: _Excel_ColumnToLetter Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_ColumnToLetter Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_ColumnToLetter Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Error converting number to letter.</source>
+<seg-source><mrk mid="0" mtype="seg">Error converting number to letter.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error converting number to letter.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Excel UDF: _Excel_ColumnToLetter Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_ColumnToLetter Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_ColumnToLetter Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Number:</source>
+<seg-source><mrk mid="0" mtype="seg">Number:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Number:</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">= Letter:</source>
+<seg-source><mrk mid="0" mtype="seg">= Letter:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">= Letter:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

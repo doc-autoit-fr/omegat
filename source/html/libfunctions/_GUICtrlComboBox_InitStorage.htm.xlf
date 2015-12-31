@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUICtrlComboBox_InitStorage.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Allocates memory for storing ListBox items</source>
+<seg-source><mrk mid="0" mtype="seg">Allocates memory for storing ListBox items</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Allocates memory for storing ListBox items</mrk></target>
+<note>Function _GUICtrlComboBox_InitStorage</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Control ID/Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Number of items to add</source>
+<seg-source><mrk mid="0" mtype="seg">Number of items to add</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Number of items to add</mrk></target>
+<note>$iNum</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The amount of memory to allocate for item strings, in bytes</source>
+<seg-source><mrk mid="0" mtype="seg">The amount of memory to allocate for item strings, in bytes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The amount of memory to allocate for item strings, in bytes</mrk></target>
+<note>$iBytes</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">The total number of items for which memory has been pre-allocated.</source>
+<seg-source><mrk mid="0" mtype="seg">The total number of items for which memory has been pre-allocated.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The total number of items for which memory has been pre-allocated.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">$CB_ERRSPACE.</source>
+<seg-source><mrk mid="0" mtype="seg">$CB_ERRSPACE.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$CB_ERRSPACE.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Helps speed up the initialization of ComboBoxes that have a large number of items (over 100).</source>
+<seg-source><mrk mid="0" mtype="seg">Helps speed up the initialization of ComboBoxes that have a large number of items (over 100).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Helps speed up the initialization of ComboBoxes that have a large number of items (over 100).</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> You can use estimates for the $iNum and $iBytes parameters.</source>
+<seg-source> <mrk mid="0" mtype="seg">You can use estimates for the $iNum and $iBytes parameters.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">You can use estimates for the $iNum and $iBytes parameters.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> If you overestimate, the extra memory is allocated.</source>
+<seg-source> <mrk mid="0" mtype="seg">If you overestimate, the extra memory is allocated.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If you overestimate, the extra memory is allocated.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> If you underestimate, the normal allocation is used for items that exceed the requested amount.</source>
+<seg-source> <mrk mid="0" mtype="seg">If you underestimate, the normal allocation is used for items that exceed the requested amount.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If you underestimate, the normal allocation is used for items that exceed the requested amount.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">ComboBox Init Storage</source>
+<seg-source><mrk mid="0" mtype="seg">ComboBox Init Storage</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ComboBox Init Storage</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Init Storaged</source>
+<seg-source><mrk mid="0" mtype="seg">Init Storaged</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Init Storaged</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Information</source>
+<seg-source><mrk mid="0" mtype="seg">Information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Information</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Pre-Allocated Memory For:</source>
+<seg-source><mrk mid="0" mtype="seg">Pre-Allocated Memory For:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pre-Allocated Memory For:</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">items</source>
+<seg-source><mrk mid="0" mtype="seg">items</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">items</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Add files</source>
+<seg-source><mrk mid="0" mtype="seg">Add files</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add files</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">\*.exe</source>
+<seg-source><mrk mid="0" mtype="seg">\*.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\*.exe</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

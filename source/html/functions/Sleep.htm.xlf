@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/Sleep.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Pause script execution.</source>
+<seg-source><mrk mid="0" mtype="seg">Pause script execution.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pause script execution.</mrk></target>
+<note>Function Sleep</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Amount of time to pause (in milliseconds).</source>
+<seg-source><mrk mid="0" mtype="seg">Amount of time to pause (in milliseconds).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Amount of time to pause (in milliseconds).</mrk></target>
+<note>delay</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">None.</source>
+<seg-source><mrk mid="0" mtype="seg">None.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None.</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Maximum sleep time is 2147483647 milliseconds (24 days) and the minimum is 10 milliseconds. So using 1-9 will automatically default to 10 milliseconds.</source>
+<seg-source><mrk mid="0" mtype="seg">Maximum sleep time is 2147483647 milliseconds (24 days) and the minimum is 10 milliseconds.</mrk> <mrk mid="1" mtype="seg">So using 1-9 will automatically default to 10 milliseconds.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Maximum sleep time is 2147483647 milliseconds (24 days) and the minimum is 10 milliseconds.</mrk> <mrk mid="1" mtype="seg">So using 1-9 will automatically default to 10 milliseconds.</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> Due to internal implementation, the sleep time completion is checked every 10 milisseconds so the precision cannot be less than 10.</source>
+<seg-source> <mrk mid="0" mtype="seg">Due to internal implementation, the sleep time completion is checked every 10 milisseconds so the precision cannot be less than 10.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Due to internal implementation, the sleep time completion is checked every 10 milisseconds so the precision cannot be less than 10.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> Note that other running processes often affect the timing accuracy and so pauses are likely to last for slightly longer than requested.</source>
+<seg-source> <mrk mid="0" mtype="seg">Note that other running processes often affect the timing accuracy and so pauses are likely to last for slightly longer than requested.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Note that other running processes often affect the timing accuracy and so pauses are likely to last for slightly longer than requested.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Sleep for 5 seconds.</source>
+<seg-source><mrk mid="0" mtype="seg">Sleep for 5 seconds.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sleep for 5 seconds.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

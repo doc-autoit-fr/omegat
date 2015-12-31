@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GDIPlus_FontFamilyGetCellAscent.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Gets the cell ascent, in design units, of a font family for the specified style or style combination</source>
+<seg-source><mrk mid="0" mtype="seg">Gets the cell ascent, in design units, of a font family for the specified style or style combination</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Gets the cell ascent, in design units, of a font family for the specified style or style combination</mrk></target>
+<note>Function _GDIPlus_FontFamilyGetCellAscent</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Pointer to a FontFamily object</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to a FontFamily object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to a FontFamily object</mrk></target>
+<note>$hFontFamily</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The style of the typeface. Can be a combination of the following:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The style of the typeface.</mrk> <mrk mid="2" mtype="seg">Can be a combination of the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The style of the typeface.</mrk> <mrk mid="2" mtype="seg">Can be a combination of the following:</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     0 - Normal weight or thickness of the typeface</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 - Normal weight or thickness of the typeface</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 - Normal weight or thickness of the typeface</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     1 - Bold typeface</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 - Bold typeface</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 - Bold typeface</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     2 - Italic typeface</source>
+<seg-source> <mrk mid="0" mtype="seg">    2 - Italic typeface</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    2 - Italic typeface</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     4 - Underline</source>
+<seg-source> <mrk mid="0" mtype="seg">    4 - Underline</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    4 - Underline</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     8 - Strikethrough</source>
+<seg-source> <mrk mid="0" mtype="seg">    8 - Strikethrough</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    8 - Strikethrough</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">the FontFamily cell ascent, in design units.</source>
+<seg-source><mrk mid="0" mtype="seg">the FontFamily cell ascent, in design units.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the FontFamily cell ascent, in design units.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">0 and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipGetCellAscent"></bpt>GdipGetCellAscent<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipGetCellAscent"></bpt>GdipGetCellAscent<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipGetCellAscent"></bpt>GdipGetCellAscent<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">GDI+</source>
+<seg-source><mrk mid="0" mtype="seg">GDI+</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GDI+</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Arial</source>
+<seg-source><mrk mid="0" mtype="seg">Arial</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Arial</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">MeasureString</source>
+<seg-source><mrk mid="0" mtype="seg">MeasureString</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MeasureString</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">MeasureCharacterRanges</source>
+<seg-source><mrk mid="0" mtype="seg">MeasureCharacterRanges</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MeasureCharacterRanges</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">CellAscent / CellDescent</source>
+<seg-source><mrk mid="0" mtype="seg">CellAscent / CellDescent</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CellAscent / CellDescent</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">fontsize goes crazy</source>
+<seg-source><mrk mid="0" mtype="seg">fontsize goes crazy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">fontsize goes crazy</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">_</source>
+<seg-source><mrk mid="0" mtype="seg">_</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Clean up resources</source>
+<seg-source><mrk mid="0" mtype="seg">Clean up resources</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Clean up resources</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Width</source>
+<seg-source><mrk mid="0" mtype="seg">Width</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Width</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Height</source>
+<seg-source><mrk mid="0" mtype="seg">Height</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Height</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

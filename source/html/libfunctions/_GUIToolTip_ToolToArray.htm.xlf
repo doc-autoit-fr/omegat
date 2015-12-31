@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUIToolTip_ToolToArray.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Transfers a ToolInfo structure to an array</source>
+<seg-source><mrk mid="0" mtype="seg">Transfers a ToolInfo structure to an array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transfers a ToolInfo structure to an array</mrk></target>
+<note>Function _GUIToolTip_ToolToArray</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> Handle to the ToolTip control (returned by <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_Create.htm"></bpt>_GUIToolTip_Create.<ept id="1">&lt;/a></ept>) </source>
+<seg-source> <mrk mid="0" mtype="seg">Handle to the ToolTip control (returned by <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_Create.htm"></bpt>_GUIToolTip_Create.<ept id="1">&lt;/a></ept>)</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Handle to the ToolTip control (returned by <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_Create.htm"></bpt>_GUIToolTip_Create.<ept id="1">&lt;/a></ept>)</mrk> </target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">$tagTOOLINFO structure</source>
+<seg-source><mrk mid="0" mtype="seg">$tagTOOLINFO structure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$tagTOOLINFO structure</mrk></target>
+<note>$tToolInfo</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Error code to be returned</source>
+<seg-source><mrk mid="0" mtype="seg">Error code to be returned</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error code to be returned</mrk></target>
+<note>$iError</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Returns an array with the following format:</source>
+<seg-source><mrk mid="0" mtype="seg">Returns an array with the following format:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns an array with the following format:</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> [0] - Comma separated string displaying TTF_ flags used</source>
+<seg-source> <mrk mid="0" mtype="seg">[0] - Comma separated string displaying TTF_ flags used</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[0] - Comma separated string displaying TTF_ flags used</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> TTF_IDISHWND = Indicates that $iID is the window handle to the tool instead of the ID</source>
+<seg-source> <mrk mid="0" mtype="seg">TTF_IDISHWND = Indicates that $iID is the window handle to the tool instead of the ID</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">TTF_IDISHWND = Indicates that $iID is the window handle to the tool instead of the ID</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> TTF_CENTERTIP = Centers the window below the tool specified by $iID</source>
+<seg-source> <mrk mid="0" mtype="seg">TTF_CENTERTIP = Centers the window below the tool specified by $iID</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">TTF_CENTERTIP = Centers the window below the tool specified by $iID</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> TTF_RTLREADING = Indicates that text will be displayed in the opposite direction</source>
+<seg-source> <mrk mid="0" mtype="seg">TTF_RTLREADING = Indicates that text will be displayed in the opposite direction</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">TTF_RTLREADING = Indicates that text will be displayed in the opposite direction</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> TTF_SUBCLASS = Indicates that the control should subclass the tool's window to intercept messages</source>
+<seg-source> <mrk mid="0" mtype="seg">TTF_SUBCLASS = Indicates that the control should subclass the tool's window to intercept messages</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">TTF_SUBCLASS = Indicates that the control should subclass the tool's window to intercept messages</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> TTF_TRACK = Positions the control next to the tool to which it corresponds</source>
+<seg-source> <mrk mid="0" mtype="seg">TTF_TRACK = Positions the control next to the tool to which it corresponds</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">TTF_TRACK = Positions the control next to the tool to which it corresponds</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> TTF_ABSOLUTE = Positions the window at the same coordinates provided by TTM_TRACKPOSITION</source>
+<seg-source> <mrk mid="0" mtype="seg">TTF_ABSOLUTE = Positions the window at the same coordinates provided by TTM_TRACKPOSITION</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">TTF_ABSOLUTE = Positions the window at the same coordinates provided by TTM_TRACKPOSITION</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> TTF_TRANSPARENT = Causes the control to forward mouse messages to the parent window</source>
+<seg-source> <mrk mid="0" mtype="seg">TTF_TRANSPARENT = Causes the control to forward mouse messages to the parent window</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">TTF_TRANSPARENT = Causes the control to forward mouse messages to the parent window</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> TTF_PARSELINKS = Indicates that links in the control text should be parsed</source>
+<seg-source> <mrk mid="0" mtype="seg">TTF_PARSELINKS = Indicates that links in the control text should be parsed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">TTF_PARSELINKS = Indicates that links in the control text should be parsed</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> [1] - Handle to the window that contains the tool</source>
+<seg-source> <mrk mid="0" mtype="seg">[1] - Handle to the window that contains the tool</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[1] - Handle to the window that contains the tool</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> [2] - Identifier of the tool</source>
+<seg-source> <mrk mid="0" mtype="seg">[2] - Identifier of the tool</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[2] - Identifier of the tool</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> [3] - X coordinate of the upper left corner of the rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">[3] - X coordinate of the upper left corner of the rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[3] - X coordinate of the upper left corner of the rectangle</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> [4] - Y coordinate of the upper left corner of the rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">[4] - Y coordinate of the upper left corner of the rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[4] - Y coordinate of the upper left corner of the rectangle</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> [5] - X coordinate of the lower right corner of the rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">[5] - X coordinate of the lower right corner of the rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[5] - X coordinate of the lower right corner of the rectangle</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> [6] - Y coordinate of the lower right corner of the rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">[6] - Y coordinate of the lower right corner of the rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[6] - Y coordinate of the lower right corner of the rectangle</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> [7] - Handle to the instance that contains the string resource for the tool</source>
+<seg-source> <mrk mid="0" mtype="seg">[7] - Handle to the instance that contains the string resource for the tool</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[7] - Handle to the instance that contains the string resource for the tool</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> [8] - Text for the tool</source>
+<seg-source> <mrk mid="0" mtype="seg">[8] - Text for the tool</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[8] - Text for the tool</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> [9] - Application-defined value associated with the tool</source>
+<seg-source> <mrk mid="0" mtype="seg">[9] - Application-defined value associated with the tool</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[9] - Application-defined value associated with the tool</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">$iError is the return code you want the function to return to the calling process.</source>
+<seg-source><mrk mid="0" mtype="seg">$iError is the return code you want the function to return to the calling process.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$iError is the return code you want the function to return to the calling process.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> This function is usually used with other UDF functions to disassemble the $tagTOOLINFO structure to an array for display purposes.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function is usually used with other UDF functions to disassemble the $tagTOOLINFO structure to an array for display purposes.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function is usually used with other UDF functions to disassemble the $tagTOOLINFO structure to an array for display purposes.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

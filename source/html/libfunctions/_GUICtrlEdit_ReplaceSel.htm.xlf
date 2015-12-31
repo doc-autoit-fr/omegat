@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUICtrlEdit_ReplaceSel.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Replaces the current selection</source>
+<seg-source><mrk mid="0" mtype="seg">Replaces the current selection</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Replaces the current selection</mrk></target>
+<note>Function _GUICtrlEdit_ReplaceSel</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Control ID/Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">String containing the replacement text.</source>
+<seg-source><mrk mid="0" mtype="seg">String containing the replacement text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String containing the replacement text.</mrk></target>
+<note>$sText</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether the replacement operation can be undone:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether the replacement operation can be undone:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether the replacement operation can be undone:</mrk></target>
+<note>$bUndo</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     True - The operation can be undone.</source>
+<seg-source> <mrk mid="0" mtype="seg">    True - The operation can be undone.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    True - The operation can be undone.</mrk></target>
+<note>$bUndo</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     False - The operation cannot be undone.</source>
+<seg-source> <mrk mid="0" mtype="seg">    False - The operation cannot be undone.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    False - The operation cannot be undone.</mrk></target>
+<note>$bUndo</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">None.</source>
+<seg-source><mrk mid="0" mtype="seg">None.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Use the <bpt id="1" ctype="x-a">&lt;a href="_GUICtrlEdit_ReplaceSel.htm"></bpt>_GUICtrlEdit_ReplaceSel()<ept id="1">&lt;/a></ept> to replace only a portion of the text in an edit control.</source>
+<seg-source><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-a">&lt;a href="_GUICtrlEdit_ReplaceSel.htm"></bpt>_GUICtrlEdit_ReplaceSel()<ept id="1">&lt;/a></ept> to replace only a portion of the text in an edit control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use the <bpt id="1" ctype="x-a">&lt;a href="_GUICtrlEdit_ReplaceSel.htm"></bpt>_GUICtrlEdit_ReplaceSel()<ept id="1">&lt;/a></ept> to replace only a portion of the text in an edit control.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> If there is no current selection, the replacement text is inserted at the current location of the caret.</source>
+<seg-source> <mrk mid="0" mtype="seg">If there is no current selection, the replacement text is inserted at the current location of the caret.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If there is no current selection, the replacement text is inserted at the current location of the caret.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">\Wow6432Node</source>
+<seg-source><mrk mid="0" mtype="seg">\Wow6432Node</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Wow6432Node</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">HKEY_LOCAL_MACHINE\SOFTWARE</source>
+<seg-source><mrk mid="0" mtype="seg">HKEY_LOCAL_MACHINE\SOFTWARE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HKEY_LOCAL_MACHINE\SOFTWARE</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">\AutoIt v3\AutoIt</source>
+<seg-source><mrk mid="0" mtype="seg">\AutoIt v3\AutoIt</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\AutoIt v3\AutoIt</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">InstallDir</source>
+<seg-source><mrk mid="0" mtype="seg">InstallDir</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">InstallDir</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">\include\_ReadMe_.txt</source>
+<seg-source><mrk mid="0" mtype="seg">\include\_ReadMe_.txt</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\include\_ReadMe_.txt</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Edit Replace Sel</source>
+<seg-source><mrk mid="0" mtype="seg">Edit Replace Sel</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Edit Replace Sel</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Set Margins</source>
+<seg-source><mrk mid="0" mtype="seg">Set Margins</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set Margins</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Set Text</source>
+<seg-source><mrk mid="0" mtype="seg">Set Text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set Text</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Set Sel</source>
+<seg-source><mrk mid="0" mtype="seg">Set Sel</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set Sel</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Information</source>
+<seg-source><mrk mid="0" mtype="seg">Information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Information</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Replace Sel</source>
+<seg-source><mrk mid="0" mtype="seg">Replace Sel</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Replace Sel</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">%d/%2d/%4d</source>
+<seg-source><mrk mid="0" mtype="seg">%d/%2d/%4d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%d/%2d/%4d</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

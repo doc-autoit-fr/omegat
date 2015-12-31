@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_SetLayeredWindowAttributes.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets Layered Window Attributes</source>
+<seg-source><mrk mid="0" mtype="seg">Sets Layered Window Attributes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets Layered Window Attributes</mrk></target>
+<note>Function _WinAPI_SetLayeredWindowAttributes</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle of GUI to work on</source>
+<seg-source><mrk mid="0" mtype="seg">Handle of GUI to work on</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle of GUI to work on</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Transparent color</source>
+<seg-source><mrk mid="0" mtype="seg">Transparent color</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transparent color</mrk></target>
+<note>$iTransColor</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Set Transparancy of GUI</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Set Transparancy of GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Set Transparancy of GUI</mrk></target>
+<note>$iTransGUI</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Flags.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Flags.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Flags.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If True, $iTransColor is a COLORREF( 0x00bbggrr ), else an RGB-Color</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True, $iTransColor is a COLORREF( 0x00bbggrr ), else an RGB-Color</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True, $iTransColor is a COLORREF( 0x00bbggrr ), else an RGB-Color</mrk></target>
+<note>$bColorRef</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information </source>
+<seg-source> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetLayeredWindowAttributes);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetLayeredWindowAttributes<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetLayeredWindowAttributes);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetLayeredWindowAttributes<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetLayeredWindowAttributes);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetLayeredWindowAttributes<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">trans</source>
+<seg-source><mrk mid="0" mtype="seg">trans</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">trans</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">This is text on a transparent Layered GUI</source>
+<seg-source><mrk mid="0" mtype="seg">This is text on a transparent Layered GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is text on a transparent Layered GUI</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Click label to drag layered window</source>
+<seg-source><mrk mid="0" mtype="seg">Click label to drag layered window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Click label to drag layered window</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Button</source>
+<seg-source><mrk mid="0" mtype="seg">Button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Button</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">ControlGUI</source>
+<seg-source><mrk mid="0" mtype="seg">ControlGUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ControlGUI</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Transparent color 0xABCDEF (Checked) Or 0x010101</source>
+<seg-source><mrk mid="0" mtype="seg">Transparent color 0xABCDEF (Checked) Or 0x010101</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transparent color 0xABCDEF (Checked) Or 0x010101</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">POPUP-Style</source>
+<seg-source><mrk mid="0" mtype="seg">POPUP-Style</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">POPUP-Style</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Transparency for Layered GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Transparency for Layered GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transparency for Layered GUI</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Change Attributes of Trans-Color and Window Transparency</source>
+<seg-source><mrk mid="0" mtype="seg">Change Attributes of Trans-Color and Window Transparency</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Change Attributes of Trans-Color and Window Transparency</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Layered GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Layered GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Layered GUI</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Button on layered Window Clicked</source>
+<seg-source><mrk mid="0" mtype="seg">Button on layered Window Clicked</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Button on layered Window Clicked</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Information about this window:</source>
+<seg-source><mrk mid="0" mtype="seg">Information about this window:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Information about this window:</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Transparent Color:</source>
+<seg-source><mrk mid="0" mtype="seg">Transparent Color:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Transparent Color:</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Alpha Value:</source>
+<seg-source><mrk mid="0" mtype="seg">Alpha Value:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Alpha Value:</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">LWA_COLORKEY:</source>
+<seg-source><mrk mid="0" mtype="seg">LWA_COLORKEY:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LWA_COLORKEY:</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">LWA_ALPHA:</source>
+<seg-source><mrk mid="0" mtype="seg">LWA_ALPHA:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LWA_ALPHA:</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Close from Layered GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Close from Layered GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close from Layered GUI</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

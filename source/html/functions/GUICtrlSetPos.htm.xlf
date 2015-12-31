@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/GUICtrlSetPos.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Changes the position of a control within the GUI window.</source>
+<seg-source><mrk mid="0" mtype="seg">Changes the position of a control within the GUI window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Changes the position of a control within the GUI window.</mrk></target>
+<note>Function GUICtrlSetPos</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> The control identifier (controlID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...()<ept id="1">&lt;/a></ept> function, or -1 for the last created control. </source>
+<seg-source> <mrk mid="0" mtype="seg">The control identifier (controlID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...()<ept id="1">&lt;/a></ept> function, or -1 for the last created control.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The control identifier (controlID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...()<ept id="1">&lt;/a></ept> function, or -1 for the last created control.</mrk> </target>
+<note>controlID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The left side of the control.</source>
+<seg-source><mrk mid="0" mtype="seg">The left side of the control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The left side of the control.</mrk></target>
+<note>left</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The top of the control.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The top of the control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The top of the control.</mrk></target>
+<note>top</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The width of the control.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The width of the control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The width of the control.</mrk></target>
+<note>width</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The height of the control .</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The height of the control .</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The height of the control .</mrk></target>
+<note>height</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">If the <bpt id="1" ctype="x-a">&lt;a href="../keywords/Default.htm"></bpt>Default<ept id="1">&lt;/a></ept> keyword is used as a parameter, the current value is not modified.</source>
+<seg-source><mrk mid="0" mtype="seg">If the <bpt id="1" ctype="x-a">&lt;a href="../keywords/Default.htm"></bpt>Default<ept id="1">&lt;/a></ept> keyword is used as a parameter, the current value is not modified.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the <bpt id="1" ctype="x-a">&lt;a href="../keywords/Default.htm"></bpt>Default<ept id="1">&lt;/a></ept> keyword is used as a parameter, the current value is not modified.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...<ept id="1">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...<ept id="1">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...<ept id="1">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">My GUI position</source>
+<seg-source><mrk mid="0" mtype="seg">My GUI position</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">My GUI position</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">will create a dialog box that when displayed is centered</source>
+<seg-source><mrk mid="0" mtype="seg">will create a dialog box that when displayed is centered</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">will create a dialog box that when displayed is centered</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">my moving label</source>
+<seg-source><mrk mid="0" mtype="seg">my moving label</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">my moving label</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">GUICoordMode</source>
+<seg-source><mrk mid="0" mtype="seg">GUICoordMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUICoordMode</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">My GUI icon Race</source>
+<seg-source><mrk mid="0" mtype="seg">My GUI icon Race</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">My GUI icon Race</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">\Extras\dinosaur.ani</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\dinosaur.ani</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\dinosaur.ani</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">\Extras\horse.ani</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\horse.ani</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\horse.ani</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">GUICoordMode</source>
+<seg-source><mrk mid="0" mtype="seg">GUICoordMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUICoordMode</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Race results</source>
+<seg-source><mrk mid="0" mtype="seg">Race results</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Race results</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">The dinosaur won</source>
+<seg-source><mrk mid="0" mtype="seg">The dinosaur won</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The dinosaur won</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Race results</source>
+<seg-source><mrk mid="0" mtype="seg">Race results</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Race results</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">The horse won</source>
+<seg-source><mrk mid="0" mtype="seg">The horse won</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The horse won</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

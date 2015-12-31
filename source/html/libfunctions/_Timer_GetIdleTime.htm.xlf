@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_Timer_GetIdleTime.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Returns the number of ticks since last user activity (i.e. KYBD/Mouse)</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the number of ticks since last user activity (i.e.</mrk> <mrk mid="1" mtype="seg">KYBD/Mouse)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the number of ticks since last user activity (i.e.</mrk> <mrk mid="1" mtype="seg">KYBD/Mouse)</mrk></target>
+<note>Function _Timer_GetIdleTime</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">integer ticks since last (approx. milliseconds) since last activity</source>
+<seg-source><mrk mid="0" mtype="seg">integer ticks since last (approx. milliseconds) since last activity</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">integer ticks since last (approx. milliseconds) since last activity</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Sets @extended = 1 if rollover occurs (see remarks)</source>
+<seg-source><mrk mid="0" mtype="seg">Sets @extended = 1 if rollover occurs (see remarks)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets @extended = 1 if rollover occurs (see remarks)</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The current ticks since last system restart will roll over to 0 every 50 days or so, which makes it possible for last user activity to be before the rollover, but run time of this function to be after the rollover.</source>
+<seg-source><mrk mid="0" mtype="seg">The current ticks since last system restart will roll over to 0 every 50 days or so, which makes it possible for last user activity to be before the rollover, but run time of this function to be after the rollover.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The current ticks since last system restart will roll over to 0 every 50 days or so, which makes it possible for last user activity to be before the rollover, but run time of this function to be after the rollover.</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> If this happens, @extended = 1 and the returned value is ticks since rollover occured.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this happens, @extended = 1 and the returned value is ticks since rollover occured.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this happens, @extended = 1 and the returned value is ticks since rollover occured.</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Mouse/Keyboard action during this 10 sec delay will change reported idle time</source>
+<seg-source><mrk mid="0" mtype="seg">Mouse/Keyboard action during this 10 sec delay will change reported idle time</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Mouse/Keyboard action during this 10 sec delay will change reported idle time</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">10sec</source>
+<seg-source><mrk mid="0" mtype="seg">10sec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10sec</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">_Timer_GetIdleTime</source>
+<seg-source><mrk mid="0" mtype="seg">_Timer_GetIdleTime</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_Timer_GetIdleTime</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Idle time =</source>
+<seg-source><mrk mid="0" mtype="seg">Idle time =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Idle time =</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">ms</source>
+<seg-source><mrk mid="0" mtype="seg">ms</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ms</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

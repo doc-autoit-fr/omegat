@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_EnumDisplaySettings.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves information about one of the graphics modes for a display device</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves information about one of the graphics modes for a display device</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves information about one of the graphics modes for a display device</mrk></target>
+<note>Function _WinAPI_EnumDisplaySettings</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The display device about whose graphics mode the function will obtain information.</source>
+<seg-source><mrk mid="0" mtype="seg">The display device about whose graphics mode the function will obtain information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The display device about whose graphics mode the function will obtain information.</mrk></target>
+<note>$sDevice</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> An empty string specifies the current display device on the computer on which the calling process is running.</source>
+<seg-source> <mrk mid="0" mtype="seg">An empty string specifies the current display device on the computer on which the calling process is running.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">An empty string specifies the current display device on the computer on which the calling process is running.</mrk></target>
+<note>$sDevice</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> The type of information to be retrieved. This value can be a graphics mode index or one of the following values:</source>
+<seg-source> <mrk mid="0" mtype="seg">The type of information to be retrieved.</mrk> <mrk mid="1" mtype="seg">This value can be a graphics mode index or one of the following values:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The type of information to be retrieved.</mrk> <mrk mid="1" mtype="seg">This value can be a graphics mode index or one of the following values:</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $ENUM_CURRENT_SETTINGS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ENUM_CURRENT_SETTINGS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ENUM_CURRENT_SETTINGS</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $ENUM_REGISTRY_SETTINGS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ENUM_REGISTRY_SETTINGS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ENUM_REGISTRY_SETTINGS</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> The graphics mode indexes start at zero.</source>
+<seg-source> <mrk mid="0" mtype="seg">The graphics mode indexes start at zero.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The graphics mode indexes start at zero.</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> To obtain information for all of a display device's graphics modes, make a series of calls to <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_EnumDisplaySettings.htm"></bpt>_WinAPI_EnumDisplaySettings()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">To obtain information for all of a display device's graphics modes, make a series of calls to <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_EnumDisplaySettings.htm"></bpt>_WinAPI_EnumDisplaySettings()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To obtain information for all of a display device's graphics modes, make a series of calls to <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_EnumDisplaySettings.htm"></bpt>_WinAPI_EnumDisplaySettings()<ept id="1">&lt;/a></ept>.</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> Set $iMode to zero for the first call, and increment $iMode by one for each subsequent call.</source>
+<seg-source> <mrk mid="0" mtype="seg">Set $iMode to zero for the first call, and increment $iMode by one for each subsequent call.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Set $iMode to zero for the first call, and increment $iMode by one for each subsequent call.</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> Continue calling the function until the return value is zero.</source>
+<seg-source> <mrk mid="0" mtype="seg">Continue calling the function until the return value is zero.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Continue calling the function until the return value is zero.</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> When you call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_EnumDisplaySettings.htm"></bpt>_WinAPI_EnumDisplaySettings()<ept id="1">&lt;/a></ept> with $iMode set to zero, the operating system initializes and caches information about the display device.</source>
+<seg-source> <mrk mid="0" mtype="seg">When you call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_EnumDisplaySettings.htm"></bpt>_WinAPI_EnumDisplaySettings()<ept id="1">&lt;/a></ept> with $iMode set to zero, the operating system initializes and caches information about the display device.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When you call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_EnumDisplaySettings.htm"></bpt>_WinAPI_EnumDisplaySettings()<ept id="1">&lt;/a></ept> with $iMode set to zero, the operating system initializes and caches information about the display device.</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> When you call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_EnumDisplaySettings.htm"></bpt>_WinAPI_EnumDisplaySettings()<ept id="1">&lt;/a></ept> with $iMode set to a non-zero value, the function returns the information that was cached the last time the function was called with $iMode set to zero. </source>
+<seg-source> <mrk mid="0" mtype="seg">When you call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_EnumDisplaySettings.htm"></bpt>_WinAPI_EnumDisplaySettings()<ept id="1">&lt;/a></ept> with $iMode set to a non-zero value, the function returns the information that was cached the last time the function was called with $iMode set to zero.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When you call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_EnumDisplaySettings.htm"></bpt>_WinAPI_EnumDisplaySettings()<ept id="1">&lt;/a></ept> with $iMode set to a non-zero value, the function returns the information that was cached the last time the function was called with $iMode set to zero.</mrk> </target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">The array containing the following information:</source>
+<seg-source><mrk mid="0" mtype="seg">The array containing the following information:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The array containing the following information:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     [0] - The width, in pixels, of the visible device surface.</source>
+<seg-source> <mrk mid="0" mtype="seg">    [0] - The width, in pixels, of the visible device surface.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [0] - The width, in pixels, of the visible device surface.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     [1] - The height, in pixels, of the visible device surface.</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1] - The height, in pixels, of the visible device surface.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1] - The height, in pixels, of the visible device surface.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     [2] - The color resolution, in bits per pixel, of the display device.</source>
+<seg-source> <mrk mid="0" mtype="seg">    [2] - The color resolution, in bits per pixel, of the display device.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [2] - The color resolution, in bits per pixel, of the display device.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     [3] - The frequency, in hertz (cycles per second), of the display device in a particular mode.</source>
+<seg-source> <mrk mid="0" mtype="seg">    [3] - The frequency, in hertz (cycles per second), of the display device in a particular mode.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [3] - The frequency, in hertz (cycles per second), of the display device in a particular mode.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     [4] - The device's display mode ($DM_*).</source>
+<seg-source> <mrk mid="0" mtype="seg">    [4] - The device's display mode ($DM_*).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [4] - The device's display mode ($DM_*).</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EnumDisplaySettings);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EnumDisplaySettings<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EnumDisplaySettings);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EnumDisplaySettings<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EnumDisplaySettings);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EnumDisplaySettings<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">x</source>
+<seg-source><mrk mid="0" mtype="seg">x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">x</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">x</source>
+<seg-source><mrk mid="0" mtype="seg">x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">x</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">bit</source>
+<seg-source><mrk mid="0" mtype="seg">bit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">bit</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">-------------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">-------------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-------------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Current settings:</source>
+<seg-source><mrk mid="0" mtype="seg">Current settings:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Current settings:</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">x</source>
+<seg-source><mrk mid="0" mtype="seg">x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">x</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">x</source>
+<seg-source><mrk mid="0" mtype="seg">x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">x</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">bit</source>
+<seg-source><mrk mid="0" mtype="seg">bit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">bit</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUICtrlToolbar_InsertButton.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Inserts a button</source>
+<seg-source><mrk mid="0" mtype="seg">Inserts a button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Inserts a button</mrk></target>
+<note>Function _GUICtrlToolbar_InsertButton</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">0-based index of a button</source>
+<seg-source><mrk mid="0" mtype="seg">0-based index of a button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0-based index of a button</mrk></target>
+<note>$iIndex</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Command ID</source>
+<seg-source><mrk mid="0" mtype="seg">Command ID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command ID</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">0-based image index</source>
+<seg-source><mrk mid="0" mtype="seg">0-based image index</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0-based image index</mrk></target>
+<note>$iImage</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Button text</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Button text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Button text</mrk></target>
+<note>$sText</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Button style. Can be a combination of the following:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Button style.</mrk> <mrk mid="2" mtype="seg">Can be a combination of the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Button style.</mrk> <mrk mid="2" mtype="seg">Can be a combination of the following:</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $BTNS_AUTOSIZE - The toolbar control should not assign the standard width to the button</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BTNS_AUTOSIZE - The toolbar control should not assign the standard width to the button</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BTNS_AUTOSIZE - The toolbar control should not assign the standard width to the button</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $BTNS_BUTTON - Standard button</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BTNS_BUTTON - Standard button</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BTNS_BUTTON - Standard button</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $BTNS_CHECK - Toggles between the pressed and nonpressed</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BTNS_CHECK - Toggles between the pressed and nonpressed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BTNS_CHECK - Toggles between the pressed and nonpressed</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $BTNS_CHECKGROUP - Button that stays pressed until another button in the group is pressed</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BTNS_CHECKGROUP - Button that stays pressed until another button in the group is pressed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BTNS_CHECKGROUP - Button that stays pressed until another button in the group is pressed</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $BTNS_DROPDOWN - Creates a drop-down style button that can display a list</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BTNS_DROPDOWN - Creates a drop-down style button that can display a list</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BTNS_DROPDOWN - Creates a drop-down style button that can display a list</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $BTNS_GROUP - Button that stays pressed until another button in the group is pressed</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BTNS_GROUP - Button that stays pressed until another button in the group is pressed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BTNS_GROUP - Button that stays pressed until another button in the group is pressed</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $BTNS_NOPREFIX - The button text will not have an accelerator prefix</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BTNS_NOPREFIX - The button text will not have an accelerator prefix</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BTNS_NOPREFIX - The button text will not have an accelerator prefix</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $BTNS_SEP - Creates a separator</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BTNS_SEP - Creates a separator</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BTNS_SEP - Creates a separator</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $BTNS_SHOWTEXT - Specifies that button text should be displayed</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BTNS_SHOWTEXT - Specifies that button text should be displayed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BTNS_SHOWTEXT - Specifies that button text should be displayed</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $BTNS_WHOLEDROPDOWN - Specifies that the button will have a drop-down arrow</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BTNS_WHOLEDROPDOWN - Specifies that the button will have a drop-down arrow</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BTNS_WHOLEDROPDOWN - Specifies that the button will have a drop-down arrow</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Button state. Can be a combination of the following:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Button state.</mrk> <mrk mid="2" mtype="seg">Can be a combination of the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Button state.</mrk> <mrk mid="2" mtype="seg">Can be a combination of the following:</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     $TBSTATE_CHECKED - The button has the $TBSTYLE_CHECK style and is being clicked</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TBSTATE_CHECKED - The button has the $TBSTYLE_CHECK style and is being clicked</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TBSTATE_CHECKED - The button has the $TBSTYLE_CHECK style and is being clicked</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     $TBSTATE_PRESSED - The button is being clicked</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TBSTATE_PRESSED - The button is being clicked</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TBSTATE_PRESSED - The button is being clicked</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     $TBSTATE_ENABLED - The button accepts user input</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TBSTATE_ENABLED - The button accepts user input</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TBSTATE_ENABLED - The button accepts user input</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">     $TBSTATE_HIDDEN - The button is not visible and cannot receive user input</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TBSTATE_HIDDEN - The button is not visible and cannot receive user input</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TBSTATE_HIDDEN - The button is not visible and cannot receive user input</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">     $TBSTATE_INDETERMINATE - The button is grayed</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TBSTATE_INDETERMINATE - The button is grayed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TBSTATE_INDETERMINATE - The button is grayed</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">     $TBSTATE_WRAP - The button is followed by a line break</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TBSTATE_WRAP - The button is followed by a line break</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TBSTATE_WRAP - The button is followed by a line break</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">     $TBSTATE_ELLIPSES - The button's text is cut off and an ellipsis is displayed</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TBSTATE_ELLIPSES - The button's text is cut off and an ellipsis is displayed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TBSTATE_ELLIPSES - The button's text is cut off and an ellipsis is displayed</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">     $TBSTATE_MARKED - The button is marked</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TBSTATE_MARKED - The button is marked</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TBSTATE_MARKED - The button is marked</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Application-defined value</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Application-defined value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Application-defined value</mrk></target>
+<note>$iParam</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">False.</source>
+<seg-source><mrk mid="0" mtype="seg">False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Inserts the new button to the left of the button at $iIndex</source>
+<seg-source><mrk mid="0" mtype="seg">Inserts the new button to the left of the button at $iIndex</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Inserts the new button to the left of the button at $iIndex</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Toolbar</source>
+<seg-source><mrk mid="0" mtype="seg">Toolbar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Toolbar</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Add standard system bitmaps</source>
+<seg-source><mrk mid="0" mtype="seg">Add standard system bitmaps</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add standard system bitmaps</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Add buttons</source>
+<seg-source><mrk mid="0" mtype="seg">Add buttons</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add buttons</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

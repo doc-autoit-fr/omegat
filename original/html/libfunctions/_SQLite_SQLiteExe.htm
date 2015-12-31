@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="HTML Tidy for HTML5 for Windows version 5.1.14" name="generator">
+  <title>Function _SQLite_SQLiteExe</title>
+  <meta charset="utf-8">
+  <link href="../css/default.css" rel="stylesheet">
+</head>
+<body>
+  <h1 class="small">Function Reference</h1>
+  <hr style="height:0px">
+  <h1>_SQLite_SQLiteExe</h1>
+  <p class="funcdesc">Executes commands in sqlite3.exe<br></p>
+  <p class="codeheader">#include &lt;SQLite.au3&gt;<br>
+  _SQLite_SQLiteExe ( $sDatabaseFile, $sInput, ByRef $sOutput [, $sSQLiteExeFilename = "sqlite3.exe" [, $bDebug = False]] )<br></p>
+  <h2>Parameters</h2>
+  <table>
+    <tr>
+      <td style="width:15%">$sDatabaseFile</td>
+      <td style="width:85%">Database filename</td>
+    </tr>
+    <tr>
+      <td>$sInput</td>
+      <td>Commands for sqlite3.exe</td>
+    </tr>
+    <tr>
+      <td>$sOutput</td>
+      <td>Raw output from sqlite3.exe</td>
+    </tr>
+    <tr>
+      <td>$sSQLiteExeFilename</td>
+      <td><strong>[optional]</strong> Path to sqlite3.exe</td>
+    </tr>
+    <tr>
+      <td>$bDebug</td>
+      <td>
+        <strong>[optional]</strong> Write sqlite3.exe exitcode through the callback function specified in <a href="_SQLite_Startup.htm">_SQLite_Startup()</a> (default is don't print)
+      </td>
+    </tr>
+  </table>
+  <h2>Return Value</h2>
+  <table class="noborder">
+    <tr>
+      <td class="valign-top" style="width:10%">Success:</td>
+      <td style="width:90%">$SQLITE_OK.</td>
+    </tr>
+    <tr>
+      <td class="valign-top">Failure:</td>
+      <td>a value that can be compared against $SQLITE_* constants.</td>
+    </tr>
+    <tr>
+      <td class="valign-top">@error:</td>
+      <td>1 - Can't create new Database<br>
+      2 - sqlite3.exe not Found<br>
+      3 - SQL error / incomplete SQL<br>
+      4 - Can't open input file</td>
+    </tr>
+  </table>
+  <h2>Remarks</h2>
+  <p>Run sqlite3.exe, press enter and type .Help for more info about the SQLite3.exe Commands.<br>
+  <br>
+  If #include &lt;SQLite.dll.au3&gt; is included the SQLite version is used.<br>
+  Other versions can be found at the <a href="http://www.sqlite.org/download.html">SQLite Web site</a>.<br></p>
+  <h2 class="bottom">Example</h2>
+  <script type="text/javascript">
+  if ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4)) // IE (4+) only
+  function copyToClipboard(section) {
+  if (window.clipboardData && clipboardData.setData) {
+  clipboardData.setData("text", section + "\r\n");
+  alert("Copied to clipboard");
+  }
+  }
+  </script>
+  <div class="codeSnippetContainer">
+    <div class="codeSnippetContainerTabs">
+      <script type="text/javascript">
+      if (document.URL.match(/^mk:@MSITStore:/i)) {
+      document.write('<div class="codeSnippetContainerTab codeSnippetContainerTabSingle" dir="ltr">');
+      document.write('<object id=hhctrl type="application/x-oleobject" classid="clsid:adb880a6-d8ff-11cf-9377-00aa003b7a11"><param name="Command" value="ShortCut"><param name="Font" value="Verdana,10pt"><param name="Text" value="Text:Open this Script"><param name="Item1" value=",Examples\\HelpFile\\_SQLite_SQLiteExe.au3,"><\/object>');
+      document.write('<\/div>');
+      }
+      </script>
+    </div>
+    <div class="codeSnippetContainerCodeContainer">
+      <div class="codeSnippetToolBar">
+        <div class="codeSnippetToolBarText">
+          <script type="text/javascript">
+          if ((navigator.appName == "Microsoft Internet Explorer") && (parseInt(navigator.appVersion) >= 4)) // IE (4+) only
+          document.write('<a href="#" id="copy" onclick="copyToClipboard(document.getElementById(\'copytext1\').innerText)">Copy to clipboard<\/a>');
+          </script>
+        </div>
+      </div>
+      <div class="codeSnippetContainerCode" dir="ltr" id="copytext1">
+        <pre>
+<span><a class="codeSnippetLink" href="../keywords/include.htm"><span class="S11">#include</span></a><span class="S0"> </span><span class="S7" translate="no">&lt;File.au3&gt;</span>
+<a class="codeSnippetLink" href="../keywords/include.htm"><span class="S11">#include</span></a><span class="S0"> </span><span class="S7" translate="no">&lt;SQLite.au3&gt;</span>
+<a class="codeSnippetLink" href="../keywords/include.htm"><span class="S11">#include</span></a><span class="S0"> </span><span class="S7">&lt;SQLite.dll.au3&gt;</span>
+<a class="codeSnippetLink" href="../keywords/include.htm"><span class="S11">#include</span></a><span class="S0"> </span><span class="S7" translate="no">&lt;StringConstants.au3&gt;</span>
+
+<span class="S1">; <span translate="yes">Filenames</span></span>
+<a class="codeSnippetLink" href="../keywords/Dim.htm"><span class="S5">Local</span></a><span class="S0"> </span><span class="S9">$sTsvFile</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../functions/FileGetShortName.htm"><span class="S4">FileGetShortName</span></a><span class="S8">(</span><a class="codeSnippetLink" href="../libfunctions/_TempFile.htm"><span class="S15">_TempFile</span></a><span class="S8">(</span><a class="codeSnippetLink" href="../macros.htm#@ScriptDir"><span class="S6">@ScriptDir</span></a><span class="S8">,</span><span class="S0"> </span><span class="S7">"<span translate="yes">~</span>"</span><span class="S8">,</span><span class="S0"> </span><span class="S7">"<span translate="yes">.tsv</span>"</span><span class="S8">))</span>
+<a class="codeSnippetLink" href="../keywords/Dim.htm"><span class="S5">Local</span></a><span class="S0"> </span><span class="S9">$sDbFile</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../functions/FileGetShortName.htm"><span class="S4">FileGetShortName</span></a><span class="S8">(</span><a class="codeSnippetLink" href="../libfunctions/_TempFile.htm"><span class="S15">_TempFile</span></a><span class="S8">(</span><a class="codeSnippetLink" href="../macros.htm#@ScriptDir"><span class="S6">@ScriptDir</span></a><span class="S8">,</span><span class="S0"> </span><span class="S7">"<span translate="yes">~</span>"</span><span class="S8">,</span><span class="S0"> </span><span class="S7">"<span translate="yes">.db</span>"</span><span class="S8">))</span>
+
+<span class="S1">; <span translate="yes">Create Tsv File</span></span>
+<a class="codeSnippetLink" href="../functions/FileWriteLine.htm"><span class="S4">FileWriteLine</span></a><span class="S8">(</span><span class="S9">$sTsvFile</span><span class="S8">,</span><span class="S0"> </span><span class="S7">"<span translate="yes">a</span>"</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><a class="codeSnippetLink" href="../macros.htm#@TAB"><span class="S6">@TAB</span></a><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><span class="S7">"<span translate="yes">b</span>"</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><a class="codeSnippetLink" href="../macros.htm#@TAB"><span class="S6">@TAB</span></a><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><span class="S7">"<span translate="yes">c</span>"</span><span class="S8">)</span>
+<a class="codeSnippetLink" href="../functions/FileWriteLine.htm"><span class="S4">FileWriteLine</span></a><span class="S8">(</span><span class="S9">$sTsvFile</span><span class="S8">,</span><span class="S0"> </span><span class="S7">"<span translate="yes">a1</span>"</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><a class="codeSnippetLink" href="../macros.htm#@TAB"><span class="S6">@TAB</span></a><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><span class="S7">"<span translate="yes">b1</span>"</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><a class="codeSnippetLink" href="../macros.htm#@TAB"><span class="S6">@TAB</span></a><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><span class="S7">"<span translate="yes">c1</span>"</span><span class="S8">)</span>
+<a class="codeSnippetLink" href="../functions/FileWriteLine.htm"><span class="S4">FileWriteLine</span></a><span class="S8">(</span><span class="S9">$sTsvFile</span><span class="S8">,</span><span class="S0"> </span><span class="S7">"<span translate="yes">a2</span>"</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><a class="codeSnippetLink" href="../macros.htm#@TAB"><span class="S6">@TAB</span></a><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><span class="S7">"<span translate="yes">b2</span>"</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><a class="codeSnippetLink" href="../macros.htm#@TAB"><span class="S6">@TAB</span></a><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><span class="S7">"<span translate="yes">c2</span>"</span><span class="S8">)</span>
+
+<span class="S1">; <span translate="yes">import (using SQLite3.exe)</span></span>
+<a class="codeSnippetLink" href="../keywords/Dim.htm"><span class="S5">Local</span></a><span class="S0"> </span><span class="S9">$sIn</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$sOut</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$i</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$sCreate</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><span class="S7">"<span translate="yes">CREATE TABLE TblImport (</span>"</span><span class="S1">;</span>
+<a class="codeSnippetLink" href="../keywords/For.htm"><span class="S5">For</span></a><span class="S0"> </span><span class="S9">$i</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><span class="S3">1</span><span class="S0"> </span><a class="codeSnippetLink" href="../keywords/For.htm"><span class="S5">To</span></a><span class="S0"> _StringCountOccurance</span><span class="S8">(</span><a class="codeSnippetLink" href="../functions/FileReadLine.htm"><span class="S4">FileReadLine</span></a><span class="S8">(</span><span class="S9">$sTsvFile</span><span class="S8">,</span><span class="S0"> </span><span class="S3">1</span><span class="S8">),</span><span class="S0"> </span><a class="codeSnippetLink" href="../macros.htm#@TAB"><span class="S6">@TAB</span></a><span class="S8">)</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">+</span></a><span class="S0"> </span><span class="S3">1</span>
+<span class="S0">    </span><span class="S9">$sCreate</span><span class="S0"> </span><span class="S8">&amp;=</span><span class="S0"> </span><span class="S7">"<span translate="yes">Column_</span>"</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><span class="S9">$i</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><span class="S7">"<span translate="yes">,</span>"</span>
+<a class="codeSnippetLink" href="../keywords/For.htm"><span class="S5">Next</span></a>
+<span class="S9">$sCreate</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../functions/StringTrimRight.htm"><span class="S4">StringTrimRight</span></a><span class="S8">(</span><span class="S9">$sCreate</span><span class="S8">,</span><span class="S0"> </span><span class="S3">1</span><span class="S8">)</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><span class="S7">"<span translate="yes">);</span>"</span>
+<span class="S9">$sIn</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><span class="S9">$sCreate</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><a class="codeSnippetLink" href="../macros.htm#@CRLF"><span class="S6">@CRLF</span></a><span class="S0"> </span><span class="S1">; <span translate="yes">Create Table</span></span>
+<span class="S9">$sIn</span><span class="S0"> </span><span class="S8">&amp;=</span><span class="S0"> </span><span class="S7">"<span translate="yes">.separator \t</span>"</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><a class="codeSnippetLink" href="../macros.htm#@CRLF"><span class="S6">@CRLF</span></a><span class="S0"> </span><span class="S1">; <span translate="yes">Select @TAB as Separator</span></span>
+<span class="S9">$sIn</span><span class="S0"> </span><span class="S8">&amp;=</span><span class="S0"> </span><span class="S7">"<span translate="yes">.import '</span>"</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><span class="S9">$sTsvFile</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><span class="S7">"<span translate="yes">' TblImport</span>"</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><a class="codeSnippetLink" href="../macros.htm#@CRLF"><span class="S6">@CRLF</span></a>
+<a class="codeSnippetLink" href="../libfunctions/_SQLite_SQLiteExe.htm"><span class="S15">_SQLite_SQLiteExe</span></a><span class="S8">(</span><span class="S9">$sDbFile</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$sIn</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$sOut</span><span class="S8">,</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">-</span></a><span class="S3">1</span><span class="S8">,</span><span class="S0"> </span><a class="codeSnippetLink" href="../keywords/Booleans.htm"><span class="S5">True</span></a><span class="S8">)</span>
+
+<a class="codeSnippetLink" href="../keywords/If.htm"><span class="S5">If</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../macros.htm#@error"><span class="S6">@error</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><span class="S3">0</span><span class="S0"> </span><a class="codeSnippetLink" href="../keywords/IfElseEndIf.htm"><span class="S5">Then</span></a>
+<span class="S0">    </span><span class="S1">;<span translate="yes">Show Table (using SQLite3.dll)</span></span>
+<span class="S0">    </span><a class="codeSnippetLink" href="../keywords/Dim.htm"><span class="S5">Local</span></a><span class="S0"> </span><span class="S9">$iRows</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$iColumns</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$aRes</span>
+<span class="S0">    </span><a class="codeSnippetLink" href="../libfunctions/_SQLite_Startup.htm"><span class="S15">_SQLite_Startup</span></a><span class="S8">()</span>
+<span class="S0">    </span><a class="codeSnippetLink" href="../functions/ConsoleWrite.htm"><span class="S4">ConsoleWrite</span></a><span class="S8">(</span><span class="S7">"<span translate="yes">_SQLite_LibVersion=</span>"</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><a class="codeSnippetLink" href="../libfunctions/_SQLite_LibVersion.htm"><span class="S15">_SQLite_LibVersion</span></a><span class="S8">()</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><a class="codeSnippetLink" href="../macros.htm#@CRLF"><span class="S6">@CRLF</span></a><span class="S8">)</span>
+<span class="S0">    </span><a class="codeSnippetLink" href="../libfunctions/_SQLite_Open.htm"><span class="S15">_SQLite_Open</span></a><span class="S8">(</span><span class="S9">$sDbFile</span><span class="S8">)</span>
+<span class="S0">    </span><a class="codeSnippetLink" href="../libfunctions/_SQLite_GetTable2d.htm"><span class="S15">_SQLite_GetTable2d</span></a><span class="S8">(-</span><span class="S3">1</span><span class="S8">,</span><span class="S0"> </span><span class="S7">"<span translate="yes">SELECT ROWID,* FROM TblImport;</span>"</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$aRes</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$iRows</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$iColumns</span><span class="S8">)</span>
+<span class="S0">    </span><a class="codeSnippetLink" href="../libfunctions/_SQLite_Display2DResult.htm"><span class="S15">_SQLite_Display2DResult</span></a><span class="S8">(</span><span class="S9">$aRes</span><span class="S8">)</span><span class="S0"> </span><span class="S1">; <span translate="yes">Output to Console</span></span>
+<span class="S0">    </span><a class="codeSnippetLink" href="../libfunctions/_SQLite_Close.htm"><span class="S15">_SQLite_Close</span></a><span class="S8">()</span>
+<span class="S0">    </span><a class="codeSnippetLink" href="../libfunctions/_SQLite_Shutdown.htm"><span class="S15">_SQLite_Shutdown</span></a><span class="S8">()</span>
+<a class="codeSnippetLink" href="../keywords/IfElseEndIf.htm"><span class="S5">Else</span></a>
+<span class="S0">    </span><a class="codeSnippetLink" href="../keywords/If.htm"><span class="S5">If</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../macros.htm#@error"><span class="S6">@error</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><span class="S3">2</span><span class="S0"> </span><a class="codeSnippetLink" href="../keywords/IfElseEndIf.htm"><span class="S5">Then</span></a>
+<span class="S0">        </span><a class="codeSnippetLink" href="../functions/ConsoleWrite.htm"><span class="S4">ConsoleWrite</span></a><span class="S8">(</span><span class="S7">"<span translate="yes">ERROR: Sqlite3.exe file not found</span>"</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><a class="codeSnippetLink" href="../macros.htm#@CRLF"><span class="S6">@CRLF</span></a><span class="S8">)</span>
+<span class="S0">    </span><a class="codeSnippetLink" href="../keywords/IfElseEndIf.htm"><span class="S5">Else</span></a>
+<span class="S0">        </span><a class="codeSnippetLink" href="../functions/ConsoleWrite.htm"><span class="S4">ConsoleWrite</span></a><span class="S8">(</span><span class="S7">"<span translate="yes">ERROR: @error=</span>"</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><a class="codeSnippetLink" href="../macros.htm#@error"><span class="S6">@error</span></a><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><span class="S7">" <span translate="yes">when calling _SQLite_SQLiteExe</span>"</span><span class="S0"> </span><span class="S8">&</span><span class="S0"> </span><a class="codeSnippetLink" href="../macros.htm#@CRLF"><span class="S6">@CRLF</span></a><span class="S8">)</span>
+<span class="S0">    </span><a class="codeSnippetLink" href="../keywords/IfElseEndIf.htm"><span class="S5">EndIf</span></a>
+<a class="codeSnippetLink" href="../keywords/IfElseEndIf.htm"><span class="S5">EndIf</span></a>
+
+<span class="S1">; <span translate="yes">Remove Temp Files</span></span>
+<a class="codeSnippetLink" href="../functions/FileDelete.htm"><span class="S4">FileDelete</span></a><span class="S8">(</span><span class="S9">$sTsvFile</span><span class="S8">)</span>
+<a class="codeSnippetLink" href="../functions/FileDelete.htm"><span class="S4">FileDelete</span></a><span class="S8">(</span><span class="S9">$sDbFile</span><span class="S8">)</span>
+
+<span class="S1">; <span translate="yes">Output:</span></span>
+<span class="S1">; <span translate="yes">rowid  Column_1  Column_2  Column_3</span></span>
+<span class="S1">; <span translate="yes">1      a         b         c</span></span>
+<span class="S1">; <span translate="yes">2      a1        b1        c1</span></span>
+<span class="S1">; <span translate="yes">3      a2        b2        c2</span></span>
+
+<a class="codeSnippetLink" href="../keywords/Func.htm"><span class="S5">Func</span></a><span class="S0"> _StringCountOccurance</span><span class="S8">(</span><span class="S9">$sSearchString</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$sSubString</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$iCaseSense</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><span class="S9">$STR_NOCASESENSE</span><span class="S8">)</span><span class="S0"> </span><span class="S1">; <span translate="yes">Returns Number of $sSubString in $sSearchString</span></span>
+<span class="S0">    </span><a class="codeSnippetLink" href="../keywords/Dim.htm"><span class="S5">Local</span></a><span class="S0"> </span><span class="S9">$iOccCnt</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">=</span></a><span class="S0"> </span><span class="S3">1</span>
+<span class="S0">    </span><a class="codeSnippetLink" href="../keywords/Do.htm"><span class="S5">Do</span></a>
+<span class="S0">        </span><a class="codeSnippetLink" href="../keywords/If.htm"><span class="S5">If</span></a><span class="S0"> </span><a class="codeSnippetLink" href="../functions/StringInStr.htm"><span class="S4">StringInStr</span></a><span class="S8">(</span><span class="S9">$sSearchString</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$sSubString</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$iCaseSense</span><span class="S8">,</span><span class="S0"> </span><span class="S9">$iOccCnt</span><span class="S8">)</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">&gt;</span></a><span class="S0"> </span><span class="S3">0</span><span class="S0"> </span><a class="codeSnippetLink" href="../keywords/IfElseEndIf.htm"><span class="S5">Then</span></a>
+<span class="S0">            </span><span class="S9">$iOccCnt</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">+=</span></a><span class="S0"> </span><span class="S3">1</span>
+<span class="S0">        </span><a class="codeSnippetLink" href="../keywords/IfElseEndIf.htm"><span class="S5">Else</span></a>
+<span class="S0">            </span><a class="codeSnippetLink" href="../keywords/ExitLoop.htm"><span class="S5">ExitLoop</span></a>
+<span class="S0">        </span><a class="codeSnippetLink" href="../keywords/IfElseEndIf.htm"><span class="S5">EndIf</span></a>
+<span class="S0">    </span><a class="codeSnippetLink" href="../keywords/Do.htm"><span class="S5">Until</span></a><span class="S0"> </span><span class="S3">0</span>
+<span class="S0">    </span><a class="codeSnippetLink" href="../keywords/Func.htm"><span class="S5">Return</span></a><span class="S0"> </span><span class="S9">$iOccCnt</span><span class="S0"> </span><a class="codeSnippetLink" href="../intro/lang_operators.htm"><span class="S8">-</span></a><span class="S0"> </span><span class="S3">1</span>
+<a class="codeSnippetLink" href="../keywords/Func.htm"><span class="S5">EndFunc</span></a><span class="S0">   </span><span class="S1" translate="no">;==&gt;_StringCountOccurance</span>
+</span>
+</pre>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

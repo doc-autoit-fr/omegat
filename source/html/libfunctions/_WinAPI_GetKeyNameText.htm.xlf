@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_GetKeyNameText.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves a string that represents the name of a key</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves a string that represents the name of a key</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves a string that represents the name of a key</mrk></target>
+<note>Function _WinAPI_GetKeyNameText</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Specifies the second parameter of the keyboard message (such as WM_KEYDOWN) to be processed.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the second parameter of the keyboard message (such as WM_KEYDOWN) to be processed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the second parameter of the keyboard message (such as WM_KEYDOWN) to be processed.</mrk></target>
+<note>$lParam</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">String containing the name of the key.</source>
+<seg-source><mrk mid="0" mtype="seg">String containing the name of the key.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String containing the name of the key.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> Empty string, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">Empty string, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Empty string, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">The format of the key-name string depends on the current keyboard layout. The keyboard driver maintains a list</source>
+<seg-source><mrk mid="0" mtype="seg">The format of the key-name string depends on the current keyboard layout.</mrk> <mrk mid="1" mtype="seg">The keyboard driver maintains a list</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The format of the key-name string depends on the current keyboard layout.</mrk> <mrk mid="1" mtype="seg">The keyboard driver maintains a list</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> of names in the form of character strings for keys with names longer than a single character. The key name</source>
+<seg-source> <mrk mid="0" mtype="seg">of names in the form of character strings for keys with names longer than a single character.</mrk> <mrk mid="1" mtype="seg">The key name</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">of names in the form of character strings for keys with names longer than a single character.</mrk> <mrk mid="1" mtype="seg">The key name</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> is translated according to the layout of the currently installed keyboard, thus the function may give different</source>
+<seg-source> <mrk mid="0" mtype="seg">is translated according to the layout of the currently installed keyboard, thus the function may give different</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">is translated according to the layout of the currently installed keyboard, thus the function may give different</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> results for different input locales. The name of a character key is the character itself. The names of dead</source>
+<seg-source> <mrk mid="0" mtype="seg">results for different input locales.</mrk> <mrk mid="1" mtype="seg">The name of a character key is the character itself.</mrk> <mrk mid="2" mtype="seg">The names of dead</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">results for different input locales.</mrk> <mrk mid="1" mtype="seg">The name of a character key is the character itself.</mrk> <mrk mid="2" mtype="seg">The names of dead</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> keys are spelled out in full.</source>
+<seg-source> <mrk mid="0" mtype="seg">keys are spelled out in full.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">keys are spelled out in full.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetKeyNameText);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetKeyNameText<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetKeyNameText);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetKeyNameText<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetKeyNameText);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetKeyNameText<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">WM_KEYDOWN</source>
+<seg-source><mrk mid="0" mtype="seg">WM_KEYDOWN</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_KEYDOWN</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

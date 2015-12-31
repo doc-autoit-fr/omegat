@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/WinMove.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Moves and/or resizes a window.</source>
+<seg-source><mrk mid="0" mtype="seg">Moves and/or resizes a window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Moves and/or resizes a window.</mrk></target>
+<note>Function WinMove</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> The title/hWnd/class of the window to move/resize. See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsadvanced.htm"></bpt>Title special definition<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">The title/hWnd/class of the window to move/resize.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsadvanced.htm"></bpt>Title special definition<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The title/hWnd/class of the window to move/resize.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsadvanced.htm"></bpt>Title special definition<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>title</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> The text of the window to move/resize. See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsbasic.htm#specialtext"></bpt>Text special definition<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">The text of the window to move/resize.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsbasic.htm#specialtext"></bpt>Text special definition<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The text of the window to move/resize.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsbasic.htm#specialtext"></bpt>Text special definition<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>text</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">X coordinate to move to.</source>
+<seg-source><mrk mid="0" mtype="seg">X coordinate to move to.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X coordinate to move to.</mrk></target>
+<note>x</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Y coordinate to move to.</source>
+<seg-source><mrk mid="0" mtype="seg">Y coordinate to move to.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y coordinate to move to.</mrk></target>
+<note>y</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> New width of the window.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">New width of the window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">New width of the window.</mrk></target>
+<note>width</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> New height of the window.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">New height of the window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">New height of the window.</mrk></target>
+<note>height</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> the speed to move the windows in the range 1 (fastest) to 100 (slowest). If not defined the move is instantaneous.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">the speed to move the windows in the range 1 (fastest) to 100 (slowest).</mrk> <mrk mid="2" mtype="seg">If not defined the move is instantaneous.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">the speed to move the windows in the range 1 (fastest) to 100 (slowest).</mrk> <mrk mid="2" mtype="seg">If not defined the move is instantaneous.</mrk></target>
+<note>speed</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">a handle to the window.</source>
+<seg-source><mrk mid="0" mtype="seg">a handle to the window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a handle to the window.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">0 if the window is not found.</source>
+<seg-source><mrk mid="0" mtype="seg">0 if the window is not found.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 if the window is not found.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="WinMove.htm"></bpt>WinMove()<ept id="1">&lt;/a></ept> has no effect on minimized windows, but <bpt id="2" ctype="x-a">&lt;a href="WinMove.htm"></bpt>WinMove()<ept id="2">&lt;/a></ept> works on hidden windows.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="WinMove.htm"></bpt>WinMove()<ept id="1">&lt;/a></ept> has no effect on minimized windows, but <bpt id="2" ctype="x-a">&lt;a href="WinMove.htm"></bpt>WinMove()<ept id="2">&lt;/a></ept> works on hidden windows.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="WinMove.htm"></bpt>WinMove()<ept id="1">&lt;/a></ept> has no effect on minimized windows, but <bpt id="2" ctype="x-a">&lt;a href="WinMove.htm"></bpt>WinMove()<ept id="2">&lt;/a></ept> works on hidden windows.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> If the width and height are small (or negative), the window will go no smaller than 112 x 27 pixels. If width and height are large, the window will go no larger than approximately [12+@DesktopWidth] x [12+@DesktopHeight] pixels.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the width and height are small (or negative), the window will go no smaller than 112 x 27 pixels.</mrk> <mrk mid="1" mtype="seg">If width and height are large, the window will go no larger than approximately [12+@DesktopWidth] x [12+@DesktopHeight] pixels.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the width and height are small (or negative), the window will go no smaller than 112 x 27 pixels.</mrk> <mrk mid="1" mtype="seg">If width and height are large, the window will go no larger than approximately [12+@DesktopWidth] x [12+@DesktopHeight] pixels.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> Negative values are allowed for the x and y coordinates. In fact, you can move a window off screen; and if the window's program is one that remembers its last window position, the window will appear in the corner (but fully on-screen) the next time you launch the program.</source>
+<seg-source> <mrk mid="0" mtype="seg">Negative values are allowed for the x and y coordinates.</mrk> <mrk mid="1" mtype="seg">In fact, you can move a window off screen; and if the window's program is one that remembers its last window position, the window will appear in the corner (but fully on-screen) the next time you launch the program.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Negative values are allowed for the x and y coordinates.</mrk> <mrk mid="1" mtype="seg">In fact, you can move a window off screen; and if the window's program is one that remembers its last window position, the window will appear in the corner (but fully on-screen) the next time you launch the program.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> If multiple windows match the criteria, the most recently active window is used.</source>
+<seg-source> <mrk mid="0" mtype="seg">If multiple windows match the criteria, the most recently active window is used.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If multiple windows match the criteria, the most recently active window is used.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> If x and y equal to the <bpt id="1" ctype="x-a">&lt;a href="../keywords/Default.htm"></bpt>Default keyword<ept id="1">&lt;/a></ept> no move occurs, just resizing.</source>
+<seg-source> <mrk mid="0" mtype="seg">If x and y equal to the <bpt id="1" ctype="x-a">&lt;a href="../keywords/Default.htm"></bpt>Default keyword<ept id="1">&lt;/a></ept> no move occurs, just resizing.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If x and y equal to the <bpt id="1" ctype="x-a">&lt;a href="../keywords/Default.htm"></bpt>Default keyword<ept id="1">&lt;/a></ept> no move occurs, just resizing.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> When speed is used the move is done with the new size.</source>
+<seg-source> <mrk mid="0" mtype="seg">When speed is used the move is done with the new size.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When speed is used the move is done with the new size.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Run Notepad</source>
+<seg-source><mrk mid="0" mtype="seg">Run Notepad</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Run Notepad</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">notepad.exe</source>
+<seg-source><mrk mid="0" mtype="seg">notepad.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">notepad.exe</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Wait 10 seconds for the Notepad window to appear.</source>
+<seg-source><mrk mid="0" mtype="seg">Wait 10 seconds for the Notepad window to appear.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wait 10 seconds for the Notepad window to appear.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">[CLASS:Notepad]</source>
+<seg-source><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Retrieve the position as well as the height and width of the Notepad window. We will use this when we have to move the window back to the original position.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve the position as well as the height and width of the Notepad window.</mrk> <mrk mid="1" mtype="seg">We will use this when we have to move the window back to the original position.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve the position as well as the height and width of the Notepad window.</mrk> <mrk mid="1" mtype="seg">We will use this when we have to move the window back to the original position.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Move the Notepad to the x, y position of 0, 0 and set the height and width at 200, 200.</source>
+<seg-source><mrk mid="0" mtype="seg">Move the Notepad to the x, y position of 0, 0 and set the height and width at 200, 200.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Move the Notepad to the x, y position of 0, 0 and set the height and width at 200, 200.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Wait for 2 seconds to display the new position of the Notepad window.</source>
+<seg-source><mrk mid="0" mtype="seg">Wait for 2 seconds to display the new position of the Notepad window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wait for 2 seconds to display the new position of the Notepad window.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Move the Notepad window back to the original position by using the array returned by WinGetPos.</source>
+<seg-source><mrk mid="0" mtype="seg">Move the Notepad window back to the original position by using the array returned by WinGetPos.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Move the Notepad window back to the original position by using the array returned by WinGetPos.</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Wait for 2 seconds to display the original position of the Notepad window.</source>
+<seg-source><mrk mid="0" mtype="seg">Wait for 2 seconds to display the original position of the Notepad window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wait for 2 seconds to display the original position of the Notepad window.</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Close the Notepad window using the handle returned by WinWait.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the Notepad window using the handle returned by WinWait.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the Notepad window using the handle returned by WinWait.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

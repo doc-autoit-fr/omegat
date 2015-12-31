@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_StretchDIBits.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Copies the color data for a rectangle of pixels in a DIB, JPEG, or PNG image to the specified destination rectangle, stretching or compressing the rows and columns by using the specified raster operation</source>
+<seg-source><mrk mid="0" mtype="seg">Copies the color data for a rectangle of pixels in a DIB, JPEG, or PNG image to the specified destination rectangle, stretching or compressing the rows and columns by using the specified raster operation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Copies the color data for a rectangle of pixels in a DIB, JPEG, or PNG image to the specified destination rectangle, stretching or compressing the rows and columns by using the specified raster operation</mrk></target>
+<note>Function _WinAPI_StretchDIBits</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the destination device context.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the destination device context.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the destination device context.</mrk></target>
+<note>$hDestDC</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The x-coordinate, in logical units, of the upper-left corner of the destination rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg">The x-coordinate, in logical units, of the upper-left corner of the destination rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The x-coordinate, in logical units, of the upper-left corner of the destination rectangle.</mrk></target>
+<note>$iXDest</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The y-coordinate, in logical units, of the upper-left corner of the destination rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg">The y-coordinate, in logical units, of the upper-left corner of the destination rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The y-coordinate, in logical units, of the upper-left corner of the destination rectangle.</mrk></target>
+<note>$iYDest</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The width, in logical units, of the destination rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg">The width, in logical units, of the destination rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The width, in logical units, of the destination rectangle.</mrk></target>
+<note>$iWidthDest</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">The height, in logical units, of the destination rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg">The height, in logical units, of the destination rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The height, in logical units, of the destination rectangle.</mrk></target>
+<note>$iHeightDest</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">The x-coordinate, in pixels, of the source rectangle in the image.</source>
+<seg-source><mrk mid="0" mtype="seg">The x-coordinate, in pixels, of the source rectangle in the image.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The x-coordinate, in pixels, of the source rectangle in the image.</mrk></target>
+<note>$iXSrc</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">The y-coordinate, in pixels, of the source rectangle in the image.</source>
+<seg-source><mrk mid="0" mtype="seg">The y-coordinate, in pixels, of the source rectangle in the image.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The y-coordinate, in pixels, of the source rectangle in the image.</mrk></target>
+<note>$iYSrc</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">The width, in pixels, of the source rectangle in the image.</source>
+<seg-source><mrk mid="0" mtype="seg">The width, in pixels, of the source rectangle in the image.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The width, in pixels, of the source rectangle in the image.</mrk></target>
+<note>$iWidthSrc</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">The height, in pixels, of the source rectangle in the image.</source>
+<seg-source><mrk mid="0" mtype="seg">The height, in pixels, of the source rectangle in the image.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The height, in pixels, of the source rectangle in the image.</mrk></target>
+<note>$iHeightSrc</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">$tagBITMAPINFO structure that contains information about the DIB.</source>
+<seg-source><mrk mid="0" mtype="seg">$tagBITMAPINFO structure that contains information about the DIB.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$tagBITMAPINFO structure that contains information about the DIB.</mrk></target>
+<note>$tBITMAPINFO</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">The type of colors used. (either logical palette indexes or literal RGB values).</source>
+<seg-source><mrk mid="0" mtype="seg">The type of colors used.</mrk> <mrk mid="1" mtype="seg">(either logical palette indexes or literal RGB values).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The type of colors used.</mrk> <mrk mid="1" mtype="seg">(either logical palette indexes or literal RGB values).</mrk></target>
+<note>$iUsage</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> The following values are defined:</source>
+<seg-source> <mrk mid="0" mtype="seg">The following values are defined:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The following values are defined:</mrk></target>
+<note>$iUsage</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $DIB_PAL_COLORS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DIB_PAL_COLORS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DIB_PAL_COLORS</mrk></target>
+<note>$iUsage</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $DIB_RGB_COLORS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DIB_RGB_COLORS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DIB_RGB_COLORS</mrk></target>
+<note>$iUsage</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">A pointer to the image bits, which are stored as an array of bytes.</source>
+<seg-source><mrk mid="0" mtype="seg">A pointer to the image bits, which are stored as an array of bytes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A pointer to the image bits, which are stored as an array of bytes.</mrk></target>
+<note>$pBits</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">The raster-operation code that specifies how the source pixels, the destination device context's</source>
+<seg-source><mrk mid="0" mtype="seg">The raster-operation code that specifies how the source pixels, the destination device context's</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The raster-operation code that specifies how the source pixels, the destination device context's</mrk></target>
+<note>$iRop</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> current brush, and the destination pixels are to be combined to form the new image.</source>
+<seg-source> <mrk mid="0" mtype="seg">current brush, and the destination pixels are to be combined to form the new image.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">current brush, and the destination pixels are to be combined to form the new image.</mrk></target>
+<note>$iRop</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> It must be 0 or one of the following values:</source>
+<seg-source> <mrk mid="0" mtype="seg">It must be 0 or one of the following values:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">It must be 0 or one of the following values:</mrk></target>
+<note>$iRop</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     $BLACKNESS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BLACKNESS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BLACKNESS</mrk></target>
+<note>$iRop</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     $CAPTUREBLT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CAPTUREBLT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CAPTUREBLT</mrk></target>
+<note>$iRop</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">     $DSTINVERT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DSTINVERT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DSTINVERT</mrk></target>
+<note>$iRop</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">     $MERGECOPY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MERGECOPY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MERGECOPY</mrk></target>
+<note>$iRop</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">     $MERGEPAINT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MERGEPAINT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MERGEPAINT</mrk></target>
+<note>$iRop</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">     $NOMIRRORBITMAP</source>
+<seg-source> <mrk mid="0" mtype="seg">    $NOMIRRORBITMAP</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $NOMIRRORBITMAP</mrk></target>
+<note>$iRop</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">     $NOTSRCCOPY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $NOTSRCCOPY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $NOTSRCCOPY</mrk></target>
+<note>$iRop</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">     $NOTSRCERASE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $NOTSRCERASE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $NOTSRCERASE</mrk></target>
+<note>$iRop</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">     $PATCOPY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PATCOPY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PATCOPY</mrk></target>
+<note>$iRop</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">     $PATINVERT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PATINVERT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PATINVERT</mrk></target>
+<note>$iRop</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">     $PATPAINT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PATPAINT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PATPAINT</mrk></target>
+<note>$iRop</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">     $SRCAND</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SRCAND</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SRCAND</mrk></target>
+<note>$iRop</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">     $SRCCOPY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SRCCOPY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SRCCOPY</mrk></target>
+<note>$iRop</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">     $SRCERASE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SRCERASE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SRCERASE</mrk></target>
+<note>$iRop</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">     $SRCINVERT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SRCINVERT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SRCINVERT</mrk></target>
+<note>$iRop</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">     $SRCPAINT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SRCPAINT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SRCPAINT</mrk></target>
+<note>$iRop</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">     $WHITENESS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $WHITENESS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $WHITENESS</mrk></target>
+<note>$iRop</note>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">the number of scan lines copied. Note that this value can be negative for mirrored content.</source>
+<seg-source><mrk mid="0" mtype="seg">the number of scan lines copied.</mrk> <mrk mid="1" mtype="seg">Note that this value can be negative for mirrored content.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the number of scan lines copied.</mrk> <mrk mid="1" mtype="seg">Note that this value can be negative for mirrored content.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en"> 0 - Otherwise.</source>
+<seg-source> <mrk mid="0" mtype="seg">0 - Otherwise.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 - Otherwise.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">sets the @error flag to non-zero (GDI_ERROR).</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero (GDI_ERROR).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero (GDI_ERROR).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_StretchDIBits.htm"></bpt>_WinAPI_StretchDIBits()<ept id="1">&lt;/a></ept> creates a mirror image of a bitmap if the signs of the $iWidthSrc and $iWidthDest parameters,</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_StretchDIBits.htm"></bpt>_WinAPI_StretchDIBits()<ept id="1">&lt;/a></ept> creates a mirror image of a bitmap if the signs of the $iWidthSrc and $iWidthDest parameters,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_StretchDIBits.htm"></bpt>_WinAPI_StretchDIBits()<ept id="1">&lt;/a></ept> creates a mirror image of a bitmap if the signs of the $iWidthSrc and $iWidthDest parameters,</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en"> or if the $iHeightSrc and $iHeightDest parameters differ. If $iWidthSrc and $iWidthDest have different signs,</source>
+<seg-source> <mrk mid="0" mtype="seg">or if the $iHeightSrc and $iHeightDest parameters differ.</mrk> <mrk mid="1" mtype="seg">If $iWidthSrc and $iWidthDest have different signs,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">or if the $iHeightSrc and $iHeightDest parameters differ.</mrk> <mrk mid="1" mtype="seg">If $iWidthSrc and $iWidthDest have different signs,</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en"> the function creates a mirror image of the bitmap along the x-axis. If $iHeightSrc and $iHeightDest have different</source>
+<seg-source> <mrk mid="0" mtype="seg">the function creates a mirror image of the bitmap along the x-axis.</mrk> <mrk mid="1" mtype="seg">If $iHeightSrc and $iHeightDest have different</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">the function creates a mirror image of the bitmap along the x-axis.</mrk> <mrk mid="1" mtype="seg">If $iHeightSrc and $iHeightDest have different</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en"> signs, the function creates a mirror image of the bitmap along the y-axis.</source>
+<seg-source> <mrk mid="0" mtype="seg">signs, the function creates a mirror image of the bitmap along the y-axis.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">signs, the function creates a mirror image of the bitmap along the y-axis.</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(StretchDIBits);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>StretchDIBits<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(StretchDIBits);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>StretchDIBits<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(StretchDIBits);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>StretchDIBits<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

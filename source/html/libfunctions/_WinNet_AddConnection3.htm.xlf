@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinNet_AddConnection3.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Connects a local device to a network resource</source>
+<seg-source><mrk mid="0" mtype="seg">Connects a local device to a network resource</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Connects a local device to a network resource</mrk></target>
+<note>Function _WinNet_AddConnection3</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to a window that the provider of network resources can use as an owner window for</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to a window that the provider of network resources can use as an owner window for</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to a window that the provider of network resources can use as an owner window for</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> dialogs. Use this parameter if you set bit 2 (interactive) in the Options parameter. This parameter can be 0.</source>
+<seg-source> <mrk mid="0" mtype="seg">dialogs.</mrk> <mrk mid="1" mtype="seg">Use this parameter if you set bit 2 (interactive) in the Options parameter.</mrk> <mrk mid="2" mtype="seg">This parameter can be 0.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">dialogs.</mrk> <mrk mid="1" mtype="seg">Use this parameter if you set bit 2 (interactive) in the Options parameter.</mrk> <mrk mid="2" mtype="seg">This parameter can be 0.</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Name of a local device to be redirected, such as "F:" or "LPT1". The string is treated in a</source>
+<seg-source><mrk mid="0" mtype="seg">Name of a local device to be redirected, such as "F:" or "LPT1".</mrk> <mrk mid="1" mtype="seg">The string is treated in a</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Name of a local device to be redirected, such as "F:" or "LPT1".</mrk> <mrk mid="1" mtype="seg">The string is treated in a</mrk></target>
+<note>$sLocalName</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> case-insensitive manner. If the Null keyword or an empty, a connection to the network resource is made without redirecting the local</source>
+<seg-source> <mrk mid="0" mtype="seg">case-insensitive manner.</mrk> <mrk mid="1" mtype="seg">If the Null keyword or an empty, a connection to the network resource is made without redirecting the local</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">case-insensitive manner.</mrk> <mrk mid="1" mtype="seg">If the Null keyword or an empty, a connection to the network resource is made without redirecting the local</mrk></target>
+<note>$sLocalName</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> device.</source>
+<seg-source> <mrk mid="0" mtype="seg">device.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">device.</mrk></target>
+<note>$sLocalName</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Name of the network resource to connect to</source>
+<seg-source><mrk mid="0" mtype="seg">Name of the network resource to connect to</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Name of the network resource to connect to</mrk></target>
+<note>$sRemoteName</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> User name for making the connection. If 0, the function uses the default user name.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">User name for making the connection.</mrk> <mrk mid="2" mtype="seg">If 0, the function uses the default user name.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">User name for making the connection.</mrk> <mrk mid="2" mtype="seg">If 0, the function uses the default user name.</mrk></target>
+<note>$sUsername</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Password to be used to make a connection. If 0, the default password is used. If the string is</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Password to be used to make a connection.</mrk> <mrk mid="2" mtype="seg">If 0, the default password is used.</mrk> <mrk mid="3" mtype="seg">If the string is</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Password to be used to make a connection.</mrk> <mrk mid="2" mtype="seg">If 0, the default password is used.</mrk> <mrk mid="3" mtype="seg">If the string is</mrk></target>
+<note>$sPassword</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> empty, no password is used.</source>
+<seg-source> <mrk mid="0" mtype="seg">empty, no password is used.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">empty, no password is used.</mrk></target>
+<note>$sPassword</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the type of network resource to connect to:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the type of network resource to connect to:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the type of network resource to connect to:</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     0 - Any (only if $sLocalName is 0)</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 - Any (only if $sLocalName is 0)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 - Any (only if $sLocalName is 0)</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     1 - Disk</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 - Disk</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 - Disk</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     2 - Print</source>
+<seg-source> <mrk mid="0" mtype="seg">    2 - Print</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    2 - Print</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Connection options. Can be one or more of the following:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Connection options.</mrk> <mrk mid="2" mtype="seg">Can be one or more of the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Connection options.</mrk> <mrk mid="2" mtype="seg">Can be one or more of the following:</mrk></target>
+<note>$iOptions</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     1 - The network resource connection should be remembered</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 - The network resource connection should be remembered</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 - The network resource connection should be remembered</mrk></target>
+<note>$iOptions</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     2 - The operating system may interact with the user for authentication purposes</source>
+<seg-source> <mrk mid="0" mtype="seg">    2 - The operating system may interact with the user for authentication purposes</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    2 - The operating system may interact with the user for authentication purposes</mrk></target>
+<note>$iOptions</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     4 - The system not to use any default setting for user names or passwords without offering the user the opportunity to supply an alternative. This flag is ignored unless bit 2 (interactive) is also set.</source>
+<seg-source> <mrk mid="0" mtype="seg">    4 - The system not to use any default setting for user names or passwords without offering the user the opportunity to supply an alternative.</mrk> <mrk mid="1" mtype="seg">This flag is ignored unless bit 2 (interactive) is also set.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    4 - The system not to use any default setting for user names or passwords without offering the user the opportunity to supply an alternative.</mrk> <mrk mid="1" mtype="seg">This flag is ignored unless bit 2 (interactive) is also set.</mrk></target>
+<note>$iOptions</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     8 - Forces the redirection of a local device when making the connection</source>
+<seg-source> <mrk mid="0" mtype="seg">    8 - Forces the redirection of a local device when making the connection</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    8 - Forces the redirection of a local device when making the connection</mrk></target>
+<note>$iOptions</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     16 - The operating system prompts the user for authentication using the command line instead of a GUI.</source>
+<seg-source> <mrk mid="0" mtype="seg">    16 - The operating system prompts the user for authentication using the command line instead of a GUI.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    16 - The operating system prompts the user for authentication using the command line instead of a GUI.</mrk></target>
+<note>$iOptions</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">         This flag is ignored unless bit 2 (interactive) is also set.</source>
+<seg-source> <mrk mid="0" mtype="seg">        This flag is ignored unless bit 2 (interactive) is also set.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        This flag is ignored unless bit 2 (interactive) is also set.</mrk></target>
+<note>$iOptions</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">     32 - If this bit is set, and the operating system prompts for a credential, the credential is saved by the credential manager.</source>
+<seg-source> <mrk mid="0" mtype="seg">    32 - If this bit is set, and the operating system prompts for a credential, the credential is saved by the credential manager.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    32 - If this bit is set, and the operating system prompts for a credential, the credential is saved by the credential manager.</mrk></target>
+<note>$iOptions</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">         If the credential manager is disabled for the caller's logon session, or if the network</source>
+<seg-source> <mrk mid="0" mtype="seg">        If the credential manager is disabled for the caller's logon session, or if the network</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        If the credential manager is disabled for the caller's logon session, or if the network</mrk></target>
+<note>$iOptions</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">         provider does not support saving credentials, this flag is ignored.</source>
+<seg-source> <mrk mid="0" mtype="seg">        provider does not support saving credentials, this flag is ignored.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        provider does not support saving credentials, this flag is ignored.</mrk></target>
+<note>$iOptions</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">         This flag is also ignored unless you set</source>
+<seg-source> <mrk mid="0" mtype="seg">        This flag is also ignored unless you set</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        This flag is also ignored unless you set</mrk></target>
+<note>$iOptions</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> bit 5 (command line instead of GUI).</source>
+<seg-source> <mrk mid="0" mtype="seg">bit 5 (command line instead of GUI).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">bit 5 (command line instead of GUI).</mrk></target>
+<note>$iOptions</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">False.</source>
+<seg-source><mrk mid="0" mtype="seg">False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(WNetAddConnection3);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>WNetAddConnection3<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(WNetAddConnection3);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>WNetAddConnection3<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(WNetAddConnection3);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>WNetAddConnection3<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

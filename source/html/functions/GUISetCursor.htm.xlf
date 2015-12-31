@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/GUISetCursor.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the mouse cursor icon for a GUI window.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the mouse cursor icon for a GUI window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the mouse cursor icon for a GUI window.</mrk></target>
+<note>Function GUISetCursor</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Cursor Id (See Remarks).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Cursor Id (See Remarks).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Cursor Id (See Remarks).</mrk></target>
+<note>cursorID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Force the requested mouse cursor even when over controls (see below).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Force the requested mouse cursor even when over controls (see below).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Force the requested mouse cursor even when over controls (see below).</mrk></target>
+<note>override</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $GUI_CURSOR_NOOVERRIDE (0) = (default) Don't override a control's default mouse cursor.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GUI_CURSOR_NOOVERRIDE (0) = (default) Don't override a control's default mouse cursor.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GUI_CURSOR_NOOVERRIDE (0) = (default) Don't override a control's default mouse cursor.</mrk></target>
+<note>override</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $GUI_CURSOR_OVERRIDE (1) = override control's default mouse cursor.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GUI_CURSOR_OVERRIDE (1) = override control's default mouse cursor.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GUI_CURSOR_OVERRIDE (1) = override control's default mouse cursor.</mrk></target>
+<note>override</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> Constants are defined in GUIConstantsEx.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in GUIConstantsEx.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in GUIConstantsEx.au3.</mrk></target>
+<note>override</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Windows handle as returned by <bpt id="1" ctype="x-a">&lt;a href="GUICreate.htm"></bpt>GUICreate()<ept id="1">&lt;/a></ept> (default is the previously used window). </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Windows handle as returned by <bpt id="1" ctype="x-a">&lt;a href="GUICreate.htm"></bpt>GUICreate()<ept id="1">&lt;/a></ept> (default is the previously used window).</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Windows handle as returned by <bpt id="1" ctype="x-a">&lt;a href="GUICreate.htm"></bpt>GUICreate()<ept id="1">&lt;/a></ept> (default is the previously used window).</mrk> </target>
+<note>winhandle</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">None.</source>
+<seg-source><mrk mid="0" mtype="seg">None.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">If the cursorID is invalid the standard arrow will be displayed.</source>
+<seg-source><mrk mid="0" mtype="seg">If the cursorID is invalid the standard arrow will be displayed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the cursorID is invalid the standard arrow will be displayed.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> Usually when you move the mouse cursor over an edit control or other control the mouse cursor changes shape. The "override" option allows you to force the requested mouse cursor to be shown at all times. Note: If you have changed a controls mouse cursor with <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetCursor.htm"></bpt>GUICtrlSetCursor()<ept id="1">&lt;/a></ept> then this control mouse cursor will always be shown.</source>
+<seg-source> <mrk mid="0" mtype="seg">Usually when you move the mouse cursor over an edit control or other control the mouse cursor changes shape.</mrk> <mrk mid="1" mtype="seg">The "override" option allows you to force the requested mouse cursor to be shown at all times.</mrk> <mrk mid="2" mtype="seg">Note:</mrk> <mrk mid="3" mtype="seg">If you have changed a controls mouse cursor with <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetCursor.htm"></bpt>GUICtrlSetCursor()<ept id="1">&lt;/a></ept> then this control mouse cursor will always be shown.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Usually when you move the mouse cursor over an edit control or other control the mouse cursor changes shape.</mrk> <mrk mid="1" mtype="seg">The "override" option allows you to force the requested mouse cursor to be shown at all times.</mrk> <mrk mid="2" mtype="seg">Note:</mrk> <mrk mid="3" mtype="seg">If you have changed a controls mouse cursor with <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetCursor.htm"></bpt>GUICtrlSetCursor()<ept id="1">&lt;/a></ept> then this control mouse cursor will always be shown.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> For a list of valid cursor IDs see <bpt id="1" ctype="x-a">&lt;a href="MouseGetCursor.htm"></bpt>MouseGetCursor()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">For a list of valid cursor IDs see <bpt id="1" ctype="x-a">&lt;a href="MouseGetCursor.htm"></bpt>MouseGetCursor()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For a list of valid cursor IDs see <bpt id="1" ctype="x-a">&lt;a href="MouseGetCursor.htm"></bpt>MouseGetCursor()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> CursorId = 16 will hide the mouse cursor.</source>
+<seg-source> <mrk mid="0" mtype="seg">CursorId = 16 will hide the mouse cursor.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">CursorId = 16 will hide the mouse cursor.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Hand|AppStarting|Arrow|Cross|Help|IBeam|Icon (obsolete)|No|</source>
+<seg-source><mrk mid="0" mtype="seg">Hand|AppStarting|Arrow|Cross|Help|IBeam|Icon (obsolete)|No|</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hand|AppStarting|Arrow|Cross|Help|IBeam|Icon (obsolete)|No|</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Size (obsolete)|SizeAll|SizeNESW|SizeNS|SizeNWSE|SizeWE|UpArrow|Wait|None</source>
+<seg-source><mrk mid="0" mtype="seg">Size (obsolete)|SizeAll|SizeNESW|SizeNS|SizeNWSE|SizeWE|UpArrow|Wait|None</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Size (obsolete)|SizeAll|SizeNESW|SizeNS|SizeNWSE|SizeWE|UpArrow|Wait|None</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">|</source>
+<seg-source><mrk mid="0" mtype="seg">|</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">|</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">The flag parameter is set to flag = 2 as we don't require the total count of the array.</source>
+<seg-source><mrk mid="0" mtype="seg">The flag parameter is set to flag = 2 as we don't require the total count of the array.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The flag parameter is set to flag = 2 as we don't require the total count of the array.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Increment</source>
+<seg-source><mrk mid="0" mtype="seg">Increment</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Increment</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Press ESC to Increment</source>
+<seg-source><mrk mid="0" mtype="seg">Press ESC to Increment</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Press ESC to Increment</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">GUI Cursor #</source>
+<seg-source><mrk mid="0" mtype="seg">GUI Cursor #</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUI Cursor #</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">(</source>
+<seg-source><mrk mid="0" mtype="seg">(</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">)</source>
+<seg-source><mrk mid="0" mtype="seg">)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">)</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

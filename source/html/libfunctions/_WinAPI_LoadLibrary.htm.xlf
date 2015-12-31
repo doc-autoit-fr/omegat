@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_LoadLibrary.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Maps a specified executable module into the address space of the calling process</source>
+<seg-source><mrk mid="0" mtype="seg">Maps a specified executable module into the address space of the calling process</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Maps a specified executable module into the address space of the calling process</mrk></target>
+<note>Function _WinAPI_LoadLibrary</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Names a Win32 executable module (either a .dll or an .exe file). The name specified is the</source>
+<seg-source><mrk mid="0" mtype="seg">Names a Win32 executable module (either a .dll or an .exe file).</mrk> <mrk mid="1" mtype="seg">The name specified is the</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Names a Win32 executable module (either a .dll or an .exe file).</mrk> <mrk mid="1" mtype="seg">The name specified is the</mrk></target>
+<note>$sFileName</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> filename of the executable module.</source>
+<seg-source> <mrk mid="0" mtype="seg">filename of the executable module.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">filename of the executable module.</mrk></target>
+<note>$sFileName</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">A handle to the executable module</source>
+<seg-source><mrk mid="0" mtype="seg">A handle to the executable module</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A handle to the executable module</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> 0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information </source>
+<seg-source> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(LoadLibrary);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>LoadLibrary<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(LoadLibrary);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>LoadLibrary<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(LoadLibrary);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>LoadLibrary<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

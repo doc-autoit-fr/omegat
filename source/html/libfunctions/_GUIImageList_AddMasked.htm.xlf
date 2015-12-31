@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUIImageList_AddMasked.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Adds an image or images to an image list, generating a mask from the specified bitmap</source>
+<seg-source><mrk mid="0" mtype="seg">Adds an image or images to an image list, generating a mask from the specified bitmap</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Adds an image or images to an image list, generating a mask from the specified bitmap</mrk></target>
+<note>Function _GUIImageList_AddMasked</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the imagelist</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the imagelist</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the imagelist</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Handle to the bitmap that contains the image or images. The number of images is inferred from the width of the bitmap.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the bitmap that contains the image or images.</mrk> <mrk mid="1" mtype="seg">The number of images is inferred from the width of the bitmap.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the bitmap that contains the image or images.</mrk> <mrk mid="1" mtype="seg">The number of images is inferred from the width of the bitmap.</mrk></target>
+<note>$hImage</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Color used to generate the mask. Each pixel of this color in the specified bitmap is changed to black, and the corresponding bit in the mask is set to 1.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Color used to generate the mask.</mrk> <mrk mid="2" mtype="seg">Each pixel of this color in the specified bitmap is changed to black, and the corresponding bit in the mask is set to 1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Color used to generate the mask.</mrk> <mrk mid="2" mtype="seg">Each pixel of this color in the specified bitmap is changed to black, and the corresponding bit in the mask is set to 1.</mrk></target>
+<note>$iMask</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">the index of the first new image.</source>
+<seg-source><mrk mid="0" mtype="seg">the index of the first new image.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the index of the first new image.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">-1.</source>
+<seg-source><mrk mid="0" mtype="seg">-1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">This function copies the bitmap to an internal data structure.</source>
+<seg-source><mrk mid="0" mtype="seg">This function copies the bitmap to an internal data structure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function copies the bitmap to an internal data structure.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> Be sure to use the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteObject.htm"></bpt>_WinAPI_DeleteObject()<ept id="1">&lt;/a></ept> function to delete $hImage after the function returns.</source>
+<seg-source> <mrk mid="0" mtype="seg">Be sure to use the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteObject.htm"></bpt>_WinAPI_DeleteObject()<ept id="1">&lt;/a></ept> function to delete $hImage after the function returns.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Be sure to use the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteObject.htm"></bpt>_WinAPI_DeleteObject()<ept id="1">&lt;/a></ept> function to delete $hImage after the function returns.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> Bitmaps with color depth greater than 8 bpp are not supported.</source>
+<seg-source> <mrk mid="0" mtype="seg">Bitmaps with color depth greater than 8 bpp are not supported.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Bitmaps with color depth greater than 8 bpp are not supported.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">ImageList AddMasked</source>
+<seg-source><mrk mid="0" mtype="seg">ImageList AddMasked</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ImageList AddMasked</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Load images</source>
+<seg-source><mrk mid="0" mtype="seg">Load images</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Load images</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Add columns</source>
+<seg-source><mrk mid="0" mtype="seg">Add columns</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add columns</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Items</source>
+<seg-source><mrk mid="0" mtype="seg">Items</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Items</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Add items</source>
+<seg-source><mrk mid="0" mtype="seg">Add items</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add items</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Item 1</source>
+<seg-source><mrk mid="0" mtype="seg">Item 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item 1</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Item 2</source>
+<seg-source><mrk mid="0" mtype="seg">Item 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item 2</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Item 3</source>
+<seg-source><mrk mid="0" mtype="seg">Item 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item 3</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

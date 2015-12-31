@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_SaveFileDlg.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a dialog box that lets the user specify the drive, directory, and name of a file to save</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a dialog box that lets the user specify the drive, directory, and name of a file to save</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a dialog box that lets the user specify the drive, directory, and name of a file to save</mrk></target>
+<note>Function _WinAPI_SaveFileDlg</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> A string to be placed in the title bar of the dialog box.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A string to be placed in the title bar of the dialog box.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A string to be placed in the title bar of the dialog box.</mrk></target>
+<note>$sTitle</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> If this parameter is empty string (Default), the system uses the default title (that is, "Save As").</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is empty string (Default), the system uses the default title (that is, "Save As").</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is empty string (Default), the system uses the default title (that is, "Save As").</mrk></target>
+<note>$sTitle</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The initial directory.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The initial directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The initial directory.</mrk></target>
+<note>$sInitDir</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The pairs of filter strings (for example, "Text Files (*.txt)").</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The pairs of filter strings (for example, "Text Files (*.txt)").</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The pairs of filter strings (for example, "Text Files (*.txt)").</mrk></target>
+<note>$sFilters</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> To specify multiple filter patterns for a single display string, use a semicolon to separate the patterns (for example, "*.txt;*.doc;*.bak").</source>
+<seg-source> <mrk mid="0" mtype="seg">To specify multiple filter patterns for a single display string, use a semicolon to separate the patterns (for example, "*.txt;*.doc;*.bak").</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To specify multiple filter patterns for a single display string, use a semicolon to separate the patterns (for example, "*.txt;*.doc;*.bak").</mrk></target>
+<note>$sFilters</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> Do not include spaces in the pattern. To specify multiple groups of filters, use the "|" character as a delimiter (for example, "Text Files (*.txt)|All Files (*.*)").</source>
+<seg-source> <mrk mid="0" mtype="seg">Do not include spaces in the pattern.</mrk> <mrk mid="1" mtype="seg">To specify multiple groups of filters, use the "|" character as a delimiter (for example, "Text Files (*.txt)|All Files (*.*)").</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Do not include spaces in the pattern.</mrk> <mrk mid="1" mtype="seg">To specify multiple groups of filters, use the "|" character as a delimiter (for example, "Text Files (*.txt)|All Files (*.*)").</mrk></target>
+<note>$sFilters</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> If this parameter is omitted or an empty string (Default), the dialog box does not display any filters</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is omitted or an empty string (Default), the dialog box does not display any filters</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is omitted or an empty string (Default), the dialog box does not display any filters</mrk></target>
+<note>$sFilters</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The 1-based index of the currently selected filter to initialize the combo box control.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The 1-based index of the currently selected filter to initialize the combo box control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The 1-based index of the currently selected filter to initialize the combo box control.</mrk></target>
+<note>$iDefaultFilter</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The file name to initialize the edit control.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The file name to initialize the edit control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The file name to initialize the edit control.</mrk></target>
+<note>$sDefaultFilePath</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The default extension that appends to the file name if the user fails to type an extension.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The default extension that appends to the file name if the user fails to type an extension.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The default extension that appends to the file name if the user fails to type an extension.</mrk></target>
+<note>$sDefaultExt</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> This string can be any length, but only the first three characters are appended. The string should not contain a period (.).</source>
+<seg-source> <mrk mid="0" mtype="seg">This string can be any length, but only the first three characters are appended.</mrk> <mrk mid="1" mtype="seg">The string should not contain a period (.).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This string can be any length, but only the first three characters are appended.</mrk> <mrk mid="1" mtype="seg">The string should not contain a period (.).</mrk></target>
+<note>$sDefaultExt</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> If this parameter is empty string (Default), no extension is appended.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is empty string (Default), no extension is appended.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is empty string (Default), no extension is appended.</mrk></target>
+<note>$sDefaultExt</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> A set of bit flags you can use to initialize the dialog box.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A set of bit flags you can use to initialize the dialog box.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A set of bit flags you can use to initialize the dialog box.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> This parameter can be 0 or combination of the following values:</source>
+<seg-source> <mrk mid="0" mtype="seg">This parameter can be 0 or combination of the following values:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This parameter can be 0 or combination of the following values:</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $OFN_ALLOWMULTISELECT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_ALLOWMULTISELECT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_ALLOWMULTISELECT</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $OFN_CREATEPROMPT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_CREATEPROMPT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_CREATEPROMPT</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $OFN_DONTADDTORECENT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_DONTADDTORECENT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_DONTADDTORECENT</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     $OFN_ENABLEHOOK</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_ENABLEHOOK</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_ENABLEHOOK</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     $OFN_ENABLEINCLUDENOTIFY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_ENABLEINCLUDENOTIFY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_ENABLEINCLUDENOTIFY</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     $OFN_ENABLESIZING</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_ENABLESIZING</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_ENABLESIZING</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">     $OFN_EXPLORER</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_EXPLORER</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_EXPLORER</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">     $OFN_FORCESHOWHIDDEN</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_FORCESHOWHIDDEN</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_FORCESHOWHIDDEN</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">     $OFN_HIDEREADONLY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_HIDEREADONLY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_HIDEREADONLY</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">     $OFN_LONGNAMES</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_LONGNAMES</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_LONGNAMES</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">     $OFN_NOCHANGEDIR</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_NOCHANGEDIR</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_NOCHANGEDIR</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">     $OFN_NODEREFERENCELINKS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_NODEREFERENCELINKS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_NODEREFERENCELINKS</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">     $OFN_NOLONGNAMES</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_NOLONGNAMES</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_NOLONGNAMES</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">     $OFN_NONETWORKBUTTON</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_NONETWORKBUTTON</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_NONETWORKBUTTON</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">     $OFN_NOREADONLYRETURN</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_NOREADONLYRETURN</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_NOREADONLYRETURN</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">     $OFN_NOTESTFILECREATE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_NOTESTFILECREATE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_NOTESTFILECREATE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">     $OFN_NOVALIDATE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_NOVALIDATE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_NOVALIDATE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">     $OFN_OVERWRITEPROMPT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_OVERWRITEPROMPT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_OVERWRITEPROMPT</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">     $OFN_PATHMUSTEXIST</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_PATHMUSTEXIST</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_PATHMUSTEXIST</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">     $OFN_READONLY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_READONLY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_READONLY</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">     $OFN_SHAREAWARE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_SHAREAWARE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_SHAREAWARE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">     $OFN_SHOWHELP</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_SHOWHELP</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_SHOWHELP</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> A set of bit flags you can use to initialize the dialog box. It can be 0 or the following value:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A set of bit flags you can use to initialize the dialog box.</mrk> <mrk mid="2" mtype="seg">It can be 0 or the following value:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A set of bit flags you can use to initialize the dialog box.</mrk> <mrk mid="2" mtype="seg">It can be 0 or the following value:</mrk></target>
+<note>$iFlagsEx</note>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">     $OFN_EX_NOPLACESBAR</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OFN_EX_NOPLACESBAR</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OFN_EX_NOPLACESBAR</mrk></target>
+<note>$iFlagsEx</note>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> A pointer to a hook procedure. This parameter is ignored unless the $OFN_ENABLEHOOK flag is set.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A pointer to a hook procedure.</mrk> <mrk mid="2" mtype="seg">This parameter is ignored unless the $OFN_ENABLEHOOK flag is set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A pointer to a hook procedure.</mrk> <mrk mid="2" mtype="seg">This parameter is ignored unless the $OFN_ENABLEHOOK flag is set.</mrk></target>
+<note>$pOFNProc</note>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Application-defined pointer to data that the system passes to the hook procedure.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Application-defined pointer to data that the system passes to the hook procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Application-defined pointer to data that the system passes to the hook procedure.</mrk></target>
+<note>$pData</note>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> A handle to the parent window for the dialog box.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A handle to the parent window for the dialog box.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A handle to the parent window for the dialog box.</mrk></target>
+<note>$hParent</note>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">If the $OFN_ALLOWMULTISELECT flag is not set, the function returns the full path of the input file, otherwise always an array of paths.</source>
+<seg-source><mrk mid="0" mtype="seg">If the $OFN_ALLOWMULTISELECT flag is not set, the function returns the full path of the input file, otherwise always an array of paths.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the $OFN_ALLOWMULTISELECT flag is not set, the function returns the full path of the input file, otherwise always an array of paths.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">     The zeroth array element contains the number of files.</source>
+<seg-source> <mrk mid="0" mtype="seg">    The zeroth array element contains the number of files.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    The zeroth array element contains the number of files.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Sets the @error flag to non-zero, @extended flag may contain the dialog box error code ($CDERR_* or $FNERR_*).</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the @error flag to non-zero, @extended flag may contain the dialog box error code ($CDERR_* or $FNERR_*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the @error flag to non-zero, @extended flag may contain the dialog box error code ($CDERR_* or $FNERR_*).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetExtended.htm"></bpt>_WinAPI_GetExtended()<ept id="1">&lt;/a></ept> to retrieve internal $tagOPENFILENAME structure containing the user's selection information after closing the dialog box.</source>
+<seg-source><mrk mid="0" mtype="seg">Call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetExtended.htm"></bpt>_WinAPI_GetExtended()<ept id="1">&lt;/a></ept> to retrieve internal $tagOPENFILENAME structure containing the user's selection information after closing the dialog box.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetExtended.htm"></bpt>_WinAPI_GetExtended()<ept id="1">&lt;/a></ept> to retrieve internal $tagOPENFILENAME structure containing the user's selection information after closing the dialog box.</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en"> If you use a hook, you can not preserve the UI of the dialog box like in <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">If you use a hook, you can not preserve the UI of the dialog box like in <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If you use a hook, you can not preserve the UI of the dialog box like in <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetSaveFileName);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetSaveFileName<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetSaveFileName);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetSaveFileName<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetSaveFileName);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetSaveFileName<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">AutoIt v3 Scripts (*.au3)|All Files (*.*)</source>
+<seg-source><mrk mid="0" mtype="seg">AutoIt v3 Scripts (*.au3)|All Files (*.*)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AutoIt v3 Scripts (*.au3)|All Files (*.*)</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">MyScript.au3</source>
+<seg-source><mrk mid="0" mtype="seg">MyScript.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MyScript.au3</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">.</source>
+<seg-source><mrk mid="0" mtype="seg">.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

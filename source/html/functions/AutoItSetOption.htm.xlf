@@ -1,0 +1,1119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/AutoItSetOption.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Changes the operation of various AutoIt functions/parameters.</source>
+<seg-source><mrk mid="0" mtype="seg">Changes the operation of various AutoIt functions/parameters.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Changes the operation of various AutoIt functions/parameters.</mrk></target>
+<note>Function AutoItSetOption</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The option to change. See Remarks.</source>
+<seg-source><mrk mid="0" mtype="seg">The option to change.</mrk> <mrk mid="1" mtype="seg">See Remarks.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The option to change.</mrk> <mrk mid="1" mtype="seg">See Remarks.</mrk></target>
+<note>option</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The value to assign to the option. The type and meaning vary by option. See remarks below. If the param is not provided, then the function just returns the value already assigned to the option. The keyword <bpt id="1" ctype="x-a">&lt;a href="../keywords/Default.htm"></bpt>Default<ept id="1">&lt;/a></ept> can be used for the parameter to reset the option to its default value. </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The value to assign to the option.</mrk> <mrk mid="2" mtype="seg">The type and meaning vary by option.</mrk> <mrk mid="3" mtype="seg">See remarks below.</mrk> <mrk mid="4" mtype="seg">If the param is not provided, then the function just returns the value already assigned to the option.</mrk> <mrk mid="5" mtype="seg">The keyword <bpt id="1" ctype="x-a">&lt;a href="../keywords/Default.htm"></bpt>Default<ept id="1">&lt;/a></ept> can be used for the parameter to reset the option to its default value.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The value to assign to the option.</mrk> <mrk mid="2" mtype="seg">The type and meaning vary by option.</mrk> <mrk mid="3" mtype="seg">See remarks below.</mrk> <mrk mid="4" mtype="seg">If the param is not provided, then the function just returns the value already assigned to the option.</mrk> <mrk mid="5" mtype="seg">The keyword <bpt id="1" ctype="x-a">&lt;a href="../keywords/Default.htm"></bpt>Default<ept id="1">&lt;/a></ept> can be used for the parameter to reset the option to its default value.</mrk> </target>
+<note>param</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">the value of the previous setting for the option.</source>
+<seg-source><mrk mid="0" mtype="seg">the value of the previous setting for the option.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the value of the previous setting for the option.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">sets the @error flag to non-zero. Failure will occur if the parameters are invalid (such as an option that does not exist).</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk> <mrk mid="1" mtype="seg">Failure will occur if the parameters are invalid (such as an option that does not exist).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk> <mrk mid="1" mtype="seg">Failure will occur if the parameters are invalid (such as an option that does not exist).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">You may use <bpt id="1" ctype="x-a">&lt;a href="AutoItSetOption.htm"></bpt>Opt()<ept id="1">&lt;/a></ept> as an alternative to <bpt id="2" ctype="x-a">&lt;a href="AutoItSetOption.htm"></bpt>AutoItSetOption()<ept id="2">&lt;/a></ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">You may use <bpt id="1" ctype="x-a">&lt;a href="AutoItSetOption.htm"></bpt>Opt()<ept id="1">&lt;/a></ept> as an alternative to <bpt id="2" ctype="x-a">&lt;a href="AutoItSetOption.htm"></bpt>AutoItSetOption()<ept id="2">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You may use <bpt id="1" ctype="x-a">&lt;a href="AutoItSetOption.htm"></bpt>Opt()<ept id="1">&lt;/a></ept> as an alternative to <bpt id="2" ctype="x-a">&lt;a href="AutoItSetOption.htm"></bpt>AutoItSetOption()<ept id="2">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> Options are as follows:</source>
+<seg-source> <mrk mid="0" mtype="seg">Options are as follows:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Options are as follows:</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Option<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Option<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Option<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Param<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Param<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Param<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">CaretCoordMode</source>
+<seg-source><mrk mid="0" mtype="seg">CaretCoordMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CaretCoordMode</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="CaretCoordMode"></ph>Sets the way coords are used in the caret functions, either absolute coords or coords relative to the current active window:</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="CaretCoordMode"></ph>Sets the way coords are used in the caret functions, either absolute coords or coords relative to the current active window:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="CaretCoordMode"></ph>Sets the way coords are used in the caret functions, either absolute coords or coords relative to the current active window:</mrk></target>
+<note>CaretCoordMode</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> 0 = relative coords to the active window</source>
+<seg-source> <mrk mid="0" mtype="seg">0 = relative coords to the active window</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 = relative coords to the active window</mrk></target>
+<note>CaretCoordMode</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> 1 = (default) absolute screen coordinates</source>
+<seg-source> <mrk mid="0" mtype="seg">1 = (default) absolute screen coordinates</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 = (default) absolute screen coordinates</mrk></target>
+<note>CaretCoordMode</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> 2 = relative coords to the client area of the active window </source>
+<seg-source> <mrk mid="0" mtype="seg">2 = relative coords to the client area of the active window</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 = relative coords to the client area of the active window</mrk> </target>
+<note>CaretCoordMode</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">ExpandEnvStrings</source>
+<seg-source><mrk mid="0" mtype="seg">ExpandEnvStrings</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ExpandEnvStrings</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="ExpandEnvStrings"></ph>Changes how literal strings and % symbols are interpreted. By default strings are treated literally, this option allows you to use %environment% variables inside strings, e.g., "The temp directory is: %temp%".</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="ExpandEnvStrings"></ph>Changes how literal strings and % symbols are interpreted.</mrk> <mrk mid="1" mtype="seg">By default strings are treated literally, this option allows you to use %environment% variables inside strings, e.g.,</mrk> <mrk mid="2" mtype="seg">"The temp directory is:</mrk> <mrk mid="3" mtype="seg">%temp%".</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="ExpandEnvStrings"></ph>Changes how literal strings and % symbols are interpreted.</mrk> <mrk mid="1" mtype="seg">By default strings are treated literally, this option allows you to use %environment% variables inside strings, e.g.,</mrk> <mrk mid="2" mtype="seg">"The temp directory is:</mrk> <mrk mid="3" mtype="seg">%temp%".</mrk></target>
+<note>ExpandEnvStrings</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> 0 = (default) do not expand environment variables</source>
+<seg-source> <mrk mid="0" mtype="seg">0 = (default) do not expand environment variables</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 = (default) do not expand environment variables</mrk></target>
+<note>ExpandEnvStrings</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> 1 = expand environment variables</source>
+<seg-source> <mrk mid="0" mtype="seg">1 = expand environment variables</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 = expand environment variables</mrk></target>
+<note>ExpandEnvStrings</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> Without this option the usual way would be: "The temp directory is: " &amp; <bpt id="1" ctype="x-a">&lt;a href="EnvGet.htm"></bpt>EnvGet<ept id="1">&lt;/a></ept>("temp") </source>
+<seg-source> <mrk mid="0" mtype="seg">Without this option the usual way would be:</mrk> <mrk mid="1" mtype="seg">"The temp directory is:</mrk> <mrk mid="2" mtype="seg">" &amp; <bpt id="1" ctype="x-a">&lt;a href="EnvGet.htm"></bpt>EnvGet<ept id="1">&lt;/a></ept>("temp")</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Without this option the usual way would be:</mrk> <mrk mid="1" mtype="seg">"The temp directory is:</mrk> <mrk mid="2" mtype="seg">" &amp; <bpt id="1" ctype="x-a">&lt;a href="EnvGet.htm"></bpt>EnvGet<ept id="1">&lt;/a></ept>("temp")</mrk> </target>
+<note>ExpandEnvStrings</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">ExpandVarStrings</source>
+<seg-source><mrk mid="0" mtype="seg">ExpandVarStrings</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ExpandVarStrings</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="ExpandVarStrings"></ph>Changes how literal strings and variable/macro ($ and @) symbols are interpreted. By default strings are treated literally, this option allows you to use variables and macros inside strings, e.g., "The value of var1 is $var1$".</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="ExpandVarStrings"></ph>Changes how literal strings and variable/macro ($ and @) symbols are interpreted.</mrk> <mrk mid="1" mtype="seg">By default strings are treated literally, this option allows you to use variables and macros inside strings, e.g.,</mrk> <mrk mid="2" mtype="seg">"The value of var1 is $var1$".</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="ExpandVarStrings"></ph>Changes how literal strings and variable/macro ($ and @) symbols are interpreted.</mrk> <mrk mid="1" mtype="seg">By default strings are treated literally, this option allows you to use variables and macros inside strings, e.g.,</mrk> <mrk mid="2" mtype="seg">"The value of var1 is $var1$".</mrk></target>
+<note>ExpandVarStrings</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> 0 = (default) do not expand variables</source>
+<seg-source> <mrk mid="0" mtype="seg">0 = (default) do not expand variables</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 = (default) do not expand variables</mrk></target>
+<note>ExpandVarStrings</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> 1 = expand variables (when in this mode and you want to use a literal $ or @ then double it up: "This is a single dollar $$ sign". </source>
+<seg-source> <mrk mid="0" mtype="seg">1 = expand variables (when in this mode and you want to use a literal $ or @ then double it up:</mrk> <mrk mid="1" mtype="seg">"This is a single dollar $$ sign".</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 = expand variables (when in this mode and you want to use a literal $ or @ then double it up:</mrk> <mrk mid="1" mtype="seg">"This is a single dollar $$ sign".</mrk> </target>
+<note>ExpandVarStrings</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">GUICloseOnESC</source>
+<seg-source><mrk mid="0" mtype="seg">GUICloseOnESC</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUICloseOnESC</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="GUICloseOnESC"></ph>When ESC is pressed on a GUI the $GUI_EVENT_CLOSE message is sent. This option toggles this behavior on and off.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="GUICloseOnESC"></ph>When ESC is pressed on a GUI the $GUI_EVENT_CLOSE message is sent.</mrk> <mrk mid="1" mtype="seg">This option toggles this behavior on and off.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="GUICloseOnESC"></ph>When ESC is pressed on a GUI the $GUI_EVENT_CLOSE message is sent.</mrk> <mrk mid="1" mtype="seg">This option toggles this behavior on and off.</mrk></target>
+<note>GUICloseOnESC</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> 0 = Don't send the $GUI_EVENT_CLOSE message when ESC is pressed.</source>
+<seg-source> <mrk mid="0" mtype="seg">0 = Don't send the $GUI_EVENT_CLOSE message when ESC is pressed.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 = Don't send the $GUI_EVENT_CLOSE message when ESC is pressed.</mrk></target>
+<note>GUICloseOnESC</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en"> 1 = (default) <bpt id="1" ctype="x-a">&lt;a href="Send.htm"></bpt>Send()<ept id="1">&lt;/a></ept> the $GUI_EVENT_CLOSE message when ESC is pressed. </source>
+<seg-source> <mrk mid="0" mtype="seg">1 = (default) <bpt id="1" ctype="x-a">&lt;a href="Send.htm"></bpt>Send()<ept id="1">&lt;/a></ept> the $GUI_EVENT_CLOSE message when ESC is pressed.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 = (default) <bpt id="1" ctype="x-a">&lt;a href="Send.htm"></bpt>Send()<ept id="1">&lt;/a></ept> the $GUI_EVENT_CLOSE message when ESC is pressed.</mrk> </target>
+<note>GUICloseOnESC</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">GUICoordMode</source>
+<seg-source><mrk mid="0" mtype="seg">GUICoordMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUICoordMode</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="GUICoordMode"></ph>Alters the position of a control defined by <bpt id="2" ctype="x-a">&lt;a href="GUICtrlSetPos.htm"></bpt>GUICtrlSetPos()<ept id="2">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="GUICoordMode"></ph>Alters the position of a control defined by <bpt id="2" ctype="x-a">&lt;a href="GUICtrlSetPos.htm"></bpt>GUICtrlSetPos()<ept id="2">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="GUICoordMode"></ph>Alters the position of a control defined by <bpt id="2" ctype="x-a">&lt;a href="GUICtrlSetPos.htm"></bpt>GUICtrlSetPos()<ept id="2">&lt;/a></ept>.</mrk></target>
+<note>GUICoordMode</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en"> 0 = relative position to the start of the last control (upper left corner).</source>
+<seg-source> <mrk mid="0" mtype="seg">0 = relative position to the start of the last control (upper left corner).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 = relative position to the start of the last control (upper left corner).</mrk></target>
+<note>GUICoordMode</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"> 1 = (default) absolute coordinates still relative to the dialog box.</source>
+<seg-source> <mrk mid="0" mtype="seg">1 = (default) absolute coordinates still relative to the dialog box.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 = (default) absolute coordinates still relative to the dialog box.</mrk></target>
+<note>GUICoordMode</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en"> 2 = cell positioning relative to current cell. A -1 for left or top parameter don't increment the start.</source>
+<seg-source> <mrk mid="0" mtype="seg">2 = cell positioning relative to current cell.</mrk> <mrk mid="1" mtype="seg">A -1 for left or top parameter don't increment the start.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 = cell positioning relative to current cell.</mrk> <mrk mid="1" mtype="seg">A -1 for left or top parameter don't increment the start.</mrk></target>
+<note>GUICoordMode</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en"> So next line is -1, offset; next cell is offset,-1; current cell is -1,-1.</source>
+<seg-source> <mrk mid="0" mtype="seg">So next line is -1, offset; next cell is offset,-1; current cell is -1,-1.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">So next line is -1, offset; next cell is offset,-1; current cell is -1,-1.</mrk></target>
+<note>GUICoordMode</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en"> Obviously "offset" cannot be -1 which reserved to indicate the no increment. But if you can use a multiple of the width you choose to skip or go back. </source>
+<seg-source> <mrk mid="0" mtype="seg">Obviously "offset" cannot be -1 which reserved to indicate the no increment.</mrk> <mrk mid="1" mtype="seg">But if you can use a multiple of the width you choose to skip or go back.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Obviously "offset" cannot be -1 which reserved to indicate the no increment.</mrk> <mrk mid="1" mtype="seg">But if you can use a multiple of the width you choose to skip or go back.</mrk> </target>
+<note>GUICoordMode</note>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">GUIDataSeparatorChar</source>
+<seg-source><mrk mid="0" mtype="seg">GUIDataSeparatorChar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUIDataSeparatorChar</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="GUIDataSeparatorChar"></ph>Define the character which delimits subitems in <bpt id="2" ctype="x-a">&lt;a href="GUICtrlSetData.htm"></bpt>GUICtrlSetData()<ept id="2">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="GUIDataSeparatorChar"></ph>Define the character which delimits subitems in <bpt id="2" ctype="x-a">&lt;a href="GUICtrlSetData.htm"></bpt>GUICtrlSetData()<ept id="2">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="GUIDataSeparatorChar"></ph>Define the character which delimits subitems in <bpt id="2" ctype="x-a">&lt;a href="GUICtrlSetData.htm"></bpt>GUICtrlSetData()<ept id="2">&lt;/a></ept>.</mrk></target>
+<note>GUIDataSeparatorChar</note>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en"> The default character is '|'. </source>
+<seg-source> <mrk mid="0" mtype="seg">The default character is '|'.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The default character is '|'.</mrk> </target>
+<note>GUIDataSeparatorChar</note>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">GUIOnEventMode</source>
+<seg-source><mrk mid="0" mtype="seg">GUIOnEventMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUIOnEventMode</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="GUIOnEventMode"></ph>Enable/disable OnEvent functions notifications.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="GUIOnEventMode"></ph>Enable/disable OnEvent functions notifications.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="GUIOnEventMode"></ph>Enable/disable OnEvent functions notifications.</mrk></target>
+<note>GUIOnEventMode</note>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en"> 0 = (default) disable.</source>
+<seg-source> <mrk mid="0" mtype="seg">0 = (default) disable.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 = (default) disable.</mrk></target>
+<note>GUIOnEventMode</note>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en"> 1 = enable. </source>
+<seg-source> <mrk mid="0" mtype="seg">1 = enable.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 = enable.</mrk> </target>
+<note>GUIOnEventMode</note>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">GUIResizeMode</source>
+<seg-source><mrk mid="0" mtype="seg">GUIResizeMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUIResizeMode</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="GUIResizeMode"></ph>Change default resizing for a control.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="GUIResizeMode"></ph>Change default resizing for a control.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="GUIResizeMode"></ph>Change default resizing for a control.</mrk></target>
+<note>GUIResizeMode</note>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en"> 0 = (default) keep default control resizing.</source>
+<seg-source> <mrk mid="0" mtype="seg">0 = (default) keep default control resizing.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 = (default) keep default control resizing.</mrk></target>
+<note>GUIResizeMode</note>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en"> &lt;1024 = any type of resizing see <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetResizing.htm"></bpt>GUICtrlSetResizing()<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">&lt;1024 = any type of resizing see <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetResizing.htm"></bpt>GUICtrlSetResizing()<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">&lt;1024 = any type of resizing see <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetResizing.htm"></bpt>GUICtrlSetResizing()<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>GUIResizeMode</note>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">GUIEventOptions</source>
+<seg-source><mrk mid="0" mtype="seg">GUIEventOptions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUIEventOptions</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="GUIEventOptions"></ph>Change special event behavior or GUI function return values.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="GUIEventOptions"></ph>Change special event behavior or GUI function return values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="GUIEventOptions"></ph>Change special event behavior or GUI function return values.</mrk></target>
+<note>GUIEventOptions</note>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en"> 0 = (default) Windows behavior on click on Minimize,Restore, Maximize, Resize.</source>
+<seg-source> <mrk mid="0" mtype="seg">0 = (default) Windows behavior on click on Minimize,Restore, Maximize, Resize.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 = (default) Windows behavior on click on Minimize,Restore, Maximize, Resize.</mrk></target>
+<note>GUIEventOptions</note>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en"> 1 = suppress windows behavior on minimize, restore or maximize click button or window resize. Just sends the notification. </source>
+<seg-source> <mrk mid="0" mtype="seg">1 = suppress windows behavior on minimize, restore or maximize click button or window resize.</mrk> <mrk mid="1" mtype="seg">Just sends the notification.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 = suppress windows behavior on minimize, restore or maximize click button or window resize.</mrk> <mrk mid="1" mtype="seg">Just sends the notification.</mrk> </target>
+<note>GUIEventOptions</note>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">MouseClickDelay</source>
+<seg-source><mrk mid="0" mtype="seg">MouseClickDelay</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MouseClickDelay</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="MouseClickDelay"></ph>Alters the length of the brief pause in between mouse clicks.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="MouseClickDelay"></ph>Alters the length of the brief pause in between mouse clicks.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="MouseClickDelay"></ph>Alters the length of the brief pause in between mouse clicks.</mrk></target>
+<note>MouseClickDelay</note>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en"> Time in milliseconds to pause (default=10). </source>
+<seg-source> <mrk mid="0" mtype="seg">Time in milliseconds to pause (default=10).</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Time in milliseconds to pause (default=10).</mrk> </target>
+<note>MouseClickDelay</note>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">MouseClickDownDelay</source>
+<seg-source><mrk mid="0" mtype="seg">MouseClickDownDelay</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MouseClickDownDelay</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="MouseClickDownDelay"></ph>Alters the length a click is held down before release.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="MouseClickDownDelay"></ph>Alters the length a click is held down before release.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="MouseClickDownDelay"></ph>Alters the length a click is held down before release.</mrk></target>
+<note>MouseClickDownDelay</note>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en"> Time in milliseconds to pause (default=10). </source>
+<seg-source> <mrk mid="0" mtype="seg">Time in milliseconds to pause (default=10).</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Time in milliseconds to pause (default=10).</mrk> </target>
+<note>MouseClickDownDelay</note>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">MouseClickDragDelay</source>
+<seg-source><mrk mid="0" mtype="seg">MouseClickDragDelay</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MouseClickDragDelay</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="MouseClickDragDelay"></ph>Alters the length of the brief pause at the start and end of a mouse drag operation.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="MouseClickDragDelay"></ph>Alters the length of the brief pause at the start and end of a mouse drag operation.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="MouseClickDragDelay"></ph>Alters the length of the brief pause at the start and end of a mouse drag operation.</mrk></target>
+<note>MouseClickDragDelay</note>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en"> Time in milliseconds to pause (default=250). </source>
+<seg-source> <mrk mid="0" mtype="seg">Time in milliseconds to pause (default=250).</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Time in milliseconds to pause (default=250).</mrk> </target>
+<note>MouseClickDragDelay</note>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">MouseCoordMode</source>
+<seg-source><mrk mid="0" mtype="seg">MouseCoordMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MouseCoordMode</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="MouseCoordMode"></ph>Sets the way coords are used in the mouse functions, either absolute coords or coords relative to the current active window:</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="MouseCoordMode"></ph>Sets the way coords are used in the mouse functions, either absolute coords or coords relative to the current active window:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="MouseCoordMode"></ph>Sets the way coords are used in the mouse functions, either absolute coords or coords relative to the current active window:</mrk></target>
+<note>MouseCoordMode</note>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en"> 0 = relative coords to the active window</source>
+<seg-source> <mrk mid="0" mtype="seg">0 = relative coords to the active window</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 = relative coords to the active window</mrk></target>
+<note>MouseCoordMode</note>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en"> 1 = (default) absolute screen coordinates</source>
+<seg-source> <mrk mid="0" mtype="seg">1 = (default) absolute screen coordinates</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 = (default) absolute screen coordinates</mrk></target>
+<note>MouseCoordMode</note>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en"> 2 = relative coords to the client area of the active window </source>
+<seg-source> <mrk mid="0" mtype="seg">2 = relative coords to the client area of the active window</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 = relative coords to the client area of the active window</mrk> </target>
+<note>MouseCoordMode</note>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">MustDeclareVars</source>
+<seg-source><mrk mid="0" mtype="seg">MustDeclareVars</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MustDeclareVars</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="MustDeclareVars"></ph>If this option is used then all variables must be pre-declared with Local, Global or in some cases Dim before they can be used - removes the chance for misspelled variables causing bugs.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="MustDeclareVars"></ph>If this option is used then all variables must be pre-declared with Local, Global or in some cases Dim before they can be used - removes the chance for misspelled variables causing bugs.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="MustDeclareVars"></ph>If this option is used then all variables must be pre-declared with Local, Global or in some cases Dim before they can be used - removes the chance for misspelled variables causing bugs.</mrk></target>
+<note>MustDeclareVars</note>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en"> 0 = (default) Variables don't need to be pre-declared</source>
+<seg-source> <mrk mid="0" mtype="seg">0 = (default) Variables don't need to be pre-declared</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 = (default) Variables don't need to be pre-declared</mrk></target>
+<note>MustDeclareVars</note>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en"> 1 = Variables must be pre-declared. See <bpt id="1" ctype="x-a">&lt;a href="../keywords/Dim.htm"></bpt>Dim / Global / Local / Const<ept id="1">&lt;/a></ept> for details on declaring variables. </source>
+<seg-source> <mrk mid="0" mtype="seg">1 = Variables must be pre-declared.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../keywords/Dim.htm"></bpt>Dim / Global / Local / Const<ept id="1">&lt;/a></ept> for details on declaring variables.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 = Variables must be pre-declared.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../keywords/Dim.htm"></bpt>Dim / Global / Local / Const<ept id="1">&lt;/a></ept> for details on declaring variables.</mrk> </target>
+<note>MustDeclareVars</note>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">PixelCoordMode</source>
+<seg-source><mrk mid="0" mtype="seg">PixelCoordMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">PixelCoordMode</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="PixelCoordMode"></ph>Sets the way coords are used in the pixel functions, either absolute coords or coords relative to the window defined by hwnd (default active window):</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="PixelCoordMode"></ph>Sets the way coords are used in the pixel functions, either absolute coords or coords relative to the window defined by hwnd (default active window):</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="PixelCoordMode"></ph>Sets the way coords are used in the pixel functions, either absolute coords or coords relative to the window defined by hwnd (default active window):</mrk></target>
+<note>PixelCoordMode</note>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en"> 0 = relative coords to the defined window</source>
+<seg-source> <mrk mid="0" mtype="seg">0 = relative coords to the defined window</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 = relative coords to the defined window</mrk></target>
+<note>PixelCoordMode</note>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en"> 1 = (default) absolute screen coordinates</source>
+<seg-source> <mrk mid="0" mtype="seg">1 = (default) absolute screen coordinates</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 = (default) absolute screen coordinates</mrk></target>
+<note>PixelCoordMode</note>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en"> 2 = relative coords to the client area of the defined window </source>
+<seg-source> <mrk mid="0" mtype="seg">2 = relative coords to the client area of the defined window</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 = relative coords to the client area of the defined window</mrk> </target>
+<note>PixelCoordMode</note>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">SendAttachMode</source>
+<seg-source><mrk mid="0" mtype="seg">SendAttachMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SendAttachMode</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="SendAttachMode"></ph>Specifies if AutoIt attaches input threads when using <bpt id="2" ctype="x-a">&lt;a href="Send.htm"></bpt>Send()<ept id="2">&lt;/a></ept> function. When not attaching (default mode=0) detecting the state of capslock/scrolllock and numlock can be unreliable under NT4. However, when you specify attach mode=1 the <bpt id="1" ctype="x-a">&lt;a href="Send.htm"></bpt>Send<ept id="1">&lt;/a></ept>("{... down/up}") syntax will not work and there may be problems with sending keys to "hung" windows. <bpt id="1" ctype="x-a">&lt;a href="ControlSend.htm"></bpt>ControlSend()<ept id="1">&lt;/a></ept> ALWAYS attaches and is not affected by this mode.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="SendAttachMode"></ph>Specifies if AutoIt attaches input threads when using <bpt id="2" ctype="x-a">&lt;a href="Send.htm"></bpt>Send()<ept id="2">&lt;/a></ept> function.</mrk> <mrk mid="1" mtype="seg">When not attaching (default mode=0) detecting the state of capslock/scrolllock and numlock can be unreliable under NT4.</mrk> <mrk mid="2" mtype="seg">However, when you specify attach mode=1 the <bpt id="1" ctype="x-a">&lt;a href="Send.htm"></bpt>Send<ept id="1">&lt;/a></ept>("{... down/up}") syntax will not work and there may be problems with sending keys to "hung" windows.</mrk> <mrk mid="3" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="ControlSend.htm"></bpt>ControlSend()<ept id="1">&lt;/a></ept> ALWAYS attaches and is not affected by this mode.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="SendAttachMode"></ph>Specifies if AutoIt attaches input threads when using <bpt id="2" ctype="x-a">&lt;a href="Send.htm"></bpt>Send()<ept id="2">&lt;/a></ept> function.</mrk> <mrk mid="1" mtype="seg">When not attaching (default mode=0) detecting the state of capslock/scrolllock and numlock can be unreliable under NT4.</mrk> <mrk mid="2" mtype="seg">However, when you specify attach mode=1 the <bpt id="1" ctype="x-a">&lt;a href="Send.htm"></bpt>Send<ept id="1">&lt;/a></ept>("{... down/up}") syntax will not work and there may be problems with sending keys to "hung" windows.</mrk> <mrk mid="3" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="ControlSend.htm"></bpt>ControlSend()<ept id="1">&lt;/a></ept> ALWAYS attaches and is not affected by this mode.</mrk></target>
+<note>SendAttachMode</note>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en"> 0 = (default) don't attach</source>
+<seg-source> <mrk mid="0" mtype="seg">0 = (default) don't attach</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 = (default) don't attach</mrk></target>
+<note>SendAttachMode</note>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en"> 1 = attach </source>
+<seg-source> <mrk mid="0" mtype="seg">1 = attach</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 = attach</mrk> </target>
+<note>SendAttachMode</note>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">SendCapslockMode</source>
+<seg-source><mrk mid="0" mtype="seg">SendCapslockMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SendCapslockMode</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="SendCapslockMode"></ph>Specifies if AutoIt should store the state of capslock before a <bpt id="2" ctype="x-a">&lt;a href="Send.htm"></bpt>Send()<ept id="2">&lt;/a></ept> function and restore it afterwards.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="SendCapslockMode"></ph>Specifies if AutoIt should store the state of capslock before a <bpt id="2" ctype="x-a">&lt;a href="Send.htm"></bpt>Send()<ept id="2">&lt;/a></ept> function and restore it afterwards.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="SendCapslockMode"></ph>Specifies if AutoIt should store the state of capslock before a <bpt id="2" ctype="x-a">&lt;a href="Send.htm"></bpt>Send()<ept id="2">&lt;/a></ept> function and restore it afterwards.</mrk></target>
+<note>SendCapslockMode</note>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en"> 0 = don't store/restore</source>
+<seg-source> <mrk mid="0" mtype="seg">0 = don't store/restore</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 = don't store/restore</mrk></target>
+<note>SendCapslockMode</note>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en"> 1 = (default) store and restore </source>
+<seg-source> <mrk mid="0" mtype="seg">1 = (default) store and restore</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 = (default) store and restore</mrk> </target>
+<note>SendCapslockMode</note>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">SendKeyDelay</source>
+<seg-source><mrk mid="0" mtype="seg">SendKeyDelay</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SendKeyDelay</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="SendKeyDelay"></ph>Alters the length of the brief pause in between sent keystrokes. A value of 0 removes the delay completely.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="SendKeyDelay"></ph>Alters the length of the brief pause in between sent keystrokes.</mrk> <mrk mid="1" mtype="seg">A value of 0 removes the delay completely.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="SendKeyDelay"></ph>Alters the length of the brief pause in between sent keystrokes.</mrk> <mrk mid="1" mtype="seg">A value of 0 removes the delay completely.</mrk></target>
+<note>SendKeyDelay</note>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en"> Time in milliseconds to pause (default=5). </source>
+<seg-source> <mrk mid="0" mtype="seg">Time in milliseconds to pause (default=5).</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Time in milliseconds to pause (default=5).</mrk> </target>
+<note>SendKeyDelay</note>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">SendKeyDownDelay</source>
+<seg-source><mrk mid="0" mtype="seg">SendKeyDownDelay</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SendKeyDownDelay</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="SendKeyDownDelay"></ph>Alters the length of time a key is held down before being released during a keystroke. For applications that take a while to register keypresses you may need to raise this value from the default. A value of 0 removes the delay completely.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="SendKeyDownDelay"></ph>Alters the length of time a key is held down before being released during a keystroke.</mrk> <mrk mid="1" mtype="seg">For applications that take a while to register keypresses you may need to raise this value from the default.</mrk> <mrk mid="2" mtype="seg">A value of 0 removes the delay completely.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="SendKeyDownDelay"></ph>Alters the length of time a key is held down before being released during a keystroke.</mrk> <mrk mid="1" mtype="seg">For applications that take a while to register keypresses you may need to raise this value from the default.</mrk> <mrk mid="2" mtype="seg">A value of 0 removes the delay completely.</mrk></target>
+<note>SendKeyDownDelay</note>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en"> Time in milliseconds to pause (default=5). </source>
+<seg-source> <mrk mid="0" mtype="seg">Time in milliseconds to pause (default=5).</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Time in milliseconds to pause (default=5).</mrk> </target>
+<note>SendKeyDownDelay</note>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">TCPTimeout</source>
+<seg-source><mrk mid="0" mtype="seg">TCPTimeout</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TCPTimeout</mrk></target>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="TCPTimeout"></ph>Defines the time before TCP functions stop if no communication.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="TCPTimeout"></ph>Defines the time before TCP functions stop if no communication.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="TCPTimeout"></ph>Defines the time before TCP functions stop if no communication.</mrk></target>
+<note>TCPTimeout</note>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en"> Time in milliseconds before timeout (default=100). </source>
+<seg-source> <mrk mid="0" mtype="seg">Time in milliseconds before timeout (default=100).</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Time in milliseconds before timeout (default=100).</mrk> </target>
+<note>TCPTimeout</note>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en">TrayAutoPause</source>
+<seg-source><mrk mid="0" mtype="seg">TrayAutoPause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayAutoPause</mrk></target>
+</trans-unit>
+<trans-unit id="94">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="TrayAutoPause"></ph>Script pauses when click on tray icon.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="TrayAutoPause"></ph>Script pauses when click on tray icon.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="TrayAutoPause"></ph>Script pauses when click on tray icon.</mrk></target>
+<note>TrayAutoPause</note>
+</trans-unit>
+<trans-unit id="95">
+<source xml:lang="en"> 0 = no pause</source>
+<seg-source> <mrk mid="0" mtype="seg">0 = no pause</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 = no pause</mrk></target>
+<note>TrayAutoPause</note>
+</trans-unit>
+<trans-unit id="96">
+<source xml:lang="en"> 1 = (default) pause. If there is no DefaultMenu no pause will occurs. </source>
+<seg-source> <mrk mid="0" mtype="seg">1 = (default) pause.</mrk> <mrk mid="1" mtype="seg">If there is no DefaultMenu no pause will occurs.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 = (default) pause.</mrk> <mrk mid="1" mtype="seg">If there is no DefaultMenu no pause will occurs.</mrk> </target>
+<note>TrayAutoPause</note>
+</trans-unit>
+<trans-unit id="97">
+<source xml:lang="en">TrayIconDebug</source>
+<seg-source><mrk mid="0" mtype="seg">TrayIconDebug</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayIconDebug</mrk></target>
+</trans-unit>
+<trans-unit id="98">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="TrayIconDebug"></ph>If enabled shows the current script line in the tray icon tip to help debugging.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="TrayIconDebug"></ph>If enabled shows the current script line in the tray icon tip to help debugging.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="TrayIconDebug"></ph>If enabled shows the current script line in the tray icon tip to help debugging.</mrk></target>
+<note>TrayIconDebug</note>
+</trans-unit>
+<trans-unit id="99">
+<source xml:lang="en"> 0 = (default) no debug information</source>
+<seg-source> <mrk mid="0" mtype="seg">0 = (default) no debug information</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 = (default) no debug information</mrk></target>
+<note>TrayIconDebug</note>
+</trans-unit>
+<trans-unit id="100">
+<source xml:lang="en"> 1 = show debug </source>
+<seg-source> <mrk mid="0" mtype="seg">1 = show debug</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 = show debug</mrk> </target>
+<note>TrayIconDebug</note>
+</trans-unit>
+<trans-unit id="101">
+<source xml:lang="en">TrayIconHide</source>
+<seg-source><mrk mid="0" mtype="seg">TrayIconHide</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayIconHide</mrk></target>
+</trans-unit>
+<trans-unit id="102">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="TrayIconHide"></ph>Hides the AutoIt tray icon. Note: The icon will still initially appear for ~750 milliseconds.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="TrayIconHide"></ph>Hides the AutoIt tray icon.</mrk> <mrk mid="1" mtype="seg">Note:</mrk> <mrk mid="2" mtype="seg">The icon will still initially appear for ~750 milliseconds.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="TrayIconHide"></ph>Hides the AutoIt tray icon.</mrk> <mrk mid="1" mtype="seg">Note:</mrk> <mrk mid="2" mtype="seg">The icon will still initially appear for ~750 milliseconds.</mrk></target>
+<note>TrayIconHide</note>
+</trans-unit>
+<trans-unit id="103">
+<source xml:lang="en"> 0 = (default) show icon</source>
+<seg-source> <mrk mid="0" mtype="seg">0 = (default) show icon</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 = (default) show icon</mrk></target>
+<note>TrayIconHide</note>
+</trans-unit>
+<trans-unit id="104">
+<source xml:lang="en"> 1 = hide icon </source>
+<seg-source> <mrk mid="0" mtype="seg">1 = hide icon</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 = hide icon</mrk> </target>
+<note>TrayIconHide</note>
+</trans-unit>
+<trans-unit id="105">
+<source xml:lang="en">TrayMenuMode</source>
+<seg-source><mrk mid="0" mtype="seg">TrayMenuMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayMenuMode</mrk></target>
+</trans-unit>
+<trans-unit id="106">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="TrayMenuMode"></ph>Extend the behaviour of the script tray icon/menu. This can be done with a combination (adding) of the following values.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="TrayMenuMode"></ph>Extend the behaviour of the script tray icon/menu.</mrk> <mrk mid="1" mtype="seg">This can be done with a combination (adding) of the following values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="TrayMenuMode"></ph>Extend the behaviour of the script tray icon/menu.</mrk> <mrk mid="1" mtype="seg">This can be done with a combination (adding) of the following values.</mrk></target>
+<note>TrayMenuMode</note>
+</trans-unit>
+<trans-unit id="107">
+<source xml:lang="en"> 0 = (default) default menu items (Script Paused/Exit) are appended to the usercreated menu; items will automatically be checked/unchecked when clicked; double clicking the tray icon returns the controlID of the $TRAY_DEFAULT item.</source>
+<seg-source> <mrk mid="0" mtype="seg">0 = (default) default menu items (Script Paused/Exit) are appended to the usercreated menu; items will automatically be checked/unchecked when clicked; double clicking the tray icon returns the controlID of the $TRAY_DEFAULT item.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 = (default) default menu items (Script Paused/Exit) are appended to the usercreated menu; items will automatically be checked/unchecked when clicked; double clicking the tray icon returns the controlID of the $TRAY_DEFAULT item.</mrk></target>
+<note>TrayMenuMode</note>
+</trans-unit>
+<trans-unit id="108">
+<source xml:lang="en"> 1 = no default menu</source>
+<seg-source> <mrk mid="0" mtype="seg">1 = no default menu</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 = no default menu</mrk></target>
+<note>TrayMenuMode</note>
+</trans-unit>
+<trans-unit id="109">
+<source xml:lang="en"> 2 = items will not automatically check/uncheck when clicked</source>
+<seg-source> <mrk mid="0" mtype="seg">2 = items will not automatically check/uncheck when clicked</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 = items will not automatically check/uncheck when clicked</mrk></target>
+<note>TrayMenuMode</note>
+</trans-unit>
+<trans-unit id="110">
+<source xml:lang="en"> 4 = do not return the $TRAY_DEFAULT item controlID when the tray icon is double clicked</source>
+<seg-source> <mrk mid="0" mtype="seg">4 = do not return the $TRAY_DEFAULT item controlID when the tray icon is double clicked</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 = do not return the $TRAY_DEFAULT item controlID when the tray icon is double clicked</mrk></target>
+<note>TrayMenuMode</note>
+</trans-unit>
+<trans-unit id="111">
+<source xml:lang="en"> 8 = turn off auto check of radio item groups </source>
+<seg-source> <mrk mid="0" mtype="seg">8 = turn off auto check of radio item groups</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">8 = turn off auto check of radio item groups</mrk> </target>
+<note>TrayMenuMode</note>
+</trans-unit>
+<trans-unit id="112">
+<source xml:lang="en">TrayOnEventMode</source>
+<seg-source><mrk mid="0" mtype="seg">TrayOnEventMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayOnEventMode</mrk></target>
+</trans-unit>
+<trans-unit id="113">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="TrayOnEventMode"></ph>Enable/disable OnEvent functions notifications for the tray.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="TrayOnEventMode"></ph>Enable/disable OnEvent functions notifications for the tray.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="TrayOnEventMode"></ph>Enable/disable OnEvent functions notifications for the tray.</mrk></target>
+<note>TrayOnEventMode</note>
+</trans-unit>
+<trans-unit id="114">
+<source xml:lang="en"> 0 = (default) disable</source>
+<seg-source> <mrk mid="0" mtype="seg">0 = (default) disable</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 = (default) disable</mrk></target>
+<note>TrayOnEventMode</note>
+</trans-unit>
+<trans-unit id="115">
+<source xml:lang="en"> 1 = enable </source>
+<seg-source> <mrk mid="0" mtype="seg">1 = enable</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 = enable</mrk> </target>
+<note>TrayOnEventMode</note>
+</trans-unit>
+<trans-unit id="116">
+<source xml:lang="en">WinDetectHiddenText</source>
+<seg-source><mrk mid="0" mtype="seg">WinDetectHiddenText</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WinDetectHiddenText</mrk></target>
+</trans-unit>
+<trans-unit id="117">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="WinDetectHiddenText"></ph>Specifies if hidden window text can be "seen" by the window matching functions.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="WinDetectHiddenText"></ph>Specifies if hidden window text can be "seen" by the window matching functions.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="WinDetectHiddenText"></ph>Specifies if hidden window text can be "seen" by the window matching functions.</mrk></target>
+<note>WinDetectHiddenText</note>
+</trans-unit>
+<trans-unit id="118">
+<source xml:lang="en"> 0 = (default) Do not detect hidden text</source>
+<seg-source> <mrk mid="0" mtype="seg">0 = (default) Do not detect hidden text</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 = (default) Do not detect hidden text</mrk></target>
+<note>WinDetectHiddenText</note>
+</trans-unit>
+<trans-unit id="119">
+<source xml:lang="en"> 1 = Detect hidden text </source>
+<seg-source> <mrk mid="0" mtype="seg">1 = Detect hidden text</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 = Detect hidden text</mrk> </target>
+<note>WinDetectHiddenText</note>
+</trans-unit>
+<trans-unit id="120">
+<source xml:lang="en">WinSearchChildren</source>
+<seg-source><mrk mid="0" mtype="seg">WinSearchChildren</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WinSearchChildren</mrk></target>
+</trans-unit>
+<trans-unit id="121">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="WinSearchChildren"></ph>Allows the window search routines to search child windows as well as top-level windows.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="WinSearchChildren"></ph>Allows the window search routines to search child windows as well as top-level windows.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="WinSearchChildren"></ph>Allows the window search routines to search child windows as well as top-level windows.</mrk></target>
+<note>WinSearchChildren</note>
+</trans-unit>
+<trans-unit id="122">
+<source xml:lang="en"> 0 = (default) Only search top-level windows</source>
+<seg-source> <mrk mid="0" mtype="seg">0 = (default) Only search top-level windows</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 = (default) Only search top-level windows</mrk></target>
+<note>WinSearchChildren</note>
+</trans-unit>
+<trans-unit id="123">
+<source xml:lang="en"> 1 = Search top-level and child windows </source>
+<seg-source> <mrk mid="0" mtype="seg">1 = Search top-level and child windows</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 = Search top-level and child windows</mrk> </target>
+<note>WinSearchChildren</note>
+</trans-unit>
+<trans-unit id="124">
+<source xml:lang="en">WinTextMatchMode</source>
+<seg-source><mrk mid="0" mtype="seg">WinTextMatchMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WinTextMatchMode</mrk></target>
+</trans-unit>
+<trans-unit id="125">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="WinTextMatchMode"></ph>Alters the method that is used to match window text during search operations.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="WinTextMatchMode"></ph>Alters the method that is used to match window text during search operations.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="WinTextMatchMode"></ph>Alters the method that is used to match window text during search operations.</mrk></target>
+<note>WinTextMatchMode</note>
+</trans-unit>
+<trans-unit id="126">
+<source xml:lang="en"> 1 = (default) Complete / Slow mode</source>
+<seg-source> <mrk mid="0" mtype="seg">1 = (default) Complete / Slow mode</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 = (default) Complete / Slow mode</mrk></target>
+<note>WinTextMatchMode</note>
+</trans-unit>
+<trans-unit id="127">
+<source xml:lang="en"> 2 = Quick mode</source>
+<seg-source> <mrk mid="0" mtype="seg">2 = Quick mode</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 = Quick mode</mrk></target>
+<note>WinTextMatchMode</note>
+</trans-unit>
+<trans-unit id="128">
+<source xml:lang="en"> In quick mode AutoIt can usually only "see" dialog text, button text and the captions of some controls. In the default mode much more text can be seen (for instance the contents of the Notepad window).</source>
+<seg-source> <mrk mid="0" mtype="seg">In quick mode AutoIt can usually only "see" dialog text, button text and the captions of some controls.</mrk> <mrk mid="1" mtype="seg">In the default mode much more text can be seen (for instance the contents of the Notepad window).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">In quick mode AutoIt can usually only "see" dialog text, button text and the captions of some controls.</mrk> <mrk mid="1" mtype="seg">In the default mode much more text can be seen (for instance the contents of the Notepad window).</mrk></target>
+<note>WinTextMatchMode</note>
+</trans-unit>
+<trans-unit id="129">
+<source xml:lang="en"> If you are having performance problems when performing many window searches then changing to the "quick" mode may help. </source>
+<seg-source> <mrk mid="0" mtype="seg">If you are having performance problems when performing many window searches then changing to the "quick" mode may help.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If you are having performance problems when performing many window searches then changing to the "quick" mode may help.</mrk> </target>
+<note>WinTextMatchMode</note>
+</trans-unit>
+<trans-unit id="130">
+<source xml:lang="en">WinTitleMatchMode</source>
+<seg-source><mrk mid="0" mtype="seg">WinTitleMatchMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WinTitleMatchMode</mrk></target>
+</trans-unit>
+<trans-unit id="131">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="WinTitleMatchMode"></ph>Alters the method that is used to match window titles during search operations.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="WinTitleMatchMode"></ph>Alters the method that is used to match window titles during search operations.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="WinTitleMatchMode"></ph>Alters the method that is used to match window titles during search operations.</mrk></target>
+<note>WinTitleMatchMode</note>
+</trans-unit>
+<trans-unit id="132">
+<source xml:lang="en"> 1 = (default) Match the title from the start</source>
+<seg-source> <mrk mid="0" mtype="seg">1 = (default) Match the title from the start</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 = (default) Match the title from the start</mrk></target>
+<note>WinTitleMatchMode</note>
+</trans-unit>
+<trans-unit id="133">
+<source xml:lang="en"> 2 = Match any substring in the title</source>
+<seg-source> <mrk mid="0" mtype="seg">2 = Match any substring in the title</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 = Match any substring in the title</mrk></target>
+<note>WinTitleMatchMode</note>
+</trans-unit>
+<trans-unit id="134">
+<source xml:lang="en"> 3 = Exact title match</source>
+<seg-source> <mrk mid="0" mtype="seg">3 = Exact title match</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 = Exact title match</mrk></target>
+<note>WinTitleMatchMode</note>
+</trans-unit>
+<trans-unit id="135">
+<source xml:lang="en"> 4 = Advanced mode (retained for backwards compatibility only - see <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsadvanced.htm"></bpt>Window Titles &amp; Text (Advanced)<ept id="1">&lt;/a></ept>)</source>
+<seg-source> <mrk mid="0" mtype="seg">4 = Advanced mode (retained for backwards compatibility only - see <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsadvanced.htm"></bpt>Window Titles &amp; Text (Advanced)<ept id="1">&lt;/a></ept>)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 = Advanced mode (retained for backwards compatibility only - see <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsadvanced.htm"></bpt>Window Titles &amp; Text (Advanced)<ept id="1">&lt;/a></ept>)</mrk></target>
+<note>WinTitleMatchMode</note>
+</trans-unit>
+<trans-unit id="136">
+<source xml:lang="en"> -1 to -4 = Case insensitive match according to the other type of match. </source>
+<seg-source> <mrk mid="0" mtype="seg">-1 to -4 = Case insensitive match according to the other type of match.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">-1 to -4 = Case insensitive match according to the other type of match.</mrk> </target>
+<note>WinTitleMatchMode</note>
+</trans-unit>
+<trans-unit id="137">
+<source xml:lang="en">WinWaitDelay</source>
+<seg-source><mrk mid="0" mtype="seg">WinWaitDelay</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WinWaitDelay</mrk></target>
+</trans-unit>
+<trans-unit id="138">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="WinWaitDelay"></ph>Alters how long a script should briefly pause after a successful window-related operation.</source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="WinWaitDelay"></ph>Alters how long a script should briefly pause after a successful window-related operation.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="WinWaitDelay"></ph>Alters how long a script should briefly pause after a successful window-related operation.</mrk></target>
+<note>WinWaitDelay</note>
+</trans-unit>
+<trans-unit id="139">
+<source xml:lang="en"> Time in milliseconds to pause (default=250). </source>
+<seg-source> <mrk mid="0" mtype="seg">Time in milliseconds to pause (default=250).</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Time in milliseconds to pause (default=250).</mrk> </target>
+<note>WinWaitDelay</note>
+</trans-unit>
+<trans-unit id="140">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="141">
+<source xml:lang="en">copy any you want to change ;default value is listed first</source>
+<seg-source><mrk mid="0" mtype="seg">copy any you want to change ;default value is listed first</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">copy any you want to change ;default value is listed first</mrk></target>
+</trans-unit>
+<trans-unit id="142">
+<source xml:lang="en">CaretCoordMode</source>
+<seg-source><mrk mid="0" mtype="seg">CaretCoordMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CaretCoordMode</mrk></target>
+</trans-unit>
+<trans-unit id="143">
+<source xml:lang="en">1=absolute, 0=relative, 2=client</source>
+<seg-source><mrk mid="0" mtype="seg">1=absolute, 0=relative, 2=client</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1=absolute, 0=relative, 2=client</mrk></target>
+</trans-unit>
+<trans-unit id="144">
+<source xml:lang="en">ExpandEnvStrings</source>
+<seg-source><mrk mid="0" mtype="seg">ExpandEnvStrings</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ExpandEnvStrings</mrk></target>
+</trans-unit>
+<trans-unit id="145">
+<source xml:lang="en">0=don't expand, 1=do expand</source>
+<seg-source><mrk mid="0" mtype="seg">0=don't expand, 1=do expand</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0=don't expand, 1=do expand</mrk></target>
+</trans-unit>
+<trans-unit id="146">
+<source xml:lang="en">ExpandVarStrings</source>
+<seg-source><mrk mid="0" mtype="seg">ExpandVarStrings</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ExpandVarStrings</mrk></target>
+</trans-unit>
+<trans-unit id="147">
+<source xml:lang="en">0=don't expand, 1=do expand</source>
+<seg-source><mrk mid="0" mtype="seg">0=don't expand, 1=do expand</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0=don't expand, 1=do expand</mrk></target>
+</trans-unit>
+<trans-unit id="148">
+<source xml:lang="en">GUICloseOnESC</source>
+<seg-source><mrk mid="0" mtype="seg">GUICloseOnESC</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUICloseOnESC</mrk></target>
+</trans-unit>
+<trans-unit id="149">
+<source xml:lang="en">1=ESC closes, 0=ESC won't close</source>
+<seg-source><mrk mid="0" mtype="seg">1=ESC closes, 0=ESC won't close</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1=ESC closes, 0=ESC won't close</mrk></target>
+</trans-unit>
+<trans-unit id="150">
+<source xml:lang="en">GUICoordMode</source>
+<seg-source><mrk mid="0" mtype="seg">GUICoordMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUICoordMode</mrk></target>
+</trans-unit>
+<trans-unit id="151">
+<source xml:lang="en">1=absolute, 0=relative, 2=cell</source>
+<seg-source><mrk mid="0" mtype="seg">1=absolute, 0=relative, 2=cell</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1=absolute, 0=relative, 2=cell</mrk></target>
+</trans-unit>
+<trans-unit id="152">
+<source xml:lang="en">GUIDataSeparatorChar</source>
+<seg-source><mrk mid="0" mtype="seg">GUIDataSeparatorChar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUIDataSeparatorChar</mrk></target>
+</trans-unit>
+<trans-unit id="153">
+<source xml:lang="en">|</source>
+<seg-source><mrk mid="0" mtype="seg">|</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">|</mrk></target>
+</trans-unit>
+<trans-unit id="154">
+<source xml:lang="en">"|" is the default</source>
+<seg-source><mrk mid="0" mtype="seg">"|" is the default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"|" is the default</mrk></target>
+</trans-unit>
+<trans-unit id="155">
+<source xml:lang="en">GUIOnEventMode</source>
+<seg-source><mrk mid="0" mtype="seg">GUIOnEventMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUIOnEventMode</mrk></target>
+</trans-unit>
+<trans-unit id="156">
+<source xml:lang="en">0=disabled, 1=OnEvent mode enabled</source>
+<seg-source><mrk mid="0" mtype="seg">0=disabled, 1=OnEvent mode enabled</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0=disabled, 1=OnEvent mode enabled</mrk></target>
+</trans-unit>
+<trans-unit id="157">
+<source xml:lang="en">GUIResizeMode</source>
+<seg-source><mrk mid="0" mtype="seg">GUIResizeMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUIResizeMode</mrk></target>
+</trans-unit>
+<trans-unit id="158">
+<source xml:lang="en">0=no resizing, &lt;1024 special resizing</source>
+<seg-source><mrk mid="0" mtype="seg">0=no resizing, &lt;1024 special resizing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0=no resizing, &lt;1024 special resizing</mrk></target>
+</trans-unit>
+<trans-unit id="159">
+<source xml:lang="en">GUIEventOptions</source>
+<seg-source><mrk mid="0" mtype="seg">GUIEventOptions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUIEventOptions</mrk></target>
+</trans-unit>
+<trans-unit id="160">
+<source xml:lang="en">0=default, 1=just notification, 2=GUICtrlRead tab index</source>
+<seg-source><mrk mid="0" mtype="seg">0=default, 1=just notification, 2=GUICtrlRead tab index</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0=default, 1=just notification, 2=GUICtrlRead tab index</mrk></target>
+</trans-unit>
+<trans-unit id="161">
+<source xml:lang="en">MouseClickDelay</source>
+<seg-source><mrk mid="0" mtype="seg">MouseClickDelay</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MouseClickDelay</mrk></target>
+</trans-unit>
+<trans-unit id="162">
+<source xml:lang="en">10 milliseconds</source>
+<seg-source><mrk mid="0" mtype="seg">10 milliseconds</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10 milliseconds</mrk></target>
+</trans-unit>
+<trans-unit id="163">
+<source xml:lang="en">MouseClickDownDelay</source>
+<seg-source><mrk mid="0" mtype="seg">MouseClickDownDelay</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MouseClickDownDelay</mrk></target>
+</trans-unit>
+<trans-unit id="164">
+<source xml:lang="en">10 milliseconds</source>
+<seg-source><mrk mid="0" mtype="seg">10 milliseconds</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10 milliseconds</mrk></target>
+</trans-unit>
+<trans-unit id="165">
+<source xml:lang="en">MouseClickDragDelay</source>
+<seg-source><mrk mid="0" mtype="seg">MouseClickDragDelay</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MouseClickDragDelay</mrk></target>
+</trans-unit>
+<trans-unit id="166">
+<source xml:lang="en">250 milliseconds</source>
+<seg-source><mrk mid="0" mtype="seg">250 milliseconds</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">250 milliseconds</mrk></target>
+</trans-unit>
+<trans-unit id="167">
+<source xml:lang="en">MouseCoordMode</source>
+<seg-source><mrk mid="0" mtype="seg">MouseCoordMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MouseCoordMode</mrk></target>
+</trans-unit>
+<trans-unit id="168">
+<source xml:lang="en">1=absolute, 0=relative, 2=client</source>
+<seg-source><mrk mid="0" mtype="seg">1=absolute, 0=relative, 2=client</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1=absolute, 0=relative, 2=client</mrk></target>
+</trans-unit>
+<trans-unit id="169">
+<source xml:lang="en">MustDeclareVars</source>
+<seg-source><mrk mid="0" mtype="seg">MustDeclareVars</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MustDeclareVars</mrk></target>
+</trans-unit>
+<trans-unit id="170">
+<source xml:lang="en">0=no, 1=require pre-declaration</source>
+<seg-source><mrk mid="0" mtype="seg">0=no, 1=require pre-declaration</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0=no, 1=require pre-declaration</mrk></target>
+</trans-unit>
+<trans-unit id="171">
+<source xml:lang="en">PixelCoordMode</source>
+<seg-source><mrk mid="0" mtype="seg">PixelCoordMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">PixelCoordMode</mrk></target>
+</trans-unit>
+<trans-unit id="172">
+<source xml:lang="en">1=absolute, 0=relative, 2=client</source>
+<seg-source><mrk mid="0" mtype="seg">1=absolute, 0=relative, 2=client</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1=absolute, 0=relative, 2=client</mrk></target>
+</trans-unit>
+<trans-unit id="173">
+<source xml:lang="en">SendAttachMode</source>
+<seg-source><mrk mid="0" mtype="seg">SendAttachMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SendAttachMode</mrk></target>
+</trans-unit>
+<trans-unit id="174">
+<source xml:lang="en">0=don't attach, 1=do attach</source>
+<seg-source><mrk mid="0" mtype="seg">0=don't attach, 1=do attach</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0=don't attach, 1=do attach</mrk></target>
+</trans-unit>
+<trans-unit id="175">
+<source xml:lang="en">SendCapslockMode</source>
+<seg-source><mrk mid="0" mtype="seg">SendCapslockMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SendCapslockMode</mrk></target>
+</trans-unit>
+<trans-unit id="176">
+<source xml:lang="en">1=store and restore, 0=don't</source>
+<seg-source><mrk mid="0" mtype="seg">1=store and restore, 0=don't</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1=store and restore, 0=don't</mrk></target>
+</trans-unit>
+<trans-unit id="177">
+<source xml:lang="en">SendKeyDelay</source>
+<seg-source><mrk mid="0" mtype="seg">SendKeyDelay</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SendKeyDelay</mrk></target>
+</trans-unit>
+<trans-unit id="178">
+<source xml:lang="en">5 milliseconds</source>
+<seg-source><mrk mid="0" mtype="seg">5 milliseconds</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">5 milliseconds</mrk></target>
+</trans-unit>
+<trans-unit id="179">
+<source xml:lang="en">SendKeyDownDelay</source>
+<seg-source><mrk mid="0" mtype="seg">SendKeyDownDelay</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SendKeyDownDelay</mrk></target>
+</trans-unit>
+<trans-unit id="180">
+<source xml:lang="en">1 millisecond</source>
+<seg-source><mrk mid="0" mtype="seg">1 millisecond</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 millisecond</mrk></target>
+</trans-unit>
+<trans-unit id="181">
+<source xml:lang="en">TCPTimeout</source>
+<seg-source><mrk mid="0" mtype="seg">TCPTimeout</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TCPTimeout</mrk></target>
+</trans-unit>
+<trans-unit id="182">
+<source xml:lang="en">100 milliseconds</source>
+<seg-source><mrk mid="0" mtype="seg">100 milliseconds</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">100 milliseconds</mrk></target>
+</trans-unit>
+<trans-unit id="183">
+<source xml:lang="en">TrayAutoPause</source>
+<seg-source><mrk mid="0" mtype="seg">TrayAutoPause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayAutoPause</mrk></target>
+</trans-unit>
+<trans-unit id="184">
+<source xml:lang="en">0=no pause, 1=Pause</source>
+<seg-source><mrk mid="0" mtype="seg">0=no pause, 1=Pause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0=no pause, 1=Pause</mrk></target>
+</trans-unit>
+<trans-unit id="185">
+<source xml:lang="en">TrayIconDebug</source>
+<seg-source><mrk mid="0" mtype="seg">TrayIconDebug</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayIconDebug</mrk></target>
+</trans-unit>
+<trans-unit id="186">
+<source xml:lang="en">0=no info, 1=debug line info</source>
+<seg-source><mrk mid="0" mtype="seg">0=no info, 1=debug line info</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0=no info, 1=debug line info</mrk></target>
+</trans-unit>
+<trans-unit id="187">
+<source xml:lang="en">TrayIconHide</source>
+<seg-source><mrk mid="0" mtype="seg">TrayIconHide</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayIconHide</mrk></target>
+</trans-unit>
+<trans-unit id="188">
+<source xml:lang="en">0=show, 1=hide tray icon</source>
+<seg-source><mrk mid="0" mtype="seg">0=show, 1=hide tray icon</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0=show, 1=hide tray icon</mrk></target>
+</trans-unit>
+<trans-unit id="189">
+<source xml:lang="en">TrayMenuMode</source>
+<seg-source><mrk mid="0" mtype="seg">TrayMenuMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayMenuMode</mrk></target>
+</trans-unit>
+<trans-unit id="190">
+<source xml:lang="en">0=append, 1=no default menu, 2=no automatic check, 4=menuitemID not return</source>
+<seg-source><mrk mid="0" mtype="seg">0=append, 1=no default menu, 2=no automatic check, 4=menuitemID not return</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0=append, 1=no default menu, 2=no automatic check, 4=menuitemID not return</mrk></target>
+</trans-unit>
+<trans-unit id="191">
+<source xml:lang="en">TrayOnEventMode</source>
+<seg-source><mrk mid="0" mtype="seg">TrayOnEventMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayOnEventMode</mrk></target>
+</trans-unit>
+<trans-unit id="192">
+<source xml:lang="en">0=disable, 1=enable</source>
+<seg-source><mrk mid="0" mtype="seg">0=disable, 1=enable</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0=disable, 1=enable</mrk></target>
+</trans-unit>
+<trans-unit id="193">
+<source xml:lang="en">WinDetectHiddenText</source>
+<seg-source><mrk mid="0" mtype="seg">WinDetectHiddenText</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WinDetectHiddenText</mrk></target>
+</trans-unit>
+<trans-unit id="194">
+<source xml:lang="en">0=don't detect, 1=do detect</source>
+<seg-source><mrk mid="0" mtype="seg">0=don't detect, 1=do detect</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0=don't detect, 1=do detect</mrk></target>
+</trans-unit>
+<trans-unit id="195">
+<source xml:lang="en">WinSearchChildren</source>
+<seg-source><mrk mid="0" mtype="seg">WinSearchChildren</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WinSearchChildren</mrk></target>
+</trans-unit>
+<trans-unit id="196">
+<source xml:lang="en">0=no, 1=search children also</source>
+<seg-source><mrk mid="0" mtype="seg">0=no, 1=search children also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0=no, 1=search children also</mrk></target>
+</trans-unit>
+<trans-unit id="197">
+<source xml:lang="en">WinTextMatchMode</source>
+<seg-source><mrk mid="0" mtype="seg">WinTextMatchMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WinTextMatchMode</mrk></target>
+</trans-unit>
+<trans-unit id="198">
+<source xml:lang="en">1=complete, 2=quick</source>
+<seg-source><mrk mid="0" mtype="seg">1=complete, 2=quick</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1=complete, 2=quick</mrk></target>
+</trans-unit>
+<trans-unit id="199">
+<source xml:lang="en">WinTitleMatchMode</source>
+<seg-source><mrk mid="0" mtype="seg">WinTitleMatchMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WinTitleMatchMode</mrk></target>
+</trans-unit>
+<trans-unit id="200">
+<source xml:lang="en">1=start, 2=subStr, 3=exact, 4=advanced, -1 to -4=Nocase</source>
+<seg-source><mrk mid="0" mtype="seg">1=start, 2=subStr, 3=exact, 4=advanced, -1 to -4=Nocase</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1=start, 2=subStr, 3=exact, 4=advanced, -1 to -4=Nocase</mrk></target>
+</trans-unit>
+<trans-unit id="201">
+<source xml:lang="en">WinWaitDelay</source>
+<seg-source><mrk mid="0" mtype="seg">WinWaitDelay</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WinWaitDelay</mrk></target>
+</trans-unit>
+<trans-unit id="202">
+<source xml:lang="en">250 milliseconds</source>
+<seg-source><mrk mid="0" mtype="seg">250 milliseconds</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">250 milliseconds</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

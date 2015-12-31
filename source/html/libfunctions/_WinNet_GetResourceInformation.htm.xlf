@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinNet_GetResourceInformation.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Identifies the network provider that owns the resource</source>
+<seg-source><mrk mid="0" mtype="seg">Identifies the network provider that owns the resource</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Identifies the network provider that owns the resource</mrk></target>
+<note>Function _WinNet_GetResourceInformation</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The remote path name of the resource</source>
+<seg-source><mrk mid="0" mtype="seg">The remote path name of the resource</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The remote path name of the resource</mrk></target>
+<note>$sRemoteName</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The name of the provider that owns the resource.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The name of the provider that owns the resource.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The name of the provider that owns the resource.</mrk></target>
+<note>$sProvider</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> This member can be blank if the provider name is unknown.</source>
+<seg-source> <mrk mid="0" mtype="seg">This member can be blank if the provider name is unknown.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This member can be blank if the provider name is unknown.</mrk></target>
+<note>$sProvider</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Type of resource.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Type of resource.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Type of resource.</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> This member can be 0 if it is not known.</source>
+<seg-source> <mrk mid="0" mtype="seg">This member can be 0 if it is not known.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This member can be 0 if it is not known.</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">an array with the following format:</source>
+<seg-source><mrk mid="0" mtype="seg">an array with the following format:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an array with the following format:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $aResource[0] - Scope of enumeration:</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aResource[0] - Scope of enumeration:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aResource[0] - Scope of enumeration:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">         0 - Connected</source>
+<seg-source> <mrk mid="0" mtype="seg">        0 - Connected</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        0 - Connected</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">         1 - All resources</source>
+<seg-source> <mrk mid="0" mtype="seg">        1 - All resources</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        1 - All resources</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">         2 - Remembered</source>
+<seg-source> <mrk mid="0" mtype="seg">        2 - Remembered</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        2 - Remembered</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $aResource[1] - Type of resource:</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aResource[1] - Type of resource:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aResource[1] - Type of resource:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">         0 - Disk</source>
+<seg-source> <mrk mid="0" mtype="seg">        0 - Disk</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        0 - Disk</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">         1 - Print</source>
+<seg-source> <mrk mid="0" mtype="seg">        1 - Print</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        1 - Print</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">         2 - Unknown</source>
+<seg-source> <mrk mid="0" mtype="seg">        2 - Unknown</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        2 - Unknown</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $aResource[2] - Display option:</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aResource[2] - Display option:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aResource[2] - Display option:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">         0 - Generic</source>
+<seg-source> <mrk mid="0" mtype="seg">        0 - Generic</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        0 - Generic</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">         1 - Domain</source>
+<seg-source> <mrk mid="0" mtype="seg">        1 - Domain</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        1 - Domain</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">         2 - Server</source>
+<seg-source> <mrk mid="0" mtype="seg">        2 - Server</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        2 - Server</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">         3 - Share</source>
+<seg-source> <mrk mid="0" mtype="seg">        3 - Share</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        3 - Share</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">         4 - File</source>
+<seg-source> <mrk mid="0" mtype="seg">        4 - File</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        4 - File</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">         5 - Group</source>
+<seg-source> <mrk mid="0" mtype="seg">        5 - Group</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        5 - Group</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">         6 - Network</source>
+<seg-source> <mrk mid="0" mtype="seg">        6 - Network</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        6 - Network</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">         7 - Root</source>
+<seg-source> <mrk mid="0" mtype="seg">        7 - Root</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        7 - Root</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">         8 - Admin Share</source>
+<seg-source> <mrk mid="0" mtype="seg">        8 - Admin Share</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        8 - Admin Share</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">         9 - Directory</source>
+<seg-source> <mrk mid="0" mtype="seg">        9 - Directory</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        9 - Directory</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">         10 - Tree</source>
+<seg-source> <mrk mid="0" mtype="seg">        10 - Tree</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        10 - Tree</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">         11 - NDS Container</source>
+<seg-source> <mrk mid="0" mtype="seg">        11 - NDS Container</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        11 - NDS Container</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">     $aResource[3] - Resource usage. Can be one or more of the following:</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aResource[3] - Resource usage.</mrk> <mrk mid="1" mtype="seg">Can be one or more of the following:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aResource[3] - Resource usage.</mrk> <mrk mid="1" mtype="seg">Can be one or more of the following:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">         1 - The resource is a connectable resource</source>
+<seg-source> <mrk mid="0" mtype="seg">        1 - The resource is a connectable resource</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        1 - The resource is a connectable resource</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">         2 - The resource is a container resource</source>
+<seg-source> <mrk mid="0" mtype="seg">        2 - The resource is a container resource</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        2 - The resource is a container resource</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">         4 - The resource is attached</source>
+<seg-source> <mrk mid="0" mtype="seg">        4 - The resource is attached</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        4 - The resource is attached</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">         8 - The resource is reserved</source>
+<seg-source> <mrk mid="0" mtype="seg">        8 - The resource is reserved</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        8 - The resource is reserved</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">     $aResource[4] - Local name</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aResource[4] - Local name</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aResource[4] - Local name</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">     $aResource[5] - Remote name</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aResource[5] - Remote name</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aResource[5] - Remote name</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">     $aResource[6] - Comment supplied by the network provider</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aResource[6] - Comment supplied by the network provider</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aResource[6] - Comment supplied by the network provider</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">     $aResource[7] - The name of the provider that owns the resource</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aResource[7] - The name of the provider that owns the resource</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aResource[7] - The name of the provider that owns the resource</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">     $aResource[8] - The part of the resource that is accessed through system functions</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aResource[8] - The part of the resource that is accessed through system functions</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aResource[8] - The part of the resource that is accessed through system functions</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(WNetGetResourceInformation);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>WNetGetResourceInformation<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(WNetGetResourceInformation);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>WNetGetResourceInformation<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(WNetGetResourceInformation);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>WNetGetResourceInformation<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

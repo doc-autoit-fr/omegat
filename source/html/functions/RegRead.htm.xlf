@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/RegRead.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Reads a value from the registry.</source>
+<seg-source><mrk mid="0" mtype="seg">Reads a value from the registry.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Reads a value from the registry.</mrk></target>
+<note>Function RegRead</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The registry key to read.</source>
+<seg-source><mrk mid="0" mtype="seg">The registry key to read.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The registry key to read.</mrk></target>
+<note>keyname</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The value to read.</source>
+<seg-source><mrk mid="0" mtype="seg">The value to read.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The value to read.</mrk></target>
+<note>valuename</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">the requested registry value. @extended is set to the type of the value $REG_... . These types are defined in the "Constants.au3" include file.</source>
+<seg-source><mrk mid="0" mtype="seg">the requested registry value.</mrk> <mrk mid="1" mtype="seg">@extended is set to the type of the value $REG_... .</mrk> <mrk mid="2" mtype="seg">These types are defined in the "Constants.au3" include file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the requested registry value.</mrk> <mrk mid="1" mtype="seg">@extended is set to the type of the value $REG_... .</mrk> <mrk mid="2" mtype="seg">These types are defined in the "Constants.au3" include file.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">1 = unable to open requested key</source>
+<seg-source><mrk mid="0" mtype="seg">1 = unable to open requested key</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 = unable to open requested key</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">  2 = unable to open requested main key</source>
+<seg-source> <mrk mid="0" mtype="seg"> 2 = unable to open requested main key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"> 2 = unable to open requested main key</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">  3 = unable to remote connect to the registry</source>
+<seg-source> <mrk mid="0" mtype="seg"> 3 = unable to remote connect to the registry</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"> 3 = unable to remote connect to the registry</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> -1 = unable to open requested value</source>
+<seg-source> <mrk mid="0" mtype="seg">-1 = unable to open requested value</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">-1 = unable to open requested value</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> -2 = value type not supported</source>
+<seg-source> <mrk mid="0" mtype="seg">-2 = value type not supported</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">-2 = value type not supported</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">A registry key must start with "HKEY_LOCAL_MACHINE" ("HKLM") or "HKEY_USERS" ("HKU") or "HKEY_CURRENT_USER" ("HKCU") or "HKEY_CLASSES_ROOT" ("HKCR") or "HKEY_CURRENT_CONFIG" ("HKCC").</source>
+<seg-source><mrk mid="0" mtype="seg">A registry key must start with "HKEY_LOCAL_MACHINE" ("HKLM") or "HKEY_USERS" ("HKU") or "HKEY_CURRENT_USER" ("HKCU") or "HKEY_CLASSES_ROOT" ("HKCR") or "HKEY_CURRENT_CONFIG" ("HKCC").</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A registry key must start with "HKEY_LOCAL_MACHINE" ("HKLM") or "HKEY_USERS" ("HKU") or "HKEY_CURRENT_USER" ("HKCU") or "HKEY_CLASSES_ROOT" ("HKCR") or "HKEY_CURRENT_CONFIG" ("HKCC").</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> When running on 64-bit Windows if you want to read a value specific to the 64-bit environment you have to suffix the HK... with 64 i.e. HKLM64.</source>
+<seg-source> <mrk mid="0" mtype="seg">When running on 64-bit Windows if you want to read a value specific to the 64-bit environment you have to suffix the HK... with 64 i.e.</mrk> <mrk mid="1" mtype="seg">HKLM64.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When running on 64-bit Windows if you want to read a value specific to the 64-bit environment you have to suffix the HK... with 64 i.e.</mrk> <mrk mid="1" mtype="seg">HKLM64.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> AutoIt supports registry keys of type REG_BINARY, REG_SZ, REG_MULTI_SZ, REG_EXPAND_SZ, REG_QWORD, and REG_DWORD.</source>
+<seg-source> <mrk mid="0" mtype="seg">AutoIt supports registry keys of type REG_BINARY, REG_SZ, REG_MULTI_SZ, REG_EXPAND_SZ, REG_QWORD, and REG_DWORD.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">AutoIt supports registry keys of type REG_BINARY, REG_SZ, REG_MULTI_SZ, REG_EXPAND_SZ, REG_QWORD, and REG_DWORD.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> To access the <bpt id="1" ctype="x-strong">&lt;strong></bpt>(Default)<ept id="1">&lt;/strong></ept> value use <bpt id="2" ctype="x-strong">&lt;strong></bpt>""<ept id="2">&lt;/strong></ept> (an empty string) for the valuename.</source>
+<seg-source> <mrk mid="0" mtype="seg">To access the <bpt id="1" ctype="x-strong">&lt;strong></bpt>(Default)<ept id="1">&lt;/strong></ept> value use <bpt id="2" ctype="x-strong">&lt;strong></bpt>""<ept id="2">&lt;/strong></ept> (an empty string) for the valuename.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To access the <bpt id="1" ctype="x-strong">&lt;strong></bpt>(Default)<ept id="1">&lt;/strong></ept> value use <bpt id="2" ctype="x-strong">&lt;strong></bpt>""<ept id="2">&lt;/strong></ept> (an empty string) for the valuename.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> When reading a REG_BINARY key the result is a binary datatype (in previous versions it was a string of hex characters).</source>
+<seg-source> <mrk mid="0" mtype="seg">When reading a REG_BINARY key the result is a binary datatype (in previous versions it was a string of hex characters).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When reading a REG_BINARY key the result is a binary datatype (in previous versions it was a string of hex characters).</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> When reading a REG_MULTI_SZ key the multiple entries are separated by @LF - use with <bpt id="1" ctype="x-a">&lt;a href="StringSplit.htm"></bpt>StringSplit<ept id="1">&lt;/a></ept>(..., @LF) to get each entry.</source>
+<seg-source> <mrk mid="0" mtype="seg">When reading a REG_MULTI_SZ key the multiple entries are separated by @LF - use with <bpt id="1" ctype="x-a">&lt;a href="StringSplit.htm"></bpt>StringSplit<ept id="1">&lt;/a></ept>(..., @LF) to get each entry.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When reading a REG_MULTI_SZ key the multiple entries are separated by @LF - use with <bpt id="1" ctype="x-a">&lt;a href="StringSplit.htm"></bpt>StringSplit<ept id="1">&lt;/a></ept>(..., @LF) to get each entry.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> It is possible to access remote registries by using a keyname in the form "\\computername\keyname". To use this feature you must have the correct access rights.</source>
+<seg-source> <mrk mid="0" mtype="seg">It is possible to access remote registries by using a keyname in the form "\\computername\keyname".</mrk> <mrk mid="1" mtype="seg">To use this feature you must have the correct access rights.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">It is possible to access remote registries by using a keyname in the form "\\computername\keyname".</mrk> <mrk mid="1" mtype="seg">To use this feature you must have the correct access rights.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion</source>
+<seg-source><mrk mid="0" mtype="seg">HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">ProgramFilesDir</source>
+<seg-source><mrk mid="0" mtype="seg">ProgramFilesDir</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ProgramFilesDir</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Program files are in:</source>
+<seg-source><mrk mid="0" mtype="seg">Program files are in:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Program files are in:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

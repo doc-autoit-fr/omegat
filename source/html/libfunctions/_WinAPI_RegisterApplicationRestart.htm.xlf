@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_RegisterApplicationRestart.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Registers the active instance of an application for restart</source>
+<seg-source><mrk mid="0" mtype="seg">Registers the active instance of an application for restart</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Registers the active instance of an application for restart</mrk></target>
+<note>Function _WinAPI_RegisterApplicationRestart</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The flags that specifies an events when application will not be restarted. This parameter can be</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The flags that specifies an events when application will not be restarted.</mrk> <mrk mid="2" mtype="seg">This parameter can be</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The flags that specifies an events when application will not be restarted.</mrk> <mrk mid="2" mtype="seg">This parameter can be</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> 0 or one or more of the following values.</source>
+<seg-source> <mrk mid="0" mtype="seg">0 or one or more of the following values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 or one or more of the following values.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> $RESTART_NO_CRASH</source>
+<seg-source> <mrk mid="0" mtype="seg">$RESTART_NO_CRASH</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$RESTART_NO_CRASH</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> $RESTART_NO_HANG</source>
+<seg-source> <mrk mid="0" mtype="seg">$RESTART_NO_HANG</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$RESTART_NO_HANG</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $RESTART_NO_PATCH</source>
+<seg-source> <mrk mid="0" mtype="seg">$RESTART_NO_PATCH</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$RESTART_NO_PATCH</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $RESTART_NO_REBOOT</source>
+<seg-source> <mrk mid="0" mtype="seg">$RESTART_NO_REBOOT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$RESTART_NO_REBOOT</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The command-line arguments for the application when it is restarted. The maximum size of the command</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The command-line arguments for the application when it is restarted.</mrk> <mrk mid="2" mtype="seg">The maximum size of the command</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The command-line arguments for the application when it is restarted.</mrk> <mrk mid="2" mtype="seg">The maximum size of the command</mrk></target>
+<note>$sCmd</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> line that you can specify is 2048 characters. If this parameter is empty string (Default), the previously</source>
+<seg-source> <mrk mid="0" mtype="seg">line that you can specify is 2048 characters.</mrk> <mrk mid="1" mtype="seg">If this parameter is empty string (Default), the previously</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">line that you can specify is 2048 characters.</mrk> <mrk mid="1" mtype="seg">If this parameter is empty string (Default), the previously</mrk></target>
+<note>$sCmd</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> registered command line is removed.</source>
+<seg-source> <mrk mid="0" mtype="seg">registered command line is removed.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">registered command line is removed.</mrk></target>
+<note>$sCmd</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Your initial registration for restart must occur before the application encounters an unhandled exception</source>
+<seg-source><mrk mid="0" mtype="seg">Your initial registration for restart must occur before the application encounters an unhandled exception</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Your initial registration for restart must occur before the application encounters an unhandled exception</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> or becomes unresponsive. You could then call this function from inside your recovery callback to update the</source>
+<seg-source> <mrk mid="0" mtype="seg">or becomes unresponsive.</mrk> <mrk mid="1" mtype="seg">You could then call this function from inside your recovery callback to update the</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">or becomes unresponsive.</mrk> <mrk mid="1" mtype="seg">You could then call this function from inside your recovery callback to update the</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> command line. To prevent cyclical restarts, the system will only restart the application if it has been</source>
+<seg-source> <mrk mid="0" mtype="seg">command line.</mrk> <mrk mid="1" mtype="seg">To prevent cyclical restarts, the system will only restart the application if it has been</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">command line.</mrk> <mrk mid="1" mtype="seg">To prevent cyclical restarts, the system will only restart the application if it has been</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> running for a minimum of 60 seconds.</source>
+<seg-source> <mrk mid="0" mtype="seg">running for a minimum of 60 seconds.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">running for a minimum of 60 seconds.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> If you register for restart and the application encounters an unhandled exception or is not responsive,</source>
+<seg-source> <mrk mid="0" mtype="seg">If you register for restart and the application encounters an unhandled exception or is not responsive,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If you register for restart and the application encounters an unhandled exception or is not responsive,</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> the user is offered the opportunity to restart the application; the application is not automatically restarted</source>
+<seg-source> <mrk mid="0" mtype="seg">the user is offered the opportunity to restart the application; the application is not automatically restarted</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">the user is offered the opportunity to restart the application; the application is not automatically restarted</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> without the user's consent.</source>
+<seg-source> <mrk mid="0" mtype="seg">without the user's consent.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">without the user's consent.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RegisterApplicationRestart);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RegisterApplicationRestart<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RegisterApplicationRestart);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RegisterApplicationRestart<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RegisterApplicationRestart);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RegisterApplicationRestart<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">6.0</source>
+<seg-source><mrk mid="0" mtype="seg">6.0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">6.0</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Require Windows Vista or later.</source>
+<seg-source><mrk mid="0" mtype="seg">Require Windows Vista or later.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Require Windows Vista or later.</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">The application will be crashes after</source>
+<seg-source><mrk mid="0" mtype="seg">The application will be crashes after</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The application will be crashes after</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">seconds.</source>
+<seg-source><mrk mid="0" mtype="seg">seconds.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">seconds.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">/crash</source>
+<seg-source><mrk mid="0" mtype="seg">/crash</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/crash</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Attention</source>
+<seg-source><mrk mid="0" mtype="seg">Attention</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Attention</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">The application has been restarted after an abnormal exit.</source>
+<seg-source><mrk mid="0" mtype="seg">The application has been restarted after an abnormal exit.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The application has been restarted after an abnormal exit.</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">" /crash</source>
+<seg-source><mrk mid="0" mtype="seg">" /crash</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">" /crash</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">/crash</source>
+<seg-source><mrk mid="0" mtype="seg">/crash</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/crash</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">_Countdown</source>
+<seg-source><mrk mid="0" mtype="seg">_Countdown</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_Countdown</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">The application will be crashes after</source>
+<seg-source><mrk mid="0" mtype="seg">The application will be crashes after</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The application will be crashes after</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">seconds.</source>
+<seg-source><mrk mid="0" mtype="seg">seconds.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">seconds.</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Forced script crash due to a memory access violation</source>
+<seg-source><mrk mid="0" mtype="seg">Forced script crash due to a memory access violation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Forced script crash due to a memory access violation</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

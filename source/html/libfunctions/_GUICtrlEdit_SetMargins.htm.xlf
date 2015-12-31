@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUICtrlEdit_SetMargins.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the widths of the left and right margins</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the widths of the left and right margins</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the widths of the left and right margins</mrk></target>
+<note>Function _GUICtrlEdit_SetMargins</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Control ID/Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Can be one or more of the following</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Can be one or more of the following</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Can be one or more of the following</mrk></target>
+<note>$iMargin</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $EC_LEFTMARGIN - Sets the left margin</source>
+<seg-source> <mrk mid="0" mtype="seg">    $EC_LEFTMARGIN - Sets the left margin</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $EC_LEFTMARGIN - Sets the left margin</mrk></target>
+<note>$iMargin</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $EC_RIGHTMARGIN - Sets the right margin</source>
+<seg-source> <mrk mid="0" mtype="seg">    $EC_RIGHTMARGIN - Sets the right margin</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $EC_RIGHTMARGIN - Sets the right margin</mrk></target>
+<note>$iMargin</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> Default: $EC_LEFTMARGIN</source>
+<seg-source> <mrk mid="0" mtype="seg">Default:</mrk> <mrk mid="1" mtype="seg">$EC_LEFTMARGIN</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Default:</mrk> <mrk mid="1" mtype="seg">$EC_LEFTMARGIN</mrk></target>
+<note>$iMargin</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The new width of the left margin</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The new width of the left margin</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The new width of the left margin</mrk></target>
+<note>$iLeft</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> Default: $EC_USEFONTINFO</source>
+<seg-source> <mrk mid="0" mtype="seg">Default:</mrk> <mrk mid="1" mtype="seg">$EC_USEFONTINFO</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Default:</mrk> <mrk mid="1" mtype="seg">$EC_USEFONTINFO</mrk></target>
+<note>$iLeft</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The new width of the right margin</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The new width of the right margin</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The new width of the right margin</mrk></target>
+<note>$iRight</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> Default: $EC_USEFONTINFO</source>
+<seg-source> <mrk mid="0" mtype="seg">Default:</mrk> <mrk mid="1" mtype="seg">$EC_USEFONTINFO</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Default:</mrk> <mrk mid="1" mtype="seg">$EC_USEFONTINFO</mrk></target>
+<note>$iRight</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Returns an array in the following format:</source>
+<seg-source><mrk mid="0" mtype="seg">Returns an array in the following format:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns an array in the following format:</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> [0] - The width of the left margin</source>
+<seg-source> <mrk mid="0" mtype="seg">[0] - The width of the left margin</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[0] - The width of the left margin</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> [1] - The width of the right margin</source>
+<seg-source> <mrk mid="0" mtype="seg">[1] - The width of the right margin</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[1] - The width of the right margin</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">\Wow6432Node</source>
+<seg-source><mrk mid="0" mtype="seg">\Wow6432Node</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Wow6432Node</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">HKEY_LOCAL_MACHINE\SOFTWARE</source>
+<seg-source><mrk mid="0" mtype="seg">HKEY_LOCAL_MACHINE\SOFTWARE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HKEY_LOCAL_MACHINE\SOFTWARE</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">\AutoIt v3\AutoIt</source>
+<seg-source><mrk mid="0" mtype="seg">\AutoIt v3\AutoIt</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\AutoIt v3\AutoIt</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">InstallDir</source>
+<seg-source><mrk mid="0" mtype="seg">InstallDir</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">InstallDir</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">\include\_ReadMe_.txt</source>
+<seg-source><mrk mid="0" mtype="seg">\include\_ReadMe_.txt</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\include\_ReadMe_.txt</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Edit Set Margins</source>
+<seg-source><mrk mid="0" mtype="seg">Edit Set Margins</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Edit Set Margins</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Set Margins</source>
+<seg-source><mrk mid="0" mtype="seg">Set Margins</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set Margins</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Set Text</source>
+<seg-source><mrk mid="0" mtype="seg">Set Text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set Text</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Get Margins</source>
+<seg-source><mrk mid="0" mtype="seg">Get Margins</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get Margins</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Left Margin:</source>
+<seg-source><mrk mid="0" mtype="seg">Left Margin:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Left Margin:</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Right Margin:</source>
+<seg-source><mrk mid="0" mtype="seg">Right Margin:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Right Margin:</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

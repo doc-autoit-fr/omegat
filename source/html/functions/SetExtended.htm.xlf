@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/SetExtended.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Manually set the value of the @extended macro.</source>
+<seg-source><mrk mid="0" mtype="seg">Manually set the value of the @extended macro.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Manually set the value of the @extended macro.</mrk></target>
+<note>Function SetExtended</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The required value (integer) to set into the @extended macro.</source>
+<seg-source><mrk mid="0" mtype="seg">The required value (integer) to set into the @extended macro.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The required value (integer) to set into the @extended macro.</mrk></target>
+<note>code</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The value to be returned by the function - if no parameter used the return value is undefined.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The value to be returned by the function - if no parameter used the return value is undefined.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The value to be returned by the function - if no parameter used the return value is undefined.</mrk></target>
+<note>return value</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Returns the "return value" parameter (undefined if the parameter is not used).</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the "return value" parameter (undefined if the parameter is not used).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the "return value" parameter (undefined if the parameter is not used).</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> @extended will be set to the values set in the function call (default = 0)</source>
+<seg-source> <mrk mid="0" mtype="seg">@extended will be set to the values set in the function call (default = 0)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">@extended will be set to the values set in the function call (default = 0)</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">When entering a function @extended is set to 0. Unless <bpt id="1" ctype="x-a">&lt;a href="SetExtended.htm"></bpt>SetExtended()<ept id="1">&lt;/a></ept> is called, then @extended will remain 0 when the function ends. This means that in order for @extended to be set after a function returns, it must be explicitly set in the function. This also means you may need to backup the status of @extended in a variable if you are testing it in a While-WEnd loop.</source>
+<seg-source><mrk mid="0" mtype="seg">When entering a function @extended is set to 0.</mrk> <mrk mid="1" mtype="seg">Unless <bpt id="1" ctype="x-a">&lt;a href="SetExtended.htm"></bpt>SetExtended()<ept id="1">&lt;/a></ept> is called, then @extended will remain 0 when the function ends.</mrk> <mrk mid="2" mtype="seg">This means that in order for @extended to be set after a function returns, it must be explicitly set in the function.</mrk> <mrk mid="3" mtype="seg">This also means you may need to backup the status of @extended in a variable if you are testing it in a While-WEnd loop.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When entering a function @extended is set to 0.</mrk> <mrk mid="1" mtype="seg">Unless <bpt id="1" ctype="x-a">&lt;a href="SetExtended.htm"></bpt>SetExtended()<ept id="1">&lt;/a></ept> is called, then @extended will remain 0 when the function ends.</mrk> <mrk mid="2" mtype="seg">This means that in order for @extended to be set after a function returns, it must be explicitly set in the function.</mrk> <mrk mid="3" mtype="seg">This also means you may need to backup the status of @extended in a variable if you are testing it in a While-WEnd loop.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> The return value parameter is optional. It is provided as a way to use the Return SetExtended(...) syntax to define the value to be returned at the same time as setting @extended. If a specific value is not set then the return value will be undefined and should not be used subsequently by the code.</source>
+<seg-source> <mrk mid="0" mtype="seg">The return value parameter is optional.</mrk> <mrk mid="1" mtype="seg">It is provided as a way to use the Return SetExtended(...) syntax to define the value to be returned at the same time as setting @extended.</mrk> <mrk mid="2" mtype="seg">If a specific value is not set then the return value will be undefined and should not be used subsequently by the code.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The return value parameter is optional.</mrk> <mrk mid="1" mtype="seg">It is provided as a way to use the Return SetExtended(...) syntax to define the value to be returned at the same time as setting @extended.</mrk> <mrk mid="2" mtype="seg">If a specific value is not set then the return value will be undefined and should not be used subsequently by the code.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> @extended is limited between the values of -2147483648 to 2147483647.</source>
+<seg-source> <mrk mid="0" mtype="seg">@extended is limited between the values of -2147483648 to 2147483647.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">@extended is limited between the values of -2147483648 to 2147483647.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Value of @extended is:</source>
+<seg-source><mrk mid="0" mtype="seg">Value of @extended is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Value of @extended is:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

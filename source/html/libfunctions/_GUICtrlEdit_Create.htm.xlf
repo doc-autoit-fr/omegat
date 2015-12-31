@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUICtrlEdit_Create.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Create an Edit control</source>
+<seg-source><mrk mid="0" mtype="seg">Create an Edit control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create an Edit control</mrk></target>
+<note>Function _GUICtrlEdit_Create</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to parent or owner window</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to parent or owner window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to parent or owner window</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Text to be displayed in the control</source>
+<seg-source><mrk mid="0" mtype="seg">Text to be displayed in the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text to be displayed in the control</mrk></target>
+<note>$sText</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Horizontal position of the control</source>
+<seg-source><mrk mid="0" mtype="seg">Horizontal position of the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Horizontal position of the control</mrk></target>
+<note>$iX</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Vertical position of the control</source>
+<seg-source><mrk mid="0" mtype="seg">Vertical position of the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Vertical position of the control</mrk></target>
+<note>$iY</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Control width</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control width</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control width</mrk></target>
+<note>$iWidth</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Control height</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control height</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control height</mrk></target>
+<note>$iHeight</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Control styles:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control styles:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control styles:</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $ES_AUTOHSCROLL - Automatically scrolls text to the right by 10 characters when the user types a character at the end of the line.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ES_AUTOHSCROLL - Automatically scrolls text to the right by 10 characters when the user types a character at the end of the line.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ES_AUTOHSCROLL - Automatically scrolls text to the right by 10 characters when the user types a character at the end of the line.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $ES_AUTOVSCROLL - Automatically scrolls text up one page when the user presses the ENTER key on the last line.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ES_AUTOVSCROLL - Automatically scrolls text up one page when the user presses the ENTER key on the last line.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ES_AUTOVSCROLL - Automatically scrolls text up one page when the user presses the ENTER key on the last line.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $ES_CENTER - Centers text in an edit control.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ES_CENTER - Centers text in an edit control.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ES_CENTER - Centers text in an edit control.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $ES_LEFT - Aligns text with the left margin.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ES_LEFT - Aligns text with the left margin.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ES_LEFT - Aligns text with the left margin.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $ES_LOWERCASE - Converts all characters to lowercase as they are typed into the edit control.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ES_LOWERCASE - Converts all characters to lowercase as they are typed into the edit control.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ES_LOWERCASE - Converts all characters to lowercase as they are typed into the edit control.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $ES_MULTILINE - Designates a multiline edit control.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ES_MULTILINE - Designates a multiline edit control.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ES_MULTILINE - Designates a multiline edit control.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $ES_NOHIDESEL - The selected text is inverted, even if the control does not have the focus.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ES_NOHIDESEL - The selected text is inverted, even if the control does not have the focus.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ES_NOHIDESEL - The selected text is inverted, even if the control does not have the focus.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $ES_NUMBER - Allows only digits to be entered into the edit control.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ES_NUMBER - Allows only digits to be entered into the edit control.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ES_NUMBER - Allows only digits to be entered into the edit control.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $ES_OEMCONVERT - Converts text entered in the edit control.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ES_OEMCONVERT - Converts text entered in the edit control.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ES_OEMCONVERT - Converts text entered in the edit control.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $ES_READONLY - Prevents the user from typing or editing text in the edit control.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ES_READONLY - Prevents the user from typing or editing text in the edit control.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ES_READONLY - Prevents the user from typing or editing text in the edit control.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     $ES_RIGHT - Right-aligns text edit control.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ES_RIGHT - Right-aligns text edit control.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ES_RIGHT - Right-aligns text edit control.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     $ES_UPPERCASE - Converts all characters to uppercase as they are typed into the edit control.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ES_UPPERCASE - Converts all characters to uppercase as they are typed into the edit control.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ES_UPPERCASE - Converts all characters to uppercase as they are typed into the edit control.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     $ES_WANTRETURN - Specifies that a carriage return be inserted when the user presses the ENTER key.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ES_WANTRETURN - Specifies that a carriage return be inserted when the user presses the ENTER key.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ES_WANTRETURN - Specifies that a carriage return be inserted when the user presses the ENTER key.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">     $ES_PASSWORD - Displays an asterisk (*) for each character that is typed into the edit control</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ES_PASSWORD - Displays an asterisk (*) for each character that is typed into the edit control</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ES_PASSWORD - Displays an asterisk (*) for each character that is typed into the edit control</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> Default: $ES_MULTILINE, $ES_WANTRETURN, $WS_VSCROLL, $WS_HSCROLL, $ES_AUTOVSCROLL, $ES_AUTOHSCROLL</source>
+<seg-source> <mrk mid="0" mtype="seg">Default:</mrk> <mrk mid="1" mtype="seg">$ES_MULTILINE, $ES_WANTRETURN, $WS_VSCROLL, $WS_HSCROLL, $ES_AUTOVSCROLL, $ES_AUTOHSCROLL</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Default:</mrk> <mrk mid="1" mtype="seg">$ES_MULTILINE, $ES_WANTRETURN, $WS_VSCROLL, $WS_HSCROLL, $ES_AUTOVSCROLL, $ES_AUTOHSCROLL</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> Forced : WS_CHILD, $WS_VISIBLE, $WS_TABSTOP only if not using $ES_READONLY</source>
+<seg-source> <mrk mid="0" mtype="seg">Forced :</mrk> <mrk mid="1" mtype="seg">WS_CHILD, $WS_VISIBLE, $WS_TABSTOP only if not using $ES_READONLY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Forced :</mrk> <mrk mid="1" mtype="seg">WS_CHILD, $WS_VISIBLE, $WS_TABSTOP only if not using $ES_READONLY</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Control extended style. These correspond to the standard $WS_EX_* constants. See <bpt id="1" ctype="x-a">&lt;a href="../appendix/GUIStyles.htm#Extended"></bpt>Extended Style Table<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control extended style.</mrk> <mrk mid="2" mtype="seg">These correspond to the standard $WS_EX_* constants.</mrk> <mrk mid="3" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../appendix/GUIStyles.htm#Extended"></bpt>Extended Style Table<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control extended style.</mrk> <mrk mid="2" mtype="seg">These correspond to the standard $WS_EX_* constants.</mrk> <mrk mid="3" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../appendix/GUIStyles.htm#Extended"></bpt>Extended Style Table<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>$iExStyle</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">the handle to the Edit control.</source>
+<seg-source><mrk mid="0" mtype="seg">the handle to the Edit control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the handle to the Edit control.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">This function is for Advanced users and for learning how the control works.</source>
+<seg-source><mrk mid="0" mtype="seg">This function is for Advanced users and for learning how the control works.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function is for Advanced users and for learning how the control works.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">used for Lo/Hi word</source>
+<seg-source><mrk mid="0" mtype="seg">used for Lo/Hi word</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">used for Lo/Hi word</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Edit Create</source>
+<seg-source><mrk mid="0" mtype="seg">Edit Create</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Edit Create</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">This is a test</source>
+<seg-source><mrk mid="0" mtype="seg">This is a test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a test</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Another Line</source>
+<seg-source><mrk mid="0" mtype="seg">Another Line</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Another Line</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">WM_COMMAND</source>
+<seg-source><mrk mid="0" mtype="seg">WM_COMMAND</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_COMMAND</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Append to the end?</source>
+<seg-source><mrk mid="0" mtype="seg">Append to the end?</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Append to the end?</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Sent when the user has changed the edit control direction to left-to-right</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when the user has changed the edit control direction to left-to-right</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when the user has changed the edit control direction to left-to-right</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">$EN_ALIGN_LTR_EC</source>
+<seg-source><mrk mid="0" mtype="seg">$EN_ALIGN_LTR_EC</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$EN_ALIGN_LTR_EC</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Sent when the user has changed the edit control direction to right-to-left</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when the user has changed the edit control direction to right-to-left</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when the user has changed the edit control direction to right-to-left</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">$EN_ALIGN_RTL_EC</source>
+<seg-source><mrk mid="0" mtype="seg">$EN_ALIGN_RTL_EC</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$EN_ALIGN_RTL_EC</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Sent when the user has taken an action that may have altered text in an edit control</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when the user has taken an action that may have altered text in an edit control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when the user has taken an action that may have altered text in an edit control</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">$EN_CHANGE</source>
+<seg-source><mrk mid="0" mtype="seg">$EN_CHANGE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$EN_CHANGE</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">Sent when an edit control cannot allocate enough memory to meet a specific request</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when an edit control cannot allocate enough memory to meet a specific request</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when an edit control cannot allocate enough memory to meet a specific request</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">$EN_ERRSPACE</source>
+<seg-source><mrk mid="0" mtype="seg">$EN_ERRSPACE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$EN_ERRSPACE</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">Sent when the user clicks an edit control's horizontal scroll bar</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when the user clicks an edit control's horizontal scroll bar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when the user clicks an edit control's horizontal scroll bar</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">$EN_HSCROLL</source>
+<seg-source><mrk mid="0" mtype="seg">$EN_HSCROLL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$EN_HSCROLL</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">Sent when an edit control loses the keyboard focus</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when an edit control loses the keyboard focus</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when an edit control loses the keyboard focus</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">$EN_KILLFOCUS</source>
+<seg-source><mrk mid="0" mtype="seg">$EN_KILLFOCUS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$EN_KILLFOCUS</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">Sent when the current text insertion has exceeded the specified number of characters for the edit control</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when the current text insertion has exceeded the specified number of characters for the edit control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when the current text insertion has exceeded the specified number of characters for the edit control</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">$EN_MAXTEXT</source>
+<seg-source><mrk mid="0" mtype="seg">$EN_MAXTEXT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$EN_MAXTEXT</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">This message is also sent when an edit control does not have the $ES_AUTOHSCROLL style and the number of characters to be</source>
+<seg-source><mrk mid="0" mtype="seg">This message is also sent when an edit control does not have the $ES_AUTOHSCROLL style and the number of characters to be</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This message is also sent when an edit control does not have the $ES_AUTOHSCROLL style and the number of characters to be</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">inserted would exceed the width of the edit control.</source>
+<seg-source><mrk mid="0" mtype="seg">inserted would exceed the width of the edit control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">inserted would exceed the width of the edit control.</mrk></target>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en">This message is also sent when an edit control does not have the $ES_AUTOVSCROLL style and the total number of lines resulting</source>
+<seg-source><mrk mid="0" mtype="seg">This message is also sent when an edit control does not have the $ES_AUTOVSCROLL style and the total number of lines resulting</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This message is also sent when an edit control does not have the $ES_AUTOVSCROLL style and the total number of lines resulting</mrk></target>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">from a text insertion would exceed the height of the edit control</source>
+<seg-source><mrk mid="0" mtype="seg">from a text insertion would exceed the height of the edit control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">from a text insertion would exceed the height of the edit control</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en">Sent when an edit control receives the keyboard focus</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when an edit control receives the keyboard focus</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when an edit control receives the keyboard focus</mrk></target>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">$EN_SETFOCUS</source>
+<seg-source><mrk mid="0" mtype="seg">$EN_SETFOCUS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$EN_SETFOCUS</mrk></target>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="94">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="95">
+<source xml:lang="en">Sent when an edit control is about to redraw itself</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when an edit control is about to redraw itself</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when an edit control is about to redraw itself</mrk></target>
+</trans-unit>
+<trans-unit id="96">
+<source xml:lang="en">$EN_UPDATE</source>
+<seg-source><mrk mid="0" mtype="seg">$EN_UPDATE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$EN_UPDATE</mrk></target>
+</trans-unit>
+<trans-unit id="97">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="98">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="99">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="100">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="101">
+<source xml:lang="en">Sent when the user clicks an edit control's vertical scroll bar or when the user scrolls the mouse wheel over the edit control</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when the user clicks an edit control's vertical scroll bar or when the user scrolls the mouse wheel over the edit control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when the user clicks an edit control's vertical scroll bar or when the user scrolls the mouse wheel over the edit control</mrk></target>
+</trans-unit>
+<trans-unit id="102">
+<source xml:lang="en">$EN_VSCROLL</source>
+<seg-source><mrk mid="0" mtype="seg">$EN_VSCROLL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$EN_VSCROLL</mrk></target>
+</trans-unit>
+<trans-unit id="103">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="104">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="105">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="106">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="107">
+<source xml:lang="en">!===========================================================</source>
+<seg-source><mrk mid="0" mtype="seg">!===========================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!===========================================================</mrk></target>
+</trans-unit>
+<trans-unit id="108">
+<source xml:lang="en">+======================================================</source>
+<seg-source><mrk mid="0" mtype="seg">+======================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+======================================================</mrk></target>
+</trans-unit>
+<trans-unit id="109">
+<source xml:lang="en">-->Line(</source>
+<seg-source><mrk mid="0" mtype="seg">-->Line(</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Line(</mrk></target>
+</trans-unit>
+<trans-unit id="110">
+<source xml:lang="en">%04d</source>
+<seg-source><mrk mid="0" mtype="seg">%04d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%04d</mrk></target>
+</trans-unit>
+<trans-unit id="111">
+<source xml:lang="en">):</source>
+<seg-source><mrk mid="0" mtype="seg">):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">):</mrk></target>
+</trans-unit>
+<trans-unit id="112">
+<source xml:lang="en">+======================================================</source>
+<seg-source><mrk mid="0" mtype="seg">+======================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+======================================================</mrk></target>
+</trans-unit>
+<trans-unit id="113">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="114">
+<source xml:lang="en">used for Lo/Hi word</source>
+<seg-source><mrk mid="0" mtype="seg">used for Lo/Hi word</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">used for Lo/Hi word</mrk></target>
+</trans-unit>
+<trans-unit id="115">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="116">
+<source xml:lang="en">Edit Create</source>
+<seg-source><mrk mid="0" mtype="seg">Edit Create</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Edit Create</mrk></target>
+</trans-unit>
+<trans-unit id="117">
+<source xml:lang="en">WM_COMMAND</source>
+<seg-source><mrk mid="0" mtype="seg">WM_COMMAND</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_COMMAND</mrk></target>
+</trans-unit>
+<trans-unit id="118">
+<source xml:lang="en">This is a test</source>
+<seg-source><mrk mid="0" mtype="seg">This is a test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a test</mrk></target>
+</trans-unit>
+<trans-unit id="119">
+<source xml:lang="en">Another Line</source>
+<seg-source><mrk mid="0" mtype="seg">Another Line</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Another Line</mrk></target>
+</trans-unit>
+<trans-unit id="120">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="121">
+<source xml:lang="en">Sent when the user has changed the edit control direction to left-to-right</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when the user has changed the edit control direction to left-to-right</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when the user has changed the edit control direction to left-to-right</mrk></target>
+</trans-unit>
+<trans-unit id="122">
+<source xml:lang="en">$EN_ALIGN_LTR_EC</source>
+<seg-source><mrk mid="0" mtype="seg">$EN_ALIGN_LTR_EC</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$EN_ALIGN_LTR_EC</mrk></target>
+</trans-unit>
+<trans-unit id="123">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="124">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="125">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="126">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="127">
+<source xml:lang="en">Sent when the user has changed the edit control direction to right-to-left</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when the user has changed the edit control direction to right-to-left</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when the user has changed the edit control direction to right-to-left</mrk></target>
+</trans-unit>
+<trans-unit id="128">
+<source xml:lang="en">$EN_ALIGN_RTL_EC</source>
+<seg-source><mrk mid="0" mtype="seg">$EN_ALIGN_RTL_EC</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$EN_ALIGN_RTL_EC</mrk></target>
+</trans-unit>
+<trans-unit id="129">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="130">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="131">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="132">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="133">
+<source xml:lang="en">Sent when the user has taken an action that may have altered text in an edit control</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when the user has taken an action that may have altered text in an edit control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when the user has taken an action that may have altered text in an edit control</mrk></target>
+</trans-unit>
+<trans-unit id="134">
+<source xml:lang="en">$EN_CHANGE</source>
+<seg-source><mrk mid="0" mtype="seg">$EN_CHANGE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$EN_CHANGE</mrk></target>
+</trans-unit>
+<trans-unit id="135">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="136">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="137">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="138">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="139">
+<source xml:lang="en">Sent when an edit control cannot allocate enough memory to meet a specific request</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when an edit control cannot allocate enough memory to meet a specific request</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when an edit control cannot allocate enough memory to meet a specific request</mrk></target>
+</trans-unit>
+<trans-unit id="140">
+<source xml:lang="en">$EN_ERRSPACE</source>
+<seg-source><mrk mid="0" mtype="seg">$EN_ERRSPACE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$EN_ERRSPACE</mrk></target>
+</trans-unit>
+<trans-unit id="141">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="142">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="143">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="144">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="145">
+<source xml:lang="en">Sent when the user clicks an edit control's horizontal scroll bar</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when the user clicks an edit control's horizontal scroll bar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when the user clicks an edit control's horizontal scroll bar</mrk></target>
+</trans-unit>
+<trans-unit id="146">
+<source xml:lang="en">$EN_HSCROLL</source>
+<seg-source><mrk mid="0" mtype="seg">$EN_HSCROLL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$EN_HSCROLL</mrk></target>
+</trans-unit>
+<trans-unit id="147">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="148">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="149">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="150">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="151">
+<source xml:lang="en">Sent when an edit control loses the keyboard focus</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when an edit control loses the keyboard focus</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when an edit control loses the keyboard focus</mrk></target>
+</trans-unit>
+<trans-unit id="152">
+<source xml:lang="en">$EN_KILLFOCUS</source>
+<seg-source><mrk mid="0" mtype="seg">$EN_KILLFOCUS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$EN_KILLFOCUS</mrk></target>
+</trans-unit>
+<trans-unit id="153">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="154">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="155">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="156">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="157">
+<source xml:lang="en">Sent when the current text insertion has exceeded the specified number of characters for the edit control</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when the current text insertion has exceeded the specified number of characters for the edit control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when the current text insertion has exceeded the specified number of characters for the edit control</mrk></target>
+</trans-unit>
+<trans-unit id="158">
+<source xml:lang="en">$EN_MAXTEXT</source>
+<seg-source><mrk mid="0" mtype="seg">$EN_MAXTEXT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$EN_MAXTEXT</mrk></target>
+</trans-unit>
+<trans-unit id="159">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="160">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="161">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="162">
+<source xml:lang="en">This message is also sent when an edit control does not have the $ES_AUTOHSCROLL style and the number of characters to be</source>
+<seg-source><mrk mid="0" mtype="seg">This message is also sent when an edit control does not have the $ES_AUTOHSCROLL style and the number of characters to be</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This message is also sent when an edit control does not have the $ES_AUTOHSCROLL style and the number of characters to be</mrk></target>
+</trans-unit>
+<trans-unit id="163">
+<source xml:lang="en">inserted would exceed the width of the edit control.</source>
+<seg-source><mrk mid="0" mtype="seg">inserted would exceed the width of the edit control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">inserted would exceed the width of the edit control.</mrk></target>
+</trans-unit>
+<trans-unit id="164">
+<source xml:lang="en">This message is also sent when an edit control does not have the $ES_AUTOVSCROLL style and the total number of lines resulting</source>
+<seg-source><mrk mid="0" mtype="seg">This message is also sent when an edit control does not have the $ES_AUTOVSCROLL style and the total number of lines resulting</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This message is also sent when an edit control does not have the $ES_AUTOVSCROLL style and the total number of lines resulting</mrk></target>
+</trans-unit>
+<trans-unit id="165">
+<source xml:lang="en">from a text insertion would exceed the height of the edit control</source>
+<seg-source><mrk mid="0" mtype="seg">from a text insertion would exceed the height of the edit control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">from a text insertion would exceed the height of the edit control</mrk></target>
+</trans-unit>
+<trans-unit id="166">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="167">
+<source xml:lang="en">Sent when an edit control receives the keyboard focus</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when an edit control receives the keyboard focus</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when an edit control receives the keyboard focus</mrk></target>
+</trans-unit>
+<trans-unit id="168">
+<source xml:lang="en">$EN_SETFOCUS</source>
+<seg-source><mrk mid="0" mtype="seg">$EN_SETFOCUS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$EN_SETFOCUS</mrk></target>
+</trans-unit>
+<trans-unit id="169">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="170">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="171">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="172">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="173">
+<source xml:lang="en">Sent when an edit control is about to redraw itself</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when an edit control is about to redraw itself</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when an edit control is about to redraw itself</mrk></target>
+</trans-unit>
+<trans-unit id="174">
+<source xml:lang="en">$EN_UPDATE</source>
+<seg-source><mrk mid="0" mtype="seg">$EN_UPDATE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$EN_UPDATE</mrk></target>
+</trans-unit>
+<trans-unit id="175">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="176">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="177">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="178">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="179">
+<source xml:lang="en">Sent when the user clicks an edit control's vertical scroll bar or when the user scrolls the mouse wheel over the edit control</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when the user clicks an edit control's vertical scroll bar or when the user scrolls the mouse wheel over the edit control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when the user clicks an edit control's vertical scroll bar or when the user scrolls the mouse wheel over the edit control</mrk></target>
+</trans-unit>
+<trans-unit id="180">
+<source xml:lang="en">$EN_VSCROLL</source>
+<seg-source><mrk mid="0" mtype="seg">$EN_VSCROLL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$EN_VSCROLL</mrk></target>
+</trans-unit>
+<trans-unit id="181">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="182">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="183">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="184">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="185">
+<source xml:lang="en">!===========================================================</source>
+<seg-source><mrk mid="0" mtype="seg">!===========================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!===========================================================</mrk></target>
+</trans-unit>
+<trans-unit id="186">
+<source xml:lang="en">+======================================================</source>
+<seg-source><mrk mid="0" mtype="seg">+======================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+======================================================</mrk></target>
+</trans-unit>
+<trans-unit id="187">
+<source xml:lang="en">-->Line(</source>
+<seg-source><mrk mid="0" mtype="seg">-->Line(</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Line(</mrk></target>
+</trans-unit>
+<trans-unit id="188">
+<source xml:lang="en">%04d</source>
+<seg-source><mrk mid="0" mtype="seg">%04d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%04d</mrk></target>
+</trans-unit>
+<trans-unit id="189">
+<source xml:lang="en">):</source>
+<seg-source><mrk mid="0" mtype="seg">):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">):</mrk></target>
+</trans-unit>
+<trans-unit id="190">
+<source xml:lang="en">+======================================================</source>
+<seg-source><mrk mid="0" mtype="seg">+======================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+======================================================</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

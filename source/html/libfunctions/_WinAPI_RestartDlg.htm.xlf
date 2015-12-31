@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_RestartDlg.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Displays a dialog box that prompts the user to restart Microsoft Windows</source>
+<seg-source><mrk mid="0" mtype="seg">Displays a dialog box that prompts the user to restart Microsoft Windows</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Displays a dialog box that prompts the user to restart Microsoft Windows</mrk></target>
+<note>Function _WinAPI_RestartDlg</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The text that displays in the dialog box which prompts the user.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The text that displays in the dialog box which prompts the user.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The text that displays in the dialog box which prompts the user.</mrk></target>
+<note>$sText</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The flags that specify the type of shutdown.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The flags that specify the type of shutdown.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The flags that specify the type of shutdown.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> This parameter must include one of the following values.</source>
+<seg-source> <mrk mid="0" mtype="seg">This parameter must include one of the following values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This parameter must include one of the following values.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> $EWX_LOGOFF</source>
+<seg-source> <mrk mid="0" mtype="seg">$EWX_LOGOFF</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$EWX_LOGOFF</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $EWX_POWEROFF</source>
+<seg-source> <mrk mid="0" mtype="seg">$EWX_POWEROFF</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$EWX_POWEROFF</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $EWX_REBOOT (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">$EWX_REBOOT (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$EWX_REBOOT (Default)</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $EWX_SHUTDOWN</source>
+<seg-source> <mrk mid="0" mtype="seg">$EWX_SHUTDOWN</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$EWX_SHUTDOWN</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> This parameter can optionally include the following values.</source>
+<seg-source> <mrk mid="0" mtype="seg">This parameter can optionally include the following values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This parameter can optionally include the following values.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> $EWX_FORCE</source>
+<seg-source> <mrk mid="0" mtype="seg">$EWX_FORCE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$EWX_FORCE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> $EWX_FORCEIFHUNG</source>
+<seg-source> <mrk mid="0" mtype="seg">$EWX_FORCEIFHUNG</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$EWX_FORCEIFHUNG</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Handle to the parent window.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Handle to the parent window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Handle to the parent window.</mrk></target>
+<note>$hParent</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Returns the identifier of the button that was pressed to close the dialog box.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the identifier of the button that was pressed to close the dialog box.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the identifier of the button that was pressed to close the dialog box.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RestartDialog);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RestartDialog<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RestartDialog);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RestartDialog<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RestartDialog);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RestartDialog<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

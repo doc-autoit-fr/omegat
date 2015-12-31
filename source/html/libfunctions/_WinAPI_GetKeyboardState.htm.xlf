@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_GetKeyboardState.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Copies the status of the 256 virtual keys to the specified buffer</source>
+<seg-source><mrk mid="0" mtype="seg">Copies the status of the 256 virtual keys to the specified buffer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Copies the status of the 256 virtual keys to the specified buffer</mrk></target>
+<note>Function _WinAPI_GetKeyboardState</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The structure of "byte[256]" that receives the status data for each virtual key.</source>
+<seg-source><mrk mid="0" mtype="seg">The structure of "byte[256]" that receives the status data for each virtual key.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The structure of "byte[256]" that receives the status data for each virtual key.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> Sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">Sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">An application can call this function to retrieve the current status of all the virtual keys. The status changes</source>
+<seg-source><mrk mid="0" mtype="seg">An application can call this function to retrieve the current status of all the virtual keys.</mrk> <mrk mid="1" mtype="seg">The status changes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An application can call this function to retrieve the current status of all the virtual keys.</mrk> <mrk mid="1" mtype="seg">The status changes</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> as a process removes keyboard messages from its message queue. The status does not change as keyboard messages are</source>
+<seg-source> <mrk mid="0" mtype="seg">as a process removes keyboard messages from its message queue.</mrk> <mrk mid="1" mtype="seg">The status does not change as keyboard messages are</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">as a process removes keyboard messages from its message queue.</mrk> <mrk mid="1" mtype="seg">The status does not change as keyboard messages are</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> posted to the process's message queue, nor does it change as keyboard messages are posted to or retrieved from</source>
+<seg-source> <mrk mid="0" mtype="seg">posted to the process's message queue, nor does it change as keyboard messages are posted to or retrieved from</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">posted to the process's message queue, nor does it change as keyboard messages are posted to or retrieved from</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> message queues of other processes.</source>
+<seg-source> <mrk mid="0" mtype="seg">message queues of other processes.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">message queues of other processes.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> When the function returns, each member of the array contains status data for a virtual key. If the high-order</source>
+<seg-source> <mrk mid="0" mtype="seg">When the function returns, each member of the array contains status data for a virtual key.</mrk> <mrk mid="1" mtype="seg">If the high-order</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When the function returns, each member of the array contains status data for a virtual key.</mrk> <mrk mid="1" mtype="seg">If the high-order</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> bit is 1, the key is down; otherwise, it is up. If the key is a toggle key, for example CAPS LOCK, then the</source>
+<seg-source> <mrk mid="0" mtype="seg">bit is 1, the key is down; otherwise, it is up.</mrk> <mrk mid="1" mtype="seg">If the key is a toggle key, for example CAPS LOCK, then the</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">bit is 1, the key is down; otherwise, it is up.</mrk> <mrk mid="1" mtype="seg">If the key is a toggle key, for example CAPS LOCK, then the</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> low-order bit is 1 when the key is toggled and is 0 if the key is untoggled. The low-order bit is meaningless for</source>
+<seg-source> <mrk mid="0" mtype="seg">low-order bit is 1 when the key is toggled and is 0 if the key is untoggled.</mrk> <mrk mid="1" mtype="seg">The low-order bit is meaningless for</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">low-order bit is 1 when the key is toggled and is 0 if the key is untoggled.</mrk> <mrk mid="1" mtype="seg">The low-order bit is meaningless for</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> non-toggle keys. A toggle key is said to be toggled when it is turned on. A toggle key's indicator light (if any)</source>
+<seg-source> <mrk mid="0" mtype="seg">non-toggle keys.</mrk> <mrk mid="1" mtype="seg">A toggle key is said to be toggled when it is turned on.</mrk> <mrk mid="2" mtype="seg">A toggle key's indicator light (if any)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">non-toggle keys.</mrk> <mrk mid="1" mtype="seg">A toggle key is said to be toggled when it is turned on.</mrk> <mrk mid="2" mtype="seg">A toggle key's indicator light (if any)</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> on the keyboard will be on when the key is toggled, and off when the key is untoggled.</source>
+<seg-source> <mrk mid="0" mtype="seg">on the keyboard will be on when the key is toggled, and off when the key is untoggled.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">on the keyboard will be on when the key is toggled, and off when the key is untoggled.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> To retrieve status information for an individual key, use the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetKeyState.htm"></bpt>_WinAPI_GetKeyState()<ept id="1">&lt;/a></ept> function. To retrieve the</source>
+<seg-source> <mrk mid="0" mtype="seg">To retrieve status information for an individual key, use the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetKeyState.htm"></bpt>_WinAPI_GetKeyState()<ept id="1">&lt;/a></ept> function.</mrk> <mrk mid="1" mtype="seg">To retrieve the</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To retrieve status information for an individual key, use the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetKeyState.htm"></bpt>_WinAPI_GetKeyState()<ept id="1">&lt;/a></ept> function.</mrk> <mrk mid="1" mtype="seg">To retrieve the</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> current state for an individual key regardless of whether the corresponding keyboard message has been retrieved</source>
+<seg-source> <mrk mid="0" mtype="seg">current state for an individual key regardless of whether the corresponding keyboard message has been retrieved</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">current state for an individual key regardless of whether the corresponding keyboard message has been retrieved</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> from the message queue, use the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetAsyncKeyState.htm"></bpt>_WinAPI_GetAsyncKeyState()<ept id="1">&lt;/a></ept> function.</source>
+<seg-source> <mrk mid="0" mtype="seg">from the message queue, use the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetAsyncKeyState.htm"></bpt>_WinAPI_GetAsyncKeyState()<ept id="1">&lt;/a></ept> function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">from the message queue, use the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetAsyncKeyState.htm"></bpt>_WinAPI_GetAsyncKeyState()<ept id="1">&lt;/a></ept> function.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetKeyboardState);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetKeyboardState<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetKeyboardState);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetKeyboardState<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetKeyboardState);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetKeyboardState<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

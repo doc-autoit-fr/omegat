@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_Crypt_HashFile.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Hash a string with specified algorithm</source>
+<seg-source><mrk mid="0" mtype="seg">Hash a string with specified algorithm</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hash a string with specified algorithm</mrk></target>
+<note>Function _Crypt_HashFile</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Path to file to hash</source>
+<seg-source><mrk mid="0" mtype="seg">Path to file to hash</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Path to file to hash</mrk></target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Hash ID to use</source>
+<seg-source><mrk mid="0" mtype="seg">Hash ID to use</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hash ID to use</mrk></target>
+<note>$iAlgID</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">a hash of file.</source>
+<seg-source><mrk mid="0" mtype="seg">a hash of file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a hash of file.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">-1 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">-1 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">1 - Failed to open file</source>
+<seg-source><mrk mid="0" mtype="seg">1 - Failed to open file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - Failed to open file</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> 10+ - Failed to hash final piece</source>
+<seg-source> <mrk mid="0" mtype="seg">10+ - Failed to hash final piece</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">10+ - Failed to hash final piece</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> 100+ - Failed to get hash piece</source>
+<seg-source> <mrk mid="0" mtype="seg">100+ - Failed to get hash piece</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">100+ - Failed to get hash piece</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Hash File</source>
+<seg-source><mrk mid="0" mtype="seg">Hash File</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hash File</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">...</source>
+<seg-source><mrk mid="0" mtype="seg">...</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">...</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">MD2|MD4|MD5|SHA1</source>
+<seg-source><mrk mid="0" mtype="seg">MD2|MD4|MD5|SHA1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MD2|MD4|MD5|SHA1</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">SHA1</source>
+<seg-source><mrk mid="0" mtype="seg">SHA1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SHA1</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Calculate</source>
+<seg-source><mrk mid="0" mtype="seg">Calculate</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Calculate</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Hash Digest</source>
+<seg-source><mrk mid="0" mtype="seg">Hash Digest</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hash Digest</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">To optimize performance start the crypt library.</source>
+<seg-source><mrk mid="0" mtype="seg">To optimize performance start the crypt library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To optimize performance start the crypt library.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Open a file</source>
+<seg-source><mrk mid="0" mtype="seg">Open a file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open a file</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">All files (*.*)</source>
+<seg-source><mrk mid="0" mtype="seg">All files (*.*)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">All files (*.*)</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Select a file to find the hash.</source>
+<seg-source><mrk mid="0" mtype="seg">Select a file to find the hash.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Select a file to find the hash.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Set the inputbox with the filepath.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the inputbox with the filepath.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the inputbox with the filepath.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Hash Digest</source>
+<seg-source><mrk mid="0" mtype="seg">Hash Digest</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hash Digest</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Reset the hash digest label.</source>
+<seg-source><mrk mid="0" mtype="seg">Reset the hash digest label.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Reset the hash digest label.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Check when the combobox is selected and retrieve the correct algorithm.</source>
+<seg-source><mrk mid="0" mtype="seg">Check when the combobox is selected and retrieve the correct algorithm.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check when the combobox is selected and retrieve the correct algorithm.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Read the combobox selection.</source>
+<seg-source><mrk mid="0" mtype="seg">Read the combobox selection.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Read the combobox selection.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">MD2</source>
+<seg-source><mrk mid="0" mtype="seg">MD2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MD2</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">MD4</source>
+<seg-source><mrk mid="0" mtype="seg">MD4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MD4</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">MD5</source>
+<seg-source><mrk mid="0" mtype="seg">MD5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MD5</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">SHA1</source>
+<seg-source><mrk mid="0" mtype="seg">SHA1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SHA1</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Check there is a file available to find the hash digest</source>
+<seg-source><mrk mid="0" mtype="seg">Check there is a file available to find the hash digest</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check there is a file available to find the hash digest</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Create a hash of the file.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a hash of the file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a hash of the file.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Set the hash digest label with the hash data.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the hash digest label with the hash data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the hash digest label with the hash data.</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Delete the previous GUI and all controls.</source>
+<seg-source><mrk mid="0" mtype="seg">Delete the previous GUI and all controls.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete the previous GUI and all controls.</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Shutdown the crypt library.</source>
+<seg-source><mrk mid="0" mtype="seg">Shutdown the crypt library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shutdown the crypt library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

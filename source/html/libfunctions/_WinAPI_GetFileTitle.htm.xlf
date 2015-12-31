@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_GetFileTitle.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the name of the specified file</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the name of the specified file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the name of the specified file</mrk></target>
+<note>Function _WinAPI_GetFileTitle</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The name and location of a file.</source>
+<seg-source><mrk mid="0" mtype="seg">The name and location of a file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name and location of a file.</mrk></target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The name of the file.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the file.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Empty string.</source>
+<seg-source><mrk mid="0" mtype="seg">Empty string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Empty string.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetFileTitle.htm"></bpt>_WinAPI_GetFileTitle()<ept id="1">&lt;/a></ept> should only be called with legal file names; using an illegal file name has an undefined result.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetFileTitle.htm"></bpt>_WinAPI_GetFileTitle()<ept id="1">&lt;/a></ept> should only be called with legal file names; using an illegal file name has an undefined result.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetFileTitle.htm"></bpt>_WinAPI_GetFileTitle()<ept id="1">&lt;/a></ept> should only be called with legal file names; using an illegal file name has an undefined result.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetFileTitle.htm"></bpt>_WinAPI_GetFileTitle()<ept id="1">&lt;/a></ept> returns the string that the system would use to display the file name to the user.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetFileTitle.htm"></bpt>_WinAPI_GetFileTitle()<ept id="1">&lt;/a></ept> returns the string that the system would use to display the file name to the user.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetFileTitle.htm"></bpt>_WinAPI_GetFileTitle()<ept id="1">&lt;/a></ept> returns the string that the system would use to display the file name to the user.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> The display name includes an extension only if that is the user's preference for displaying file names.</source>
+<seg-source> <mrk mid="0" mtype="seg">The display name includes an extension only if that is the user's preference for displaying file names.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The display name includes an extension only if that is the user's preference for displaying file names.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> This means that the returned string may not accurately identify the file if it is used in calls to file system functions.</source>
+<seg-source> <mrk mid="0" mtype="seg">This means that the returned string may not accurately identify the file if it is used in calls to file system functions.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This means that the returned string may not accurately identify the file if it is used in calls to file system functions.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetFileTitle);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetFileTitle<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetFileTitle);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetFileTitle<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetFileTitle);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetFileTitle<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

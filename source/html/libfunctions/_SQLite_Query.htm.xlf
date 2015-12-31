@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_SQLite_Query.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Prepares a SQLite Query</source>
+<seg-source><mrk mid="0" mtype="seg">Prepares a SQLite Query</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Prepares a SQLite Query</mrk></target>
+<note>Function _SQLite_Query</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">An open database, use -1 to use last opened database</source>
+<seg-source><mrk mid="0" mtype="seg">An open database, use -1 to use last opened database</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An open database, use -1 to use last opened database</mrk></target>
+<note>$hDB</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">SQL statement to be executed</source>
+<seg-source><mrk mid="0" mtype="seg">SQL statement to be executed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL statement to be executed</mrk></target>
+<note>$sSQL</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Passes out a query handle</source>
+<seg-source><mrk mid="0" mtype="seg">Passes out a query handle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Passes out a query handle</mrk></target>
+<note>$hQuery</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">$SQLITE_OK.</source>
+<seg-source><mrk mid="0" mtype="seg">$SQLITE_OK.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$SQLITE_OK.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">a value that can be compared against $SQLITE_* constants.</source>
+<seg-source><mrk mid="0" mtype="seg">a value that can be compared against $SQLITE_* constants.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a value that can be compared against $SQLITE_* constants.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">-1 - SQLite reported an error (Check return value)</source>
+<seg-source><mrk mid="0" mtype="seg">-1 - SQLite reported an error (Check return value)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1 - SQLite reported an error (Check return value)</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> 1 - Error calling SQLite API 'sqlite3_prepare16_v2'</source>
+<seg-source> <mrk mid="0" mtype="seg">1 - Error calling SQLite API 'sqlite3_prepare16_v2'</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 - Error calling SQLite API 'sqlite3_prepare16_v2'</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> 2 - Call prevented by SafeMode</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - Call prevented by SafeMode</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - Call prevented by SafeMode</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">_SQLite_LibVersion=</source>
+<seg-source><mrk mid="0" mtype="seg">_SQLite_LibVersion=</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_SQLite_LibVersion=</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">open :memory: Database</source>
+<seg-source><mrk mid="0" mtype="seg">open :memory:</mrk> <mrk mid="1" mtype="seg">Database</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">open :memory:</mrk> <mrk mid="1" mtype="seg">Database</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">CREATE TABLE aTest (a,b,c);</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE TABLE aTest (a,b,c);</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE TABLE aTest (a,b,c);</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">CREATE a Table</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE a Table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE a Table</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">INSERT INTO aTest(a,b,c) VALUES ('c','2','World');</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT INTO aTest(a,b,c) VALUES ('c','2','World');</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT INTO aTest(a,b,c) VALUES ('c','2','World');</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">INSERT Data</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT Data</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT Data</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">INSERT INTO aTest(a,b,c) VALUES ('b','3',' ');</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT INTO aTest(a,b,c) VALUES ('b','3',' ');</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT INTO aTest(a,b,c) VALUES ('b','3',' ');</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">INSERT Data</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT Data</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT Data</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">INSERT INTO aTest(a,b,c) VALUES ('a','1','Hello');</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT INTO aTest(a,b,c) VALUES ('a','1','Hello');</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT INTO aTest(a,b,c) VALUES ('a','1','Hello');</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">INSERT Data</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT Data</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT Data</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">SELECT c FROM aTest ORDER BY a;</source>
+<seg-source><mrk mid="0" mtype="seg">SELECT c FROM aTest ORDER BY a;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECT c FROM aTest ORDER BY a;</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">the query</source>
+<seg-source><mrk mid="0" mtype="seg">the query</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the query</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">DROP TABLE aTest;</source>
+<seg-source><mrk mid="0" mtype="seg">DROP TABLE aTest;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DROP TABLE aTest;</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Remove the table</source>
+<seg-source><mrk mid="0" mtype="seg">Remove the table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remove the table</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">SQLite</source>
+<seg-source><mrk mid="0" mtype="seg">SQLite</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLite</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Get Data using a Query :</source>
+<seg-source><mrk mid="0" mtype="seg">Get Data using a Query :</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get Data using a Query :</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Output:</source>
+<seg-source><mrk mid="0" mtype="seg">Output:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Output:</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Hello World</source>
+<seg-source><mrk mid="0" mtype="seg">Hello World</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hello World</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

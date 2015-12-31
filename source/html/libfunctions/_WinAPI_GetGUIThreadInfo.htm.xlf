@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_GetGUIThreadInfo.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves information about the active window or a specified GUI thread</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves information about the active window or a specified GUI thread</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves information about the active window or a specified GUI thread</mrk></target>
+<note>Function _WinAPI_GetGUIThreadInfo</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The identifier for the thread for which information is to be retrieved.</source>
+<seg-source><mrk mid="0" mtype="seg">The identifier for the thread for which information is to be retrieved.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The identifier for the thread for which information is to be retrieved.</mrk></target>
+<note>$iThreadId</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The array that contains the following information:</source>
+<seg-source><mrk mid="0" mtype="seg">The array that contains the following information:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The array that contains the following information:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> [0] - The thread state. It can be one or more of the $GUI_* values.</source>
+<seg-source> <mrk mid="0" mtype="seg">[0] - The thread state.</mrk> <mrk mid="1" mtype="seg">It can be one or more of the $GUI_* values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[0] - The thread state.</mrk> <mrk mid="1" mtype="seg">It can be one or more of the $GUI_* values.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> [1] - A handle to the active window within the thread.</source>
+<seg-source> <mrk mid="0" mtype="seg">[1] - A handle to the active window within the thread.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[1] - A handle to the active window within the thread.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> [2] - A handle to the window that has the keyboard focus.</source>
+<seg-source> <mrk mid="0" mtype="seg">[2] - A handle to the window that has the keyboard focus.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[2] - A handle to the window that has the keyboard focus.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> [3] - A handle to the window that has captured the mouse.</source>
+<seg-source> <mrk mid="0" mtype="seg">[3] - A handle to the window that has captured the mouse.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[3] - A handle to the window that has captured the mouse.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> [4] - A handle to the window that owns any active menus.</source>
+<seg-source> <mrk mid="0" mtype="seg">[4] - A handle to the window that owns any active menus.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[4] - A handle to the window that owns any active menus.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> [5] - A handle to the window in a move or size loop.</source>
+<seg-source> <mrk mid="0" mtype="seg">[5] - A handle to the window in a move or size loop.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[5] - A handle to the window in a move or size loop.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> [6] - A handle to the window that is displaying the caret.</source>
+<seg-source> <mrk mid="0" mtype="seg">[6] - A handle to the window that is displaying the caret.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[6] - A handle to the window that is displaying the caret.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> [7] - The x-coordinate of the upper-left corner of the caret's bounding rectangle, in client coordinates.</source>
+<seg-source> <mrk mid="0" mtype="seg">[7] - The x-coordinate of the upper-left corner of the caret's bounding rectangle, in client coordinates.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[7] - The x-coordinate of the upper-left corner of the caret's bounding rectangle, in client coordinates.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> [8] - The y-coordinate of the upper-left corner of the caret's bounding rectangle, in client coordinates.</source>
+<seg-source> <mrk mid="0" mtype="seg">[8] - The y-coordinate of the upper-left corner of the caret's bounding rectangle, in client coordinates.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[8] - The y-coordinate of the upper-left corner of the caret's bounding rectangle, in client coordinates.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> [9] - The width of the caret's bounding rectangle.</source>
+<seg-source> <mrk mid="0" mtype="seg">[9] - The width of the caret's bounding rectangle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[9] - The width of the caret's bounding rectangle.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> [10] - The height of the caret's bounding rectangle.</source>
+<seg-source> <mrk mid="0" mtype="seg">[10] - The height of the caret's bounding rectangle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[10] - The height of the caret's bounding rectangle.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> Sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">Sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetGUIThreadInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetGUIThreadInfo<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetGUIThreadInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetGUIThreadInfo<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetGUIThreadInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetGUIThreadInfo<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Thread state:</source>
+<seg-source><mrk mid="0" mtype="seg">Thread state:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Thread state:</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Active window:</source>
+<seg-source><mrk mid="0" mtype="seg">Active window:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Active window:</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Keyboard focus:</source>
+<seg-source><mrk mid="0" mtype="seg">Keyboard focus:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Keyboard focus:</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Mouse capture:</source>
+<seg-source><mrk mid="0" mtype="seg">Mouse capture:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Mouse capture:</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Active menu:</source>
+<seg-source><mrk mid="0" mtype="seg">Active menu:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Active menu:</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Move or size loop:</source>
+<seg-source><mrk mid="0" mtype="seg">Move or size loop:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Move or size loop:</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Caret:</source>
+<seg-source><mrk mid="0" mtype="seg">Caret:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Caret:</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Left:</source>
+<seg-source><mrk mid="0" mtype="seg">Left:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Left:</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Top:</source>
+<seg-source><mrk mid="0" mtype="seg">Top:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Top:</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Width:</source>
+<seg-source><mrk mid="0" mtype="seg">Width:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Width:</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Height:</source>
+<seg-source><mrk mid="0" mtype="seg">Height:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Height:</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">[ACTIVE]</source>
+<seg-source><mrk mid="0" mtype="seg">[ACTIVE]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[ACTIVE]</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">0x</source>
+<seg-source><mrk mid="0" mtype="seg">0x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

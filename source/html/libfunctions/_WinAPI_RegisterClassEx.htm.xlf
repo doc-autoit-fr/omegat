@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_RegisterClassEx.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Registers a window class</source>
+<seg-source><mrk mid="0" mtype="seg">Registers a window class</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Registers a window class</mrk></target>
+<note>Function _WinAPI_RegisterClassEx</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">$tagWNDCLASSEX structure.</source>
+<seg-source><mrk mid="0" mtype="seg">$tagWNDCLASSEX structure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$tagWNDCLASSEX structure.</mrk></target>
+<note>$tWNDCLASSEX</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The value is a class atom that uniquely identifies the class being registered.</source>
+<seg-source><mrk mid="0" mtype="seg">The value is a class atom that uniquely identifies the class being registered.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The value is a class atom that uniquely identifies the class being registered.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> 0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RegisterClassEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RegisterClassEx<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RegisterClassEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RegisterClassEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RegisterClassEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RegisterClassEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">MyWindowClass</source>
+<seg-source><mrk mid="0" mtype="seg">MyWindowClass</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MyWindowClass</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Get module handle for the current process</source>
+<seg-source><mrk mid="0" mtype="seg">Get module handle for the current process</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get module handle for the current process</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Create a class cursor</source>
+<seg-source><mrk mid="0" mtype="seg">Create a class cursor</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a class cursor</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">IDC_ARROW</source>
+<seg-source><mrk mid="0" mtype="seg">IDC_ARROW</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDC_ARROW</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Create a class icons (large and small)</source>
+<seg-source><mrk mid="0" mtype="seg">Create a class icons (large and small)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a class icons (large and small)</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">ptr;ptr</source>
+<seg-source><mrk mid="0" mtype="seg">ptr;ptr</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ptr;ptr</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">\shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">\shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Create DLL callback function (window procedure)</source>
+<seg-source><mrk mid="0" mtype="seg">Create DLL callback function (window procedure)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create DLL callback function (window procedure)</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">_WndProc</source>
+<seg-source><mrk mid="0" mtype="seg">_WndProc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WndProc</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">lresult</source>
+<seg-source><mrk mid="0" mtype="seg">lresult</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">lresult</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">hwnd;uint;wparam;lparam</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd;uint;wparam;lparam</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd;uint;wparam;lparam</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Create and fill $tagWNDCLASSEX structure</source>
+<seg-source><mrk mid="0" mtype="seg">Create and fill $tagWNDCLASSEX structure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create and fill $tagWNDCLASSEX structure</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">;wchar szClassName[</source>
+<seg-source><mrk mid="0" mtype="seg">;wchar szClassName[</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">;wchar szClassName[</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">]</source>
+<seg-source><mrk mid="0" mtype="seg">]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">]</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Size</source>
+<seg-source><mrk mid="0" mtype="seg">Size</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Size</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">szClassName</source>
+<seg-source><mrk mid="0" mtype="seg">szClassName</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">szClassName</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Style</source>
+<seg-source><mrk mid="0" mtype="seg">Style</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Style</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">hWndProc</source>
+<seg-source><mrk mid="0" mtype="seg">hWndProc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndProc</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">ClsExtra</source>
+<seg-source><mrk mid="0" mtype="seg">ClsExtra</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ClsExtra</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">WndExtra</source>
+<seg-source><mrk mid="0" mtype="seg">WndExtra</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WndExtra</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">hInstance</source>
+<seg-source><mrk mid="0" mtype="seg">hInstance</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hInstance</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">hIcon</source>
+<seg-source><mrk mid="0" mtype="seg">hIcon</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hIcon</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">hCursor</source>
+<seg-source><mrk mid="0" mtype="seg">hCursor</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hCursor</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">hBackground</source>
+<seg-source><mrk mid="0" mtype="seg">hBackground</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hBackground</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">MenuName</source>
+<seg-source><mrk mid="0" mtype="seg">MenuName</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MenuName</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">ClassName</source>
+<seg-source><mrk mid="0" mtype="seg">ClassName</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ClassName</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">szClassName</source>
+<seg-source><mrk mid="0" mtype="seg">szClassName</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">szClassName</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">hIconSm</source>
+<seg-source><mrk mid="0" mtype="seg">hIconSm</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hIconSm</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">szClassName</source>
+<seg-source><mrk mid="0" mtype="seg">szClassName</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">szClassName</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Register a window class</source>
+<seg-source><mrk mid="0" mtype="seg">Register a window class</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Register a window class</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Create a window</source>
+<seg-source><mrk mid="0" mtype="seg">Create a window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a window</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Unregister window class and release unnecessary resources</source>
+<seg-source><mrk mid="0" mtype="seg">Unregister window class and release unnecessary resources</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unregister window class and release unnecessary resources</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Func _WinAPI_DefWindowProcW($hWnd, $iMsg, $wParam, $lParam)</source>
+<seg-source><mrk mid="0" mtype="seg">Func _WinAPI_DefWindowProcW($hWnd, $iMsg, $wParam, $lParam)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Func _WinAPI_DefWindowProcW($hWnd, $iMsg, $wParam, $lParam)</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Local $aRet = DllCall('user32.dll', 'lresult', 'DefWindowProcW', 'hwnd', $hWnd, 'uint', $iMsg, 'wparam', $wParam, 'lparam', $lParam)</source>
+<seg-source><mrk mid="0" mtype="seg">Local $aRet = DllCall('user32.dll', 'lresult', 'DefWindowProcW', 'hwnd', $hWnd, 'uint', $iMsg, 'wparam', $wParam, 'lparam', $lParam)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Local $aRet = DllCall('user32.dll', 'lresult', 'DefWindowProcW', 'hwnd', $hWnd, 'uint', $iMsg, 'wparam', $wParam, 'lparam', $lParam)</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">If @error Then</source>
+<seg-source><mrk mid="0" mtype="seg">If @error Then</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If @error Then</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Return SetError(1, 0, 0)</source>
+<seg-source><mrk mid="0" mtype="seg">Return SetError(1, 0, 0)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return SetError(1, 0, 0)</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">EndIf</source>
+<seg-source><mrk mid="0" mtype="seg">EndIf</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">EndIf</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Return $aRet[0]</source>
+<seg-source><mrk mid="0" mtype="seg">Return $aRet[0]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return $aRet[0]</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">EndFunc ;==>_WinAPI_DefWindowProcW</source>
+<seg-source><mrk mid="0" mtype="seg">EndFunc ;==>_WinAPI_DefWindowProcW</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">EndFunc ;==>_WinAPI_DefWindowProcW</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

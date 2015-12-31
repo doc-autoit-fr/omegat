@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/GUICtrlCreateContextMenu.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a context menu for a control or entire GUI window.</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a context menu for a control or entire GUI window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a context menu for a control or entire GUI window.</mrk></target>
+<note>Function GUICtrlCreateContextMenu</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Control identifier as returned by a <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...()<ept id="1">&lt;/a></ept> function. </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control identifier as returned by a <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...()<ept id="1">&lt;/a></ept> function.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control identifier as returned by a <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...()<ept id="1">&lt;/a></ept> function.</mrk> </target>
+<note>controlID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">the identifier (controlID) of the new control.</source>
+<seg-source><mrk mid="0" mtype="seg">the identifier (controlID) of the new control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the identifier (controlID) of the new control.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">After creating the context menu main control with this function, each menu item can be created by using <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateMenuItem.htm"></bpt>GUICtrlCreateMenuItem()<ept id="1">&lt;/a></ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">After creating the context menu main control with this function, each menu item can be created by using <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateMenuItem.htm"></bpt>GUICtrlCreateMenuItem()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">After creating the context menu main control with this function, each menu item can be created by using <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateMenuItem.htm"></bpt>GUICtrlCreateMenuItem()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> Sub-menus can be created using <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateMenu.htm"></bpt>GUICtrlCreateMenu()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">Sub-menus can be created using <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateMenu.htm"></bpt>GUICtrlCreateMenu()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Sub-menus can be created using <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateMenu.htm"></bpt>GUICtrlCreateMenu()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> If you use no parameters or -1 in this function then the context menu that is created is associated with the entire GUI window rather than an individual control.</source>
+<seg-source> <mrk mid="0" mtype="seg">If you use no parameters or -1 in this function then the context menu that is created is associated with the entire GUI window rather than an individual control.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If you use no parameters or -1 in this function then the context menu that is created is associated with the entire GUI window rather than an individual control.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> Only one context menu per control is possible. If you wish to create a new context menu one you have to delete the existing menu first.</source>
+<seg-source> <mrk mid="0" mtype="seg">Only one context menu per control is possible.</mrk> <mrk mid="1" mtype="seg">If you wish to create a new context menu one you have to delete the existing menu first.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Only one context menu per control is possible.</mrk> <mrk mid="1" mtype="seg">If you wish to create a new context menu one you have to delete the existing menu first.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> Note: You can't create context menus for controls that already have <bpt id="1" ctype="x-strong">&lt;strong></bpt>system<ept id="1">&lt;/strong></ept> context menus, i.e. edit or input controls.</source>
+<seg-source> <mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">You can't create context menus for controls that already have <bpt id="1" ctype="x-strong">&lt;strong></bpt>system<ept id="1">&lt;/strong></ept> context menus, i.e. edit or input controls.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">You can't create context menus for controls that already have <bpt id="1" ctype="x-strong">&lt;strong></bpt>system<ept id="1">&lt;/strong></ept> context menus, i.e. edit or input controls.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">right click on gui to bring up context Menu.</source>
+<seg-source><mrk mid="0" mtype="seg">right click on gui to bring up context Menu.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">right click on gui to bring up context Menu.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">right click on the "ok" button to bring up a controll specific context menu.</source>
+<seg-source><mrk mid="0" mtype="seg">right click on the "ok" button to bring up a controll specific context menu.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">right click on the "ok" button to bring up a controll specific context menu.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">My GUI Context Menu</source>
+<seg-source><mrk mid="0" mtype="seg">My GUI Context Menu</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">My GUI Context Menu</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">new</source>
+<seg-source><mrk mid="0" mtype="seg">new</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">new</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">text</source>
+<seg-source><mrk mid="0" mtype="seg">text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">text</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">OK</source>
+<seg-source><mrk mid="0" mtype="seg">OK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OK</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">About button</source>
+<seg-source><mrk mid="0" mtype="seg">About button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">About button</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Open</source>
+<seg-source><mrk mid="0" mtype="seg">Open</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Save</source>
+<seg-source><mrk mid="0" mtype="seg">Save</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Save</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">separator</source>
+<seg-source><mrk mid="0" mtype="seg">separator</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">separator</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Info</source>
+<seg-source><mrk mid="0" mtype="seg">Info</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Info</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Button Clicked</source>
+<seg-source><mrk mid="0" mtype="seg">Button Clicked</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Button Clicked</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">OK</source>
+<seg-source><mrk mid="0" mtype="seg">OK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OK</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Menu Selected</source>
+<seg-source><mrk mid="0" mtype="seg">Menu Selected</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Menu Selected</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">About</source>
+<seg-source><mrk mid="0" mtype="seg">About</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">About</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Menu Selected</source>
+<seg-source><mrk mid="0" mtype="seg">Menu Selected</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Menu Selected</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Open</source>
+<seg-source><mrk mid="0" mtype="seg">Open</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Menu Selected</source>
+<seg-source><mrk mid="0" mtype="seg">Menu Selected</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Menu Selected</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Save</source>
+<seg-source><mrk mid="0" mtype="seg">Save</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Save</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Menu Selected</source>
+<seg-source><mrk mid="0" mtype="seg">Menu Selected</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Menu Selected</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Info</source>
+<seg-source><mrk mid="0" mtype="seg">Info</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Info</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">SubMenu Selected</source>
+<seg-source><mrk mid="0" mtype="seg">SubMenu Selected</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SubMenu Selected</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Text</source>
+<seg-source><mrk mid="0" mtype="seg">Text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">My GUI</source>
+<seg-source><mrk mid="0" mtype="seg">My GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">My GUI</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">&amp;Options</source>
+<seg-source><mrk mid="0" mtype="seg">&amp;Options</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&amp;Options</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">At first create a dummy control for the options and a contextmenu for it</source>
+<seg-source><mrk mid="0" mtype="seg">At first create a dummy control for the options and a contextmenu for it</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">At first create a dummy control for the options and a contextmenu for it</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Common</source>
+<seg-source><mrk mid="0" mtype="seg">Common</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Common</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">File</source>
+<seg-source><mrk mid="0" mtype="seg">File</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Exit</source>
+<seg-source><mrk mid="0" mtype="seg">Exit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exit</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">&amp;Help</source>
+<seg-source><mrk mid="0" mtype="seg">&amp;Help</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&amp;Help</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Create a dummy control and a contextmenu for the help too</source>
+<seg-source><mrk mid="0" mtype="seg">Create a dummy control and a contextmenu for the help too</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a dummy control and a contextmenu for the help too</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Website</source>
+<seg-source><mrk mid="0" mtype="seg">Website</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Website</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">About...</source>
+<seg-source><mrk mid="0" mtype="seg">About...</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">About...</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">About...</source>
+<seg-source><mrk mid="0" mtype="seg">About...</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">About...</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">GUICtrlGetHandle-Sample</source>
+<seg-source><mrk mid="0" mtype="seg">GUICtrlGetHandle-Sample</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUICtrlGetHandle-Sample</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">Show a menu in a given GUI window which belongs to a given GUI ctrl</source>
+<seg-source><mrk mid="0" mtype="seg">Show a menu in a given GUI window which belongs to a given GUI ctrl</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show a menu in a given GUI window which belongs to a given GUI ctrl</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Convert the client (GUI) coordinates to screen (desktop) coordinates</source>
+<seg-source><mrk mid="0" mtype="seg">Convert the client (GUI) coordinates to screen (desktop) coordinates</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Convert the client (GUI) coordinates to screen (desktop) coordinates</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">int;int</source>
+<seg-source><mrk mid="0" mtype="seg">int;int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int;int</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">user32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">user32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">ClientToScreen</source>
+<seg-source><mrk mid="0" mtype="seg">ClientToScreen</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ClientToScreen</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">struct*</source>
+<seg-source><mrk mid="0" mtype="seg">struct*</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">struct*</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">release Struct not really needed as it is a local</source>
+<seg-source><mrk mid="0" mtype="seg">release Struct not really needed as it is a local</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">release Struct not really needed as it is a local</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">Show at the given coordinates (x, y) the popup menu (hMenu) which belongs to a given GUI window (hWnd)</source>
+<seg-source><mrk mid="0" mtype="seg">Show at the given coordinates (x, y) the popup menu (hMenu) which belongs to a given GUI window (hWnd)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show at the given coordinates (x, y) the popup menu (hMenu) which belongs to a given GUI window (hWnd)</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">user32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">user32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">TrackPopupMenuEx</source>
+<seg-source><mrk mid="0" mtype="seg">TrackPopupMenuEx</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrackPopupMenuEx</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">ptr</source>
+<seg-source><mrk mid="0" mtype="seg">ptr</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ptr</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

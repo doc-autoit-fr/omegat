@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_MessageBeep.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Plays a waveform sound</source>
+<seg-source><mrk mid="0" mtype="seg">Plays a waveform sound</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Plays a waveform sound</mrk></target>
+<note>Function _WinAPI_MessageBeep</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The sound type, as identified by an entry in the registry. This can be one of the following</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The sound type, as identified by an entry in the registry.</mrk> <mrk mid="2" mtype="seg">This can be one of the following</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The sound type, as identified by an entry in the registry.</mrk> <mrk mid="2" mtype="seg">This can be one of the following</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> values:</source>
+<seg-source> <mrk mid="0" mtype="seg">values:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">values:</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> 0 - Simple beep. If a sound card is not available, the speaker is used.</source>
+<seg-source> <mrk mid="0" mtype="seg">0 - Simple beep.</mrk> <mrk mid="1" mtype="seg">If a sound card is not available, the speaker is used.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 - Simple beep.</mrk> <mrk mid="1" mtype="seg">If a sound card is not available, the speaker is used.</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> 1 - OK</source>
+<seg-source> <mrk mid="0" mtype="seg">1 - OK</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 - OK</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> 2 - Hand</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - Hand</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - Hand</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> 3 - Question</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - Question</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - Question</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> 4 - Exclamation</source>
+<seg-source> <mrk mid="0" mtype="seg">4 - Exclamation</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 - Exclamation</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> 5 - Asterisk</source>
+<seg-source> <mrk mid="0" mtype="seg">5 - Asterisk</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">5 - Asterisk</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information </source>
+<seg-source> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">After queuing the sound, the MessageBeep function returns control to the calling function and plays the sound</source>
+<seg-source><mrk mid="0" mtype="seg">After queuing the sound, the MessageBeep function returns control to the calling function and plays the sound</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">After queuing the sound, the MessageBeep function returns control to the calling function and plays the sound</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> asynchronously. If it cannot play the specified alert sound, MessageBeep attempts to play the system default</source>
+<seg-source> <mrk mid="0" mtype="seg">asynchronously.</mrk> <mrk mid="1" mtype="seg">If it cannot play the specified alert sound, MessageBeep attempts to play the system default</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">asynchronously.</mrk> <mrk mid="1" mtype="seg">If it cannot play the specified alert sound, MessageBeep attempts to play the system default</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> sound. If it cannot play the system default sound, the function produces a standard beep sound through the</source>
+<seg-source> <mrk mid="0" mtype="seg">sound.</mrk> <mrk mid="1" mtype="seg">If it cannot play the system default sound, the function produces a standard beep sound through the</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">sound.</mrk> <mrk mid="1" mtype="seg">If it cannot play the system default sound, the function produces a standard beep sound through the</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> computer speaker.</source>
+<seg-source> <mrk mid="0" mtype="seg">computer speaker.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">computer speaker.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(MessageBeep);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>MessageBeep<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(MessageBeep);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>MessageBeep<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(MessageBeep);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>MessageBeep<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/TraySetState.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the state of the tray icon.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the state of the tray icon.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the state of the tray icon.</mrk></target>
+<note>Function TraySetState</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> A combination of the following:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A combination of the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A combination of the following:</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">     $TRAY_ICONSTATE_SHOW (1) = Shows the tray icon (default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TRAY_ICONSTATE_SHOW (1) = Shows the tray icon (default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TRAY_ICONSTATE_SHOW (1) = Shows the tray icon (default)</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $TRAY_ICONSTATE_HIDE (2) = Destroys/Hides the tray icon</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TRAY_ICONSTATE_HIDE (2) = Destroys/Hides the tray icon</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TRAY_ICONSTATE_HIDE (2) = Destroys/Hides the tray icon</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $TRAY_ICONSTATE_FLASH (4) = Flashes the tray icon</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TRAY_ICONSTATE_FLASH (4) = Flashes the tray icon</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TRAY_ICONSTATE_FLASH (4) = Flashes the tray icon</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $TRAY_ICONSTATE_STOPFLASH (8) = Stops tray icon flashing</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TRAY_ICONSTATE_STOPFLASH (8) = Stops tray icon flashing</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TRAY_ICONSTATE_STOPFLASH (8) = Stops tray icon flashing</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $TRAY_ICONSTATE_RESET (16) = Resets the icon to the defaults (no flashing, default tip text)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TRAY_ICONSTATE_RESET (16) = Resets the icon to the defaults (no flashing, default tip text)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TRAY_ICONSTATE_RESET (16) = Resets the icon to the defaults (no flashing, default tip text)</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> Constants are defined in TrayConstants.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in TrayConstants.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in TrayConstants.au3.</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">None.</source>
+<seg-source><mrk mid="0" mtype="seg">None.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">This function overrides <bpt id="1" ctype="x-a">&lt;a href="../functions/AutoItSetOption.htm#TrayIconHide"></bpt>Opt("TrayIconHide")<ept id="1">&lt;/a></ept> and <bpt id="2" ctype="x-a">&lt;a href="../keywords/NoTrayIcon.htm"></bpt>#NoTrayIcon<ept id="2">&lt;/a></ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">This function overrides <bpt id="1" ctype="x-a">&lt;a href="../functions/AutoItSetOption.htm#TrayIconHide"></bpt>Opt("TrayIconHide")<ept id="1">&lt;/a></ept> and <bpt id="2" ctype="x-a">&lt;a href="../keywords/NoTrayIcon.htm"></bpt>#NoTrayIcon<ept id="2">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function overrides <bpt id="1" ctype="x-a">&lt;a href="../functions/AutoItSetOption.htm#TrayIconHide"></bpt>Opt("TrayIconHide")<ept id="1">&lt;/a></ept> and <bpt id="2" ctype="x-a">&lt;a href="../keywords/NoTrayIcon.htm"></bpt>#NoTrayIcon<ept id="2">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> The normal and pause tray icon are NOT reset by this function!</source>
+<seg-source> <mrk mid="0" mtype="seg">The normal and pause tray icon are NOT reset by this function!</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The normal and pause tray icon are NOT reset by this function!</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Required for the $TRAY_ICONSTATE_SHOW constant.</source>
+<seg-source><mrk mid="0" mtype="seg">Required for the $TRAY_ICONSTATE_SHOW constant.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Required for the $TRAY_ICONSTATE_SHOW constant.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">TrayMenuMode</source>
+<seg-source><mrk mid="0" mtype="seg">TrayMenuMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayMenuMode</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">The default tray menu items will not be shown and items are not checked when selected. These are options 1 and 2 for TrayMenuMode.</source>
+<seg-source><mrk mid="0" mtype="seg">The default tray menu items will not be shown and items are not checked when selected.</mrk> <mrk mid="1" mtype="seg">These are options 1 and 2 for TrayMenuMode.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The default tray menu items will not be shown and items are not checked when selected.</mrk> <mrk mid="1" mtype="seg">These are options 1 and 2 for TrayMenuMode.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Flash Icon</source>
+<seg-source><mrk mid="0" mtype="seg">Flash Icon</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Flash Icon</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Create a separator line.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a separator line.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a separator line.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">About</source>
+<seg-source><mrk mid="0" mtype="seg">About</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">About</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Create a separator line.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a separator line.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a separator line.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Exit</source>
+<seg-source><mrk mid="0" mtype="seg">Exit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exit</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Show the tray menu.</source>
+<seg-source><mrk mid="0" mtype="seg">Show the tray menu.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show the tray menu.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Display a message box about the AutoIt version and installation path of the AutoIt executable.</source>
+<seg-source><mrk mid="0" mtype="seg">Display a message box about the AutoIt version and installation path of the AutoIt executable.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display a message box about the AutoIt version and installation path of the AutoIt executable.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">AutoIt tray menu example.</source>
+<seg-source><mrk mid="0" mtype="seg">AutoIt tray menu example.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AutoIt tray menu example.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Version:</source>
+<seg-source><mrk mid="0" mtype="seg">Version:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Version:</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Install Path:</source>
+<seg-source><mrk mid="0" mtype="seg">Install Path:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Install Path:</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">\</source>
+<seg-source><mrk mid="0" mtype="seg">\</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Find the folder of a full path.</source>
+<seg-source><mrk mid="0" mtype="seg">Find the folder of a full path.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Find the folder of a full path.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Start flashing the tray icon.</source>
+<seg-source><mrk mid="0" mtype="seg">Start flashing the tray icon.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Start flashing the tray icon.</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Wait for 5 seconds.</source>
+<seg-source><mrk mid="0" mtype="seg">Wait for 5 seconds.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wait for 5 seconds.</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Stop flashing the tray icon.</source>
+<seg-source><mrk mid="0" mtype="seg">Stop flashing the tray icon.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Stop flashing the tray icon.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Exit the loop.</source>
+<seg-source><mrk mid="0" mtype="seg">Exit the loop.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exit the loop.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

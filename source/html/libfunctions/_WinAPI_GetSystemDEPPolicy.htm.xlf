@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_GetSystemDEPPolicy.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Gets the data execution prevention (DEP) policy setting for the system</source>
+<seg-source><mrk mid="0" mtype="seg">Gets the data execution prevention (DEP) policy setting for the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Gets the data execution prevention (DEP) policy setting for the system</mrk></target>
+<note>Function _WinAPI_GetSystemDEPPolicy</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Returns The DEP policy setting, which can be one of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns The DEP policy setting, which can be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns The DEP policy setting, which can be one of the following values.</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> 0 - AlwaysOff</source>
+<seg-source> <mrk mid="0" mtype="seg">0 - AlwaysOff</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0 - AlwaysOff</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> DEP is disabled for all parts of the system, regardless of hardware support for DEP. The processor</source>
+<seg-source> <mrk mid="0" mtype="seg">DEP is disabled for all parts of the system, regardless of hardware support for DEP.</mrk> <mrk mid="1" mtype="seg">The processor</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">DEP is disabled for all parts of the system, regardless of hardware support for DEP.</mrk> <mrk mid="1" mtype="seg">The processor</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> runs in PAE mode with 32-bit versions of Windows unless PAE is disabled in the boot configuration data.</source>
+<seg-source> <mrk mid="0" mtype="seg">runs in PAE mode with 32-bit versions of Windows unless PAE is disabled in the boot configuration data.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">runs in PAE mode with 32-bit versions of Windows unless PAE is disabled in the boot configuration data.</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> 1 - AlwaysOn</source>
+<seg-source> <mrk mid="0" mtype="seg">1 - AlwaysOn</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 - AlwaysOn</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> DEP is enabled for all parts of the system. All processes always run with DEP enabled. DEP cannot</source>
+<seg-source> <mrk mid="0" mtype="seg">DEP is enabled for all parts of the system.</mrk> <mrk mid="1" mtype="seg">All processes always run with DEP enabled.</mrk> <mrk mid="2" mtype="seg">DEP cannot</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">DEP is enabled for all parts of the system.</mrk> <mrk mid="1" mtype="seg">All processes always run with DEP enabled.</mrk> <mrk mid="2" mtype="seg">DEP cannot</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> be explicitly disabled for selected applications. System compatibility fixes are ignored.</source>
+<seg-source> <mrk mid="0" mtype="seg">be explicitly disabled for selected applications.</mrk> <mrk mid="1" mtype="seg">System compatibility fixes are ignored.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">be explicitly disabled for selected applications.</mrk> <mrk mid="1" mtype="seg">System compatibility fixes are ignored.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> 2 - OptIn</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - OptIn</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - OptIn</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> On systems with processors that are capable of hardware-enforced DEP, DEP is automatically enabled</source>
+<seg-source> <mrk mid="0" mtype="seg">On systems with processors that are capable of hardware-enforced DEP, DEP is automatically enabled</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">On systems with processors that are capable of hardware-enforced DEP, DEP is automatically enabled</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> only for operating system components. This is the default setting for client versions of Windows.</source>
+<seg-source> <mrk mid="0" mtype="seg">only for operating system components.</mrk> <mrk mid="1" mtype="seg">This is the default setting for client versions of Windows.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">only for operating system components.</mrk> <mrk mid="1" mtype="seg">This is the default setting for client versions of Windows.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> DEP can be explicitly enabled for selected applications or the current process.</source>
+<seg-source> <mrk mid="0" mtype="seg">DEP can be explicitly enabled for selected applications or the current process.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">DEP can be explicitly enabled for selected applications or the current process.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> 3 - OptOut</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - OptOut</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - OptOut</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> DEP is automatically enabled for operating system components and all processes. This is the default</source>
+<seg-source> <mrk mid="0" mtype="seg">DEP is automatically enabled for operating system components and all processes.</mrk> <mrk mid="1" mtype="seg">This is the default</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">DEP is automatically enabled for operating system components and all processes.</mrk> <mrk mid="1" mtype="seg">This is the default</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> setting for Windows Server versions. DEP can be explicitly disabled for selected applications or</source>
+<seg-source> <mrk mid="0" mtype="seg">setting for Windows Server versions.</mrk> <mrk mid="1" mtype="seg">DEP can be explicitly disabled for selected applications or</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">setting for Windows Server versions.</mrk> <mrk mid="1" mtype="seg">DEP can be explicitly disabled for selected applications or</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> the current process. System compatibility fixes for DEP are in effect.</source>
+<seg-source> <mrk mid="0" mtype="seg">the current process.</mrk> <mrk mid="1" mtype="seg">System compatibility fixes for DEP are in effect.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">the current process.</mrk> <mrk mid="1" mtype="seg">System compatibility fixes for DEP are in effect.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">This function requires Windows XP with SP3, Windows Vista with SP1 or later.</source>
+<seg-source><mrk mid="0" mtype="seg">This function requires Windows XP with SP3, Windows Vista with SP1 or later.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function requires Windows XP with SP3, Windows Vista with SP1 or later.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetSystemDEPPolicy);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetSystemDEPPolicy<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetSystemDEPPolicy);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetSystemDEPPolicy<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetSystemDEPPolicy);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetSystemDEPPolicy<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

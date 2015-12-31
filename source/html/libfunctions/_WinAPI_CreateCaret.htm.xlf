@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_CreateCaret.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a new shape for the system caret and assigns ownership of the caret to the specified window</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a new shape for the system caret and assigns ownership of the caret to the specified window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a new shape for the system caret and assigns ownership of the caret to the specified window</mrk></target>
+<note>Function _WinAPI_CreateCaret</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the window that owns the caret.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the window that owns the caret.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the window that owns the caret.</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Handle to the bitmap that defines the caret shape.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the bitmap that defines the caret shape.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the bitmap that defines the caret shape.</mrk></target>
+<note>$hBitmap</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> If this parameter is 0, the caret is solid.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is 0, the caret is solid.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is 0, the caret is solid.</mrk></target>
+<note>$hBitmap</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> If this parameter is 1, the caret is gray. If this parameter is a bitmap handle, the caret is the specified bitmap.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is 1, the caret is gray.</mrk> <mrk mid="1" mtype="seg">If this parameter is a bitmap handle, the caret is the specified bitmap.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is 1, the caret is gray.</mrk> <mrk mid="1" mtype="seg">If this parameter is a bitmap handle, the caret is the specified bitmap.</mrk></target>
+<note>$hBitmap</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The width of the caret in logical units.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The width of the caret in logical units.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The width of the caret in logical units.</mrk></target>
+<note>$iWidth</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> If this parameter is 0 (Default), the width is set to the system-defined window border width.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is 0 (Default), the width is set to the system-defined window border width.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is 0 (Default), the width is set to the system-defined window border width.</mrk></target>
+<note>$iWidth</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> If $hBitmap is a bitmap handle, <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateCaret.htm"></bpt>_WinAPI_CreateCaret()<ept id="1">&lt;/a></ept> ignores this parameter. </source>
+<seg-source> <mrk mid="0" mtype="seg">If $hBitmap is a bitmap handle, <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateCaret.htm"></bpt>_WinAPI_CreateCaret()<ept id="1">&lt;/a></ept> ignores this parameter.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If $hBitmap is a bitmap handle, <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateCaret.htm"></bpt>_WinAPI_CreateCaret()<ept id="1">&lt;/a></ept> ignores this parameter.</mrk> </target>
+<note>$iWidth</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The height of the caret in logical units.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The height of the caret in logical units.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The height of the caret in logical units.</mrk></target>
+<note>$iHeight</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> If this parameter is 0 (Default), the height is set to the system-defined window border height.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is 0 (Default), the height is set to the system-defined window border height.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is 0 (Default), the height is set to the system-defined window border height.</mrk></target>
+<note>$iHeight</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> If $hBitmap is a bitmap handle, <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateCaret.htm"></bpt>_WinAPI_CreateCaret()<ept id="1">&lt;/a></ept> ignores this parameter. </source>
+<seg-source> <mrk mid="0" mtype="seg">If $hBitmap is a bitmap handle, <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateCaret.htm"></bpt>_WinAPI_CreateCaret()<ept id="1">&lt;/a></ept> ignores this parameter.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If $hBitmap is a bitmap handle, <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateCaret.htm"></bpt>_WinAPI_CreateCaret()<ept id="1">&lt;/a></ept> ignores this parameter.</mrk> </target>
+<note>$iHeight</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateCaret.htm"></bpt>_WinAPI_CreateCaret()<ept id="1">&lt;/a></ept> automatically destroys the previous caret shape, if any, regardless of the window that owns the caret.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateCaret.htm"></bpt>_WinAPI_CreateCaret()<ept id="1">&lt;/a></ept> automatically destroys the previous caret shape, if any, regardless of the window that owns the caret.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateCaret.htm"></bpt>_WinAPI_CreateCaret()<ept id="1">&lt;/a></ept> automatically destroys the previous caret shape, if any, regardless of the window that owns the caret.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> The caret is hidden until the application calls the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ShowCaret.htm"></bpt>_WinAPI_ShowCaret()<ept id="1">&lt;/a></ept> function to make the caret visible.</source>
+<seg-source> <mrk mid="0" mtype="seg">The caret is hidden until the application calls the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ShowCaret.htm"></bpt>_WinAPI_ShowCaret()<ept id="1">&lt;/a></ept> function to make the caret visible.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The caret is hidden until the application calls the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ShowCaret.htm"></bpt>_WinAPI_ShowCaret()<ept id="1">&lt;/a></ept> function to make the caret visible.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> The system provides one caret per queue. A window should create a caret only when it has the keyboard focus or is active.</source>
+<seg-source> <mrk mid="0" mtype="seg">The system provides one caret per queue.</mrk> <mrk mid="1" mtype="seg">A window should create a caret only when it has the keyboard focus or is active.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The system provides one caret per queue.</mrk> <mrk mid="1" mtype="seg">A window should create a caret only when it has the keyboard focus or is active.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> The window should destroy the caret before losing the keyboard focus or becoming inactive.</source>
+<seg-source> <mrk mid="0" mtype="seg">The window should destroy the caret before losing the keyboard focus or becoming inactive.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The window should destroy the caret before losing the keyboard focus or becoming inactive.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> You can retrieve the width or height of the system's window border by using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetSystemMetrics.htm"></bpt>_WinAPI_GetSystemMetrics()<ept id="1">&lt;/a></ept> function, specifying the $SM_CXBORDER and $SM_CYBORDER values. Using the window border width or height guarantees that the caret will be visible on a high-resolution screen.</source>
+<seg-source> <mrk mid="0" mtype="seg">You can retrieve the width or height of the system's window border by using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetSystemMetrics.htm"></bpt>_WinAPI_GetSystemMetrics()<ept id="1">&lt;/a></ept> function, specifying the $SM_CXBORDER and $SM_CYBORDER values.</mrk> <mrk mid="1" mtype="seg">Using the window border width or height guarantees that the caret will be visible on a high-resolution screen.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">You can retrieve the width or height of the system's window border by using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetSystemMetrics.htm"></bpt>_WinAPI_GetSystemMetrics()<ept id="1">&lt;/a></ept> function, specifying the $SM_CXBORDER and $SM_CYBORDER values.</mrk> <mrk mid="1" mtype="seg">Using the window border width or height guarantees that the caret will be visible on a high-resolution screen.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateCaret);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateCaret<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateCaret);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateCaret<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateCaret);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateCaret<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">OnAutoItExit</source>
+<seg-source><mrk mid="0" mtype="seg">OnAutoItExit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OnAutoItExit</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Exit</source>
+<seg-source><mrk mid="0" mtype="seg">Exit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exit</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">WM_COMMAND</source>
+<seg-source><mrk mid="0" mtype="seg">WM_COMMAND</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_COMMAND</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

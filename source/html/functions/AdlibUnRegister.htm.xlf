@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/AdlibUnRegister.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Unregisters an adlib function.</source>
+<seg-source><mrk mid="0" mtype="seg">Unregisters an adlib function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unregisters an adlib function.</mrk></target>
+<note>Function AdlibUnRegister</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The name of the adlib function to be Unregistered. See remarks for more information.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The name of the adlib function to be Unregistered.</mrk> <mrk mid="2" mtype="seg">See remarks for more information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The name of the adlib function to be Unregistered.</mrk> <mrk mid="2" mtype="seg">See remarks for more information.</mrk></target>
+<note>function</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Returns the number of adlib functions currently registered.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the number of adlib functions currently registered.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the number of adlib functions currently registered.</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">If the function name is not specified then the last registered function will be unregistered.</source>
+<seg-source><mrk mid="0" mtype="seg">If the function name is not specified then the last registered function will be unregistered.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the function name is not specified then the last registered function will be unregistered.</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">SciTE.exe</source>
+<seg-source><mrk mid="0" mtype="seg">SciTE.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SciTE.exe</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">You will need SciTE.exe to be running for ConsoleWrite to display.</source>
+<seg-source><mrk mid="0" mtype="seg">You will need SciTE.exe to be running for ConsoleWrite to display.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You will need SciTE.exe to be running for ConsoleWrite to display.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Register the function MyAdLibFunc() to be called every 250ms (default).</source>
+<seg-source><mrk mid="0" mtype="seg">Register the function MyAdLibFunc() to be called every 250ms (default).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Register the function MyAdLibFunc() to be called every 250ms (default).</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">MyAdLibFunc</source>
+<seg-source><mrk mid="0" mtype="seg">MyAdLibFunc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MyAdLibFunc</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Sleep does not stop AdLib functions from running.</source>
+<seg-source><mrk mid="0" mtype="seg">Sleep does not stop AdLib functions from running.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sleep does not stop AdLib functions from running.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">AdLib functions don't run while a blocking function is shown e.g. MsgBox, InputBox, WinWait, WinWaitClose etc.</source>
+<seg-source><mrk mid="0" mtype="seg">AdLib functions don't run while a blocking function is shown e.g.</mrk> <mrk mid="1" mtype="seg">MsgBox, InputBox, WinWait, WinWaitClose etc.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AdLib functions don't run while a blocking function is shown e.g.</mrk> <mrk mid="1" mtype="seg">MsgBox, InputBox, WinWait, WinWaitClose etc.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">No console message(s) will be shown whilst the messagebox is displayed.</source>
+<seg-source><mrk mid="0" mtype="seg">No console message(s) will be shown whilst the messagebox is displayed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No console message(s) will be shown whilst the messagebox is displayed.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">The AdLib function MyAdLibFunc() will start again.</source>
+<seg-source><mrk mid="0" mtype="seg">The AdLib function MyAdLibFunc() will start again.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The AdLib function MyAdLibFunc() will start again.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Unregister the function MyAdLibFunc() from being called every 250ms.</source>
+<seg-source><mrk mid="0" mtype="seg">Unregister the function MyAdLibFunc() from being called every 250ms.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unregister the function MyAdLibFunc() from being called every 250ms.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">MyAdLibFunc</source>
+<seg-source><mrk mid="0" mtype="seg">MyAdLibFunc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MyAdLibFunc</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Assign a static variable to hold the number of times the function is called.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign a static variable to hold the number of times the function is called.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign a static variable to hold the number of times the function is called.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">MyAdLibFunc called</source>
+<seg-source><mrk mid="0" mtype="seg">MyAdLibFunc called</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MyAdLibFunc called</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">time(s)</source>
+<seg-source><mrk mid="0" mtype="seg">time(s)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">time(s)</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

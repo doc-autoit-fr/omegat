@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_SetWindowSubclass.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Installs or updates a window subclass callback</source>
+<seg-source><mrk mid="0" mtype="seg">Installs or updates a window subclass callback</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Installs or updates a window subclass callback</mrk></target>
+<note>Function _WinAPI_SetWindowSubclass</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle of the window being subclassed.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle of the window being subclassed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle of the window being subclassed.</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">A pointer to a window procedure. This pointer and the subclass ID uniquely identify this subclass callback.</source>
+<seg-source><mrk mid="0" mtype="seg">A pointer to a window procedure.</mrk> <mrk mid="1" mtype="seg">This pointer and the subclass ID uniquely identify this subclass callback.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A pointer to a window procedure.</mrk> <mrk mid="1" mtype="seg">This pointer and the subclass ID uniquely identify this subclass callback.</mrk></target>
+<note>$pSubclassProc</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> (See MSDN for more information)</source>
+<seg-source> <mrk mid="0" mtype="seg">(See MSDN for more information)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">(See MSDN for more information)</mrk></target>
+<note>$pSubclassProc</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The subclass ID.</source>
+<seg-source><mrk mid="0" mtype="seg">The subclass ID.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The subclass ID.</mrk></target>
+<note>$idSubClass</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The reference data. This value is passed to the subclass procedure. The meaning of this value is determined by the calling application.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The reference data.</mrk> <mrk mid="2" mtype="seg">This value is passed to the subclass procedure.</mrk> <mrk mid="3" mtype="seg">The meaning of this value is determined by the calling application.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The reference data.</mrk> <mrk mid="2" mtype="seg">This value is passed to the subclass procedure.</mrk> <mrk mid="3" mtype="seg">The meaning of this value is determined by the calling application.</mrk></target>
+<note>$pData</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">False.</source>
+<seg-source><mrk mid="0" mtype="seg">False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Subclass callbacks are identified by the combination of the callback address and the caller-defined subclass ID.</source>
+<seg-source><mrk mid="0" mtype="seg">Subclass callbacks are identified by the combination of the callback address and the caller-defined subclass ID.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Subclass callbacks are identified by the combination of the callback address and the caller-defined subclass ID.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> If the callback address and ID pair have not yet been installed, then this function installs the subclass,</source>
+<seg-source> <mrk mid="0" mtype="seg">If the callback address and ID pair have not yet been installed, then this function installs the subclass,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the callback address and ID pair have not yet been installed, then this function installs the subclass,</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> otherwise, this function just updates the reference data.</source>
+<seg-source> <mrk mid="0" mtype="seg">otherwise, this function just updates the reference data.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">otherwise, this function just updates the reference data.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetWindowSubclass);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetWindowSubclass<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetWindowSubclass);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetWindowSubclass<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetWindowSubclass);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetWindowSubclass<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">OnAutoItExit</source>
+<seg-source><mrk mid="0" mtype="seg">OnAutoItExit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OnAutoItExit</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Register DLL callback that will be used as window subclass procedure</source>
+<seg-source><mrk mid="0" mtype="seg">Register DLL callback that will be used as window subclass procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Register DLL callback that will be used as window subclass procedure</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">_SubclassProc</source>
+<seg-source><mrk mid="0" mtype="seg">_SubclassProc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_SubclassProc</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">lresult</source>
+<seg-source><mrk mid="0" mtype="seg">lresult</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">lresult</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">hwnd;uint;wparam;lparam;uint_ptr;dword_ptr</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd;uint;wparam;lparam;uint_ptr;dword_ptr</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd;uint;wparam;lparam;uint_ptr;dword_ptr</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Install window subclass callback</source>
+<seg-source><mrk mid="0" mtype="seg">Install window subclass callback</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Install window subclass callback</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Declared in WMDebug.au3</source>
+<seg-source><mrk mid="0" mtype="seg">Declared in WMDebug.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Declared in WMDebug.au3</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

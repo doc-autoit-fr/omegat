@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_Excel_RangeValidate.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Adds data validation to the specified range</source>
+<seg-source><mrk mid="0" mtype="seg">Adds data validation to the specified range</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Adds data validation to the specified range</mrk></target>
+<note>Function _Excel_RangeValidate</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Excel workbook object</source>
+<seg-source><mrk mid="0" mtype="seg">Excel workbook object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel workbook object</mrk></target>
+<note>$oWorkbook</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Name, index or worksheet object. If set to keyword Default the active sheet will be used</source>
+<seg-source><mrk mid="0" mtype="seg">Name, index or worksheet object.</mrk> <mrk mid="1" mtype="seg">If set to keyword Default the active sheet will be used</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Name, index or worksheet object.</mrk> <mrk mid="1" mtype="seg">If set to keyword Default the active sheet will be used</mrk></target>
+<note>$vWorksheet</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">A range object, an A1 range or keyword Default to validate all cells in the specified worksheet</source>
+<seg-source><mrk mid="0" mtype="seg">A range object, an A1 range or keyword Default to validate all cells in the specified worksheet</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A range object, an A1 range or keyword Default to validate all cells in the specified worksheet</mrk></target>
+<note>$vRange</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The validation type. Can be any of the XlDVType enumeration</source>
+<seg-source><mrk mid="0" mtype="seg">The validation type.</mrk> <mrk mid="1" mtype="seg">Can be any of the XlDVType enumeration</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The validation type.</mrk> <mrk mid="1" mtype="seg">Can be any of the XlDVType enumeration</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">The first part of the data validation equation</source>
+<seg-source><mrk mid="0" mtype="seg">The first part of the data validation equation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The first part of the data validation equation</mrk></target>
+<note>$sFormula1</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The data validation operator. Can be any of the XlFormatConditionOperator enumeration (default = keyword Default)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The data validation operator.</mrk> <mrk mid="2" mtype="seg">Can be any of the XlFormatConditionOperator enumeration (default = keyword Default)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The data validation operator.</mrk> <mrk mid="2" mtype="seg">Can be any of the XlFormatConditionOperator enumeration (default = keyword Default)</mrk></target>
+<note>$iOperator</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The second part of the data validation when $iOperator is $xlBetween or $xlNotBetween. Otherwise it is ignored (default = keyword Default)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The second part of the data validation when $iOperator is $xlBetween or $xlNotBetween.</mrk> <mrk mid="2" mtype="seg">Otherwise it is ignored (default = keyword Default)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The second part of the data validation when $iOperator is $xlBetween or $xlNotBetween.</mrk> <mrk mid="2" mtype="seg">Otherwise it is ignored (default = keyword Default)</mrk></target>
+<note>$sFormula2</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If set to True, cell data is considered valid if the cell is blank (default = True)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If set to True, cell data is considered valid if the cell is blank (default = True)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If set to True, cell data is considered valid if the cell is blank (default = True)</mrk></target>
+<note>$bIgnoreBlank</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The validation alert style. Can be any of the XlDVAlertStyle enumeration (default = $xlValidAlertStop)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The validation alert style.</mrk> <mrk mid="2" mtype="seg">Can be any of the XlDVAlertStyle enumeration (default = $xlValidAlertStop)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The validation alert style.</mrk> <mrk mid="2" mtype="seg">Can be any of the XlDVAlertStyle enumeration (default = $xlValidAlertStop)</mrk></target>
+<note>$iAlertStyle</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Message to be displayed in a MsgBox when invalid data has been entered (default = keyword Default)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Message to be displayed in a MsgBox when invalid data has been entered (default = keyword Default)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Message to be displayed in a MsgBox when invalid data has been entered (default = keyword Default)</mrk></target>
+<note>$sErrorMessage</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Message to be displayed in a Tooltip when you begin to enter data (default = keyword Default)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Message to be displayed in a Tooltip when you begin to enter data (default = keyword Default)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Message to be displayed in a Tooltip when you begin to enter data (default = keyword Default)</mrk></target>
+<note>$sInputMessage</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">the range object.</source>
+<seg-source><mrk mid="0" mtype="seg">the range object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the range object.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">0 and sets @error.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets @error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets @error.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">1 - $oWorkbook is not an object or not a workbook object</source>
+<seg-source><mrk mid="0" mtype="seg">1 - $oWorkbook is not an object or not a workbook object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - $oWorkbook is not an object or not a workbook object</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> 2 - $vWorksheet name or index are invalid or $vWorksheet is not a worksheet object. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - $vWorksheet name or index are invalid or $vWorksheet is not a worksheet object.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - $vWorksheet name or index are invalid or $vWorksheet is not a worksheet object.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> 3 - $vRange is invalid. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - $vRange is invalid.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - $vRange is invalid.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> 4 - Error returned by the Add method. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">4 - Error returned by the Add method.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 - Error returned by the Add method.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Parameter $bDisplayAlerts for function _Excel_Open needs to be set to True to display $sErrorMessage.</source>
+<seg-source><mrk mid="0" mtype="seg">Parameter $bDisplayAlerts for function _Excel_Open needs to be set to True to display $sErrorMessage.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameter $bDisplayAlerts for function _Excel_Open needs to be set to True to display $sErrorMessage.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> If you want to validate against a list of values stored in another cell range ($iType = $xlValidateList) then</source>
+<seg-source> <mrk mid="0" mtype="seg">If you want to validate against a list of values stored in another cell range ($iType = $xlValidateList) then</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If you want to validate against a list of values stored in another cell range ($iType = $xlValidateList) then</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> $sFormula1 has to start with a "=" (e.g. "=C:C").</source>
+<seg-source> <mrk mid="0" mtype="seg">$sFormula1 has to start with a "=" (e.g.</mrk> <mrk mid="1" mtype="seg">"=C:C").</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$sFormula1 has to start with a "=" (e.g.</mrk> <mrk mid="1" mtype="seg">"=C:C").</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> Before adding a new validation rule to a range the function deletes existing validation rules of the range.</source>
+<seg-source> <mrk mid="0" mtype="seg">Before adding a new validation rule to a range the function deletes existing validation rules of the range.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Before adding a new validation rule to a range the function deletes existing validation rules of the range.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Create application object and open an example workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Excel UDF: _Excel_RangeValidate Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Error creating the Excel application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Excel UDF: _Excel_RangeValidate Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Error creating new workbook.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating new workbook.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating new workbook.</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Only values from a list are valid</source>
+<seg-source><mrk mid="0" mtype="seg">Only values from a list are valid</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Only values from a list are valid</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">A1:A10</source>
+<seg-source><mrk mid="0" mtype="seg">A1:A10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A1:A10</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Yes;No;Don't know</source>
+<seg-source><mrk mid="0" mtype="seg">Yes;No;Don't know</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes;No;Don't know</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Excel UDF: _Excel_RangeValidate Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Error setting range validation.</source>
+<seg-source><mrk mid="0" mtype="seg">Error setting range validation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error setting range validation.</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Excel UDF: _Excel_RangeValidate Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Validation against a list of values successfully set for range 'A1:A10'.</source>
+<seg-source><mrk mid="0" mtype="seg">Validation against a list of values successfully set for range 'A1:A10'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Validation against a list of values successfully set for range 'A1:A10'.</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Create application object and open an example workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Excel UDF: _Excel_RangeValidate Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Error creating the Excel application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Excel UDF: _Excel_RangeValidate Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Error creating new workbook.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating new workbook.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating new workbook.</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Only values from a list defined in a cell range (column 'D') are valid</source>
+<seg-source><mrk mid="0" mtype="seg">Only values from a list defined in a cell range (column 'D') are valid</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Only values from a list defined in a cell range (column 'D') are valid</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">Write values to a range</source>
+<seg-source><mrk mid="0" mtype="seg">Write values to a range</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write values to a range</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">D1</source>
+<seg-source><mrk mid="0" mtype="seg">D1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">D1</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">Only values from the range are valid</source>
+<seg-source><mrk mid="0" mtype="seg">Only values from the range are valid</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Only values from the range are valid</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">C:C</source>
+<seg-source><mrk mid="0" mtype="seg">C:C</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">C:C</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">=D:D</source>
+<seg-source><mrk mid="0" mtype="seg">=D:D</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">=D:D</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">Excel UDF: _Excel_RangeValidate Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">Error setting range validation.</source>
+<seg-source><mrk mid="0" mtype="seg">Error setting range validation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error setting range validation.</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">Excel UDF: _Excel_RangeValidate Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">Validation against a list of values in cell range '=D:D' successfully set for colum 'C'.</source>
+<seg-source><mrk mid="0" mtype="seg">Validation against a list of values in cell range '=D:D' successfully set for colum 'C'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Validation against a list of values in cell range '=D:D' successfully set for colum 'C'.</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">Create application object and open an example workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">Excel UDF: _Excel_RangeValidate Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">Error creating the Excel application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">Excel UDF: _Excel_RangeValidate Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">Error creating new workbook.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating new workbook.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating new workbook.</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">Only numeric values are valid</source>
+<seg-source><mrk mid="0" mtype="seg">Only numeric values are valid</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Only numeric values are valid</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en">B:B</source>
+<seg-source><mrk mid="0" mtype="seg">B:B</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">B:B</mrk></target>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">You entered a non numeric value!</source>
+<seg-source><mrk mid="0" mtype="seg">You entered a non numeric value!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You entered a non numeric value!</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">Only numeric values are valid.</source>
+<seg-source><mrk mid="0" mtype="seg">Only numeric values are valid.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Only numeric values are valid.</mrk></target>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en">Excel UDF: _Excel_RangeValidate Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">Error setting range validation.</source>
+<seg-source><mrk mid="0" mtype="seg">Error setting range validation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error setting range validation.</mrk></target>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en">Excel UDF: _Excel_RangeValidate Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="94">
+<source xml:lang="en">Only numeric values are valid in column 'B'.</source>
+<seg-source><mrk mid="0" mtype="seg">Only numeric values are valid in column 'B'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Only numeric values are valid in column 'B'.</mrk></target>
+</trans-unit>
+<trans-unit id="95">
+<source xml:lang="en">Example 4</source>
+<seg-source><mrk mid="0" mtype="seg">Example 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 4</mrk></target>
+</trans-unit>
+<trans-unit id="96">
+<source xml:lang="en">Create application object and open an example workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></target>
+</trans-unit>
+<trans-unit id="97">
+<source xml:lang="en">Excel UDF: _Excel_RangeValidate Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example</mrk></target>
+</trans-unit>
+<trans-unit id="98">
+<source xml:lang="en">Error creating the Excel application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></target>
+</trans-unit>
+<trans-unit id="99">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="100">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="101">
+<source xml:lang="en">Excel UDF: _Excel_RangeValidate Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example</mrk></target>
+</trans-unit>
+<trans-unit id="102">
+<source xml:lang="en">Error creating new workbook.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating new workbook.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating new workbook.</mrk></target>
+</trans-unit>
+<trans-unit id="103">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="104">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="105">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="106">
+<source xml:lang="en">Custom validation. Sum of all cells in column 'E' has to be &lt; 100</source>
+<seg-source><mrk mid="0" mtype="seg">Custom validation.</mrk> <mrk mid="1" mtype="seg">Sum of all cells in column 'E' has to be &lt; 100</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Custom validation.</mrk> <mrk mid="1" mtype="seg">Sum of all cells in column 'E' has to be &lt; 100</mrk></target>
+</trans-unit>
+<trans-unit id="107">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="108">
+<source xml:lang="en">E:E</source>
+<seg-source><mrk mid="0" mtype="seg">E:E</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">E:E</mrk></target>
+</trans-unit>
+<trans-unit id="109">
+<source xml:lang="en">=SUMME(E:E)&lt;=100</source>
+<seg-source><mrk mid="0" mtype="seg">=SUMME(E:E)&lt;=100</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">=SUMME(E:E)&lt;=100</mrk></target>
+</trans-unit>
+<trans-unit id="110">
+<source xml:lang="en">Sum of all cells in column 'E' > 100.</source>
+<seg-source><mrk mid="0" mtype="seg">Sum of all cells in column 'E' > 100.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sum of all cells in column 'E' > 100.</mrk></target>
+</trans-unit>
+<trans-unit id="111">
+<source xml:lang="en">Excel UDF: _Excel_RangeValidate Example 4</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example 4</mrk></target>
+</trans-unit>
+<trans-unit id="112">
+<source xml:lang="en">Error setting range validation.</source>
+<seg-source><mrk mid="0" mtype="seg">Error setting range validation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error setting range validation.</mrk></target>
+</trans-unit>
+<trans-unit id="113">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="114">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="115">
+<source xml:lang="en">Excel UDF: _Excel_RangeValidate Example 4</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeValidate Example 4</mrk></target>
+</trans-unit>
+<trans-unit id="116">
+<source xml:lang="en">Sum of all cells in column 'E' has to be &lt; 100.</source>
+<seg-source><mrk mid="0" mtype="seg">Sum of all cells in column 'E' has to be &lt; 100.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sum of all cells in column 'E' has to be &lt; 100.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

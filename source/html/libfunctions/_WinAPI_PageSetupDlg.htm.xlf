@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_PageSetupDlg.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a Page Setup dialog box that enables the user to specify the attributes of a printed page</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a Page Setup dialog box that enables the user to specify the attributes of a printed page</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a Page Setup dialog box that enables the user to specify the attributes of a printed page</mrk></target>
+<note>Function _WinAPI_PageSetupDlg</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">$tagPAGESETUPDLG structure that contains information used to initialize the Page Setup dialog box.</source>
+<seg-source><mrk mid="0" mtype="seg">$tagPAGESETUPDLG structure that contains information used to initialize the Page Setup dialog box.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$tagPAGESETUPDLG structure that contains information used to initialize the Page Setup dialog box.</mrk></target>
+<note>$tPAGESETUPDLG</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> The structure receives information about the user's selections when the function returns,</source>
+<seg-source> <mrk mid="0" mtype="seg">The structure receives information about the user's selections when the function returns,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The structure receives information about the user's selections when the function returns,</mrk></target>
+<note>$tPAGESETUPDLG</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> and must be initialized before function call.</source>
+<seg-source> <mrk mid="0" mtype="seg">and must be initialized before function call.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">and must be initialized before function call.</mrk></target>
+<note>$tPAGESETUPDLG</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> (See MSDN for more information)</source>
+<seg-source> <mrk mid="0" mtype="seg">(See MSDN for more information)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">(See MSDN for more information)</mrk></target>
+<note>$tPAGESETUPDLG</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">False and sets the @error flag to non-zero, @extended flag may contain the dialog box error code.</source>
+<seg-source><mrk mid="0" mtype="seg">False and sets the @error flag to non-zero, @extended flag may contain the dialog box error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False and sets the @error flag to non-zero, @extended flag may contain the dialog box error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Note that the values of "hDevMode" and "hDevNames" member in $tagPAGESETUPDLG may change when they are passed into</source>
+<seg-source><mrk mid="0" mtype="seg">Note that the values of "hDevMode" and "hDevNames" member in $tagPAGESETUPDLG may change when they are passed into</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Note that the values of "hDevMode" and "hDevNames" member in $tagPAGESETUPDLG may change when they are passed into</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_PageSetupDlg.htm"></bpt>_WinAPI_PageSetupDlg()<ept id="1">&lt;/a></ept>. This is because these members are filled on both input and output.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_PageSetupDlg.htm"></bpt>_WinAPI_PageSetupDlg()<ept id="1">&lt;/a></ept>.</mrk> <mrk mid="1" mtype="seg">This is because these members are filled on both input and output.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_PageSetupDlg.htm"></bpt>_WinAPI_PageSetupDlg()<ept id="1">&lt;/a></ept>.</mrk> <mrk mid="1" mtype="seg">This is because these members are filled on both input and output.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> Starting with Windows Vista, the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_PageSetupDlg.htm"></bpt>_WinAPI_PageSetupDlg()<ept id="1">&lt;/a></ept> does not contain the "Printer" button. To switch printer</source>
+<seg-source> <mrk mid="0" mtype="seg">Starting with Windows Vista, the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_PageSetupDlg.htm"></bpt>_WinAPI_PageSetupDlg()<ept id="1">&lt;/a></ept> does not contain the "Printer" button.</mrk> <mrk mid="1" mtype="seg">To switch printer</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Starting with Windows Vista, the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_PageSetupDlg.htm"></bpt>_WinAPI_PageSetupDlg()<ept id="1">&lt;/a></ept> does not contain the "Printer" button.</mrk> <mrk mid="1" mtype="seg">To switch printer</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> selection, use <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_PrintDlg.htm"></bpt>_WinAPI_PrintDlg()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_PrintDlgEx.htm"></bpt>_WinAPI_PrintDlgEx()<ept id="2">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">selection, use <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_PrintDlg.htm"></bpt>_WinAPI_PrintDlg()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_PrintDlgEx.htm"></bpt>_WinAPI_PrintDlgEx()<ept id="2">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">selection, use <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_PrintDlg.htm"></bpt>_WinAPI_PrintDlg()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_PrintDlgEx.htm"></bpt>_WinAPI_PrintDlgEx()<ept id="2">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(PageSetupDlg);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>PageSetupDlg<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(PageSetupDlg);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>PageSetupDlg<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(PageSetupDlg);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>PageSetupDlg<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Create PAGESETUPDLG structure and set initial margin values for 10.00 mm at all</source>
+<seg-source><mrk mid="0" mtype="seg">Create PAGESETUPDLG structure and set initial margin values for 10.00 mm at all</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create PAGESETUPDLG structure and set initial margin values for 10.00 mm at all</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Size</source>
+<seg-source><mrk mid="0" mtype="seg">Size</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Size</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Flags</source>
+<seg-source><mrk mid="0" mtype="seg">Flags</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Flags</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">MarginLeft</source>
+<seg-source><mrk mid="0" mtype="seg">MarginLeft</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MarginLeft</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">MarginTop</source>
+<seg-source><mrk mid="0" mtype="seg">MarginTop</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MarginTop</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">MarginRight</source>
+<seg-source><mrk mid="0" mtype="seg">MarginRight</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MarginRight</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">MarginBottom</source>
+<seg-source><mrk mid="0" mtype="seg">MarginBottom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MarginBottom</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Create Page Setup dialog box</source>
+<seg-source><mrk mid="0" mtype="seg">Create Page Setup dialog box</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create Page Setup dialog box</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Show results</source>
+<seg-source><mrk mid="0" mtype="seg">Show results</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show results</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Paper width:</source>
+<seg-source><mrk mid="0" mtype="seg">Paper width:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Paper width:</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">PaperWidth</source>
+<seg-source><mrk mid="0" mtype="seg">PaperWidth</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">PaperWidth</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">mm</source>
+<seg-source><mrk mid="0" mtype="seg">mm</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mm</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Paper height:</source>
+<seg-source><mrk mid="0" mtype="seg">Paper height:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Paper height:</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">PaperHeight</source>
+<seg-source><mrk mid="0" mtype="seg">PaperHeight</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">PaperHeight</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">mm</source>
+<seg-source><mrk mid="0" mtype="seg">mm</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mm</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Margin left:</source>
+<seg-source><mrk mid="0" mtype="seg">Margin left:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Margin left:</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">MarginLeft</source>
+<seg-source><mrk mid="0" mtype="seg">MarginLeft</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MarginLeft</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">mm</source>
+<seg-source><mrk mid="0" mtype="seg">mm</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mm</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Margin top:</source>
+<seg-source><mrk mid="0" mtype="seg">Margin top:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Margin top:</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">MarginTop</source>
+<seg-source><mrk mid="0" mtype="seg">MarginTop</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MarginTop</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">mm</source>
+<seg-source><mrk mid="0" mtype="seg">mm</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mm</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Margin right:</source>
+<seg-source><mrk mid="0" mtype="seg">Margin right:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Margin right:</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">MarginRight</source>
+<seg-source><mrk mid="0" mtype="seg">MarginRight</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MarginRight</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">mm</source>
+<seg-source><mrk mid="0" mtype="seg">mm</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mm</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Margin bottom:</source>
+<seg-source><mrk mid="0" mtype="seg">Margin bottom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Margin bottom:</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">MarginBottom</source>
+<seg-source><mrk mid="0" mtype="seg">MarginBottom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MarginBottom</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">mm</source>
+<seg-source><mrk mid="0" mtype="seg">mm</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mm</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Free global memory objects that contains a DEVMODE and DEVNAMES structures</source>
+<seg-source><mrk mid="0" mtype="seg">Free global memory objects that contains a DEVMODE and DEVNAMES structures</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Free global memory objects that contains a DEVMODE and DEVNAMES structures</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">hDevMode</source>
+<seg-source><mrk mid="0" mtype="seg">hDevMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hDevMode</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">hDevNames</source>
+<seg-source><mrk mid="0" mtype="seg">hDevNames</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hDevNames</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_WinAPI_LoadStringEx.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Loads a string resource for the specified language from the specified module</source>
+<seg-source><mrk mid="0" mtype="seg">Loads a string resource for the specified language from the specified module</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loads a string resource for the specified language from the specified module</mrk></target>
+<note>Function _WinAPI_LoadStringEx</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">A handle to an instance of the module whose executable file contains the string resource.</source>
+<seg-source><mrk mid="0" mtype="seg">A handle to an instance of the module whose executable file contains the string resource.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A handle to an instance of the module whose executable file contains the string resource.</mrk></target>
+<note>$hModule</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> Also, this parameter can specify the name of the module to load, it must be a full or relative path.</source>
+<seg-source> <mrk mid="0" mtype="seg">Also, this parameter can specify the name of the module to load, it must be a full or relative path.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Also, this parameter can specify the name of the module to load, it must be a full or relative path.</mrk></target>
+<note>$hModule</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> If this parameter is 0 or an empty string, that is equivalent to passing in a handle to the module</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is 0 or an empty string, that is equivalent to passing in a handle to the module</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is 0 or an empty string, that is equivalent to passing in a handle to the module</mrk></target>
+<note>$hModule</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> used to create the current process.</source>
+<seg-source> <mrk mid="0" mtype="seg">used to create the current process.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">used to create the current process.</mrk></target>
+<note>$hModule</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">The identifier of the string to be loaded.</source>
+<seg-source><mrk mid="0" mtype="seg">The identifier of the string to be loaded.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The identifier of the string to be loaded.</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The language identifier of the string resource of interest. To retrieve string for user default</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The language identifier of the string resource of interest.</mrk> <mrk mid="2" mtype="seg">To retrieve string for user default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The language identifier of the string resource of interest.</mrk> <mrk mid="2" mtype="seg">To retrieve string for user default</mrk></target>
+<note>$iLanguage</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> language set this parameter to $LOCALE_USER_DEFAULT (Default).</source>
+<seg-source> <mrk mid="0" mtype="seg">language set this parameter to $LOCALE_USER_DEFAULT (Default).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">language set this parameter to $LOCALE_USER_DEFAULT (Default).</mrk></target>
+<note>$iLanguage</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">The string.</source>
+<seg-source><mrk mid="0" mtype="seg">The string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The string.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Empty string and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">Empty string and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Empty string and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">\Extras\Resources.dll</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\Resources.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\Resources.dll</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">\Extras\Resources.dll not found.</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\Resources.dll not found.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\Resources.dll not found.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Why is the resource name for the string with ID = 6000 is 376? 6000 / 16 + 1 = 376</source>
+<seg-source><mrk mid="0" mtype="seg">Why is the resource name for the string with ID = 6000 is 376?</mrk> <mrk mid="1" mtype="seg">6000 / 16 + 1 = 376</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Why is the resource name for the string with ID = 6000 is 376?</mrk> <mrk mid="1" mtype="seg">6000 / 16 + 1 = 376</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">%-10s - %s</source>
+<seg-source><mrk mid="0" mtype="seg">%-10s - %s</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%-10s - %s</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

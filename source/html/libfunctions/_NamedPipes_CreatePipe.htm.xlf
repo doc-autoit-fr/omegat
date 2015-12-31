@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_NamedPipes_CreatePipe.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates an anonymous pipe</source>
+<seg-source><mrk mid="0" mtype="seg">Creates an anonymous pipe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates an anonymous pipe</mrk></target>
+<note>Function _NamedPipes_CreatePipe</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Variable that receives the read handle for the pipe</source>
+<seg-source><mrk mid="0" mtype="seg">Variable that receives the read handle for the pipe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Variable that receives the read handle for the pipe</mrk></target>
+<note>$hReadPipe</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Variable that receives the write handle for the pipe</source>
+<seg-source><mrk mid="0" mtype="seg">Variable that receives the write handle for the pipe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Variable that receives the write handle for the pipe</mrk></target>
+<note>$hWritePipe</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> $tagSECURITY_ATTRIBUTES structure that determines if the returned handle can be inherited by child processes.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">$tagSECURITY_ATTRIBUTES structure that determines if the returned handle can be inherited by child processes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">$tagSECURITY_ATTRIBUTES structure that determines if the returned handle can be inherited by child processes.</mrk></target>
+<note>$tSecurity</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> If 0, the handles cannot be inherited.</source>
+<seg-source> <mrk mid="0" mtype="seg">If 0, the handles cannot be inherited.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If 0, the handles cannot be inherited.</mrk></target>
+<note>$tSecurity</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The size of the buffer for the pipe, in bytes.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The size of the buffer for the pipe, in bytes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The size of the buffer for the pipe, in bytes.</mrk></target>
+<note>$iSize</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> If 0, the system uses the default buffer size.</source>
+<seg-source> <mrk mid="0" mtype="seg">If 0, the system uses the default buffer size.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If 0, the system uses the default buffer size.</mrk></target>
+<note>$iSize</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">False.</source>
+<seg-source><mrk mid="0" mtype="seg">False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="$tagSECURITY_ATTRIBUTES.htm"></bpt>$tagSECURITY_ATTRIBUTES<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_NamedPipes_CreateNamedPipe.htm"></bpt>_NamedPipes_CreateNamedPipe<ept id="2">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagSECURITY_ATTRIBUTES.htm"></bpt>$tagSECURITY_ATTRIBUTES<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_NamedPipes_CreateNamedPipe.htm"></bpt>_NamedPipes_CreateNamedPipe<ept id="2">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagSECURITY_ATTRIBUTES.htm"></bpt>$tagSECURITY_ATTRIBUTES<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_NamedPipes_CreateNamedPipe.htm"></bpt>_NamedPipes_CreateNamedPipe<ept id="2">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreatePipe);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreatePipe<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreatePipe);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreatePipe<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreatePipe);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreatePipe<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

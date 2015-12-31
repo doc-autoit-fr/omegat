@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GUICtrlTreeView_HitTestEx.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Returns information about the location of a point relative to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Returns information about the location of a point relative to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns information about the location of a point relative to the control</mrk></target>
+<note>Function _GUICtrlTreeView_HitTestEx</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Control ID/Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">X position to test</source>
+<seg-source><mrk mid="0" mtype="seg">X position to test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X position to test</mrk></target>
+<note>$iX</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Y position to test</source>
+<seg-source><mrk mid="0" mtype="seg">Y position to test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y position to test</mrk></target>
+<note>$iY</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Returns a $tagTVHITTESTINFO structure.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns a $tagTVHITTESTINFO structure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns a $tagTVHITTESTINFO structure.</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="$tagTVHITTESTINFO.htm"></bpt>$tagTVHITTESTINFO<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_GUICtrlTreeView_HitTest.htm"></bpt>_GUICtrlTreeView_HitTest<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="_GUICtrlTreeView_HitTestItem.htm"></bpt>_GUICtrlTreeView_HitTestItem<ept id="3">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagTVHITTESTINFO.htm"></bpt>$tagTVHITTESTINFO<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_GUICtrlTreeView_HitTest.htm"></bpt>_GUICtrlTreeView_HitTest<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="_GUICtrlTreeView_HitTestItem.htm"></bpt>_GUICtrlTreeView_HitTestItem<ept id="3">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagTVHITTESTINFO.htm"></bpt>$tagTVHITTESTINFO<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_GUICtrlTreeView_HitTest.htm"></bpt>_GUICtrlTreeView_HitTest<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="_GUICtrlTreeView_HitTestItem.htm"></bpt>_GUICtrlTreeView_HitTestItem<ept id="3">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">TreeView Hit TestEx</source>
+<seg-source><mrk mid="0" mtype="seg">TreeView Hit TestEx</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TreeView Hit TestEx</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">[%02d] New Item</source>
+<seg-source><mrk mid="0" mtype="seg">[%02d] New Item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[%02d] New Item</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">[%02d] New Child</source>
+<seg-source><mrk mid="0" mtype="seg">[%02d] New Child</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[%02d] New Child</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Information</source>
+<seg-source><mrk mid="0" mtype="seg">Information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Information</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Hit TestEx (%d, %d): %s</source>
+<seg-source><mrk mid="0" mtype="seg">Hit TestEx (%d, %d):</mrk> <mrk mid="1" mtype="seg">%s</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hit TestEx (%d, %d):</mrk> <mrk mid="1" mtype="seg">%s</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Flags</source>
+<seg-source><mrk mid="0" mtype="seg">Flags</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Flags</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">In the client area, but below the last item</source>
+<seg-source><mrk mid="0" mtype="seg">In the client area, but below the last item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In the client area, but below the last item</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">On the bitmap associated with an item</source>
+<seg-source><mrk mid="0" mtype="seg">On the bitmap associated with an item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">On the bitmap associated with an item</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">On the text associated with an item</source>
+<seg-source><mrk mid="0" mtype="seg">On the text associated with an item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">On the text associated with an item</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">In the indentation associated with an item</source>
+<seg-source><mrk mid="0" mtype="seg">In the indentation associated with an item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In the indentation associated with an item</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">On the button associated with an item</source>
+<seg-source><mrk mid="0" mtype="seg">On the button associated with an item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">On the button associated with an item</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">In the area to the right of an item</source>
+<seg-source><mrk mid="0" mtype="seg">In the area to the right of an item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In the area to the right of an item</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">On the state icon for a item that is in a user-defined state</source>
+<seg-source><mrk mid="0" mtype="seg">On the state icon for a item that is in a user-defined state</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">On the state icon for a item that is in a user-defined state</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Above the client area</source>
+<seg-source><mrk mid="0" mtype="seg">Above the client area</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Above the client area</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Below the client area</source>
+<seg-source><mrk mid="0" mtype="seg">Below the client area</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Below the client area</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">To the left of the client area</source>
+<seg-source><mrk mid="0" mtype="seg">To the left of the client area</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To the left of the client area</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">To the right of the client area</source>
+<seg-source><mrk mid="0" mtype="seg">To the right of the client area</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To the right of the client area</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

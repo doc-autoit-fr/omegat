@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/libfunctions/_GDIPlus_PaletteInitialize.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Initializes a standard, optimal, or custom color palette</source>
+<seg-source><mrk mid="0" mtype="seg">Initializes a standard, optimal, or custom color palette</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Initializes a standard, optimal, or custom color palette</mrk></target>
+<note>Function _GDIPlus_PaletteInitialize</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Number of Entries.</source>
+<seg-source><mrk mid="0" mtype="seg">Number of Entries.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Number of Entries.</mrk></target>
+<note>$iEntries</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> PaletteType constant that specifies the palette type ($GDIP_PaletteType*).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">PaletteType constant that specifies the palette type ($GDIP_PaletteType*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">PaletteType constant that specifies the palette type ($GDIP_PaletteType*).</mrk></target>
+<note>$iPaletteType</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Integer that specifies the number of colors you want to have in an optimal palette based on a specified bitmap.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Integer that specifies the number of colors you want to have in an optimal palette based on a specified bitmap.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Integer that specifies the number of colors you want to have in an optimal palette based on a specified bitmap.</mrk></target>
+<note>$iOptimalColors</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> If this parameter is greater than 0, the palettetype parameter must be set to PaletteTypeOptimal and the bitmap parameter must point to a Bitmap object.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is greater than 0, the palettetype parameter must be set to PaletteTypeOptimal and the bitmap parameter must point to a Bitmap object.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is greater than 0, the palettetype parameter must be set to PaletteTypeOptimal and the bitmap parameter must point to a Bitmap object.</mrk></target>
+<note>$iOptimalColors</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Boolean value that specifies whether to include the transparent color in the palette.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Boolean value that specifies whether to include the transparent color in the palette.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Boolean value that specifies whether to include the transparent color in the palette.</mrk></target>
+<note>$bUseTransparentColor</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> Set to TRUE to include the transparent color; otherwise FALSE.</source>
+<seg-source> <mrk mid="0" mtype="seg">Set to TRUE to include the transparent color; otherwise FALSE.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Set to TRUE to include the transparent color; otherwise FALSE.</mrk></target>
+<note>$bUseTransparentColor</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Handle of a Bitmap object for which an optimal palette will be created.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Handle of a Bitmap object for which an optimal palette will be created.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Handle of a Bitmap object for which an optimal palette will be created.</mrk></target>
+<note>$hBitmap</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">a DllStruct Palette:</source>
+<seg-source><mrk mid="0" mtype="seg">a DllStruct Palette:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a DllStruct Palette:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> Flags - $iPaletteFlags</source>
+<seg-source> <mrk mid="0" mtype="seg">Flags - $iPaletteFlags</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Flags - $iPaletteFlags</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> Count - $iEntries</source>
+<seg-source> <mrk mid="0" mtype="seg">Count - $iEntries</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Count - $iEntries</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> ARGB - UINT Array of ARGB colors</source>
+<seg-source> <mrk mid="0" mtype="seg">ARGB - UINT Array of ARGB colors</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">ARGB - UINT Array of ARGB colors</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">-1 - GDIPlus.dll does not support this function.</source>
+<seg-source><mrk mid="0" mtype="seg">-1 - GDIPlus.dll does not support this function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1 - GDIPlus.dll does not support this function.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> 10 - Invalid parameters.</source>
+<seg-source> <mrk mid="0" mtype="seg">10 - Invalid parameters.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">10 - Invalid parameters.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipInitializePalette"></bpt>GdipInitializePalette<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipInitializePalette"></bpt>GdipInitializePalette<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipInitializePalette"></bpt>GdipInitializePalette<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">ERROR</source>
+<seg-source><mrk mid="0" mtype="seg">ERROR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ERROR</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">GDIPlus.dll v1.1 not available</source>
+<seg-source><mrk mid="0" mtype="seg">GDIPlus.dll v1.1 not available</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GDIPlus.dll v1.1 not available</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Select an image</source>
+<seg-source><mrk mid="0" mtype="seg">Select an image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Select an image</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Images (*.bmp;*.png;*.jpg;*.gif;*.tif)</source>
+<seg-source><mrk mid="0" mtype="seg">Images (*.bmp;*.png;*.jpg;*.gif;*.tif)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Images (*.bmp;*.png;*.jpg;*.gif;*.tif)</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">GDI+ v1.1 (</source>
+<seg-source><mrk mid="0" mtype="seg">GDI+ v1.1 (</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GDI+ v1.1 (</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">)</source>
+<seg-source><mrk mid="0" mtype="seg">)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">)</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Convert to a 16-color bitmap (4 bits per pixel) using FixedHalftone27 dithering</source>
+<seg-source><mrk mid="0" mtype="seg">Convert to a 16-color bitmap (4 bits per pixel) using FixedHalftone27 dithering</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Convert to a 16-color bitmap (4 bits per pixel) using FixedHalftone27 dithering</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

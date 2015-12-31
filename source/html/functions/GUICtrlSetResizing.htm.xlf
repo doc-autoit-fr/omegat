@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="html/functions/GUICtrlSetResizing.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Defines the resizing method used by a control.</source>
+<seg-source><mrk mid="0" mtype="seg">Defines the resizing method used by a control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Defines the resizing method used by a control.</mrk></target>
+<note>Function GUICtrlSetResizing</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> The control identifier (controlID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...()<ept id="1">&lt;/a></ept> function, or -1 for the last created control. </source>
+<seg-source> <mrk mid="0" mtype="seg">The control identifier (controlID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...()<ept id="1">&lt;/a></ept> function, or -1 for the last created control.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The control identifier (controlID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...()<ept id="1">&lt;/a></ept> function, or -1 for the last created control.</mrk> </target>
+<note>controlID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> See the <bpt id="1" ctype="x-a">&lt;a href="#DockingValues"></bpt>Docking Values table<ept id="1">&lt;/a></ept> below for values that can be used (add together multiple values if required). </source>
+<seg-source> <mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-a">&lt;a href="#DockingValues"></bpt>Docking Values table<ept id="1">&lt;/a></ept> below for values that can be used (add together multiple values if required).</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-a">&lt;a href="#DockingValues"></bpt>Docking Values table<ept id="1">&lt;/a></ept> below for values that can be used (add together multiple values if required).</mrk> </target>
+<note>resizing</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">When a GUI window is resized the controls within react - how they react is determined by this function. To be able to resize a GUI window it needs to have been created with the $WS_SIZEBOX and $WS_SYSMENU styles. See <bpt id="1" ctype="x-a">&lt;a href="GUICreate.htm"></bpt>GUICreate()<ept id="1">&lt;/a></ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">When a GUI window is resized the controls within react - how they react is determined by this function.</mrk> <mrk mid="1" mtype="seg">To be able to resize a GUI window it needs to have been created with the $WS_SIZEBOX and $WS_SYSMENU styles.</mrk> <mrk mid="2" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="GUICreate.htm"></bpt>GUICreate()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When a GUI window is resized the controls within react - how they react is determined by this function.</mrk> <mrk mid="1" mtype="seg">To be able to resize a GUI window it needs to have been created with the $WS_SIZEBOX and $WS_SYSMENU styles.</mrk> <mrk mid="2" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="GUICreate.htm"></bpt>GUICreate()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     <ph id="1" ctype="x-a">&lt;a id="DockingValues"></ph><bpt id="2" ctype="x-strong">&lt;strong></bpt>Docking Values Table<ept id="2">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg">    <ph id="1" ctype="x-a">&lt;a id="DockingValues"></ph><bpt id="2" ctype="x-strong">&lt;strong></bpt>Docking Values Table<ept id="2">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    <ph id="1" ctype="x-a">&lt;a id="DockingValues"></ph><bpt id="2" ctype="x-strong">&lt;strong></bpt>Docking Values Table<ept id="2">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Resizing<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Resizing<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Resizing<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Value<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Value<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Value<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>No displacement of<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>No displacement of<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>No displacement of<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">$GUI_DOCKAUTO</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_DOCKAUTO</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_DOCKAUTO</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+<note>$GUI_DOCKAUTO</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">resize and reposition according to new window size</source>
+<seg-source><mrk mid="0" mtype="seg">resize and reposition according to new window size</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">resize and reposition according to new window size</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">$GUI_DOCKLEFT</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_DOCKLEFT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_DOCKLEFT</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">2</source>
+<seg-source><mrk mid="0" mtype="seg">2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2</mrk></target>
+<note>$GUI_DOCKLEFT</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Left side</source>
+<seg-source><mrk mid="0" mtype="seg">Left side</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Left side</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">$GUI_DOCKRIGHT</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_DOCKRIGHT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_DOCKRIGHT</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">4</source>
+<seg-source><mrk mid="0" mtype="seg">4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">4</mrk></target>
+<note>$GUI_DOCKRIGHT</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Right side</source>
+<seg-source><mrk mid="0" mtype="seg">Right side</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Right side</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">$GUI_DOCKHCENTER</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_DOCKHCENTER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_DOCKHCENTER</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">8</source>
+<seg-source><mrk mid="0" mtype="seg">8</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">8</mrk></target>
+<note>$GUI_DOCKHCENTER</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Position will not move relative to horizontal center</source>
+<seg-source><mrk mid="0" mtype="seg">Position will not move relative to horizontal center</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Position will not move relative to horizontal center</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">$GUI_DOCKTOP</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_DOCKTOP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_DOCKTOP</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">32</source>
+<seg-source><mrk mid="0" mtype="seg">32</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">32</mrk></target>
+<note>$GUI_DOCKTOP</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Top side</source>
+<seg-source><mrk mid="0" mtype="seg">Top side</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Top side</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">$GUI_DOCKBOTTOM</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_DOCKBOTTOM</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_DOCKBOTTOM</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">64</source>
+<seg-source><mrk mid="0" mtype="seg">64</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">64</mrk></target>
+<note>$GUI_DOCKBOTTOM</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Bottom side</source>
+<seg-source><mrk mid="0" mtype="seg">Bottom side</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bottom side</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">$GUI_DOCKVCENTER</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_DOCKVCENTER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_DOCKVCENTER</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">128</source>
+<seg-source><mrk mid="0" mtype="seg">128</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">128</mrk></target>
+<note>$GUI_DOCKVCENTER</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Position will not move relative to vertical center</source>
+<seg-source><mrk mid="0" mtype="seg">Position will not move relative to vertical center</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Position will not move relative to vertical center</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">$GUI_DOCKWIDTH</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_DOCKWIDTH</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_DOCKWIDTH</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">256</source>
+<seg-source><mrk mid="0" mtype="seg">256</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">256</mrk></target>
+<note>$GUI_DOCKWIDTH</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Width will not change</source>
+<seg-source><mrk mid="0" mtype="seg">Width will not change</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Width will not change</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">$GUI_DOCKHEIGHT</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_DOCKHEIGHT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_DOCKHEIGHT</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">512</source>
+<seg-source><mrk mid="0" mtype="seg">512</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">512</mrk></target>
+<note>$GUI_DOCKHEIGHT</note>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Height will not change</source>
+<seg-source><mrk mid="0" mtype="seg">Height will not change</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Height will not change</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Composite resizing</source>
+<seg-source><mrk mid="0" mtype="seg">Composite resizing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Composite resizing</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">$GUI_DOCKSIZE</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_DOCKSIZE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_DOCKSIZE</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">768</source>
+<seg-source><mrk mid="0" mtype="seg">768</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">768</mrk></target>
+<note>$GUI_DOCKSIZE</note>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">(256+512) Size will not change</source>
+<seg-source><mrk mid="0" mtype="seg">(256+512) Size will not change</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(256+512) Size will not change</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">$GUI_DOCKMENUBAR</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_DOCKMENUBAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_DOCKMENUBAR</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">544</source>
+<seg-source><mrk mid="0" mtype="seg">544</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">544</mrk></target>
+<note>$GUI_DOCKMENUBAR</note>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">(512+32) so the control will stay at the top of window with no change in Height</source>
+<seg-source><mrk mid="0" mtype="seg">(512+32) so the control will stay at the top of window with no change in Height</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(512+32) so the control will stay at the top of window with no change in Height</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">$GUI_DOCKSTATEBAR</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_DOCKSTATEBAR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_DOCKSTATEBAR</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">576</source>
+<seg-source><mrk mid="0" mtype="seg">576</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">576</mrk></target>
+<note>$GUI_DOCKSTATEBAR</note>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">(512+64) so the control stay at the bottom of the window with no change in Height</source>
+<seg-source><mrk mid="0" mtype="seg">(512+64) so the control stay at the bottom of the window with no change in Height</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(512+64) so the control stay at the bottom of the window with no change in Height</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">$GUI_DOCKALL</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_DOCKALL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_DOCKALL</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">802</source>
+<seg-source><mrk mid="0" mtype="seg">802</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">802</mrk></target>
+<note>$GUI_DOCKALL</note>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">(2+32+256+512) so the control will not move during resizing</source>
+<seg-source><mrk mid="0" mtype="seg">(2+32+256+512) so the control will not move during resizing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(2+32+256+512) so the control will not move during resizing</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">$GUI_DOCKBORDERS</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_DOCKBORDERS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_DOCKBORDERS</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">102</source>
+<seg-source><mrk mid="0" mtype="seg">102</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">102</mrk></target>
+<note>$GUI_DOCKBORDERS</note>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">(2+4+32+64) so the control will grow as the window</source>
+<seg-source><mrk mid="0" mtype="seg">(2+4+32+64) so the control will grow as the window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(2+4+32+64) so the control will grow as the window</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en"> The default resizing for a given control is control dependent see the control doc.</source>
+<seg-source> <mrk mid="0" mtype="seg">The default resizing for a given control is control dependent see the control doc.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The default resizing for a given control is control dependent see the control doc.</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en"> A default value for any control can be set with GUIResizeMode (Option).</source>
+<seg-source> <mrk mid="0" mtype="seg">A default value for any control can be set with GUIResizeMode (Option).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">A default value for any control can be set with GUIResizeMode (Option).</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en"> The automatic resizing event can be disabled if GUIEventOptions (Option) is set to 1.</source>
+<seg-source> <mrk mid="0" mtype="seg">The automatic resizing event can be disabled if GUIEventOptions (Option) is set to 1.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The automatic resizing event can be disabled if GUIEventOptions (Option) is set to 1.</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...<ept id="1">&lt;/a></ept>, <bpt id="1" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIEventOptions"></bpt>GUIEventOptions (Option)<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIResizeMode"></bpt>GUIResizeMode (Option)<ept id="2">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...<ept id="1">&lt;/a></ept>,</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIEventOptions"></bpt>GUIEventOptions (Option)<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIResizeMode"></bpt>GUIResizeMode (Option)<ept id="2">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...<ept id="1">&lt;/a></ept>,</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIEventOptions"></bpt>GUIEventOptions (Option)<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIResizeMode"></bpt>GUIResizeMode (Option)<ept id="2">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">GUICoordMode</source>
+<seg-source><mrk mid="0" mtype="seg">GUICoordMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUICoordMode</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">My InputBox</source>
+<seg-source><mrk mid="0" mtype="seg">My InputBox</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">My InputBox</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">start the definition</source>
+<seg-source><mrk mid="0" mtype="seg">start the definition</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">start the definition</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">Arial</source>
+<seg-source><mrk mid="0" mtype="seg">Arial</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Arial</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">Prompt</source>
+<seg-source><mrk mid="0" mtype="seg">Prompt</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Prompt</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">add prompt info</source>
+<seg-source><mrk mid="0" mtype="seg">add prompt info</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">add prompt info</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">Default</source>
+<seg-source><mrk mid="0" mtype="seg">Default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">add the input area</source>
+<seg-source><mrk mid="0" mtype="seg">add the input area</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">add the input area</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">OK</source>
+<seg-source><mrk mid="0" mtype="seg">OK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OK</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">add the button that will close the GUI</source>
+<seg-source><mrk mid="0" mtype="seg">add the button that will close the GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">add the button that will close the GUI</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">Annuler</source>
+<seg-source><mrk mid="0" mtype="seg">Annuler</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Annuler</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">add the button that will close the GUI</source>
+<seg-source><mrk mid="0" mtype="seg">add the button that will close the GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">add the button that will close the GUI</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">to display the GUI</source>
+<seg-source><mrk mid="0" mtype="seg">to display the GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">to display the GUI</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>
