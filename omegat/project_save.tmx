@@ -4044,6 +4044,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>10 - Destroying key failed</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160108T205916Z" creationid="orax" creationdate="20160108T205916Z">
+        <seg>10 - La déstruction de la clé a échoué</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>10 - Failed to create hash object</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160108T204431Z" creationid="orax" creationdate="20160108T204422Z">
@@ -7317,8 +7325,8 @@
       <tuv lang="en">
         <seg>@error:</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20151231T193351Z" creationid="orax" creationdate="20151231T193351Z">
-        <seg>@error:</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160108T205758Z" creationid="orax" creationdate="20151231T193351Z">
+        <seg>@error :</seg>
       </tuv>
     </tu>
     <tu>
@@ -17064,8 +17072,8 @@
       <tuv lang="en">
         <seg>Declare a password string to decrypt/encrypt the data.</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20151231T194912Z" creationid="orax" creationdate="20151231T194656Z">
-        <seg>Déclare une chaîne de mot de passe pour déchiffrer/chiffrer les données.</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160108T205256Z" creationid="orax" creationdate="20151231T194656Z">
+        <seg>Déclare un de mot de passe sous forme de chaîne pour déchiffrer/chiffrer les données.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17080,8 +17088,8 @@
       <tuv lang="en">
         <seg>Decrypt the data using the generic password string.</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20151231T195429Z" creationid="orax" creationdate="20151231T195429Z">
-        <seg>Déchiffre les données à l'aide de la chaîne de mot de passe générique.</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160108T205403Z" creationid="orax" creationdate="20151231T195429Z">
+        <seg>Déchiffre les données à l'aide du mot de passe générique.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18085,6 +18093,22 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Espace de coordonnées de destination</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Destroy the cryptographic key.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160108T205222Z" creationid="orax" creationdate="20160108T205222Z">
+        <seg>Détruit la clé de chiffrement.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Destroys a key previously created by &lt;a0&gt;_Crypt_DeriveKey()&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160108T205929Z" creationid="orax" creationdate="20160108T205929Z">
+        <seg>Détruit une clé précédemment créée par &lt;a0&gt;_Crypt_DeriveKey()&lt;/a0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -20197,16 +20221,24 @@
       <tuv lang="en">
         <seg>Encrypt the data using the generic password string.</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20151231T195340Z" creationid="orax" creationdate="20151231T195340Z">
-        <seg>Chiffre les données à l'aide de la chaîne de mot de passe générique.</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160108T205445Z" creationid="orax" creationdate="20151231T195340Z">
+        <seg>Chiffre les données à l'aide du mot de passe générique.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Encrypt the text with the cryptographic key.</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160108T205027Z" creationid="orax" creationdate="20160108T205027Z">
-        <seg>Encrypt the text with the cryptographic key.</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160108T205039Z" creationid="orax" creationdate="20160108T205027Z">
+        <seg>Chiffre le texte avec la clé de chiffrement.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Encrypted data</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160108T205052Z" creationid="orax" creationdate="20160108T205052Z">
+        <seg>Données chiffrées</seg>
       </tuv>
     </tu>
     <tu>
@@ -20734,6 +20766,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>in $sStyle is letter i, v, x ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>False and sets the @error flag to non-zero</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160108T205707Z" creationid="orax" creationdate="20160108T205707Z">
+        <seg>Retourne false et définit le drapeau @error à une valeur non nulle</seg>
       </tuv>
     </tu>
     <tu>
@@ -22034,6 +22074,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Libère un handle créé précédemment avec DllCallbackRegister.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Frees the resources used by a key</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160108T205557Z" creationid="orax" creationdate="20160108T205557Z">
+        <seg>Libère les ressources utilisées par une clé</seg>
       </tuv>
     </tu>
     <tu>
@@ -28117,6 +28165,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Garde la fenêtre du Bloc-notes active lorsque vous utilisez la fonction Send().</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Key to destroy</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160108T205629Z" creationid="orax" creationdate="20160108T205629Z">
+        <seg>Clé à détruire</seg>
       </tuv>
     </tu>
     <tu>
