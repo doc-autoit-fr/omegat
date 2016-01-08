@@ -4839,6 +4839,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>20 - Failed to determine buffer</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160108T210233Z" creationid="orax" creationdate="20160108T210233Z">
+        <seg>20 - Impossible de déterminer la mémoire tampon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>20 - Failed to hash password</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160108T204530Z" creationid="orax" creationdate="20160108T204428Z">
@@ -5094,6 +5102,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>3) Si STDIN est fourni pour l'enfant, &lt;a0&gt;StdinWrite()&lt;/a0&gt; doit être appelée pour fermer le flux.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>30 - Failed to encrypt data</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160108T210252Z" creationid="orax" creationdate="20160108T210252Z">
+        <seg>30 - Impossible de chiffrer les données</seg>
       </tuv>
     </tu>
     <tu>
@@ -17007,6 +17023,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Data to encrypt/decrypt</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160108T210033Z" creationid="orax" creationdate="20160108T210033Z">
+        <seg>Données à chiffrer/déchiffrer</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>DataAccess &amp; Storage user defined functions Reference</seg>
@@ -20247,6 +20271,14 @@
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160108T204124Z" creationid="orax" creationdate="20160108T204124Z">
         <seg>ID de chiffrement de l'algorithme à utiliser avec la clé</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Encrypts data using the supplied key</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160108T210018Z" creationid="orax" creationdate="20160108T210018Z">
+        <seg>Chiffre les données à l'aide de la clé fournie</seg>
       </tuv>
     </tu>
     <tu>
@@ -33582,6 +33614,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Realtime Encryption</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160108T210343Z" creationid="orax" creationdate="20160108T210343Z">
+        <seg>Chiffrement en temps réel</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Receives data from a connected socket.</seg>
@@ -35928,6 +35968,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Returns a binary string regardless of input</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160108T210328Z" creationid="orax" creationdate="20160108T210328Z">
+        <seg>Retourne une chaîne binaire quel que soit l'entrée</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Returns a binary variant.</seg>
@@ -37774,6 +37822,22 @@
         <seg>Search &lt;a0&gt;CryptDeriveKey&lt;/a0&gt; in MSDN Library.</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160108T204646Z" creationid="orax" creationdate="20160108T204646Z">
+        <seg>Cherchez &lt;a0&gt;CryptDecrypt&lt;/a0&gt; dans la bibliothèque MSDN.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Search &lt;a0&gt;CryptDestroyKey&lt;/a0&gt; in MSDN Library.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160108T210006Z" creationid="orax" creationdate="20160108T210006Z">
+        <seg>Cherchez &lt;a0&gt;CryptDecrypt&lt;/a0&gt; dans la bibliothèque MSDN.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Search &lt;a0&gt;CryptEncrypt&lt;/a0&gt; in MSDN Library.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160108T210330Z" creationid="orax" creationdate="20160108T210330Z">
         <seg>Cherchez &lt;a0&gt;CryptDecrypt&lt;/a0&gt; dans la bibliothèque MSDN.</seg>
       </tuv>
     </tu>
@@ -50512,6 +50576,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>To optimize performance start the crypt library.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160108T210524Z" creationid="orax" creationdate="20160108T210524Z">
+        <seg>Exécute la bibliothèque crypt pour optimiser les performances.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>To paint a treeview item in bold (to show as default) use &lt;a0&gt;GUICtrlSetState&lt;/a0&gt;($treeviewItem, $GUI_DEFBUTTON), to turn off this behaviour use &lt;a1&gt;GUICtrlSetState()&lt;/a1&gt; with another value but $GUI_DEFBUTTON, for instance &lt;a2&gt;GUICtrlSetState&lt;/a2&gt;($treeviewItem, 0).</seg>
@@ -52542,6 +52614,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>ATTENTION: si aucun groupe numéroté &lt;e0&gt;n&lt;/e0&gt; n'existe, cet élément est évalué comme le caractère de valeur &lt;e1&gt;n&lt;/e1&gt; si &lt;e2&gt;n&lt;/e2&gt; est une valeur octale valide, sinon d'autres erreurs apparaissent.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>WM_COMMAND</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160108T210347Z" creationid="orax" creationdate="20160108T210347Z">
+        <seg>WM_COMMAND</seg>
       </tuv>
     </tu>
     <tu>
@@ -55349,6 +55429,14 @@
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20151231T193307Z" creationid="orax" creationdate="20151231T193307Z">
         <seg>une chaîne binaire contenant les données déchiffrées.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>a binary string containing encrypted data.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160108T210113Z" creationid="orax" creationdate="20160108T210113Z">
+        <seg>une chaîne binaire contenant les données chiffrées.</seg>
       </tuv>
     </tu>
     <tu>
