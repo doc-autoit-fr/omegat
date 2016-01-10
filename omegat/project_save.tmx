@@ -11442,10 +11442,42 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Bits 0- 4 Second divided by 2</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160110T214755Z" creationid="orax" creationdate="20160110T214703Z">
+        <seg>Bits 0- 4 Seconde divisée par 2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Bits 11-15 Hour (0–23 on a 24-hour clock)</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160110T214857Z" creationid="orax" creationdate="20160110T214805Z">
+        <seg>Bits 11-15 Heure (0–23 sur une horloge de 24 heures)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Bits 5- 8 Month (1 = January, 2 = February, and so on)</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160110T214123Z" creationid="orax" creationdate="20160110T214123Z">
-        <seg>Bits 5- 8 Month (1 = January, 2 = February, and so on)</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160110T214403Z" creationid="orax" creationdate="20160110T214123Z">
+        <seg>Bits 5- 8 Mois (1 = janvier, 2 = février, et ainsi de suite)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Bits 5-10 Minute (0–59)</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160110T214756Z" creationid="orax" creationdate="20160110T214756Z">
+        <seg>Bits 5-10 Minute (0–59)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Bits 9-15 Year offset from 1980 (add 1980 to get actual year)</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160110T214701Z" creationid="orax" creationdate="20160110T214404Z">
+        <seg>Bits 9-15 Décalage de l'année par rapport à 1980 (ajoutez 1980 pour obtenir l'année actuel)</seg>
       </tuv>
     </tu>
     <tu>
@@ -36954,6 +36986,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Returns an array with the following format:</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160110T214918Z" creationid="orax" creationdate="20160110T214901Z">
+        <seg>Retourne un tableau (array) avec le format suivant :</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Returns an array, by default the first element ($aArray[0]) contains the number of strings returned, the remaining elements ($aArray[1], $aArray[2], etc.) contain the delimited strings.</seg>
@@ -41041,6 +41081,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Si une différence apparaît, le moteur tente de faire marche arrière (retour à des états précédents successifs) autant que nécessaire, espérant que le reste du modèle correspondra ainsi.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Show FAT date/time</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160110T215016Z" creationid="orax" creationdate="20160110T215016Z">
+        <seg>Affiche la date/heure FAT</seg>
       </tuv>
     </tu>
     <tu>
@@ -56087,6 +56135,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>[0] - Month</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160110T214927Z" creationid="orax" creationdate="20160110T214921Z">
+        <seg>[0] - Mois</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>[0] - Number of formats (n)</seg>
@@ -56114,6 +56170,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>[1] - Day</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160110T214931Z" creationid="orax" creationdate="20160110T214931Z">
+        <seg>[1] - Jour</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>[1] Green component color</seg>
@@ -56123,12 +56187,44 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>[2] - Year</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160110T214937Z" creationid="orax" creationdate="20160110T214937Z">
+        <seg>[2] - Année</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>[2] Blue component color</seg>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>[2] Bleu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>[3] - Hour</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160110T214941Z" creationid="orax" creationdate="20160110T214941Z">
+        <seg>[3] - Heure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>[4] - Minute</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160110T214944Z" creationid="orax" creationdate="20160110T214944Z">
+        <seg>[4] - Minute</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>[5] - Second</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160110T214951Z" creationid="orax" creationdate="20160110T214947Z">
+        <seg>[5] - Seconde</seg>
       </tuv>
     </tu>
     <tu>
