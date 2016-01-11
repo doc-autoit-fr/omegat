@@ -2568,12 +2568,11 @@
       </tuv>
     </tu>
     <tu>
-      <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>0 and sets the @error flag to non-zero.</seg>
       </tuv>
-      <tuv lang="fr" changeid="mdanielm">
-        <seg>Retourne 0 et @error &lt;&gt; 0 :</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160111T002853Z">
+        <seg>Retourne 0 et @error &lt;&gt; 0.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3535,6 +3534,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>1 - $dImage n'est pas une chaîne binaire</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>1 - $iComDebug is not an integer or &lt; -1 or &gt; 1</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160111T003118Z" creationid="orax" creationdate="20160111T002928Z">
+        <seg>1 - $iComDebug n'est pas un nombre entier ou &lt; -1 or &gt; 1</seg>
       </tuv>
     </tu>
     <tu>
@@ -4702,6 +4709,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>2 - The COM error handler is already set to another function (= not set by this function)</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160111T003035Z" creationid="orax" creationdate="20160111T003035Z">
+        <seg>2 - Le gestionnaire d'erreur COM est déjà défini sur une autre fonction (= pas défini par cette fonction)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>2 - The COM error handler was already active</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160111T001832Z" creationid="orax" creationdate="20160111T001832Z">
@@ -5179,6 +5194,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>3 - $vValue a trop de colonnes pour s'adapter à $aArray</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>3 - &lt;a0&gt;_DebugSetup()&lt;/a0&gt; did not run properly.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160111T003104Z" creationid="orax" creationdate="20160111T003058Z">
+        <seg>3 - &lt;a0&gt;_DebugSetup()&lt;/a0&gt; ne fonctionne pas correctement.</seg>
       </tuv>
     </tu>
     <tu>
