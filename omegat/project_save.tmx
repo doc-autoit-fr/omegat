@@ -1988,12 +1988,11 @@
       </tuv>
     </tu>
     <tu>
-      <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>-1 and sets the @error flag to non-zero.</seg>
       </tuv>
-      <tuv lang="fr" changeid="mdanielm">
-        <seg>Retourne -1 et @error &lt;&gt; 0.</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T230002Z">
+        <seg>-1 et met @error &lt;&gt; 0.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4310,8 +4309,8 @@
       <tuv lang="en">
         <seg>10+ - Failed to create key</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20151231T200514Z" creationid="orax" creationdate="20151231T200514Z">
-        <seg>10+ - impossible de créer la clé</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T221754Z" creationid="orax" creationdate="20151231T200514Z">
+        <seg>10+ - Impossible de créer la clé</seg>
       </tuv>
     </tu>
     <tu>
@@ -5233,8 +5232,8 @@
       <tuv lang="en">
         <seg>3 - Failed to open destination file</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20151231T200532Z" creationid="orax" creationdate="20151231T200532Z">
-        <seg>3 - impossible d'ouvrir le fichier de destination</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T233208Z" creationid="orax" creationdate="20151231T200532Z">
+        <seg>3 - Impossible d'ouvrir le fichier de destination</seg>
       </tuv>
     </tu>
     <tu>
@@ -5356,8 +5355,8 @@
       <tuv lang="en">
         <seg>30 - Failed to generate key</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160108T204616Z" creationid="orax" creationdate="20160108T204616Z">
-        <seg>30 - Impossible de la génération de clé</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T224635Z" creationid="orax" creationdate="20160108T204616Z">
+        <seg>30 - Impossible de générer la clé</seg>
       </tuv>
     </tu>
     <tu>
@@ -5848,19 +5847,21 @@
       </tuv>
     </tu>
     <tu>
+      <note>*</note>
       <tuv lang="en">
         <seg>500+ - Failed to decrypt piece</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160108T214717Z" creationid="orax" creationdate="20151231T200736Z">
-        <seg>500+ - Impossible de déchiffrer</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T223155Z" creationid="orax" creationdate="20151231T200736Z">
+        <seg>500+ - Impossible de déchiffrer la partie</seg>
       </tuv>
     </tu>
     <tu>
+      <note>* Impossible de chiffrer la partie ou Impossible de chiffrer ?</note>
       <tuv lang="en">
         <seg>500+ - Failed to encrypt piece</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160108T214859Z" creationid="orax" creationdate="20160108T214752Z">
-        <seg>500+ - Impossible de chiffrer</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T233249Z" creationid="orax" creationdate="20160108T214752Z">
+        <seg>500+ - Impossible de chiffrer la partie</seg>
       </tuv>
     </tu>
     <tu>
@@ -13228,16 +13229,16 @@
       <tuv lang="en">
         <seg>Check there is a file available to decrypt and a password has been set.</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160109T000800Z" creationid="orax" creationdate="20160108T203317Z">
-        <seg>Vérifie qu'il y a un fichier disponible à déchiffrer et qu'un mot de passe a été défini.</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T223856Z" creationid="orax" creationdate="20160108T203317Z">
+        <seg>Vérifie que le fichier à déchiffrer existe et qu'un mot de passe a été défini.</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en">
         <seg>Check there is a file available to encrypt and a password has been set.</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160108T215415Z" creationid="orax" creationdate="20160108T215415Z">
-        <seg>Vérifie qu'il y a un fichier à chiffrer et qu'un mot de passe a été défini.</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T234442Z" creationid="orax" creationdate="20160108T215415Z">
+        <seg>Vérifie que le fichier à chiffrer existe et qu'un mot de passe a été défini.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21498,8 +21499,8 @@
       <tuv lang="en">
         <seg>False and sets the @error flag to non-zero</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160108T205707Z" creationid="orax" creationdate="20160108T205707Z">
-        <seg>Retourne false et définit le drapeau @error à une valeur non nulle</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T230155Z" creationid="orax" creationdate="20160108T205707Z">
+        <seg>False et @error &lt;&gt; 0.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21533,8 +21534,8 @@
       <tuv lang="en">
         <seg>False and sets the @error flag to non-zero.</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20151231T200501Z" creationid="orax" creationdate="20151231T200424Z">
-        <seg>False et retourne @error &lt;&gt; 0.</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T225950Z" creationid="orax" creationdate="20151231T200424Z">
+        <seg>False et met @error &lt;&gt; 0.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21593,8 +21594,8 @@
       <tuv lang="en">
         <seg>File Decrypter</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20151231T201014Z" creationid="orax" creationdate="20151231T200855Z">
-        <seg>Chiffreur de fichiers</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T223228Z" creationid="orax" creationdate="20151231T200855Z">
+        <seg>Déchiffreur de fichiers</seg>
       </tuv>
     </tu>
     <tu>
@@ -21610,8 +21611,8 @@
       <tuv lang="en">
         <seg>File Encrypter</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160108T215045Z" creationid="orax" creationdate="20160108T215045Z">
-        <seg>Chiffreur de fichiers</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T233620Z" creationid="orax" creationdate="20160108T215045Z">
+        <seg>Chiffreur de Fichiers</seg>
       </tuv>
     </tu>
     <tu>
@@ -21742,8 +21743,8 @@
       <tuv lang="en">
         <seg>Fill a buffer with cryptographically random data</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160108T215649Z" creationid="orax" creationdate="20160108T215649Z">
-        <seg>Remplit une mémoire tampon avec des données cryptographiquement aléatoires</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T234751Z" creationid="orax" creationdate="20160108T215649Z">
+        <seg>Remplit une mémoire tampon (buffer) avec des données cryptographiquement aléatoires</seg>
       </tuv>
     </tu>
     <tu>
@@ -25052,8 +25053,8 @@
       <tuv lang="en">
         <seg>Id of the algo to hash the password with</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160108T204317Z" creationid="orax" creationdate="20160108T204317Z">
-        <seg>Id de l'algorithme de hachage du mot de passe</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T224430Z" creationid="orax" creationdate="20160108T204317Z">
+        <seg>ID de l'algorithme de hachage du mot de passe</seg>
       </tuv>
     </tu>
     <tu>
@@ -26590,8 +26591,8 @@
       <tuv lang="en">
         <seg>If the flag is set to True then encrypt, otherwise decrypt.</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160108T212001Z" creationid="orax" creationdate="20160108T212001Z">
-        <seg>Si le drapeau est défini à True alors chiffrer, sinon déchiffrer.</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T231333Z" creationid="orax" creationdate="20160108T212001Z">
+        <seg>Si l'indicateur est défini à True alors chiffrer, sinon déchiffrer.</seg>
       </tuv>
     </tu>
     <tu>
@@ -32778,8 +32779,8 @@
       <tuv lang="en">
         <seg>Password or handle to a key if the CALG_USERKEY flag is specified</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160114T214356Z" creationid="orax" creationdate="20151231T192930Z">
-        <seg>Mot de passe ou descripteur'd'une clé si l'indicateur CALG_USERKEY est spécifié</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T230418Z" creationid="orax" creationdate="20151231T192930Z">
+        <seg>Mot de passe ou descripteur (handle)'d'une clé si l'indicateur CALG_USERKEY est spécifié</seg>
       </tuv>
     </tu>
     <tu>
@@ -33275,6 +33276,7 @@
       </tuv>
     </tu>
     <tu>
+      <note>*</note>
       <tuv lang="en">
         <seg>Please ensure the relevant information has been entered correctly.</seg>
       </tuv>
@@ -38897,8 +38899,8 @@
       <tuv lang="en">
         <seg>Search &lt;a0&gt;CryptDeriveKey&lt;/a0&gt; in MSDN Library.</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160108T204646Z" creationid="orax" creationdate="20160108T204646Z">
-        <seg>Cherchez &lt;a0&gt;CryptDecrypt&lt;/a0&gt; dans la bibliothèque MSDN.</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T224810Z" creationid="orax" creationdate="20160108T204646Z">
+        <seg>Recherchez &lt;a0&gt;CryptDecrypt&lt;/a0&gt; dans la bibliothèque MSDN.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39553,6 +39555,7 @@
       </tuv>
     </tu>
     <tu>
+      <note>* sélectionn... er / ez ?</note>
       <tuv lang="en">
         <seg>Select a file to decrypt.</seg>
       </tuv>
@@ -39561,11 +39564,12 @@
       </tuv>
     </tu>
     <tu>
+      <note>* er ou ez ?</note>
       <tuv lang="en">
         <seg>Select a file to encrypt.</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160108T215256Z" creationid="orax" creationdate="20160108T215256Z">
-        <seg>Sélectionner un fichier à chiffrer.</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T233716Z" creationid="orax" creationdate="20160108T215256Z">
+        <seg>Sélectionnez un fichier à chiffrer.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39588,8 +39592,8 @@
       <tuv lang="en">
         <seg>Select a file to save the encrypted data to.</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160108T215314Z" creationid="orax" creationdate="20160108T215314Z">
-        <seg>Sélectionner un fichier pour enregistrer les données chiffrées.</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T234109Z" creationid="orax" creationdate="20160108T215314Z">
+        <seg>Sélectionne un fichier pour enregistrer les données chiffrées.</seg>
       </tuv>
     </tu>
     <tu>
@@ -49114,8 +49118,8 @@
       <tuv lang="en">
         <seg>The the output file can be larger than the input file depending on the algorithm.</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160108T215026Z" creationid="orax" creationdate="20160108T215026Z">
-        <seg>Le fichier de sortie peut être plus grand que le fichier d'entrée en fonction de l'algorithme.</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T233548Z" creationid="orax" creationdate="20160108T215026Z">
+        <seg>Selon l'algorithme, le fichier de sortie peut être plus grand que le fichier d'entrée.</seg>
       </tuv>
     </tu>
     <tu>
@@ -52409,12 +52413,11 @@
       </tuv>
     </tu>
     <tu>
-      <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>True</seg>
       </tuv>
-      <tuv lang="fr" changeid="mdanielm">
-        <seg>Retourne True</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T225220Z">
+        <seg>True</seg>
       </tuv>
     </tu>
     <tu>
@@ -56962,8 +56965,8 @@
       <tuv lang="en">
         <seg>a handle to a cryptographic key.</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160108T204402Z" creationid="orax" creationdate="20160108T204402Z">
-        <seg>un handle vers clé de chiffrement.</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T224443Z" creationid="orax" creationdate="20160108T204402Z">
+        <seg>un handle vers une clé de chiffrement.</seg>
       </tuv>
     </tu>
     <tu>
@@ -60960,8 +60963,8 @@
       <tuv lang="en">
         <seg>sets the @error flag to non-zero.</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20151231T193344Z">
-        <seg>Retourne @error &lt;&gt; 0.</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T225924Z">
+        <seg>met @error &lt;&gt; 0.</seg>
       </tuv>
     </tu>
     <tu>
