@@ -5045,6 +5045,7 @@
       </tuv>
     </tu>
     <tu>
+      <note># à revoir</note>
       <tuv lang="en">
         <seg>20 - Failed to decrypt data</seg>
       </tuv>
@@ -7654,6 +7655,14 @@
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160108T205758Z" creationid="orax" creationdate="20151231T193351Z">
         <seg>@error :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>@extended = current script termination.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160114T210001Z" creationid="orax" creationdate="20160114T210001Z">
+        <seg>@extended = résiliation de script en cours.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17652,6 +17661,11 @@
       </tuv>
     </tu>
     <tu>
+      <note># password string ?
+- mot de passe sous forme de chaîne
+- mot de passe
+- chaîne de mot de passe ?!
+- ...</note>
       <tuv lang="en">
         <seg>Declare a password string to decrypt/encrypt the data.</seg>
       </tuv>
@@ -17716,11 +17730,12 @@
       </tuv>
     </tu>
     <tu>
+      <note># accord spécifiés : spécifiés ou spécifié</note>
       <tuv lang="en">
         <seg>Decrypts a file with specified key and algorithm</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20151231T195933Z" creationid="orax" creationdate="20151231T195933Z">
-        <seg>Déchiffre un fichier avec la clé et l'algorithme spécifié</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T214005Z" creationid="orax" creationdate="20151231T195933Z">
+        <seg>Déchiffre un fichier avec la clé et l'algorithme spécifiés</seg>
       </tuv>
     </tu>
     <tu>
@@ -21526,8 +21541,8 @@
       <tuv lang="en">
         <seg>False if this is only a segment of the full data</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20151231T193238Z" creationid="orax" creationdate="20151231T193238Z">
-        <seg>"False" si c'est seulement un segment de données complet</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T210415Z" creationid="orax" creationdate="20151231T193238Z">
+        <seg>False si c'est seulement un segment de données complet</seg>
       </tuv>
     </tu>
     <tu>
@@ -21629,8 +21644,8 @@
       <tuv lang="en">
         <seg>File to save the processed file</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20151231T200214Z" creationid="orax" creationdate="20151231T200214Z">
-        <seg>Fichier pour enregistrer le fichier traité</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T214312Z" creationid="orax" creationdate="20151231T200214Z">
+        <seg>Fichier où sera enregistré le fichier traité</seg>
       </tuv>
     </tu>
     <tu>
@@ -32763,8 +32778,8 @@
       <tuv lang="en">
         <seg>Password or handle to a key if the CALG_USERKEY flag is specified</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20151231T192930Z" creationid="orax" creationdate="20151231T192930Z">
-        <seg>Mot de passe ou le handle d'une touche si le drapeau CALG_USERKEY est spécifié</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T214356Z" creationid="orax" creationdate="20151231T192930Z">
+        <seg>Mot de passe ou descripteur'd'une clé si l'indicateur CALG_USERKEY est spécifié</seg>
       </tuv>
     </tu>
     <tu>
@@ -38874,8 +38889,8 @@
       <tuv lang="en">
         <seg>Search &lt;a0&gt;CryptDecrypt&lt;/a0&gt; in MSDN Library.</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20151231T194604Z" creationid="orax" creationdate="20151231T194604Z">
-        <seg>Cherchez &lt;a0&gt;CryptDecrypt&lt;/a0&gt; dans la bibliothèque MSDN.</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T211033Z" creationid="orax" creationdate="20151231T194604Z">
+        <seg>Recherchez &lt;a0&gt;CryptDecrypt&lt;/a0&gt; dans la bibliothèque MSDN.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45397,8 +45412,8 @@
       <tuv lang="en">
         <seg>The decrypted data is always returned as a binary string even if the encrypted data is in fact a string (cast with &lt;a0&gt;BinaryToString()&lt;/a0&gt;).</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20151231T194344Z" creationid="orax" creationdate="20151231T194344Z">
-        <seg>La donnée déchiffrée est toujours retournée comme une chaîne binaire même si la donnée chiffrée est en fait une chaîne (transtypage ("cast") avec &lt;a0&gt;BinaryToString()&lt;/a0&gt;).</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160114T210920Z" creationid="orax" creationdate="20151231T194344Z">
+        <seg>La donnée déchiffrée est toujours retournée comme une chaîne binaire même si la donnée chiffrée est en fait une chaîne (transtypage avec &lt;a0&gt;BinaryToString()&lt;/a0&gt;).</seg>
       </tuv>
     </tu>
     <tu>
