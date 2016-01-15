@@ -1,0 +1,1 @@
+https://www.autoitscript.com/autoit3/docs/license.htm
