@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_ShellFileOperation.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Copies, moves, renames, or deletes a file system object</source>
+<seg-source><mrk mid="0" mtype="seg">Copies, moves, renames, or deletes a file system object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Copies, moves, renames, or deletes a file system object</mrk></target>
+<note>Function _WinAPI_ShellFileOperation</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Single string or array of string that contains the source file name(s). These names should be</source>
+<seg-source><mrk mid="0" mtype="seg">Single string or array of string that contains the source file name(s).</mrk> <mrk mid="1" mtype="seg">These names should be</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Single string or array of string that contains the source file name(s).</mrk> <mrk mid="1" mtype="seg">These names should be</mrk></target>
+<note>$sFrom</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> fully-qualified paths to prevent unexpected results.</source>
+<seg-source> <mrk mid="0" mtype="seg">fully-qualified paths to prevent unexpected results.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">fully-qualified paths to prevent unexpected results.</mrk></target>
+<note>$sFrom</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Single string or array of string that contains the destination file or directory name(s) (if used).</source>
+<seg-source><mrk mid="0" mtype="seg">Single string or array of string that contains the destination file or directory name(s) (if used).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Single string or array of string that contains the destination file or directory name(s) (if used).</mrk></target>
+<note>$sTo</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> These names should be fully-qualified paths to prevent unexpected results.</source>
+<seg-source> <mrk mid="0" mtype="seg">These names should be fully-qualified paths to prevent unexpected results.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">These names should be fully-qualified paths to prevent unexpected results.</mrk></target>
+<note>$sTo</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">A value that indicates which operation to perform. This parameter can be one of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg">A value that indicates which operation to perform.</mrk> <mrk mid="1" mtype="seg">This parameter can be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A value that indicates which operation to perform.</mrk> <mrk mid="1" mtype="seg">This parameter can be one of the following values.</mrk></target>
+<note>$iFunc</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $FO_COPY</source>
+<seg-source> <mrk mid="0" mtype="seg">$FO_COPY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FO_COPY</mrk></target>
+<note>$iFunc</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $FO_DELETE</source>
+<seg-source> <mrk mid="0" mtype="seg">$FO_DELETE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FO_DELETE</mrk></target>
+<note>$iFunc</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> $FO_MOVE</source>
+<seg-source> <mrk mid="0" mtype="seg">$FO_MOVE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FO_MOVE</mrk></target>
+<note>$iFunc</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> $FO_RENAME</source>
+<seg-source> <mrk mid="0" mtype="seg">$FO_RENAME</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FO_RENAME</mrk></target>
+<note>$iFunc</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Flags that control the file operation. This parameter can be one of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg">Flags that control the file operation.</mrk> <mrk mid="1" mtype="seg">This parameter can be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Flags that control the file operation.</mrk> <mrk mid="1" mtype="seg">This parameter can be one of the following values.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> $FOF_ALLOWUNDO</source>
+<seg-source> <mrk mid="0" mtype="seg">$FOF_ALLOWUNDO</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FOF_ALLOWUNDO</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> $FOF_CONFIRMMOUSE</source>
+<seg-source> <mrk mid="0" mtype="seg">$FOF_CONFIRMMOUSE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FOF_CONFIRMMOUSE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> $FOF_FILESONLY</source>
+<seg-source> <mrk mid="0" mtype="seg">$FOF_FILESONLY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FOF_FILESONLY</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> $FOF_MULTIDESTFILES</source>
+<seg-source> <mrk mid="0" mtype="seg">$FOF_MULTIDESTFILES</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FOF_MULTIDESTFILES</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> $FOF_NOCONFIRMATION</source>
+<seg-source> <mrk mid="0" mtype="seg">$FOF_NOCONFIRMATION</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FOF_NOCONFIRMATION</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> $FOF_NOCONFIRMMKDIR</source>
+<seg-source> <mrk mid="0" mtype="seg">$FOF_NOCONFIRMMKDIR</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FOF_NOCONFIRMMKDIR</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> $FOF_NO_CONNECTED_ELEMENTS</source>
+<seg-source> <mrk mid="0" mtype="seg">$FOF_NO_CONNECTED_ELEMENTS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FOF_NO_CONNECTED_ELEMENTS</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> $FOF_NOCOPYSECURITYATTRIBS</source>
+<seg-source> <mrk mid="0" mtype="seg">$FOF_NOCOPYSECURITYATTRIBS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FOF_NOCOPYSECURITYATTRIBS</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> $FOF_NOERRORUI</source>
+<seg-source> <mrk mid="0" mtype="seg">$FOF_NOERRORUI</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FOF_NOERRORUI</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> $FOF_NORECURSEREPARSE</source>
+<seg-source> <mrk mid="0" mtype="seg">$FOF_NORECURSEREPARSE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FOF_NORECURSEREPARSE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> $FOF_NORECURSION</source>
+<seg-source> <mrk mid="0" mtype="seg">$FOF_NORECURSION</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FOF_NORECURSION</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> $FOF_RENAMEONCOLLISION</source>
+<seg-source> <mrk mid="0" mtype="seg">$FOF_RENAMEONCOLLISION</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FOF_RENAMEONCOLLISION</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> $FOF_SILENT</source>
+<seg-source> <mrk mid="0" mtype="seg">$FOF_SILENT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FOF_SILENT</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> $FOF_SIMPLEPROGRESS</source>
+<seg-source> <mrk mid="0" mtype="seg">$FOF_SIMPLEPROGRESS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FOF_SIMPLEPROGRESS</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> $FOF_WANTMAPPINGHANDLE</source>
+<seg-source> <mrk mid="0" mtype="seg">$FOF_WANTMAPPINGHANDLE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FOF_WANTMAPPINGHANDLE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> $FOF_WANTNUKEWARNING</source>
+<seg-source> <mrk mid="0" mtype="seg">$FOF_WANTNUKEWARNING</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FOF_WANTNUKEWARNING</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> $FOF_NO_UI</source>
+<seg-source> <mrk mid="0" mtype="seg">$FOF_NO_UI</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FOF_NO_UI</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The title of a progress dialog box. This parameter is used only if $iFlags includes the $FOF_SIMPLEPROGRESS flag.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The title of a progress dialog box.</mrk> <mrk mid="2" mtype="seg">This parameter is used only if $iFlags includes the $FOF_SIMPLEPROGRESS flag.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The title of a progress dialog box.</mrk> <mrk mid="2" mtype="seg">This parameter is used only if $iFlags includes the $FOF_SIMPLEPROGRESS flag.</mrk></target>
+<note>$sTitle</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Handle to the dialog box to display information about the status of the file operation.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Handle to the dialog box to display information about the status of the file operation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Handle to the dialog box to display information about the status of the file operation.</mrk></target>
+<note>$hParent</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">$tagSHFILEOPSTRUCT structure that contains the additional information.</source>
+<seg-source><mrk mid="0" mtype="seg">$tagSHFILEOPSTRUCT structure that contains the additional information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$tagSHFILEOPSTRUCT structure that contains the additional information.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"> Sets the @error flag, @extended may be set to the one of the following values.</source>
+<seg-source> <mrk mid="0" mtype="seg">Sets the @error flag, @extended may be set to the one of the following values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Sets the @error flag, @extended may be set to the one of the following values.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en"> 113 - The source and destination files are the same file.</source>
+<seg-source> <mrk mid="0" mtype="seg">113 - The source and destination files are the same file.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">113 - The source and destination files are the same file.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en"> 114 - Multiple file paths were specified in the source buffer, but only one destination file path.</source>
+<seg-source> <mrk mid="0" mtype="seg">114 - Multiple file paths were specified in the source buffer, but only one destination file path.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">114 - Multiple file paths were specified in the source buffer, but only one destination file path.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en"> 115 - Rename operation was specified but the destination path is a different directory. Use the move operation instead.</source>
+<seg-source> <mrk mid="0" mtype="seg">115 - Rename operation was specified but the destination path is a different directory.</mrk> <mrk mid="1" mtype="seg">Use the move operation instead.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">115 - Rename operation was specified but the destination path is a different directory.</mrk> <mrk mid="1" mtype="seg">Use the move operation instead.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en"> 116 - The source is a root directory, which cannot be moved or renamed.</source>
+<seg-source> <mrk mid="0" mtype="seg">116 - The source is a root directory, which cannot be moved or renamed.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">116 - The source is a root directory, which cannot be moved or renamed.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en"> 117 - The operation was cancelled by the user, or silently cancelled if the appropriate flags were supplied to <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ShellFileOperation.htm"></bpt>_WinAPI_ShellFileOperation()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">117 - The operation was cancelled by the user, or silently cancelled if the appropriate flags were supplied to <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ShellFileOperation.htm"></bpt>_WinAPI_ShellFileOperation()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">117 - The operation was cancelled by the user, or silently cancelled if the appropriate flags were supplied to <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ShellFileOperation.htm"></bpt>_WinAPI_ShellFileOperation()<ept id="1">&lt;/a></ept>.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en"> 118 - The destination is a subtree of the source.</source>
+<seg-source> <mrk mid="0" mtype="seg">118 - The destination is a subtree of the source.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">118 - The destination is a subtree of the source.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en"> 120 - Security settings denied access to the source.</source>
+<seg-source> <mrk mid="0" mtype="seg">120 - Security settings denied access to the source.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">120 - Security settings denied access to the source.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en"> 121 - The source or destination path exceeded or would exceed MAX_PATH.</source>
+<seg-source> <mrk mid="0" mtype="seg">121 - The source or destination path exceeded or would exceed MAX_PATH.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">121 - The source or destination path exceeded or would exceed MAX_PATH.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en"> 122 - The operation involved multiple destination paths, which can fail in the case of a move operation.</source>
+<seg-source> <mrk mid="0" mtype="seg">122 - The operation involved multiple destination paths, which can fail in the case of a move operation.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">122 - The operation involved multiple destination paths, which can fail in the case of a move operation.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en"> 124 - The path in the source or destination or both was invalid.</source>
+<seg-source> <mrk mid="0" mtype="seg">124 - The path in the source or destination or both was invalid.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">124 - The path in the source or destination or both was invalid.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en"> 125 - The source and destination have the same parent folder.</source>
+<seg-source> <mrk mid="0" mtype="seg">125 - The source and destination have the same parent folder.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">125 - The source and destination have the same parent folder.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en"> 126 - The destination path is an existing file.</source>
+<seg-source> <mrk mid="0" mtype="seg">126 - The destination path is an existing file.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">126 - The destination path is an existing file.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en"> 128 - The destination path is an existing folder.</source>
+<seg-source> <mrk mid="0" mtype="seg">128 - The destination path is an existing folder.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">128 - The destination path is an existing folder.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en"> 129 - The name of the file exceeds MAX_PATH.</source>
+<seg-source> <mrk mid="0" mtype="seg">129 - The name of the file exceeds MAX_PATH.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">129 - The name of the file exceeds MAX_PATH.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en"> 130 - The destination is a read-only CD-ROM, possibly unformatted.</source>
+<seg-source> <mrk mid="0" mtype="seg">130 - The destination is a read-only CD-ROM, possibly unformatted.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">130 - The destination is a read-only CD-ROM, possibly unformatted.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en"> 131 - The destination is a read-only DVD, possibly unformatted.</source>
+<seg-source> <mrk mid="0" mtype="seg">131 - The destination is a read-only DVD, possibly unformatted.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">131 - The destination is a read-only DVD, possibly unformatted.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en"> 132 - The destination is a writable CD-ROM, possibly unformatted.</source>
+<seg-source> <mrk mid="0" mtype="seg">132 - The destination is a writable CD-ROM, possibly unformatted.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">132 - The destination is a writable CD-ROM, possibly unformatted.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en"> 133 - The file involved in the operation is too large for the destination media or file system.</source>
+<seg-source> <mrk mid="0" mtype="seg">133 - The file involved in the operation is too large for the destination media or file system.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">133 - The file involved in the operation is too large for the destination media or file system.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en"> 134 - The source is a read-only CD-ROM, possibly unformatted.</source>
+<seg-source> <mrk mid="0" mtype="seg">134 - The source is a read-only CD-ROM, possibly unformatted.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">134 - The source is a read-only CD-ROM, possibly unformatted.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en"> 135 - The source is a read-only DVD, possibly unformatted.</source>
+<seg-source> <mrk mid="0" mtype="seg">135 - The source is a read-only DVD, possibly unformatted.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">135 - The source is a read-only DVD, possibly unformatted.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en"> 136 - The source is a writable CD-ROM, possibly unformatted.</source>
+<seg-source> <mrk mid="0" mtype="seg">136 - The source is a writable CD-ROM, possibly unformatted.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">136 - The source is a writable CD-ROM, possibly unformatted.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en"> 183 - MAX_PATH was exceeded during the operation.</source>
+<seg-source> <mrk mid="0" mtype="seg">183 - MAX_PATH was exceeded during the operation.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">183 - MAX_PATH was exceeded during the operation.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en"> 026 - An unknown error occurred. This is typically due to an invalid path in the source or destination.</source>
+<seg-source> <mrk mid="0" mtype="seg">026 - An unknown error occurred.</mrk> <mrk mid="1" mtype="seg">This is typically due to an invalid path in the source or destination.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">026 - An unknown error occurred.</mrk> <mrk mid="1" mtype="seg">This is typically due to an invalid path in the source or destination.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en"> 536 - An unspecified error occurred on the destination.</source>
+<seg-source> <mrk mid="0" mtype="seg">536 - An unspecified error occurred on the destination.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">536 - An unspecified error occurred on the destination.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en"> 652 - Destination is a root directory and cannot be renamed. </source>
+<seg-source> <mrk mid="0" mtype="seg">652 - Destination is a root directory and cannot be renamed.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">652 - Destination is a root directory and cannot be renamed.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">You should use fully-qualified path names with this function. Using it with relative path names is not thread safe.</source>
+<seg-source><mrk mid="0" mtype="seg">You should use fully-qualified path names with this function.</mrk> <mrk mid="1" mtype="seg">Using it with relative path names is not thread safe.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You should use fully-qualified path names with this function.</mrk> <mrk mid="1" mtype="seg">Using it with relative path names is not thread safe.</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHFileOperation);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHFileOperation<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHFileOperation);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHFileOperation<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHFileOperation);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHFileOperation<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">Create temporary file</source>
+<seg-source><mrk mid="0" mtype="seg">Create temporary file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create temporary file</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">::{645FF040-5081-101B-9F08-00AA002F954E}</source>
+<seg-source><mrk mid="0" mtype="seg">::{645FF040-5081-101B-9F08-00AA002F954E}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">::{645FF040-5081-101B-9F08-00AA002F954E}</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">Delete file to Recycle Bin</source>
+<seg-source><mrk mid="0" mtype="seg">Delete file to Recycle Bin</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete file to Recycle Bin</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/$tagNMTOOLBAR.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Keyword Reference</source>
+<seg-source><mrk mid="0" mtype="seg">Keyword Reference</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Keyword Reference</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Contains information used to process toolbar notification messages</source>
+<seg-source><mrk mid="0" mtype="seg">Contains information used to process toolbar notification messages</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains information used to process toolbar notification messages</mrk></target>
+<note>Keyword $tagNMTOOLBAR</note>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Contains information about a notification message</source>
+<seg-source><mrk mid="0" mtype="seg">Contains information about a notification message</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains information about a notification message</mrk></target>
+<note>$tagNMHDR</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Command identifier of the button associated with the notification</source>
+<seg-source><mrk mid="0" mtype="seg">Command identifier of the button associated with the notification</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command identifier of the button associated with the notification</mrk></target>
+<note>iItem</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">0-based index of the button image.</source>
+<seg-source><mrk mid="0" mtype="seg">0-based index of the button image.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0-based index of the button image.</mrk></target>
+<note>iBitmap</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> If the button is a separator, that is, if fsStyle is set to $BTNS_SEP, iBitmap determines the width of the separator, in pixels</source>
+<seg-source> <mrk mid="0" mtype="seg">If the button is a separator, that is, if fsStyle is set to $BTNS_SEP, iBitmap determines the width of the separator, in pixels</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the button is a separator, that is, if fsStyle is set to $BTNS_SEP, iBitmap determines the width of the separator, in pixels</mrk></target>
+<note>iBitmap</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Command identifier associated with the button. This identifier is used in a WM_COMMAND message when the button is chosen</source>
+<seg-source><mrk mid="0" mtype="seg">Command identifier associated with the button.</mrk> <mrk mid="1" mtype="seg">This identifier is used in a WM_COMMAND message when the button is chosen</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command identifier associated with the button.</mrk> <mrk mid="1" mtype="seg">This identifier is used in a WM_COMMAND message when the button is chosen</mrk></target>
+<note>idCommand</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Button state flags. This member can be a combination of the values listed in Toolbar Button States</source>
+<seg-source><mrk mid="0" mtype="seg">Button state flags.</mrk> <mrk mid="1" mtype="seg">This member can be a combination of the values listed in Toolbar Button States</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Button state flags.</mrk> <mrk mid="1" mtype="seg">This member can be a combination of the values listed in Toolbar Button States</mrk></target>
+<note>fsState</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Button style. This member can be a combination of the button style values listed in Toolbar Control and Button Styles</source>
+<seg-source><mrk mid="0" mtype="seg">Button style.</mrk> <mrk mid="1" mtype="seg">This member can be a combination of the button style values listed in Toolbar Control and Button Styles</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Button style.</mrk> <mrk mid="1" mtype="seg">This member can be a combination of the button style values listed in Toolbar Control and Button Styles</mrk></target>
+<note>fsStyle</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Application-defined value</source>
+<seg-source><mrk mid="0" mtype="seg">Application-defined value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Application-defined value</mrk></target>
+<note>dwData</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">0-based index of the button string, or a pointer to a string buffer that contains text for the button</source>
+<seg-source><mrk mid="0" mtype="seg">0-based index of the button string, or a pointer to a string buffer that contains text for the button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0-based index of the button string, or a pointer to a string buffer that contains text for the button</mrk></target>
+<note>iString</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Count of characters in the button text</source>
+<seg-source><mrk mid="0" mtype="seg">Count of characters in the button text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Count of characters in the button text</mrk></target>
+<note>cchText</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Address of a character buffer that contains the button text</source>
+<seg-source><mrk mid="0" mtype="seg">Address of a character buffer that contains the button text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Address of a character buffer that contains the button text</mrk></target>
+<note>pszText</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Left - Specifies the x-coordinate of the upper-left corner of the rectangle</source>
+<seg-source><mrk mid="0" mtype="seg">Left - Specifies the x-coordinate of the upper-left corner of the rectangle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Left - Specifies the x-coordinate of the upper-left corner of the rectangle</mrk></target>
+<note>$tagRECT</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> Top - Specifies the y-coordinate of the upper-left corner of the rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">Top - Specifies the y-coordinate of the upper-left corner of the rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Top - Specifies the y-coordinate of the upper-left corner of the rectangle</mrk></target>
+<note>$tagRECT</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> Right - Specifies the x-coordinate of the lower-right corner of the rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">Right - Specifies the x-coordinate of the lower-right corner of the rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Right - Specifies the x-coordinate of the lower-right corner of the rectangle</mrk></target>
+<note>$tagRECT</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> Bottom - Specifies the y-coordinate of the lower-right corner of the rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">Bottom - Specifies the y-coordinate of the lower-right corner of the rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Bottom - Specifies the y-coordinate of the lower-right corner of the rectangle</mrk></target>
+<note>$tagRECT</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

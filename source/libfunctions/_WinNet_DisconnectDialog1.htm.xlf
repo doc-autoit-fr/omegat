@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinNet_DisconnectDialog1.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Starts a general browsing dialog box for disconnecting from network resources</source>
+<seg-source><mrk mid="0" mtype="seg">Starts a general browsing dialog box for disconnecting from network resources</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Starts a general browsing dialog box for disconnecting from network resources</mrk></target>
+<note>Function _WinNet_DisconnectDialog1</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the owner window for the dialog box</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the owner window for the dialog box</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the owner window for the dialog box</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Name of a local device, such as "F:" or "LPT1"</source>
+<seg-source><mrk mid="0" mtype="seg">Name of a local device, such as "F:" or "LPT1"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Name of a local device, such as "F:" or "LPT1"</mrk></target>
+<note>$sLocalName</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Name of the network resource to disconnect. This member can be 0 if $LocalName is specified.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Name of the network resource to disconnect.</mrk> <mrk mid="2" mtype="seg">This member can be 0 if $LocalName is specified.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Name of the network resource to disconnect.</mrk> <mrk mid="2" mtype="seg">This member can be 0 if $LocalName is specified.</mrk></target>
+<note>$sRemoteName</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> When $sLocalName is specified, the connection to the network resource redirected from $sLocalName is disconnected.</source>
+<seg-source> <mrk mid="0" mtype="seg">When $sLocalName is specified, the connection to the network resource redirected from $sLocalName is disconnected.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When $sLocalName is specified, the connection to the network resource redirected from $sLocalName is disconnected.</mrk></target>
+<note>$sRemoteName</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Flags describing the connection. Can be a combination of:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Flags describing the connection.</mrk> <mrk mid="2" mtype="seg">Can be a combination of:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Flags describing the connection.</mrk> <mrk mid="2" mtype="seg">Can be a combination of:</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> 1 - If this value is set, the specified connection is no longer a persistent one.</source>
+<seg-source> <mrk mid="0" mtype="seg">1 - If this value is set, the specified connection is no longer a persistent one.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 - If this value is set, the specified connection is no longer a persistent one.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     This flag is valid only if $sLocalName specifies a local device.</source>
+<seg-source> <mrk mid="0" mtype="seg">    This flag is valid only if $sLocalName specifies a local device.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    This flag is valid only if $sLocalName specifies a local device.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> 2 - If this value is NOT set, the system applies force when disconnecting</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - If this value is NOT set, the system applies force when disconnecting</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - If this value is NOT set, the system applies force when disconnecting</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">1. If the user cancels the dialog box, the return value is –1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk> <mrk mid="1" mtype="seg">If the user cancels the dialog box, the return value is –1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk> <mrk mid="1" mtype="seg">If the user cancels the dialog box, the return value is –1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(WNetDisconnectDialog1);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>WNetDisconnectDialog1<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(WNetDisconnectDialog1);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>WNetDisconnectDialog1<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(WNetDisconnectDialog1);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>WNetDisconnectDialog1<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

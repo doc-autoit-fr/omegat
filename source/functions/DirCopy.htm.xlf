@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/DirCopy.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Copies a directory and all sub-directories and files (Similar to xcopy).</source>
+<seg-source><mrk mid="0" mtype="seg">Copies a directory and all sub-directories and files (Similar to xcopy).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Copies a directory and all sub-directories and files (Similar to xcopy).</mrk></target>
+<note>Function DirCopy</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Path of the source directory (with no trailing backslash). e.g. "C:\Path1"</source>
+<seg-source><mrk mid="0" mtype="seg">Path of the source directory (with no trailing backslash).</mrk> <mrk mid="1" mtype="seg">e.g.</mrk> <mrk mid="2" mtype="seg">"C:\Path1"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Path of the source directory (with no trailing backslash).</mrk> <mrk mid="1" mtype="seg">e.g.</mrk> <mrk mid="2" mtype="seg">"C:\Path1"</mrk></target>
+<note>source dir</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Path of the destination dir (with no trailing backslash). e.g. "C:\Path_Copy"</source>
+<seg-source><mrk mid="0" mtype="seg">Path of the destination dir (with no trailing backslash).</mrk> <mrk mid="1" mtype="seg">e.g.</mrk> <mrk mid="2" mtype="seg">"C:\Path_Copy"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Path of the destination dir (with no trailing backslash).</mrk> <mrk mid="1" mtype="seg">e.g.</mrk> <mrk mid="2" mtype="seg">"C:\Path_Copy"</mrk></target>
+<note>dest dir</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> this flag determines whether to overwrite files if they already exist:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">this flag determines whether to overwrite files if they already exist:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">this flag determines whether to overwrite files if they already exist:</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $FC_NOOVERWRITE (0) = (default) do not overwrite existing files</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FC_NOOVERWRITE (0) = (default) do not overwrite existing files</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FC_NOOVERWRITE (0) = (default) do not overwrite existing files</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $FC_OVERWRITE (1) = overwrite existing files</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FC_OVERWRITE (1) = overwrite existing files</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FC_OVERWRITE (1) = overwrite existing files</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> Constants are defined in FileConstants.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in FileConstants.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in FileConstants.au3.</mrk></target>
+<note>flag</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">0 if there is an error copying the directory.</source>
+<seg-source><mrk mid="0" mtype="seg">0 if there is an error copying the directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 if there is an error copying the directory.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">If the destination directory structure doesn't exist, it will be created (if possible).</source>
+<seg-source><mrk mid="0" mtype="seg">If the destination directory structure doesn't exist, it will be created (if possible).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the destination directory structure doesn't exist, it will be created (if possible).</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">\Backups\MyDocs</source>
+<seg-source><mrk mid="0" mtype="seg">\Backups\MyDocs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Backups\MyDocs</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

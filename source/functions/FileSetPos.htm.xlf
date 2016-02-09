@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/FileSetPos.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the current file position.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the current file position.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the current file position.</mrk></target>
+<note>Function FileSetPos</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> The handle of a file, as returned by a previous call to <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">The handle of a file, as returned by a previous call to <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The handle of a file, as returned by a previous call to <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>filehandle</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The offset to move from the origin. This value may be positive or negative. Negative values move backwards from the origin.</source>
+<seg-source><mrk mid="0" mtype="seg">The offset to move from the origin.</mrk> <mrk mid="1" mtype="seg">This value may be positive or negative.</mrk> <mrk mid="2" mtype="seg">Negative values move backwards from the origin.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The offset to move from the origin.</mrk> <mrk mid="1" mtype="seg">This value may be positive or negative.</mrk> <mrk mid="2" mtype="seg">Negative values move backwards from the origin.</mrk></target>
+<note>offset</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Must be one of the following:</source>
+<seg-source><mrk mid="0" mtype="seg">Must be one of the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Must be one of the following:</mrk></target>
+<note>origin</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $FILE_BEGIN (0) = Beginning of the file.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FILE_BEGIN (0) = Beginning of the file.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FILE_BEGIN (0) = Beginning of the file.</mrk></target>
+<note>origin</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $FILE_CURRENT (1) = Current position.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FILE_CURRENT (1) = Current position.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FILE_CURRENT (1) = Current position.</mrk></target>
+<note>origin</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $FILE_END (2) = End of the file.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FILE_END (2) = End of the file.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FILE_END (2) = End of the file.</mrk></target>
+<note>origin</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> Constants are defined in FileConstants.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in FileConstants.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in FileConstants.au3.</mrk></target>
+<note>origin</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">True if the operation succeeded.</source>
+<seg-source><mrk mid="0" mtype="seg">True if the operation succeeded.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True if the operation succeeded.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">False.</source>
+<seg-source><mrk mid="0" mtype="seg">False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Include Constants.au3 in your script to use the symbolic name in parentheses to specify the origin.</source>
+<seg-source><mrk mid="0" mtype="seg">Include Constants.au3 in your script to use the symbolic name in parentheses to specify the origin.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Include Constants.au3 in your script to use the symbolic name in parentheses to specify the origin.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> Using <bpt id="1" ctype="x-a">&lt;a href="FileSetPos.htm"></bpt>FileSetPos()<ept id="1">&lt;/a></ept> it is possible to both read and write to the same file. When attempting to read and write to the same file, always call <bpt id="1" ctype="x-a">&lt;a href="FileFlush.htm"></bpt>FileFlush()<ept id="1">&lt;/a></ept> between each write and read operation.</source>
+<seg-source> <mrk mid="0" mtype="seg">Using <bpt id="1" ctype="x-a">&lt;a href="FileSetPos.htm"></bpt>FileSetPos()<ept id="1">&lt;/a></ept> it is possible to both read and write to the same file.</mrk> <mrk mid="1" mtype="seg">When attempting to read and write to the same file, always call <bpt id="1" ctype="x-a">&lt;a href="FileFlush.htm"></bpt>FileFlush()<ept id="1">&lt;/a></ept> between each write and read operation.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Using <bpt id="1" ctype="x-a">&lt;a href="FileSetPos.htm"></bpt>FileSetPos()<ept id="1">&lt;/a></ept> it is possible to both read and write to the same file.</mrk> <mrk mid="1" mtype="seg">When attempting to read and write to the same file, always call <bpt id="1" ctype="x-a">&lt;a href="FileFlush.htm"></bpt>FileFlush()<ept id="1">&lt;/a></ept> between each write and read operation.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> Moving the pointer to the middle of the data can be used to overwrite data.</source>
+<seg-source> <mrk mid="0" mtype="seg">Moving the pointer to the middle of the data can be used to overwrite data.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Moving the pointer to the middle of the data can be used to overwrite data.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Create a constant variable in Local scope of the filepath that will be read/written to.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a constant variable in Local scope of the filepath that will be read/written to.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a constant variable in Local scope of the filepath that will be read/written to.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Open the file for writing (overwrite the file) and store the handle to a variable.</source>
+<seg-source><mrk mid="0" mtype="seg">Open the file for writing (overwrite the file) and store the handle to a variable.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open the file for writing (overwrite the file) and store the handle to a variable.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">An error occurred whilst writing the temporary file.</source>
+<seg-source><mrk mid="0" mtype="seg">An error occurred whilst writing the temporary file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An error occurred whilst writing the temporary file.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Write data to the file using the handle returned by FileOpen.</source>
+<seg-source><mrk mid="0" mtype="seg">Write data to the file using the handle returned by FileOpen.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write data to the file using the handle returned by FileOpen.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Line 1</source>
+<seg-source><mrk mid="0" mtype="seg">Line 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Line 1</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Line 2</source>
+<seg-source><mrk mid="0" mtype="seg">Line 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Line 2</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Line 3</source>
+<seg-source><mrk mid="0" mtype="seg">Line 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Line 3</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Flush the file to disk.</source>
+<seg-source><mrk mid="0" mtype="seg">Flush the file to disk.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Flush the file to disk.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Check file position and try to read contents for current position.</source>
+<seg-source><mrk mid="0" mtype="seg">Check file position and try to read contents for current position.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check file position and try to read contents for current position.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Position:</source>
+<seg-source><mrk mid="0" mtype="seg">Position:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Position:</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Data:</source>
+<seg-source><mrk mid="0" mtype="seg">Data:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Data:</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Now, adjust the position to the beginning.</source>
+<seg-source><mrk mid="0" mtype="seg">Now, adjust the position to the beginning.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Now, adjust the position to the beginning.</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Check file position and try to read contents for current position.</source>
+<seg-source><mrk mid="0" mtype="seg">Check file position and try to read contents for current position.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check file position and try to read contents for current position.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Position:</source>
+<seg-source><mrk mid="0" mtype="seg">Position:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Position:</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Data:</source>
+<seg-source><mrk mid="0" mtype="seg">Data:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Data:</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Close the handle returned by FileOpen.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the handle returned by FileOpen.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the handle returned by FileOpen.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Delete the temporary file.</source>
+<seg-source><mrk mid="0" mtype="seg">Delete the temporary file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete the temporary file.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

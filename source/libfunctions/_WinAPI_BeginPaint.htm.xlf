@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_BeginPaint.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Prepares the specified window for painting</source>
+<seg-source><mrk mid="0" mtype="seg">Prepares the specified window for painting</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Prepares the specified window for painting</mrk></target>
+<note>Function _WinAPI_BeginPaint</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the window to be repainted.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the window to be repainted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the window to be repainted.</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">$tagPAINTSTRUCT structure that will receive painting information.</source>
+<seg-source><mrk mid="0" mtype="seg">$tagPAINTSTRUCT structure that will receive painting information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$tagPAINTSTRUCT structure that will receive painting information.</mrk></target>
+<note>$tPAINTSTRUCT</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> When the function call, this parameter should be any valid variable, the function creates this structure itself.</source>
+<seg-source> <mrk mid="0" mtype="seg">When the function call, this parameter should be any valid variable, the function creates this structure itself.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When the function call, this parameter should be any valid variable, the function creates this structure itself.</mrk></target>
+<note>$tPAINTSTRUCT</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Handle to a display device context for the specified window.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to a display device context for the specified window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to a display device context for the specified window.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> 0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">This function automatically sets the clipping region of the device context to exclude any area outside the update region.</source>
+<seg-source><mrk mid="0" mtype="seg">This function automatically sets the clipping region of the device context to exclude any area outside the update region.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function automatically sets the clipping region of the device context to exclude any area outside the update region.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> The update region is set by the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_InvalidateRect.htm"></bpt>_WinAPI_InvalidateRect()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_InvalidateRgn.htm"></bpt>_WinAPI_InvalidateRgn()<ept id="2">&lt;/a></ept> function and by the system after sizing, moving, creating, scrolling, or any other operation that affects the client area.</source>
+<seg-source> <mrk mid="0" mtype="seg">The update region is set by the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_InvalidateRect.htm"></bpt>_WinAPI_InvalidateRect()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_InvalidateRgn.htm"></bpt>_WinAPI_InvalidateRgn()<ept id="2">&lt;/a></ept> function and by the system after sizing, moving, creating, scrolling, or any other operation that affects the client area.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The update region is set by the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_InvalidateRect.htm"></bpt>_WinAPI_InvalidateRect()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_InvalidateRgn.htm"></bpt>_WinAPI_InvalidateRgn()<ept id="2">&lt;/a></ept> function and by the system after sizing, moving, creating, scrolling, or any other operation that affects the client area.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> If the update region is marked for erasing, <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_BeginPaint.htm"></bpt>_WinAPI_BeginPaint()<ept id="1">&lt;/a></ept> sends a WM_ERASEBKGND message to the window.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the update region is marked for erasing, <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_BeginPaint.htm"></bpt>_WinAPI_BeginPaint()<ept id="1">&lt;/a></ept> sends a WM_ERASEBKGND message to the window.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the update region is marked for erasing, <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_BeginPaint.htm"></bpt>_WinAPI_BeginPaint()<ept id="1">&lt;/a></ept> sends a WM_ERASEBKGND message to the window.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> An application should not call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_BeginPaint.htm"></bpt>_WinAPI_BeginPaint()<ept id="1">&lt;/a></ept> except in response to a WM_PAINT message.</source>
+<seg-source> <mrk mid="0" mtype="seg">An application should not call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_BeginPaint.htm"></bpt>_WinAPI_BeginPaint()<ept id="1">&lt;/a></ept> except in response to a WM_PAINT message.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">An application should not call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_BeginPaint.htm"></bpt>_WinAPI_BeginPaint()<ept id="1">&lt;/a></ept> except in response to a WM_PAINT message.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> Each call to <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_BeginPaint.htm"></bpt>_WinAPI_BeginPaint()<ept id="1">&lt;/a></ept> must have a corresponding call to the <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_EndPaint.htm"></bpt>_WinAPI_EndPaint()<ept id="2">&lt;/a></ept> function.</source>
+<seg-source> <mrk mid="0" mtype="seg">Each call to <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_BeginPaint.htm"></bpt>_WinAPI_BeginPaint()<ept id="1">&lt;/a></ept> must have a corresponding call to the <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_EndPaint.htm"></bpt>_WinAPI_EndPaint()<ept id="2">&lt;/a></ept> function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Each call to <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_BeginPaint.htm"></bpt>_WinAPI_BeginPaint()<ept id="1">&lt;/a></ept> must have a corresponding call to the <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_EndPaint.htm"></bpt>_WinAPI_EndPaint()<ept id="2">&lt;/a></ept> function.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(BeginPaint);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>BeginPaint<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(BeginPaint);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>BeginPaint<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(BeginPaint);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>BeginPaint<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">MouseCoordMode</source>
+<seg-source><mrk mid="0" mtype="seg">MouseCoordMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MouseCoordMode</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">OnAutoItExit</source>
+<seg-source><mrk mid="0" mtype="seg">OnAutoItExit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OnAutoItExit</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Extract icon</source>
+<seg-source><mrk mid="0" mtype="seg">Extract icon</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Extract icon</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">\shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">\shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Register label window proc</source>
+<seg-source><mrk mid="0" mtype="seg">Register label window proc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Register label window proc</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">_WinProc</source>
+<seg-source><mrk mid="0" mtype="seg">_WinProc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinProc</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">ptr</source>
+<seg-source><mrk mid="0" mtype="seg">ptr</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ptr</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">hwnd;uint;wparam;lparam</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd;uint;wparam;lparam</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd;uint;wparam;lparam</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Create gradient</source>
+<seg-source><mrk mid="0" mtype="seg">Create gradient</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create gradient</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Set gradient to control</source>
+<seg-source><mrk mid="0" mtype="seg">Set gradient to control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set gradient to control</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

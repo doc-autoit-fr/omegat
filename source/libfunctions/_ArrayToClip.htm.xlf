@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_ArrayToClip.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sends the contents of a 1D or 2D array to the clipboard, each element separated by a specified delimiter</source>
+<seg-source><mrk mid="0" mtype="seg">Sends the contents of a 1D or 2D array to the clipboard, each element separated by a specified delimiter</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sends the contents of a 1D or 2D array to the clipboard, each element separated by a specified delimiter</mrk></target>
+<note>Function _ArrayToClip</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Array to copy to clipboard</source>
+<seg-source><mrk mid="0" mtype="seg">Array to copy to clipboard</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Array to copy to clipboard</mrk></target>
+<note>$aArray</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Delimiter for elements of 1D array or columns of 2D array</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Delimiter for elements of 1D array or columns of 2D array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Delimiter for elements of 1D array or columns of 2D array</mrk></target>
+<note>$sDelim_Col</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Index of array row to start copy</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Index of array row to start copy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Index of array row to start copy</mrk></target>
+<note>$iStart_Row</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Index of array row to stop copy</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Index of array row to stop copy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Index of array row to stop copy</mrk></target>
+<note>$iEnd_Row</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Delimiter for rows of 2D array (2D only)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Delimiter for rows of 2D array (2D only)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Delimiter for rows of 2D array (2D only)</mrk></target>
+<note>$sDelim_Row</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Index of array column to start copy (2D only)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Index of array column to start copy (2D only)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Index of array column to start copy (2D only)</mrk></target>
+<note>$iStart_Col</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Index of array column to stop copy (2D only)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Index of array column to stop copy (2D only)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Index of array column to stop copy (2D only)</mrk></target>
+<note>$iEnd_Col</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> -1 - <bpt id="1" ctype="x-a">&lt;a href="../functions/ClipPut.htm"></bpt>ClipPut()<ept id="1">&lt;/a></ept> failed</source>
+<seg-source> <mrk mid="0" mtype="seg">-1 - <bpt id="1" ctype="x-a">&lt;a href="../functions/ClipPut.htm"></bpt>ClipPut()<ept id="1">&lt;/a></ept> failed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">-1 - <bpt id="1" ctype="x-a">&lt;a href="../functions/ClipPut.htm"></bpt>ClipPut()<ept id="1">&lt;/a></ept> failed</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> Other - See <bpt id="1" ctype="x-a">&lt;a href="_ArrayToString.htm"></bpt>_ArrayToString()<ept id="1">&lt;/a></ept> description for @error </source>
+<seg-source> <mrk mid="0" mtype="seg">Other - See <bpt id="1" ctype="x-a">&lt;a href="_ArrayToString.htm"></bpt>_ArrayToString()<ept id="1">&lt;/a></ept> description for @error</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Other - See <bpt id="1" ctype="x-a">&lt;a href="_ArrayToString.htm"></bpt>_ArrayToString()<ept id="1">&lt;/a></ept> description for @error</mrk> </target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">A,B,C,D,E,F,G,H,I</source>
+<seg-source><mrk mid="0" mtype="seg">A,B,C,D,E,F,G,H,I</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A,B,C,D,E,F,G,H,I</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">,</source>
+<seg-source><mrk mid="0" mtype="seg">,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">,</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">1D Array</source>
+<seg-source><mrk mid="0" mtype="seg">1D Array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1D Array</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">-</source>
+<seg-source><mrk mid="0" mtype="seg">-</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">_ArrayToClip() 1D Test</source>
+<seg-source><mrk mid="0" mtype="seg">_ArrayToClip() 1D Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_ArrayToClip() 1D Test</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">2D Array</source>
+<seg-source><mrk mid="0" mtype="seg">2D Array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2D Array</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">::</source>
+<seg-source><mrk mid="0" mtype="seg">::</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">::</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">_ArrayToClip() 2D Test</source>
+<seg-source><mrk mid="0" mtype="seg">_ArrayToClip() 2D Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_ArrayToClip() 2D Test</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

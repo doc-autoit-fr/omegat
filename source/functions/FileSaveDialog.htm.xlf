@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/FileSaveDialog.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Initiates a Save File Dialog.</source>
+<seg-source><mrk mid="0" mtype="seg">Initiates a Save File Dialog.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Initiates a Save File Dialog.</mrk></target>
+<note>Function FileSaveDialog</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Title text of the Dialog GUI.</source>
+<seg-source><mrk mid="0" mtype="seg">Title text of the Dialog GUI.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Title text of the Dialog GUI.</mrk></target>
+<note>title</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Initial directory selected in the GUI file tree.</source>
+<seg-source><mrk mid="0" mtype="seg">Initial directory selected in the GUI file tree.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Initial directory selected in the GUI file tree.</mrk></target>
+<note>init dir</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">File type single filter such as "All (*.*)" or "Text files (*.txt)" or multiple filter groups such as "All (*.*)|Text files (*.txt)" (See Remarks).</source>
+<seg-source><mrk mid="0" mtype="seg">File type single filter such as "All (*.*)" or "Text files (*.txt)" or multiple filter groups such as "All (*.*)|Text files (*.txt)" (See Remarks).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File type single filter such as "All (*.*)" or "Text files (*.txt)" or multiple filter groups such as "All (*.*)|Text files (*.txt)" (See Remarks).</mrk></target>
+<note>filter</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Dialog Options: To use more than one option, BitOR the required values together.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Dialog Options:</mrk> <mrk mid="2" mtype="seg">To use more than one option, BitOR the required values together.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Dialog Options:</mrk> <mrk mid="2" mtype="seg">To use more than one option, BitOR the required values together.</mrk></target>
+<note>options</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $FD_PATHMUSTEXIST (2) = Path Must Exist (if user types a path, ending with a backslash)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FD_PATHMUSTEXIST (2) = Path Must Exist (if user types a path, ending with a backslash)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FD_PATHMUSTEXIST (2) = Path Must Exist (if user types a path, ending with a backslash)</mrk></target>
+<note>options</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $FD_PROMPTOVERWRITE (16) = Prompt to OverWrite File</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FD_PROMPTOVERWRITE (16) = Prompt to OverWrite File</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FD_PROMPTOVERWRITE (16) = Prompt to OverWrite File</mrk></target>
+<note>options</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> Constants are defined in FileConstants.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in FileConstants.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in FileConstants.au3.</mrk></target>
+<note>options</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> File name to suggest to the user to save the file with. Default is blank ("").</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">File name to suggest to the user to save the file with.</mrk> <mrk mid="2" mtype="seg">Default is blank ("").</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">File name to suggest to the user to save the file with.</mrk> <mrk mid="2" mtype="seg">Default is blank ("").</mrk></target>
+<note>default name</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The window handle to use as the parent for this dialog.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The window handle to use as the parent for this dialog.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The window handle to use as the parent for this dialog.</mrk></target>
+<note>hwnd</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">the full path of the file chosen. Results for multiple selections are "Directory|file1|file2|..."</source>
+<seg-source><mrk mid="0" mtype="seg">the full path of the file chosen.</mrk> <mrk mid="1" mtype="seg">Results for multiple selections are "Directory|file1|file2|..."</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the full path of the file chosen.</mrk> <mrk mid="1" mtype="seg">Results for multiple selections are "Directory|file1|file2|..."</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">1 = File selection failed.</source>
+<seg-source><mrk mid="0" mtype="seg">1 = File selection failed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 = File selection failed.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> 2 = Bad file filter</source>
+<seg-source> <mrk mid="0" mtype="seg">2 = Bad file filter</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 = Bad file filter</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Separate the file filters with a semicolon as shown in the example.</source>
+<seg-source><mrk mid="0" mtype="seg">Separate the file filters with a semicolon as shown in the example.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Separate the file filters with a semicolon as shown in the example.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> Multiple groups of filters are separated by a pipe "|".</source>
+<seg-source> <mrk mid="0" mtype="seg">Multiple groups of filters are separated by a pipe "|".</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Multiple groups of filters are separated by a pipe "|".</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> If default name is given, options must also be given. If none of the options are wanted, use 0 for options.</source>
+<seg-source> <mrk mid="0" mtype="seg">If default name is given, options must also be given.</mrk> <mrk mid="1" mtype="seg">If none of the options are wanted, use 0 for options.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If default name is given, options must also be given.</mrk> <mrk mid="1" mtype="seg">If none of the options are wanted, use 0 for options.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> Special Windows folders (such as "My Documents") can be set as root by using the right CLSID detailed in the <bpt id="1" ctype="x-a">&lt;a href="../appendix/clsid.htm"></bpt>Appendix<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">Special Windows folders (such as "My Documents") can be set as root by using the right CLSID detailed in the <bpt id="1" ctype="x-a">&lt;a href="../appendix/clsid.htm"></bpt>Appendix<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Special Windows folders (such as "My Documents") can be set as root by using the right CLSID detailed in the <bpt id="1" ctype="x-a">&lt;a href="../appendix/clsid.htm"></bpt>Appendix<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="../macros/AutoItRelated.htm"></bpt>@WorkingDir<ept id="1">&lt;/a></ept> is changed on successful return.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="../macros/AutoItRelated.htm"></bpt>@WorkingDir<ept id="1">&lt;/a></ept> is changed on successful return.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="../macros/AutoItRelated.htm"></bpt>@WorkingDir<ept id="1">&lt;/a></ept> is changed on successful return.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Create a constant variable in Local scope of the message to display in FileSaveDialog.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a constant variable in Local scope of the message to display in FileSaveDialog.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a constant variable in Local scope of the message to display in FileSaveDialog.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Choose a filename.</source>
+<seg-source><mrk mid="0" mtype="seg">Choose a filename.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Choose a filename.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Display a save dialog to select a file.</source>
+<seg-source><mrk mid="0" mtype="seg">Display a save dialog to select a file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display a save dialog to select a file.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">::{450D8FBA-AD25-11D0-98A8-0800361B1103}</source>
+<seg-source><mrk mid="0" mtype="seg">::{450D8FBA-AD25-11D0-98A8-0800361B1103}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">::{450D8FBA-AD25-11D0-98A8-0800361B1103}</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Scripts (*.au3)</source>
+<seg-source><mrk mid="0" mtype="seg">Scripts (*.au3)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scripts (*.au3)</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Display the error message.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the error message.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the error message.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">No file was saved.</source>
+<seg-source><mrk mid="0" mtype="seg">No file was saved.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No file was saved.</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Retrieve the filename from the filepath e.g. Example.au3.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve the filename from the filepath e.g.</mrk> <mrk mid="1" mtype="seg">Example.au3.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve the filename from the filepath e.g.</mrk> <mrk mid="1" mtype="seg">Example.au3.</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">\</source>
+<seg-source><mrk mid="0" mtype="seg">\</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Check if the extension .au3 is appended to the end of the filename.</source>
+<seg-source><mrk mid="0" mtype="seg">Check if the extension .au3 is appended to the end of the filename.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check if the extension .au3 is appended to the end of the filename.</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">.</source>
+<seg-source><mrk mid="0" mtype="seg">.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">If a period (dot) is found then check whether or not the extension is equal to .au3.</source>
+<seg-source><mrk mid="0" mtype="seg">If a period (dot) is found then check whether or not the extension is equal to .au3.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a period (dot) is found then check whether or not the extension is equal to .au3.</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">If the extension isn't equal to .au3 then append to the end of the filepath.</source>
+<seg-source><mrk mid="0" mtype="seg">If the extension isn't equal to .au3 then append to the end of the filepath.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the extension isn't equal to .au3 then append to the end of the filepath.</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">If no period (dot) was found then append to the end of the file.</source>
+<seg-source><mrk mid="0" mtype="seg">If no period (dot) was found then append to the end of the file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If no period (dot) was found then append to the end of the file.</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Display the saved file.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the saved file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the saved file.</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">You saved the following file:</source>
+<seg-source><mrk mid="0" mtype="seg">You saved the following file:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You saved the following file:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

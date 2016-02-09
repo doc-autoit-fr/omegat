@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/StringReplace.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Replaces substrings in a string.</source>
+<seg-source><mrk mid="0" mtype="seg">Replaces substrings in a string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Replaces substrings in a string.</mrk></target>
+<note>Function StringReplace</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The string to evaluate.</source>
+<seg-source><mrk mid="0" mtype="seg">The string to evaluate.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The string to evaluate.</mrk></target>
+<note>string</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The substring to search for or the character position to start the replacement.</source>
+<seg-source><mrk mid="0" mtype="seg">The substring to search for or the character position to start the replacement.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The substring to search for or the character position to start the replacement.</mrk></target>
+<note>searchstring/start</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The replacement string.</source>
+<seg-source><mrk mid="0" mtype="seg">The replacement string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The replacement string.</mrk></target>
+<note>replacestring</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The number of times to replace the searchstring. Use a negative occurrence to replace from the right side.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The number of times to replace the searchstring.</mrk> <mrk mid="2" mtype="seg">Use a negative occurrence to replace from the right side.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The number of times to replace the searchstring.</mrk> <mrk mid="2" mtype="seg">Use a negative occurrence to replace from the right side.</mrk></target>
+<note>occurrence</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     0 = all searchstrings will be replaced (default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 = all searchstrings will be replaced (default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 = all searchstrings will be replaced (default)</mrk></target>
+<note>occurrence</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Flag to indicate if the operations should be case sensitive.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Flag to indicate if the operations should be case sensitive.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Flag to indicate if the operations should be case sensitive.</mrk></target>
+<note>casesense</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $STR_NOCASESENSE (0) = not case sensitive, using the user's locale (default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STR_NOCASESENSE (0) = not case sensitive, using the user's locale (default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STR_NOCASESENSE (0) = not case sensitive, using the user's locale (default)</mrk></target>
+<note>casesense</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $STR_CASESENSE (1) = case sensitive</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STR_CASESENSE (1) = case sensitive</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STR_CASESENSE (1) = case sensitive</mrk></target>
+<note>casesense</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $STR_NOCASESENSEBASIC (2) = not case sensitive, using a basic/faster comparison</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STR_NOCASESENSEBASIC (2) = not case sensitive, using a basic/faster comparison</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STR_NOCASESENSEBASIC (2) = not case sensitive, using a basic/faster comparison</mrk></target>
+<note>casesense</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> Constants are defined in StringConstants.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in StringConstants.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in StringConstants.au3.</mrk></target>
+<note>casesense</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Returns the new string with the number of replacements performed stored in the @extended macro.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the new string with the number of replacements performed stored in the @extended macro.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the new string with the number of replacements performed stored in the @extended macro.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">By default or if the occurrence is positive the search/replace is performed left-to-right. Thus, <bpt id="1" ctype="x-a">&lt;a href="StringReplace.htm"></bpt>StringReplace<ept id="1">&lt;/a></ept>("aaa", "aa", "bb") returns "bba"</source>
+<seg-source><mrk mid="0" mtype="seg">By default or if the occurrence is positive the search/replace is performed left-to-right.</mrk> <mrk mid="1" mtype="seg">Thus, <bpt id="1" ctype="x-a">&lt;a href="StringReplace.htm"></bpt>StringReplace<ept id="1">&lt;/a></ept>("aaa", "aa", "bb") returns "bba"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">By default or if the occurrence is positive the search/replace is performed left-to-right.</mrk> <mrk mid="1" mtype="seg">Thus, <bpt id="1" ctype="x-a">&lt;a href="StringReplace.htm"></bpt>StringReplace<ept id="1">&lt;/a></ept>("aaa", "aa", "bb") returns "bba"</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> If the start method is used the occurrence and casesense parameters are ignored. The function will replace the characters in "string", starting at the requested position, with the characters in "replacestring" - as many characters will be replaced as are in "replacestring". However, if there are not enough characters in "string" for the entire "replacestring" to be inserted an empty string is returned and @error is set to 1.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the start method is used the occurrence and casesense parameters are ignored.</mrk> <mrk mid="1" mtype="seg">The function will replace the characters in "string", starting at the requested position, with the characters in "replacestring" - as many characters will be replaced as are in "replacestring".</mrk> <mrk mid="2" mtype="seg">However, if there are not enough characters in "string" for the entire "replacestring" to be inserted an empty string is returned and @error is set to 1.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the start method is used the occurrence and casesense parameters are ignored.</mrk> <mrk mid="1" mtype="seg">The function will replace the characters in "string", starting at the requested position, with the characters in "replacestring" - as many characters will be replaced as are in "replacestring".</mrk> <mrk mid="2" mtype="seg">However, if there are not enough characters in "string" for the entire "replacestring" to be inserted an empty string is returned and @error is set to 1.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Replace a blank space (' ') with a - (minus) character.</source>
+<seg-source><mrk mid="0" mtype="seg">Replace a blank space (' ') with a - (minus) character.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Replace a blank space (' ') with a - (minus) character.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">This is a sentence with whitespace.</source>
+<seg-source><mrk mid="0" mtype="seg">This is a sentence with whitespace.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a sentence with whitespace.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">-</source>
+<seg-source><mrk mid="0" mtype="seg">-</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">replacements were made and the new string is:</source>
+<seg-source><mrk mid="0" mtype="seg">replacements were made and the new string is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">replacements were made and the new string is:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

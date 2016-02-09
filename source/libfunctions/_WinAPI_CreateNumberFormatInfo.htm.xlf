@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_CreateNumberFormatInfo.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a $tagNUMBERFMT structure with the specified number formatting information</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a $tagNUMBERFMT structure with the specified number formatting information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a $tagNUMBERFMT structure with the specified number formatting information</mrk></target>
+<note>Function _WinAPI_CreateNumberFormatInfo</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The number of fractional digits placed after the decimal separator.</source>
+<seg-source><mrk mid="0" mtype="seg">The number of fractional digits placed after the decimal separator.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The number of fractional digits placed after the decimal separator.</mrk></target>
+<note>$iNumDigits</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Specifier for leading zeros in decimal fields, valid values:</source>
+<seg-source><mrk mid="0" mtype="seg">Specifier for leading zeros in decimal fields, valid values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifier for leading zeros in decimal fields, valid values:</mrk></target>
+<note>$iLeadingZero</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     0 - No leading zeros.</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 - No leading zeros.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 - No leading zeros.</mrk></target>
+<note>$iLeadingZero</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     1 - Leading zeros.</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 - Leading zeros.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 - Leading zeros.</mrk></target>
+<note>$iLeadingZero</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">The number of digits in each group of numbers to the left of the decimal separator.</source>
+<seg-source><mrk mid="0" mtype="seg">The number of digits in each group of numbers to the left of the decimal separator.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The number of digits in each group of numbers to the left of the decimal separator.</mrk></target>
+<note>$iGrouping</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> The values in the range 0 through 9 and 32 are valid.</source>
+<seg-source> <mrk mid="0" mtype="seg">The values in the range 0 through 9 and 32 are valid.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The values in the range 0 through 9 and 32 are valid.</mrk></target>
+<note>$iGrouping</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> Typical examples are:</source>
+<seg-source> <mrk mid="0" mtype="seg">Typical examples are:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Typical examples are:</mrk></target>
+<note>$iGrouping</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     0 to group digits as in 123456789.00;</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 to group digits as in 123456789.00;</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 to group digits as in 123456789.00;</mrk></target>
+<note>$iGrouping</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     3 to group digits as in 123,456,789.00;</source>
+<seg-source> <mrk mid="0" mtype="seg">    3 to group digits as in 123,456,789.00;</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    3 to group digits as in 123,456,789.00;</mrk></target>
+<note>$iGrouping</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     and 32 to group digits as in 12,34,56,789.00.</source>
+<seg-source> <mrk mid="0" mtype="seg">    and 32 to group digits as in 12,34,56,789.00.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    and 32 to group digits as in 12,34,56,789.00.</mrk></target>
+<note>$iGrouping</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">The decimal separator string.</source>
+<seg-source><mrk mid="0" mtype="seg">The decimal separator string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The decimal separator string.</mrk></target>
+<note>$sDecimalSep</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">The thousand separator string.</source>
+<seg-source><mrk mid="0" mtype="seg">The thousand separator string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The thousand separator string.</mrk></target>
+<note>$sThousandSep</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">The negative number mode, valid values:</source>
+<seg-source><mrk mid="0" mtype="seg">The negative number mode, valid values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The negative number mode, valid values:</mrk></target>
+<note>$iNegativeOrder</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     0 - Left parenthesis, number, right parenthesis; for example, (1.1).</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 - Left parenthesis, number, right parenthesis; for example, (1.1).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 - Left parenthesis, number, right parenthesis; for example, (1.1).</mrk></target>
+<note>$iNegativeOrder</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     1 - Negative sign, number; for example, -1.1.</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 - Negative sign, number; for example, -1.1.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 - Negative sign, number; for example, -1.1.</mrk></target>
+<note>$iNegativeOrder</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     2 - Negative sign, space, number; for example, - 1.1.</source>
+<seg-source> <mrk mid="0" mtype="seg">    2 - Negative sign, space, number; for example, - 1.1.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    2 - Negative sign, space, number; for example, - 1.1.</mrk></target>
+<note>$iNegativeOrder</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     3 - Number, negative sign; for example, 1.1-.</source>
+<seg-source> <mrk mid="0" mtype="seg">    3 - Number, negative sign; for example, 1.1-.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    3 - Number, negative sign; for example, 1.1-.</mrk></target>
+<note>$iNegativeOrder</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     4 - Number, space, negative sign; for example, 1.1 -.</source>
+<seg-source> <mrk mid="0" mtype="seg">    4 - Number, space, negative sign; for example, 1.1 -.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    4 - Number, space, negative sign; for example, 1.1 -.</mrk></target>
+<note>$iNegativeOrder</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Returns $tagNUMBERFMT structure that contains number formatting information.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns $tagNUMBERFMT structure that contains number formatting information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns $tagNUMBERFMT structure that contains number formatting information.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Typically, the structure returned by this function is used in the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetNumberFormat.htm"></bpt>_WinAPI_GetNumberFormat()<ept id="1">&lt;/a></ept> function.</source>
+<seg-source><mrk mid="0" mtype="seg">Typically, the structure returned by this function is used in the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetNumberFormat.htm"></bpt>_WinAPI_GetNumberFormat()<ept id="1">&lt;/a></ept> function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Typically, the structure returned by this function is used in the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetNumberFormat.htm"></bpt>_WinAPI_GetNumberFormat()<ept id="1">&lt;/a></ept> function.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(NUMBERFMT);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>NUMBERFMT<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(NUMBERFMT);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>NUMBERFMT<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(NUMBERFMT);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>NUMBERFMT<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">,</source>
+<seg-source><mrk mid="0" mtype="seg">,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">,</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GDIPlus_BitmapConvertFormat.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Converts a bitmap to a specified pixel format</source>
+<seg-source><mrk mid="0" mtype="seg">Converts a bitmap to a specified pixel format</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Converts a bitmap to a specified pixel format</mrk></target>
+<note>Function _GDIPlus_BitmapConvertFormat</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to a Bitmap to which the effect is applied.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to a Bitmap to which the effect is applied.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to a Bitmap to which the effect is applied.</mrk></target>
+<note>$hBitmap</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Pixel format constant that specifies the new pixel format ($GDIP_PXF*).</source>
+<seg-source><mrk mid="0" mtype="seg">Pixel format constant that specifies the new pixel format ($GDIP_PXF*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pixel format constant that specifies the new pixel format ($GDIP_PXF*).</mrk></target>
+<note>$iPixelFormat</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">DitherType constant that specifies the dithering algorithm ($GDIP_DitherType*).</source>
+<seg-source><mrk mid="0" mtype="seg">DitherType constant that specifies the dithering algorithm ($GDIP_DitherType*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DitherType constant that specifies the dithering algorithm ($GDIP_DitherType*).</mrk></target>
+<note>$iDitherType</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">PaletteType constant that specifies a standard palette to be used for dithering ($GDIP_PaletteType*).</source>
+<seg-source><mrk mid="0" mtype="seg">PaletteType constant that specifies a standard palette to be used for dithering ($GDIP_PaletteType*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">PaletteType constant that specifies a standard palette to be used for dithering ($GDIP_PaletteType*).</mrk></target>
+<note>$iPaletteType</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Structure that specifies the palette whose indexes are stored in the pixel data of the converted bitmap.</source>
+<seg-source><mrk mid="0" mtype="seg">Structure that specifies the palette whose indexes are stored in the pixel data of the converted bitmap.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Structure that specifies the palette whose indexes are stored in the pixel data of the converted bitmap.</mrk></target>
+<note>$tPalette</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Real number in the range 0.0 through 100.0 that specifies which pixels in the source bitmap will map to the transparent color in the converted bitmap.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Real number in the range 0.0 through 100.0 that specifies which pixels in the source bitmap will map to the transparent color in the converted bitmap.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Real number in the range 0.0 through 100.0 that specifies which pixels in the source bitmap will map to the transparent color in the converted bitmap.</mrk></target>
+<note>$fAlphaThresholdPercent</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</source>
+<seg-source><mrk mid="0" mtype="seg">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">-1 - GDIPlus.dll does not support this function.</source>
+<seg-source><mrk mid="0" mtype="seg">-1 - GDIPlus.dll does not support this function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1 - GDIPlus.dll does not support this function.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> 10 - Invalid parameters.</source>
+<seg-source> <mrk mid="0" mtype="seg">10 - Invalid parameters.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">10 - Invalid parameters.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">The original pixel data in the bitmap is replaced by the new pixel data.</source>
+<seg-source><mrk mid="0" mtype="seg">The original pixel data in the bitmap is replaced by the new pixel data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The original pixel data in the bitmap is replaced by the new pixel data.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipBitmapConvertFormat"></bpt>GdipBitmapConvertFormat<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipBitmapConvertFormat"></bpt>GdipBitmapConvertFormat<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipBitmapConvertFormat"></bpt>GdipBitmapConvertFormat<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">ERROR</source>
+<seg-source><mrk mid="0" mtype="seg">ERROR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ERROR</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">GDIPlus.dll v1.1 not available</source>
+<seg-source><mrk mid="0" mtype="seg">GDIPlus.dll v1.1 not available</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GDIPlus.dll v1.1 not available</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Select an image</source>
+<seg-source><mrk mid="0" mtype="seg">Select an image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Select an image</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Images (*.bmp;*.png;*.jpg;*.gif;*.tif)</source>
+<seg-source><mrk mid="0" mtype="seg">Images (*.bmp;*.png;*.jpg;*.gif;*.tif)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Images (*.bmp;*.png;*.jpg;*.gif;*.tif)</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">GDI+ v1.1 (</source>
+<seg-source><mrk mid="0" mtype="seg">GDI+ v1.1 (</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GDI+ v1.1 (</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">)</source>
+<seg-source><mrk mid="0" mtype="seg">)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">)</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Convert to a 16-color bitmap (4 bits per pixel) using FixedHalftone27 dithering</source>
+<seg-source><mrk mid="0" mtype="seg">Convert to a 16-color bitmap (4 bits per pixel) using FixedHalftone27 dithering</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Convert to a 16-color bitmap (4 bits per pixel) using FixedHalftone27 dithering</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

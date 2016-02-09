@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_GetCDType.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves a type of the media which is loaded into a specified CD-ROM device</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves a type of the media which is loaded into a specified CD-ROM device</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves a type of the media which is loaded into a specified CD-ROM device</mrk></target>
+<note>Function _WinAPI_GetCDType</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The drive letter of the CD tray to retrieve information, in the format D:, E:, etc.</source>
+<seg-source><mrk mid="0" mtype="seg">The drive letter of the CD tray to retrieve information, in the format D:,</mrk> <mrk mid="1" mtype="seg">E:, etc.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The drive letter of the CD tray to retrieve information, in the format D:,</mrk> <mrk mid="1" mtype="seg">E:, etc.</mrk></target>
+<note>$sDrive</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The type of the media, it must be one of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg">The type of the media, it must be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The type of the media, it must be one of the following values.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> 0x0000 - No media</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0000 - No media</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0000 - No media</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> 0x0008 - CD-ROM</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0008 - CD-ROM</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0008 - CD-ROM</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> 0x0009 - CD-R</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0009 - CD-R</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0009 - CD-R</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> 0x000A - CD-RW</source>
+<seg-source> <mrk mid="0" mtype="seg">0x000A - CD-RW</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x000A - CD-RW</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> 0x0010 - DVD-ROM</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0010 - DVD-ROM</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0010 - DVD-ROM</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> 0x0011 - DVD-R Sequential Recording</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0011 - DVD-R Sequential Recording</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0011 - DVD-R Sequential Recording</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> 0x0012 - DVD-RAM</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0012 - DVD-RAM</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0012 - DVD-RAM</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> 0x0013 - DVD-RW Restricted Overwrite</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0013 - DVD-RW Restricted Overwrite</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0013 - DVD-RW Restricted Overwrite</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> 0x0014 - DVD-RW Sequential Recording</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0014 - DVD-RW Sequential Recording</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0014 - DVD-RW Sequential Recording</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> 0x0015 - DVD-R Dual Layer</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0015 - DVD-R Dual Layer</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0015 - DVD-R Dual Layer</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> 0x0016 - DVD-R Dual Layer Jump Recording</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0016 - DVD-R Dual Layer Jump Recording</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0016 - DVD-R Dual Layer Jump Recording</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> 0x0017 - DVD-RW Dual Layer</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0017 - DVD-RW Dual Layer</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0017 - DVD-RW Dual Layer</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> 0x0018 - DVD-Download Disc Recording</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0018 - DVD-Download Disc Recording</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0018 - DVD-Download Disc Recording</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> 0x001A - DVD+RW</source>
+<seg-source> <mrk mid="0" mtype="seg">0x001A - DVD+RW</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x001A - DVD+RW</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> 0x001B - DVD+R</source>
+<seg-source> <mrk mid="0" mtype="seg">0x001B - DVD+R</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x001B - DVD+R</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> 0x0040 - BD-ROM</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0040 - BD-ROM</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0040 - BD-ROM</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> 0x0041 - BD-R Sequential Recording Mode (SRM)</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0041 - BD-R Sequential Recording Mode (SRM)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0041 - BD-R Sequential Recording Mode (SRM)</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> 0x0042 - BD-R Random Recording Mode (RRM)</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0042 - BD-R Random Recording Mode (RRM)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0042 - BD-R Random Recording Mode (RRM)</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> 0x0043 - BD-RE</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0043 - BD-RE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0043 - BD-RE</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> 0x0050 - HD DVD-ROM</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0050 - HD DVD-ROM</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0050 - HD DVD-ROM</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> 0x0051 - HD DVD-R</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0051 - HD DVD-R</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0051 - HD DVD-R</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> 0x0052 - HD DVD-RAM</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0052 - HD DVD-RAM</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0052 - HD DVD-RAM</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> 0x0053 - HD DVD-RW</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0053 - HD DVD-RW</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0053 - HD DVD-RW</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> 0x0058 - HD DVD-R Dual Layer</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0058 - HD DVD-R Dual Layer</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0058 - HD DVD-R Dual Layer</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en"> 0x005A - HD DVD-RW Dual Layer</source>
+<seg-source> <mrk mid="0" mtype="seg">0x005A - HD DVD-RW Dual Layer</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x005A - HD DVD-RW Dual Layer</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en"> 0xFFFF - Unknown</source>
+<seg-source> <mrk mid="0" mtype="seg">0xFFFF - Unknown</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xFFFF - Unknown</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(IOCTL_SCSI_PASS_THROUGH);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>IOCTL_SCSI_PASS_THROUGH<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(IOCTL_SCSI_PASS_THROUGH);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>IOCTL_SCSI_PASS_THROUGH<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(IOCTL_SCSI_PASS_THROUGH);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>IOCTL_SCSI_PASS_THROUGH<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">CDROM</source>
+<seg-source><mrk mid="0" mtype="seg">CDROM</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CDROM</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Unknown</source>
+<seg-source><mrk mid="0" mtype="seg">Unknown</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unknown</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">No media</source>
+<seg-source><mrk mid="0" mtype="seg">No media</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No media</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">CD-ROM</source>
+<seg-source><mrk mid="0" mtype="seg">CD-ROM</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CD-ROM</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">CD-R</source>
+<seg-source><mrk mid="0" mtype="seg">CD-R</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CD-R</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">CD-RW</source>
+<seg-source><mrk mid="0" mtype="seg">CD-RW</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CD-RW</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">DVD-ROM</source>
+<seg-source><mrk mid="0" mtype="seg">DVD-ROM</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DVD-ROM</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">DVD-R SR</source>
+<seg-source><mrk mid="0" mtype="seg">DVD-R SR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DVD-R SR</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">DVD-RAM</source>
+<seg-source><mrk mid="0" mtype="seg">DVD-RAM</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DVD-RAM</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">DVD-RW RO</source>
+<seg-source><mrk mid="0" mtype="seg">DVD-RW RO</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DVD-RW RO</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">DVD-RW SR</source>
+<seg-source><mrk mid="0" mtype="seg">DVD-RW SR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DVD-RW SR</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">DVD-R DL</source>
+<seg-source><mrk mid="0" mtype="seg">DVD-R DL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DVD-R DL</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">DVD-R DL JR</source>
+<seg-source><mrk mid="0" mtype="seg">DVD-R DL JR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DVD-R DL JR</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">DVD-RW DL</source>
+<seg-source><mrk mid="0" mtype="seg">DVD-RW DL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DVD-RW DL</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">DVD-DDR</source>
+<seg-source><mrk mid="0" mtype="seg">DVD-DDR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DVD-DDR</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">DVD+RW</source>
+<seg-source><mrk mid="0" mtype="seg">DVD+RW</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DVD+RW</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">DVD+R</source>
+<seg-source><mrk mid="0" mtype="seg">DVD+R</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DVD+R</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">BD-ROM</source>
+<seg-source><mrk mid="0" mtype="seg">BD-ROM</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BD-ROM</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">BD-R SRM</source>
+<seg-source><mrk mid="0" mtype="seg">BD-R SRM</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BD-R SRM</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">BD-R RRM</source>
+<seg-source><mrk mid="0" mtype="seg">BD-R RRM</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BD-R RRM</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">BD-RE</source>
+<seg-source><mrk mid="0" mtype="seg">BD-RE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BD-RE</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">HD DVD-ROM</source>
+<seg-source><mrk mid="0" mtype="seg">HD DVD-ROM</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HD DVD-ROM</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">HD DVD-R</source>
+<seg-source><mrk mid="0" mtype="seg">HD DVD-R</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HD DVD-R</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">HD DVD-RAM</source>
+<seg-source><mrk mid="0" mtype="seg">HD DVD-RAM</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HD DVD-RAM</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">HD DVD-RW</source>
+<seg-source><mrk mid="0" mtype="seg">HD DVD-RW</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HD DVD-RW</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">HD DVD-R DL</source>
+<seg-source><mrk mid="0" mtype="seg">HD DVD-R DL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HD DVD-R DL</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">HD DVD-RW DL</source>
+<seg-source><mrk mid="0" mtype="seg">HD DVD-RW DL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HD DVD-RW DL</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">=></source>
+<seg-source><mrk mid="0" mtype="seg">=></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">=></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

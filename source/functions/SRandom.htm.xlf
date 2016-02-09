@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/SRandom.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Set Seed for random number generation.</source>
+<seg-source><mrk mid="0" mtype="seg">Set Seed for random number generation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set Seed for random number generation.</mrk></target>
+<note>Function SRandom</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Seed value for random number generation. Number between -2^31 and 2^31-1</source>
+<seg-source><mrk mid="0" mtype="seg">Seed value for random number generation.</mrk> <mrk mid="1" mtype="seg">Number between -2^31 and 2^31-1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Seed value for random number generation.</mrk> <mrk mid="1" mtype="seg">Number between -2^31 and 2^31-1</mrk></target>
+<note>Seed</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">None.</source>
+<seg-source><mrk mid="0" mtype="seg">None.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None.</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">When using <bpt id="1" ctype="x-a">&lt;a href="SRandom.htm"></bpt>SRandom()<ept id="1">&lt;/a></ept> sequence of random numbers will be repeated each time you run the script. For example, you can test the speed of the script and the random numbers will not affect the test results.</source>
+<seg-source><mrk mid="0" mtype="seg">When using <bpt id="1" ctype="x-a">&lt;a href="SRandom.htm"></bpt>SRandom()<ept id="1">&lt;/a></ept> sequence of random numbers will be repeated each time you run the script.</mrk> <mrk mid="1" mtype="seg">For example, you can test the speed of the script and the random numbers will not affect the test results.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When using <bpt id="1" ctype="x-a">&lt;a href="SRandom.htm"></bpt>SRandom()<ept id="1">&lt;/a></ept> sequence of random numbers will be repeated each time you run the script.</mrk> <mrk mid="1" mtype="seg">For example, you can test the speed of the script and the random numbers will not affect the test results.</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> After each call to <bpt id="1" ctype="x-a">&lt;a href="SRandom.htm"></bpt>SRandom()<ept id="1">&lt;/a></ept> random number generator starts a new sequence. Use the <bpt id="1" ctype="x-a">&lt;a href="SRandom.htm"></bpt>SRandom<ept id="1">&lt;/a></ept>(@SEC), for random sequences.</source>
+<seg-source> <mrk mid="0" mtype="seg">After each call to <bpt id="1" ctype="x-a">&lt;a href="SRandom.htm"></bpt>SRandom()<ept id="1">&lt;/a></ept> random number generator starts a new sequence.</mrk> <mrk mid="1" mtype="seg">Use the <bpt id="1" ctype="x-a">&lt;a href="SRandom.htm"></bpt>SRandom<ept id="1">&lt;/a></ept>(@SEC), for random sequences.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">After each call to <bpt id="1" ctype="x-a">&lt;a href="SRandom.htm"></bpt>SRandom()<ept id="1">&lt;/a></ept> random number generator starts a new sequence.</mrk> <mrk mid="1" mtype="seg">Use the <bpt id="1" ctype="x-a">&lt;a href="SRandom.htm"></bpt>SRandom<ept id="1">&lt;/a></ept>(@SEC), for random sequences.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Sets the seed to the number 12.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the seed to the number 12.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the seed to the number 12.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Assign a Local variable the random number based on the above seed.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign a Local variable the random number based on the above seed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign a Local variable the random number based on the above seed.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Note: You will get the same result each time as the seed is constant.</source>
+<seg-source><mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">You will get the same result each time as the seed is constant.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">You will get the same result each time as the seed is constant.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Display the result.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the result.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the result.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

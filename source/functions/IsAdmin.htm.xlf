@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/IsAdmin.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Checks if the current user has full administrator privileges.</source>
+<seg-source><mrk mid="0" mtype="seg">Checks if the current user has full administrator privileges.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Checks if the current user has full administrator privileges.</mrk></target>
+<note>Function IsAdmin</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">1 if the current user has administrator privileges.</source>
+<seg-source><mrk mid="0" mtype="seg">1 if the current user has administrator privileges.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 if the current user has administrator privileges.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">0 if user lacks admin privileges.</source>
+<seg-source><mrk mid="0" mtype="seg">0 if user lacks admin privileges.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 if user lacks admin privileges.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">It returns 1 under Windows Vista only if running with a full administrator token (i.e. <bpt id="1" ctype="x-a">&lt;a href="../keywords/RequireAdmin.htm"></bpt>#RequireAdmin<ept id="1">&lt;/a></ept> has been used, or has already been elevated by UAC).</source>
+<seg-source><mrk mid="0" mtype="seg">It returns 1 under Windows Vista only if running with a full administrator token (i.e.</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="../keywords/RequireAdmin.htm"></bpt>#RequireAdmin<ept id="1">&lt;/a></ept> has been used, or has already been elevated by UAC).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It returns 1 under Windows Vista only if running with a full administrator token (i.e.</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="../keywords/RequireAdmin.htm"></bpt>#RequireAdmin<ept id="1">&lt;/a></ept> has been used, or has already been elevated by UAC).</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">IsAdmin</source>
+<seg-source><mrk mid="0" mtype="seg">IsAdmin</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IsAdmin</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Admin rights are detected.</source>
+<seg-source><mrk mid="0" mtype="seg">Admin rights are detected.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Admin rights are detected.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

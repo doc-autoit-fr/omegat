@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/$tagNMITEMACTIVATE.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Keyword Reference</source>
+<seg-source><mrk mid="0" mtype="seg">Keyword Reference</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Keyword Reference</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Sent by a list-view control when the user activates an item</source>
+<seg-source><mrk mid="0" mtype="seg">Sent by a list-view control when the user activates an item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent by a list-view control when the user activates an item</mrk></target>
+<note>Keyword $tagNMITEMACTIVATE</note>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Contains information about a notification message</source>
+<seg-source><mrk mid="0" mtype="seg">Contains information about a notification message</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains information about a notification message</mrk></target>
+<note>$tagNMHDR</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Index of the list-view item. If the item index is not used for the notification, this member will contain -1</source>
+<seg-source><mrk mid="0" mtype="seg">Index of the list-view item.</mrk> <mrk mid="1" mtype="seg">If the item index is not used for the notification, this member will contain -1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Index of the list-view item.</mrk> <mrk mid="1" mtype="seg">If the item index is not used for the notification, this member will contain -1</mrk></target>
+<note>Index</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">1-based index of the subitem. If the subitem index is not used for the notification or the notification does not apply to a subitem, this member will contain zero.</source>
+<seg-source><mrk mid="0" mtype="seg">1-based index of the subitem.</mrk> <mrk mid="1" mtype="seg">If the subitem index is not used for the notification or the notification does not apply to a subitem, this member will contain zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1-based index of the subitem.</mrk> <mrk mid="1" mtype="seg">If the subitem index is not used for the notification or the notification does not apply to a subitem, this member will contain zero.</mrk></target>
+<note>SubItem</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">New item state. This member is zero for notification messages that do not use it</source>
+<seg-source><mrk mid="0" mtype="seg">New item state.</mrk> <mrk mid="1" mtype="seg">This member is zero for notification messages that do not use it</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">New item state.</mrk> <mrk mid="1" mtype="seg">This member is zero for notification messages that do not use it</mrk></target>
+<note>NewState</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Old item state. This member is zero for notification messages that do not use it</source>
+<seg-source><mrk mid="0" mtype="seg">Old item state.</mrk> <mrk mid="1" mtype="seg">This member is zero for notification messages that do not use it</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Old item state.</mrk> <mrk mid="1" mtype="seg">This member is zero for notification messages that do not use it</mrk></target>
+<note>OldState</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Set of flags that indicate the item attributes that have changed.</source>
+<seg-source><mrk mid="0" mtype="seg">Set of flags that indicate the item attributes that have changed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set of flags that indicate the item attributes that have changed.</mrk></target>
+<note>Changed</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> This member is zero for notifications that do not use it.</source>
+<seg-source> <mrk mid="0" mtype="seg">This member is zero for notifications that do not use it.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This member is zero for notifications that do not use it.</mrk></target>
+<note>Changed</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> This member can have one or more of the following flags set:</source>
+<seg-source> <mrk mid="0" mtype="seg">This member can have one or more of the following flags set:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This member can have one or more of the following flags set:</mrk></target>
+<note>Changed</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $LVIF_COLUMNS - The Columns member is valid</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVIF_COLUMNS - The Columns member is valid</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVIF_COLUMNS - The Columns member is valid</mrk></target>
+<note>Changed</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $LVIF_DI_SETITEM - The operating system should store the requested list item information</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVIF_DI_SETITEM - The operating system should store the requested list item information</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVIF_DI_SETITEM - The operating system should store the requested list item information</mrk></target>
+<note>Changed</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $LVIF_GROUPID - The GroupID member is valid</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVIF_GROUPID - The GroupID member is valid</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVIF_GROUPID - The GroupID member is valid</mrk></target>
+<note>Changed</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $LVIF_IMAGE - The Image member is valid</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVIF_IMAGE - The Image member is valid</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVIF_IMAGE - The Image member is valid</mrk></target>
+<note>Changed</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $LVIF_INDENT - The Indent member is valid</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVIF_INDENT - The Indent member is valid</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVIF_INDENT - The Indent member is valid</mrk></target>
+<note>Changed</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $LVIF_NORECOMPUTE - The control will not generate LVN_GETDISPINFO to retrieve text information</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVIF_NORECOMPUTE - The control will not generate LVN_GETDISPINFO to retrieve text information</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVIF_NORECOMPUTE - The control will not generate LVN_GETDISPINFO to retrieve text information</mrk></target>
+<note>Changed</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $LVIF_PARAM - The Param member is valid</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVIF_PARAM - The Param member is valid</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVIF_PARAM - The Param member is valid</mrk></target>
+<note>Changed</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $LVIF_STATE - The State member is valid</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVIF_STATE - The State member is valid</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVIF_STATE - The State member is valid</mrk></target>
+<note>Changed</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     $LVIF_TEXT - The Text member is valid</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVIF_TEXT - The Text member is valid</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVIF_TEXT - The Text member is valid</mrk></target>
+<note>Changed</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Specifies the x-coordinate of the point</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the x-coordinate of the point</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the x-coordinate of the point</mrk></target>
+<note>X</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Specifies the y-coordinate of the point</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the y-coordinate of the point</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the y-coordinate of the point</mrk></target>
+<note>Y</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Application-defined value of the item. This member is undefined for notification messages that do not use it</source>
+<seg-source><mrk mid="0" mtype="seg">Application-defined value of the item.</mrk> <mrk mid="1" mtype="seg">This member is undefined for notification messages that do not use it</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Application-defined value of the item.</mrk> <mrk mid="1" mtype="seg">This member is undefined for notification messages that do not use it</mrk></target>
+<note>lParam</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Modifier keys that were pressed at the time of the activation.</source>
+<seg-source><mrk mid="0" mtype="seg">Modifier keys that were pressed at the time of the activation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Modifier keys that were pressed at the time of the activation.</mrk></target>
+<note>KeyFlags</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> This member contains zero or a combination of the following flags:</source>
+<seg-source> <mrk mid="0" mtype="seg">This member contains zero or a combination of the following flags:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This member contains zero or a combination of the following flags:</mrk></target>
+<note>KeyFlags</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">     $LVKF_ALT - The key is pressed.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVKF_ALT - The key is pressed.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVKF_ALT - The key is pressed.</mrk></target>
+<note>KeyFlags</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">     $LVKF_CONTROL - The key is pressed.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVKF_CONTROL - The key is pressed.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVKF_CONTROL - The key is pressed.</mrk></target>
+<note>KeyFlags</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">     $LVKF_SHIFT - The key is pressed.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVKF_SHIFT - The key is pressed.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVKF_SHIFT - The key is pressed.</mrk></target>
+<note>KeyFlags</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

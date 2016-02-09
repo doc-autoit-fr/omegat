@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/DllCallbackRegister.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a user-defined DLL Callback function.</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a user-defined DLL Callback function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a user-defined DLL Callback function.</mrk></target>
+<note>Function DllCallbackRegister</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The name of the User Defined Function to call.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the User Defined Function to call.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the User Defined Function to call.</mrk></target>
+<note>function</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The return type and calling convention of the function (see DllCall).</source>
+<seg-source><mrk mid="0" mtype="seg">The return type and calling convention of the function (see DllCall).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The return type and calling convention of the function (see DllCall).</mrk></target>
+<note>return type</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">A semi-colon separated list of parameters that will be passed to this function. See Remarks.</source>
+<seg-source><mrk mid="0" mtype="seg">A semi-colon separated list of parameters that will be passed to this function.</mrk> <mrk mid="1" mtype="seg">See Remarks.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A semi-colon separated list of parameters that will be passed to this function.</mrk> <mrk mid="1" mtype="seg">See Remarks.</mrk></target>
+<note>params</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> a dll "handle" to be used with <bpt id="1" ctype="x-a">&lt;a href="DllCallbackGetPtr.htm"></bpt>DllCallbackGetPtr()<ept id="1">&lt;/a></ept> and <bpt id="2" ctype="x-a">&lt;a href="DllCallbackFree.htm"></bpt>DllCallbackFree()<ept id="2">&lt;/a></ept> functions. </source>
+<seg-source> <mrk mid="0" mtype="seg">a dll "handle" to be used with <bpt id="1" ctype="x-a">&lt;a href="DllCallbackGetPtr.htm"></bpt>DllCallbackGetPtr()<ept id="1">&lt;/a></ept> and <bpt id="2" ctype="x-a">&lt;a href="DllCallbackFree.htm"></bpt>DllCallbackFree()<ept id="2">&lt;/a></ept> functions.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">a dll "handle" to be used with <bpt id="1" ctype="x-a">&lt;a href="DllCallbackGetPtr.htm"></bpt>DllCallbackGetPtr()<ept id="1">&lt;/a></ept> and <bpt id="2" ctype="x-a">&lt;a href="DllCallbackFree.htm"></bpt>DllCallbackFree()<ept id="2">&lt;/a></ept> functions.</mrk> </target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">0 if error occurs.</source>
+<seg-source><mrk mid="0" mtype="seg">0 if error occurs.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 if error occurs.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Uses all <bpt id="1" ctype="x-a">&lt;a href="DllCall.htm"></bpt>DllCall()<ept id="1">&lt;/a></ept> types except "struct".</source>
+<seg-source><mrk mid="0" mtype="seg">Uses all <bpt id="1" ctype="x-a">&lt;a href="DllCall.htm"></bpt>DllCall()<ept id="1">&lt;/a></ept> types except "struct".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Uses all <bpt id="1" ctype="x-a">&lt;a href="DllCall.htm"></bpt>DllCall()<ept id="1">&lt;/a></ept> types except "struct".</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> When finished working with a callback, call the <bpt id="1" ctype="x-a">&lt;a href="DllCallbackFree.htm"></bpt>DllCallbackFree()<ept id="1">&lt;/a></ept> function to close it. AutoIt normally closes all files upon termination, but explicitly calling <bpt id="1" ctype="x-a">&lt;a href="DllCallbackFree.htm"></bpt>DllCallbackFree()<ept id="1">&lt;/a></ept> is still a good idea.</source>
+<seg-source> <mrk mid="0" mtype="seg">When finished working with a callback, call the <bpt id="1" ctype="x-a">&lt;a href="DllCallbackFree.htm"></bpt>DllCallbackFree()<ept id="1">&lt;/a></ept> function to close it.</mrk> <mrk mid="1" mtype="seg">AutoIt normally closes all files upon termination, but explicitly calling <bpt id="1" ctype="x-a">&lt;a href="DllCallbackFree.htm"></bpt>DllCallbackFree()<ept id="1">&lt;/a></ept> is still a good idea.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When finished working with a callback, call the <bpt id="1" ctype="x-a">&lt;a href="DllCallbackFree.htm"></bpt>DllCallbackFree()<ept id="1">&lt;/a></ept> function to close it.</mrk> <mrk mid="1" mtype="seg">AutoIt normally closes all files upon termination, but explicitly calling <bpt id="1" ctype="x-a">&lt;a href="DllCallbackFree.htm"></bpt>DllCallbackFree()<ept id="1">&lt;/a></ept> is still a good idea.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Create callback function.</source>
+<seg-source><mrk mid="0" mtype="seg">Create callback function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create callback function.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">_EnumWindowsProc</source>
+<seg-source><mrk mid="0" mtype="seg">_EnumWindowsProc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_EnumWindowsProc</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">hwnd;lparam</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd;lparam</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd;lparam</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Call EnumWindows.</source>
+<seg-source><mrk mid="0" mtype="seg">Call EnumWindows.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Call EnumWindows.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">user32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">user32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">EnumWindows</source>
+<seg-source><mrk mid="0" mtype="seg">EnumWindows</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">EnumWindows</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">ptr</source>
+<seg-source><mrk mid="0" mtype="seg">ptr</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ptr</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">lparam</source>
+<seg-source><mrk mid="0" mtype="seg">lparam</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">lparam</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Delete callback function.</source>
+<seg-source><mrk mid="0" mtype="seg">Delete callback function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete callback function.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Callback Procedure</source>
+<seg-source><mrk mid="0" mtype="seg">Callback Procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Callback Procedure</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">If the Title is empty or if the window is not visible then continue enumeration.</source>
+<seg-source><mrk mid="0" mtype="seg">If the Title is empty or if the window is not visible then continue enumeration.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the Title is empty or if the window is not visible then continue enumeration.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">$hWnd=</source>
+<seg-source><mrk mid="0" mtype="seg">$hWnd=</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$hWnd=</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">$lParam=</source>
+<seg-source><mrk mid="0" mtype="seg">$lParam=</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$lParam=</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">$hWnd(type)=</source>
+<seg-source><mrk mid="0" mtype="seg">$hWnd(type)=</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$hWnd(type)=</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Cancel/Close button clicked, return 0 to stop enumeration.</source>
+<seg-source><mrk mid="0" mtype="seg">Cancel/Close button clicked, return 0 to stop enumeration.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cancel/Close button clicked, return 0 to stop enumeration.</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Return 1 to continue enumeration.</source>
+<seg-source><mrk mid="0" mtype="seg">Return 1 to continue enumeration.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return 1 to continue enumeration.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_ScreenCapture_SaveImage.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Saves an image to file</source>
+<seg-source><mrk mid="0" mtype="seg">Saves an image to file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Saves an image to file</mrk></target>
+<note>Function _ScreenCapture_SaveImage</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Full path and extension of the bitmap file to be saved</source>
+<seg-source><mrk mid="0" mtype="seg">Full path and extension of the bitmap file to be saved</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Full path and extension of the bitmap file to be saved</mrk></target>
+<note>$sFileName</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">HBITMAP handle</source>
+<seg-source><mrk mid="0" mtype="seg">HBITMAP handle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HBITMAP handle</mrk></target>
+<note>$hBitmap</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If True, $hBitmap will be freed on a successful save (default)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True, $hBitmap will be freed on a successful save (default)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True, $hBitmap will be freed on a successful save (default)</mrk></target>
+<note>$bFreeBmp</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">False.</source>
+<seg-source><mrk mid="0" mtype="seg">False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">This function saves a bitmap to file, converting it to the image format specified by the file name extension.</source>
+<seg-source><mrk mid="0" mtype="seg">This function saves a bitmap to file, converting it to the image format specified by the file name extension.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function saves a bitmap to file, converting it to the image format specified by the file name extension.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> For Windows XP, the valid extensions are BMP, GIF, JPEG, PNG and TIF.</source>
+<seg-source> <mrk mid="0" mtype="seg">For Windows XP, the valid extensions are BMP, GIF, JPEG, PNG and TIF.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For Windows XP, the valid extensions are BMP, GIF, JPEG, PNG and TIF.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Capture full screen</source>
+<seg-source><mrk mid="0" mtype="seg">Capture full screen</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Capture full screen</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Save bitmap to file</source>
+<seg-source><mrk mid="0" mtype="seg">Save bitmap to file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Save bitmap to file</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">\GDIPlus_Image.jpg</source>
+<seg-source><mrk mid="0" mtype="seg">\GDIPlus_Image.jpg</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\GDIPlus_Image.jpg</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">\GDIPlus_Image.jpg</source>
+<seg-source><mrk mid="0" mtype="seg">\GDIPlus_Image.jpg</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\GDIPlus_Image.jpg</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

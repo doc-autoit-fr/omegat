@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_Word_DocExport.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Exports the document or a range as PDF or XPS</source>
+<seg-source><mrk mid="0" mtype="seg">Exports the document or a range as PDF or XPS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exports the document or a range as PDF or XPS</mrk></target>
+<note>Function _Word_DocExport</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Word document object to be exported</source>
+<seg-source><mrk mid="0" mtype="seg">Word document object to be exported</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word document object to be exported</mrk></target>
+<note>$oDoc</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Path/name of the exported file</source>
+<seg-source><mrk mid="0" mtype="seg">Path/name of the exported file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Path/name of the exported file</mrk></target>
+<note>$sFileName</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Format to use for the export. Can be any of the WdExportFormat enumeration</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Format to use for the export.</mrk> <mrk mid="2" mtype="seg">Can be any of the WdExportFormat enumeration</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Format to use for the export.</mrk> <mrk mid="2" mtype="seg">Can be any of the WdExportFormat enumeration</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> (default = $WdExportFormatPDF)</source>
+<seg-source> <mrk mid="0" mtype="seg">(default = $WdExportFormatPDF)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">(default = $WdExportFormatPDF)</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies what to export. Can be any of the WdExportRange enumeration</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies what to export.</mrk> <mrk mid="2" mtype="seg">Can be any of the WdExportRange enumeration</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies what to export.</mrk> <mrk mid="2" mtype="seg">Can be any of the WdExportRange enumeration</mrk></target>
+<note>$iRange</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> (default = $WdExportAllDocument)</source>
+<seg-source> <mrk mid="0" mtype="seg">(default = $WdExportAllDocument)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">(default = $WdExportAllDocument)</mrk></target>
+<note>$iRange</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The page number at which to start publishing (default = start at the beginning)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The page number at which to start publishing (default = start at the beginning)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The page number at which to start publishing (default = start at the beginning)</mrk></target>
+<note>$iFrom</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The page number at which to end publishing (default = end at the last page)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The page number at which to end publishing (default = end at the last page)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The page number at which to end publishing (default = end at the last page)</mrk></target>
+<note>$iTo</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> True displays the file in a viewer after it is published (default = False)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True displays the file in a viewer after it is published (default = False)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True displays the file in a viewer after it is published (default = False)</mrk></target>
+<note>$bOpenAfterExport</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> True indicates that document properties should be included (default = True)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True indicates that document properties should be included (default = True)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True indicates that document properties should be included (default = True)</mrk></target>
+<note>$bIncludeProperties</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether to export bookmarks and the type of bookmarks to export.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to export bookmarks and the type of bookmarks to export.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to export bookmarks and the type of bookmarks to export.</mrk></target>
+<note>$iCreateBookmarks</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> Can be any of the WdExportCreateBookmarks enumeration (default)</source>
+<seg-source> <mrk mid="0" mtype="seg">Can be any of the WdExportCreateBookmarks enumeration (default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Can be any of the WdExportCreateBookmarks enumeration (default)</mrk></target>
+<note>$iCreateBookmarks</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether the export should be created as PDF/A (self-contained PDF) (default = False)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether the export should be created as PDF/A (self-contained PDF) (default = False)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether the export should be created as PDF/A (self-contained PDF) (default = False)</mrk></target>
+<note>$bUseISO19005</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">1 - $oDoc is not an object</source>
+<seg-source><mrk mid="0" mtype="seg">1 - $oDoc is not an object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - $oDoc is not an object</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> 2 - $sFileName is empty</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - $sFileName is empty</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - $sFileName is empty</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> 3 - Error returned when exporting the object. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - Error returned when exporting the object.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - Error returned when exporting the object.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Create application object</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Word UDF: _Word_DocPrint Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPrint Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPrint Example</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Error creating a new Word application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating a new Word application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating a new Word application object.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Open test document</source>
+<seg-source><mrk mid="0" mtype="seg">Open test document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open test document</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">\Extras\Test.doc</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\Test.doc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\Test.doc</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Word UDF: _Word_DocPrint Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPrint Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPrint Example</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Error opening '.\Extras\Test.doc'.</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening '.\Extras\Test.doc'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening '.\Extras\Test.doc'.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Export the complete document with default values</source>
+<seg-source><mrk mid="0" mtype="seg">Export the complete document with default values</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Export the complete document with default values</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">\Test1.pdf</source>
+<seg-source><mrk mid="0" mtype="seg">\Test1.pdf</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Test1.pdf</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Word UDF: _Word_DocExport Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocExport Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocExport Example</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Error exporting the document.</source>
+<seg-source><mrk mid="0" mtype="seg">Error exporting the document.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error exporting the document.</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Word UDF: _Word_DocExport Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocExport Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocExport Example</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">The whole document has successfully been exported to:</source>
+<seg-source><mrk mid="0" mtype="seg">The whole document has successfully been exported to:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The whole document has successfully been exported to:</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Create application object</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Word UDF: _Word_DocPrint Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPrint Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPrint Example</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Error creating a new Word application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating a new Word application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating a new Word application object.</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Open test document</source>
+<seg-source><mrk mid="0" mtype="seg">Open test document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open test document</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">\Extras\Test.doc</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\Test.doc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\Test.doc</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Word UDF: _Word_DocPrint Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPrint Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPrint Example</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Error opening '.\Extras\Test.doc'.</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening '.\Extras\Test.doc'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening '.\Extras\Test.doc'.</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Export a range as PDF/A and display the exported file</source>
+<seg-source><mrk mid="0" mtype="seg">Export a range as PDF/A and display the exported file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Export a range as PDF/A and display the exported file</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">Set the range to lines 2 and 3</source>
+<seg-source><mrk mid="0" mtype="seg">Set the range to lines 2 and 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the range to lines 2 and 3</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">\Test2.pdf</source>
+<seg-source><mrk mid="0" mtype="seg">\Test2.pdf</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Test2.pdf</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">Word UDF: _Word_DocExport Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocExport Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocExport Example</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">Error exporting the document.</source>
+<seg-source><mrk mid="0" mtype="seg">Error exporting the document.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error exporting the document.</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">Word UDF: _Word_DocExport Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocExport Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocExport Example</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">The specified range has successfully been exported to:</source>
+<seg-source><mrk mid="0" mtype="seg">The specified range has successfully been exported to:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The specified range has successfully been exported to:</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">Create application object</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">Word UDF: _Word_DocPrint Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPrint Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPrint Example</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">Error creating a new Word application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating a new Word application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating a new Word application object.</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">Open test document</source>
+<seg-source><mrk mid="0" mtype="seg">Open test document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open test document</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">\Extras\Test.doc</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\Test.doc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\Test.doc</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">Word UDF: _Word_DocPrint Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPrint Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPrint Example</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">Error opening '.\Extras\Test.doc'.</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening '.\Extras\Test.doc'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening '.\Extras\Test.doc'.</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">Export the current page</source>
+<seg-source><mrk mid="0" mtype="seg">Export the current page</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Export the current page</mrk></target>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">\Test3.pdf</source>
+<seg-source><mrk mid="0" mtype="seg">\Test3.pdf</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Test3.pdf</mrk></target>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en">Word UDF: _Word_DocExport Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocExport Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocExport Example</mrk></target>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">Error exporting the document.</source>
+<seg-source><mrk mid="0" mtype="seg">Error exporting the document.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error exporting the document.</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">Word UDF: _Word_DocExport Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocExport Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocExport Example</mrk></target>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en">The current page has successfully been exported to:</source>
+<seg-source><mrk mid="0" mtype="seg">The current page has successfully been exported to:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The current page has successfully been exported to:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

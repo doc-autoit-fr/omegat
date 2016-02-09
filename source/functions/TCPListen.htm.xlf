@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/TCPListen.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a socket listening for an incoming connection.</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a socket listening for an incoming connection.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a socket listening for an incoming connection.</mrk></target>
+<note>Function TCPListen</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Internet Protocol dotted address(IpV4) as "192.162.1.1".</source>
+<seg-source><mrk mid="0" mtype="seg">Internet Protocol dotted address(IpV4) as "192.162.1.1".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Internet Protocol dotted address(IpV4) as "192.162.1.1".</mrk></target>
+<note>IPAddr</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">port on which the created socket will be connected.</source>
+<seg-source><mrk mid="0" mtype="seg">port on which the created socket will be connected.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">port on which the created socket will be connected.</mrk></target>
+<note>port</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Maximum length of the queue of pending connections. By default the maximum reasonable value will be set.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Maximum length of the queue of pending connections.</mrk> <mrk mid="2" mtype="seg">By default the maximum reasonable value will be set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Maximum length of the queue of pending connections.</mrk> <mrk mid="2" mtype="seg">By default the maximum reasonable value will be set.</mrk></target>
+<note>MaxPendingConnection</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">the main socket identifier.</source>
+<seg-source><mrk mid="0" mtype="seg">the main socket identifier.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the main socket identifier.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">-1 or 0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">-1 or 0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1 or 0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> 1 IPAddr is incorrect.</source>
+<seg-source> <mrk mid="0" mtype="seg">1 IPAddr is incorrect.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 IPAddr is incorrect.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> 2 port is incorrect.</source>
+<seg-source> <mrk mid="0" mtype="seg">2 port is incorrect.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 port is incorrect.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> Windows API WSAGetError return value (see <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ms740668.aspx"></bpt>MSDN<ept id="1">&lt;/a></ept>). </source>
+<seg-source> <mrk mid="0" mtype="seg">Windows API WSAGetError return value (see <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ms740668.aspx"></bpt>MSDN<ept id="1">&lt;/a></ept>).</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Windows API WSAGetError return value (see <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ms740668.aspx"></bpt>MSDN<ept id="1">&lt;/a></ept>).</mrk> </target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="TCPAccept.htm"></bpt>TCPAccept<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="TCPCloseSocket.htm"></bpt>TCPCloseSocket<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="TCPConnect.htm"></bpt>TCPConnect<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="TCPSend.htm"></bpt>TCPSend<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="TCPShutdown.htm"></bpt>TCPShutdown<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="TCPStartup.htm"></bpt>TCPStartup<ept id="6">&lt;/a></ept>, <bpt id="7" ctype="x-a">&lt;a href="AutoItSetOption.htm#TCPTimeout"></bpt>TCPTimeout (Option)<ept id="7">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="TCPAccept.htm"></bpt>TCPAccept<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="TCPCloseSocket.htm"></bpt>TCPCloseSocket<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="TCPConnect.htm"></bpt>TCPConnect<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="TCPSend.htm"></bpt>TCPSend<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="TCPShutdown.htm"></bpt>TCPShutdown<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="TCPStartup.htm"></bpt>TCPStartup<ept id="6">&lt;/a></ept>, <bpt id="7" ctype="x-a">&lt;a href="AutoItSetOption.htm#TCPTimeout"></bpt>TCPTimeout (Option)<ept id="7">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="TCPAccept.htm"></bpt>TCPAccept<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="TCPCloseSocket.htm"></bpt>TCPCloseSocket<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="TCPConnect.htm"></bpt>TCPConnect<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="TCPSend.htm"></bpt>TCPSend<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="TCPShutdown.htm"></bpt>TCPShutdown<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="TCPStartup.htm"></bpt>TCPStartup<ept id="6">&lt;/a></ept>, <bpt id="7" ctype="x-a">&lt;a href="AutoItSetOption.htm#TCPTimeout"></bpt>TCPTimeout (Option)<ept id="7">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Start the TCP service.</source>
+<seg-source><mrk mid="0" mtype="seg">Start the TCP service.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Start the TCP service.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Register OnAutoItExit to be called when the script is closed.</source>
+<seg-source><mrk mid="0" mtype="seg">Register OnAutoItExit to be called when the script is closed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Register OnAutoItExit to be called when the script is closed.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">OnAutoItExit</source>
+<seg-source><mrk mid="0" mtype="seg">OnAutoItExit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OnAutoItExit</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Assign Local variables the loopback IP Address and the Port.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign Local variables the loopback IP Address and the Port.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign Local variables the loopback IP Address and the Port.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">127.0.0.1</source>
+<seg-source><mrk mid="0" mtype="seg">127.0.0.1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">127.0.0.1</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">This IP Address only works for testing on your own computer.</source>
+<seg-source><mrk mid="0" mtype="seg">This IP Address only works for testing on your own computer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This IP Address only works for testing on your own computer.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Port used for the connection.</source>
+<seg-source><mrk mid="0" mtype="seg">Port used for the connection.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Port used for the connection.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Assign a Local variable the Listening socket and bind to the IP Address and Port specified with a maximum of 100 pending connexions.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign a Local variable the Listening socket and bind to the IP Address and Port specified with a maximum of 100 pending connexions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign a Local variable the Listening socket and bind to the IP Address and Port specified with a maximum of 100 pending connexions.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Notes: You can only listen on private IPs, such as the one used here;</source>
+<seg-source><mrk mid="0" mtype="seg">Notes:</mrk> <mrk mid="1" mtype="seg">You can only listen on private IPs, such as the one used here;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notes:</mrk> <mrk mid="1" mtype="seg">You can only listen on private IPs, such as the one used here;</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">or on the range of 192 to 223 (generally 192.168.X.X, use @IPAddress1 to test on your local IP [you will need another computer]).</source>
+<seg-source><mrk mid="0" mtype="seg">or on the range of 192 to 223 (generally 192.168.</mrk><mrk mid="1" mtype="seg">X.</mrk><mrk mid="2" mtype="seg">X, use @IPAddress1 to test on your local IP [you will need another computer]).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">or on the range of 192 to 223 (generally 192.168.</mrk><mrk mid="1" mtype="seg">X.</mrk><mrk mid="2" mtype="seg">X, use @IPAddress1 to test on your local IP [you will need another computer]).</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">The Listen socket identifier is only used for the TCP Accept function.</source>
+<seg-source><mrk mid="0" mtype="seg">The Listen socket identifier is only used for the TCP Accept function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Listen socket identifier is only used for the TCP Accept function.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">If an error occurred display the error code and return False.</source>
+<seg-source><mrk mid="0" mtype="seg">If an error occurred display the error code and return False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If an error occurred display the error code and return False.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Someone is probably already listening on this IP Address and Port (script already running?).</source>
+<seg-source><mrk mid="0" mtype="seg">Someone is probably already listening on this IP Address and Port (script already running?).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Someone is probably already listening on this IP Address and Port (script already running?).</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Could not listen, Error code:</source>
+<seg-source><mrk mid="0" mtype="seg">Could not listen, Error code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Could not listen, Error code:</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Listen successful.</source>
+<seg-source><mrk mid="0" mtype="seg">Listen successful.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Listen successful.</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Close the Listening socket to allow afterward binds.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the Listening socket to allow afterward binds.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the Listening socket to allow afterward binds.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">While not closed, any other program can NOT bind to the same IP Address and Port.</source>
+<seg-source><mrk mid="0" mtype="seg">While not closed, any other program can NOT bind to the same IP Address and Port.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">While not closed, any other program can NOT bind to the same IP Address and Port.</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Close the TCP service.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the TCP service.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the TCP service.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

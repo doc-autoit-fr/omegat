@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUICtrlListView_Scroll.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Scrolls the content of a list-view</source>
+<seg-source><mrk mid="0" mtype="seg">Scrolls the content of a list-view</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scrolls the content of a list-view</mrk></target>
+<note>Function _GUICtrlListView_Scroll</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Control ID/Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Value of type int that specifies the amount of horizontal scrolling in pixels.</source>
+<seg-source><mrk mid="0" mtype="seg">Value of type int that specifies the amount of horizontal scrolling in pixels.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Value of type int that specifies the amount of horizontal scrolling in pixels.</mrk></target>
+<note>$iDX</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> If the list-view control is in list-view, this value specifies the number of columns to scroll.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the list-view control is in list-view, this value specifies the number of columns to scroll.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the list-view control is in list-view, this value specifies the number of columns to scroll.</mrk></target>
+<note>$iDX</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Value of type int that specifies the amount of vertical scrolling in pixels</source>
+<seg-source><mrk mid="0" mtype="seg">Value of type int that specifies the amount of vertical scrolling in pixels</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Value of type int that specifies the amount of vertical scrolling in pixels</mrk></target>
+<note>$iDY</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">False.</source>
+<seg-source><mrk mid="0" mtype="seg">False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">When the list-view control is in report view, the control can only be scrolled vertically in whole line increments.</source>
+<seg-source><mrk mid="0" mtype="seg">When the list-view control is in report view, the control can only be scrolled vertically in whole line increments.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When the list-view control is in report view, the control can only be scrolled vertically in whole line increments.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> Therefore, the $iDY parameter will be rounded to the nearest number of pixels that form a whole line increment.</source>
+<seg-source> <mrk mid="0" mtype="seg">Therefore, the $iDY parameter will be rounded to the nearest number of pixels that form a whole line increment.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Therefore, the $iDY parameter will be rounded to the nearest number of pixels that form a whole line increment.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> For example, if the height of a line is 16 pixels and 8 is passed for $iDY, the list will be scrolled by 16 pixels (1 line).</source>
+<seg-source> <mrk mid="0" mtype="seg">For example, if the height of a line is 16 pixels and 8 is passed for $iDY, the list will be scrolled by 16 pixels (1 line).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For example, if the height of a line is 16 pixels and 8 is passed for $iDY, the list will be scrolled by 16 pixels (1 line).</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> If 7 is passed for $iDY, the list will be scrolled 0 pixels (0 lines).</source>
+<seg-source> <mrk mid="0" mtype="seg">If 7 is passed for $iDY, the list will be scrolled 0 pixels (0 lines).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If 7 is passed for $iDY, the list will be scrolled 0 pixels (0 lines).</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">ListView Scroll</source>
+<seg-source><mrk mid="0" mtype="seg">ListView Scroll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ListView Scroll</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Add column</source>
+<seg-source><mrk mid="0" mtype="seg">Add column</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add column</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Items</source>
+<seg-source><mrk mid="0" mtype="seg">Items</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Items</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Add items</source>
+<seg-source><mrk mid="0" mtype="seg">Add items</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add items</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Item</source>
+<seg-source><mrk mid="0" mtype="seg">Item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Scroll control 500 pixels</source>
+<seg-source><mrk mid="0" mtype="seg">Scroll control 500 pixels</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scroll control 500 pixels</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_Date_Time_SetFileTime.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the date and time that a file was created, accessed and modified</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the date and time that a file was created, accessed and modified</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the date and time that a file was created, accessed and modified</mrk></target>
+<note>Function _Date_Time_SetFileTime</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the file. The file handle must have been created using the CreateFile function with the FILE_WRITE_ATTRIBUTES access right.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the file.</mrk> <mrk mid="1" mtype="seg">The file handle must have been created using the CreateFile function with the FILE_WRITE_ATTRIBUTES access right.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the file.</mrk> <mrk mid="1" mtype="seg">The file handle must have been created using the CreateFile function with the FILE_WRITE_ATTRIBUTES access right.</mrk></target>
+<note>$hFile</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">a $tagFILETIME structure that contains the new date and time the file was created.</source>
+<seg-source><mrk mid="0" mtype="seg">a $tagFILETIME structure that contains the new date and time the file was created.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a $tagFILETIME structure that contains the new date and time the file was created.</mrk></target>
+<note>$tCreateTime</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> This be 0 if the application does not need to set this information.</source>
+<seg-source> <mrk mid="0" mtype="seg">This be 0 if the application does not need to set this information.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This be 0 if the application does not need to set this information.</mrk></target>
+<note>$tCreateTime</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">a $tagFILETIME structure that contains the new date and time the file was last accessed.</source>
+<seg-source><mrk mid="0" mtype="seg">a $tagFILETIME structure that contains the new date and time the file was last accessed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a $tagFILETIME structure that contains the new date and time the file was last accessed.</mrk></target>
+<note>$tLastAccess</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> The last access time includes the last time the file was written to, read from, or (in the case of executable files) run.</source>
+<seg-source> <mrk mid="0" mtype="seg">The last access time includes the last time the file was written to, read from, or (in the case of executable files) run.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The last access time includes the last time the file was written to, read from, or (in the case of executable files) run.</mrk></target>
+<note>$tLastAccess</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> This can be 0 if the application does not need to set this information.</source>
+<seg-source> <mrk mid="0" mtype="seg">This can be 0 if the application does not need to set this information.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This can be 0 if the application does not need to set this information.</mrk></target>
+<note>$tLastAccess</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> To preserve the existing last access time for a file even after accessing a file, call SetFileTime with this parameter set to -1 before closing the file handle.</source>
+<seg-source> <mrk mid="0" mtype="seg">To preserve the existing last access time for a file even after accessing a file, call SetFileTime with this parameter set to -1 before closing the file handle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To preserve the existing last access time for a file even after accessing a file, call SetFileTime with this parameter set to -1 before closing the file handle.</mrk></target>
+<note>$tLastAccess</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">a $tagFILETIME structure that contains the new date and time the file was last written to.</source>
+<seg-source><mrk mid="0" mtype="seg">a $tagFILETIME structure that contains the new date and time the file was last written to.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a $tagFILETIME structure that contains the new date and time the file was last written to.</mrk></target>
+<note>$tLastWrite</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> This can be 0 if the application does not want to set this information.</source>
+<seg-source> <mrk mid="0" mtype="seg">This can be 0 if the application does not want to set this information.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This can be 0 if the application does not want to set this information.</mrk></target>
+<note>$tLastWrite</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">False</source>
+<seg-source><mrk mid="0" mtype="seg">False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Not all file systems can record creation and last access times and not all file systems record them in the same manner.</source>
+<seg-source><mrk mid="0" mtype="seg">Not all file systems can record creation and last access times and not all file systems record them in the same manner.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Not all file systems can record creation and last access times and not all file systems record them in the same manner.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> For example, on FAT, create time has a resolution of 10 milliseconds, write time has a resolution of 2 seconds, and access time has a resolution of 1 day (really, the access date). Therefore, the <bpt id="1" ctype="x-a">&lt;a href="_Date_Time_GetFileTime.htm"></bpt>_Date_Time_GetFileTime()<ept id="1">&lt;/a></ept> function may not return the same file time information set using <bpt id="2" ctype="x-a">&lt;a href="_Date_Time_SetFileTime.htm"></bpt>_Date_Time_SetFileTime()<ept id="2">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">For example, on FAT, create time has a resolution of 10 milliseconds, write time has a resolution of 2 seconds, and access time has a resolution of 1 day (really, the access date).</mrk> <mrk mid="1" mtype="seg">Therefore, the <bpt id="1" ctype="x-a">&lt;a href="_Date_Time_GetFileTime.htm"></bpt>_Date_Time_GetFileTime()<ept id="1">&lt;/a></ept> function may not return the same file time information set using <bpt id="2" ctype="x-a">&lt;a href="_Date_Time_SetFileTime.htm"></bpt>_Date_Time_SetFileTime()<ept id="2">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For example, on FAT, create time has a resolution of 10 milliseconds, write time has a resolution of 2 seconds, and access time has a resolution of 1 day (really, the access date).</mrk> <mrk mid="1" mtype="seg">Therefore, the <bpt id="1" ctype="x-a">&lt;a href="_Date_Time_GetFileTime.htm"></bpt>_Date_Time_GetFileTime()<ept id="1">&lt;/a></ept> function may not return the same file time information set using <bpt id="2" ctype="x-a">&lt;a href="_Date_Time_SetFileTime.htm"></bpt>_Date_Time_SetFileTime()<ept id="2">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> NTFS delays updates to the last access time for a file by up to one hour after the last access.</source>
+<seg-source> <mrk mid="0" mtype="seg">NTFS delays updates to the last access time for a file by up to one hour after the last access.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">NTFS delays updates to the last access time for a file by up to one hour after the last access.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="$tagFILETIME.htm"></bpt>$tagFILETIME<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_Date_Time_GetFileTime.htm"></bpt>_Date_Time_GetFileTime<ept id="2">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagFILETIME.htm"></bpt>$tagFILETIME<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_Date_Time_GetFileTime.htm"></bpt>_Date_Time_GetFileTime<ept id="2">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagFILETIME.htm"></bpt>$tagFILETIME<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_Date_Time_GetFileTime.htm"></bpt>_Date_Time_GetFileTime<ept id="2">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">\Test.xyz</source>
+<seg-source><mrk mid="0" mtype="seg">\Test.xyz</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Test.xyz</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Time</source>
+<seg-source><mrk mid="0" mtype="seg">Time</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Time</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Create test file and set file times</source>
+<seg-source><mrk mid="0" mtype="seg">Create test file and set file times</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create test file and set file times</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Unable to create file</source>
+<seg-source><mrk mid="0" mtype="seg">Unable to create file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unable to create file</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Read file times</source>
+<seg-source><mrk mid="0" mtype="seg">Read file times</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Read file times</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Unable to open file</source>
+<seg-source><mrk mid="0" mtype="seg">Unable to open file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unable to open file</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Created ..:</source>
+<seg-source><mrk mid="0" mtype="seg">Created ..:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Created ..:</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Accessed .:</source>
+<seg-source><mrk mid="0" mtype="seg">Accessed .:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Accessed .:</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Modified .:</source>
+<seg-source><mrk mid="0" mtype="seg">Modified .:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Modified .:</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Write a line to the memo control</source>
+<seg-source><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

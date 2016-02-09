@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUICtrlMenu_GetMenuBarInfo.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves information about the specified menu bar</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves information about the specified menu bar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves information about the specified menu bar</mrk></target>
+<note>Function _GUICtrlMenu_GetMenuBarInfo</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the window whose information is to be retrieved</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the window whose information is to be retrieved</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the window whose information is to be retrieved</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the item for which to retrieve information. If 0, the function retrieves information about the menu itself.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the item for which to retrieve information.</mrk> <mrk mid="2" mtype="seg">If 0, the function retrieves information about the menu itself.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the item for which to retrieve information.</mrk> <mrk mid="2" mtype="seg">If 0, the function retrieves information about the menu itself.</mrk></target>
+<note>$iItem</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> If 1, the function retrieves information about the first item on the menu, and so on.</source>
+<seg-source> <mrk mid="0" mtype="seg">If 1, the function retrieves information about the first item on the menu, and so on.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If 1, the function retrieves information about the first item on the menu, and so on.</mrk></target>
+<note>$iItem</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the menu object:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the menu object:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the menu object:</mrk></target>
+<note>$iObject</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     0 - The popup menu associated with the window</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 - The popup menu associated with the window</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 - The popup menu associated with the window</mrk></target>
+<note>$iObject</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     1 - The menu bar associated with the window</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 - The menu bar associated with the window</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 - The menu bar associated with the window</mrk></target>
+<note>$iObject</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     2 - The system menu associated with the window</source>
+<seg-source> <mrk mid="0" mtype="seg">    2 - The system menu associated with the window</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    2 - The system menu associated with the window</mrk></target>
+<note>$iObject</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">an array with the following format:</source>
+<seg-source><mrk mid="0" mtype="seg">an array with the following format:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an array with the following format:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     [0] - X coordinate of the upper left corner of the rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">    [0] - X coordinate of the upper left corner of the rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [0] - X coordinate of the upper left corner of the rectangle</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     [1] - Y coordinate of the upper left corner of the rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1] - Y coordinate of the upper left corner of the rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1] - Y coordinate of the upper left corner of the rectangle</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     [2] - X coordinate of the lower right corner of the rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">    [2] - X coordinate of the lower right corner of the rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [2] - X coordinate of the lower right corner of the rectangle</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     [3] - Y coordinate of the lower right corner of the rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">    [3] - Y coordinate of the lower right corner of the rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [3] - Y coordinate of the lower right corner of the rectangle</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     [4] - Handle to the menu bar or popup menu</source>
+<seg-source> <mrk mid="0" mtype="seg">    [4] - Handle to the menu bar or popup menu</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [4] - Handle to the menu bar or popup menu</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     [5] - Handle to the submenu</source>
+<seg-source> <mrk mid="0" mtype="seg">    [5] - Handle to the submenu</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [5] - Handle to the submenu</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     [6] - True if the menu bar has focus, otherwise False</source>
+<seg-source> <mrk mid="0" mtype="seg">    [6] - True if the menu bar has focus, otherwise False</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [6] - True if the menu bar has focus, otherwise False</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     [7] - True if the menu item has focus, otherwise False</source>
+<seg-source> <mrk mid="0" mtype="seg">    [7] - True if the menu item has focus, otherwise False</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [7] - True if the menu item has focus, otherwise False</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetMenuBarInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetMenuBarInfo<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetMenuBarInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetMenuBarInfo<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetMenuBarInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetMenuBarInfo<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Open Notepad</source>
+<seg-source><mrk mid="0" mtype="seg">Open Notepad</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open Notepad</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">notepad.exe</source>
+<seg-source><mrk mid="0" mtype="seg">notepad.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">notepad.exe</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">[CLASS:Notepad]</source>
+<seg-source><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">[CLASS:Notepad]</source>
+<seg-source><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Get menu bar info</source>
+<seg-source><mrk mid="0" mtype="seg">Get menu bar info</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get menu bar info</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Left ............:</source>
+<seg-source><mrk mid="0" mtype="seg">Left ............:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Left ............:</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Top .............:</source>
+<seg-source><mrk mid="0" mtype="seg">Top .............:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Top .............:</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Right ...........:</source>
+<seg-source><mrk mid="0" mtype="seg">Right ...........:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Right ...........:</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Bottom ..........:</source>
+<seg-source><mrk mid="0" mtype="seg">Bottom ..........:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bottom ..........:</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Menu handle .....: 0x</source>
+<seg-source><mrk mid="0" mtype="seg">Menu handle .....:</mrk> <mrk mid="1" mtype="seg">0x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Menu handle .....:</mrk> <mrk mid="1" mtype="seg">0x</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Submenu Handle ..: 0x</source>
+<seg-source><mrk mid="0" mtype="seg">Submenu Handle ..:</mrk> <mrk mid="1" mtype="seg">0x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Submenu Handle ..:</mrk> <mrk mid="1" mtype="seg">0x</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Menu bar focused :</source>
+<seg-source><mrk mid="0" mtype="seg">Menu bar focused :</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Menu bar focused :</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Menu item focused:</source>
+<seg-source><mrk mid="0" mtype="seg">Menu item focused:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Menu item focused:</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Write a line of text to Notepad</source>
+<seg-source><mrk mid="0" mtype="seg">Write a line of text to Notepad</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write a line of text to Notepad</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">[CLASS:Notepad]</source>
+<seg-source><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Edit1</source>
+<seg-source><mrk mid="0" mtype="seg">Edit1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Edit1</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

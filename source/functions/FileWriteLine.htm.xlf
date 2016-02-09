@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/FileWriteLine.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Append a line of text to the end of a previously opened text file.</source>
+<seg-source><mrk mid="0" mtype="seg">Append a line of text to the end of a previously opened text file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Append a line of text to the end of a previously opened text file.</mrk></target>
+<note>Function FileWriteLine</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> The handle of a file, as returned by a previous call to <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept>. Alternatively, you may use a string filename as the first parameter. </source>
+<seg-source> <mrk mid="0" mtype="seg">The handle of a file, as returned by a previous call to <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept>.</mrk> <mrk mid="1" mtype="seg">Alternatively, you may use a string filename as the first parameter.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The handle of a file, as returned by a previous call to <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept>.</mrk> <mrk mid="1" mtype="seg">Alternatively, you may use a string filename as the first parameter.</mrk> </target>
+<note>filehandle/filename</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The line of text to write to the text file. If the line does NOT end in @CR or @LF then a DOS linefeed (@CRLF) will be automatically added.</source>
+<seg-source><mrk mid="0" mtype="seg">The line of text to write to the text file.</mrk> <mrk mid="1" mtype="seg">If the line does NOT end in @CR or @LF then a DOS linefeed (@CRLF) will be automatically added.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The line of text to write to the text file.</mrk> <mrk mid="1" mtype="seg">If the line does NOT end in @CR or @LF then a DOS linefeed (@CRLF) will be automatically added.</mrk></target>
+<note>line</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">0 if file not opened in writemode, file is read only, or file cannot otherwise be written to.</source>
+<seg-source><mrk mid="0" mtype="seg">0 if file not opened in writemode, file is read only, or file cannot otherwise be written to.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 if file not opened in writemode, file is read only, or file cannot otherwise be written to.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">The text file must be opened in write mode or the <bpt id="1" ctype="x-a">&lt;a href="FileWriteLine.htm"></bpt>FileWriteLine()<ept id="1">&lt;/a></ept> command will fail.</source>
+<seg-source><mrk mid="0" mtype="seg">The text file must be opened in write mode or the <bpt id="1" ctype="x-a">&lt;a href="FileWriteLine.htm"></bpt>FileWriteLine()<ept id="1">&lt;/a></ept> command will fail.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The text file must be opened in write mode or the <bpt id="1" ctype="x-a">&lt;a href="FileWriteLine.htm"></bpt>FileWriteLine()<ept id="1">&lt;/a></ept> command will fail.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> If a filename is given rather than a file handle, the file will be opened and closed during the function call. For parsing large text files this will be much slower than using filehandles. However, filename will be created if it does not already exist.</source>
+<seg-source> <mrk mid="0" mtype="seg">If a filename is given rather than a file handle, the file will be opened and closed during the function call.</mrk> <mrk mid="1" mtype="seg">For parsing large text files this will be much slower than using filehandles.</mrk> <mrk mid="2" mtype="seg">However, filename will be created if it does not already exist.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If a filename is given rather than a file handle, the file will be opened and closed during the function call.</mrk> <mrk mid="1" mtype="seg">For parsing large text files this will be much slower than using filehandles.</mrk> <mrk mid="2" mtype="seg">However, filename will be created if it does not already exist.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> Note: Do not mix filehandles and filenames, i.e., don't <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> a file and then use a filename in this function. Either use filehandles or filenames in your routines, not both.</source>
+<seg-source> <mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">Do not mix filehandles and filenames, i.e., don't <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> a file and then use a filename in this function.</mrk> <mrk mid="2" mtype="seg">Either use filehandles or filenames in your routines, not both.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">Do not mix filehandles and filenames, i.e., don't <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> a file and then use a filename in this function.</mrk> <mrk mid="2" mtype="seg">Either use filehandles or filenames in your routines, not both.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> When writing text AutoIt will write using UTF8 (without BOM) by default. To write in another mode the file must be opened with <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> and the relevant flags.</source>
+<seg-source> <mrk mid="0" mtype="seg">When writing text AutoIt will write using UTF8 (without BOM) by default.</mrk> <mrk mid="1" mtype="seg">To write in another mode the file must be opened with <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> and the relevant flags.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When writing text AutoIt will write using UTF8 (without BOM) by default.</mrk> <mrk mid="1" mtype="seg">To write in another mode the file must be opened with <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> and the relevant flags.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> The text to write cannot contain <bpt id="1" ctype="x-a">&lt;a href="Chr.htm"></bpt>Chr<ept id="1">&lt;/a></ept>(0) characters as the output is truncated. <bpt id="1" ctype="x-a">&lt;a href="FileWrite.htm"></bpt>FileWrite()<ept id="1">&lt;/a></ept> using a file opened in binary mode must be used to write such characters.</source>
+<seg-source> <mrk mid="0" mtype="seg">The text to write cannot contain <bpt id="1" ctype="x-a">&lt;a href="Chr.htm"></bpt>Chr<ept id="1">&lt;/a></ept>(0) characters as the output is truncated.</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="FileWrite.htm"></bpt>FileWrite()<ept id="1">&lt;/a></ept> using a file opened in binary mode must be used to write such characters.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The text to write cannot contain <bpt id="1" ctype="x-a">&lt;a href="Chr.htm"></bpt>Chr<ept id="1">&lt;/a></ept>(0) characters as the output is truncated.</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="FileWrite.htm"></bpt>FileWrite()<ept id="1">&lt;/a></ept> using a file opened in binary mode must be used to write such characters.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Create a constant variable in Local scope of the filepath that will be read/written to.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a constant variable in Local scope of the filepath that will be read/written to.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a constant variable in Local scope of the filepath that will be read/written to.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Create a temporary file to write data to.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a temporary file to write data to.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a temporary file to write data to.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Start of the FileWriteLine example, line 1.</source>
+<seg-source><mrk mid="0" mtype="seg">Start of the FileWriteLine example, line 1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Start of the FileWriteLine example, line 1.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">An error occurred whilst writing the temporary file.</source>
+<seg-source><mrk mid="0" mtype="seg">An error occurred whilst writing the temporary file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An error occurred whilst writing the temporary file.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Open the file for writing (append to the end of a file) and store the handle to a variable.</source>
+<seg-source><mrk mid="0" mtype="seg">Open the file for writing (append to the end of a file) and store the handle to a variable.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open the file for writing (append to the end of a file) and store the handle to a variable.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">An error occurred whilst writing the temporary file.</source>
+<seg-source><mrk mid="0" mtype="seg">An error occurred whilst writing the temporary file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An error occurred whilst writing the temporary file.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Write data to the file using the handle returned by FileOpen.</source>
+<seg-source><mrk mid="0" mtype="seg">Write data to the file using the handle returned by FileOpen.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write data to the file using the handle returned by FileOpen.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Line 2</source>
+<seg-source><mrk mid="0" mtype="seg">Line 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Line 2</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">This is line 3 as a new line was appended to the last FileWriteLine call.</source>
+<seg-source><mrk mid="0" mtype="seg">This is line 3 as a new line was appended to the last FileWriteLine call.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is line 3 as a new line was appended to the last FileWriteLine call.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Line 4</source>
+<seg-source><mrk mid="0" mtype="seg">Line 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Line 4</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Line 5</source>
+<seg-source><mrk mid="0" mtype="seg">Line 5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Line 5</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Close the handle returned by FileOpen.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the handle returned by FileOpen.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the handle returned by FileOpen.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Display the contents of the file passing the filepath to FileRead instead of a handle returned by FileOpen.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the contents of the file passing the filepath to FileRead instead of a handle returned by FileOpen.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the contents of the file passing the filepath to FileRead instead of a handle returned by FileOpen.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Contents of the file:</source>
+<seg-source><mrk mid="0" mtype="seg">Contents of the file:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contents of the file:</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Delete the temporary file.</source>
+<seg-source><mrk mid="0" mtype="seg">Delete the temporary file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete the temporary file.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

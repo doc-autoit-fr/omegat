@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_TerminateProcess.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Terminates the specified process and all of its threads</source>
+<seg-source><mrk mid="0" mtype="seg">Terminates the specified process and all of its threads</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Terminates the specified process and all of its threads</mrk></target>
+<note>Function _WinAPI_TerminateProcess</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">A handle to the process to be terminated. The handle must have the $PROCESS_TERMINATE access right.</source>
+<seg-source><mrk mid="0" mtype="seg">A handle to the process to be terminated.</mrk> <mrk mid="1" mtype="seg">The handle must have the $PROCESS_TERMINATE access right.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A handle to the process to be terminated.</mrk> <mrk mid="1" mtype="seg">The handle must have the $PROCESS_TERMINATE access right.</mrk></target>
+<note>$hProcess</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The exit code to be used by the process and threads terminated as a result of this call.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The exit code to be used by the process and threads terminated as a result of this call.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The exit code to be used by the process and threads terminated as a result of this call.</mrk></target>
+<note>$iExitCode</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">False</source>
+<seg-source><mrk mid="0" mtype="seg">False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">This function stops execution of all threads within the process and requests cancellation of all pending I/O.</source>
+<seg-source><mrk mid="0" mtype="seg">This function stops execution of all threads within the process and requests cancellation of all pending I/O.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function stops execution of all threads within the process and requests cancellation of all pending I/O.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> The terminated process cannot exit until all pending I/O has been completed or cancelled. When a process terminates,</source>
+<seg-source> <mrk mid="0" mtype="seg">The terminated process cannot exit until all pending I/O has been completed or cancelled.</mrk> <mrk mid="1" mtype="seg">When a process terminates,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The terminated process cannot exit until all pending I/O has been completed or cancelled.</mrk> <mrk mid="1" mtype="seg">When a process terminates,</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> its kernel object is not destroyed until all processes released their open handles.</source>
+<seg-source> <mrk mid="0" mtype="seg">its kernel object is not destroyed until all processes released their open handles.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">its kernel object is not destroyed until all processes released their open handles.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> This function is asynchronous; it initiates termination and returns immediately. If you need to be sure the</source>
+<seg-source> <mrk mid="0" mtype="seg">This function is asynchronous; it initiates termination and returns immediately.</mrk> <mrk mid="1" mtype="seg">If you need to be sure the</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function is asynchronous; it initiates termination and returns immediately.</mrk> <mrk mid="1" mtype="seg">If you need to be sure the</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> process has terminated, call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_WaitForSingleObject.htm"></bpt>_WinAPI_WaitForSingleObject()<ept id="1">&lt;/a></ept> function with a handle to the process.</source>
+<seg-source> <mrk mid="0" mtype="seg">process has terminated, call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_WaitForSingleObject.htm"></bpt>_WinAPI_WaitForSingleObject()<ept id="1">&lt;/a></ept> function with a handle to the process.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">process has terminated, call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_WaitForSingleObject.htm"></bpt>_WinAPI_WaitForSingleObject()<ept id="1">&lt;/a></ept> function with a handle to the process.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> A process cannot prevent itself from being terminated.</source>
+<seg-source> <mrk mid="0" mtype="seg">A process cannot prevent itself from being terminated.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">A process cannot prevent itself from being terminated.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(TerminateProcess);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>TerminateProcess<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(TerminateProcess);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>TerminateProcess<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(TerminateProcess);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>TerminateProcess<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

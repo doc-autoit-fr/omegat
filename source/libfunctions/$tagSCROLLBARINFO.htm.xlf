@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/$tagSCROLLBARINFO.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Keyword Reference</source>
+<seg-source><mrk mid="0" mtype="seg">Keyword Reference</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Keyword Reference</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Contains scroll bar information</source>
+<seg-source><mrk mid="0" mtype="seg">Contains scroll bar information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains scroll bar information</mrk></target>
+<note>Keyword $tagSCROLLBARINFO</note>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Specifies the size, in bytes, of this structure. The caller must set this to DllStructGetSize($tagSCROLLBARINFO).</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the size, in bytes, of this structure.</mrk> <mrk mid="1" mtype="seg">The caller must set this to DllStructGetSize($tagSCROLLBARINFO).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the size, in bytes, of this structure.</mrk> <mrk mid="1" mtype="seg">The caller must set this to DllStructGetSize($tagSCROLLBARINFO).</mrk></target>
+<note>cbSize</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Specifies the x-coordinate of the upper-left corner of the rectangle coordinates of the scroll bar</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the x-coordinate of the upper-left corner of the rectangle coordinates of the scroll bar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the x-coordinate of the upper-left corner of the rectangle coordinates of the scroll bar</mrk></target>
+<note>Left</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Specifies the y-coordinate of the upper-left corner of the rectangle coordinates of the scroll bar</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the y-coordinate of the upper-left corner of the rectangle coordinates of the scroll bar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the y-coordinate of the upper-left corner of the rectangle coordinates of the scroll bar</mrk></target>
+<note>Top</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Specifies the x-coordinate of the lower-right corner of the rectangle coordinates of the scroll bar</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the x-coordinate of the lower-right corner of the rectangle coordinates of the scroll bar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the x-coordinate of the lower-right corner of the rectangle coordinates of the scroll bar</mrk></target>
+<note>Right</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Specifies the y-coordinate of the lower-right corner of the rectangle coordinates of the scroll bar</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the y-coordinate of the lower-right corner of the rectangle coordinates of the scroll bar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the y-coordinate of the lower-right corner of the rectangle coordinates of the scroll bar</mrk></target>
+<note>Bottom</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Height or width of the thumb.</source>
+<seg-source><mrk mid="0" mtype="seg">Height or width of the thumb.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Height or width of the thumb.</mrk></target>
+<note>dxyLineButton</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Position of the top or left of the thumb.</source>
+<seg-source><mrk mid="0" mtype="seg">Position of the top or left of the thumb.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Position of the top or left of the thumb.</mrk></target>
+<note>xyThumbTop</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Position of the bottom or right of the thumb.</source>
+<seg-source><mrk mid="0" mtype="seg">Position of the bottom or right of the thumb.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Position of the bottom or right of the thumb.</mrk></target>
+<note>xyThumbBottom</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Reserved.</source>
+<seg-source><mrk mid="0" mtype="seg">Reserved.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Reserved.</mrk></target>
+<note>reserved</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">An array of DWORD elements. Each element indicates the state of a scroll bar component.</source>
+<seg-source><mrk mid="0" mtype="seg">An array of DWORD elements.</mrk> <mrk mid="1" mtype="seg">Each element indicates the state of a scroll bar component.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An array of DWORD elements.</mrk> <mrk mid="1" mtype="seg">Each element indicates the state of a scroll bar component.</mrk></target>
+<note>rgstate</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> The following values show the scroll bar component that corresponds to each array index:</source>
+<seg-source> <mrk mid="0" mtype="seg">The following values show the scroll bar component that corresponds to each array index:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The following values show the scroll bar component that corresponds to each array index:</mrk></target>
+<note>rgstate</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     0 The scroll bar itself.</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 The scroll bar itself.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 The scroll bar itself.</mrk></target>
+<note>rgstate</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     1 The top or right arrow button.</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 The top or right arrow button.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 The top or right arrow button.</mrk></target>
+<note>rgstate</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     2 The page up or page right region.</source>
+<seg-source> <mrk mid="0" mtype="seg">    2 The page up or page right region.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    2 The page up or page right region.</mrk></target>
+<note>rgstate</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     3 The scroll box (thumb).</source>
+<seg-source> <mrk mid="0" mtype="seg">    3 The scroll box (thumb).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    3 The scroll box (thumb).</mrk></target>
+<note>rgstate</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     4 The page down or page left region.</source>
+<seg-source> <mrk mid="0" mtype="seg">    4 The page down or page left region.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    4 The page down or page left region.</mrk></target>
+<note>rgstate</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     5 The bottom or left arrow button.</source>
+<seg-source> <mrk mid="0" mtype="seg">    5 The bottom or left arrow button.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    5 The bottom or left arrow button.</mrk></target>
+<note>rgstate</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> The DWORD element for each scroll bar component can include a combination of the following bit flags.</source>
+<seg-source> <mrk mid="0" mtype="seg">The DWORD element for each scroll bar component can include a combination of the following bit flags.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The DWORD element for each scroll bar component can include a combination of the following bit flags.</mrk></target>
+<note>rgstate</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     STATE_SYSTEM_INVISIBLE - For the scroll bar itself, indicates the specified vertical or horizontal scroll bar does not exist.</source>
+<seg-source> <mrk mid="0" mtype="seg">    STATE_SYSTEM_INVISIBLE - For the scroll bar itself, indicates the specified vertical or horizontal scroll bar does not exist.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    STATE_SYSTEM_INVISIBLE - For the scroll bar itself, indicates the specified vertical or horizontal scroll bar does not exist.</mrk></target>
+<note>rgstate</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> For the page up or page down regions, indicates the thumb is positioned such that the region does not exist.</source>
+<seg-source> <mrk mid="0" mtype="seg">For the page up or page down regions, indicates the thumb is positioned such that the region does not exist.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For the page up or page down regions, indicates the thumb is positioned such that the region does not exist.</mrk></target>
+<note>rgstate</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">     STATE_SYSTEM_OFFSCREEN - For the scroll bar itself, indicates the window is sized such that the specified vertical or horizontal scroll bar is not currently displayed.</source>
+<seg-source> <mrk mid="0" mtype="seg">    STATE_SYSTEM_OFFSCREEN - For the scroll bar itself, indicates the window is sized such that the specified vertical or horizontal scroll bar is not currently displayed.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    STATE_SYSTEM_OFFSCREEN - For the scroll bar itself, indicates the window is sized such that the specified vertical or horizontal scroll bar is not currently displayed.</mrk></target>
+<note>rgstate</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">     STATE_SYSTEM_PRESSED - The arrow button or page region is pressed.</source>
+<seg-source> <mrk mid="0" mtype="seg">    STATE_SYSTEM_PRESSED - The arrow button or page region is pressed.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    STATE_SYSTEM_PRESSED - The arrow button or page region is pressed.</mrk></target>
+<note>rgstate</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">     STATE_SYSTEM_UNAVAILABLE - The component is disabled.</source>
+<seg-source> <mrk mid="0" mtype="seg">    STATE_SYSTEM_UNAVAILABLE - The component is disabled.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    STATE_SYSTEM_UNAVAILABLE - The component is disabled.</mrk></target>
+<note>rgstate</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">$SIF_xxxxx and $SB_xxxxx for scrollbar require #include &lt;WindowsConstants.au3></source>
+<seg-source><mrk mid="0" mtype="seg">$SIF_xxxxx and $SB_xxxxx for scrollbar require #include &lt;WindowsConstants.au3></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$SIF_xxxxx and $SB_xxxxx for scrollbar require #include &lt;WindowsConstants.au3></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

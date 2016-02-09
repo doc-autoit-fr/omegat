@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/FileGetAttrib.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Returns a code string representing a file's attributes.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns a code string representing a file's attributes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns a code string representing a file's attributes.</mrk></target>
+<note>Function FileGetAttrib</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The path to the file or directory to check.</source>
+<seg-source><mrk mid="0" mtype="seg">The path to the file or directory to check.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The path to the file or directory to check.</mrk></target>
+<note>filename</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">a code string representing a file's attributes.</source>
+<seg-source><mrk mid="0" mtype="seg">a code string representing a file's attributes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a code string representing a file's attributes.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">"" (empty string) and sets the @error flag to 1.</source>
+<seg-source><mrk mid="0" mtype="seg">"" (empty string) and sets the @error flag to 1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"" (empty string) and sets the @error flag to 1.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="String.htm"></bpt>String()<ept id="1">&lt;/a></ept> returned could contain a combination of these letters "RASHNDOCTX":</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="String.htm"></bpt>String()<ept id="1">&lt;/a></ept> returned could contain a combination of these letters "RASHNDOCTX":</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="String.htm"></bpt>String()<ept id="1">&lt;/a></ept> returned could contain a combination of these letters "RASHNDOCTX":</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     "R" = READONLY</source>
+<seg-source> <mrk mid="0" mtype="seg">    "R" = READONLY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "R" = READONLY</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     "A" = ARCHIVE</source>
+<seg-source> <mrk mid="0" mtype="seg">    "A" = ARCHIVE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "A" = ARCHIVE</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     "S" = SYSTEM</source>
+<seg-source> <mrk mid="0" mtype="seg">    "S" = SYSTEM</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "S" = SYSTEM</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     "H" = HIDDEN</source>
+<seg-source> <mrk mid="0" mtype="seg">    "H" = HIDDEN</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "H" = HIDDEN</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     "N" = NORMAL</source>
+<seg-source> <mrk mid="0" mtype="seg">    "N" = NORMAL</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "N" = NORMAL</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     "D" = DIRECTORY</source>
+<seg-source> <mrk mid="0" mtype="seg">    "D" = DIRECTORY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "D" = DIRECTORY</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     "O" = OFFLINE</source>
+<seg-source> <mrk mid="0" mtype="seg">    "O" = OFFLINE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "O" = OFFLINE</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     "C" = COMPRESSED (NTFS compression, not ZIP compression)</source>
+<seg-source> <mrk mid="0" mtype="seg">    "C" = COMPRESSED (NTFS compression, not ZIP compression)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "C" = COMPRESSED (NTFS compression, not ZIP compression)</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     "T" = TEMPORARY</source>
+<seg-source> <mrk mid="0" mtype="seg">    "T" = TEMPORARY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "T" = TEMPORARY</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     "X" = EFS ENCRYPTION</source>
+<seg-source> <mrk mid="0" mtype="seg">    "X" = EFS ENCRYPTION</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "X" = EFS ENCRYPTION</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Create a constant variable in Local scope to store the file attributes of the current script.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a constant variable in Local scope to store the file attributes of the current script.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a constant variable in Local scope to store the file attributes of the current script.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Display the string returned by FileGetAttrib.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the string returned by FileGetAttrib.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the string returned by FileGetAttrib.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">The attribute string:</source>
+<seg-source><mrk mid="0" mtype="seg">The attribute string:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The attribute string:</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Display the string returned by AttributeToString</source>
+<seg-source><mrk mid="0" mtype="seg">Display the string returned by AttributeToString</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the string returned by AttributeToString</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">The attribute string with easier to understand values:</source>
+<seg-source><mrk mid="0" mtype="seg">The attribute string with easier to understand values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The attribute string with easier to understand values:</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Create a 1d array of the file attribute letters by splitting the string at the comma (,).</source>
+<seg-source><mrk mid="0" mtype="seg">Create a 1d array of the file attribute letters by splitting the string at the comma (,).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a 1d array of the file attribute letters by splitting the string at the comma (,).</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">R,A,S,H,N,D,O,C,T</source>
+<seg-source><mrk mid="0" mtype="seg">R,A,S,H,N,D,O,C,T</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">R,A,S,H,N,D,O,C,T</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">,</source>
+<seg-source><mrk mid="0" mtype="seg">,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">,</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Create a 1d array using the friendlier file attribute names by splitting the string at the comma (,).</source>
+<seg-source><mrk mid="0" mtype="seg">Create a 1d array using the friendlier file attribute names by splitting the string at the comma (,).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a 1d array using the friendlier file attribute names by splitting the string at the comma (,).</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Read-only /, Archive /, System /, Hidden /</source>
+<seg-source><mrk mid="0" mtype="seg">Read-only /, Archive /, System /, Hidden /</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Read-only /, Archive /, System /, Hidden /</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">, Normal /, Directory /, Offline /, Compressed /, Temporary /</source>
+<seg-source><mrk mid="0" mtype="seg">, Normal /, Directory /, Offline /, Compressed /, Temporary /</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, Normal /, Directory /, Offline /, Compressed /, Temporary /</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">,</source>
+<seg-source><mrk mid="0" mtype="seg">,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">,</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Loop through the attribute letters array to replace with the friendlier value e.g. A becomes Archive or S becomes System.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop through the attribute letters array to replace with the friendlier value e.g.</mrk> <mrk mid="1" mtype="seg">A becomes Archive or S becomes System.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop through the attribute letters array to replace with the friendlier value e.g.</mrk> <mrk mid="1" mtype="seg">A becomes Archive or S becomes System.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Remove the single space and trailing forward slash.</source>
+<seg-source><mrk mid="0" mtype="seg">Remove the single space and trailing forward slash.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remove the single space and trailing forward slash.</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Return the attribute string.</source>
+<seg-source><mrk mid="0" mtype="seg">Return the attribute string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return the attribute string.</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Assign a variable with the filepath to check on whether it's a file or not.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign a variable with the filepath to check on whether it's a file or not.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign a variable with the filepath to check on whether it's a file or not.</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">The filepath is a file.</source>
+<seg-source><mrk mid="0" mtype="seg">The filepath is a file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The filepath is a file.</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">The filepath is not a file.</source>
+<seg-source><mrk mid="0" mtype="seg">The filepath is not a file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The filepath is not a file.</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Check if the filepath is a file. Does not validate if the file exists.</source>
+<seg-source><mrk mid="0" mtype="seg">Check if the filepath is a file.</mrk> <mrk mid="1" mtype="seg">Does not validate if the file exists.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check if the filepath is a file.</mrk> <mrk mid="1" mtype="seg">Does not validate if the file exists.</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">D</source>
+<seg-source><mrk mid="0" mtype="seg">D</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">D</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Assign a variable with the filepath to check on whether it's a directory/folder or not.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign a variable with the filepath to check on whether it's a directory/folder or not.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign a variable with the filepath to check on whether it's a directory/folder or not.</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">The filepath is a directory/folder.</source>
+<seg-source><mrk mid="0" mtype="seg">The filepath is a directory/folder.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The filepath is a directory/folder.</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">The filepath is not a directory/folder.</source>
+<seg-source><mrk mid="0" mtype="seg">The filepath is not a directory/folder.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The filepath is not a directory/folder.</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Check if the filepath is a directory/folder. Does not validate if the directory/folder exists.</source>
+<seg-source><mrk mid="0" mtype="seg">Check if the filepath is a directory/folder.</mrk> <mrk mid="1" mtype="seg">Does not validate if the directory/folder exists.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check if the filepath is a directory/folder.</mrk> <mrk mid="1" mtype="seg">Does not validate if the directory/folder exists.</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">D</source>
+<seg-source><mrk mid="0" mtype="seg">D</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">D</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

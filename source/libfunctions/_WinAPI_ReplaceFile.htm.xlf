@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_ReplaceFile.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Replaces one file with another file, and creates a backup copy of the original file</source>
+<seg-source><mrk mid="0" mtype="seg">Replaces one file with another file, and creates a backup copy of the original file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Replaces one file with another file, and creates a backup copy of the original file</mrk></target>
+<note>Function _WinAPI_ReplaceFile</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The name of the file to be replaced.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the file to be replaced.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the file to be replaced.</mrk></target>
+<note>$sReplacedFile</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The name of the file that will replace the $sReplacedFile file.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the file that will replace the $sReplacedFile file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the file that will replace the $sReplacedFile file.</mrk></target>
+<note>$sReplacementFile</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The name of the file that will serve as a backup copy of the $sReplacedFile file. If this</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The name of the file that will serve as a backup copy of the $sReplacedFile file.</mrk> <mrk mid="2" mtype="seg">If this</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The name of the file that will serve as a backup copy of the $sReplacedFile file.</mrk> <mrk mid="2" mtype="seg">If this</mrk></target>
+<note>$sBackupFile</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> parameter is empty string, no backup file is created.</source>
+<seg-source> <mrk mid="0" mtype="seg">parameter is empty string, no backup file is created.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">parameter is empty string, no backup file is created.</mrk></target>
+<note>$sBackupFile</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The replacement options. This parameter can be one or more of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The replacement options.</mrk> <mrk mid="2" mtype="seg">This parameter can be one or more of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The replacement options.</mrk> <mrk mid="2" mtype="seg">This parameter can be one or more of the following values.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $REPLACEFILE_WRITE_THROUGH</source>
+<seg-source> <mrk mid="0" mtype="seg">$REPLACEFILE_WRITE_THROUGH</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$REPLACEFILE_WRITE_THROUGH</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $REPLACEFILE_IGNORE_MERGE_ERRORS</source>
+<seg-source> <mrk mid="0" mtype="seg">$REPLACEFILE_IGNORE_MERGE_ERRORS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$REPLACEFILE_IGNORE_MERGE_ERRORS</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> $REPLACEFILE_IGNORE_ACL_ERRORS</source>
+<seg-source> <mrk mid="0" mtype="seg">$REPLACEFILE_IGNORE_ACL_ERRORS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$REPLACEFILE_IGNORE_ACL_ERRORS</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">False (see remarks).</source>
+<seg-source><mrk mid="0" mtype="seg">False (see remarks).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False (see remarks).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">If this function fails, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> function to get extended error information. The following</source>
+<seg-source><mrk mid="0" mtype="seg">If this function fails, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> function to get extended error information.</mrk> <mrk mid="1" mtype="seg">The following</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If this function fails, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> function to get extended error information.</mrk> <mrk mid="1" mtype="seg">The following</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> are possible error codes for this function.</source>
+<seg-source> <mrk mid="0" mtype="seg">are possible error codes for this function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">are possible error codes for this function.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> ERROR_UNABLE_TO_MOVE_REPLACEMENT (1176)</source>
+<seg-source> <mrk mid="0" mtype="seg">ERROR_UNABLE_TO_MOVE_REPLACEMENT (1176)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">ERROR_UNABLE_TO_MOVE_REPLACEMENT (1176)</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> The replacement file could not be renamed. If $sBackupFile was specified, the replaced and replacement files</source>
+<seg-source> <mrk mid="0" mtype="seg">The replacement file could not be renamed.</mrk> <mrk mid="1" mtype="seg">If $sBackupFile was specified, the replaced and replacement files</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The replacement file could not be renamed.</mrk> <mrk mid="1" mtype="seg">If $sBackupFile was specified, the replaced and replacement files</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> retain their original file names. Otherwise, the replaced file no longer exists and the replacement file exists</source>
+<seg-source> <mrk mid="0" mtype="seg">retain their original file names.</mrk> <mrk mid="1" mtype="seg">Otherwise, the replaced file no longer exists and the replacement file exists</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">retain their original file names.</mrk> <mrk mid="1" mtype="seg">Otherwise, the replaced file no longer exists and the replacement file exists</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> under its original name.</source>
+<seg-source> <mrk mid="0" mtype="seg">under its original name.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">under its original name.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> ERROR_UNABLE_TO_MOVE_REPLACEMENT_2 (1177)</source>
+<seg-source> <mrk mid="0" mtype="seg">ERROR_UNABLE_TO_MOVE_REPLACEMENT_2 (1177)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">ERROR_UNABLE_TO_MOVE_REPLACEMENT_2 (1177)</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> The replacement file could not be moved. The replacement file still exists under its original name; however,</source>
+<seg-source> <mrk mid="0" mtype="seg">The replacement file could not be moved.</mrk> <mrk mid="1" mtype="seg">The replacement file still exists under its original name; however,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The replacement file could not be moved.</mrk> <mrk mid="1" mtype="seg">The replacement file still exists under its original name; however,</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> it has inherited the file streams and attributes from the file it is replacing. The file to be replaced still</source>
+<seg-source> <mrk mid="0" mtype="seg">it has inherited the file streams and attributes from the file it is replacing.</mrk> <mrk mid="1" mtype="seg">The file to be replaced still</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">it has inherited the file streams and attributes from the file it is replacing.</mrk> <mrk mid="1" mtype="seg">The file to be replaced still</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> exists with the name specified by $sReplacedFile.</source>
+<seg-source> <mrk mid="0" mtype="seg">exists with the name specified by $sReplacedFile.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">exists with the name specified by $sReplacedFile.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> ERROR_UNABLE_TO_REMOVE_REPLACED (1175)</source>
+<seg-source> <mrk mid="0" mtype="seg">ERROR_UNABLE_TO_REMOVE_REPLACED (1175)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">ERROR_UNABLE_TO_REMOVE_REPLACED (1175)</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> The replaced file could not be deleted. The replaced and replacement files retain their original file names.</source>
+<seg-source> <mrk mid="0" mtype="seg">The replaced file could not be deleted.</mrk> <mrk mid="1" mtype="seg">The replaced and replacement files retain their original file names.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The replaced file could not be deleted.</mrk> <mrk mid="1" mtype="seg">The replaced and replacement files retain their original file names.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> If any other error is returned, such as ERROR_INVALID_PARAMETER (87), the replaced and replacement files will</source>
+<seg-source> <mrk mid="0" mtype="seg">If any other error is returned, such as ERROR_INVALID_PARAMETER (87), the replaced and replacement files will</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If any other error is returned, such as ERROR_INVALID_PARAMETER (87), the replaced and replacement files will</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> retain their original file names. In this scenario, a backup file does not exist and it is not guaranteed</source>
+<seg-source> <mrk mid="0" mtype="seg">retain their original file names.</mrk> <mrk mid="1" mtype="seg">In this scenario, a backup file does not exist and it is not guaranteed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">retain their original file names.</mrk> <mrk mid="1" mtype="seg">In this scenario, a backup file does not exist and it is not guaranteed</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> that the replacement file will have inherited all of the attributes and streams of the replaced file.</source>
+<seg-source> <mrk mid="0" mtype="seg">that the replacement file will have inherited all of the attributes and streams of the replaced file.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">that the replacement file will have inherited all of the attributes and streams of the replaced file.</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ReplaceFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ReplaceFile<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ReplaceFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ReplaceFile<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ReplaceFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ReplaceFile<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GDIPlus_GraphicsDrawBezier.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Draw a bezier spline</source>
+<seg-source><mrk mid="0" mtype="seg">Draw a bezier spline</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draw a bezier spline</mrk></target>
+<note>Function _GDIPlus_GraphicsDrawBezier</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to a Graphics object</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to a Graphics object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to a Graphics object</mrk></target>
+<note>$hGraphics</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">X coordinate of the starting point</source>
+<seg-source><mrk mid="0" mtype="seg">X coordinate of the starting point</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X coordinate of the starting point</mrk></target>
+<note>$nX1</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Y coordinate of the starting point</source>
+<seg-source><mrk mid="0" mtype="seg">Y coordinate of the starting point</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y coordinate of the starting point</mrk></target>
+<note>$nY1</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">X coordinate of the first control point</source>
+<seg-source><mrk mid="0" mtype="seg">X coordinate of the first control point</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X coordinate of the first control point</mrk></target>
+<note>$nX2</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Y coordinate of the first control point</source>
+<seg-source><mrk mid="0" mtype="seg">Y coordinate of the first control point</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y coordinate of the first control point</mrk></target>
+<note>$nY2</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">X coordinate of the second control point</source>
+<seg-source><mrk mid="0" mtype="seg">X coordinate of the second control point</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X coordinate of the second control point</mrk></target>
+<note>$nX3</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Y coordinate of the second control point</source>
+<seg-source><mrk mid="0" mtype="seg">Y coordinate of the second control point</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y coordinate of the second control point</mrk></target>
+<note>$nY3</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">X coordinate of the ending point</source>
+<seg-source><mrk mid="0" mtype="seg">X coordinate of the ending point</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X coordinate of the ending point</mrk></target>
+<note>$nX4</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Y coordinate of the ending point</source>
+<seg-source><mrk mid="0" mtype="seg">Y coordinate of the ending point</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y coordinate of the ending point</mrk></target>
+<note>$nY4</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Handle to a pen object that is used to draw the bezier. If 0, a solid black pen with a width of 1 will be used.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Handle to a pen object that is used to draw the bezier.</mrk> <mrk mid="2" mtype="seg">If 0, a solid black pen with a width of 1 will be used.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Handle to a pen object that is used to draw the bezier.</mrk> <mrk mid="2" mtype="seg">If 0, a solid black pen with a width of 1 will be used.</mrk></target>
+<note>$hPen</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</source>
+<seg-source><mrk mid="0" mtype="seg">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">A Bezier spline does not pass through its control points.</source>
+<seg-source><mrk mid="0" mtype="seg">A Bezier spline does not pass through its control points.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A Bezier spline does not pass through its control points.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> The control points act as magnets, pulling the curve in certain directions to influence the way the spline bends.</source>
+<seg-source> <mrk mid="0" mtype="seg">The control points act as magnets, pulling the curve in certain directions to influence the way the spline bends.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The control points act as magnets, pulling the curve in certain directions to influence the way the spline bends.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipDrawBezier"></bpt>GdipDrawBezier<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipDrawBezier"></bpt>GdipDrawBezier<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipDrawBezier"></bpt>GdipDrawBezier<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">GDI+</source>
+<seg-source><mrk mid="0" mtype="seg">GDI+</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GDI+</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Draw a Bezier curve</source>
+<seg-source><mrk mid="0" mtype="seg">Draw a Bezier curve</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draw a Bezier curve</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Clean up resources</source>
+<seg-source><mrk mid="0" mtype="seg">Clean up resources</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Clean up resources</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">initialize GDI+</source>
+<seg-source><mrk mid="0" mtype="seg">initialize GDI+</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">initialize GDI+</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">$iBGColor format RRGGBB</source>
+<seg-source><mrk mid="0" mtype="seg">$iBGColor format RRGGBB</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$iBGColor format RRGGBB</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">GDI+ Example (</source>
+<seg-source><mrk mid="0" mtype="seg">GDI+ Example (</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GDI+ Example (</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">)</source>
+<seg-source><mrk mid="0" mtype="seg">)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">)</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">create a test GUI</source>
+<seg-source><mrk mid="0" mtype="seg">create a test GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">create a test GUI</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">set GUI background color</source>
+<seg-source><mrk mid="0" mtype="seg">set GUI background color</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">set GUI background color</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">create a graphics object from a window handle</source>
+<seg-source><mrk mid="0" mtype="seg">create a graphics object from a window handle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">create a graphics object from a window handle</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">sets the graphics object rendering quality (antialiasing)</source>
+<seg-source><mrk mid="0" mtype="seg">sets the graphics object rendering quality (antialiasing)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the graphics object rendering quality (antialiasing)</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">color format AARRGGBB (hex)</source>
+<seg-source><mrk mid="0" mtype="seg">color format AARRGGBB (hex)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">color format AARRGGBB (hex)</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">cleanup GDI+ resources</source>
+<seg-source><mrk mid="0" mtype="seg">cleanup GDI+ resources</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">cleanup GDI+ resources</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

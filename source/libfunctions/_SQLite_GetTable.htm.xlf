@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_SQLite_GetTable.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Passes Out a 1Dimensional Array Containing Tablenames and Data of Executed Query</source>
+<seg-source><mrk mid="0" mtype="seg">Passes Out a 1Dimensional Array Containing Tablenames and Data of Executed Query</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Passes Out a 1Dimensional Array Containing Tablenames and Data of Executed Query</mrk></target>
+<note>Function _SQLite_GetTable</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">An open database, use -1 to use last opened database</source>
+<seg-source><mrk mid="0" mtype="seg">An open database, use -1 to use last opened database</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An open database, use -1 to use last opened database</mrk></target>
+<note>$hDB</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">SQL Statement to be executed</source>
+<seg-source><mrk mid="0" mtype="seg">SQL Statement to be executed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL Statement to be executed</mrk></target>
+<note>$sSQL</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Passes out the result</source>
+<seg-source><mrk mid="0" mtype="seg">Passes out the result</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Passes out the result</mrk></target>
+<note>$aResult</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Passes out the amount of 'data' Rows</source>
+<seg-source><mrk mid="0" mtype="seg">Passes out the amount of 'data' Rows</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Passes out the amount of 'data' Rows</mrk></target>
+<note>$iRows</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Passes out the amount of columns</source>
+<seg-source><mrk mid="0" mtype="seg">Passes out the amount of columns</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Passes out the amount of columns</mrk></target>
+<note>$iColumns</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the maximal size of a data field</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the maximal size of a data field</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the maximal size of a data field</mrk></target>
+<note>$iCharSize</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">$SQLITE_OK.</source>
+<seg-source><mrk mid="0" mtype="seg">$SQLITE_OK.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$SQLITE_OK.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">a value that can be compared against $SQLITE_* constants.</source>
+<seg-source><mrk mid="0" mtype="seg">a value that can be compared against $SQLITE_* constants.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a value that can be compared against $SQLITE_* constants.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> -1 - SQLite reported an error (Check Return value)</source>
+<seg-source> <mrk mid="0" mtype="seg">-1 - SQLite reported an error (Check Return value)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">-1 - SQLite reported an error (Check Return value)</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> 1 - Call Prevented by SafeMode</source>
+<seg-source> <mrk mid="0" mtype="seg">1 - Call Prevented by SafeMode</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 - Call Prevented by SafeMode</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> 2 - Error returned by <bpt id="1" ctype="x-a">&lt;a href="_SQLite_Query.htm"></bpt>_SQLite_Query()<ept id="1">&lt;/a></ept> in @extended</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - Error returned by <bpt id="1" ctype="x-a">&lt;a href="_SQLite_Query.htm"></bpt>_SQLite_Query()<ept id="1">&lt;/a></ept> in @extended</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - Error returned by <bpt id="1" ctype="x-a">&lt;a href="_SQLite_Query.htm"></bpt>_SQLite_Query()<ept id="1">&lt;/a></ept> in @extended</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> 3 - Error returned by <bpt id="1" ctype="x-a">&lt;a href="_SQLite_FetchNames.htm"></bpt>_SQLite_FetchNames()<ept id="1">&lt;/a></ept> in @extended</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - Error returned by <bpt id="1" ctype="x-a">&lt;a href="_SQLite_FetchNames.htm"></bpt>_SQLite_FetchNames()<ept id="1">&lt;/a></ept> in @extended</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - Error returned by <bpt id="1" ctype="x-a">&lt;a href="_SQLite_FetchNames.htm"></bpt>_SQLite_FetchNames()<ept id="1">&lt;/a></ept> in @extended</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> 4 - Error returned by <bpt id="1" ctype="x-a">&lt;a href="_SQLite_FetchData.htm"></bpt>_SQLite_FetchData()<ept id="1">&lt;/a></ept> in @extended </source>
+<seg-source> <mrk mid="0" mtype="seg">4 - Error returned by <bpt id="1" ctype="x-a">&lt;a href="_SQLite_FetchData.htm"></bpt>_SQLite_FetchData()<ept id="1">&lt;/a></ept> in @extended</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 - Error returned by <bpt id="1" ctype="x-a">&lt;a href="_SQLite_FetchData.htm"></bpt>_SQLite_FetchData()<ept id="1">&lt;/a></ept> in @extended</mrk> </target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">The number of values inserted into $aResult will be (($iRows) + 1) * ($iColumns) this number is inserted into $aResult[0].</source>
+<seg-source><mrk mid="0" mtype="seg">The number of values inserted into $aResult will be (($iRows) + 1) * ($iColumns) this number is inserted into $aResult[0].</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The number of values inserted into $aResult will be (($iRows) + 1) * ($iColumns) this number is inserted into $aResult[0].</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> A NULL will be returned as numeric 0.</source>
+<seg-source> <mrk mid="0" mtype="seg">A NULL will be returned as numeric 0.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">A NULL will be returned as numeric 0.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> If you do not need a result (or if there will be none) consider using <bpt id="1" ctype="x-a">&lt;a href="_SQLite_Exec.htm"></bpt>_SQLite_Exec()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">If you do not need a result (or if there will be none) consider using <bpt id="1" ctype="x-a">&lt;a href="_SQLite_Exec.htm"></bpt>_SQLite_Exec()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If you do not need a result (or if there will be none) consider using <bpt id="1" ctype="x-a">&lt;a href="_SQLite_Exec.htm"></bpt>_SQLite_Exec()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">SQLite Error</source>
+<seg-source><mrk mid="0" mtype="seg">SQLite Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLite Error</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">SQLite.dll Can't be Loaded!</source>
+<seg-source><mrk mid="0" mtype="seg">SQLite.dll Can't be Loaded!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLite.dll Can't be Loaded!</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">_SQLite_LibVersion=</source>
+<seg-source><mrk mid="0" mtype="seg">_SQLite_LibVersion=</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_SQLite_LibVersion=</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Open a :memory: database</source>
+<seg-source><mrk mid="0" mtype="seg">Open a :memory: database</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open a :memory: database</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">SQLite Error</source>
+<seg-source><mrk mid="0" mtype="seg">SQLite Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLite Error</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Can't Load Database!</source>
+<seg-source><mrk mid="0" mtype="seg">Can't Load Database!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Can't Load Database!</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Example Table</source>
+<seg-source><mrk mid="0" mtype="seg">Example Table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example Table</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Name | Age</source>
+<seg-source><mrk mid="0" mtype="seg">Name | Age</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Name | Age</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">-----------------------</source>
+<seg-source><mrk mid="0" mtype="seg">-----------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-----------------------</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Alice | 43</source>
+<seg-source><mrk mid="0" mtype="seg">Alice | 43</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Alice | 43</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Bob | 28</source>
+<seg-source><mrk mid="0" mtype="seg">Bob | 28</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bob | 28</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Cindy | 21</source>
+<seg-source><mrk mid="0" mtype="seg">Cindy | 21</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cindy | 21</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">CREATE TEMP TABLE persons (Name, Age);</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE TEMP TABLE persons (Name, Age);</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE TEMP TABLE persons (Name, Age);</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">SQLite Error</source>
+<seg-source><mrk mid="0" mtype="seg">SQLite Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLite Error</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">INSERT INTO persons VALUES ('Alice','43');</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT INTO persons VALUES ('Alice','43');</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT INTO persons VALUES ('Alice','43');</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">SQLite Error</source>
+<seg-source><mrk mid="0" mtype="seg">SQLite Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLite Error</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">INSERT INTO persons VALUES ('Bob','28');</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT INTO persons VALUES ('Bob','28');</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT INTO persons VALUES ('Bob','28');</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">SQLite Error</source>
+<seg-source><mrk mid="0" mtype="seg">SQLite Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLite Error</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">INSERT INTO persons VALUES ('Cindy','21');</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT INTO persons VALUES ('Cindy','21');</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT INTO persons VALUES ('Cindy','21');</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">SQLite Error</source>
+<seg-source><mrk mid="0" mtype="seg">SQLite Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLite Error</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Query</source>
+<seg-source><mrk mid="0" mtype="seg">Query</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Query</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">SELECT * FROM persons;</source>
+<seg-source><mrk mid="0" mtype="seg">SELECT * FROM persons;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECT * FROM persons;</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">$aResult Looks Like this:</source>
+<seg-source><mrk mid="0" mtype="seg">$aResult Looks Like this:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$aResult Looks Like this:</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">[0] = 8</source>
+<seg-source><mrk mid="0" mtype="seg">[0] = 8</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[0] = 8</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">[1] = Name</source>
+<seg-source><mrk mid="0" mtype="seg">[1] = Name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[1] = Name</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">[2] = Age</source>
+<seg-source><mrk mid="0" mtype="seg">[2] = Age</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[2] = Age</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">[3] = Alice</source>
+<seg-source><mrk mid="0" mtype="seg">[3] = Alice</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[3] = Alice</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">[4] = 43</source>
+<seg-source><mrk mid="0" mtype="seg">[4] = 43</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[4] = 43</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">[5] = Bob</source>
+<seg-source><mrk mid="0" mtype="seg">[5] = Bob</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[5] = Bob</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">[6] = 28</source>
+<seg-source><mrk mid="0" mtype="seg">[6] = 28</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[6] = 28</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">[7] = Cindy</source>
+<seg-source><mrk mid="0" mtype="seg">[7] = Cindy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[7] = Cindy</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">[8] = 21</source>
+<seg-source><mrk mid="0" mtype="seg">[8] = 21</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[8] = 21</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Query Result</source>
+<seg-source><mrk mid="0" mtype="seg">Query Result</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Query Result</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">SQLite Error:</source>
+<seg-source><mrk mid="0" mtype="seg">SQLite Error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQLite Error:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

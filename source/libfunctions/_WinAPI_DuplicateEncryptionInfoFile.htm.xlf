@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_DuplicateEncryptionInfoFile.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Copies the EFS metadata from one file or directory to another</source>
+<seg-source><mrk mid="0" mtype="seg">Copies the EFS metadata from one file or directory to another</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Copies the EFS metadata from one file or directory to another</mrk></target>
+<note>Function _WinAPI_DuplicateEncryptionInfoFile</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The name of the file or directory from which the EFS metadata is to be copied.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the file or directory from which the EFS metadata is to be copied.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the file or directory from which the EFS metadata is to be copied.</mrk></target>
+<note>$sSrcFilePath</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> This source file or directory must be encrypted.</source>
+<seg-source> <mrk mid="0" mtype="seg">This source file or directory must be encrypted.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This source file or directory must be encrypted.</mrk></target>
+<note>$sSrcFilePath</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The name of the file or directory to which the EFS metadata is to be copied.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the file or directory to which the EFS metadata is to be copied.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the file or directory to which the EFS metadata is to be copied.</mrk></target>
+<note>$sDestFilePath</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> This destination file or directory does not have to be encrypted before the call to this function.</source>
+<seg-source> <mrk mid="0" mtype="seg">This destination file or directory does not have to be encrypted before the call to this function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This destination file or directory does not have to be encrypted before the call to this function.</mrk></target>
+<note>$sDestFilePath</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> If the source is a file, this parameter must also specify a file, and likewise for directories.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the source is a file, this parameter must also specify a file, and likewise for directories.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the source is a file, this parameter must also specify a file, and likewise for directories.</mrk></target>
+<note>$sDestFilePath</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies how the destination file or directory is to be opened.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies how the destination file or directory is to be opened.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies how the destination file or directory is to be opened.</mrk></target>
+<note>$iCreation</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> The following are the valid values of this parameter:</source>
+<seg-source> <mrk mid="0" mtype="seg">The following are the valid values of this parameter:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The following are the valid values of this parameter:</mrk></target>
+<note>$iCreation</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $CREATE_NEW</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CREATE_NEW</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CREATE_NEW</mrk></target>
+<note>$iCreation</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $CREATE_ALWAYS (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CREATE_ALWAYS (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CREATE_ALWAYS (Default)</mrk></target>
+<note>$iCreation</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The file attributes of the destination file or directory.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The file attributes of the destination file or directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The file attributes of the destination file or directory.</mrk></target>
+<note>$iAttributes</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> The $FILE_READ_ONLY attribute is currently not processed by this function.</source>
+<seg-source> <mrk mid="0" mtype="seg">The $FILE_READ_ONLY attribute is currently not processed by this function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The $FILE_READ_ONLY attribute is currently not processed by this function.</mrk></target>
+<note>$iAttributes</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> $tagSECURITY_ATTRIBUTES structure that specifies the security attributes of the destination file or directory, if it does not already exist.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">$tagSECURITY_ATTRIBUTES structure that specifies the security attributes of the destination file or directory, if it does not already exist.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">$tagSECURITY_ATTRIBUTES structure that specifies the security attributes of the destination file or directory, if it does not already exist.</mrk></target>
+<note>$tSecurity</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> If this parameter is 0 (Default), the file or directory gets a default security descriptor.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is 0 (Default), the file or directory gets a default security descriptor.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is 0 (Default), the file or directory gets a default security descriptor.</mrk></target>
+<note>$tSecurity</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> The access-control lists (ACL) in the default security descriptor for a file or directory are inherited from its parent directory.</source>
+<seg-source> <mrk mid="0" mtype="seg">The access-control lists (ACL) in the default security descriptor for a file or directory are inherited from its parent directory.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The access-control lists (ACL) in the default security descriptor for a file or directory are inherited from its parent directory.</mrk></target>
+<note>$tSecurity</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">0 and sets the @error flag to non-zero, @extended flag may contain the system error code.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the system error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the system error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">The caller should have the EFS key for the source file or directory, and at least the $READ_ATTRIBUTE ACL for the source file or directory.</source>
+<seg-source><mrk mid="0" mtype="seg">The caller should have the EFS key for the source file or directory, and at least the $READ_ATTRIBUTE ACL for the source file or directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The caller should have the EFS key for the source file or directory, and at least the $READ_ATTRIBUTE ACL for the source file or directory.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> The specified source and destination file or directories should reside on the same computer; otherwise, the function fails.</source>
+<seg-source> <mrk mid="0" mtype="seg">The specified source and destination file or directories should reside on the same computer; otherwise, the function fails.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The specified source and destination file or directories should reside on the same computer; otherwise, the function fails.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DuplicateEncryptionInfoFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DuplicateEncryptionInfoFile<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DuplicateEncryptionInfoFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DuplicateEncryptionInfoFile<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DuplicateEncryptionInfoFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DuplicateEncryptionInfoFile<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

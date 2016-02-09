@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/Eval.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Return the value of the variable defined by a string.</source>
+<seg-source><mrk mid="0" mtype="seg">Return the value of the variable defined by a string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return the value of the variable defined by a string.</mrk></target>
+<note>Function Eval</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">string representing name of the variable.</source>
+<seg-source><mrk mid="0" mtype="seg">string representing name of the variable.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">string representing name of the variable.</mrk></target>
+<note>string</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">the value of the variable.</source>
+<seg-source><mrk mid="0" mtype="seg">the value of the variable.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the value of the variable.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">"" (empty string) and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">"" (empty string) and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"" (empty string) and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">If there is a need to use <bpt id="1" ctype="x-a">&lt;a href="Eval.htm"></bpt>Eval()<ept id="1">&lt;/a></ept> to read a variable, then in most situations <bpt id="2" ctype="x-a">&lt;a href="Assign.htm"></bpt>Assign()<ept id="2">&lt;/a></ept> should be used to create/write to the variable and <bpt id="3" ctype="x-a">&lt;a href="IsDeclared.htm"></bpt>IsDeclared()<ept id="3">&lt;/a></ept> should be used to check that the variable exists.</source>
+<seg-source><mrk mid="0" mtype="seg">If there is a need to use <bpt id="1" ctype="x-a">&lt;a href="Eval.htm"></bpt>Eval()<ept id="1">&lt;/a></ept> to read a variable, then in most situations <bpt id="2" ctype="x-a">&lt;a href="Assign.htm"></bpt>Assign()<ept id="2">&lt;/a></ept> should be used to create/write to the variable and <bpt id="3" ctype="x-a">&lt;a href="IsDeclared.htm"></bpt>IsDeclared()<ept id="3">&lt;/a></ept> should be used to check that the variable exists.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If there is a need to use <bpt id="1" ctype="x-a">&lt;a href="Eval.htm"></bpt>Eval()<ept id="1">&lt;/a></ept> to read a variable, then in most situations <bpt id="2" ctype="x-a">&lt;a href="Assign.htm"></bpt>Assign()<ept id="2">&lt;/a></ept> should be used to create/write to the variable and <bpt id="3" ctype="x-a">&lt;a href="IsDeclared.htm"></bpt>IsDeclared()<ept id="3">&lt;/a></ept> should be used to check that the variable exists.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Assign the variable string sString with data.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign the variable string sString with data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign the variable string sString with data.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">sString</source>
+<seg-source><mrk mid="0" mtype="seg">sString</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sString</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">This is a string which is declared using the function Assign</source>
+<seg-source><mrk mid="0" mtype="seg">This is a string which is declared using the function Assign</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a string which is declared using the function Assign</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Find the value of the variable string sString and assign to the variable $sEvalString.</source>
+<seg-source><mrk mid="0" mtype="seg">Find the value of the variable string sString and assign to the variable $sEvalString.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Find the value of the variable string sString and assign to the variable $sEvalString.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">sString</source>
+<seg-source><mrk mid="0" mtype="seg">sString</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sString</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Display the value of $sEvalString. This should be the same value as $sString.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the value of $sEvalString.</mrk> <mrk mid="1" mtype="seg">This should be the same value as $sString.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the value of $sEvalString.</mrk> <mrk mid="1" mtype="seg">This should be the same value as $sString.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_DateAdd.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Calculates a new date/time by adding/subtracting a specified number of time intervals from an initial date/time</source>
+<seg-source><mrk mid="0" mtype="seg">Calculates a new date/time by adding/subtracting a specified number of time intervals from an initial date/time</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Calculates a new date/time by adding/subtracting a specified number of time intervals from an initial date/time</mrk></target>
+<note>Function _DateAdd</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Time interval to be used:</source>
+<seg-source><mrk mid="0" mtype="seg">Time interval to be used:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Time interval to be used:</mrk></target>
+<note>$sType</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> D - Add/subtract days to/from the specified date</source>
+<seg-source> <mrk mid="0" mtype="seg">D - Add/subtract days to/from the specified date</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">D - Add/subtract days to/from the specified date</mrk></target>
+<note>$sType</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> M - Add/subtract months to/from the specified date</source>
+<seg-source> <mrk mid="0" mtype="seg">M - Add/subtract months to/from the specified date</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">M - Add/subtract months to/from the specified date</mrk></target>
+<note>$sType</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> Y - Add/subtract years to/from the specified date</source>
+<seg-source> <mrk mid="0" mtype="seg">Y - Add/subtract years to/from the specified date</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Y - Add/subtract years to/from the specified date</mrk></target>
+<note>$sType</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> w - Add/subtract Weeks to/from the specified date</source>
+<seg-source> <mrk mid="0" mtype="seg">w - Add/subtract Weeks to/from the specified date</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">w - Add/subtract Weeks to/from the specified date</mrk></target>
+<note>$sType</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> h - Add/subtract hours to/from the specified date</source>
+<seg-source> <mrk mid="0" mtype="seg">h - Add/subtract hours to/from the specified date</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">h - Add/subtract hours to/from the specified date</mrk></target>
+<note>$sType</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> n - Add/subtract minutes to/from the specified en date</source>
+<seg-source> <mrk mid="0" mtype="seg">n - Add/subtract minutes to/from the specified en date</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">n - Add/subtract minutes to/from the specified en date</mrk></target>
+<note>$sType</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> s - Add/subtract seconds to/from the specified date</source>
+<seg-source> <mrk mid="0" mtype="seg">s - Add/subtract seconds to/from the specified date</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">s - Add/subtract seconds to/from the specified date</mrk></target>
+<note>$sType</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Number of intervals to be added/subtracted (use unary minus for subtraction)</source>
+<seg-source><mrk mid="0" mtype="seg">Number of intervals to be added/subtracted (use unary minus for subtraction)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Number of intervals to be added/subtracted (use unary minus for subtraction)</mrk></target>
+<note>$iNumber</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Initial date in the format YYYY/MM/DD[ HH:MM:SS]</source>
+<seg-source><mrk mid="0" mtype="seg">Initial date in the format YYYY/MM/DD[ HH:MM:SS]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Initial date in the format YYYY/MM/DD[ HH:MM:SS]</mrk></target>
+<note>$sDate</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Calculated date.</source>
+<seg-source><mrk mid="0" mtype="seg">Calculated date.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Calculated date.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">1 - Invalid $sType</source>
+<seg-source><mrk mid="0" mtype="seg">1 - Invalid $sType</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - Invalid $sType</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> 2 - Invalid $iNumber</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - Invalid $iNumber</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - Invalid $iNumber</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> 3 - Invalid $sDate</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - Invalid $sDate</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - Invalid $sDate</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Valid initial date must be between "2000/01/01 00:00:00". and "3000/12/31 23:59:59".</source>
+<seg-source><mrk mid="0" mtype="seg">Valid initial date must be between "2000/01/01 00:00:00".</mrk> <mrk mid="1" mtype="seg">and "3000/12/31 23:59:59".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Valid initial date must be between "2000/01/01 00:00:00".</mrk> <mrk mid="1" mtype="seg">and "3000/12/31 23:59:59".</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> The function will not return an invalid date. For example, if 3 months are added to '2004/1/31' then the result will be '2004/04/30'.</source>
+<seg-source> <mrk mid="0" mtype="seg">The function will not return an invalid date.</mrk> <mrk mid="1" mtype="seg">For example, if 3 months are added to '2004/1/31' then the result will be '2004/04/30'.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The function will not return an invalid date.</mrk> <mrk mid="1" mtype="seg">For example, if 3 months are added to '2004/1/31' then the result will be '2004/04/30'.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> See <bpt id="1" ctype="x-a">&lt;a href="_DateTimeSplit.htm"></bpt>_DateTimeSplit()<ept id="1">&lt;/a></ept> for other possible variations of the input date format.</source>
+<seg-source> <mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="_DateTimeSplit.htm"></bpt>_DateTimeSplit()<ept id="1">&lt;/a></ept> for other possible variations of the input date format.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="_DateTimeSplit.htm"></bpt>_DateTimeSplit()<ept id="1">&lt;/a></ept> for other possible variations of the input date format.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Add 5 days to today</source>
+<seg-source><mrk mid="0" mtype="seg">Add 5 days to today</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add 5 days to today</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">d</source>
+<seg-source><mrk mid="0" mtype="seg">d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">d</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Today + 5 days:</source>
+<seg-source><mrk mid="0" mtype="seg">Today + 5 days:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Today + 5 days:</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Subtract 2 weeks from today</source>
+<seg-source><mrk mid="0" mtype="seg">Subtract 2 weeks from today</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Subtract 2 weeks from today</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">w</source>
+<seg-source><mrk mid="0" mtype="seg">w</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">w</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Today minus 2 weeks:</source>
+<seg-source><mrk mid="0" mtype="seg">Today minus 2 weeks:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Today minus 2 weeks:</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Add 15 minutes to current time</source>
+<seg-source><mrk mid="0" mtype="seg">Add 15 minutes to current time</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add 15 minutes to current time</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">n</source>
+<seg-source><mrk mid="0" mtype="seg">n</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">n</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Current time +15 minutes:</source>
+<seg-source><mrk mid="0" mtype="seg">Current time +15 minutes:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Current time +15 minutes:</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Calculated eventlogdate which returns second since 1970/01/01 00:00:00</source>
+<seg-source><mrk mid="0" mtype="seg">Calculated eventlogdate which returns second since 1970/01/01 00:00:00</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Calculated eventlogdate which returns second since 1970/01/01 00:00:00</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">s</source>
+<seg-source><mrk mid="0" mtype="seg">s</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">s</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">1970/01/01 00:00:00</source>
+<seg-source><mrk mid="0" mtype="seg">1970/01/01 00:00:00</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1970/01/01 00:00:00</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Date:</source>
+<seg-source><mrk mid="0" mtype="seg">Date:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Date:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

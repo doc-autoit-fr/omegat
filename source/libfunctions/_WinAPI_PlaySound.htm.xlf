@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_PlaySound.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Plays a sound specified by the given file name, resource, or system event</source>
+<seg-source><mrk mid="0" mtype="seg">Plays a sound specified by the given file name, resource, or system event</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Plays a sound specified by the given file name, resource, or system event</mrk></target>
+<note>Function _WinAPI_PlaySound</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The string that specifies the sound to play. The maximum length is 255 characters. If $sSound is</source>
+<seg-source><mrk mid="0" mtype="seg">The string that specifies the sound to play.</mrk> <mrk mid="1" mtype="seg">The maximum length is 255 characters.</mrk> <mrk mid="2" mtype="seg">If $sSound is</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The string that specifies the sound to play.</mrk> <mrk mid="1" mtype="seg">The maximum length is 255 characters.</mrk> <mrk mid="2" mtype="seg">If $sSound is</mrk></target>
+<note>$sSound</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> empty, any currently playing waveform sound is stopped.</source>
+<seg-source> <mrk mid="0" mtype="seg">empty, any currently playing waveform sound is stopped.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">empty, any currently playing waveform sound is stopped.</mrk></target>
+<note>$sSound</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The flags for sound playing. This parameter can be one or more of the following values.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The flags for sound playing.</mrk> <mrk mid="2" mtype="seg">This parameter can be one or more of the following values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The flags for sound playing.</mrk> <mrk mid="2" mtype="seg">This parameter can be one or more of the following values.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> $SND_APPLICATION</source>
+<seg-source> <mrk mid="0" mtype="seg">$SND_APPLICATION</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SND_APPLICATION</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $SND_ALIAS</source>
+<seg-source> <mrk mid="0" mtype="seg">$SND_ALIAS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SND_ALIAS</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $SND_ALIAS_ID</source>
+<seg-source> <mrk mid="0" mtype="seg">$SND_ALIAS_ID</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SND_ALIAS_ID</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $SND_ASYNC</source>
+<seg-source> <mrk mid="0" mtype="seg">$SND_ASYNC</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SND_ASYNC</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> $SND_FILENAME</source>
+<seg-source> <mrk mid="0" mtype="seg">$SND_FILENAME</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SND_FILENAME</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> $SND_LOOP</source>
+<seg-source> <mrk mid="0" mtype="seg">$SND_LOOP</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SND_LOOP</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> $SND_MEMORY</source>
+<seg-source> <mrk mid="0" mtype="seg">$SND_MEMORY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SND_MEMORY</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> $SND_NODEFAULT</source>
+<seg-source> <mrk mid="0" mtype="seg">$SND_NODEFAULT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SND_NODEFAULT</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> $SND_NOSTOP</source>
+<seg-source> <mrk mid="0" mtype="seg">$SND_NOSTOP</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SND_NOSTOP</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> $SND_NOWAIT</source>
+<seg-source> <mrk mid="0" mtype="seg">$SND_NOWAIT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SND_NOWAIT</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> $SND_PURGE</source>
+<seg-source> <mrk mid="0" mtype="seg">$SND_PURGE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SND_PURGE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> $SND_RESOURCE</source>
+<seg-source> <mrk mid="0" mtype="seg">$SND_RESOURCE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SND_RESOURCE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> $SND_SYNC</source>
+<seg-source> <mrk mid="0" mtype="seg">$SND_SYNC</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SND_SYNC</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept></mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> $SND_SENTRY</source>
+<seg-source> <mrk mid="0" mtype="seg">$SND_SENTRY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SND_SENTRY</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> $SND_SYSTEM</source>
+<seg-source> <mrk mid="0" mtype="seg">$SND_SYSTEM</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SND_SYSTEM</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> Three flags ($SND_ALIAS, $SND_FILENAME, and $SND_RESOURCE) determine whether the name is interpreted</source>
+<seg-source> <mrk mid="0" mtype="seg">Three flags ($SND_ALIAS, $SND_FILENAME, and $SND_RESOURCE) determine whether the name is interpreted</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Three flags ($SND_ALIAS, $SND_FILENAME, and $SND_RESOURCE) determine whether the name is interpreted</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> as an alias for a system event, a file name, or a resource identifier. If none of these flags are</source>
+<seg-source> <mrk mid="0" mtype="seg">as an alias for a system event, a file name, or a resource identifier.</mrk> <mrk mid="1" mtype="seg">If none of these flags are</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">as an alias for a system event, a file name, or a resource identifier.</mrk> <mrk mid="1" mtype="seg">If none of these flags are</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> specified, <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_PlaySound.htm"></bpt>_WinAPI_PlaySound()<ept id="1">&lt;/a></ept> searches the registry or the WIN.INI file for an association with</source>
+<seg-source> <mrk mid="0" mtype="seg">specified, <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_PlaySound.htm"></bpt>_WinAPI_PlaySound()<ept id="1">&lt;/a></ept> searches the registry or the WIN.INI file for an association with</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">specified, <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_PlaySound.htm"></bpt>_WinAPI_PlaySound()<ept id="1">&lt;/a></ept> searches the registry or the WIN.INI file for an association with</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> the specified sound name. If an association is found, the sound event is played. If no association</source>
+<seg-source> <mrk mid="0" mtype="seg">the specified sound name.</mrk> <mrk mid="1" mtype="seg">If an association is found, the sound event is played.</mrk> <mrk mid="2" mtype="seg">If no association</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">the specified sound name.</mrk> <mrk mid="1" mtype="seg">If an association is found, the sound event is played.</mrk> <mrk mid="2" mtype="seg">If no association</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> is found in the registry, the name is interpreted as a file name.</source>
+<seg-source> <mrk mid="0" mtype="seg">is found in the registry, the name is interpreted as a file name.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">is found in the registry, the name is interpreted as a file name.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> If the $SND_ALIAS_ID flag is specified in $iFlags, the $sSound parameter must be one of the</source>
+<seg-source> <mrk mid="0" mtype="seg">If the $SND_ALIAS_ID flag is specified in $iFlags, the $sSound parameter must be one of the</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the $SND_ALIAS_ID flag is specified in $iFlags, the $sSound parameter must be one of the</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> $SND_ALIAS_* values.</source>
+<seg-source> <mrk mid="0" mtype="seg">$SND_ALIAS_* values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SND_ALIAS_* values.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> (See MSDN for more information) </source>
+<seg-source> <mrk mid="0" mtype="seg">(See MSDN for more information)</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">(See MSDN for more information)</mrk> </target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Handle to the executable file that contains the resource to be loaded. If $iFlags does not</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Handle to the executable file that contains the resource to be loaded.</mrk> <mrk mid="2" mtype="seg">If $iFlags does not</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Handle to the executable file that contains the resource to be loaded.</mrk> <mrk mid="2" mtype="seg">If $iFlags does not</mrk></target>
+<note>$hInstance</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en"> contain the $SND_RESOURCE, this parameter will be ignored.</source>
+<seg-source> <mrk mid="0" mtype="seg">contain the $SND_RESOURCE, this parameter will be ignored.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">contain the $SND_RESOURCE, this parameter will be ignored.</mrk></target>
+<note>$hInstance</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">False</source>
+<seg-source><mrk mid="0" mtype="seg">False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(PlaySound);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>PlaySound<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(PlaySound);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>PlaySound<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(PlaySound);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>PlaySound<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">\Extras\Airplane.wav</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\Airplane.wav</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\Airplane.wav</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Read Airplane.wav to memory</source>
+<seg-source><mrk mid="0" mtype="seg">Read Airplane.wav to memory</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Read Airplane.wav to memory</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Unable to read "</source>
+<seg-source><mrk mid="0" mtype="seg">Unable to read "</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unable to read "</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">byte[</source>
+<seg-source><mrk mid="0" mtype="seg">byte[</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">byte[</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">]</source>
+<seg-source><mrk mid="0" mtype="seg">]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">]</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Play</source>
+<seg-source><mrk mid="0" mtype="seg">Play</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Play</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">~ _WinAPI_PlaySound($sWav, BitOR($SND_ASYNC, $SND_LOOP))</source>
+<seg-source><mrk mid="0" mtype="seg">~ _WinAPI_PlaySound($sWav, BitOR($SND_ASYNC, $SND_LOOP))</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">~ _WinAPI_PlaySound($sWav, BitOR($SND_ASYNC, $SND_LOOP))</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Stop</source>
+<seg-source><mrk mid="0" mtype="seg">Stop</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Stop</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Play</source>
+<seg-source><mrk mid="0" mtype="seg">Play</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Play</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

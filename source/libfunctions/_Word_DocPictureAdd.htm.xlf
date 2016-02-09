@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_Word_DocPictureAdd.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Adds a picture to the document</source>
+<seg-source><mrk mid="0" mtype="seg">Adds a picture to the document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Adds a picture to the document</mrk></target>
+<note>Function _Word_DocPictureAdd</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Word document object</source>
+<seg-source><mrk mid="0" mtype="seg">Word document object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word document object</mrk></target>
+<note>$oDoc</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The path and file name of the picture</source>
+<seg-source><mrk mid="0" mtype="seg">The path and file name of the picture</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The path and file name of the picture</mrk></target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether to link the picture to the file from which it was created.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to link the picture to the file from which it was created.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to link the picture to the file from which it was created.</mrk></target>
+<note>$bLinkToFile</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     True - Link the picture to the file from which it was created</source>
+<seg-source> <mrk mid="0" mtype="seg">    True - Link the picture to the file from which it was created</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    True - Link the picture to the file from which it was created</mrk></target>
+<note>$bLinkToFile</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     False - Make the picture an independent copy of the file (default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    False - Make the picture an independent copy of the file (default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    False - Make the picture an independent copy of the file (default)</mrk></target>
+<note>$bLinkToFile</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether to save the linked picture with the document.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to save the linked picture with the document.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to save the linked picture with the document.</mrk></target>
+<note>$bSaveWithDocument</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     True - Save the linked picture with the document</source>
+<seg-source> <mrk mid="0" mtype="seg">    True - Save the linked picture with the document</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    True - Save the linked picture with the document</mrk></target>
+<note>$bSaveWithDocument</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     False - Do not save the linked picture with the document (default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    False - Do not save the linked picture with the document (default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    False - Do not save the linked picture with the document (default)</mrk></target>
+<note>$bSaveWithDocument</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The location where the picture will be placed in the text.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The location where the picture will be placed in the text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The location where the picture will be placed in the text.</mrk></target>
+<note>$oRange</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> Can be 0 (the picture is placed automatically) or any range object (default = 0)</source>
+<seg-source> <mrk mid="0" mtype="seg">Can be 0 (the picture is placed automatically) or any range object (default = 0)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Can be 0 (the picture is placed automatically) or any range object (default = 0)</mrk></target>
+<note>$oRange</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">a variable pointing to the shape object</source>
+<seg-source><mrk mid="0" mtype="seg">a variable pointing to the shape object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a variable pointing to the shape object</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">1 - $oDoc is not an object</source>
+<seg-source><mrk mid="0" mtype="seg">1 - $oDoc is not an object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - $oDoc is not an object</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> 2 - The specified picture does not exist</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - The specified picture does not exist</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - The specified picture does not exist</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> 3 - Error occurred when adding the specified picture. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - Error occurred when adding the specified picture.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - Error occurred when adding the specified picture.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> 4 - $oRange is not 0 but is not a range object</source>
+<seg-source> <mrk mid="0" mtype="seg">4 - $oRange is not 0 but is not a range object</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 - $oRange is not 0 but is not a range object</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Create application object</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Word UDF: _Word_DocPictureAdd Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPictureAdd Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPictureAdd Example</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Error creating a new Word application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating a new Word application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating a new Word application object.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Open the test document</source>
+<seg-source><mrk mid="0" mtype="seg">Open the test document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open the test document</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">\Extras\Test.doc</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\Test.doc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\Test.doc</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Word UDF: _Word_DocPictureAdd Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPictureAdd Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPictureAdd Example</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Error opening '.\Extras\Test.doc'.</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening '.\Extras\Test.doc'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening '.\Extras\Test.doc'.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Insert a picture after the fourth word of the document</source>
+<seg-source><mrk mid="0" mtype="seg">Insert a picture after the fourth word of the document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insert a picture after the fourth word of the document</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Set the range as insert marker after the 4th word</source>
+<seg-source><mrk mid="0" mtype="seg">Set the range as insert marker after the 4th word</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the range as insert marker after the 4th word</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">\Extras\Screenshot.png</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\Screenshot.png</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\Screenshot.png</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Word UDF: _Word_DocPictureAdd Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPictureAdd Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPictureAdd Example</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Error adding the picture to the document</source>
+<seg-source><mrk mid="0" mtype="seg">Error adding the picture to the document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error adding the picture to the document</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Word UDF: _Word_DocPictureAdd Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPictureAdd Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPictureAdd Example</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Picture has successfully been added after word 4 in the document.</source>
+<seg-source><mrk mid="0" mtype="seg">Picture has successfully been added after word 4 in the document.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Picture has successfully been added after word 4 in the document.</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Create application object</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Word UDF: _Word_DocPictureAdd Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPictureAdd Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPictureAdd Example</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Error creating a new Word application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating a new Word application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating a new Word application object.</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Open the test document</source>
+<seg-source><mrk mid="0" mtype="seg">Open the test document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open the test document</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">\Extras\Test.doc</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\Test.doc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\Test.doc</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Word UDF: _Word_DocPictureAdd Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPictureAdd Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPictureAdd Example</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">Error opening '.\Extras\Test.doc'.</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening '.\Extras\Test.doc'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening '.\Extras\Test.doc'.</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">Add a picture to the end of the document</source>
+<seg-source><mrk mid="0" mtype="seg">Add a picture to the end of the document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add a picture to the end of the document</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Set the range as insert marker to the end of the document</source>
+<seg-source><mrk mid="0" mtype="seg">Set the range as insert marker to the end of the document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the range as insert marker to the end of the document</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">\Extras\Screenshot.png</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\Screenshot.png</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\Screenshot.png</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">Word UDF: _Word_DocPictureAdd Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPictureAdd Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPictureAdd Example</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">Error adding the picture to the document.</source>
+<seg-source><mrk mid="0" mtype="seg">Error adding the picture to the document.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error adding the picture to the document.</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">Word UDF: _Word_DocPictureAdd Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPictureAdd Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocPictureAdd Example</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">Picture has successfully been added at the end of the document.</source>
+<seg-source><mrk mid="0" mtype="seg">Picture has successfully been added at the end of the document.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Picture has successfully been added at the end of the document.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

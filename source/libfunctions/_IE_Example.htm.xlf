@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_IE_Example.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Display a new browser window pre-loaded with documents to be used in IE.au3 examples or your own testing</source>
+<seg-source><mrk mid="0" mtype="seg">Display a new browser window pre-loaded with documents to be used in IE.au3 examples or your own testing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display a new browser window pre-loaded with documents to be used in IE.au3 examples or your own testing</mrk></target>
+<note>Function _IE_Example</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> specifies which module to run</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">specifies which module to run</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">specifies which module to run</mrk></target>
+<note>$sModule</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">     "basic" = (Default) simple HTML page with text, links and images</source>
+<seg-source> <mrk mid="0" mtype="seg">    "basic" = (Default) simple HTML page with text, links and images</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "basic" = (Default) simple HTML page with text, links and images</mrk></target>
+<note>$sModule</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     "form" = simple HTML page with multiple form elements</source>
+<seg-source> <mrk mid="0" mtype="seg">    "form" = simple HTML page with multiple form elements</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "form" = simple HTML page with multiple form elements</mrk></target>
+<note>$sModule</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     "frameset" = simple HTML page with frames</source>
+<seg-source> <mrk mid="0" mtype="seg">    "frameset" = simple HTML page with frames</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "frameset" = simple HTML page with frames</mrk></target>
+<note>$sModule</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     "iframe" = simple HTML page with iframes</source>
+<seg-source> <mrk mid="0" mtype="seg">    "iframe" = simple HTML page with iframes</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "iframe" = simple HTML page with iframes</mrk></target>
+<note>$sModule</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     "table" = simple HTML page with tables</source>
+<seg-source> <mrk mid="0" mtype="seg">    "table" = simple HTML page with tables</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "table" = simple HTML page with tables</mrk></target>
+<note>$sModule</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">an object variable pointing to an InternetExplorer.Application object.</source>
+<seg-source><mrk mid="0" mtype="seg">an object variable pointing to an InternetExplorer.</mrk><mrk mid="1" mtype="seg">Application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an object variable pointing to an InternetExplorer.</mrk><mrk mid="1" mtype="seg">Application object.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">5 ($_IEStatus_InvalidValue) - Invalid Value</source>
+<seg-source><mrk mid="0" mtype="seg">5 ($_IEStatus_InvalidValue) - Invalid Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">5 ($_IEStatus_InvalidValue) - Invalid Value</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">@extended:</source>
+<seg-source><mrk mid="0" mtype="seg">@extended:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@extended:</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Contains invalid parameter number</source>
+<seg-source><mrk mid="0" mtype="seg">Contains invalid parameter number</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains invalid parameter number</mrk></target>
+<note>@extended:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">This function displays browser windows pre-populated with HTML and HTML elements that are used throughout the helpfile and IE.au3 examples.</source>
+<seg-source><mrk mid="0" mtype="seg">This function displays browser windows pre-populated with HTML and HTML elements that are used throughout the helpfile and IE.au3 examples.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function displays browser windows pre-populated with HTML and HTML elements that are used throughout the helpfile and IE.au3 examples.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> You are also encouraged to use them to experiment with the IE.au3 function set.</source>
+<seg-source> <mrk mid="0" mtype="seg">You are also encouraged to use them to experiment with the IE.au3 function set.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">You are also encouraged to use them to experiment with the IE.au3 function set.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Create browser windows with each of the example pages displayed.</source>
+<seg-source><mrk mid="0" mtype="seg">Create browser windows with each of the example pages displayed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create browser windows with each of the example pages displayed.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">The object variable returned can be used just as the object</source>
+<seg-source><mrk mid="0" mtype="seg">The object variable returned can be used just as the object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The object variable returned can be used just as the object</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">variables returned by _IECreate or _IEAttach</source>
+<seg-source><mrk mid="0" mtype="seg">variables returned by _IECreate or _IEAttach</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">variables returned by _IECreate or _IEAttach</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">basic</source>
+<seg-source><mrk mid="0" mtype="seg">basic</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">basic</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">form</source>
+<seg-source><mrk mid="0" mtype="seg">form</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">form</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">table</source>
+<seg-source><mrk mid="0" mtype="seg">table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">table</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">frameset</source>
+<seg-source><mrk mid="0" mtype="seg">frameset</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">frameset</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">iframe</source>
+<seg-source><mrk mid="0" mtype="seg">iframe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">iframe</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

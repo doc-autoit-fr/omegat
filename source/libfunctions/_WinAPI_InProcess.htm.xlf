@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_InProcess.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Determines whether a window belongs to the current process</source>
+<seg-source><mrk mid="0" mtype="seg">Determines whether a window belongs to the current process</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Determines whether a window belongs to the current process</mrk></target>
+<note>Function _WinAPI_InProcess</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Window handle to be tested</source>
+<seg-source><mrk mid="0" mtype="seg">Window handle to be tested</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Window handle to be tested</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> Last window tested. If $hWnd = $hLastWnd, this process will immediately return True. Otherwise,</source>
+<seg-source> <mrk mid="0" mtype="seg">Last window tested.</mrk> <mrk mid="1" mtype="seg">If $hWnd = $hLastWnd, this process will immediately return True.</mrk> <mrk mid="2" mtype="seg">Otherwise,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Last window tested.</mrk> <mrk mid="1" mtype="seg">If $hWnd = $hLastWnd, this process will immediately return True.</mrk> <mrk mid="2" mtype="seg">Otherwise,</mrk></target>
+<note>$hLastWnd</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_InProcess.htm"></bpt>_WinAPI_InProcess()<ept id="1">&lt;/a></ept> will be called. If $hWnd is in process, $hLastWnd will be set to $hWnd on return. </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_InProcess.htm"></bpt>_WinAPI_InProcess()<ept id="1">&lt;/a></ept> will be called.</mrk> <mrk mid="1" mtype="seg">If $hWnd is in process, $hLastWnd will be set to $hWnd on return.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_InProcess.htm"></bpt>_WinAPI_InProcess()<ept id="1">&lt;/a></ept> will be called.</mrk> <mrk mid="1" mtype="seg">If $hWnd is in process, $hLastWnd will be set to $hWnd on return.</mrk> </target>
+<note>$hLastWnd</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">True:</source>
+<seg-source><mrk mid="0" mtype="seg">True:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True:</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Window handle belongs to the current process</source>
+<seg-source><mrk mid="0" mtype="seg">Window handle belongs to the current process</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Window handle belongs to the current process</mrk></target>
+<note>True:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">False:</source>
+<seg-source><mrk mid="0" mtype="seg">False:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False:</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Window handle does not belong to the current process</source>
+<seg-source><mrk mid="0" mtype="seg">Window handle does not belong to the current process</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Window handle does not belong to the current process</mrk></target>
+<note>False:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">This is one of the key functions to the control memory mapping technique. It checks the process ID of the</source>
+<seg-source><mrk mid="0" mtype="seg">This is one of the key functions to the control memory mapping technique.</mrk> <mrk mid="1" mtype="seg">It checks the process ID of the</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is one of the key functions to the control memory mapping technique.</mrk> <mrk mid="1" mtype="seg">It checks the process ID of the</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> window to determine if it belongs to the current process, which means it can be accessed without mapping the control memory.</source>
+<seg-source> <mrk mid="0" mtype="seg">window to determine if it belongs to the current process, which means it can be accessed without mapping the control memory.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">window to determine if it belongs to the current process, which means it can be accessed without mapping the control memory.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

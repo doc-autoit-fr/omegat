@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_Crypt_GenRandom.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Fill a buffer with cryptographically random data</source>
+<seg-source><mrk mid="0" mtype="seg">Fill a buffer with cryptographically random data</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Fill a buffer with cryptographically random data</mrk></target>
+<note>Function _Crypt_GenRandom</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Pointer to buffer to fill with random data.</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to buffer to fill with random data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to buffer to fill with random data.</mrk></target>
+<note>$pBuffer</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Size of the buffer pointed to by $pBuffer.</source>
+<seg-source><mrk mid="0" mtype="seg">Size of the buffer pointed to by $pBuffer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Size of the buffer pointed to by $pBuffer.</mrk></target>
+<note>$iSize</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">False and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">False and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Optionally, the application can fill this buffer with data to use as an auxiliary random seed.</source>
+<seg-source><mrk mid="0" mtype="seg">Optionally, the application can fill this buffer with data to use as an auxiliary random seed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Optionally, the application can fill this buffer with data to use as an auxiliary random seed.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CryptGenRandom);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CryptGenRandom<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CryptGenRandom);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CryptGenRandom<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CryptGenRandom);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CryptGenRandom<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Generate 16 bytes of random data</source>
+<seg-source><mrk mid="0" mtype="seg">Generate 16 bytes of random data</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Generate 16 bytes of random data</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">byte[16]</source>
+<seg-source><mrk mid="0" mtype="seg">byte[16]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">byte[16]</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Random data:</source>
+<seg-source><mrk mid="0" mtype="seg">Random data:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Random data:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

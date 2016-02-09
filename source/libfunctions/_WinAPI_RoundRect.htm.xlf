@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_RoundRect.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Draws a rectangle with rounded corners</source>
+<seg-source><mrk mid="0" mtype="seg">Draws a rectangle with rounded corners</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draws a rectangle with rounded corners</mrk></target>
+<note>Function _WinAPI_RoundRect</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the device context.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the device context.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the device context.</mrk></target>
+<note>$hDC</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">$tagRECT structure that contains the logical coordinates of the rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg">$tagRECT structure that contains the logical coordinates of the rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$tagRECT structure that contains the logical coordinates of the rectangle.</mrk></target>
+<note>$tRECT</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The width, in logical coordinates, of the ellipse used to draw the rounded corners.</source>
+<seg-source><mrk mid="0" mtype="seg">The width, in logical coordinates, of the ellipse used to draw the rounded corners.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The width, in logical coordinates, of the ellipse used to draw the rounded corners.</mrk></target>
+<note>$iWidth</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The height, in logical coordinates, of the ellipse used to draw the rounded corners.</source>
+<seg-source><mrk mid="0" mtype="seg">The height, in logical coordinates, of the ellipse used to draw the rounded corners.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The height, in logical coordinates, of the ellipse used to draw the rounded corners.</mrk></target>
+<note>$iHeight</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">The rectangle is outlined by using the current pen and filled by using the current brush.</source>
+<seg-source><mrk mid="0" mtype="seg">The rectangle is outlined by using the current pen and filled by using the current brush.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The rectangle is outlined by using the current pen and filled by using the current brush.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RoundRect);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RoundRect<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RoundRect);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RoundRect<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RoundRect);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RoundRect<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Create bitmap</source>
+<seg-source><mrk mid="0" mtype="seg">Create bitmap</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create bitmap</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Draw objects</source>
+<seg-source><mrk mid="0" mtype="seg">Draw objects</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draw objects</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Arial Black</source>
+<seg-source><mrk mid="0" mtype="seg">Arial Black</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Arial Black</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Simple Text</source>
+<seg-source><mrk mid="0" mtype="seg">Simple Text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Simple Text</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">\Extras\Pattern.bmp</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\Pattern.bmp</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\Pattern.bmp</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">$hPattern = _WinAPI_LoadBitmap(_WinAPI_GetModuleHandle(@SystemDir &amp; '\shell32.dll'), 138)</source>
+<seg-source><mrk mid="0" mtype="seg">$hPattern = _WinAPI_LoadBitmap(_WinAPI_GetModuleHandle(@SystemDir &amp; '\shell32.dll'), 138)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$hPattern = _WinAPI_LoadBitmap(_WinAPI_GetModuleHandle(@SystemDir &amp; '\shell32.dll'), 138)</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Merge bitmap</source>
+<seg-source><mrk mid="0" mtype="seg">Merge bitmap</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Merge bitmap</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Set bitmap to control</source>
+<seg-source><mrk mid="0" mtype="seg">Set bitmap to control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set bitmap to control</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

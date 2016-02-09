@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/GUICtrlRegisterListViewSort.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Register a user defined function for an internal listview sorting callback function.</source>
+<seg-source><mrk mid="0" mtype="seg">Register a user defined function for an internal listview sorting callback function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Register a user defined function for an internal listview sorting callback function.</mrk></target>
+<note>Function GUICtrlRegisterListViewSort</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The listview controlID for which the user function should proceed.</source>
+<seg-source><mrk mid="0" mtype="seg">The listview controlID for which the user function should proceed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The listview controlID for which the user function should proceed.</mrk></target>
+<note>controlID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The name of the user function to call when the sorting callback runs.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the user function to call when the sorting callback runs.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the user function to call when the sorting callback runs.</mrk></target>
+<note>function</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">!!! To make the user function workable you have to define it with <bpt id="1" ctype="x-strong">&lt;strong></bpt>maximum 4 function parameters<ept id="1">&lt;/strong></ept> otherwise the function won't be called !!!</source>
+<seg-source><mrk mid="0" mtype="seg">!!!</mrk> <mrk mid="1" mtype="seg">To make the user function workable you have to define it with <bpt id="1" ctype="x-strong">&lt;strong></bpt>maximum 4 function parameters<ept id="1">&lt;/strong></ept> otherwise the function won't be called !!!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!!!</mrk> <mrk mid="1" mtype="seg">To make the user function workable you have to define it with <bpt id="1" ctype="x-strong">&lt;strong></bpt>maximum 4 function parameters<ept id="1">&lt;/strong></ept> otherwise the function won't be called !!!</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> i.e:</source>
+<seg-source> <mrk mid="0" mtype="seg">i.e:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">i.e:</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> Func MySortFunction($nListViewID, $LParam1, $LParam2, $nColumn)</source>
+<seg-source> <mrk mid="0" mtype="seg">Func MySortFunction($nListViewID, $LParam1, $LParam2, $nColumn)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Func MySortFunction($nListViewID, $LParam1, $LParam2, $nColumn)</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> ...</source>
+<seg-source> <mrk mid="0" mtype="seg">...</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">...</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> EndFunc</source>
+<seg-source> <mrk mid="0" mtype="seg">EndFunc</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">EndFunc</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> Or</source>
+<seg-source> <mrk mid="0" mtype="seg">Or</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Or</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> Func MySortFunction($nListViewID, $LParam1, $LParam2)</source>
+<seg-source> <mrk mid="0" mtype="seg">Func MySortFunction($nListViewID, $LParam1, $LParam2)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Func MySortFunction($nListViewID, $LParam1, $LParam2)</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> ...</source>
+<seg-source> <mrk mid="0" mtype="seg">...</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">...</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> EndFunc</source>
+<seg-source> <mrk mid="0" mtype="seg">EndFunc</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">EndFunc</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> When the user function is called then these 4 parameters have the following values:</source>
+<seg-source> <mrk mid="0" mtype="seg">When the user function is called then these 4 parameters have the following values:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When the user function is called then these 4 parameters have the following values:</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Position<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Position<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Position<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Parameter<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Parameter<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Parameter<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Meaning<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Meaning<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Meaning<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">controlID</source>
+<seg-source><mrk mid="0" mtype="seg">controlID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">controlID</mrk></target>
+<note>1</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">The controlID of the listview control for which the callback function is used.</source>
+<seg-source><mrk mid="0" mtype="seg">The controlID of the listview control for which the callback function is used.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The controlID of the listview control for which the callback function is used.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">2</source>
+<seg-source><mrk mid="0" mtype="seg">2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">lParam1</source>
+<seg-source><mrk mid="0" mtype="seg">lParam1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">lParam1</mrk></target>
+<note>2</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">The lParam value of the first item (by default the item controlID).</source>
+<seg-source><mrk mid="0" mtype="seg">The lParam value of the first item (by default the item controlID).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The lParam value of the first item (by default the item controlID).</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">3</source>
+<seg-source><mrk mid="0" mtype="seg">3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">lParam2</source>
+<seg-source><mrk mid="0" mtype="seg">lParam2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">lParam2</mrk></target>
+<note>3</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">The lParam value of the second item (by default the item controlID).</source>
+<seg-source><mrk mid="0" mtype="seg">The lParam value of the second item (by default the item controlID).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The lParam value of the second item (by default the item controlID).</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">4</source>
+<seg-source><mrk mid="0" mtype="seg">4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">4</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">column</source>
+<seg-source><mrk mid="0" mtype="seg">column</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">column</mrk></target>
+<note>4</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">The column that was clicked for sorting (the first column number is 0).</source>
+<seg-source><mrk mid="0" mtype="seg">The column that was clicked for sorting (the first column number is 0).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The column that was clicked for sorting (the first column number is 0).</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"> The following values have to be <bpt id="1" ctype="x-strong">&lt;strong></bpt>Return<ept id="1">&lt;/strong></ept>ed to change the behaviour of the sorting callback:</source>
+<seg-source> <mrk mid="0" mtype="seg">The following values have to be <bpt id="1" ctype="x-strong">&lt;strong></bpt>Return<ept id="1">&lt;/strong></ept>ed to change the behaviour of the sorting callback:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The following values have to be <bpt id="1" ctype="x-strong">&lt;strong></bpt>Return<ept id="1">&lt;/strong></ept>ed to change the behaviour of the sorting callback:</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Return value<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Return value<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Return value<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Meaning<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Meaning<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Meaning<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">-1</source>
+<seg-source><mrk mid="0" mtype="seg">-1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">1st item should precede the 2nd.</source>
+<seg-source><mrk mid="0" mtype="seg">1st item should precede the 2nd.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1st item should precede the 2nd.</mrk></target>
+<note>-1</note>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">0</source>
+<seg-source><mrk mid="0" mtype="seg">0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">No Change.</source>
+<seg-source><mrk mid="0" mtype="seg">No Change.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No Change.</mrk></target>
+<note>0</note>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">1st item should follow the 2nd.</source>
+<seg-source><mrk mid="0" mtype="seg">1st item should follow the 2nd.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1st item should follow the 2nd.</mrk></target>
+<note>1</note>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en"> See also examples for sorting with self created GUI listview items.</source>
+<seg-source> <mrk mid="0" mtype="seg">See also examples for sorting with self created GUI listview items.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">See also examples for sorting with self created GUI listview items.</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">sorting 3 column's different</source>
+<seg-source><mrk mid="0" mtype="seg">sorting 3 column's different</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sorting 3 column's different</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Column1|Col2|Col3</source>
+<seg-source><mrk mid="0" mtype="seg">Column1|Col2|Col3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column1|Col2|Col3</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">LVSort</source>
+<seg-source><mrk mid="0" mtype="seg">LVSort</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LVSort</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Register the function "SortLV" for the sorting callback</source>
+<seg-source><mrk mid="0" mtype="seg">Register the function "SortLV" for the sorting callback</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Register the function "SortLV" for the sorting callback</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">ABC|666|10.05.2004</source>
+<seg-source><mrk mid="0" mtype="seg">ABC|666|10.05.2004</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ABC|666|10.05.2004</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">DEF|444|11.05.2005</source>
+<seg-source><mrk mid="0" mtype="seg">DEF|444|11.05.2005</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DEF|444|11.05.2005</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">CDE|444|12.05.2004</source>
+<seg-source><mrk mid="0" mtype="seg">CDE|444|12.05.2004</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CDE|444|12.05.2004</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">Our sorting callback funtion</source>
+<seg-source><mrk mid="0" mtype="seg">Our sorting callback funtion</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Our sorting callback funtion</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Switch the sorting direction</source>
+<seg-source><mrk mid="0" mtype="seg">Switch the sorting direction</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Switch the sorting direction</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">If it is the 3rd colum (column starts with 0) then compare the dates</source>
+<seg-source><mrk mid="0" mtype="seg">If it is the 3rd colum (column starts with 0) then compare the dates</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If it is the 3rd colum (column starts with 0) then compare the dates</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">No change of item1 and item2 positions</source>
+<seg-source><mrk mid="0" mtype="seg">No change of item1 and item2 positions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No change of item1 and item2 positions</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">Put item2 before item1</source>
+<seg-source><mrk mid="0" mtype="seg">Put item2 before item1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Put item2 before item1</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">Put item2 behind item1</source>
+<seg-source><mrk mid="0" mtype="seg">Put item2 behind item1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Put item2 behind item1</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">Retrieve the text of a listview item in a specified column</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve the text of a listview item in a specified column</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve the text of a listview item in a specified column</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">uint;ptr;int;int[2];int</source>
+<seg-source><mrk mid="0" mtype="seg">uint;ptr;int;int[2];int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">uint;ptr;int;int[2];int</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">char[260]</source>
+<seg-source><mrk mid="0" mtype="seg">char[260]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">char[260]</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">uint;int;int;uint;uint;ptr;int;int;int;int</source>
+<seg-source><mrk mid="0" mtype="seg">uint;int;int;uint;uint;ptr;int;int;int;int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">uint;int;int;uint;uint;ptr;int;int;int;int</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">sorting with selfcreated items by DllCall</source>
+<seg-source><mrk mid="0" mtype="seg">sorting with selfcreated items by DllCall</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sorting with selfcreated items by DllCall</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">Column1|Col2|Col3</source>
+<seg-source><mrk mid="0" mtype="seg">Column1|Col2|Col3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Column1|Col2|Col3</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">LVSort2</source>
+<seg-source><mrk mid="0" mtype="seg">LVSort2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LVSort2</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">Register the function "SortLV" for the sorting callback</source>
+<seg-source><mrk mid="0" mtype="seg">Register the function "SortLV" for the sorting callback</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Register the function "SortLV" for the sorting callback</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">ABC|666|10.05.2004</source>
+<seg-source><mrk mid="0" mtype="seg">ABC|666|10.05.2004</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ABC|666|10.05.2004</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">DEF|444|11.05.2005</source>
+<seg-source><mrk mid="0" mtype="seg">DEF|444|11.05.2005</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DEF|444|11.05.2005</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">CDE|444|12.05.2004</source>
+<seg-source><mrk mid="0" mtype="seg">CDE|444|12.05.2004</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CDE|444|12.05.2004</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">user32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">user32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">InvalidateRect</source>
+<seg-source><mrk mid="0" mtype="seg">InvalidateRect</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">InvalidateRect</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">Our sorting callback funtion</source>
+<seg-source><mrk mid="0" mtype="seg">Our sorting callback funtion</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Our sorting callback funtion</mrk></target>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en">Switch the sorting direction</source>
+<seg-source><mrk mid="0" mtype="seg">Switch the sorting direction</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Switch the sorting direction</mrk></target>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">If it is the 3rd colum (column starts with 0) then compare the dates</source>
+<seg-source><mrk mid="0" mtype="seg">If it is the 3rd colum (column starts with 0) then compare the dates</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If it is the 3rd colum (column starts with 0) then compare the dates</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">No change of item1 and item2 positions</source>
+<seg-source><mrk mid="0" mtype="seg">No change of item1 and item2 positions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No change of item1 and item2 positions</mrk></target>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en">Put item2 before item1</source>
+<seg-source><mrk mid="0" mtype="seg">Put item2 before item1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Put item2 before item1</mrk></target>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">Put item2 behind item1</source>
+<seg-source><mrk mid="0" mtype="seg">Put item2 behind item1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Put item2 behind item1</mrk></target>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en">Create and insert items directly into the listview</source>
+<seg-source><mrk mid="0" mtype="seg">Create and insert items directly into the listview</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create and insert items directly into the listview</mrk></target>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en">uint;int;int;uint;uint;ptr;int;int;int;int;</source>
+<seg-source><mrk mid="0" mtype="seg">uint;int;int;uint;uint;ptr;int;int;int;int;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">uint;int;int;uint;uint;ptr;int;int;int;int;</mrk></target>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en">char[260]</source>
+<seg-source><mrk mid="0" mtype="seg">char[260]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">char[260]</mrk></target>
+</trans-unit>
+<trans-unit id="94">
+<source xml:lang="en">|</source>
+<seg-source><mrk mid="0" mtype="seg">|</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">|</mrk></target>
+</trans-unit>
+<trans-unit id="95">
+<source xml:lang="en">Save the item text in the struct</source>
+<seg-source><mrk mid="0" mtype="seg">Save the item text in the struct</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Save the item text in the struct</mrk></target>
+</trans-unit>
+<trans-unit id="96">
+<source xml:lang="en">Set the lParam of the struct to the line index - unique within the listview</source>
+<seg-source><mrk mid="0" mtype="seg">Set the lParam of the struct to the line index - unique within the listview</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the lParam of the struct to the line index - unique within the listview</mrk></target>
+</trans-unit>
+<trans-unit id="97">
+<source xml:lang="en">Insert now the rest of the column text</source>
+<seg-source><mrk mid="0" mtype="seg">Insert now the rest of the column text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insert now the rest of the column text</mrk></target>
+</trans-unit>
+<trans-unit id="98">
+<source xml:lang="en">Store the subitem index</source>
+<seg-source><mrk mid="0" mtype="seg">Store the subitem index</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Store the subitem index</mrk></target>
+</trans-unit>
+<trans-unit id="99">
+<source xml:lang="en">Change the column width to fit the item text</source>
+<seg-source><mrk mid="0" mtype="seg">Change the column width to fit the item text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Change the column width to fit the item text</mrk></target>
+</trans-unit>
+<trans-unit id="100">
+<source xml:lang="en">Retrieve the text of a listview item in a specified column</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve the text of a listview item in a specified column</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve the text of a listview item in a specified column</mrk></target>
+</trans-unit>
+<trans-unit id="101">
+<source xml:lang="en">uint;ptr;int;int[2];int</source>
+<seg-source><mrk mid="0" mtype="seg">uint;ptr;int;int[2];int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">uint;ptr;int;int[2];int</mrk></target>
+</trans-unit>
+<trans-unit id="102">
+<source xml:lang="en">char[260]</source>
+<seg-source><mrk mid="0" mtype="seg">char[260]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">char[260]</mrk></target>
+</trans-unit>
+<trans-unit id="103">
+<source xml:lang="en">uint;int;int;uint;uint;ptr;int;int;int;int</source>
+<seg-source><mrk mid="0" mtype="seg">uint;int;int;uint;uint;ptr;int;int;int;int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">uint;int;int;uint;uint;ptr;int;int;int;int</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

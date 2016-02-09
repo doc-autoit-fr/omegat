@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/GUIStartGroup.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Defines that any subsequent controls that are created will be "grouped" together.</source>
+<seg-source><mrk mid="0" mtype="seg">Defines that any subsequent controls that are created will be "grouped" together.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Defines that any subsequent controls that are created will be "grouped" together.</mrk></target>
+<note>Function GUIStartGroup</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Windows handle as returned by <bpt id="1" ctype="x-a">&lt;a href="GUICreate.htm"></bpt>GUICreate()<ept id="1">&lt;/a></ept> (default is the previously used window). </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Windows handle as returned by <bpt id="1" ctype="x-a">&lt;a href="GUICreate.htm"></bpt>GUICreate()<ept id="1">&lt;/a></ept> (default is the previously used window).</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Windows handle as returned by <bpt id="1" ctype="x-a">&lt;a href="GUICreate.htm"></bpt>GUICreate()<ept id="1">&lt;/a></ept> (default is the previously used window).</mrk> </target>
+<note>winhandle</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">This function is generally used when working with radio button controls. When you click a radio button all other radio buttons in the same grouping are reset. The <bpt id="1" ctype="x-a">&lt;a href="GUIStartGroup.htm"></bpt>GUIStartGroup()<ept id="1">&lt;/a></ept> function allows you to easily define these groups.</source>
+<seg-source><mrk mid="0" mtype="seg">This function is generally used when working with radio button controls.</mrk> <mrk mid="1" mtype="seg">When you click a radio button all other radio buttons in the same grouping are reset.</mrk> <mrk mid="2" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="GUIStartGroup.htm"></bpt>GUIStartGroup()<ept id="1">&lt;/a></ept> function allows you to easily define these groups.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function is generally used when working with radio button controls.</mrk> <mrk mid="1" mtype="seg">When you click a radio button all other radio buttons in the same grouping are reset.</mrk> <mrk mid="2" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="GUIStartGroup.htm"></bpt>GUIStartGroup()<ept id="1">&lt;/a></ept> function allows you to easily define these groups.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">GUICoordMode</source>
+<seg-source><mrk mid="0" mtype="seg">GUICoordMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUICoordMode</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Radio Box Grouping Demo</source>
+<seg-source><mrk mid="0" mtype="seg">Radio Box Grouping Demo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Radio Box Grouping Demo</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Create the controls</source>
+<seg-source><mrk mid="0" mtype="seg">Create the controls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create the controls</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">B&amp;utton 1</source>
+<seg-source><mrk mid="0" mtype="seg">B&amp;utton 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">B&amp;utton 1</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Group 1</source>
+<seg-source><mrk mid="0" mtype="seg">Group 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Group 1</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Radio &amp;0</source>
+<seg-source><mrk mid="0" mtype="seg">Radio &amp;0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Radio &amp;0</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Radio &amp;1</source>
+<seg-source><mrk mid="0" mtype="seg">Radio &amp;1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Radio &amp;1</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Radio &amp;2</source>
+<seg-source><mrk mid="0" mtype="seg">Radio &amp;2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Radio &amp;2</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Radio &amp;A</source>
+<seg-source><mrk mid="0" mtype="seg">Radio &amp;A</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Radio &amp;A</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Radio &amp;B</source>
+<seg-source><mrk mid="0" mtype="seg">Radio &amp;B</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Radio &amp;B</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Radio &amp;C</source>
+<seg-source><mrk mid="0" mtype="seg">Radio &amp;C</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Radio &amp;C</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Input 1</source>
+<seg-source><mrk mid="0" mtype="seg">Input 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Input 1</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Input 2</source>
+<seg-source><mrk mid="0" mtype="seg">Input 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Input 2</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Set the defaults (radio buttons clicked, default button, etc)</source>
+<seg-source><mrk mid="0" mtype="seg">Set the defaults (radio buttons clicked, default button, etc)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the defaults (radio buttons clicked, default button, etc)</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Init our vars that we will use to keep track of radio events</source>
+<seg-source><mrk mid="0" mtype="seg">Init our vars that we will use to keep track of radio events</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Init our vars that we will use to keep track of radio events</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">We will assume 0 = first radio button selected, 2 = last button</source>
+<seg-source><mrk mid="0" mtype="seg">We will assume 0 = first radio button selected, 2 = last button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">We will assume 0 = first radio button selected, 2 = last button</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">In this message loop we use variables to keep track of changes to the radios, another</source>
+<seg-source><mrk mid="0" mtype="seg">In this message loop we use variables to keep track of changes to the radios, another</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In this message loop we use variables to keep track of changes to the radios, another</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">way would be to use GUICtrlRead() at the end to read in the state of each control. Both</source>
+<seg-source><mrk mid="0" mtype="seg">way would be to use GUICtrlRead() at the end to read in the state of each control.</mrk> <mrk mid="1" mtype="seg">Both</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">way would be to use GUICtrlRead() at the end to read in the state of each control.</mrk> <mrk mid="1" mtype="seg">Both</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">methods are equally valid</source>
+<seg-source><mrk mid="0" mtype="seg">methods are equally valid</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">methods are equally valid</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Radio</source>
+<seg-source><mrk mid="0" mtype="seg">Radio</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Radio</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Radio</source>
+<seg-source><mrk mid="0" mtype="seg">Radio</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Radio</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">A</source>
+<seg-source><mrk mid="0" mtype="seg">A</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

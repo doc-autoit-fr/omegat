@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUIToolTip_SetToolInfo.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the information for a tool</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the information for a tool</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the information for a tool</mrk></target>
+<note>Function _GUIToolTip_SetToolInfo</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle of the window that contains the tool, or 0</source>
+<seg-source><mrk mid="0" mtype="seg">Handle of the window that contains the tool, or 0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle of the window that contains the tool, or 0</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Text for the ToolTip control</source>
+<seg-source><mrk mid="0" mtype="seg">Text for the ToolTip control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text for the ToolTip control</mrk></target>
+<note>$sText</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Identifier of the tool, or Window handle of the control the tool is assigned to</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Identifier of the tool, or Window handle of the control the tool is assigned to</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Identifier of the tool, or Window handle of the control the tool is assigned to</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> X coordinate of the upper left corner of the rectangle</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">X coordinate of the upper left corner of the rectangle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">X coordinate of the upper left corner of the rectangle</mrk></target>
+<note>$iLeft</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Y coordinate of the upper left corner of the rectangle</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Y coordinate of the upper left corner of the rectangle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Y coordinate of the upper left corner of the rectangle</mrk></target>
+<note>$iTop</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> X coordinate of the lower right corner of the rectangle</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">X coordinate of the lower right corner of the rectangle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">X coordinate of the lower right corner of the rectangle</mrk></target>
+<note>$iRight</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Y coordinate of the lower right corner of the rectangle</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Y coordinate of the lower right corner of the rectangle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Y coordinate of the lower right corner of the rectangle</mrk></target>
+<note>$iBottom</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Flags that control the ToolTip display:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Flags that control the ToolTip display:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Flags that control the ToolTip display:</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $TTF_IDISHWND - Indicates that $iID is a window or control handle, instead of the ID of the tool [default]</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TTF_IDISHWND - Indicates that $iID is a window or control handle, instead of the ID of the tool [default]</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TTF_IDISHWND - Indicates that $iID is a window or control handle, instead of the ID of the tool [default]</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $TTF_CENTERTIP - Centers the tooltip below the control specified by $iID</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TTF_CENTERTIP - Centers the tooltip below the control specified by $iID</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TTF_CENTERTIP - Centers the tooltip below the control specified by $iID</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $TTF_RTLREADING - Indicates that text will be displayed in the opposite direction (right to left)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TTF_RTLREADING - Indicates that text will be displayed in the opposite direction (right to left)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TTF_RTLREADING - Indicates that text will be displayed in the opposite direction (right to left)</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $TTF_SUBCLASS - Indicates that the control should subclass the tool's window [default]</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TTF_SUBCLASS - Indicates that the control should subclass the tool's window [default]</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TTF_SUBCLASS - Indicates that the control should subclass the tool's window [default]</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $TTF_TRACK    - Positions the tooltip window next to the tool to which it corresponds</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TTF_TRACK    - Positions the tooltip window next to the tool to which it corresponds</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TTF_TRACK    - Positions the tooltip window next to the tool to which it corresponds</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $TTF_ABSOLUTE - Positions the window at the same coordinates provided by TTM_TRACKPOSITION. (see Remarks)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TTF_ABSOLUTE - Positions the window at the same coordinates provided by TTM_TRACKPOSITION.</mrk> <mrk mid="1" mtype="seg">(see Remarks)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TTF_ABSOLUTE - Positions the window at the same coordinates provided by TTM_TRACKPOSITION.</mrk> <mrk mid="1" mtype="seg">(see Remarks)</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $TTF_TRANSPARENT- Causes the control to forward mouse messages to the parent window</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TTF_TRANSPARENT- Causes the control to forward mouse messages to the parent window</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TTF_TRANSPARENT- Causes the control to forward mouse messages to the parent window</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $TTF_PARSELINKS - Indicates that links in the control text should be displayed as links</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TTF_PARSELINKS - Indicates that links in the control text should be displayed as links</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TTF_PARSELINKS - Indicates that links in the control text should be displayed as links</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Application-defined value that is associated with the tool</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Application-defined value that is associated with the tool</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Application-defined value that is associated with the tool</mrk></target>
+<note>$iParam</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">None.</source>
+<seg-source><mrk mid="0" mtype="seg">None.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Some internal properties of a tool are established when the tool is created, and are not recomputed when a $TTM_SETTOOLINFO message is sent.</source>
+<seg-source><mrk mid="0" mtype="seg">Some internal properties of a tool are established when the tool is created, and are not recomputed when a $TTM_SETTOOLINFO message is sent.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Some internal properties of a tool are established when the tool is created, and are not recomputed when a $TTM_SETTOOLINFO message is sent.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> If you simply assign values to a TOOLINFO structure and pass it to the ToolTip control with a $TTM_SETTOOLINFO message, these properties may be lost.</source>
+<seg-source> <mrk mid="0" mtype="seg">If you simply assign values to a TOOLINFO structure and pass it to the ToolTip control with a $TTM_SETTOOLINFO message, these properties may be lost.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If you simply assign values to a TOOLINFO structure and pass it to the ToolTip control with a $TTM_SETTOOLINFO message, these properties may be lost.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> Instead your application should first request the tool's current TOOLINFO structure by sending a $TTM_GETTOOLINFO message.</source>
+<seg-source> <mrk mid="0" mtype="seg">Instead your application should first request the tool's current TOOLINFO structure by sending a $TTM_GETTOOLINFO message.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Instead your application should first request the tool's current TOOLINFO structure by sending a $TTM_GETTOOLINFO message.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> Then, modify the members of this structure as needed and pass it back to the ToolTip control with $TTM_SETTOOLINFO.</source>
+<seg-source> <mrk mid="0" mtype="seg">Then, modify the members of this structure as needed and pass it back to the ToolTip control with $TTM_SETTOOLINFO.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Then, modify the members of this structure as needed and pass it back to the ToolTip control with $TTM_SETTOOLINFO.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> When calling $TTM_SETTOOLINFO, the string pointed to by the Text member of the TOOLINFO structure must not exceed 80 characters in length.</source>
+<seg-source> <mrk mid="0" mtype="seg">When calling $TTM_SETTOOLINFO, the string pointed to by the Text member of the TOOLINFO structure must not exceed 80 characters in length.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When calling $TTM_SETTOOLINFO, the string pointed to by the Text member of the TOOLINFO structure must not exceed 80 characters in length.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

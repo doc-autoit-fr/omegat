@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/$tagGDIPIMAGECODECINFO.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Keyword Reference</source>
+<seg-source><mrk mid="0" mtype="seg">Keyword Reference</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Keyword Reference</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">$tagGDIPIMAGECODECINFO structure</source>
+<seg-source><mrk mid="0" mtype="seg">$tagGDIPIMAGECODECINFO structure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$tagGDIPIMAGECODECINFO structure</mrk></target>
+<note>Keyword $tagGDIPIMAGECODECINFO</note>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Codec identifier (GUID structure)</source>
+<seg-source><mrk mid="0" mtype="seg">Codec identifier (GUID structure)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Codec identifier (GUID structure)</mrk></target>
+<note>CLSID</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">File format identifier (GUID structure)</source>
+<seg-source><mrk mid="0" mtype="seg">File format identifier (GUID structure)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File format identifier (GUID structure)</mrk></target>
+<note>FormatID</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Pointer to a Unicode null terminated string that contains the codec name</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to a Unicode null terminated string that contains the codec name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to a Unicode null terminated string that contains the codec name</mrk></target>
+<note>CodecName</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Pointer to a Unicode null terminated string that contains the path name of the DLL in which the codec resides.</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to a Unicode null terminated string that contains the path name of the DLL in which the codec resides.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to a Unicode null terminated string that contains the path name of the DLL in which the codec resides.</mrk></target>
+<note>DllName</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> If the codec is not in a DLL, this pointer is 0.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the codec is not in a DLL, this pointer is 0.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the codec is not in a DLL, this pointer is 0.</mrk></target>
+<note>DllName</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Pointer to a Unicode null terminated string that contains the name of the file format used by the codec.</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to a Unicode null terminated string that contains the name of the file format used by the codec.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to a Unicode null terminated string that contains the name of the file format used by the codec.</mrk></target>
+<note>FormatDesc</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Pointer to a Unicode null terminated string that contains all filename extensions associated with the codec.</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to a Unicode null terminated string that contains all filename extensions associated with the codec.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to a Unicode null terminated string that contains all filename extensions associated with the codec.</mrk></target>
+<note>FileExt</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> The extensions are separated by semicolons.</source>
+<seg-source> <mrk mid="0" mtype="seg">The extensions are separated by semicolons.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The extensions are separated by semicolons.</mrk></target>
+<note>FileExt</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Pointer to a null-terminated string that contains the mime type of the codec</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to a null-terminated string that contains the mime type of the codec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to a null-terminated string that contains the mime type of the codec</mrk></target>
+<note>MimeType</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Combination of $GDIP_ICF flags</source>
+<seg-source><mrk mid="0" mtype="seg">Combination of $GDIP_ICF flags</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Combination of $GDIP_ICF flags</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Indicates the version of the codec</source>
+<seg-source><mrk mid="0" mtype="seg">Indicates the version of the codec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indicates the version of the codec</mrk></target>
+<note>Version</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Indicates the number of signatures used by the file format associated with the codec</source>
+<seg-source><mrk mid="0" mtype="seg">Indicates the number of signatures used by the file format associated with the codec</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indicates the number of signatures used by the file format associated with the codec</mrk></target>
+<note>SigCount</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Indicates the number of bytes in each signature</source>
+<seg-source><mrk mid="0" mtype="seg">Indicates the number of bytes in each signature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indicates the number of bytes in each signature</mrk></target>
+<note>SigSize</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Pointer to an array of bytes that contains the pattern for each signature</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to an array of bytes that contains the pattern for each signature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to an array of bytes that contains the pattern for each signature</mrk></target>
+<note>SigPattern</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Pointer to an array of bytes that contains the mask for each signature</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to an array of bytes that contains the mask for each signature</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to an array of bytes that contains the mask for each signature</mrk></target>
+<note>SigMask</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

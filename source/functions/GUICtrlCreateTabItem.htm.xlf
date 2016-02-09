@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/GUICtrlCreateTabItem.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a TabItem control within an existing tab control in the GUI.</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a TabItem control within an existing tab control in the GUI.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a TabItem control within an existing tab control in the GUI.</mrk></target>
+<note>Function GUICtrlCreateTabItem</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The text of the control.</source>
+<seg-source><mrk mid="0" mtype="seg">The text of the control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The text of the control.</mrk></target>
+<note>text</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">the identifier (controlID) of the new control.</source>
+<seg-source><mrk mid="0" mtype="seg">the identifier (controlID) of the new control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the identifier (controlID) of the new control.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">To select a specific tabitem to be shown when the GUI opens use <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetState.htm"></bpt>GUICtrlSetState<ept id="1">&lt;/a></ept>(-1, $GUI_SHOW) as shown in the example.</source>
+<seg-source><mrk mid="0" mtype="seg">To select a specific tabitem to be shown when the GUI opens use <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetState.htm"></bpt>GUICtrlSetState<ept id="1">&lt;/a></ept>(-1, $GUI_SHOW) as shown in the example.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To select a specific tabitem to be shown when the GUI opens use <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetState.htm"></bpt>GUICtrlSetState<ept id="1">&lt;/a></ept>(-1, $GUI_SHOW) as shown in the example.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> It is important to close the tab structure by creating a final tabitem control with a null text - <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateTabItem.htm"></bpt>GUICtrlCreateTabItem<ept id="1">&lt;/a></ept>("").</source>
+<seg-source> <mrk mid="0" mtype="seg">It is important to close the tab structure by creating a final tabitem control with a null text - <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateTabItem.htm"></bpt>GUICtrlCreateTabItem<ept id="1">&lt;/a></ept>("").</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">It is important to close the tab structure by creating a final tabitem control with a null text - <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateTabItem.htm"></bpt>GUICtrlCreateTabItem<ept id="1">&lt;/a></ept>("").</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> Controls for a specific tabitem should be created after the tabitem and before the creating a further tabitem or closing the tab structure. To create a new control on an existing tabitem, use <bpt id="1" ctype="x-a">&lt;a href="GUISwitch.htm"></bpt>GUISwitch<ept id="1">&lt;/a></ept>($hWin, $tabitem) to select the correct tabitem and then create the new control. Do not forget to close the tabitem structure once again with <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateTabItem.htm"></bpt>GUICtrlCreateTabItem<ept id="1">&lt;/a></ept>("").</source>
+<seg-source> <mrk mid="0" mtype="seg">Controls for a specific tabitem should be created after the tabitem and before the creating a further tabitem or closing the tab structure.</mrk> <mrk mid="1" mtype="seg">To create a new control on an existing tabitem, use <bpt id="1" ctype="x-a">&lt;a href="GUISwitch.htm"></bpt>GUISwitch<ept id="1">&lt;/a></ept>($hWin, $tabitem) to select the correct tabitem and then create the new control.</mrk> <mrk mid="2" mtype="seg">Do not forget to close the tabitem structure once again with <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateTabItem.htm"></bpt>GUICtrlCreateTabItem<ept id="1">&lt;/a></ept>("").</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Controls for a specific tabitem should be created after the tabitem and before the creating a further tabitem or closing the tab structure.</mrk> <mrk mid="1" mtype="seg">To create a new control on an existing tabitem, use <bpt id="1" ctype="x-a">&lt;a href="GUISwitch.htm"></bpt>GUISwitch<ept id="1">&lt;/a></ept>($hWin, $tabitem) to select the correct tabitem and then create the new control.</mrk> <mrk mid="2" mtype="seg">Do not forget to close the tabitem structure once again with <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateTabItem.htm"></bpt>GUICtrlCreateTabItem<ept id="1">&lt;/a></ept>("").</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> The tabitem control cannot be colored (too much code ...).</source>
+<seg-source> <mrk mid="0" mtype="seg">The tabitem control cannot be colored (too much code ...).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The tabitem control cannot be colored (too much code ...).</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="GUICtrlRead.htm"></bpt>GUICtrlRead()<ept id="1">&lt;/a></ept> will return the index of the clicked tab item, or the controlID when advanced mode is used.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlRead.htm"></bpt>GUICtrlRead()<ept id="1">&lt;/a></ept> will return the index of the clicked tab item, or the controlID when advanced mode is used.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlRead.htm"></bpt>GUICtrlRead()<ept id="1">&lt;/a></ept> will return the index of the clicked tab item, or the controlID when advanced mode is used.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> To set or change information in the control see <bpt id="1" ctype="x-a">&lt;a href="GUICtrlUpdate%20Management.htm"></bpt>GUICtrlUpdate...()<ept id="1">&lt;/a></ept> functions.</source>
+<seg-source> <mrk mid="0" mtype="seg">To set or change information in the control see <bpt id="1" ctype="x-a">&lt;a href="GUICtrlUpdate%20Management.htm"></bpt>GUICtrlUpdate...()<ept id="1">&lt;/a></ept> functions.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To set or change information in the control see <bpt id="1" ctype="x-a">&lt;a href="GUICtrlUpdate%20Management.htm"></bpt>GUICtrlUpdate...()<ept id="1">&lt;/a></ept> functions.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateTab.htm"></bpt>GUICtrlCreateTab<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="GUICtrlRead.htm"></bpt>GUICtrlRead<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="GUICtrlSetState.htm"></bpt>GUICtrlSetState<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIEventOptions"></bpt>GUIEventOptions (Option)<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="GUIGetMsg.htm"></bpt>GUIGetMsg<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="GUISwitch.htm"></bpt>GUISwitch<ept id="6">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateTab.htm"></bpt>GUICtrlCreateTab<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="GUICtrlRead.htm"></bpt>GUICtrlRead<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="GUICtrlSetState.htm"></bpt>GUICtrlSetState<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIEventOptions"></bpt>GUIEventOptions (Option)<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="GUIGetMsg.htm"></bpt>GUIGetMsg<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="GUISwitch.htm"></bpt>GUISwitch<ept id="6">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateTab.htm"></bpt>GUICtrlCreateTab<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="GUICtrlRead.htm"></bpt>GUICtrlRead<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="GUICtrlSetState.htm"></bpt>GUICtrlSetState<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIEventOptions"></bpt>GUIEventOptions (Option)<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="GUIGetMsg.htm"></bpt>GUIGetMsg<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="GUISwitch.htm"></bpt>GUISwitch<ept id="6">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">My GUI Tab</source>
+<seg-source><mrk mid="0" mtype="seg">My GUI Tab</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">My GUI Tab</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">will create a dialog box that when displayed is centered</source>
+<seg-source><mrk mid="0" mtype="seg">will create a dialog box that when displayed is centered</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">will create a dialog box that when displayed is centered</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">tab0</source>
+<seg-source><mrk mid="0" mtype="seg">tab0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tab0</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">label0</source>
+<seg-source><mrk mid="0" mtype="seg">label0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">label0</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">OK0</source>
+<seg-source><mrk mid="0" mtype="seg">OK0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OK0</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">default</source>
+<seg-source><mrk mid="0" mtype="seg">default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">default</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">tab----1</source>
+<seg-source><mrk mid="0" mtype="seg">tab----1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tab----1</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">label1</source>
+<seg-source><mrk mid="0" mtype="seg">label1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">label1</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Trids|CyberSlug|Larry|Jon|Tylo|guinness</source>
+<seg-source><mrk mid="0" mtype="seg">Trids|CyberSlug|Larry|Jon|Tylo|guinness</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Trids|CyberSlug|Larry|Jon|Tylo|guinness</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Jon</source>
+<seg-source><mrk mid="0" mtype="seg">Jon</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Jon</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">default Jon</source>
+<seg-source><mrk mid="0" mtype="seg">default Jon</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">default Jon</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">OK1</source>
+<seg-source><mrk mid="0" mtype="seg">OK1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OK1</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">tab2</source>
+<seg-source><mrk mid="0" mtype="seg">tab2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">tab2</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">will be display first</source>
+<seg-source><mrk mid="0" mtype="seg">will be display first</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">will be display first</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">label2</source>
+<seg-source><mrk mid="0" mtype="seg">label2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">label2</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">OK2</source>
+<seg-source><mrk mid="0" mtype="seg">OK2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OK2</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">end tabitem definition</source>
+<seg-source><mrk mid="0" mtype="seg">end tabitem definition</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">end tabitem definition</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Click on tab and see the title</source>
+<seg-source><mrk mid="0" mtype="seg">Click on tab and see the title</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Click on tab and see the title</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">display the clicked tab</source>
+<seg-source><mrk mid="0" mtype="seg">display the clicked tab</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">display the clicked tab</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">My GUI Tab</source>
+<seg-source><mrk mid="0" mtype="seg">My GUI Tab</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">My GUI Tab</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">My GUI Tab</source>
+<seg-source><mrk mid="0" mtype="seg">My GUI Tab</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">My GUI Tab</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/TraySetOnEvent.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Defines a user function to be called when a special tray action happens.</source>
+<seg-source><mrk mid="0" mtype="seg">Defines a user function to be called when a special tray action happens.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Defines a user function to be called when a special tray action happens.</mrk></target>
+<note>Function TraySetOnEvent</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> See the <bpt id="1" ctype="x-a">&lt;a href="#SpecialIDTable"></bpt>Special ID table<ept id="1">&lt;/a></ept> below. </source>
+<seg-source> <mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-a">&lt;a href="#SpecialIDTable"></bpt>Special ID table<ept id="1">&lt;/a></ept> below.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-a">&lt;a href="#SpecialIDTable"></bpt>Special ID table<ept id="1">&lt;/a></ept> below.</mrk> </target>
+<note>specialID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The name of the user function to call.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the user function to call.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the user function to call.</mrk></target>
+<note>function</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">1 = the "function" is not defined.</source>
+<seg-source><mrk mid="0" mtype="seg">1 = the "function" is not defined.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 = the "function" is not defined.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">OnEvent functions are only called when <bpt id="1" ctype="x-a">&lt;a href="../functions/AutoItSetOption.htm#TrayMenuMode"></bpt>Opt("TrayOnEventMode", 1)<ept id="1">&lt;/a></ept> - when in this mode <bpt id="2" ctype="x-a">&lt;a href="TrayGetMsg.htm"></bpt>TrayGetMsg()<ept id="2">&lt;/a></ept> is NOT used at all.</source>
+<seg-source><mrk mid="0" mtype="seg">OnEvent functions are only called when <bpt id="1" ctype="x-a">&lt;a href="../functions/AutoItSetOption.htm#TrayMenuMode"></bpt>Opt("TrayOnEventMode", 1)<ept id="1">&lt;/a></ept> - when in this mode <bpt id="2" ctype="x-a">&lt;a href="TrayGetMsg.htm"></bpt>TrayGetMsg()<ept id="2">&lt;/a></ept> is NOT used at all.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OnEvent functions are only called when <bpt id="1" ctype="x-a">&lt;a href="../functions/AutoItSetOption.htm#TrayMenuMode"></bpt>Opt("TrayOnEventMode", 1)<ept id="1">&lt;/a></ept> - when in this mode <bpt id="2" ctype="x-a">&lt;a href="TrayGetMsg.htm"></bpt>TrayGetMsg()<ept id="2">&lt;/a></ept> is NOT used at all.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="SpecialIDTable"></ph><bpt id="2" ctype="x-strong">&lt;strong></bpt>Special ID table<ept id="2">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="SpecialIDTable"></ph><bpt id="2" ctype="x-strong">&lt;strong></bpt>Special ID table<ept id="2">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="SpecialIDTable"></ph><bpt id="2" ctype="x-strong">&lt;strong></bpt>Special ID table<ept id="2">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Special Id<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Special Id<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Special Id<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Value<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Value<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Value<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Comments<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Comments<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Comments<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">$TRAY_EVENT_SHOWICON</source>
+<seg-source><mrk mid="0" mtype="seg">$TRAY_EVENT_SHOWICON</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$TRAY_EVENT_SHOWICON</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">-3</source>
+<seg-source><mrk mid="0" mtype="seg">-3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-3</mrk></target>
+<note>$TRAY_EVENT_SHOWICON</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">The tray icon will be shown.</source>
+<seg-source><mrk mid="0" mtype="seg">The tray icon will be shown.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The tray icon will be shown.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">$TRAY_EVENT_HIDEICON</source>
+<seg-source><mrk mid="0" mtype="seg">$TRAY_EVENT_HIDEICON</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$TRAY_EVENT_HIDEICON</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">-4</source>
+<seg-source><mrk mid="0" mtype="seg">-4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-4</mrk></target>
+<note>$TRAY_EVENT_HIDEICON</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">The tray icon will be hidden.</source>
+<seg-source><mrk mid="0" mtype="seg">The tray icon will be hidden.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The tray icon will be hidden.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">$TRAY_EVENT_FLASHICON</source>
+<seg-source><mrk mid="0" mtype="seg">$TRAY_EVENT_FLASHICON</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$TRAY_EVENT_FLASHICON</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">-5</source>
+<seg-source><mrk mid="0" mtype="seg">-5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-5</mrk></target>
+<note>$TRAY_EVENT_FLASHICON</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">The user turned the tray icon flashing on.</source>
+<seg-source><mrk mid="0" mtype="seg">The user turned the tray icon flashing on.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user turned the tray icon flashing on.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">$TRAY_EVENT_NOFLASHICON</source>
+<seg-source><mrk mid="0" mtype="seg">$TRAY_EVENT_NOFLASHICON</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$TRAY_EVENT_NOFLASHICON</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">-6</source>
+<seg-source><mrk mid="0" mtype="seg">-6</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-6</mrk></target>
+<note>$TRAY_EVENT_NOFLASHICON</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">The user turned the tray icon flashing off.</source>
+<seg-source><mrk mid="0" mtype="seg">The user turned the tray icon flashing off.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user turned the tray icon flashing off.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">$TRAY_EVENT_PRIMARYDOWN</source>
+<seg-source><mrk mid="0" mtype="seg">$TRAY_EVENT_PRIMARYDOWN</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$TRAY_EVENT_PRIMARYDOWN</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">-7</source>
+<seg-source><mrk mid="0" mtype="seg">-7</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-7</mrk></target>
+<note>$TRAY_EVENT_PRIMARYDOWN</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">The primary mouse button was pressed on the tray icon.</source>
+<seg-source><mrk mid="0" mtype="seg">The primary mouse button was pressed on the tray icon.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The primary mouse button was pressed on the tray icon.</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">$TRAY_EVENT_PRIMARYUP</source>
+<seg-source><mrk mid="0" mtype="seg">$TRAY_EVENT_PRIMARYUP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$TRAY_EVENT_PRIMARYUP</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">-8</source>
+<seg-source><mrk mid="0" mtype="seg">-8</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-8</mrk></target>
+<note>$TRAY_EVENT_PRIMARYUP</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">The primary mouse button was released on the tray icon.</source>
+<seg-source><mrk mid="0" mtype="seg">The primary mouse button was released on the tray icon.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The primary mouse button was released on the tray icon.</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">$TRAY_EVENT_SECONDARYDOWN</source>
+<seg-source><mrk mid="0" mtype="seg">$TRAY_EVENT_SECONDARYDOWN</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$TRAY_EVENT_SECONDARYDOWN</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">-9</source>
+<seg-source><mrk mid="0" mtype="seg">-9</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-9</mrk></target>
+<note>$TRAY_EVENT_SECONDARYDOWN</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">The secondary mouse button was pressed on the tray icon.</source>
+<seg-source><mrk mid="0" mtype="seg">The secondary mouse button was pressed on the tray icon.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The secondary mouse button was pressed on the tray icon.</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">$TRAY_EVENT_SECONDARYUP</source>
+<seg-source><mrk mid="0" mtype="seg">$TRAY_EVENT_SECONDARYUP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$TRAY_EVENT_SECONDARYUP</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">-10</source>
+<seg-source><mrk mid="0" mtype="seg">-10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-10</mrk></target>
+<note>$TRAY_EVENT_SECONDARYUP</note>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">The secondary mouse button was released on the tray icon.</source>
+<seg-source><mrk mid="0" mtype="seg">The secondary mouse button was released on the tray icon.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The secondary mouse button was released on the tray icon.</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">$TRAY_EVENT_MOUSEOVER</source>
+<seg-source><mrk mid="0" mtype="seg">$TRAY_EVENT_MOUSEOVER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$TRAY_EVENT_MOUSEOVER</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">-11</source>
+<seg-source><mrk mid="0" mtype="seg">-11</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-11</mrk></target>
+<note>$TRAY_EVENT_MOUSEOVER</note>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">The mouse moves over the tray icon.</source>
+<seg-source><mrk mid="0" mtype="seg">The mouse moves over the tray icon.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The mouse moves over the tray icon.</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">$TRAY_EVENT_PRIMARYDOUBLE</source>
+<seg-source><mrk mid="0" mtype="seg">$TRAY_EVENT_PRIMARYDOUBLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$TRAY_EVENT_PRIMARYDOUBLE</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">-13</source>
+<seg-source><mrk mid="0" mtype="seg">-13</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-13</mrk></target>
+<note>$TRAY_EVENT_PRIMARYDOUBLE</note>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">The primary mouse button was double pressed on the tray icon.</source>
+<seg-source><mrk mid="0" mtype="seg">The primary mouse button was double pressed on the tray icon.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The primary mouse button was double pressed on the tray icon.</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">$TRAY_EVENT_SECONDARYDOUBLE</source>
+<seg-source><mrk mid="0" mtype="seg">$TRAY_EVENT_SECONDARYDOUBLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$TRAY_EVENT_SECONDARYDOUBLE</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">-14</source>
+<seg-source><mrk mid="0" mtype="seg">-14</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-14</mrk></target>
+<note>$TRAY_EVENT_SECONDARYDOUBLE</note>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">The secondary mouse button was double pressed on the tray icon.</source>
+<seg-source><mrk mid="0" mtype="seg">The secondary mouse button was double pressed on the tray icon.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The secondary mouse button was double pressed on the tray icon.</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en"> If the function is an empty string "" the previous user-defined is disabled.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the function is an empty string "" the previous user-defined is disabled.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the function is an empty string "" the previous user-defined is disabled.</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en"> The above constants are defined in #include &lt;TrayConstants.au3>.</source>
+<seg-source> <mrk mid="0" mtype="seg">The above constants are defined in #include &lt;TrayConstants.au3>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The above constants are defined in #include &lt;TrayConstants.au3>.</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="TrayItemSetOnEvent.htm"></bpt>TrayItemSetOnEvent<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="AutoItSetOption.htm#TrayOnEventMode"></bpt>TrayOnEventMode (Option)<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="TraySetClick.htm"></bpt>TraySetClick<ept id="3">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="TrayItemSetOnEvent.htm"></bpt>TrayItemSetOnEvent<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="AutoItSetOption.htm#TrayOnEventMode"></bpt>TrayOnEventMode (Option)<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="TraySetClick.htm"></bpt>TraySetClick<ept id="3">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="TrayItemSetOnEvent.htm"></bpt>TrayItemSetOnEvent<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="AutoItSetOption.htm#TrayOnEventMode"></bpt>TrayOnEventMode (Option)<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="TraySetClick.htm"></bpt>TraySetClick<ept id="3">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">Required for the $TRAY_EVENT_PRIMARYDOUBLE, $TRAY_EVENT_SECONDARYUP and $TRAY_ICONSTATE_SHOW constants.</source>
+<seg-source><mrk mid="0" mtype="seg">Required for the $TRAY_EVENT_PRIMARYDOUBLE, $TRAY_EVENT_SECONDARYUP and $TRAY_ICONSTATE_SHOW constants.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Required for the $TRAY_EVENT_PRIMARYDOUBLE, $TRAY_EVENT_SECONDARYUP and $TRAY_ICONSTATE_SHOW constants.</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">TrayMenuMode</source>
+<seg-source><mrk mid="0" mtype="seg">TrayMenuMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayMenuMode</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">The default tray menu items will not be shown and items are not checked when selected. These are options 1 and 2 for TrayMenuMode.</source>
+<seg-source><mrk mid="0" mtype="seg">The default tray menu items will not be shown and items are not checked when selected.</mrk> <mrk mid="1" mtype="seg">These are options 1 and 2 for TrayMenuMode.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The default tray menu items will not be shown and items are not checked when selected.</mrk> <mrk mid="1" mtype="seg">These are options 1 and 2 for TrayMenuMode.</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">TrayOnEventMode</source>
+<seg-source><mrk mid="0" mtype="seg">TrayOnEventMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayOnEventMode</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">Enable TrayOnEventMode.</source>
+<seg-source><mrk mid="0" mtype="seg">Enable TrayOnEventMode.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enable TrayOnEventMode.</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">About</source>
+<seg-source><mrk mid="0" mtype="seg">About</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">About</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Create a separator line.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a separator line.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a separator line.</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">Exit</source>
+<seg-source><mrk mid="0" mtype="seg">Exit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exit</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">ExitScript</source>
+<seg-source><mrk mid="0" mtype="seg">ExitScript</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ExitScript</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">TrayEvent</source>
+<seg-source><mrk mid="0" mtype="seg">TrayEvent</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayEvent</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">TrayEvent</source>
+<seg-source><mrk mid="0" mtype="seg">TrayEvent</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayEvent</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">Show the tray menu.</source>
+<seg-source><mrk mid="0" mtype="seg">Show the tray menu.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show the tray menu.</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">An idle loop.</source>
+<seg-source><mrk mid="0" mtype="seg">An idle loop.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An idle loop.</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">Check the last tray item identifier.</source>
+<seg-source><mrk mid="0" mtype="seg">Check the last tray item identifier.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check the last tray item identifier.</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">Display a message box about the AutoIt version and installation path of the AutoIt executable.</source>
+<seg-source><mrk mid="0" mtype="seg">Display a message box about the AutoIt version and installation path of the AutoIt executable.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display a message box about the AutoIt version and installation path of the AutoIt executable.</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">AutoIt tray menu example.</source>
+<seg-source><mrk mid="0" mtype="seg">AutoIt tray menu example.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AutoIt tray menu example.</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">Version:</source>
+<seg-source><mrk mid="0" mtype="seg">Version:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Version:</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">Install Path:</source>
+<seg-source><mrk mid="0" mtype="seg">Install Path:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Install Path:</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">\</source>
+<seg-source><mrk mid="0" mtype="seg">\</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">Find the folder of a full path.</source>
+<seg-source><mrk mid="0" mtype="seg">Find the folder of a full path.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Find the folder of a full path.</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">The secondary mouse button was released on the tray icon.</source>
+<seg-source><mrk mid="0" mtype="seg">The secondary mouse button was released on the tray icon.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The secondary mouse button was released on the tray icon.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

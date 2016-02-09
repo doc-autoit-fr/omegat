@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_Word_Quit.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Closes all documents, the Word application and removes the object reference to it</source>
+<seg-source><mrk mid="0" mtype="seg">Closes all documents, the Word application and removes the object reference to it</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Closes all documents, the Word application and removes the object reference to it</mrk></target>
+<note>Function _Word_Quit</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> Word object returned by a preceding call to <bpt id="1" ctype="x-a">&lt;a href="_Word_Create.htm"></bpt>_Word_Create()<ept id="1">&lt;/a></ept> </source>
+<seg-source> <mrk mid="0" mtype="seg">Word object returned by a preceding call to <bpt id="1" ctype="x-a">&lt;a href="_Word_Create.htm"></bpt>_Word_Create()<ept id="1">&lt;/a></ept></mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Word object returned by a preceding call to <bpt id="1" ctype="x-a">&lt;a href="_Word_Create.htm"></bpt>_Word_Create()<ept id="1">&lt;/a></ept></mrk> </target>
+<note>$oAppl</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies if changed documents should be saved before closing.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies if changed documents should be saved before closing.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies if changed documents should be saved before closing.</mrk></target>
+<note>$iSaveChanges</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> Can be one of the WdSaveOptions enumeration (default = $WdDoNotSaveChanges)</source>
+<seg-source> <mrk mid="0" mtype="seg">Can be one of the WdSaveOptions enumeration (default = $WdDoNotSaveChanges)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Can be one of the WdSaveOptions enumeration (default = $WdDoNotSaveChanges)</mrk></target>
+<note>$iSaveChanges</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies how Word saves documents whose original format was not Word document format.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies how Word saves documents whose original format was not Word document format.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies how Word saves documents whose original format was not Word document format.</mrk></target>
+<note>$iOriginalFormat</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> Can be any of the WdOriginalFormat enumeration (default = $WdWordDocument)</source>
+<seg-source> <mrk mid="0" mtype="seg">Can be any of the WdOriginalFormat enumeration (default = $WdWordDocument)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Can be any of the WdOriginalFormat enumeration (default = $WdWordDocument)</mrk></target>
+<note>$iOriginalFormat</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If True the Word application is closed even when it was running at <bpt id="1" ctype="x-a">&lt;a href="_Word_Create.htm"></bpt>_Word_Create()<ept id="1">&lt;/a></ept> time (default = False) </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True the Word application is closed even when it was running at <bpt id="1" ctype="x-a">&lt;a href="_Word_Create.htm"></bpt>_Word_Create()<ept id="1">&lt;/a></ept> time (default = False)</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True the Word application is closed even when it was running at <bpt id="1" ctype="x-a">&lt;a href="_Word_Create.htm"></bpt>_Word_Create()<ept id="1">&lt;/a></ept> time (default = False)</mrk> </target>
+<note>$bForceClose</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">1 - $oAppl is not an object</source>
+<seg-source><mrk mid="0" mtype="seg">1 - $oAppl is not an object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - $oAppl is not an object</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> 2 - Error returned by method Application.Quit. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - Error returned by method Application.</mrk><mrk mid="1" mtype="seg">Quit.</mrk> <mrk mid="2" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - Error returned by method Application.</mrk><mrk mid="1" mtype="seg">Quit.</mrk> <mrk mid="2" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">If Word was not running when <bpt id="1" ctype="x-a">&lt;a href="_Word_Create.htm"></bpt>_Word_Create()<ept id="1">&lt;/a></ept> was called then <bpt id="2" ctype="x-a">&lt;a href="_Word_Quit.htm"></bpt>_Word_Quit()<ept id="2">&lt;/a></ept> closes all documents of the specified</source>
+<seg-source><mrk mid="0" mtype="seg">If Word was not running when <bpt id="1" ctype="x-a">&lt;a href="_Word_Create.htm"></bpt>_Word_Create()<ept id="1">&lt;/a></ept> was called then <bpt id="2" ctype="x-a">&lt;a href="_Word_Quit.htm"></bpt>_Word_Quit()<ept id="2">&lt;/a></ept> closes all documents of the specified</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If Word was not running when <bpt id="1" ctype="x-a">&lt;a href="_Word_Create.htm"></bpt>_Word_Create()<ept id="1">&lt;/a></ept> was called then <bpt id="2" ctype="x-a">&lt;a href="_Word_Quit.htm"></bpt>_Word_Quit()<ept id="2">&lt;/a></ept> closes all documents of the specified</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> instance (even those opened manually by the user after <bpt id="1" ctype="x-a">&lt;a href="_Word_Create.htm"></bpt>_Word_Create()<ept id="1">&lt;/a></ept> ) and the Word application.</source>
+<seg-source> <mrk mid="0" mtype="seg">instance (even those opened manually by the user after <bpt id="1" ctype="x-a">&lt;a href="_Word_Create.htm"></bpt>_Word_Create()<ept id="1">&lt;/a></ept> ) and the Word application.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">instance (even those opened manually by the user after <bpt id="1" ctype="x-a">&lt;a href="_Word_Create.htm"></bpt>_Word_Create()<ept id="1">&lt;/a></ept> ) and the Word application.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> If Word was running you have to set $bForceClose to True to do the same.</source>
+<seg-source> <mrk mid="0" mtype="seg">If Word was running you have to set $bForceClose to True to do the same.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If Word was running you have to set $bForceClose to True to do the same.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Create application object</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Word UDF: _Word_DocQuit Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocQuit Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocQuit Example</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Error creating a new Word application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating a new Word application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating a new Word application object.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Open the test document read-only</source>
+<seg-source><mrk mid="0" mtype="seg">Open the test document read-only</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open the test document read-only</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">\Extras\Test.doc</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\Test.doc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\Test.doc</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Word UDF: _Word_DocQuit Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocQuit Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocQuit Example</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Error opening '.\Extras\Test.doc'.</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening '.\Extras\Test.doc'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening '.\Extras\Test.doc'.</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">If Word was running when this script is started only the reference to the</source>
+<seg-source><mrk mid="0" mtype="seg">If Word was running when this script is started only the reference to the</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If Word was running when this script is started only the reference to the</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">object will be removed.</source>
+<seg-source><mrk mid="0" mtype="seg">object will be removed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">object will be removed.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">If Word was started by this example all documents and Word will be closed.</source>
+<seg-source><mrk mid="0" mtype="seg">If Word was started by this example all documents and Word will be closed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If Word was started by this example all documents and Word will be closed.</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Word UDF: _Word_Quit Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_Quit Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_Quit Example</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">If you click OK ALL unsaved changes in ALL open documents of this Word instance will be lost and the instance will be closed.</source>
+<seg-source><mrk mid="0" mtype="seg">If you click OK ALL unsaved changes in ALL open documents of this Word instance will be lost and the instance will be closed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you click OK ALL unsaved changes in ALL open documents of this Word instance will be lost and the instance will be closed.</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Word UDF: _Word_Quit Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_Quit Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_Quit Example</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Word was already running when function _Word_Create was called. Hence only the reference to the object will be removed.</source>
+<seg-source><mrk mid="0" mtype="seg">Word was already running when function _Word_Create was called.</mrk> <mrk mid="1" mtype="seg">Hence only the reference to the object will be removed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word was already running when function _Word_Create was called.</mrk> <mrk mid="1" mtype="seg">Hence only the reference to the object will be removed.</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Word UDF: _Word_Quit Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_Quit Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_Quit Example</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Error closing the Word application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error closing the Word application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error closing the Word application object.</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

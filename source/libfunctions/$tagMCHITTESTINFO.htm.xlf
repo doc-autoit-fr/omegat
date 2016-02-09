@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/$tagMCHITTESTINFO.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Keyword Reference</source>
+<seg-source><mrk mid="0" mtype="seg">Keyword Reference</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Keyword Reference</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Carries information specific to hit-testing points for a month calendar control</source>
+<seg-source><mrk mid="0" mtype="seg">Carries information specific to hit-testing points for a month calendar control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Carries information specific to hit-testing points for a month calendar control</mrk></target>
+<note>Keyword $tagMCHITTESTINFO</note>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Size of this structure, in bytes</source>
+<seg-source><mrk mid="0" mtype="seg">Size of this structure, in bytes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Size of this structure, in bytes</mrk></target>
+<note>Size</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">X,Y position of the point to be hit tested</source>
+<seg-source><mrk mid="0" mtype="seg">X,Y position of the point to be hit tested</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X,Y position of the point to be hit tested</mrk></target>
+<note>$tagPOINT</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Results of the hit test operation. This value will be one of the following:</source>
+<seg-source><mrk mid="0" mtype="seg">Results of the hit test operation.</mrk> <mrk mid="1" mtype="seg">This value will be one of the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Results of the hit test operation.</mrk> <mrk mid="1" mtype="seg">This value will be one of the following:</mrk></target>
+<note>Hit</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $MCHT_CALENDARBK - The given point was in the calendar's background</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCHT_CALENDARBK - The given point was in the calendar's background</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCHT_CALENDARBK - The given point was in the calendar's background</mrk></target>
+<note>Hit</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $MCHT_CALENDARDATE - The given point was on a particular date within the calendar</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCHT_CALENDARDATE - The given point was on a particular date within the calendar</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCHT_CALENDARDATE - The given point was on a particular date within the calendar</mrk></target>
+<note>Hit</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $MCHT_CALENDARDATENEXT - The given point was over a date from the next month</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCHT_CALENDARDATENEXT - The given point was over a date from the next month</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCHT_CALENDARDATENEXT - The given point was over a date from the next month</mrk></target>
+<note>Hit</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $MCHT_CALENDARDATEPREV - The given point was over a date from the previous month</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCHT_CALENDARDATEPREV - The given point was over a date from the previous month</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCHT_CALENDARDATEPREV - The given point was over a date from the previous month</mrk></target>
+<note>Hit</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $MCHT_CALENDARDAY - The given point was over a day abbreviation</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCHT_CALENDARDAY - The given point was over a day abbreviation</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCHT_CALENDARDAY - The given point was over a day abbreviation</mrk></target>
+<note>Hit</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $MCHT_CALENDARWEEKNUM - The given point was over a week number</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCHT_CALENDARWEEKNUM - The given point was over a week number</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCHT_CALENDARWEEKNUM - The given point was over a week number</mrk></target>
+<note>Hit</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $MCHT_NOWHERE - The given point was not on the month calendar control</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCHT_NOWHERE - The given point was not on the month calendar control</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCHT_NOWHERE - The given point was not on the month calendar control</mrk></target>
+<note>Hit</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $MCHT_TITLEBK - The given point was over the background of a month's title</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCHT_TITLEBK - The given point was over the background of a month's title</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCHT_TITLEBK - The given point was over the background of a month's title</mrk></target>
+<note>Hit</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $MCHT_TITLEBTNNEXT - The given point was over the button at the top right corner</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCHT_TITLEBTNNEXT - The given point was over the button at the top right corner</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCHT_TITLEBTNNEXT - The given point was over the button at the top right corner</mrk></target>
+<note>Hit</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $MCHT_TITLEBTNPREV - The given point was over the button at the top left corner</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCHT_TITLEBTNPREV - The given point was over the button at the top left corner</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCHT_TITLEBTNPREV - The given point was over the button at the top left corner</mrk></target>
+<note>Hit</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $MCHT_TITLEMONTH - The given point was in a month's title bar, over a month name</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCHT_TITLEMONTH - The given point was in a month's title bar, over a month name</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCHT_TITLEMONTH - The given point was in a month's title bar, over a month name</mrk></target>
+<note>Hit</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $MCHT_TITLEYEAR - The given point was in a month's title bar, over the year value</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCHT_TITLEYEAR - The given point was in a month's title bar, over the year value</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCHT_TITLEYEAR - The given point was in a month's title bar, over the year value</mrk></target>
+<note>Hit</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Year</source>
+<seg-source><mrk mid="0" mtype="seg">Year</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Year</mrk></target>
+<note>$tagSYSTEMTIME</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> Month</source>
+<seg-source> <mrk mid="0" mtype="seg">Month</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Month</mrk></target>
+<note>$tagSYSTEMTIME</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> DOW</source>
+<seg-source> <mrk mid="0" mtype="seg">DOW</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">DOW</mrk></target>
+<note>$tagSYSTEMTIME</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> Day</source>
+<seg-source> <mrk mid="0" mtype="seg">Day</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Day</mrk></target>
+<note>$tagSYSTEMTIME</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> Hour</source>
+<seg-source> <mrk mid="0" mtype="seg">Hour</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Hour</mrk></target>
+<note>$tagSYSTEMTIME</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> Minute</source>
+<seg-source> <mrk mid="0" mtype="seg">Minute</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Minute</mrk></target>
+<note>$tagSYSTEMTIME</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> Seconds</source>
+<seg-source> <mrk mid="0" mtype="seg">Seconds</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Seconds</mrk></target>
+<note>$tagSYSTEMTIME</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> MSeconds</source>
+<seg-source> <mrk mid="0" mtype="seg">MSeconds</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">MSeconds</mrk></target>
+<note>$tagSYSTEMTIME</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">The RECT of the hit-tested location.</source>
+<seg-source><mrk mid="0" mtype="seg">The RECT of the hit-tested location.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The RECT of the hit-tested location.</mrk></target>
+<note>$tagRECT</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">When displaying more than one calendar, this is the offset of the calendar at the hit-tested point (0-based).</source>
+<seg-source><mrk mid="0" mtype="seg">When displaying more than one calendar, this is the offset of the calendar at the hit-tested point (0-based).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When displaying more than one calendar, this is the offset of the calendar at the hit-tested point (0-based).</mrk></target>
+<note>iOffset</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">The row number for the calendar grid that the given hit point was over. Example: If you hit-tested the 8th of a month, which is in the second week of the month, iRow will be one since the index of the row is 0-based row index.</source>
+<seg-source><mrk mid="0" mtype="seg">The row number for the calendar grid that the given hit point was over.</mrk> <mrk mid="1" mtype="seg">Example:</mrk> <mrk mid="2" mtype="seg">If you hit-tested the 8th of a month, which is in the second week of the month, iRow will be one since the index of the row is 0-based row index.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The row number for the calendar grid that the given hit point was over.</mrk> <mrk mid="1" mtype="seg">Example:</mrk> <mrk mid="2" mtype="seg">If you hit-tested the 8th of a month, which is in the second week of the month, iRow will be one since the index of the row is 0-based row index.</mrk></target>
+<note>iRow</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">The column number for the calendar grid that the given point was over. For example, if your week starts on Sunday and the 1st of the month is Friday, hit testing the 1st will return five (5) for iCol, since Friday is in the fifth column from the beginning of the row, using a 0-based column index.</source>
+<seg-source><mrk mid="0" mtype="seg">The column number for the calendar grid that the given point was over.</mrk> <mrk mid="1" mtype="seg">For example, if your week starts on Sunday and the 1st of the month is Friday, hit testing the 1st will return five (5) for iCol, since Friday is in the fifth column from the beginning of the row, using a 0-based column index.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The column number for the calendar grid that the given point was over.</mrk> <mrk mid="1" mtype="seg">For example, if your week starts on Sunday and the 1st of the month is Friday, hit testing the 1st will return five (5) for iCol, since Friday is in the fifth column from the beginning of the row, using a 0-based column index.</mrk></target>
+<note>iCol</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

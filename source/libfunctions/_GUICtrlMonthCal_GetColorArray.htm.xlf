@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUICtrlMonthCal_GetColorArray.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the color for a given portion of a month calendar control</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the color for a given portion of a month calendar control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the color for a given portion of a month calendar control</mrk></target>
+<note>Function _GUICtrlMonthCal_GetColorArray</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Control ID/Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Value of type int specifying which month calendar color to retrieve</source>
+<seg-source><mrk mid="0" mtype="seg">Value of type int specifying which month calendar color to retrieve</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Value of type int specifying which month calendar color to retrieve</mrk></target>
+<note>$iColor</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> This value can be one of the following:</source>
+<seg-source> <mrk mid="0" mtype="seg">This value can be one of the following:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This value can be one of the following:</mrk></target>
+<note>$iColor</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $MCSC_BACKGROUND - Retrieve the background color displayed between months.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCSC_BACKGROUND - Retrieve the background color displayed between months.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCSC_BACKGROUND - Retrieve the background color displayed between months.</mrk></target>
+<note>$iColor</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $MCSC_MONTHBK - Retrieve the background color displayed within the month.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCSC_MONTHBK - Retrieve the background color displayed within the month.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCSC_MONTHBK - Retrieve the background color displayed within the month.</mrk></target>
+<note>$iColor</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $MCSC_TEXT - Retrieve the color used to display text within a month.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCSC_TEXT - Retrieve the color used to display text within a month.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCSC_TEXT - Retrieve the color used to display text within a month.</mrk></target>
+<note>$iColor</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $MCSC_TITLEBK - Retrieve the background color displayed in the calendar's title.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCSC_TITLEBK - Retrieve the background color displayed in the calendar's title.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCSC_TITLEBK - Retrieve the background color displayed in the calendar's title.</mrk></target>
+<note>$iColor</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $MCSC_TITLETEXT - Retrieve the color used to display text within the calendar's title.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCSC_TITLETEXT - Retrieve the color used to display text within the calendar's title.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCSC_TITLETEXT - Retrieve the color used to display text within the calendar's title.</mrk></target>
+<note>$iColor</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $MCSC_TRAILINGTEXT - Retrieve the color used to display header day and trailing day text.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCSC_TRAILINGTEXT - Retrieve the color used to display header day and trailing day text.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCSC_TRAILINGTEXT - Retrieve the color used to display header day and trailing day text.</mrk></target>
+<note>$iColor</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">an array in the following format:</source>
+<seg-source><mrk mid="0" mtype="seg">an array in the following format:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an array in the following format:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     [0] - contains the number returned</source>
+<seg-source> <mrk mid="0" mtype="seg">    [0] - contains the number returned</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [0] - contains the number returned</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     [1] - contains COLORREF rgbcolor</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1] - contains COLORREF rgbcolor</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1] - contains COLORREF rgbcolor</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     [2] - contains Hex BGR color</source>
+<seg-source> <mrk mid="0" mtype="seg">    [2] - contains Hex BGR color</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [2] - contains Hex BGR color</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     [3] - contains Hex RGB color</source>
+<seg-source> <mrk mid="0" mtype="seg">    [3] - contains Hex RGB color</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [3] - contains Hex RGB color</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Header and trailing days are the days from the previous and following months that appear on the current month calendar.</source>
+<seg-source><mrk mid="0" mtype="seg">Header and trailing days are the days from the previous and following months that appear on the current month calendar.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Header and trailing days are the days from the previous and following months that appear on the current month calendar.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Month Calendar Get Color Array</source>
+<seg-source><mrk mid="0" mtype="seg">Month Calendar Get Color Array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Month Calendar Get Color Array</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Create memo control</source>
+<seg-source><mrk mid="0" mtype="seg">Create memo control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create memo control</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Get/Set calendar colors</source>
+<seg-source><mrk mid="0" mtype="seg">Get/Set calendar colors</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get/Set calendar colors</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Background color displayed between months:</source>
+<seg-source><mrk mid="0" mtype="seg">Background color displayed between months:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Background color displayed between months:</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Background color displayed within the month:</source>
+<seg-source><mrk mid="0" mtype="seg">Background color displayed within the month:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Background color displayed within the month:</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Color used to display text within a month:</source>
+<seg-source><mrk mid="0" mtype="seg">Color used to display text within a month:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Color used to display text within a month:</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Background color displayed in the calendar's title:</source>
+<seg-source><mrk mid="0" mtype="seg">Background color displayed in the calendar's title:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Background color displayed in the calendar's title:</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Color used to display text within the calendar's title:</source>
+<seg-source><mrk mid="0" mtype="seg">Color used to display text within the calendar's title:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Color used to display text within the calendar's title:</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Color used to display header day and trailing day text:</source>
+<seg-source><mrk mid="0" mtype="seg">Color used to display header day and trailing day text:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Color used to display header day and trailing day text:</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">COLORREF rgbcolor:</source>
+<seg-source><mrk mid="0" mtype="seg">COLORREF rgbcolor:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">COLORREF rgbcolor:</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Hex BGR color:</source>
+<seg-source><mrk mid="0" mtype="seg">Hex BGR color:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hex BGR color:</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Hex RGB color:</source>
+<seg-source><mrk mid="0" mtype="seg">Hex RGB color:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hex RGB color:</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Write message to memo</source>
+<seg-source><mrk mid="0" mtype="seg">Write message to memo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write message to memo</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

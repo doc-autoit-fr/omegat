@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_Mouse_Event.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Synthesizes mouse motion and button clicks</source>
+<seg-source><mrk mid="0" mtype="seg">Synthesizes mouse motion and button clicks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Synthesizes mouse motion and button clicks</mrk></target>
+<note>Function _WinAPI_Mouse_Event</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">A set of flag bits that specify various aspects of mouse motion and button clicking. The bits</source>
+<seg-source><mrk mid="0" mtype="seg">A set of flag bits that specify various aspects of mouse motion and button clicking.</mrk> <mrk mid="1" mtype="seg">The bits</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A set of flag bits that specify various aspects of mouse motion and button clicking.</mrk> <mrk mid="1" mtype="seg">The bits</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> in this parameter can be any reasonable combination of the following values:</source>
+<seg-source> <mrk mid="0" mtype="seg">in this parameter can be any reasonable combination of the following values:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">in this parameter can be any reasonable combination of the following values:</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> $MOUSEEVENTF_ABSOLUTE - Specifies that the $iX and $iY parameters contain normal absolute coordinates. If</source>
+<seg-source> <mrk mid="0" mtype="seg">$MOUSEEVENTF_ABSOLUTE - Specifies that the $iX and $iY parameters contain normal absolute coordinates.</mrk> <mrk mid="1" mtype="seg">If</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$MOUSEEVENTF_ABSOLUTE - Specifies that the $iX and $iY parameters contain normal absolute coordinates.</mrk> <mrk mid="1" mtype="seg">If</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> not set, those parameters contain relative data. The change in position since the last reported position.</source>
+<seg-source> <mrk mid="0" mtype="seg">not set, those parameters contain relative data.</mrk> <mrk mid="1" mtype="seg">The change in position since the last reported position.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">not set, those parameters contain relative data.</mrk> <mrk mid="1" mtype="seg">The change in position since the last reported position.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> This flag can be set, or not set, regardless of what kind of mouse or mouse-like device, if any, is connected</source>
+<seg-source> <mrk mid="0" mtype="seg">This flag can be set, or not set, regardless of what kind of mouse or mouse-like device, if any, is connected</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This flag can be set, or not set, regardless of what kind of mouse or mouse-like device, if any, is connected</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> to the system.</source>
+<seg-source> <mrk mid="0" mtype="seg">to the system.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">to the system.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $MOUSEEVENTF_MOVE - Specifies that movement occurred</source>
+<seg-source> <mrk mid="0" mtype="seg">$MOUSEEVENTF_MOVE - Specifies that movement occurred</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$MOUSEEVENTF_MOVE - Specifies that movement occurred</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> $MOUSEEVENTF_LEFTDOWN - Specifies that the left button changed to down</source>
+<seg-source> <mrk mid="0" mtype="seg">$MOUSEEVENTF_LEFTDOWN - Specifies that the left button changed to down</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$MOUSEEVENTF_LEFTDOWN - Specifies that the left button changed to down</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> $MOUSEEVENTF_LEFTUP - Specifies that the left button changed to up</source>
+<seg-source> <mrk mid="0" mtype="seg">$MOUSEEVENTF_LEFTUP - Specifies that the left button changed to up</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$MOUSEEVENTF_LEFTUP - Specifies that the left button changed to up</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> $MOUSEEVENTF_RIGHTDOWN - Specifies that the right button changed to down</source>
+<seg-source> <mrk mid="0" mtype="seg">$MOUSEEVENTF_RIGHTDOWN - Specifies that the right button changed to down</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$MOUSEEVENTF_RIGHTDOWN - Specifies that the right button changed to down</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> $MOUSEEVENTF_RIGHTUP - Specifies that the right button changed to up</source>
+<seg-source> <mrk mid="0" mtype="seg">$MOUSEEVENTF_RIGHTUP - Specifies that the right button changed to up</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$MOUSEEVENTF_RIGHTUP - Specifies that the right button changed to up</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> $MOUSEEVENTF_MIDDLEDOWN - Specifies that the middle button changed to down</source>
+<seg-source> <mrk mid="0" mtype="seg">$MOUSEEVENTF_MIDDLEDOWN - Specifies that the middle button changed to down</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$MOUSEEVENTF_MIDDLEDOWN - Specifies that the middle button changed to down</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> $MOUSEEVENTF_MIDDLEUP - Specifies that the middle button changed to up</source>
+<seg-source> <mrk mid="0" mtype="seg">$MOUSEEVENTF_MIDDLEUP - Specifies that the middle button changed to up</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$MOUSEEVENTF_MIDDLEUP - Specifies that the middle button changed to up</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> $MOUSEEVENTF_WHEEL - Specifies that the wheel has been moved, if the mouse has a wheel</source>
+<seg-source> <mrk mid="0" mtype="seg">$MOUSEEVENTF_WHEEL - Specifies that the wheel has been moved, if the mouse has a wheel</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$MOUSEEVENTF_WHEEL - Specifies that the wheel has been moved, if the mouse has a wheel</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> $MOUSEEVENTF_XDOWN - Specifies that an X button was pressed</source>
+<seg-source> <mrk mid="0" mtype="seg">$MOUSEEVENTF_XDOWN - Specifies that an X button was pressed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$MOUSEEVENTF_XDOWN - Specifies that an X button was pressed</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> $MOUSEEVENTF_XUP - Specifies that an X button was released</source>
+<seg-source> <mrk mid="0" mtype="seg">$MOUSEEVENTF_XUP - Specifies that an X button was released</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$MOUSEEVENTF_XUP - Specifies that an X button was released</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the mouse's absolute position along the X axis or its amount of motion since the</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the mouse's absolute position along the X axis or its amount of motion since the</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the mouse's absolute position along the X axis or its amount of motion since the</mrk></target>
+<note>$iX</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> last mouse event was generated depending on the setting of $MOUSEEVENTF_ABSOLUTE. Absolute data is given as</source>
+<seg-source> <mrk mid="0" mtype="seg">last mouse event was generated depending on the setting of $MOUSEEVENTF_ABSOLUTE.</mrk> <mrk mid="1" mtype="seg">Absolute data is given as</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">last mouse event was generated depending on the setting of $MOUSEEVENTF_ABSOLUTE.</mrk> <mrk mid="1" mtype="seg">Absolute data is given as</mrk></target>
+<note>$iX</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> the mouse's actual X coordinate relative data is given as the number of mickeys moved.</source>
+<seg-source> <mrk mid="0" mtype="seg">the mouse's actual X coordinate relative data is given as the number of mickeys moved.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">the mouse's actual X coordinate relative data is given as the number of mickeys moved.</mrk></target>
+<note>$iX</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the mouse's absolute position along the Y axis or its amount of motion since the</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the mouse's absolute position along the Y axis or its amount of motion since the</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the mouse's absolute position along the Y axis or its amount of motion since the</mrk></target>
+<note>$iY</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> last mouse event was generated depending on the setting of $MOUSEEVENTF_ABSOLUTE. Absolute data is given as</source>
+<seg-source> <mrk mid="0" mtype="seg">last mouse event was generated depending on the setting of $MOUSEEVENTF_ABSOLUTE.</mrk> <mrk mid="1" mtype="seg">Absolute data is given as</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">last mouse event was generated depending on the setting of $MOUSEEVENTF_ABSOLUTE.</mrk> <mrk mid="1" mtype="seg">Absolute data is given as</mrk></target>
+<note>$iY</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> the mouse's actual Y coordinate relative data is given as the number of mickeys moved.</source>
+<seg-source> <mrk mid="0" mtype="seg">the mouse's actual Y coordinate relative data is given as the number of mickeys moved.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">the mouse's actual Y coordinate relative data is given as the number of mickeys moved.</mrk></target>
+<note>$iY</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If $iFlags is $MOUSEEVENTF_WHEEL, then $iData specifies the amount of wheel movement. A positive</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If $iFlags is $MOUSEEVENTF_WHEEL, then $iData specifies the amount of wheel movement.</mrk> <mrk mid="2" mtype="seg">A positive</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If $iFlags is $MOUSEEVENTF_WHEEL, then $iData specifies the amount of wheel movement.</mrk> <mrk mid="2" mtype="seg">A positive</mrk></target>
+<note>$iData</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> value indicates that the wheel was rotated forward away from the user. A negative value indicates that the</source>
+<seg-source> <mrk mid="0" mtype="seg">value indicates that the wheel was rotated forward away from the user.</mrk> <mrk mid="1" mtype="seg">A negative value indicates that the</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">value indicates that the wheel was rotated forward away from the user.</mrk> <mrk mid="1" mtype="seg">A negative value indicates that the</mrk></target>
+<note>$iData</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> wheel was rotated backward, toward the user. One wheel click is defined as $WHEEL_DELTA, which is 120. If</source>
+<seg-source> <mrk mid="0" mtype="seg">wheel was rotated backward, toward the user.</mrk> <mrk mid="1" mtype="seg">One wheel click is defined as $WHEEL_DELTA, which is 120.</mrk> <mrk mid="2" mtype="seg">If</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">wheel was rotated backward, toward the user.</mrk> <mrk mid="1" mtype="seg">One wheel click is defined as $WHEEL_DELTA, which is 120.</mrk> <mrk mid="2" mtype="seg">If</mrk></target>
+<note>$iData</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> $iFlags is not $MOUSEEVENTF_WHEEL, then $iData should be zero.</source>
+<seg-source> <mrk mid="0" mtype="seg">$iFlags is not $MOUSEEVENTF_WHEEL, then $iData should be zero.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$iFlags is not $MOUSEEVENTF_WHEEL, then $iData should be zero.</mrk></target>
+<note>$iData</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies a 32 bit value associated with the mouse event</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies a 32 bit value associated with the mouse event</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies a 32 bit value associated with the mouse event</mrk></target>
+<note>$iExtraInfo</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">None.</source>
+<seg-source><mrk mid="0" mtype="seg">None.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Above constants require #include &lt;Constants.au3></source>
+<seg-source><mrk mid="0" mtype="seg">Above constants require #include &lt;Constants.au3></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Above constants require #include &lt;Constants.au3></mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(mouse_event);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>mouse_event<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(mouse_event);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>mouse_event<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(mouse_event);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>mouse_event<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUICtrlListView_FindNearest.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Finds the item nearest to the position specified</source>
+<seg-source><mrk mid="0" mtype="seg">Finds the item nearest to the position specified</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Finds the item nearest to the position specified</mrk></target>
+<note>Function _GUICtrlListView_FindNearest</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Control ID/Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">X position</source>
+<seg-source><mrk mid="0" mtype="seg">X position</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X position</mrk></target>
+<note>$iX</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Y position</source>
+<seg-source><mrk mid="0" mtype="seg">Y position</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y position</mrk></target>
+<note>$iY</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies which direction to search:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies which direction to search:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies which direction to search:</mrk></target>
+<note>$iDir</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     0 - Left</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 - Left</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 - Left</mrk></target>
+<note>$iDir</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     1 - Right</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 - Right</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 - Right</mrk></target>
+<note>$iDir</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     2 - Up</source>
+<seg-source> <mrk mid="0" mtype="seg">    2 - Up</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    2 - Up</mrk></target>
+<note>$iDir</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     3 - Down</source>
+<seg-source> <mrk mid="0" mtype="seg">    3 - Down</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    3 - Down</mrk></target>
+<note>$iDir</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     4 - From start</source>
+<seg-source> <mrk mid="0" mtype="seg">    4 - From start</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    4 - From start</mrk></target>
+<note>$iDir</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     5 - From end</source>
+<seg-source> <mrk mid="0" mtype="seg">    5 - From end</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    5 - From end</mrk></target>
+<note>$iDir</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     6 - From prior item</source>
+<seg-source> <mrk mid="0" mtype="seg">    6 - From prior item</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    6 - From prior item</mrk></target>
+<note>$iDir</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     7 - From next item</source>
+<seg-source> <mrk mid="0" mtype="seg">    7 - From next item</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    7 - From next item</mrk></target>
+<note>$iDir</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> 0-based index of the item to begin the search with or -1 to start from the beginning.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">0-based index of the item to begin the search with or -1 to start from the beginning.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">0-based index of the item to begin the search with or -1 to start from the beginning.</mrk></target>
+<note>$iStart</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> The specified item is itself excluded from the search.</source>
+<seg-source> <mrk mid="0" mtype="seg">The specified item is itself excluded from the search.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The specified item is itself excluded from the search.</mrk></target>
+<note>$iStart</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If True, the search will continue with the first item if no match is found</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True, the search will continue with the first item if no match is found</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True, the search will continue with the first item if no match is found</mrk></target>
+<note>$bWrapOK</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">the 0-based index of the item.</source>
+<seg-source><mrk mid="0" mtype="seg">the 0-based index of the item.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the 0-based index of the item.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">-1.</source>
+<seg-source><mrk mid="0" mtype="seg">-1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">This function is supported only by large icon and small icon modes.</source>
+<seg-source><mrk mid="0" mtype="seg">This function is supported only by large icon and small icon modes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function is supported only by large icon and small icon modes.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">ListView Find Nearest</source>
+<seg-source><mrk mid="0" mtype="seg">ListView Find Nearest</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ListView Find Nearest</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Load images</source>
+<seg-source><mrk mid="0" mtype="seg">Load images</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Load images</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Add items</source>
+<seg-source><mrk mid="0" mtype="seg">Add items</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add items</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Item 1</source>
+<seg-source><mrk mid="0" mtype="seg">Item 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item 1</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Item 2</source>
+<seg-source><mrk mid="0" mtype="seg">Item 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item 2</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Item 3</source>
+<seg-source><mrk mid="0" mtype="seg">Item 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item 3</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Find nearest items</source>
+<seg-source><mrk mid="0" mtype="seg">Find nearest items</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Find nearest items</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Information</source>
+<seg-source><mrk mid="0" mtype="seg">Information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Information</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Item nearest [100, 10]:</source>
+<seg-source><mrk mid="0" mtype="seg">Item nearest [100, 10]:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item nearest [100, 10]:</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Information</source>
+<seg-source><mrk mid="0" mtype="seg">Information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Information</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Item nearest [200, 10]:</source>
+<seg-source><mrk mid="0" mtype="seg">Item nearest [200, 10]:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item nearest [200, 10]:</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

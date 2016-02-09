@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_RegSaveKey.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Saves the specified key and all of its subkeys and values to a new file, in the standard format</source>
+<seg-source><mrk mid="0" mtype="seg">Saves the specified key and all of its subkeys and values to a new file, in the standard format</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Saves the specified key and all of its subkeys and values to a new file, in the standard format</mrk></target>
+<note>Function _WinAPI_RegSaveKey</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to an open registry key.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to an open registry key.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to an open registry key.</mrk></target>
+<note>$hKey</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The name of the file in which the specified key and subkeys are to be saved.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the file in which the specified key and subkeys are to be saved.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the file in which the specified key and subkeys are to be saved.</mrk></target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether to replace the file if it already exists, valid values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to replace the file if it already exists, valid values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to replace the file if it already exists, valid values:</mrk></target>
+<note>$bReplace</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     True - The function attempts to replace the existing file.</source>
+<seg-source> <mrk mid="0" mtype="seg">    True - The function attempts to replace the existing file.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    True - The function attempts to replace the existing file.</mrk></target>
+<note>$bReplace</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     False - The function fails if the file already exists (Default).</source>
+<seg-source> <mrk mid="0" mtype="seg">    False - The function fails if the file already exists (Default).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    False - The function fails if the file already exists (Default).</mrk></target>
+<note>$bReplace</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> $tagSECURITY_ATTRIBUTES structure that specifies a security descriptor for the new file. If this</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">$tagSECURITY_ATTRIBUTES structure that specifies a security descriptor for the new file.</mrk> <mrk mid="2" mtype="seg">If this</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">$tagSECURITY_ATTRIBUTES structure that specifies a security descriptor for the new file.</mrk> <mrk mid="2" mtype="seg">If this</mrk></target>
+<note>$tSecurity</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> parameter is 0 (Default), the file gets a default security descriptor.</source>
+<seg-source> <mrk mid="0" mtype="seg">parameter is 0 (Default), the file gets a default security descriptor.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">parameter is 0 (Default), the file gets a default security descriptor.</mrk></target>
+<note>$tSecurity</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">0 and sets the @error flag to non-zero, @extended flag may contain the system error code.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the system error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the system error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">The calling process must have $SE_BACKUP_NAME privilege, otherwise, the function fails, and <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg">The calling process must have $SE_BACKUP_NAME privilege, otherwise, the function fails, and <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The calling process must have $SE_BACKUP_NAME privilege, otherwise, the function fails, and <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> returns ERROR_PRIVILEGE_NOT_HELD (1314).</source>
+<seg-source> <mrk mid="0" mtype="seg">returns ERROR_PRIVILEGE_NOT_HELD (1314).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">returns ERROR_PRIVILEGE_NOT_HELD (1314).</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> You can use the file created by this function in subsequent calls to the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegRestoreKey.htm"></bpt>_WinAPI_RegRestoreKey()<ept id="1">&lt;/a></ept> functions.</source>
+<seg-source> <mrk mid="0" mtype="seg">You can use the file created by this function in subsequent calls to the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegRestoreKey.htm"></bpt>_WinAPI_RegRestoreKey()<ept id="1">&lt;/a></ept> functions.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">You can use the file created by this function in subsequent calls to the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegRestoreKey.htm"></bpt>_WinAPI_RegRestoreKey()<ept id="1">&lt;/a></ept> functions.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RegSaveKey);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RegSaveKey<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RegSaveKey);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RegSaveKey<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RegSaveKey);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RegSaveKey<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Enable "SeBackupPrivilege" and "SeRestorePrivilege" privileges to save and restore registry hive</source>
+<seg-source><mrk mid="0" mtype="seg">Enable "SeBackupPrivilege" and "SeRestorePrivilege" privileges to save and restore registry hive</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enable "SeBackupPrivilege" and "SeRestorePrivilege" privileges to save and restore registry hive</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">You do not have the required privileges.</source>
+<seg-source><mrk mid="0" mtype="seg">You do not have the required privileges.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You do not have the required privileges.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Save "HKEY_CURRENT_USER\Software\AutoIt v3" to reg.dat</source>
+<seg-source><mrk mid="0" mtype="seg">Save "HKEY_CURRENT_USER\Software\AutoIt v3" to reg.dat</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Save "HKEY_CURRENT_USER\Software\AutoIt v3" to reg.dat</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Software\AutoIt v3</source>
+<seg-source><mrk mid="0" mtype="seg">Software\AutoIt v3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Software\AutoIt v3</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">\reg.dat</source>
+<seg-source><mrk mid="0" mtype="seg">\reg.dat</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\reg.dat</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">"HKEY_CURRENT_USER\Software\AutoIt v3" has been saved to reg.dat.</source>
+<seg-source><mrk mid="0" mtype="seg">"HKEY_CURRENT_USER\Software\AutoIt v3" has been saved to reg.dat.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"HKEY_CURRENT_USER\Software\AutoIt v3" has been saved to reg.dat.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Restore "HKEY_CURRENT_USER\Software\AutoIt v3" to "HKEY_CURRENT_USER\Software\AutoIt v3 (Duplicate)"</source>
+<seg-source><mrk mid="0" mtype="seg">Restore "HKEY_CURRENT_USER\Software\AutoIt v3" to "HKEY_CURRENT_USER\Software\AutoIt v3 (Duplicate)"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Restore "HKEY_CURRENT_USER\Software\AutoIt v3" to "HKEY_CURRENT_USER\Software\AutoIt v3 (Duplicate)"</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Software\AutoIt v3 (Duplicate)</source>
+<seg-source><mrk mid="0" mtype="seg">Software\AutoIt v3 (Duplicate)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Software\AutoIt v3 (Duplicate)</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">\reg.dat</source>
+<seg-source><mrk mid="0" mtype="seg">\reg.dat</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\reg.dat</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">"HKEY_CURRENT_USER\Software\AutoIt v3" has been restored to "HKEY_CURRENT_USER\Software\AutoIt v3 (Duplicate)".</source>
+<seg-source><mrk mid="0" mtype="seg">"HKEY_CURRENT_USER\Software\AutoIt v3" has been restored to "HKEY_CURRENT_USER\Software\AutoIt v3 (Duplicate)".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"HKEY_CURRENT_USER\Software\AutoIt v3" has been restored to "HKEY_CURRENT_USER\Software\AutoIt v3 (Duplicate)".</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Restore "SeBackupPrivilege" and "SeRestorePrivilege" privileges by default</source>
+<seg-source><mrk mid="0" mtype="seg">Restore "SeBackupPrivilege" and "SeRestorePrivilege" privileges by default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Restore "SeBackupPrivilege" and "SeRestorePrivilege" privileges by default</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">\reg.dat</source>
+<seg-source><mrk mid="0" mtype="seg">\reg.dat</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\reg.dat</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

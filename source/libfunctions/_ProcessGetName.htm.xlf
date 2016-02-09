@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_ProcessGetName.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Returns a string containing the process name that belongs to a given PID</source>
+<seg-source><mrk mid="0" mtype="seg">Returns a string containing the process name that belongs to a given PID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns a string containing the process name that belongs to a given PID</mrk></target>
+<note>Function _ProcessGetName</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The PID of a currently running process.</source>
+<seg-source><mrk mid="0" mtype="seg">The PID of a currently running process.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The PID of a currently running process.</mrk></target>
+<note>$iPID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">the name of the process.</source>
+<seg-source><mrk mid="0" mtype="seg">the name of the process.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the name of the process.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">an empty string and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">an empty string and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an empty string and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">1 - Process doesn't exist</source>
+<seg-source><mrk mid="0" mtype="seg">1 - Process doesn't exist</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - Process doesn't exist</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> 2 - Error getting process list</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - Error getting process list</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - Error getting process list</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> 3 - No processes found</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - No processes found</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - No processes found</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Supplementary to ProcessExists().</source>
+<seg-source><mrk mid="0" mtype="seg">Supplementary to ProcessExists().</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Supplementary to ProcessExists().</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">notepad.exe</source>
+<seg-source><mrk mid="0" mtype="seg">notepad.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">notepad.exe</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">[CLASS:Notepad]</source>
+<seg-source><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">[CLASS:Notepad]</source>
+<seg-source><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Notepad -</source>
+<seg-source><mrk mid="0" mtype="seg">Notepad -</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notepad -</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

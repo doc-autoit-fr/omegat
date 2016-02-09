@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_Date_Time_DOSDateToStr.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Decode a DOS date to a string</source>
+<seg-source><mrk mid="0" mtype="seg">Decode a DOS date to a string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Decode a DOS date to a string</mrk></target>
+<note>Function _Date_Time_DOSDateToStr</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">MS-DOS date, packed as follows:</source>
+<seg-source><mrk mid="0" mtype="seg">MS-DOS date, packed as follows:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MS-DOS date, packed as follows:</mrk></target>
+<note>$iDosDate</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> Bits 0- 4 Day of the month (1–31)</source>
+<seg-source> <mrk mid="0" mtype="seg">Bits 0- 4 Day of the month (1–31)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Bits 0- 4 Day of the month (1–31)</mrk></target>
+<note>$iDosDate</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> Bits 5- 8 Month (1 = January, 2 = February, and so on)</source>
+<seg-source> <mrk mid="0" mtype="seg">Bits 5- 8 Month (1 = January, 2 = February, and so on)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Bits 5- 8 Month (1 = January, 2 = February, and so on)</mrk></target>
+<note>$iDosDate</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> Bits 9-15 Year offset from 1980 (add 1980 to get actual year)</source>
+<seg-source> <mrk mid="0" mtype="seg">Bits 9-15 Year offset from 1980 (add 1980 to get actual year)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Bits 9-15 Year offset from 1980 (add 1980 to get actual year)</mrk></target>
+<note>$iDosDate</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Returns a date string formatted as mm/dd/yyyy.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns a date string formatted as mm/dd/yyyy.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns a date string formatted as mm/dd/yyyy.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Time</source>
+<seg-source><mrk mid="0" mtype="seg">Time</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Time</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Show FAT date</source>
+<seg-source><mrk mid="0" mtype="seg">Show FAT date</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show FAT date</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">01/01/2007</source>
+<seg-source><mrk mid="0" mtype="seg">01/01/2007</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">01/01/2007</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">FAT date .:</source>
+<seg-source><mrk mid="0" mtype="seg">FAT date .:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FAT date .:</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Write a line to the memo control</source>
+<seg-source><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

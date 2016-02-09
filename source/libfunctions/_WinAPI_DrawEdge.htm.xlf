@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_DrawEdge.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Draws one or more edges of rectangle</source>
+<seg-source><mrk mid="0" mtype="seg">Draws one or more edges of rectangle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draws one or more edges of rectangle</mrk></target>
+<note>Function _WinAPI_DrawEdge</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the device context into which the edge is drawn</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the device context into which the edge is drawn</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the device context into which the edge is drawn</mrk></target>
+<note>$hDC</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">a $tagRECT structure or a pointer to it that contains the logical coordinates of the rectangle</source>
+<seg-source><mrk mid="0" mtype="seg">a $tagRECT structure or a pointer to it that contains the logical coordinates of the rectangle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a $tagRECT structure or a pointer to it that contains the logical coordinates of the rectangle</mrk></target>
+<note>$tRECT</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Specifies the type of inner and outer edges to draw. This parameter must be a combination of one inner-border flag and one outer-border flag.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the type of inner and outer edges to draw.</mrk> <mrk mid="1" mtype="seg">This parameter must be a combination of one inner-border flag and one outer-border flag.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the type of inner and outer edges to draw.</mrk> <mrk mid="1" mtype="seg">This parameter must be a combination of one inner-border flag and one outer-border flag.</mrk></target>
+<note>$iEdgeType</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> The inner-border flags are as follows:</source>
+<seg-source> <mrk mid="0" mtype="seg">The inner-border flags are as follows:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The inner-border flags are as follows:</mrk></target>
+<note>$iEdgeType</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $BDR_RAISEDINNER - Raised inner edge</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BDR_RAISEDINNER - Raised inner edge</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BDR_RAISEDINNER - Raised inner edge</mrk></target>
+<note>$iEdgeType</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $BDR_SUNKENINNER - Sunken inner edge</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BDR_SUNKENINNER - Sunken inner edge</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BDR_SUNKENINNER - Sunken inner edge</mrk></target>
+<note>$iEdgeType</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> The outer-border flags are as follows:</source>
+<seg-source> <mrk mid="0" mtype="seg">The outer-border flags are as follows:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The outer-border flags are as follows:</mrk></target>
+<note>$iEdgeType</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $BDR_RAISEDOUTER - Raised outer edge</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BDR_RAISEDOUTER - Raised outer edge</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BDR_RAISEDOUTER - Raised outer edge</mrk></target>
+<note>$iEdgeType</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $BDR_SUNKENOUTER - Sunken outer edge</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BDR_SUNKENOUTER - Sunken outer edge</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BDR_SUNKENOUTER - Sunken outer edge</mrk></target>
+<note>$iEdgeType</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> Alternatively, the edge parameter can specify one of the following flags:</source>
+<seg-source> <mrk mid="0" mtype="seg">Alternatively, the edge parameter can specify one of the following flags:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Alternatively, the edge parameter can specify one of the following flags:</mrk></target>
+<note>$iEdgeType</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $EDGE_BUMP - Combination of $BDR_RAISEDOUTER and $BDR_SUNKENINNER</source>
+<seg-source> <mrk mid="0" mtype="seg">    $EDGE_BUMP - Combination of $BDR_RAISEDOUTER and $BDR_SUNKENINNER</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $EDGE_BUMP - Combination of $BDR_RAISEDOUTER and $BDR_SUNKENINNER</mrk></target>
+<note>$iEdgeType</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $EDGE_ETCHED - Combination of $BDR_SUNKENOUTER and $BDR_RAISEDINNER</source>
+<seg-source> <mrk mid="0" mtype="seg">    $EDGE_ETCHED - Combination of $BDR_SUNKENOUTER and $BDR_RAISEDINNER</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $EDGE_ETCHED - Combination of $BDR_SUNKENOUTER and $BDR_RAISEDINNER</mrk></target>
+<note>$iEdgeType</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $EDGE_RAISED - Combination of $BDR_RAISEDOUTER and $BDR_RAISEDINNER</source>
+<seg-source> <mrk mid="0" mtype="seg">    $EDGE_RAISED - Combination of $BDR_RAISEDOUTER and $BDR_RAISEDINNER</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $EDGE_RAISED - Combination of $BDR_RAISEDOUTER and $BDR_RAISEDINNER</mrk></target>
+<note>$iEdgeType</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $EDGE_SUNKEN - Combination of $BDR_SUNKENOUTER and $BDR_SUNKENINNER</source>
+<seg-source> <mrk mid="0" mtype="seg">    $EDGE_SUNKEN - Combination of $BDR_SUNKENOUTER and $BDR_SUNKENINNER</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $EDGE_SUNKEN - Combination of $BDR_SUNKENOUTER and $BDR_SUNKENINNER</mrk></target>
+<note>$iEdgeType</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Specifies the type of border. This parameter can be a combination of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the type of border.</mrk> <mrk mid="1" mtype="seg">This parameter can be a combination of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the type of border.</mrk> <mrk mid="1" mtype="seg">This parameter can be a combination of the following values:</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $BF_ADJUST - If this flag is passed, shrink the rectangle pointed to by the $pRECT parameter to exclude the edges that were drawn.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BF_ADJUST - If this flag is passed, shrink the rectangle pointed to by the $pRECT parameter to exclude the edges that were drawn.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BF_ADJUST - If this flag is passed, shrink the rectangle pointed to by the $pRECT parameter to exclude the edges that were drawn.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> If this flag is not passed, then do not change the rectangle pointed to by the $pRECT parameter</source>
+<seg-source> <mrk mid="0" mtype="seg">If this flag is not passed, then do not change the rectangle pointed to by the $pRECT parameter</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this flag is not passed, then do not change the rectangle pointed to by the $pRECT parameter</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     $BF_BOTTOM - Bottom of border rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BF_BOTTOM - Bottom of border rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BF_BOTTOM - Bottom of border rectangle</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     $BF_BOTTOMLEFT - Bottom and left side of border rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BF_BOTTOMLEFT - Bottom and left side of border rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BF_BOTTOMLEFT - Bottom and left side of border rectangle</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     $BF_BOTTOMRIGHT - Bottom and right side of border rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BF_BOTTOMRIGHT - Bottom and right side of border rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BF_BOTTOMRIGHT - Bottom and right side of border rectangle</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">     $BF_DIAGONAL - Diagonal border</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BF_DIAGONAL - Diagonal border</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BF_DIAGONAL - Diagonal border</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">     $BF_DIAGONAL_ENDBOTTOMLEFT - Diagonal border. The end point is the bottom-left corner of the rectangle; the origin is top-right corner</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BF_DIAGONAL_ENDBOTTOMLEFT - Diagonal border.</mrk> <mrk mid="1" mtype="seg">The end point is the bottom-left corner of the rectangle; the origin is top-right corner</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BF_DIAGONAL_ENDBOTTOMLEFT - Diagonal border.</mrk> <mrk mid="1" mtype="seg">The end point is the bottom-left corner of the rectangle; the origin is top-right corner</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">     $BF_DIAGONAL_ENDBOTTOMRIGHT - Diagonal border. The end point is the bottom-right corner of the rectangle; the origin is top-left corner</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BF_DIAGONAL_ENDBOTTOMRIGHT - Diagonal border.</mrk> <mrk mid="1" mtype="seg">The end point is the bottom-right corner of the rectangle; the origin is top-left corner</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BF_DIAGONAL_ENDBOTTOMRIGHT - Diagonal border.</mrk> <mrk mid="1" mtype="seg">The end point is the bottom-right corner of the rectangle; the origin is top-left corner</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">     $BF_DIAGONAL_ENDTOPLEFT - Diagonal border. The end point is the top-left corner of the rectangle; the origin is bottom-right corner</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BF_DIAGONAL_ENDTOPLEFT - Diagonal border.</mrk> <mrk mid="1" mtype="seg">The end point is the top-left corner of the rectangle; the origin is bottom-right corner</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BF_DIAGONAL_ENDTOPLEFT - Diagonal border.</mrk> <mrk mid="1" mtype="seg">The end point is the top-left corner of the rectangle; the origin is bottom-right corner</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">     $BF_DIAGONAL_ENDTOPRIGHT - Diagonal border. The end point is the top-right corner of the rectangle; the origin is bottom-left corner</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BF_DIAGONAL_ENDTOPRIGHT - Diagonal border.</mrk> <mrk mid="1" mtype="seg">The end point is the top-right corner of the rectangle; the origin is bottom-left corner</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BF_DIAGONAL_ENDTOPRIGHT - Diagonal border.</mrk> <mrk mid="1" mtype="seg">The end point is the top-right corner of the rectangle; the origin is bottom-left corner</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">     $BF_FLAT - Flat border</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BF_FLAT - Flat border</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BF_FLAT - Flat border</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">     $BF_LEFT - Left side of border rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BF_LEFT - Left side of border rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BF_LEFT - Left side of border rectangle</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">     $BF_MIDDLE - Interior of rectangle to be filled</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BF_MIDDLE - Interior of rectangle to be filled</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BF_MIDDLE - Interior of rectangle to be filled</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">     $BF_MONO - One-dimensional border</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BF_MONO - One-dimensional border</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BF_MONO - One-dimensional border</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">     $BF_RECT - Entire border rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BF_RECT - Entire border rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BF_RECT - Entire border rectangle</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">     $BF_RIGHT - Right side of border rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BF_RIGHT - Right side of border rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BF_RIGHT - Right side of border rectangle</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">     $BF_SOFT - Soft buttons instead of tiles</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BF_SOFT - Soft buttons instead of tiles</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BF_SOFT - Soft buttons instead of tiles</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">     $BF_TOP - Top of border rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BF_TOP - Top of border rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BF_TOP - Top of border rectangle</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">     $BF_TOPLEFT - Top and left side of border rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BF_TOPLEFT - Top and left side of border rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BF_TOPLEFT - Top and left side of border rectangle</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">     $BF_TOPRIGHT - Top and right side of border rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BF_TOPRIGHT - Top and right side of border rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BF_TOPRIGHT - Top and right side of border rectangle</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">False</source>
+<seg-source><mrk mid="0" mtype="seg">False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Above constants require #include &lt;BorderConstants.au3></source>
+<seg-source><mrk mid="0" mtype="seg">Above constants require #include &lt;BorderConstants.au3></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Above constants require #include &lt;BorderConstants.au3></mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="$tagRECT.htm"></bpt>$tagRECT<ept id="1">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagRECT.htm"></bpt>$tagRECT<ept id="1">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagRECT.htm"></bpt>$tagRECT<ept id="1">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DrawEdge);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DrawEdge<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DrawEdge);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DrawEdge<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DrawEdge);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DrawEdge<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

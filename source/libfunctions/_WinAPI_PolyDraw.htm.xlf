@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_PolyDraw.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Draws a set of line segments and Bezier curves</source>
+<seg-source><mrk mid="0" mtype="seg">Draws a set of line segments and Bezier curves</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draws a set of line segments and Bezier curves</mrk></target>
+<note>Function _WinAPI_PolyDraw</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to a device context.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to a device context.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to a device context.</mrk></target>
+<note>$hDC</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The 2D array ([x1, y1, type1], [x2, y2, type2], ... [xN, yN, typeN]) that contains the endpoints for</source>
+<seg-source><mrk mid="0" mtype="seg">The 2D array ([x1, y1, type1], [x2, y2, type2], ...</mrk> <mrk mid="1" mtype="seg">[xN, yN, typeN]) that contains the endpoints for</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The 2D array ([x1, y1, type1], [x2, y2, type2], ...</mrk> <mrk mid="1" mtype="seg">[xN, yN, typeN]) that contains the endpoints for</mrk></target>
+<note>$aPoint</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> each line segment and the endpoints and control points for each Bezier curve, in logical units. In addition,</source>
+<seg-source> <mrk mid="0" mtype="seg">each line segment and the endpoints and control points for each Bezier curve, in logical units.</mrk> <mrk mid="1" mtype="seg">In addition,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">each line segment and the endpoints and control points for each Bezier curve, in logical units.</mrk> <mrk mid="1" mtype="seg">In addition,</mrk></target>
+<note>$aPoint</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> the array contains a parameters that specifies how each point is used. The third parameter of the array</source>
+<seg-source> <mrk mid="0" mtype="seg">the array contains a parameters that specifies how each point is used.</mrk> <mrk mid="1" mtype="seg">The third parameter of the array</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">the array contains a parameters that specifies how each point is used.</mrk> <mrk mid="1" mtype="seg">The third parameter of the array</mrk></target>
+<note>$aPoint</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> can be one of the following values.</source>
+<seg-source> <mrk mid="0" mtype="seg">can be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">can be one of the following values.</mrk></target>
+<note>$aPoint</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $PT_BEZIERTO</source>
+<seg-source> <mrk mid="0" mtype="seg">$PT_BEZIERTO</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$PT_BEZIERTO</mrk></target>
+<note>$aPoint</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $PT_LINETO</source>
+<seg-source> <mrk mid="0" mtype="seg">$PT_LINETO</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$PT_LINETO</mrk></target>
+<note>$aPoint</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> $PT_MOVETO</source>
+<seg-source> <mrk mid="0" mtype="seg">$PT_MOVETO</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$PT_MOVETO</mrk></target>
+<note>$aPoint</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> $PT_BEZIERTO or $PT_LINETO type can be combined with the following value that the corresponding point</source>
+<seg-source> <mrk mid="0" mtype="seg">$PT_BEZIERTO or $PT_LINETO type can be combined with the following value that the corresponding point</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$PT_BEZIERTO or $PT_LINETO type can be combined with the following value that the corresponding point</mrk></target>
+<note>$aPoint</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> is the last point in a figure and the figure is closed.</source>
+<seg-source> <mrk mid="0" mtype="seg">is the last point in a figure and the figure is closed.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">is the last point in a figure and the figure is closed.</mrk></target>
+<note>$aPoint</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> $PT_CLOSEFIGURE</source>
+<seg-source> <mrk mid="0" mtype="seg">$PT_CLOSEFIGURE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$PT_CLOSEFIGURE</mrk></target>
+<note>$aPoint</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The index of array to start drawing at.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array to start drawing at.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array to start drawing at.</mrk></target>
+<note>$iStart</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The index of array to stop drawing at.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array to stop drawing at.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array to stop drawing at.</mrk></target>
+<note>$iEnd</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">False</source>
+<seg-source><mrk mid="0" mtype="seg">False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">This function can be used in place of consecutive calls to <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_MoveToEx.htm"></bpt>_WinAPI_MoveToEx()<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_LineTo.htm"></bpt>_WinAPI_LineTo()<ept id="2">&lt;/a></ept>, and <bpt id="3" ctype="x-a">&lt;a href="_WinAPI_PolyBezierTo.htm"></bpt>_WinAPI_PolyBezierTo()<ept id="3">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg">This function can be used in place of consecutive calls to <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_MoveToEx.htm"></bpt>_WinAPI_MoveToEx()<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_LineTo.htm"></bpt>_WinAPI_LineTo()<ept id="2">&lt;/a></ept>, and <bpt id="3" ctype="x-a">&lt;a href="_WinAPI_PolyBezierTo.htm"></bpt>_WinAPI_PolyBezierTo()<ept id="3">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function can be used in place of consecutive calls to <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_MoveToEx.htm"></bpt>_WinAPI_MoveToEx()<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_LineTo.htm"></bpt>_WinAPI_LineTo()<ept id="2">&lt;/a></ept>, and <bpt id="3" ctype="x-a">&lt;a href="_WinAPI_PolyBezierTo.htm"></bpt>_WinAPI_PolyBezierTo()<ept id="3">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> functions to draw disjoint figures. The lines and curves are drawn using the current pen and figures are not filled.</source>
+<seg-source> <mrk mid="0" mtype="seg">functions to draw disjoint figures.</mrk> <mrk mid="1" mtype="seg">The lines and curves are drawn using the current pen and figures are not filled.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">functions to draw disjoint figures.</mrk> <mrk mid="1" mtype="seg">The lines and curves are drawn using the current pen and figures are not filled.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> If there is an active path started by calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_BeginPath.htm"></bpt>_WinAPI_BeginPath()<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_PolyDraw.htm"></bpt>_WinAPI_PolyDraw()<ept id="2">&lt;/a></ept> adds to the path.</source>
+<seg-source> <mrk mid="0" mtype="seg">If there is an active path started by calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_BeginPath.htm"></bpt>_WinAPI_BeginPath()<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_PolyDraw.htm"></bpt>_WinAPI_PolyDraw()<ept id="2">&lt;/a></ept> adds to the path.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If there is an active path started by calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_BeginPath.htm"></bpt>_WinAPI_BeginPath()<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_PolyDraw.htm"></bpt>_WinAPI_PolyDraw()<ept id="2">&lt;/a></ept> adds to the path.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> This function updates the current position.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function updates the current position.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function updates the current position.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(PolyDraw);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>PolyDraw<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(PolyDraw);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>PolyDraw<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(PolyDraw);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>PolyDraw<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

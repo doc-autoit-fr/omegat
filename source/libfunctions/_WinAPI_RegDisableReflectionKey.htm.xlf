@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_RegDisableReflectionKey.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Disables registry reflection for the specified key</source>
+<seg-source><mrk mid="0" mtype="seg">Disables registry reflection for the specified key</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Disables registry reflection for the specified key</mrk></target>
+<note>Function _WinAPI_RegDisableReflectionKey</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> Handle to an open registry key. This handle is returned by the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegCreateKey.htm"></bpt>_WinAPI_RegCreateKey()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_RegOpenKey.htm"></bpt>_WinAPI_RegOpenKey()<ept id="2">&lt;/a></ept></source>
+<seg-source> <mrk mid="0" mtype="seg">Handle to an open registry key.</mrk> <mrk mid="1" mtype="seg">This handle is returned by the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegCreateKey.htm"></bpt>_WinAPI_RegCreateKey()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_RegOpenKey.htm"></bpt>_WinAPI_RegOpenKey()<ept id="2">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Handle to an open registry key.</mrk> <mrk mid="1" mtype="seg">This handle is returned by the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegCreateKey.htm"></bpt>_WinAPI_RegCreateKey()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_RegOpenKey.htm"></bpt>_WinAPI_RegOpenKey()<ept id="2">&lt;/a></ept></mrk></target>
+<note>$hKey</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> function; it cannot specify a key on a remote computer. If the key is not on the reflection list,</source>
+<seg-source> <mrk mid="0" mtype="seg">function; it cannot specify a key on a remote computer.</mrk> <mrk mid="1" mtype="seg">If the key is not on the reflection list,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">function; it cannot specify a key on a remote computer.</mrk> <mrk mid="1" mtype="seg">If the key is not on the reflection list,</mrk></target>
+<note>$hKey</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> the function succeeds but has no effect. </source>
+<seg-source> <mrk mid="0" mtype="seg">the function succeeds but has no effect.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">the function succeeds but has no effect.</mrk> </target>
+<note>$hKey</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">0 and sets the @error flag to non-zero, @extended flag may contain the system error code.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the system error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the system error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">On WOW64, 32-bit applications view a registry tree that is separate from the registry tree that 64-bit applications</source>
+<seg-source><mrk mid="0" mtype="seg">On WOW64, 32-bit applications view a registry tree that is separate from the registry tree that 64-bit applications</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">On WOW64, 32-bit applications view a registry tree that is separate from the registry tree that 64-bit applications</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> view. Registry reflection copies specific registry keys and values between the two views.</source>
+<seg-source> <mrk mid="0" mtype="seg">view.</mrk> <mrk mid="1" mtype="seg">Registry reflection copies specific registry keys and values between the two views.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">view.</mrk> <mrk mid="1" mtype="seg">Registry reflection copies specific registry keys and values between the two views.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> To restore registry reflection for a disabled key, use the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegEnableReflectionKey.htm"></bpt>_WinAPI_RegEnableReflectionKey()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">To restore registry reflection for a disabled key, use the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegEnableReflectionKey.htm"></bpt>_WinAPI_RegEnableReflectionKey()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To restore registry reflection for a disabled key, use the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegEnableReflectionKey.htm"></bpt>_WinAPI_RegEnableReflectionKey()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RegDisableReflectionKey);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RegDisableReflectionKey<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RegDisableReflectionKey);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RegDisableReflectionKey<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RegDisableReflectionKey);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RegDisableReflectionKey<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

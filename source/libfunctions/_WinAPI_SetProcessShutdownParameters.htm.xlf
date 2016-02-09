@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_SetProcessShutdownParameters.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets a shutdown order for a process relative to the other processes in the system</source>
+<seg-source><mrk mid="0" mtype="seg">Sets a shutdown order for a process relative to the other processes in the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets a shutdown order for a process relative to the other processes in the system</mrk></target>
+<note>Function _WinAPI_SetProcessShutdownParameters</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The shutdown priority. The system shuts down processes from high $iLevel values to low. The highest</source>
+<seg-source><mrk mid="0" mtype="seg">The shutdown priority.</mrk> <mrk mid="1" mtype="seg">The system shuts down processes from high $iLevel values to low.</mrk> <mrk mid="2" mtype="seg">The highest</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The shutdown priority.</mrk> <mrk mid="1" mtype="seg">The system shuts down processes from high $iLevel values to low.</mrk> <mrk mid="2" mtype="seg">The highest</mrk></target>
+<note>$iLevel</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> and lowest shutdown priorities are reserved for system components.</source>
+<seg-source> <mrk mid="0" mtype="seg">and lowest shutdown priorities are reserved for system components.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">and lowest shutdown priorities are reserved for system components.</mrk></target>
+<note>$iLevel</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> This parameter must be in the following range of values.</source>
+<seg-source> <mrk mid="0" mtype="seg">This parameter must be in the following range of values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This parameter must be in the following range of values.</mrk></target>
+<note>$iLevel</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> 0x0000-0x00FF - System reserved last shutdown range.</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0000-0x00FF - System reserved last shutdown range.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0000-0x00FF - System reserved last shutdown range.</mrk></target>
+<note>$iLevel</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> 0x0100-0x01FF - Application reserved last shutdown range.</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0100-0x01FF - Application reserved last shutdown range.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0100-0x01FF - Application reserved last shutdown range.</mrk></target>
+<note>$iLevel</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> 0x0200-0x02FF - Application reserved "in between" shutdown range.</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0200-0x02FF - Application reserved "in between" shutdown range.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0200-0x02FF - Application reserved "in between" shutdown range.</mrk></target>
+<note>$iLevel</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> 0x0300-0x03FF - Application reserved first shutdown range.</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0300-0x03FF - Application reserved first shutdown range.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0300-0x03FF - Application reserved first shutdown range.</mrk></target>
+<note>$iLevel</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> 0x0400-0x04FF - System reserved first shutdown range.</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0400-0x04FF - System reserved first shutdown range.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0400-0x04FF - System reserved first shutdown range.</mrk></target>
+<note>$iLevel</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> All processes start at shutdown level 0x0280.</source>
+<seg-source> <mrk mid="0" mtype="seg">All processes start at shutdown level 0x0280.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">All processes start at shutdown level 0x0280.</mrk></target>
+<note>$iLevel</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether display a retry dialog box for the user, valid values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether display a retry dialog box for the user, valid values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether display a retry dialog box for the user, valid values:</mrk></target>
+<note>$bDialog</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     True - Display a retry dialog box if process takes longer than the specified timeout to shutdown.</source>
+<seg-source> <mrk mid="0" mtype="seg">    True - Display a retry dialog box if process takes longer than the specified timeout to shutdown.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    True - Display a retry dialog box if process takes longer than the specified timeout to shutdown.</mrk></target>
+<note>$bDialog</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     False - Directly terminates the process (Default).</source>
+<seg-source> <mrk mid="0" mtype="seg">    False - Directly terminates the process (Default).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    False - Directly terminates the process (Default).</mrk></target>
+<note>$bDialog</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">False</source>
+<seg-source><mrk mid="0" mtype="seg">False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetProcessShutdownParameters);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetProcessShutdownParameters<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetProcessShutdownParameters);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetProcessShutdownParameters<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetProcessShutdownParameters);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetProcessShutdownParameters<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">6.0</source>
+<seg-source><mrk mid="0" mtype="seg">6.0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">6.0</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Require Windows Vista or later.</source>
+<seg-source><mrk mid="0" mtype="seg">Require Windows Vista or later.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Require Windows Vista or later.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">\shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">\shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Log off</source>
+<seg-source><mrk mid="0" mtype="seg">Log off</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Log off</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Block Windows shutdown</source>
+<seg-source><mrk mid="0" mtype="seg">Block Windows shutdown</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Block Windows shutdown</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">WM_QUERYENDSESSION</source>
+<seg-source><mrk mid="0" mtype="seg">WM_QUERYENDSESSION</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_QUERYENDSESSION</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Set the highest shutdown priority for the current process to prevent closure the other processes.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the highest shutdown priority for the current process to prevent closure the other processes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the highest shutdown priority for the current process to prevent closure the other processes.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">This application is blocking system shutdown because the saving critical data is in progress.</source>
+<seg-source><mrk mid="0" mtype="seg">This application is blocking system shutdown because the saving critical data is in progress.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This application is blocking system shutdown because the saving critical data is in progress.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

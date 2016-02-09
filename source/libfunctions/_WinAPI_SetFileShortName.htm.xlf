@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_SetFileShortName.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the short name for the specified file</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the short name for the specified file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the short name for the specified file</mrk></target>
+<note>Function _WinAPI_SetFileShortName</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">A handle to the file. The file must be on an NTFS file system volume. Also, the file must be</source>
+<seg-source><mrk mid="0" mtype="seg">A handle to the file.</mrk> <mrk mid="1" mtype="seg">The file must be on an NTFS file system volume.</mrk> <mrk mid="2" mtype="seg">Also, the file must be</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A handle to the file.</mrk> <mrk mid="1" mtype="seg">The file must be on an NTFS file system volume.</mrk> <mrk mid="2" mtype="seg">Also, the file must be</mrk></target>
+<note>$hFile</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> opened with either the $GENERIC_ALL access right or $GENERIC_WRITE|$DELETE, and with the</source>
+<seg-source> <mrk mid="0" mtype="seg">opened with either the $GENERIC_ALL access right or $GENERIC_WRITE|$DELETE, and with the</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">opened with either the $GENERIC_ALL access right or $GENERIC_WRITE|$DELETE, and with the</mrk></target>
+<note>$hFile</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> $FILE_FLAG_BACKUP_SEMANTICS file attribute.</source>
+<seg-source> <mrk mid="0" mtype="seg">$FILE_FLAG_BACKUP_SEMANTICS file attribute.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FILE_FLAG_BACKUP_SEMANTICS file attribute.</mrk></target>
+<note>$hFile</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The valid short name for the file. If the specified short name already exists, the function</source>
+<seg-source><mrk mid="0" mtype="seg">The valid short name for the file.</mrk> <mrk mid="1" mtype="seg">If the specified short name already exists, the function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The valid short name for the file.</mrk> <mrk mid="1" mtype="seg">If the specified short name already exists, the function</mrk></target>
+<note>$sShortName</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> fails and the last error code is ERROR_ALREADY_EXISTS (183).</source>
+<seg-source> <mrk mid="0" mtype="seg">fails and the last error code is ERROR_ALREADY_EXISTS (183).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">fails and the last error code is ERROR_ALREADY_EXISTS (183).</mrk></target>
+<note>$sShortName</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">False</source>
+<seg-source><mrk mid="0" mtype="seg">False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">The caller of this function must have the $SE_RESTORE_NAME privilege.</source>
+<seg-source><mrk mid="0" mtype="seg">The caller of this function must have the $SE_RESTORE_NAME privilege.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The caller of this function must have the $SE_RESTORE_NAME privilege.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetFileShortName);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetFileShortName<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetFileShortName);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetFileShortName<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetFileShortName);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetFileShortName<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">\Temporary File.txt</source>
+<seg-source><mrk mid="0" mtype="seg">\Temporary File.txt</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Temporary File.txt</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Check NTFS file system</source>
+<seg-source><mrk mid="0" mtype="seg">Check NTFS file system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check NTFS file system</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">NTFS</source>
+<seg-source><mrk mid="0" mtype="seg">NTFS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NTFS</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">The file must be on an NTFS file system volume.</source>
+<seg-source><mrk mid="0" mtype="seg">The file must be on an NTFS file system volume.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The file must be on an NTFS file system volume.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Enable "SeRestorePrivilege" privilege to perform renaming operation</source>
+<seg-source><mrk mid="0" mtype="seg">Enable "SeRestorePrivilege" privilege to perform renaming operation</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enable "SeRestorePrivilege" privilege to perform renaming operation</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">You do not have the required privileges.</source>
+<seg-source><mrk mid="0" mtype="seg">You do not have the required privileges.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You do not have the required privileges.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Create temporary file</source>
+<seg-source><mrk mid="0" mtype="seg">Create temporary file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create temporary file</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Old short name:</source>
+<seg-source><mrk mid="0" mtype="seg">Old short name:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Old short name:</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Set "TEMP.TXT" short name for the file</source>
+<seg-source><mrk mid="0" mtype="seg">Set "TEMP.TXT" short name for the file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set "TEMP.TXT" short name for the file</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">TEMP.TXT</source>
+<seg-source><mrk mid="0" mtype="seg">TEMP.TXT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TEMP.TXT</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">New short name:</source>
+<seg-source><mrk mid="0" mtype="seg">New short name:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">New short name:</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Delete temporary file</source>
+<seg-source><mrk mid="0" mtype="seg">Delete temporary file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete temporary file</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Restore "SeRestorePrivilege" privilege by default</source>
+<seg-source><mrk mid="0" mtype="seg">Restore "SeRestorePrivilege" privilege by default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Restore "SeRestorePrivilege" privilege by default</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

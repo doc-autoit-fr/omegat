@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUICtrlRichEdit_GetRECT.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the formatting rectangle of a control</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the formatting rectangle of a control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the formatting rectangle of a control</mrk></target>
+<note>Function _GUICtrlRichEdit_GetRECT</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">an array consisting of x and y coordinates.</source>
+<seg-source><mrk mid="0" mtype="seg">an array consisting of x and y coordinates.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an array consisting of x and y coordinates.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> $aArray[0] = Left</source>
+<seg-source> <mrk mid="0" mtype="seg">$aArray[0] = Left</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$aArray[0] = Left</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $aArray[1] = Top</source>
+<seg-source> <mrk mid="0" mtype="seg">$aArray[1] = Top</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$aArray[1] = Top</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $aArray[2] = Right</source>
+<seg-source> <mrk mid="0" mtype="seg">$aArray[2] = Right</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$aArray[2] = Right</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $aArray[3] = Bottom</source>
+<seg-source> <mrk mid="0" mtype="seg">$aArray[3] = Bottom</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$aArray[3] = Bottom</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">sets the flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">101 - $hWnd is not a handle</source>
+<seg-source><mrk mid="0" mtype="seg">101 - $hWnd is not a handle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">101 - $hWnd is not a handle</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">The formatting rectangle is the area in which text is drawn, part of which may not be visible.</source>
+<seg-source><mrk mid="0" mtype="seg">The formatting rectangle is the area in which text is drawn, part of which may not be visible.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The formatting rectangle is the area in which text is drawn, part of which may not be visible.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> All returned values are in dialog units referenced to the control.</source>
+<seg-source> <mrk mid="0" mtype="seg">All returned values are in dialog units referenced to the control.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">All returned values are in dialog units referenced to the control.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> Per MSDN, the values returned by this function may not be exactly what may be set by <bpt id="1" ctype="x-a">&lt;a href="_GUICtrlRichEdit_SetRECT.htm"></bpt>_GUICtrlRichEdit_SetRECT()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">Per MSDN, the values returned by this function may not be exactly what may be set by <bpt id="1" ctype="x-a">&lt;a href="_GUICtrlRichEdit_SetRECT.htm"></bpt>_GUICtrlRichEdit_SetRECT()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Per MSDN, the values returned by this function may not be exactly what may be set by <bpt id="1" ctype="x-a">&lt;a href="_GUICtrlRichEdit_SetRECT.htm"></bpt>_GUICtrlRichEdit_SetRECT()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EM_GETRECT);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EM_GETRECT<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EM_GETRECT);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EM_GETRECT<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EM_GETRECT);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EM_GETRECT<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Example (</source>
+<seg-source><mrk mid="0" mtype="seg">Example (</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example (</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">.exe</source>
+<seg-source><mrk mid="0" mtype="seg">.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.exe</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">)</source>
+<seg-source><mrk mid="0" mtype="seg">)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">)</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Next</source>
+<seg-source><mrk mid="0" mtype="seg">Next</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Next</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">First paragraph</source>
+<seg-source><mrk mid="0" mtype="seg">First paragraph</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">First paragraph</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Second paragraph</source>
+<seg-source><mrk mid="0" mtype="seg">Second paragraph</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Second paragraph</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">needed unless script crashes</source>
+<seg-source><mrk mid="0" mtype="seg">needed unless script crashes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">needed unless script crashes</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">GUIDelete() ; is OK too</source>
+<seg-source><mrk mid="0" mtype="seg">GUIDelete() ; is OK too</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUIDelete() ; is OK too</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">1. Default settings</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk> <mrk mid="1" mtype="seg">Default settings</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk> <mrk mid="1" mtype="seg">Default settings</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">2. Settings</source>
+<seg-source><mrk mid="0" mtype="seg">2.</mrk> <mrk mid="1" mtype="seg">Settings</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2.</mrk> <mrk mid="1" mtype="seg">Settings</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">3. ReSettings to default</source>
+<seg-source><mrk mid="0" mtype="seg">3.</mrk> <mrk mid="1" mtype="seg">ReSettings to default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3.</mrk> <mrk mid="1" mtype="seg">ReSettings to default</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Left=</source>
+<seg-source><mrk mid="0" mtype="seg">Left=</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Left=</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Top=</source>
+<seg-source><mrk mid="0" mtype="seg">Top=</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Top=</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Right=</source>
+<seg-source><mrk mid="0" mtype="seg">Right=</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Right=</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Bottom=</source>
+<seg-source><mrk mid="0" mtype="seg">Bottom=</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bottom=</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

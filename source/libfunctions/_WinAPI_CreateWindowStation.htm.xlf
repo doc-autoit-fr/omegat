@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_CreateWindowStation.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a window station object, associates it with the calling process, and assigns it to the current session</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a window station object, associates it with the calling process, and assigns it to the current session</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a window station object, associates it with the calling process, and assigns it to the current session</mrk></target>
+<note>Function _WinAPI_CreateWindowStation</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The name of the window station to be created. Window station names are case-insensitive and cannot contain backslash characters (\).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The name of the window station to be created.</mrk> <mrk mid="2" mtype="seg">Window station names are case-insensitive and cannot contain backslash characters (\).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The name of the window station to be created.</mrk> <mrk mid="2" mtype="seg">Window station names are case-insensitive and cannot contain backslash characters (\).</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> Only members of the Administrators group are allowed to specify a name.</source>
+<seg-source> <mrk mid="0" mtype="seg">Only members of the Administrators group are allowed to specify a name.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Only members of the Administrators group are allowed to specify a name.</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> If this parameter is empty string (Default), the system forms a window station name using the logon session identifier for the calling process.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is empty string (Default), the system forms a window station name using the logon session identifier for the calling process.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is empty string (Default), the system forms a window station name using the logon session identifier for the calling process.</mrk></target>
+<note>$sName</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The type of access the returned handle has to the window station. This parameter can be one or more of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The type of access the returned handle has to the window station.</mrk> <mrk mid="2" mtype="seg">This parameter can be one or more of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The type of access the returned handle has to the window station.</mrk> <mrk mid="2" mtype="seg">This parameter can be one or more of the following values:</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $WINSTA_ALL_ACCESS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $WINSTA_ALL_ACCESS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $WINSTA_ALL_ACCESS</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $WINSTA_ACCESSCLIPBOARD</source>
+<seg-source> <mrk mid="0" mtype="seg">    $WINSTA_ACCESSCLIPBOARD</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $WINSTA_ACCESSCLIPBOARD</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $WINSTA_ACCESSGLOBALATOMS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $WINSTA_ACCESSGLOBALATOMS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $WINSTA_ACCESSGLOBALATOMS</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $WINSTA_CREATEDESKTOP</source>
+<seg-source> <mrk mid="0" mtype="seg">    $WINSTA_CREATEDESKTOP</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $WINSTA_CREATEDESKTOP</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $WINSTA_ENUMDESKTOPS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $WINSTA_ENUMDESKTOPS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $WINSTA_ENUMDESKTOPS</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $WINSTA_ENUMERATE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $WINSTA_ENUMERATE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $WINSTA_ENUMERATE</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $WINSTA_EXITWINDOWS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $WINSTA_EXITWINDOWS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $WINSTA_EXITWINDOWS</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $WINSTA_READATTRIBUTES</source>
+<seg-source> <mrk mid="0" mtype="seg">    $WINSTA_READATTRIBUTES</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $WINSTA_READATTRIBUTES</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $WINSTA_READSCREEN</source>
+<seg-source> <mrk mid="0" mtype="seg">    $WINSTA_READSCREEN</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $WINSTA_READSCREEN</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $WINSTA_WRITEATTRIBUTES</source>
+<seg-source> <mrk mid="0" mtype="seg">    $WINSTA_WRITEATTRIBUTES</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $WINSTA_WRITEATTRIBUTES</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The optional flags. It can be zero (Default) or the following value:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The optional flags.</mrk> <mrk mid="2" mtype="seg">It can be zero (Default) or the following value:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The optional flags.</mrk> <mrk mid="2" mtype="seg">It can be zero (Default) or the following value:</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $CWF_CREATE_ONLY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CWF_CREATE_ONLY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CWF_CREATE_ONLY</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> $tagSECURITY_ATTRIBUTES structure that determines whether the returned handle can be inherited by child processes. If this parameter is 0 (Default), the handle cannot be inherited.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">$tagSECURITY_ATTRIBUTES structure that determines whether the returned handle can be inherited by child processes.</mrk> <mrk mid="2" mtype="seg">If this parameter is 0 (Default), the handle cannot be inherited.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">$tagSECURITY_ATTRIBUTES structure that determines whether the returned handle can be inherited by child processes.</mrk> <mrk mid="2" mtype="seg">If this parameter is 0 (Default), the handle cannot be inherited.</mrk></target>
+<note>$tSecurity</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Handle to the newly created window station. If the specified window station already exists, the function succeeds and returns a handle to the existing window station.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the newly created window station.</mrk> <mrk mid="1" mtype="seg">If the specified window station already exists, the function succeeds and returns a handle to the existing window station.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the newly created window station.</mrk> <mrk mid="1" mtype="seg">If the specified window station already exists, the function succeeds and returns a handle to the existing window station.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> 0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">After you are done with the handle, you must call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CloseWindowStation.htm"></bpt>_WinAPI_CloseWindowStation()<ept id="1">&lt;/a></ept> to free the handle.</source>
+<seg-source><mrk mid="0" mtype="seg">After you are done with the handle, you must call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CloseWindowStation.htm"></bpt>_WinAPI_CloseWindowStation()<ept id="1">&lt;/a></ept> to free the handle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">After you are done with the handle, you must call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CloseWindowStation.htm"></bpt>_WinAPI_CloseWindowStation()<ept id="1">&lt;/a></ept> to free the handle.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateWindowStation);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateWindowStation<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateWindowStation);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateWindowStation<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateWindowStation);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateWindowStation<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

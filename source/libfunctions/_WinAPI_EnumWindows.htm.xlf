@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_EnumWindows.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Enumerates all windows</source>
+<seg-source><mrk mid="0" mtype="seg">Enumerates all windows</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enumerates all windows</mrk></target>
+<note>Function _WinAPI_EnumWindows</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Window selection flag:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Window selection flag:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Window selection flag:</mrk></target>
+<note>$bVisible</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> True - Returns only visible windows</source>
+<seg-source> <mrk mid="0" mtype="seg">True - Returns only visible windows</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">True - Returns only visible windows</mrk></target>
+<note>$bVisible</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> False - Returns all windows</source>
+<seg-source> <mrk mid="0" mtype="seg">False - Returns all windows</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">False - Returns all windows</mrk></target>
+<note>$bVisible</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Handle of the starting windows (default Desktop windows)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Handle of the starting windows (default Desktop windows)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Handle of the starting windows (default Desktop windows)</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Returns an array with the following format:</source>
+<seg-source><mrk mid="0" mtype="seg">Returns an array with the following format:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns an array with the following format:</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> [0][0] - Number of rows in array (n)</source>
+<seg-source> <mrk mid="0" mtype="seg">[0][0] - Number of rows in array (n)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[0][0] - Number of rows in array (n)</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> [1][0] - Window handle</source>
+<seg-source> <mrk mid="0" mtype="seg">[1][0] - Window handle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[1][0] - Window handle</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> [1][1] - Window class name</source>
+<seg-source> <mrk mid="0" mtype="seg">[1][1] - Window class name</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[1][1] - Window class name</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> [n][0] - Window handle</source>
+<seg-source> <mrk mid="0" mtype="seg">[n][0] - Window handle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[n][0] - Window handle</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> [n][1] - Window class name</source>
+<seg-source> <mrk mid="0" mtype="seg">[n][1] - Window class name</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[n][1] - Window class name</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">_WinAPI_EnumWindows</source>
+<seg-source><mrk mid="0" mtype="seg">_WinAPI_EnumWindows</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinAPI_EnumWindows</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">#|Handle|Class|Title|Text|Process</source>
+<seg-source><mrk mid="0" mtype="seg">#|Handle|Class|Title|Text|Process</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">#|Handle|Class|Title|Text|Process</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

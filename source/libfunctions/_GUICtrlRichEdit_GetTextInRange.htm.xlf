@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUICtrlRichEdit_GetTextInRange.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Gets the text from from one inter-character position to another</source>
+<seg-source><mrk mid="0" mtype="seg">Gets the text from from one inter-character position to another</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Gets the text from from one inter-character position to another</mrk></target>
+<note>Function _GUICtrlRichEdit_GetTextInRange</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Inter-character position before the text</source>
+<seg-source><mrk mid="0" mtype="seg">Inter-character position before the text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Inter-character position before the text</mrk></target>
+<note>$iStart</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Inter-character position after the text</source>
+<seg-source><mrk mid="0" mtype="seg">Inter-character position after the text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Inter-character position after the text</mrk></target>
+<note>$iEnd</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> Special value: -1 - end of text</source>
+<seg-source> <mrk mid="0" mtype="seg">Special value:</mrk> <mrk mid="1" mtype="seg">-1 - end of text</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Special value:</mrk> <mrk mid="1" mtype="seg">-1 - end of text</mrk></target>
+<note>$iEnd</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">the text.</source>
+<seg-source><mrk mid="0" mtype="seg">the text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the text.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">101 - $hWnd is not a handle</source>
+<seg-source><mrk mid="0" mtype="seg">101 - $hWnd is not a handle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">101 - $hWnd is not a handle</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> 102 - $iStart is neither positive nor zero</source>
+<seg-source> <mrk mid="0" mtype="seg">102 - $iStart is neither positive nor zero</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">102 - $iStart is neither positive nor zero</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> 1031 - $iEnd is neither positive nor zero nor -1</source>
+<seg-source> <mrk mid="0" mtype="seg">1031 - $iEnd is neither positive nor zero nor -1</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1031 - $iEnd is neither positive nor zero nor -1</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> 1032 - $iStart &lt; $iEnd and $iEnd &amp;l;> -1</source>
+<seg-source> <mrk mid="0" mtype="seg">1032 - $iStart &lt; $iEnd and $iEnd &amp;l;> -1</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1032 - $iStart &lt; $iEnd and $iEnd &amp;l;> -1</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">The first character position in the control is 0.</source>
+<seg-source><mrk mid="0" mtype="seg">The first character position in the control is 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The first character position in the control is 0.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EM_GETTEXTRANGE);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EM_GETTEXTRANGE<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EM_GETTEXTRANGE);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EM_GETTEXTRANGE<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EM_GETTEXTRANGE);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EM_GETTEXTRANGE<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Example (</source>
+<seg-source><mrk mid="0" mtype="seg">Example (</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example (</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">.exe</source>
+<seg-source><mrk mid="0" mtype="seg">.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.exe</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">)</source>
+<seg-source><mrk mid="0" mtype="seg">)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">)</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">This is a test.</source>
+<seg-source><mrk mid="0" mtype="seg">This is a test.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a test.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">WM_NOTIFY</source>
+<seg-source><mrk mid="0" mtype="seg">WM_NOTIFY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_NOTIFY</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">http://www.autoitscript.com</source>
+<seg-source><mrk mid="0" mtype="seg">http://www.autoitscript.com</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">http://www.autoitscript.com</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">needed unless script crashes</source>
+<seg-source><mrk mid="0" mtype="seg">needed unless script crashes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">needed unless script crashes</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">GUIDelete() ; is OK too</source>
+<seg-source><mrk mid="0" mtype="seg">GUIDelete() ; is OK too</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUIDelete() ; is OK too</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">msg</source>
+<seg-source><mrk mid="0" mtype="seg">msg</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">msg</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">cpMin</source>
+<seg-source><mrk mid="0" mtype="seg">cpMin</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">cpMin</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">cpMax</source>
+<seg-source><mrk mid="0" mtype="seg">cpMax</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">cpMax</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Invoke your web browser here and point it to</source>
+<seg-source><mrk mid="0" mtype="seg">Invoke your web browser here and point it to</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Invoke your web browser here and point it to</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

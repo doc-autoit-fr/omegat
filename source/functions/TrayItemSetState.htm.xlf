@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/TrayItemSetState.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the state of a tray menu/item control.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the state of a tray menu/item control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the state of a tray menu/item control.</mrk></target>
+<note>Function TrayItemSetState</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> The control identifier (controlID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="../functions/TrayCreateItem.htm"></bpt>TrayCreateItem<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="../functions/TrayCreateMenu.htm"></bpt>TrayCreateMenu<ept id="2">&lt;/a></ept> function. </source>
+<seg-source> <mrk mid="0" mtype="seg">The control identifier (controlID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="../functions/TrayCreateItem.htm"></bpt>TrayCreateItem<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="../functions/TrayCreateMenu.htm"></bpt>TrayCreateMenu<ept id="2">&lt;/a></ept> function.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The control identifier (controlID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="../functions/TrayCreateItem.htm"></bpt>TrayCreateItem<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="../functions/TrayCreateMenu.htm"></bpt>TrayCreateMenu<ept id="2">&lt;/a></ept> function.</mrk> </target>
+<note>controlID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> See the <bpt id="1" ctype="x-a">&lt;a href="#StateTable"></bpt>State table<ept id="1">&lt;/a></ept> below. </source>
+<seg-source> <mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-a">&lt;a href="#StateTable"></bpt>State table<ept id="1">&lt;/a></ept> below.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-a">&lt;a href="#StateTable"></bpt>State table<ept id="1">&lt;/a></ept> below.</mrk> </target>
+<note>state</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><ph id="1" ctype="x-a">&lt;a id="StateTable"></ph><bpt id="2" ctype="x-strong">&lt;strong></bpt>State table<ept id="2">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="StateTable"></ph><bpt id="2" ctype="x-strong">&lt;strong></bpt>State table<ept id="2">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="StateTable"></ph><bpt id="2" ctype="x-strong">&lt;strong></bpt>State table<ept id="2">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>State<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>State<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>State<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Value<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Value<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Value<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Comments<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Comments<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Comments<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">No Change</source>
+<seg-source><mrk mid="0" mtype="seg">No Change</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No Change</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">0</source>
+<seg-source><mrk mid="0" mtype="seg">0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0</mrk></target>
+<note>No Change</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">$TRAY_CHECKED</source>
+<seg-source><mrk mid="0" mtype="seg">$TRAY_CHECKED</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$TRAY_CHECKED</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+<note>$TRAY_CHECKED</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Menuitem will be checked</source>
+<seg-source><mrk mid="0" mtype="seg">Menuitem will be checked</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Menuitem will be checked</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">$TRAY_UNCHECKED</source>
+<seg-source><mrk mid="0" mtype="seg">$TRAY_UNCHECKED</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$TRAY_UNCHECKED</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">4</source>
+<seg-source><mrk mid="0" mtype="seg">4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">4</mrk></target>
+<note>$TRAY_UNCHECKED</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Menuitem will be unchecked</source>
+<seg-source><mrk mid="0" mtype="seg">Menuitem will be unchecked</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Menuitem will be unchecked</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">$TRAY_ENABLE</source>
+<seg-source><mrk mid="0" mtype="seg">$TRAY_ENABLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$TRAY_ENABLE</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">64</source>
+<seg-source><mrk mid="0" mtype="seg">64</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">64</mrk></target>
+<note>$TRAY_ENABLE</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Menuitem will be enabled</source>
+<seg-source><mrk mid="0" mtype="seg">Menuitem will be enabled</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Menuitem will be enabled</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">$TRAY_DISABLE</source>
+<seg-source><mrk mid="0" mtype="seg">$TRAY_DISABLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$TRAY_DISABLE</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">128</source>
+<seg-source><mrk mid="0" mtype="seg">128</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">128</mrk></target>
+<note>$TRAY_DISABLE</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Menuitem will be greyed out</source>
+<seg-source><mrk mid="0" mtype="seg">Menuitem will be greyed out</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Menuitem will be greyed out</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">$TRAY_FOCUS</source>
+<seg-source><mrk mid="0" mtype="seg">$TRAY_FOCUS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$TRAY_FOCUS</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">256</source>
+<seg-source><mrk mid="0" mtype="seg">256</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">256</mrk></target>
+<note>$TRAY_FOCUS</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Menuitem will be selected</source>
+<seg-source><mrk mid="0" mtype="seg">Menuitem will be selected</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Menuitem will be selected</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">$TRAY_DEFAULT</source>
+<seg-source><mrk mid="0" mtype="seg">$TRAY_DEFAULT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$TRAY_DEFAULT</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">512</source>
+<seg-source><mrk mid="0" mtype="seg">512</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">512</mrk></target>
+<note>$TRAY_DEFAULT</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Menuitem will be set as default menuitem</source>
+<seg-source><mrk mid="0" mtype="seg">Menuitem will be set as default menuitem</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Menuitem will be set as default menuitem</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en"> State values can be summed up as for example $TRAY_CHECKED + $TRAY_DEFAULT sets the menuitem in an checked and default state.</source>
+<seg-source> <mrk mid="0" mtype="seg">State values can be summed up as for example $TRAY_CHECKED + $TRAY_DEFAULT sets the menuitem in an checked and default state.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">State values can be summed up as for example $TRAY_CHECKED + $TRAY_DEFAULT sets the menuitem in an checked and default state.</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"> To reset/delete the $TRAY_DEFAULT-state for a menuitem just use this function on the item with another state, for instance with $TRAY_ENABLE.</source>
+<seg-source> <mrk mid="0" mtype="seg">To reset/delete the $TRAY_DEFAULT-state for a menuitem just use this function on the item with another state, for instance with $TRAY_ENABLE.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To reset/delete the $TRAY_DEFAULT-state for a menuitem just use this function on the item with another state, for instance with $TRAY_ENABLE.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en"> When you set $TRAY_DEFAULT state for a menuitem, the default behavior of primary double click on tray icon is to execute this default menuitem. To disable this behavior use <bpt id="1" ctype="x-a">&lt;a href="../functions/AutoItSetOption.htm#TrayMenuMode"></bpt>Opt("TrayMenuMode", 4)<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">When you set $TRAY_DEFAULT state for a menuitem, the default behavior of primary double click on tray icon is to execute this default menuitem.</mrk> <mrk mid="1" mtype="seg">To disable this behavior use <bpt id="1" ctype="x-a">&lt;a href="../functions/AutoItSetOption.htm#TrayMenuMode"></bpt>Opt("TrayMenuMode", 4)<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When you set $TRAY_DEFAULT state for a menuitem, the default behavior of primary double click on tray icon is to execute this default menuitem.</mrk> <mrk mid="1" mtype="seg">To disable this behavior use <bpt id="1" ctype="x-a">&lt;a href="../functions/AutoItSetOption.htm#TrayMenuMode"></bpt>Opt("TrayMenuMode", 4)<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en"> The above constants are defined in #include &lt;TrayConstants.au3>.</source>
+<seg-source> <mrk mid="0" mtype="seg">The above constants are defined in #include &lt;TrayConstants.au3>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The above constants are defined in #include &lt;TrayConstants.au3>.</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Required for the $TRAY_CHECKED and $TRAY_ICONSTATE_SHOW constants.</source>
+<seg-source><mrk mid="0" mtype="seg">Required for the $TRAY_CHECKED and $TRAY_ICONSTATE_SHOW constants.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Required for the $TRAY_CHECKED and $TRAY_ICONSTATE_SHOW constants.</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">TrayMenuMode</source>
+<seg-source><mrk mid="0" mtype="seg">TrayMenuMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayMenuMode</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">The default tray menu items will not be shown and items are not checked when selected. These are options 1 and 2 for TrayMenuMode.</source>
+<seg-source><mrk mid="0" mtype="seg">The default tray menu items will not be shown and items are not checked when selected.</mrk> <mrk mid="1" mtype="seg">These are options 1 and 2 for TrayMenuMode.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The default tray menu items will not be shown and items are not checked when selected.</mrk> <mrk mid="1" mtype="seg">These are options 1 and 2 for TrayMenuMode.</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Set 'About' State</source>
+<seg-source><mrk mid="0" mtype="seg">Set 'About' State</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set 'About' State</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Create a separator line.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a separator line.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a separator line.</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">About</source>
+<seg-source><mrk mid="0" mtype="seg">About</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">About</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Create a separator line.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a separator line.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a separator line.</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Exit</source>
+<seg-source><mrk mid="0" mtype="seg">Exit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exit</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Show the tray menu.</source>
+<seg-source><mrk mid="0" mtype="seg">Show the tray menu.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show the tray menu.</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Display a message box about the AutoIt version and installation path of the AutoIt executable.</source>
+<seg-source><mrk mid="0" mtype="seg">Display a message box about the AutoIt version and installation path of the AutoIt executable.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display a message box about the AutoIt version and installation path of the AutoIt executable.</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">AutoIt tray menu example.</source>
+<seg-source><mrk mid="0" mtype="seg">AutoIt tray menu example.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AutoIt tray menu example.</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Version:</source>
+<seg-source><mrk mid="0" mtype="seg">Version:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Version:</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Install Path:</source>
+<seg-source><mrk mid="0" mtype="seg">Install Path:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Install Path:</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">\</source>
+<seg-source><mrk mid="0" mtype="seg">\</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Find the folder of a full path.</source>
+<seg-source><mrk mid="0" mtype="seg">Find the folder of a full path.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Find the folder of a full path.</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">Set the 'About' item state to checked.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the 'About' item state to checked.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the 'About' item state to checked.</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Exit the loop.</source>
+<seg-source><mrk mid="0" mtype="seg">Exit the loop.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exit the loop.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

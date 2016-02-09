@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUICtrlTreeView_SetState.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Set the state of the specified item</source>
+<seg-source><mrk mid="0" mtype="seg">Set the state of the specified item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the state of the specified item</mrk></target>
+<note>Function _GUICtrlTreeView_SetState</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Control ID/Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Handle to the item</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the item</mrk></target>
+<note>$hItem</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The new item state, can be one or more of the following:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The new item state, can be one or more of the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The new item state, can be one or more of the following:</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $TVIS_SELECTED - Set item selected</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TVIS_SELECTED - Set item selected</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TVIS_SELECTED - Set item selected</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $TVIS_CUT - Set item as part of a cut-and-paste operation</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TVIS_CUT - Set item as part of a cut-and-paste operation</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TVIS_CUT - Set item as part of a cut-and-paste operation</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $TVIS_DROPHILITED - Set item as a drag-and-drop target</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TVIS_DROPHILITED - Set item as a drag-and-drop target</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TVIS_DROPHILITED - Set item as a drag-and-drop target</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $TVIS_BOLD - Set item as bold</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TVIS_BOLD - Set item as bold</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TVIS_BOLD - Set item as bold</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $TVIS_EXPANDED - Expand item</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TVIS_EXPANDED - Expand item</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TVIS_EXPANDED - Expand item</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $TVIS_EXPANDEDONCE - Set item's list of child items has been expanded at least once</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TVIS_EXPANDEDONCE - Set item's list of child items has been expanded at least once</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TVIS_EXPANDEDONCE - Set item's list of child items has been expanded at least once</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $TVIS_EXPANDPARTIAL - Set item as partially expanded</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TVIS_EXPANDPARTIAL - Set item as partially expanded</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TVIS_EXPANDPARTIAL - Set item as partially expanded</mrk></target>
+<note>$iState</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> True if item state is to be set, False remove item state</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True if item state is to be set, False remove item state</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True if item state is to be set, False remove item state</mrk></target>
+<note>$bSetState</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">False.</source>
+<seg-source><mrk mid="0" mtype="seg">False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">State values can BitOR'ed together as for example BitOR($TVIS_SELECTED, $TVIS_BOLD).</source>
+<seg-source><mrk mid="0" mtype="seg">State values can BitOR'ed together as for example BitOR($TVIS_SELECTED, $TVIS_BOLD).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">State values can BitOR'ed together as for example BitOR($TVIS_SELECTED, $TVIS_BOLD).</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">TreeView Set State</source>
+<seg-source><mrk mid="0" mtype="seg">TreeView Set State</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TreeView Set State</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">[%02d] New Item</source>
+<seg-source><mrk mid="0" mtype="seg">[%02d] New Item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[%02d] New Item</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">[%02d] New Child</source>
+<seg-source><mrk mid="0" mtype="seg">[%02d] New Child</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[%02d] New Child</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">set bold and just the expanded "-" not really expanded</source>
+<seg-source><mrk mid="0" mtype="seg">set bold and just the expanded "-" not really expanded</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">set bold and just the expanded "-" not really expanded</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">reset just Bold state</source>
+<seg-source><mrk mid="0" mtype="seg">reset just Bold state</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">reset just Bold state</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Information</source>
+<seg-source><mrk mid="0" mtype="seg">Information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Information</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">State for Index %d: %s</source>
+<seg-source><mrk mid="0" mtype="seg">State for Index %d:</mrk> <mrk mid="1" mtype="seg">%s</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">State for Index %d:</mrk> <mrk mid="1" mtype="seg">%s</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_ExtractIconEx.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates an array of handles to large or small icons extracted from a file</source>
+<seg-source><mrk mid="0" mtype="seg">Creates an array of handles to large or small icons extracted from a file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates an array of handles to large or small icons extracted from a file</mrk></target>
+<note>Function _WinAPI_ExtractIconEx</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Name of an executable file, DLL, or icon file from which icons will be extracted</source>
+<seg-source><mrk mid="0" mtype="seg">Name of an executable file, DLL, or icon file from which icons will be extracted</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Name of an executable file, DLL, or icon file from which icons will be extracted</mrk></target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Specifies the 0-based index of the first icon to extract</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the 0-based index of the first icon to extract</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the 0-based index of the first icon to extract</mrk></target>
+<note>$iIndex</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Pointer to an array of icon handles that receives handles to the large icons extracted from the file.</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to an array of icon handles that receives handles to the large icons extracted from the file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to an array of icon handles that receives handles to the large icons extracted from the file.</mrk></target>
+<note>$paLarge</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> If this parameter is 0, no large icons are extracted from the file.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is 0, no large icons are extracted from the file.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is 0, no large icons are extracted from the file.</mrk></target>
+<note>$paLarge</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Pointer to an array of icon handles that receives handles to the small icons extracted from the file.</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to an array of icon handles that receives handles to the small icons extracted from the file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to an array of icon handles that receives handles to the small icons extracted from the file.</mrk></target>
+<note>$paSmall</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> If this parameter is 0, no small icons are extracted from the file.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is 0, no small icons are extracted from the file.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is 0, no small icons are extracted from the file.</mrk></target>
+<note>$paSmall</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Specifies the number of icons to extract from the file</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the number of icons to extract from the file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the number of icons to extract from the file</mrk></target>
+<note>$iIcons</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Returns the number of icons contained in the specified file, when $iIndex is -1, $paLarge parameter is 0, and $paSmall is 0.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the number of icons contained in the specified file, when $iIndex is -1, $paLarge parameter is 0, and $paSmall is 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the number of icons contained in the specified file, when $iIndex is -1, $paLarge parameter is 0, and $paSmall is 0.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> Otherwise, the return value is the number of icons successfully extracted from the file.</source>
+<seg-source> <mrk mid="0" mtype="seg">Otherwise, the return value is the number of icons successfully extracted from the file.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Otherwise, the return value is the number of icons successfully extracted from the file.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ExtractIconEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ExtractIconEx<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ExtractIconEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ExtractIconEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ExtractIconEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ExtractIconEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">ExtractIconEx</source>
+<seg-source><mrk mid="0" mtype="seg">ExtractIconEx</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ExtractIconEx</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"># of Icons in file shell32.dll:</source>
+<seg-source><mrk mid="0" mtype="seg"># of Icons in file shell32.dll:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"># of Icons in file shell32.dll:</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

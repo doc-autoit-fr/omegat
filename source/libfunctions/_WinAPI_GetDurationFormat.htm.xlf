@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_GetDurationFormat.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Formats a duration of time as a time string for a locale specified by identifier</source>
+<seg-source><mrk mid="0" mtype="seg">Formats a duration of time as a time string for a locale specified by identifier</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Formats a duration of time as a time string for a locale specified by identifier</mrk></target>
+<note>Function _WinAPI_GetDurationFormat</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The locale identifier (LCID) that specifies the locale or one of the following predefined values:</source>
+<seg-source><mrk mid="0" mtype="seg">The locale identifier (LCID) that specifies the locale or one of the following predefined values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The locale identifier (LCID) that specifies the locale or one of the following predefined values:</mrk></target>
+<note>$iLCID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">     $LOCALE_INVARIANT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LOCALE_INVARIANT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LOCALE_INVARIANT</mrk></target>
+<note>$iLCID</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $LOCALE_SYSTEM_DEFAULT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LOCALE_SYSTEM_DEFAULT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LOCALE_SYSTEM_DEFAULT</mrk></target>
+<note>$iLCID</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $LOCALE_USER_DEFAULT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LOCALE_USER_DEFAULT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LOCALE_USER_DEFAULT</mrk></target>
+<note>$iLCID</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept></mrk></target>
+<note>$iLCID</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $LOCALE_CUSTOM_DEFAULT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LOCALE_CUSTOM_DEFAULT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LOCALE_CUSTOM_DEFAULT</mrk></target>
+<note>$iLCID</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $LOCALE_CUSTOM_UI_DEFAULT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LOCALE_CUSTOM_UI_DEFAULT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LOCALE_CUSTOM_UI_DEFAULT</mrk></target>
+<note>$iLCID</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $LOCALE_CUSTOM_UNSPECIFIED</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LOCALE_CUSTOM_UNSPECIFIED</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LOCALE_CUSTOM_UNSPECIFIED</mrk></target>
+<note>$iLCID</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">The number of 100-nanosecond intervals in the duration.</source>
+<seg-source><mrk mid="0" mtype="seg">The number of 100-nanosecond intervals in the duration.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The number of 100-nanosecond intervals in the duration.</mrk></target>
+<note>$iDuration</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> Alternatively, this parameter can be a $tagSYSTEMTIME structure that contains the time duration information to format.</source>
+<seg-source> <mrk mid="0" mtype="seg">Alternatively, this parameter can be a $tagSYSTEMTIME structure that contains the time duration information to format.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Alternatively, this parameter can be a $tagSYSTEMTIME structure that contains the time duration information to format.</mrk></target>
+<note>$iDuration</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The string that is used to form the duration. For example, "hh:mm:ss.ff".</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The string that is used to form the duration.</mrk> <mrk mid="2" mtype="seg">For example, "hh:mm:ss.ff".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The string that is used to form the duration.</mrk> <mrk mid="2" mtype="seg">For example, "hh:mm:ss.ff".</mrk></target>
+<note>$sFormat</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> If this parameter is omitted or an empty string (Default), the function returns the string according to the duration format for the specified locale.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is omitted or an empty string (Default), the function returns the string according to the duration format for the specified locale.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is omitted or an empty string (Default), the function returns the string according to the duration format for the specified locale.</mrk></target>
+<note>$sFormat</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">The formatted duration string.</source>
+<seg-source><mrk mid="0" mtype="seg">The formatted duration string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The formatted duration string.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> Empty string, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">Empty string, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Empty string, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetDurationFormat);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetDurationFormat<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetDurationFormat);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetDurationFormat<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetDurationFormat);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetDurationFormat<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">hh:mm:ss</source>
+<seg-source><mrk mid="0" mtype="seg">hh:mm:ss</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hh:mm:ss</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">mm:ss</source>
+<seg-source><mrk mid="0" mtype="seg">mm:ss</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mm:ss</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">ss</source>
+<seg-source><mrk mid="0" mtype="seg">ss</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ss</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

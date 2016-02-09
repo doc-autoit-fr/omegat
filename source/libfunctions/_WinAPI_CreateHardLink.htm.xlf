@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_CreateHardLink.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Establishes a hard link between an existing file and a new file</source>
+<seg-source><mrk mid="0" mtype="seg">Establishes a hard link between an existing file and a new file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Establishes a hard link between an existing file and a new file</mrk></target>
+<note>Function _WinAPI_CreateHardLink</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The name of the new file.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the new file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the new file.</mrk></target>
+<note>$sNewFile</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The name of the existing file.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the existing file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the existing file.</mrk></target>
+<note>$sExistingFile</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information </source>
+<seg-source> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateHardLink.htm"></bpt>_WinAPI_CreateHardLink()<ept id="1">&lt;/a></ept> is only supported on the NTFS file system, and only for files, not directories.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateHardLink.htm"></bpt>_WinAPI_CreateHardLink()<ept id="1">&lt;/a></ept> is only supported on the NTFS file system, and only for files, not directories.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateHardLink.htm"></bpt>_WinAPI_CreateHardLink()<ept id="1">&lt;/a></ept> is only supported on the NTFS file system, and only for files, not directories.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> The security descriptor belongs to the file to which a hard link points. The link itself is only a directory entry, and does not have a security descriptor.</source>
+<seg-source> <mrk mid="0" mtype="seg">The security descriptor belongs to the file to which a hard link points.</mrk> <mrk mid="1" mtype="seg">The link itself is only a directory entry, and does not have a security descriptor.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The security descriptor belongs to the file to which a hard link points.</mrk> <mrk mid="1" mtype="seg">The link itself is only a directory entry, and does not have a security descriptor.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> Therefore, when you change the security descriptor of a hard link, you a change the security descriptor of the underlying file, and all hard links that point to the file allow the newly specified access.</source>
+<seg-source> <mrk mid="0" mtype="seg">Therefore, when you change the security descriptor of a hard link, you a change the security descriptor of the underlying file, and all hard links that point to the file allow the newly specified access.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Therefore, when you change the security descriptor of a hard link, you a change the security descriptor of the underlying file, and all hard links that point to the file allow the newly specified access.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> You cannot give a file different security descriptors on a per-hard-link basis.</source>
+<seg-source> <mrk mid="0" mtype="seg">You cannot give a file different security descriptors on a per-hard-link basis.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">You cannot give a file different security descriptors on a per-hard-link basis.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> Use <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteFile.htm"></bpt>_WinAPI_DeleteFile()<ept id="1">&lt;/a></ept> function to delete hard links. You can delete them in any order regardless of the order in which they are created.</source>
+<seg-source> <mrk mid="0" mtype="seg">Use <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteFile.htm"></bpt>_WinAPI_DeleteFile()<ept id="1">&lt;/a></ept> function to delete hard links.</mrk> <mrk mid="1" mtype="seg">You can delete them in any order regardless of the order in which they are created.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Use <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteFile.htm"></bpt>_WinAPI_DeleteFile()<ept id="1">&lt;/a></ept> function to delete hard links.</mrk> <mrk mid="1" mtype="seg">You can delete them in any order regardless of the order in which they are created.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateHardLink);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateHardLink<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateHardLink);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateHardLink<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateHardLink);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateHardLink<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">\</source>
+<seg-source><mrk mid="0" mtype="seg">\</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">\A_+</source>
+<seg-source><mrk mid="0" mtype="seg">\A_+</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\A_+</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">@</source>
+<seg-source><mrk mid="0" mtype="seg">@</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Create hard link to the current file with prefix "@" on your Desktop</source>
+<seg-source><mrk mid="0" mtype="seg">Create hard link to the current file with prefix "@" on your Desktop</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create hard link to the current file with prefix "@" on your Desktop</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Unable to create hard link.</source>
+<seg-source><mrk mid="0" mtype="seg">Unable to create hard link.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unable to create hard link.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Enumerate all hard links to the file</source>
+<seg-source><mrk mid="0" mtype="seg">Enumerate all hard links to the file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enumerate all hard links to the file</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">_WinAPI_EnumHardLinks</source>
+<seg-source><mrk mid="0" mtype="seg">_WinAPI_EnumHardLinks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinAPI_EnumHardLinks</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

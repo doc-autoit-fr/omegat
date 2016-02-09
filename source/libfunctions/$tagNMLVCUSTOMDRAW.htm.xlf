@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/$tagNMLVCUSTOMDRAW.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Keyword Reference</source>
+<seg-source><mrk mid="0" mtype="seg">Keyword Reference</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Keyword Reference</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Contains information specific to an NM_CUSTOMDRAW (list view) notification message sent by a list-view control</source>
+<seg-source><mrk mid="0" mtype="seg">Contains information specific to an NM_CUSTOMDRAW (list view) notification message sent by a list-view control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains information specific to an NM_CUSTOMDRAW (list view) notification message sent by a list-view control</mrk></target>
+<note>Keyword $tagNMLVCUSTOMDRAW</note>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Contains information about a notification message</source>
+<seg-source><mrk mid="0" mtype="seg">Contains information about a notification message</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains information about a notification message</mrk></target>
+<note>$tagNMHDR</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The current drawing stage. This is one of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg">The current drawing stage.</mrk> <mrk mid="1" mtype="seg">This is one of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The current drawing stage.</mrk> <mrk mid="1" mtype="seg">This is one of the following values:</mrk></target>
+<note>dwDrawStage</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> Global Values:</source>
+<seg-source> <mrk mid="0" mtype="seg">Global Values:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Global Values:</mrk></target>
+<note>dwDrawStage</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $CDDS_POSTERASE - After the erasing cycle is complete.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDDS_POSTERASE - After the erasing cycle is complete.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDDS_POSTERASE - After the erasing cycle is complete.</mrk></target>
+<note>dwDrawStage</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $CDDS_POSTPAINT - After the painting cycle is complete.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDDS_POSTPAINT - After the painting cycle is complete.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDDS_POSTPAINT - After the painting cycle is complete.</mrk></target>
+<note>dwDrawStage</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $CDDS_PREERASE - Before the erasing cycle begins.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDDS_PREERASE - Before the erasing cycle begins.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDDS_PREERASE - Before the erasing cycle begins.</mrk></target>
+<note>dwDrawStage</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $CDDS_PREPAINT - Before the painting cycle begins.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDDS_PREPAINT - Before the painting cycle begins.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDDS_PREPAINT - Before the painting cycle begins.</mrk></target>
+<note>dwDrawStage</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> Item-specific Values:</source>
+<seg-source> <mrk mid="0" mtype="seg">Item-specific Values:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Item-specific Values:</mrk></target>
+<note>dwDrawStage</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $CDDS_ITEM - Indicates that the dwItemSpec, uItemState, and lItemlParam members are valid.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDDS_ITEM - Indicates that the dwItemSpec, uItemState, and lItemlParam members are valid.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDDS_ITEM - Indicates that the dwItemSpec, uItemState, and lItemlParam members are valid.</mrk></target>
+<note>dwDrawStage</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $CDDS_ITEMPOSTERASE - After an item has been erased.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDDS_ITEMPOSTERASE - After an item has been erased.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDDS_ITEMPOSTERASE - After an item has been erased.</mrk></target>
+<note>dwDrawStage</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $CDDS_ITEMPOSTPAINT - After an item has been drawn.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDDS_ITEMPOSTPAINT - After an item has been drawn.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDDS_ITEMPOSTPAINT - After an item has been drawn.</mrk></target>
+<note>dwDrawStage</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $CDDS_ITEMPREERASE - Before an item is erased.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDDS_ITEMPREERASE - Before an item is erased.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDDS_ITEMPREERASE - Before an item is erased.</mrk></target>
+<note>dwDrawStage</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $CDDS_ITEMPREPAINT - Before an item is drawn.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDDS_ITEMPREPAINT - Before an item is drawn.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDDS_ITEMPREPAINT - Before an item is drawn.</mrk></target>
+<note>dwDrawStage</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $CDDS_SUBITEM - Flag combined with $CDDS_ITEMPREPAINT or $CDDS_ITEMPOSTPAINT if a subitem is being drawn.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDDS_SUBITEM - Flag combined with $CDDS_ITEMPREPAINT or $CDDS_ITEMPOSTPAINT if a subitem is being drawn.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDDS_SUBITEM - Flag combined with $CDDS_ITEMPREPAINT or $CDDS_ITEMPOSTPAINT if a subitem is being drawn.</mrk></target>
+<note>dwDrawStage</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> This will only be set if $CDRF_NOTIFYITEMDRAW is returned from $CDDS_PREPAINT.</source>
+<seg-source> <mrk mid="0" mtype="seg">This will only be set if $CDRF_NOTIFYITEMDRAW is returned from $CDDS_PREPAINT.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This will only be set if $CDRF_NOTIFYITEMDRAW is returned from $CDDS_PREPAINT.</mrk></target>
+<note>dwDrawStage</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">A handle to the control's device context.</source>
+<seg-source><mrk mid="0" mtype="seg">A handle to the control's device context.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A handle to the control's device context.</mrk></target>
+<note>hdc</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> Use this handle to a device context (HDC) to perform any Microsoft Windows Graphics Device Interface (GDI) functions.</source>
+<seg-source> <mrk mid="0" mtype="seg">Use this handle to a device context (HDC) to perform any Microsoft Windows Graphics Device Interface (GDI) functions.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Use this handle to a device context (HDC) to perform any Microsoft Windows Graphics Device Interface (GDI) functions.</mrk></target>
+<note>hdc</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Left,Top coordinate of the upper left corner of the rectangle of the area being drawn.</source>
+<seg-source><mrk mid="0" mtype="seg">Left,Top coordinate of the upper left corner of the rectangle of the area being drawn.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Left,Top coordinate of the upper left corner of the rectangle of the area being drawn.</mrk></target>
+<note>$tagRECT</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> This member is initialized only by the $CDDS_ITEMPREPAINT notification Right,Bottom coordinate of the lower right corner of the rectangle of the area being drawn.</source>
+<seg-source> <mrk mid="0" mtype="seg">This member is initialized only by the $CDDS_ITEMPREPAINT notification Right,Bottom coordinate of the lower right corner of the rectangle of the area being drawn.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This member is initialized only by the $CDDS_ITEMPREPAINT notification Right,Bottom coordinate of the lower right corner of the rectangle of the area being drawn.</mrk></target>
+<note>$tagRECT</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> This member is initialized only by the $CDDS_ITEMPREPAINT notification.</source>
+<seg-source> <mrk mid="0" mtype="seg">This member is initialized only by the $CDDS_ITEMPREPAINT notification.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This member is initialized only by the $CDDS_ITEMPREPAINT notification.</mrk></target>
+<note>$tagRECT</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">The item number</source>
+<seg-source><mrk mid="0" mtype="seg">The item number</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The item number</mrk></target>
+<note>dwItemSpec</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">The current item state. This value is a combination of the following flags:</source>
+<seg-source><mrk mid="0" mtype="seg">The current item state.</mrk> <mrk mid="1" mtype="seg">This value is a combination of the following flags:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The current item state.</mrk> <mrk mid="1" mtype="seg">This value is a combination of the following flags:</mrk></target>
+<note>uItemState</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">     $CDIS_CHECKED - The item is checked.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDIS_CHECKED - The item is checked.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDIS_CHECKED - The item is checked.</mrk></target>
+<note>uItemState</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">     $CDIS_DEFAULT - The item is in its default state.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDIS_DEFAULT - The item is in its default state.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDIS_DEFAULT - The item is in its default state.</mrk></target>
+<note>uItemState</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">     $CDIS_DISABLED - The item is disabled.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDIS_DISABLED - The item is disabled.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDIS_DISABLED - The item is disabled.</mrk></target>
+<note>uItemState</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">     $CDIS_FOCUS - The item is in focus.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDIS_FOCUS - The item is in focus.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDIS_FOCUS - The item is in focus.</mrk></target>
+<note>uItemState</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">     $CDIS_GRAYED - The item is grayed.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDIS_GRAYED - The item is grayed.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDIS_GRAYED - The item is grayed.</mrk></target>
+<note>uItemState</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">     $CDIS_HOT - The item is currently under the pointer ("hot").</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDIS_HOT - The item is currently under the pointer ("hot").</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDIS_HOT - The item is currently under the pointer ("hot").</mrk></target>
+<note>uItemState</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">     $CDIS_INDETERMINATE - The item is in an indeterminate state.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDIS_INDETERMINATE - The item is in an indeterminate state.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDIS_INDETERMINATE - The item is in an indeterminate state.</mrk></target>
+<note>uItemState</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">     $CDIS_MARKED - The item is marked. The meaning of this is determined by the implementation.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDIS_MARKED - The item is marked.</mrk> <mrk mid="1" mtype="seg">The meaning of this is determined by the implementation.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDIS_MARKED - The item is marked.</mrk> <mrk mid="1" mtype="seg">The meaning of this is determined by the implementation.</mrk></target>
+<note>uItemState</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">     $CDIS_SELECTED - The item is selected.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDIS_SELECTED - The item is selected.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDIS_SELECTED - The item is selected.</mrk></target>
+<note>uItemState</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">     $CDIS_SHOWKEYBOARDCUES - Version 6.0 Comctl32. The item is a keyboard cue.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDIS_SHOWKEYBOARDCUES - Version 6.0 Comctl32.</mrk> <mrk mid="1" mtype="seg">The item is a keyboard cue.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDIS_SHOWKEYBOARDCUES - Version 6.0 Comctl32.</mrk> <mrk mid="1" mtype="seg">The item is a keyboard cue.</mrk></target>
+<note>uItemState</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">     $CDIS_NEARHOT - The item is part of a control that is currently under the mouse pointer ("hot"), but the item is not "hot" itself.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDIS_NEARHOT - The item is part of a control that is currently under the mouse pointer ("hot"), but the item is not "hot" itself.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDIS_NEARHOT - The item is part of a control that is currently under the mouse pointer ("hot"), but the item is not "hot" itself.</mrk></target>
+<note>uItemState</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">         The meaning of this is determined by the implementation.</source>
+<seg-source> <mrk mid="0" mtype="seg">        The meaning of this is determined by the implementation.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        The meaning of this is determined by the implementation.</mrk></target>
+<note>uItemState</note>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">     $CDIS_OTHERSIDEHOT - The item is part of a splitbutton that is currently under the mouse pointer ("hot"), but the item is not "hot" itself.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDIS_OTHERSIDEHOT - The item is part of a splitbutton that is currently under the mouse pointer ("hot"), but the item is not "hot" itself.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDIS_OTHERSIDEHOT - The item is part of a splitbutton that is currently under the mouse pointer ("hot"), but the item is not "hot" itself.</mrk></target>
+<note>uItemState</note>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">         The meaning of this is determined by the implementation.</source>
+<seg-source> <mrk mid="0" mtype="seg">        The meaning of this is determined by the implementation.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        The meaning of this is determined by the implementation.</mrk></target>
+<note>uItemState</note>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">     $CDIS_DROPHILITED - The item is currently the drop target of a drag-and-drop operation.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDIS_DROPHILITED - The item is currently the drop target of a drag-and-drop operation.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDIS_DROPHILITED - The item is currently the drop target of a drag-and-drop operation.</mrk></target>
+<note>uItemState</note>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Application-defined item data.</source>
+<seg-source><mrk mid="0" mtype="seg">Application-defined item data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Application-defined item data.</mrk></target>
+<note>lItemlParam</note>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">COLORREF value representing the color that will be used to display text foreground in the list-view control.</source>
+<seg-source><mrk mid="0" mtype="seg">COLORREF value representing the color that will be used to display text foreground in the list-view control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">COLORREF value representing the color that will be used to display text foreground in the list-view control.</mrk></target>
+<note>clrText</note>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">COLORREF value representing the color that will be used to display text background in the list-view control.</source>
+<seg-source><mrk mid="0" mtype="seg">COLORREF value representing the color that will be used to display text background in the list-view control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">COLORREF value representing the color that will be used to display text background in the list-view control.</mrk></target>
+<note>clrTextBk</note>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Index of the subitem that is being drawn. If the main item is being drawn, this member will be zero.</source>
+<seg-source><mrk mid="0" mtype="seg">Index of the subitem that is being drawn.</mrk> <mrk mid="1" mtype="seg">If the main item is being drawn, this member will be zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Index of the subitem that is being drawn.</mrk> <mrk mid="1" mtype="seg">If the main item is being drawn, this member will be zero.</mrk></target>
+<note>iSubItem</note>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Version 6.0. DWORD that contains the type of the item to draw. This member can be one of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg">Version 6.0.</mrk> <mrk mid="1" mtype="seg">DWORD that contains the type of the item to draw.</mrk> <mrk mid="2" mtype="seg">This member can be one of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Version 6.0.</mrk> <mrk mid="1" mtype="seg">DWORD that contains the type of the item to draw.</mrk> <mrk mid="2" mtype="seg">This member can be one of the following values:</mrk></target>
+<note>dwItemType</note>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">     $LVCDI_ITEM - An item is to be drawn.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVCDI_ITEM - An item is to be drawn.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVCDI_ITEM - An item is to be drawn.</mrk></target>
+<note>dwItemType</note>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">     $LVCDI_GROUP - A group is to be drawn.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVCDI_GROUP - A group is to be drawn.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVCDI_GROUP - A group is to be drawn.</mrk></target>
+<note>dwItemType</note>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Version 6.0. COLORREF value representing the color that will be used to display the face of an item.</source>
+<seg-source><mrk mid="0" mtype="seg">Version 6.0.</mrk> <mrk mid="1" mtype="seg">COLORREF value representing the color that will be used to display the face of an item.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Version 6.0.</mrk> <mrk mid="1" mtype="seg">COLORREF value representing the color that will be used to display the face of an item.</mrk></target>
+<note>clrFace</note>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Version 6.0. Value of type int that specifies the effect that is applied to an icon, such as Glow, Shadow, or Pulse.</source>
+<seg-source><mrk mid="0" mtype="seg">Version 6.0.</mrk> <mrk mid="1" mtype="seg">Value of type int that specifies the effect that is applied to an icon, such as Glow, Shadow, or Pulse.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Version 6.0.</mrk> <mrk mid="1" mtype="seg">Value of type int that specifies the effect that is applied to an icon, such as Glow, Shadow, or Pulse.</mrk></target>
+<note>iIconEffect</note>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Version 6.0. Value of type int that specifies the phase of an icon.</source>
+<seg-source><mrk mid="0" mtype="seg">Version 6.0.</mrk> <mrk mid="1" mtype="seg">Value of type int that specifies the phase of an icon.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Version 6.0.</mrk> <mrk mid="1" mtype="seg">Value of type int that specifies the phase of an icon.</mrk></target>
+<note>iIconPhase</note>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Version 6.0. Value of type int that specifies the ID of the part of an item to draw.</source>
+<seg-source><mrk mid="0" mtype="seg">Version 6.0.</mrk> <mrk mid="1" mtype="seg">Value of type int that specifies the ID of the part of an item to draw.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Version 6.0.</mrk> <mrk mid="1" mtype="seg">Value of type int that specifies the ID of the part of an item to draw.</mrk></target>
+<note>iPartId</note>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Version 6.0. Value of type int that specifies the ID of the state of an item to draw.</source>
+<seg-source><mrk mid="0" mtype="seg">Version 6.0.</mrk> <mrk mid="1" mtype="seg">Value of type int that specifies the ID of the state of an item to draw.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Version 6.0.</mrk> <mrk mid="1" mtype="seg">Value of type int that specifies the ID of the state of an item to draw.</mrk></target>
+<note>iStateId</note>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">X coordinate of the upper left corner of the rectangle in which the text is to be drawn</source>
+<seg-source><mrk mid="0" mtype="seg">X coordinate of the upper left corner of the rectangle in which the text is to be drawn</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X coordinate of the upper left corner of the rectangle in which the text is to be drawn</mrk></target>
+<note>TextLeft</note>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">Y coordinate of the upper left corner of the rectangle in which the text is to be drawn</source>
+<seg-source><mrk mid="0" mtype="seg">Y coordinate of the upper left corner of the rectangle in which the text is to be drawn</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y coordinate of the upper left corner of the rectangle in which the text is to be drawn</mrk></target>
+<note>TextTop</note>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">X coordinate of the lower right corner of the rectangle in which the text is to be drawn</source>
+<seg-source><mrk mid="0" mtype="seg">X coordinate of the lower right corner of the rectangle in which the text is to be drawn</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X coordinate of the lower right corner of the rectangle in which the text is to be drawn</mrk></target>
+<note>TextRight</note>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Y coordinate of the lower right corner of the rectangle in which the text is to be drawn</source>
+<seg-source><mrk mid="0" mtype="seg">Y coordinate of the lower right corner of the rectangle in which the text is to be drawn</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y coordinate of the lower right corner of the rectangle in which the text is to be drawn</mrk></target>
+<note>TextBottom</note>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">Version 6.0. UINT that specifies how a group should be aligned. This member can be one of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg">Version 6.0.</mrk> <mrk mid="1" mtype="seg">UINT that specifies how a group should be aligned.</mrk> <mrk mid="2" mtype="seg">This member can be one of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Version 6.0.</mrk> <mrk mid="1" mtype="seg">UINT that specifies how a group should be aligned.</mrk> <mrk mid="2" mtype="seg">This member can be one of the following values:</mrk></target>
+<note>uAlign</note>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">     $LVGA_HEADER_CENTER - Center the group.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVGA_HEADER_CENTER - Center the group.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVGA_HEADER_CENTER - Center the group.</mrk></target>
+<note>uAlign</note>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">     $LVGA_HEADER_LEFT - Align the group on the left.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVGA_HEADER_LEFT - Align the group on the left.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVGA_HEADER_LEFT - Align the group on the left.</mrk></target>
+<note>uAlign</note>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">     $LVGA_HEADER_RIGHT - Align the group on the right.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVGA_HEADER_RIGHT - Align the group on the right.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVGA_HEADER_RIGHT - Align the group on the right.</mrk></target>
+<note>uAlign</note>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">$LVxxx_ constants require #include &lt;ListViewConstants.au3>, $CDxx_ constants require #include </source>
+<seg-source><mrk mid="0" mtype="seg">$LVxxx_ constants require #include &lt;ListViewConstants.au3>, $CDxx_ constants require #include</mrk> </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$LVxxx_ constants require #include &lt;ListViewConstants.au3>, $CDxx_ constants require #include</mrk> </target>
+</trans-unit>
+</body>
+</file>
+</xliff>

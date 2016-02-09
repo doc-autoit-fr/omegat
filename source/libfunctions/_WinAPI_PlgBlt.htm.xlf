@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_PlgBlt.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Performs a bit-block transfer of color data from the specified rectangle in the source DC to the specified parallelogram in the DC context</source>
+<seg-source><mrk mid="0" mtype="seg">Performs a bit-block transfer of color data from the specified rectangle in the source DC to the specified parallelogram in the DC context</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Performs a bit-block transfer of color data from the specified rectangle in the source DC to the specified parallelogram in the DC context</mrk></target>
+<note>Function _WinAPI_PlgBlt</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the destination device context.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the destination device context.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the destination device context.</mrk></target>
+<note>$hDestDC</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The 2D array ([x1, y1], [x2, y2], [x3, y3]) that identify three corners of the destination parallelogram.</source>
+<seg-source><mrk mid="0" mtype="seg">The 2D array ([x1, y1], [x2, y2], [x3, y3]) that identify three corners of the destination parallelogram.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The 2D array ([x1, y1], [x2, y2], [x3, y3]) that identify three corners of the destination parallelogram.</mrk></target>
+<note>$aPoint</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> The upper-left corner of the source rectangle is mapped to the first point in this array, the upper-right</source>
+<seg-source> <mrk mid="0" mtype="seg">The upper-left corner of the source rectangle is mapped to the first point in this array, the upper-right</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The upper-left corner of the source rectangle is mapped to the first point in this array, the upper-right</mrk></target>
+<note>$aPoint</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> corner to the second point in this array, and the lower-left corner to the third point. The lower-right</source>
+<seg-source> <mrk mid="0" mtype="seg">corner to the second point in this array, and the lower-left corner to the third point.</mrk> <mrk mid="1" mtype="seg">The lower-right</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">corner to the second point in this array, and the lower-left corner to the third point.</mrk> <mrk mid="1" mtype="seg">The lower-right</mrk></target>
+<note>$aPoint</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> corner of the source rectangle is mapped to the implicit fourth point in the parallelogram.</source>
+<seg-source> <mrk mid="0" mtype="seg">corner of the source rectangle is mapped to the implicit fourth point in the parallelogram.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">corner of the source rectangle is mapped to the implicit fourth point in the parallelogram.</mrk></target>
+<note>$aPoint</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Handle to the source device context.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the source device context.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the source device context.</mrk></target>
+<note>$hSrcDC</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">The x-coordinate, in logical units, of the upper-left corner of the source rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg">The x-coordinate, in logical units, of the upper-left corner of the source rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The x-coordinate, in logical units, of the upper-left corner of the source rectangle.</mrk></target>
+<note>$iXSrc</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">The y-coordinate, in logical units, of the upper-left corner of the source rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg">The y-coordinate, in logical units, of the upper-left corner of the source rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The y-coordinate, in logical units, of the upper-left corner of the source rectangle.</mrk></target>
+<note>$iYSrc</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">The width, in logical units, of the source rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg">The width, in logical units, of the source rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The width, in logical units, of the source rectangle.</mrk></target>
+<note>$iWidth</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">The height, in logical units, of the source rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg">The height, in logical units, of the source rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The height, in logical units, of the source rectangle.</mrk></target>
+<note>$iHeight</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Handle to the monochrome bitmap that is used to mask the colors of the source rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Handle to the monochrome bitmap that is used to mask the colors of the source rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Handle to the monochrome bitmap that is used to mask the colors of the source rectangle.</mrk></target>
+<note>$hMask</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The x-coordinate, in logical units, of the upper-left corner of the monochrome bitmap. Default is 0.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The x-coordinate, in logical units, of the upper-left corner of the monochrome bitmap.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The x-coordinate, in logical units, of the upper-left corner of the monochrome bitmap.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></target>
+<note>$iXMask</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The y-coordinate, in logical units, of the upper-left corner of the monochrome bitmap. Default is 0.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The y-coordinate, in logical units, of the upper-left corner of the monochrome bitmap.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The y-coordinate, in logical units, of the upper-left corner of the monochrome bitmap.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></target>
+<note>$iYMask</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">False</source>
+<seg-source><mrk mid="0" mtype="seg">False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_PlgBlt.htm"></bpt>_WinAPI_PlgBlt()<ept id="1">&lt;/a></ept> works with device-dependent bitmaps. If the source and destination device contexts represent</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_PlgBlt.htm"></bpt>_WinAPI_PlgBlt()<ept id="1">&lt;/a></ept> works with device-dependent bitmaps.</mrk> <mrk mid="1" mtype="seg">If the source and destination device contexts represent</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_PlgBlt.htm"></bpt>_WinAPI_PlgBlt()<ept id="1">&lt;/a></ept> works with device-dependent bitmaps.</mrk> <mrk mid="1" mtype="seg">If the source and destination device contexts represent</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> incompatible devices, the function returns an error.</source>
+<seg-source> <mrk mid="0" mtype="seg">incompatible devices, the function returns an error.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">incompatible devices, the function returns an error.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> The fourth vertex of the parallelogram (D) is defined by treating the first three points (A, B, and C) as vectors</source>
+<seg-source> <mrk mid="0" mtype="seg">The fourth vertex of the parallelogram (D) is defined by treating the first three points (A, B, and C) as vectors</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The fourth vertex of the parallelogram (D) is defined by treating the first three points (A, B, and C) as vectors</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> and computing D = B + CA.</source>
+<seg-source> <mrk mid="0" mtype="seg">and computing D = B + CA.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">and computing D = B + CA.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> If the bitmask is specified, a value of 1 in the mask indicates that the source pixel color should be copied to the</source>
+<seg-source> <mrk mid="0" mtype="seg">If the bitmask is specified, a value of 1 in the mask indicates that the source pixel color should be copied to the</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the bitmask is specified, a value of 1 in the mask indicates that the source pixel color should be copied to the</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> destination. A value of 0 in the mask indicates that the destination pixel color is not to be changed. If the mask</source>
+<seg-source> <mrk mid="0" mtype="seg">destination.</mrk> <mrk mid="1" mtype="seg">A value of 0 in the mask indicates that the destination pixel color is not to be changed.</mrk> <mrk mid="2" mtype="seg">If the mask</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">destination.</mrk> <mrk mid="1" mtype="seg">A value of 0 in the mask indicates that the destination pixel color is not to be changed.</mrk> <mrk mid="2" mtype="seg">If the mask</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> rectangle is smaller than the source and destination rectangles, the function replicates the mask pattern.</source>
+<seg-source> <mrk mid="0" mtype="seg">rectangle is smaller than the source and destination rectangles, the function replicates the mask pattern.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">rectangle is smaller than the source and destination rectangles, the function replicates the mask pattern.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> Scaling, translation, and reflection transformations are allowed in the source device context; however, rotation</source>
+<seg-source> <mrk mid="0" mtype="seg">Scaling, translation, and reflection transformations are allowed in the source device context; however, rotation</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Scaling, translation, and reflection transformations are allowed in the source device context; however, rotation</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> and shear transformations are not. If the mask bitmap is not a monochrome bitmap, an error occurs. The stretching</source>
+<seg-source> <mrk mid="0" mtype="seg">and shear transformations are not.</mrk> <mrk mid="1" mtype="seg">If the mask bitmap is not a monochrome bitmap, an error occurs.</mrk> <mrk mid="2" mtype="seg">The stretching</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">and shear transformations are not.</mrk> <mrk mid="1" mtype="seg">If the mask bitmap is not a monochrome bitmap, an error occurs.</mrk> <mrk mid="2" mtype="seg">The stretching</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> mode for the destination device context is used to determine how to stretch or compress the pixels, if that is</source>
+<seg-source> <mrk mid="0" mtype="seg">mode for the destination device context is used to determine how to stretch or compress the pixels, if that is</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">mode for the destination device context is used to determine how to stretch or compress the pixels, if that is</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en"> necessary.</source>
+<seg-source> <mrk mid="0" mtype="seg">necessary.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">necessary.</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(PlgBlt);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>PlgBlt<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(PlgBlt);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>PlgBlt<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(PlgBlt);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>PlgBlt<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">TrayAutoPause</source>
+<seg-source><mrk mid="0" mtype="seg">TrayAutoPause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayAutoPause</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Load image</source>
+<seg-source><mrk mid="0" mtype="seg">Load image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Load image</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">\Extras\Compass.bmp</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\Compass.bmp</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\Compass.bmp</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Set bitmap to control with rotate</source>
+<seg-source><mrk mid="0" mtype="seg">Set bitmap to control with rotate</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set bitmap to control with rotate</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Register WM_HSCROLL message for live scrolling and show GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Register WM_HSCROLL message for live scrolling and show GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Register WM_HSCROLL message for live scrolling and show GUI</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">WM_HSCROLL</source>
+<seg-source><mrk mid="0" mtype="seg">WM_HSCROLL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_HSCROLL</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

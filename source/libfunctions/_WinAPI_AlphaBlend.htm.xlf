@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_AlphaBlend.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Displays bitmaps that have transparent or semitransparent pixels</source>
+<seg-source><mrk mid="0" mtype="seg">Displays bitmaps that have transparent or semitransparent pixels</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Displays bitmaps that have transparent or semitransparent pixels</mrk></target>
+<note>Function _WinAPI_AlphaBlend</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the destination device context.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the destination device context.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the destination device context.</mrk></target>
+<note>$hDestDC</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The x-coordinate, in logical units, of the upper-left corner of the destination rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg">The x-coordinate, in logical units, of the upper-left corner of the destination rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The x-coordinate, in logical units, of the upper-left corner of the destination rectangle.</mrk></target>
+<note>$iXDest</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The y-coordinate, in logical units, of the upper-left corner of the destination rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg">The y-coordinate, in logical units, of the upper-left corner of the destination rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The y-coordinate, in logical units, of the upper-left corner of the destination rectangle.</mrk></target>
+<note>$iYDest</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The width, in logical units, of the destination rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg">The width, in logical units, of the destination rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The width, in logical units, of the destination rectangle.</mrk></target>
+<note>$iWidthDest</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">The height, in logical units, of the destination rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg">The height, in logical units, of the destination rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The height, in logical units, of the destination rectangle.</mrk></target>
+<note>$iHeightDest</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Handle to the source device context.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the source device context.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the source device context.</mrk></target>
+<note>$hSrcDC</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">The x-coordinate, in logical units, of the upper-left corner of the source rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg">The x-coordinate, in logical units, of the upper-left corner of the source rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The x-coordinate, in logical units, of the upper-left corner of the source rectangle.</mrk></target>
+<note>$iXSrc</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">The y-coordinate, in logical units, of the upper-left corner of the source rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg">The y-coordinate, in logical units, of the upper-left corner of the source rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The y-coordinate, in logical units, of the upper-left corner of the source rectangle.</mrk></target>
+<note>$iYSrc</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">The width, in logical units, of the source rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg">The width, in logical units, of the source rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The width, in logical units, of the source rectangle.</mrk></target>
+<note>$iWidthSrc</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">The height, in logical units, of the source rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg">The height, in logical units, of the source rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The height, in logical units, of the source rectangle.</mrk></target>
+<note>$iHeightSrc</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">The alpha transparency value to be used on the entire source bitmap.</source>
+<seg-source><mrk mid="0" mtype="seg">The alpha transparency value to be used on the entire source bitmap.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The alpha transparency value to be used on the entire source bitmap.</mrk></target>
+<note>$iAlpha</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> This value is combined with any per-pixel alpha values in the source bitmap.</source>
+<seg-source> <mrk mid="0" mtype="seg">This value is combined with any per-pixel alpha values in the source bitmap.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This value is combined with any per-pixel alpha values in the source bitmap.</mrk></target>
+<note>$iAlpha</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> If you set $iAlpha to 0, it is assumed that your image is transparent.</source>
+<seg-source> <mrk mid="0" mtype="seg">If you set $iAlpha to 0, it is assumed that your image is transparent.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If you set $iAlpha to 0, it is assumed that your image is transparent.</mrk></target>
+<note>$iAlpha</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> Set $iAlpha value to 255 (opaque) when you only want to use per-pixel alpha values.</source>
+<seg-source> <mrk mid="0" mtype="seg">Set $iAlpha value to 255 (opaque) when you only want to use per-pixel alpha values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Set $iAlpha value to 255 (opaque) when you only want to use per-pixel alpha values.</mrk></target>
+<note>$iAlpha</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether uses an alpha channel from the source bitmap, valid values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether uses an alpha channel from the source bitmap, valid values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether uses an alpha channel from the source bitmap, valid values:</mrk></target>
+<note>$bAlpha</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     True    - Use the alpha channel (that is, per-pixel alpha).</source>
+<seg-source> <mrk mid="0" mtype="seg">    True    - Use the alpha channel (that is, per-pixel alpha).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    True    - Use the alpha channel (that is, per-pixel alpha).</mrk></target>
+<note>$bAlpha</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">         Note that the APIs use premultiplied alpha, which means that the red, green and blue channel values in the bitmap must be premultiplied with the alpha channel value.</source>
+<seg-source> <mrk mid="0" mtype="seg">        Note that the APIs use premultiplied alpha, which means that the red, green and blue channel values in the bitmap must be premultiplied with the alpha channel value.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        Note that the APIs use premultiplied alpha, which means that the red, green and blue channel values in the bitmap must be premultiplied with the alpha channel value.</mrk></target>
+<note>$bAlpha</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">         For example, if the alpha channel value is x, the red, green and blue channels must be multiplied by x and divided by 255 prior to the call.</source>
+<seg-source> <mrk mid="0" mtype="seg">        For example, if the alpha channel value is x, the red, green and blue channels must be multiplied by x and divided by 255 prior to the call.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        For example, if the alpha channel value is x, the red, green and blue channels must be multiplied by x and divided by 255 prior to the call.</mrk></target>
+<note>$bAlpha</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     False - Do not use the alpha channel (Default).</source>
+<seg-source> <mrk mid="0" mtype="seg">    False - Do not use the alpha channel (Default).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    False - Do not use the alpha channel (Default).</mrk></target>
+<note>$bAlpha</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">False.</source>
+<seg-source><mrk mid="0" mtype="seg">False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">If the source rectangle and destination rectangle are not the same size, the source bitmap is stretched to match the destination rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg">If the source rectangle and destination rectangle are not the same size, the source bitmap is stretched to match the destination rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the source rectangle and destination rectangle are not the same size, the source bitmap is stretched to match the destination rectangle.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> If the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetStretchBltMode.htm"></bpt>_WinAPI_SetStretchBltMode()<ept id="1">&lt;/a></ept> function is used, the stretching mode value is automatically converted to $COLORONCOLOR for this function (that is, $BLACKONWHITE, $WHITEONBLACK, and $HALFTONE are changed to $COLORONCOLOR).</source>
+<seg-source> <mrk mid="0" mtype="seg">If the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetStretchBltMode.htm"></bpt>_WinAPI_SetStretchBltMode()<ept id="1">&lt;/a></ept> function is used, the stretching mode value is automatically converted to $COLORONCOLOR for this function (that is, $BLACKONWHITE, $WHITEONBLACK, and $HALFTONE are changed to $COLORONCOLOR).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetStretchBltMode.htm"></bpt>_WinAPI_SetStretchBltMode()<ept id="1">&lt;/a></ept> function is used, the stretching mode value is automatically converted to $COLORONCOLOR for this function (that is, $BLACKONWHITE, $WHITEONBLACK, and $HALFTONE are changed to $COLORONCOLOR).</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> If destination and source bitmaps do not have the same color format, <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_AlphaBlend.htm"></bpt>_WinAPI_AlphaBlend()<ept id="1">&lt;/a></ept> function converts the source bitmap to match the destination bitmap.</source>
+<seg-source> <mrk mid="0" mtype="seg">If destination and source bitmaps do not have the same color format, <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_AlphaBlend.htm"></bpt>_WinAPI_AlphaBlend()<ept id="1">&lt;/a></ept> function converts the source bitmap to match the destination bitmap.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If destination and source bitmaps do not have the same color format, <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_AlphaBlend.htm"></bpt>_WinAPI_AlphaBlend()<ept id="1">&lt;/a></ept> function converts the source bitmap to match the destination bitmap.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GdiAlphaBlend);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GdiAlphaBlend<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GdiAlphaBlend);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GdiAlphaBlend<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GdiAlphaBlend);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GdiAlphaBlend<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">TrayAutoPause</source>
+<seg-source><mrk mid="0" mtype="seg">TrayAutoPause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TrayAutoPause</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Load image</source>
+<seg-source><mrk mid="0" mtype="seg">Load image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Load image</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">\Extras\AutoIt.bmp</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\AutoIt.bmp</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\AutoIt.bmp</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">X</source>
+<seg-source><mrk mid="0" mtype="seg">X</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Y</source>
+<seg-source><mrk mid="0" mtype="seg">Y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Set bitmap to control with alpha</source>
+<seg-source><mrk mid="0" mtype="seg">Set bitmap to control with alpha</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set bitmap to control with alpha</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Register WM_HSCROLL message for live scrolling and show GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Register WM_HSCROLL message for live scrolling and show GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Register WM_HSCROLL message for live scrolling and show GUI</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">WM_HSCROLL</source>
+<seg-source><mrk mid="0" mtype="seg">WM_HSCROLL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_HSCROLL</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

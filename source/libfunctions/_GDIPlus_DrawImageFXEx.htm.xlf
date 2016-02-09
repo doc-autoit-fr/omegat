@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GDIPlus_DrawImageFXEx.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Draws a portion of an image after applying a specified effect</source>
+<seg-source><mrk mid="0" mtype="seg">Draws a portion of an image after applying a specified effect</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draws a portion of an image after applying a specified effect</mrk></target>
+<note>Function _GDIPlus_DrawImageFXEx</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to a Graphics object.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to a Graphics object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to a Graphics object.</mrk></target>
+<note>$hGraphics</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Handle to an Image object.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to an Image object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to an Image object.</mrk></target>
+<note>$hImage</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Handle to an Effect that is applied to the image before rendering. The image is not permanently altered by the effect.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to an Effect that is applied to the image before rendering.</mrk> <mrk mid="1" mtype="seg">The image is not permanently altered by the effect.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to an Effect that is applied to the image before rendering.</mrk> <mrk mid="1" mtype="seg">The image is not permanently altered by the effect.</mrk></target>
+<note>$hEffect</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> X coordinate of upper left hand corner of the portion of the image to be drawn.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">X coordinate of upper left hand corner of the portion of the image to be drawn.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">X coordinate of upper left hand corner of the portion of the image to be drawn.</mrk></target>
+<note>$nX</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> X coordinate of upper left hand corner of the portion of the image to be drawn.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">X coordinate of upper left hand corner of the portion of the image to be drawn.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">X coordinate of upper left hand corner of the portion of the image to be drawn.</mrk></target>
+<note>$nY</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Width of the portion rectangle of the image to be drawn.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Width of the portion rectangle of the image to be drawn.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Width of the portion rectangle of the image to be drawn.</mrk></target>
+<note>$nW</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Height of the portion rectangle of the image to be drawn.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Height of the portion rectangle of the image to be drawn.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Height of the portion rectangle of the image to be drawn.</mrk></target>
+<note>$nH</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Handle to a Matrix object that specifies the parallelogram in which the image portion is rendered.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Handle to a Matrix object that specifies the parallelogram in which the image portion is rendered.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Handle to a Matrix object that specifies the parallelogram in which the image portion is rendered.</mrk></target>
+<note>$hMatrix</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Handle to an ImageAttributes object that specifies color adjustments to be applied when the image is rendered.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Handle to an ImageAttributes object that specifies color adjustments to be applied when the image is rendered.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Handle to an ImageAttributes object that specifies color adjustments to be applied when the image is rendered.</mrk></target>
+<note>$hImgAttributes</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the unit of measure for the image.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the unit of measure for the image.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the unit of measure for the image.</mrk></target>
+<note>$iUnit</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</source>
+<seg-source><mrk mid="0" mtype="seg">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">-1 - GDIPlus.dll does not support this function.</source>
+<seg-source><mrk mid="0" mtype="seg">-1 - GDIPlus.dll does not support this function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1 - GDIPlus.dll does not support this function.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> 10 - Invalid parameters.</source>
+<seg-source> <mrk mid="0" mtype="seg">10 - Invalid parameters.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">10 - Invalid parameters.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">ERROR</source>
+<seg-source><mrk mid="0" mtype="seg">ERROR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ERROR</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">GDIPlus.dll v1.1 not available</source>
+<seg-source><mrk mid="0" mtype="seg">GDIPlus.dll v1.1 not available</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GDIPlus.dll v1.1 not available</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Select an image</source>
+<seg-source><mrk mid="0" mtype="seg">Select an image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Select an image</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Images (*.bmp;*.png;*.jpg;*.gif;*.tif)</source>
+<seg-source><mrk mid="0" mtype="seg">Images (*.bmp;*.png;*.jpg;*.gif;*.tif)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Images (*.bmp;*.png;*.jpg;*.gif;*.tif)</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">GDI+ v1.1 (</source>
+<seg-source><mrk mid="0" mtype="seg">GDI+ v1.1 (</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GDI+ v1.1 (</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">)</source>
+<seg-source><mrk mid="0" mtype="seg">)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">)</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">HueLevel</source>
+<seg-source><mrk mid="0" mtype="seg">HueLevel</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HueLevel</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

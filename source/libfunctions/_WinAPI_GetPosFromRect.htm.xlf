@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_GetPosFromRect.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Interprets the coordinates of the rectangle as offset and position coordinates</source>
+<seg-source><mrk mid="0" mtype="seg">Interprets the coordinates of the rectangle as offset and position coordinates</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Interprets the coordinates of the rectangle as offset and position coordinates</mrk></target>
+<note>Function _WinAPI_GetPosFromRect</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">$tagRECT structure that contains the logical coordinates of the rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg">$tagRECT structure that contains the logical coordinates of the rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$tagRECT structure that contains the logical coordinates of the rectangle.</mrk></target>
+<note>$tRECT</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The array containing the following information:</source>
+<seg-source><mrk mid="0" mtype="seg">The array containing the following information:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The array containing the following information:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> [0] - The x-coordinate of the upper-left corner of the rectangle.</source>
+<seg-source> <mrk mid="0" mtype="seg">[0] - The x-coordinate of the upper-left corner of the rectangle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[0] - The x-coordinate of the upper-left corner of the rectangle.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> [1] - The y-coordinate of the upper-left corner of the rectangle.</source>
+<seg-source> <mrk mid="0" mtype="seg">[1] - The y-coordinate of the upper-left corner of the rectangle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[1] - The y-coordinate of the upper-left corner of the rectangle.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> [2] - The width of the rectangle.</source>
+<seg-source> <mrk mid="0" mtype="seg">[2] - The width of the rectangle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[2] - The width of the rectangle.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> [3] - The height of the rectangle.</source>
+<seg-source> <mrk mid="0" mtype="seg">[3] - The height of the rectangle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[3] - The height of the rectangle.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">This function is inverse to the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateRectEx.htm"></bpt>_WinAPI_CreateRectEx()<ept id="1">&lt;/a></ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">This function is inverse to the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateRectEx.htm"></bpt>_WinAPI_CreateRectEx()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function is inverse to the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateRectEx.htm"></bpt>_WinAPI_CreateRectEx()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Left:</source>
+<seg-source><mrk mid="0" mtype="seg">Left:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Left:</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Top:</source>
+<seg-source><mrk mid="0" mtype="seg">Top:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Top:</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Width:</source>
+<seg-source><mrk mid="0" mtype="seg">Width:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Width:</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Height:</source>
+<seg-source><mrk mid="0" mtype="seg">Height:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Height:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

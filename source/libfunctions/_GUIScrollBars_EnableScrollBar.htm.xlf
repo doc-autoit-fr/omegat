@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUIScrollBars_EnableScrollBar.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Enable/Disable scrollbar</source>
+<seg-source><mrk mid="0" mtype="seg">Enable/Disable scrollbar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enable/Disable scrollbar</mrk></target>
+<note>Function _GUIScrollBars_EnableScrollBar</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the window</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the window</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the scroll bar type. This parameter can be one of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the scroll bar type.</mrk> <mrk mid="2" mtype="seg">This parameter can be one of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the scroll bar type.</mrk> <mrk mid="2" mtype="seg">This parameter can be one of the following values:</mrk></target>
+<note>$iSBflags</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $SB_BOTH - Enables or disables the arrows on the horizontal and vertical scroll bars associated with the specified window.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SB_BOTH - Enables or disables the arrows on the horizontal and vertical scroll bars associated with the specified window.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SB_BOTH - Enables or disables the arrows on the horizontal and vertical scroll bars associated with the specified window.</mrk></target>
+<note>$iSBflags</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $SB_CTL - Indicates that the scroll bar is a scroll bar control. The $hWnd must be the handle to the scroll bar control.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SB_CTL - Indicates that the scroll bar is a scroll bar control.</mrk> <mrk mid="1" mtype="seg">The $hWnd must be the handle to the scroll bar control.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SB_CTL - Indicates that the scroll bar is a scroll bar control.</mrk> <mrk mid="1" mtype="seg">The $hWnd must be the handle to the scroll bar control.</mrk></target>
+<note>$iSBflags</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $SB_HORZ - Enables or disables the arrows on the horizontal scroll bar associated with the specified window.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SB_HORZ - Enables or disables the arrows on the horizontal scroll bar associated with the specified window.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SB_HORZ - Enables or disables the arrows on the horizontal scroll bar associated with the specified window.</mrk></target>
+<note>$iSBflags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $SB_VERT - Enables or disables the arrows on the vertical scroll bar associated with the specified window.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SB_VERT - Enables or disables the arrows on the vertical scroll bar associated with the specified window.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SB_VERT - Enables or disables the arrows on the vertical scroll bar associated with the specified window.</mrk></target>
+<note>$iSBflags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether the scroll bar arrows are enabled or disabled and indicates which arrows are enabled or disabled.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether the scroll bar arrows are enabled or disabled and indicates which arrows are enabled or disabled.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether the scroll bar arrows are enabled or disabled and indicates which arrows are enabled or disabled.</mrk></target>
+<note>$iArrows</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> This parameter can be one of the following values</source>
+<seg-source> <mrk mid="0" mtype="seg">This parameter can be one of the following values</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This parameter can be one of the following values</mrk></target>
+<note>$iArrows</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $ESB_DISABLE_BOTH - Disables both arrows on a scroll bar.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ESB_DISABLE_BOTH - Disables both arrows on a scroll bar.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ESB_DISABLE_BOTH - Disables both arrows on a scroll bar.</mrk></target>
+<note>$iArrows</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $ESB_DISABLE_DOWN - Disables the down arrow on a vertical scroll bar.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ESB_DISABLE_DOWN - Disables the down arrow on a vertical scroll bar.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ESB_DISABLE_DOWN - Disables the down arrow on a vertical scroll bar.</mrk></target>
+<note>$iArrows</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $ESB_DISABLE_LEFT - Disables the left arrow on a horizontal scroll bar.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ESB_DISABLE_LEFT - Disables the left arrow on a horizontal scroll bar.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ESB_DISABLE_LEFT - Disables the left arrow on a horizontal scroll bar.</mrk></target>
+<note>$iArrows</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $ESB_DISABLE_LTUP - Disables the left arrow on a horizontal scroll bar or the up arrow of a vertical scroll bar.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ESB_DISABLE_LTUP - Disables the left arrow on a horizontal scroll bar or the up arrow of a vertical scroll bar.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ESB_DISABLE_LTUP - Disables the left arrow on a horizontal scroll bar or the up arrow of a vertical scroll bar.</mrk></target>
+<note>$iArrows</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $ESB_DISABLE_RIGHT - Disables the right arrow on a horizontal scroll bar.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ESB_DISABLE_RIGHT - Disables the right arrow on a horizontal scroll bar.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ESB_DISABLE_RIGHT - Disables the right arrow on a horizontal scroll bar.</mrk></target>
+<note>$iArrows</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $ESB_DISABLE_RTDN - Disables the right arrow on a horizontal scroll bar or the down arrow of a vertical scroll bar.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ESB_DISABLE_RTDN - Disables the right arrow on a horizontal scroll bar or the down arrow of a vertical scroll bar.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ESB_DISABLE_RTDN - Disables the right arrow on a horizontal scroll bar or the down arrow of a vertical scroll bar.</mrk></target>
+<note>$iArrows</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $ESB_DISABLE_UP - Disables the up arrow on a vertical scroll bar.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ESB_DISABLE_UP - Disables the up arrow on a vertical scroll bar.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ESB_DISABLE_UP - Disables the up arrow on a vertical scroll bar.</mrk></target>
+<note>$iArrows</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $ESB_ENABLE_BOTH - Enables both arrows on a scroll bar.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ESB_ENABLE_BOTH - Enables both arrows on a scroll bar.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ESB_ENABLE_BOTH - Enables both arrows on a scroll bar.</mrk></target>
+<note>$iArrows</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">False.</source>
+<seg-source><mrk mid="0" mtype="seg">False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EnableScrollBar);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EnableScrollBar<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EnableScrollBar);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EnableScrollBar<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EnableScrollBar);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EnableScrollBar<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">ScrollBar Example</source>
+<seg-source><mrk mid="0" mtype="seg">ScrollBar Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ScrollBar Example</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Disable down arrow:</source>
+<seg-source><mrk mid="0" mtype="seg">Disable down arrow:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Disable down arrow:</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Disable up arrow:</source>
+<seg-source><mrk mid="0" mtype="seg">Disable up arrow:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Disable up arrow:</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Enable both arrows:</source>
+<seg-source><mrk mid="0" mtype="seg">Enable both arrows:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enable both arrows:</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Disable left arrow:</source>
+<seg-source><mrk mid="0" mtype="seg">Disable left arrow:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Disable left arrow:</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Disable right arrow:</source>
+<seg-source><mrk mid="0" mtype="seg">Disable right arrow:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Disable right arrow:</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Enable both arrows:</source>
+<seg-source><mrk mid="0" mtype="seg">Enable both arrows:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enable both arrows:</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">, $nExititem</source>
+<seg-source><mrk mid="0" mtype="seg">, $nExititem</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, $nExititem</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Write a line to the memo control</source>
+<seg-source><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

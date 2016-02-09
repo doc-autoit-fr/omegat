@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/TraySetPauseIcon.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Loads/Sets a specified tray pause icon.</source>
+<seg-source><mrk mid="0" mtype="seg">Loads/Sets a specified tray pause icon.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loads/Sets a specified tray pause icon.</mrk></target>
+<note>Function TraySetPauseIcon</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The filename of the icon to be display as pause icon in the tray.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The filename of the icon to be display as pause icon in the tray.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The filename of the icon to be display as pause icon in the tray.</mrk></target>
+<note>filename</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Icon identifier if the file contains multiple icons.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Icon identifier if the file contains multiple icons.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Icon identifier if the file contains multiple icons.</mrk></target>
+<note>iconID</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">None.</source>
+<seg-source><mrk mid="0" mtype="seg">None.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None.</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">To reset the pause icon to the default (red cross), use the function with no parameters <bpt id="1" ctype="x-a">&lt;a href="TraySetPauseIcon.htm"></bpt>TraySetPauseIcon()<ept id="1">&lt;/a></ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">To reset the pause icon to the default (red cross), use the function with no parameters <bpt id="1" ctype="x-a">&lt;a href="TraySetPauseIcon.htm"></bpt>TraySetPauseIcon()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To reset the pause icon to the default (red cross), use the function with no parameters <bpt id="1" ctype="x-a">&lt;a href="TraySetPauseIcon.htm"></bpt>TraySetPauseIcon()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> Passing a positive number will reference the string equivalent icon name.</source>
+<seg-source> <mrk mid="0" mtype="seg">Passing a positive number will reference the string equivalent icon name.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Passing a positive number will reference the string equivalent icon name.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> Passing a negative number causes 1-based "index" behaviour. Some Dll can have icon extracted just with negative numbers.</source>
+<seg-source> <mrk mid="0" mtype="seg">Passing a negative number causes 1-based "index" behaviour.</mrk> <mrk mid="1" mtype="seg">Some Dll can have icon extracted just with negative numbers.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Passing a negative number causes 1-based "index" behaviour.</mrk> <mrk mid="1" mtype="seg">Some Dll can have icon extracted just with negative numbers.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Required for the $TRAY_ICONSTATE_SHOW constant.</source>
+<seg-source><mrk mid="0" mtype="seg">Required for the $TRAY_ICONSTATE_SHOW constant.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Required for the $TRAY_ICONSTATE_SHOW constant.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Set the pause icon. This will flash on and off when the tray menu is selected and the script is paused.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the pause icon.</mrk> <mrk mid="1" mtype="seg">This will flash on and off when the tray menu is selected and the script is paused.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the pause icon.</mrk> <mrk mid="1" mtype="seg">This will flash on and off when the tray menu is selected and the script is paused.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Show the tray menu.</source>
+<seg-source><mrk mid="0" mtype="seg">Show the tray menu.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show the tray menu.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">An idle loop.</source>
+<seg-source><mrk mid="0" mtype="seg">An idle loop.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An idle loop.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

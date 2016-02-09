@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUICtrlDTP_SetFormat.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the display based on a given format string</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the display based on a given format string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the display based on a given format string</mrk></target>
+<note>Function _GUICtrlDTP_SetFormat</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">String that defines the desired format. Setting this to blank will reset the control to the default format string for the current style. You can use the following format strings:</source>
+<seg-source><mrk mid="0" mtype="seg">String that defines the desired format.</mrk> <mrk mid="1" mtype="seg">Setting this to blank will reset the control to the default format string for the current style.</mrk> <mrk mid="2" mtype="seg">You can use the following format strings:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String that defines the desired format.</mrk> <mrk mid="1" mtype="seg">Setting this to blank will reset the control to the default format string for the current style.</mrk> <mrk mid="2" mtype="seg">You can use the following format strings:</mrk></target>
+<note>$sFormat</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     "d" - The one or two digit day</source>
+<seg-source> <mrk mid="0" mtype="seg">    "d" - The one or two digit day</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "d" - The one or two digit day</mrk></target>
+<note>$sFormat</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     "dd" - The two digit day. Single digit day values are preceded by a zero</source>
+<seg-source> <mrk mid="0" mtype="seg">    "dd" - The two digit day.</mrk> <mrk mid="1" mtype="seg">Single digit day values are preceded by a zero</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "dd" - The two digit day.</mrk> <mrk mid="1" mtype="seg">Single digit day values are preceded by a zero</mrk></target>
+<note>$sFormat</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     "ddd" - The three character weekday abbreviation</source>
+<seg-source> <mrk mid="0" mtype="seg">    "ddd" - The three character weekday abbreviation</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "ddd" - The three character weekday abbreviation</mrk></target>
+<note>$sFormat</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     "dddd" - The full weekday name</source>
+<seg-source> <mrk mid="0" mtype="seg">    "dddd" - The full weekday name</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "dddd" - The full weekday name</mrk></target>
+<note>$sFormat</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     "h" - The one or two digit hour in 12-hour format</source>
+<seg-source> <mrk mid="0" mtype="seg">    "h" - The one or two digit hour in 12-hour format</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "h" - The one or two digit hour in 12-hour format</mrk></target>
+<note>$sFormat</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     "hh" - The two digit hour in 12-hour format</source>
+<seg-source> <mrk mid="0" mtype="seg">    "hh" - The two digit hour in 12-hour format</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "hh" - The two digit hour in 12-hour format</mrk></target>
+<note>$sFormat</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     "H" - The one or two digit hour in 24-hour format</source>
+<seg-source> <mrk mid="0" mtype="seg">    "H" - The one or two digit hour in 24-hour format</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "H" - The one or two digit hour in 24-hour format</mrk></target>
+<note>$sFormat</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     "HH" - The two digit hour in 24 hour format</source>
+<seg-source> <mrk mid="0" mtype="seg">    "HH" - The two digit hour in 24 hour format</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "HH" - The two digit hour in 24 hour format</mrk></target>
+<note>$sFormat</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     "m" - The one or two digit minute</source>
+<seg-source> <mrk mid="0" mtype="seg">    "m" - The one or two digit minute</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "m" - The one or two digit minute</mrk></target>
+<note>$sFormat</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     "mm" - The two digit minute</source>
+<seg-source> <mrk mid="0" mtype="seg">    "mm" - The two digit minute</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "mm" - The two digit minute</mrk></target>
+<note>$sFormat</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     "M" - The one or two digit month number</source>
+<seg-source> <mrk mid="0" mtype="seg">    "M" - The one or two digit month number</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "M" - The one or two digit month number</mrk></target>
+<note>$sFormat</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     "MM" - The two digit month number</source>
+<seg-source> <mrk mid="0" mtype="seg">    "MM" - The two digit month number</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "MM" - The two digit month number</mrk></target>
+<note>$sFormat</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     "MMM" - The three-character month abbreviation</source>
+<seg-source> <mrk mid="0" mtype="seg">    "MMM" - The three-character month abbreviation</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "MMM" - The three-character month abbreviation</mrk></target>
+<note>$sFormat</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     "MMMM" - The full month name</source>
+<seg-source> <mrk mid="0" mtype="seg">    "MMMM" - The full month name</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "MMMM" - The full month name</mrk></target>
+<note>$sFormat</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     "t" - The one letter AM/PM abbreviation</source>
+<seg-source> <mrk mid="0" mtype="seg">    "t" - The one letter AM/PM abbreviation</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "t" - The one letter AM/PM abbreviation</mrk></target>
+<note>$sFormat</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     "tt" - The two letter AM/PM abbreviation</source>
+<seg-source> <mrk mid="0" mtype="seg">    "tt" - The two letter AM/PM abbreviation</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "tt" - The two letter AM/PM abbreviation</mrk></target>
+<note>$sFormat</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     "yy" - The last two digits of the year</source>
+<seg-source> <mrk mid="0" mtype="seg">    "yy" - The last two digits of the year</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "yy" - The last two digits of the year</mrk></target>
+<note>$sFormat</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     "yyyy" - The full year</source>
+<seg-source> <mrk mid="0" mtype="seg">    "yyyy" - The full year</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "yyyy" - The full year</mrk></target>
+<note>$sFormat</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">False.</source>
+<seg-source><mrk mid="0" mtype="seg">False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">It is acceptable to include extra characters within the format string to produce a more rich display.</source>
+<seg-source><mrk mid="0" mtype="seg">It is acceptable to include extra characters within the format string to produce a more rich display.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It is acceptable to include extra characters within the format string to produce a more rich display.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> However, any nonformat characters must be enclosed within single quotes.</source>
+<seg-source> <mrk mid="0" mtype="seg">However, any nonformat characters must be enclosed within single quotes.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">However, any nonformat characters must be enclosed within single quotes.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> For example, the format string "'Today is:</source>
+<seg-source> <mrk mid="0" mtype="seg">For example, the format string "'Today is:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For example, the format string "'Today is:</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">     'hh':'m':'s ddddMMMdd', 'yyy" would produce output like "Today is: 04:22:31 Tuesday Mar 23, 1996".</source>
+<seg-source> <mrk mid="0" mtype="seg">    'hh':'m':'s ddddMMMdd', 'yyy" would produce output like "Today is:</mrk> <mrk mid="1" mtype="seg">04:22:31 Tuesday Mar 23, 1996".</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    'hh':'m':'s ddddMMMdd', 'yyy" would produce output like "Today is:</mrk> <mrk mid="1" mtype="seg">04:22:31 Tuesday Mar 23, 1996".</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en"> Note: A DTP control tracks locale changes when it is using the default format string.</source>
+<seg-source> <mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">A DTP control tracks locale changes when it is using the default format string.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">A DTP control tracks locale changes when it is using the default format string.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en"> If you set a custom format string, it will not be updated in response to locale changes.</source>
+<seg-source> <mrk mid="0" mtype="seg">If you set a custom format string, it will not be updated in response to locale changes.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If you set a custom format string, it will not be updated in response to locale changes.</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">DateTimePick Set Format</source>
+<seg-source><mrk mid="0" mtype="seg">DateTimePick Set Format</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DateTimePick Set Format</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Set the display format</source>
+<seg-source><mrk mid="0" mtype="seg">Set the display format</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the display format</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">ddd MMM dd, yyyy hh:mm ttt</source>
+<seg-source><mrk mid="0" mtype="seg">ddd MMM dd, yyyy hh:mm ttt</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ddd MMM dd, yyyy hh:mm ttt</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/$tagOVERLAPPED.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Keyword Reference</source>
+<seg-source><mrk mid="0" mtype="seg">Keyword Reference</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Keyword Reference</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Contains information used in asynchronous (or overlapped) input and output (I/O)</source>
+<seg-source><mrk mid="0" mtype="seg">Contains information used in asynchronous (or overlapped) input and output (I/O)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains information used in asynchronous (or overlapped) input and output (I/O)</mrk></target>
+<note>Keyword $tagOVERLAPPED</note>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Reserved for operating system use. This member, which specifies a system-dependent status, is valid when the GetOverlappedResult function returns without setting the extended error information to ERROR_IO_PENDING.</source>
+<seg-source><mrk mid="0" mtype="seg">Reserved for operating system use.</mrk> <mrk mid="1" mtype="seg">This member, which specifies a system-dependent status, is valid when the GetOverlappedResult function returns without setting the extended error information to ERROR_IO_PENDING.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Reserved for operating system use.</mrk> <mrk mid="1" mtype="seg">This member, which specifies a system-dependent status, is valid when the GetOverlappedResult function returns without setting the extended error information to ERROR_IO_PENDING.</mrk></target>
+<note>Internal</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Reserved for operating system use. This member, which specifies the length of the data transferred, is valid when the GetOverlappedResult function returns True.</source>
+<seg-source><mrk mid="0" mtype="seg">Reserved for operating system use.</mrk> <mrk mid="1" mtype="seg">This member, which specifies the length of the data transferred, is valid when the GetOverlappedResult function returns True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Reserved for operating system use.</mrk> <mrk mid="1" mtype="seg">This member, which specifies the length of the data transferred, is valid when the GetOverlappedResult function returns True.</mrk></target>
+<note>InternalHigh</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">File position at which to start the transfer. The file position is a byte offset from the start of the file.</source>
+<seg-source><mrk mid="0" mtype="seg">File position at which to start the transfer.</mrk> <mrk mid="1" mtype="seg">The file position is a byte offset from the start of the file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File position at which to start the transfer.</mrk> <mrk mid="1" mtype="seg">The file position is a byte offset from the start of the file.</mrk></target>
+<note>Offset</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> The calling process must set this member before calling the ReadFile or WriteFile function.</source>
+<seg-source> <mrk mid="0" mtype="seg">The calling process must set this member before calling the ReadFile or WriteFile function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The calling process must set this member before calling the ReadFile or WriteFile function.</mrk></target>
+<note>Offset</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> This member is used only when the device is a file. Otherwise, this member must be zero.</source>
+<seg-source> <mrk mid="0" mtype="seg">This member is used only when the device is a file.</mrk> <mrk mid="1" mtype="seg">Otherwise, this member must be zero.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This member is used only when the device is a file.</mrk> <mrk mid="1" mtype="seg">Otherwise, this member must be zero.</mrk></target>
+<note>Offset</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">High-order word of the file position at which to start the transfer.</source>
+<seg-source><mrk mid="0" mtype="seg">High-order word of the file position at which to start the transfer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">High-order word of the file position at which to start the transfer.</mrk></target>
+<note>OffsetHigh</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> This member is used only when the device is a file. Otherwise, this member must be zero.</source>
+<seg-source> <mrk mid="0" mtype="seg">This member is used only when the device is a file.</mrk> <mrk mid="1" mtype="seg">Otherwise, this member must be zero.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This member is used only when the device is a file.</mrk> <mrk mid="1" mtype="seg">Otherwise, this member must be zero.</mrk></target>
+<note>OffsetHigh</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Handle to an event that will be set to the signaled state when the operation has completed.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to an event that will be set to the signaled state when the operation has completed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to an event that will be set to the signaled state when the operation has completed.</mrk></target>
+<note>hEvent</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> The calling process must set this member either to zero or a valid event handle before calling any overlapped functions.</source>
+<seg-source> <mrk mid="0" mtype="seg">The calling process must set this member either to zero or a valid event handle before calling any overlapped functions.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The calling process must set this member either to zero or a valid event handle before calling any overlapped functions.</mrk></target>
+<note>hEvent</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

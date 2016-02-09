@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/$tagBLENDFUNCTION.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Keyword Reference</source>
+<seg-source><mrk mid="0" mtype="seg">Keyword Reference</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Keyword Reference</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">$tagBLENDFUNCTION structure controls blending by specifying the blending functions for source and destination bitmaps</source>
+<seg-source><mrk mid="0" mtype="seg">$tagBLENDFUNCTION structure controls blending by specifying the blending functions for source and destination bitmaps</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$tagBLENDFUNCTION structure controls blending by specifying the blending functions for source and destination bitmaps</mrk></target>
+<note>Keyword $tagBLENDFUNCTION</note>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Specifies the source blend operation:</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the source blend operation:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the source blend operation:</mrk></target>
+<note>Op</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Must be zero</source>
+<seg-source><mrk mid="0" mtype="seg">Must be zero</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Must be zero</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Specifies an alpha transparency value to be used on the entire source bitmap. This value is combined with any per-pixel alpha values in the source bitmap. If set to 0, it is assumed that your image is transparent. Set to 255 (opaque) when you only want to use per-pixel alpha values.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies an alpha transparency value to be used on the entire source bitmap.</mrk> <mrk mid="1" mtype="seg">This value is combined with any per-pixel alpha values in the source bitmap.</mrk> <mrk mid="2" mtype="seg">If set to 0, it is assumed that your image is transparent.</mrk> <mrk mid="3" mtype="seg">Set to 255 (opaque) when you only want to use per-pixel alpha values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies an alpha transparency value to be used on the entire source bitmap.</mrk> <mrk mid="1" mtype="seg">This value is combined with any per-pixel alpha values in the source bitmap.</mrk> <mrk mid="2" mtype="seg">If set to 0, it is assumed that your image is transparent.</mrk> <mrk mid="3" mtype="seg">Set to 255 (opaque) when you only want to use per-pixel alpha values.</mrk></target>
+<note>Alpha</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">This member controls the way the source and destination bitmaps are interpreted:</source>
+<seg-source><mrk mid="0" mtype="seg">This member controls the way the source and destination bitmaps are interpreted:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This member controls the way the source and destination bitmaps are interpreted:</mrk></target>
+<note>Format</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $AC_SRC_ALPHA - This flag is set when the bitmap has an Alpha channel (that is, per-pixel alpha). Note that the APIs use premultiplied alpha, which means that the red, green and blue channel values in the bitmap must be premultiplied with the alpha channel value.</source>
+<seg-source> <mrk mid="0" mtype="seg">$AC_SRC_ALPHA - This flag is set when the bitmap has an Alpha channel (that is, per-pixel alpha).</mrk> <mrk mid="1" mtype="seg">Note that the APIs use premultiplied alpha, which means that the red, green and blue channel values in the bitmap must be premultiplied with the alpha channel value.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$AC_SRC_ALPHA - This flag is set when the bitmap has an Alpha channel (that is, per-pixel alpha).</mrk> <mrk mid="1" mtype="seg">Note that the APIs use premultiplied alpha, which means that the red, green and blue channel values in the bitmap must be premultiplied with the alpha channel value.</mrk></target>
+<note>Format</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">The source bitmap used with $tagBLENDFUNCTION must be 32 bpp</source>
+<seg-source><mrk mid="0" mtype="seg">The source bitmap used with $tagBLENDFUNCTION must be 32 bpp</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The source bitmap used with $tagBLENDFUNCTION must be 32 bpp</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_AdjustWindowRectEx.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Calculates the required size of the window rectangle, based on the desired size of the client rectangle</source>
+<seg-source><mrk mid="0" mtype="seg">Calculates the required size of the window rectangle, based on the desired size of the client rectangle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Calculates the required size of the window rectangle, based on the desired size of the client rectangle</mrk></target>
+<note>Function _WinAPI_AdjustWindowRectEx</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">$tagRECT structure that contains the coordinates of the desired client area. This structure must be created before function call.</source>
+<seg-source><mrk mid="0" mtype="seg">$tagRECT structure that contains the coordinates of the desired client area.</mrk> <mrk mid="1" mtype="seg">This structure must be created before function call.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$tagRECT structure that contains the coordinates of the desired client area.</mrk> <mrk mid="1" mtype="seg">This structure must be created before function call.</mrk></target>
+<note>$tRECT</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The window style of the window whose required size is to be calculated. Note that you cannot specify the $WS_OVERLAPPED style.</source>
+<seg-source><mrk mid="0" mtype="seg">The window style of the window whose required size is to be calculated.</mrk> <mrk mid="1" mtype="seg">Note that you cannot specify the $WS_OVERLAPPED style.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The window style of the window whose required size is to be calculated.</mrk> <mrk mid="1" mtype="seg">Note that you cannot specify the $WS_OVERLAPPED style.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The extended window style of the window whose required size is to be calculated.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The extended window style of the window whose required size is to be calculated.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The extended window style of the window whose required size is to be calculated.</mrk></target>
+<note>$iExStyle</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether the window has a menu, valid values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether the window has a menu, valid values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether the window has a menu, valid values:</mrk></target>
+<note>$bMenu</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> True - The window has a menu.</source>
+<seg-source> <mrk mid="0" mtype="seg">True - The window has a menu.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">True - The window has a menu.</mrk></target>
+<note>$bMenu</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> False - The window does not has a menu (Default).</source>
+<seg-source> <mrk mid="0" mtype="seg">False - The window does not has a menu (Default).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">False - The window does not has a menu (Default).</mrk></target>
+<note>$bMenu</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(AdjustWindowRectEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>AdjustWindowRectEx<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(AdjustWindowRectEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>AdjustWindowRectEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(AdjustWindowRectEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>AdjustWindowRectEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

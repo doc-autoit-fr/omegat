@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_CompressBitmapBits.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a compressed data block from the specified bitmap</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a compressed data block from the specified bitmap</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a compressed data block from the specified bitmap</mrk></target>
+<note>Function _WinAPI_CompressBitmapBits</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">A handle to the bitmap to be compressed.</source>
+<seg-source><mrk mid="0" mtype="seg">A handle to the bitmap to be compressed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A handle to the bitmap to be compressed.</mrk></target>
+<note>$hBitmap</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> A pointer to a memory block (buffer) that receives the compressed data. Optionaly, you can set this parameter to 0 before function call, then the function will allocate the required memory block itself.</source>
+<seg-source> <mrk mid="0" mtype="seg">A pointer to a memory block (buffer) that receives the compressed data.</mrk> <mrk mid="1" mtype="seg">Optionaly, you can set this parameter to 0 before function call, then the function will allocate the required memory block itself.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">A pointer to a memory block (buffer) that receives the compressed data.</mrk> <mrk mid="1" mtype="seg">Optionaly, you can set this parameter to 0 before function call, then the function will allocate the required memory block itself.</mrk></target>
+<note>$pBuffer</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> Otherwise, it must be a valid memory pointer returned by the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateBuffer.htm"></bpt>_WinAPI_CreateBuffer()<ept id="1">&lt;/a></ept> function, or by previously calling this function. </source>
+<seg-source> <mrk mid="0" mtype="seg">Otherwise, it must be a valid memory pointer returned by the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateBuffer.htm"></bpt>_WinAPI_CreateBuffer()<ept id="1">&lt;/a></ept> function, or by previously calling this function.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Otherwise, it must be a valid memory pointer returned by the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateBuffer.htm"></bpt>_WinAPI_CreateBuffer()<ept id="1">&lt;/a></ept> function, or by previously calling this function.</mrk> </target>
+<note>$pBuffer</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The compression method. This parameter can be one of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The compression method.</mrk> <mrk mid="2" mtype="seg">This parameter can be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The compression method.</mrk> <mrk mid="2" mtype="seg">This parameter can be one of the following values.</mrk></target>
+<note>$iCompression</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $COMPRESSION_BITMAP_PNG (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $COMPRESSION_BITMAP_PNG (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $COMPRESSION_BITMAP_PNG (Default)</mrk></target>
+<note>$iCompression</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $COMPRESSION_BITMAP_JPEG</source>
+<seg-source> <mrk mid="0" mtype="seg">    $COMPRESSION_BITMAP_JPEG</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $COMPRESSION_BITMAP_JPEG</mrk></target>
+<note>$iCompression</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The quality of JPEG image, in percent. This value is ignored for non JPEG compression. Default is 100.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The quality of JPEG image, in percent.</mrk> <mrk mid="2" mtype="seg">This value is ignored for non JPEG compression.</mrk> <mrk mid="3" mtype="seg">Default is 100.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The quality of JPEG image, in percent.</mrk> <mrk mid="2" mtype="seg">This value is ignored for non JPEG compression.</mrk> <mrk mid="3" mtype="seg">Default is 100.</mrk></target>
+<note>$iQuality</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">The number of bytes copied to the buffer.</source>
+<seg-source><mrk mid="0" mtype="seg">The number of bytes copied to the buffer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The number of bytes copied to the buffer.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">In fact, the data that returns this function represent .jpeg or .png image file in binary form. You can use the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_WriteFile.htm"></bpt>_WinAPI_WriteFile()<ept id="1">&lt;/a></ept> function to create the appropriate image file directly from this data.</source>
+<seg-source><mrk mid="0" mtype="seg">In fact, the data that returns this function represent .jpeg or .png image file in binary form.</mrk> <mrk mid="1" mtype="seg">You can use the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_WriteFile.htm"></bpt>_WinAPI_WriteFile()<ept id="1">&lt;/a></ept> function to create the appropriate image file directly from this data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In fact, the data that returns this function represent .jpeg or .png image file in binary form.</mrk> <mrk mid="1" mtype="seg">You can use the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_WriteFile.htm"></bpt>_WinAPI_WriteFile()<ept id="1">&lt;/a></ept> function to create the appropriate image file directly from this data.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> The returned data always represent a 24-bit color depth .jpeg image, or 32-bit color depth (with or without alpha chanel) .png image independent on the color depth of the source bitmap.</source>
+<seg-source> <mrk mid="0" mtype="seg">The returned data always represent a 24-bit color depth .jpeg image, or 32-bit color depth (with or without alpha chanel) .png image independent on the color depth of the source bitmap.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The returned data always represent a 24-bit color depth .jpeg image, or 32-bit color depth (with or without alpha chanel) .png image independent on the color depth of the source bitmap.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> When you no longer need the buffer allocated by this function, you must call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FreeMemory.htm"></bpt>_WinAPI_FreeMemory()<ept id="1">&lt;/a></ept> function (do not use any other memory routines) to release occupied memory.</source>
+<seg-source> <mrk mid="0" mtype="seg">When you no longer need the buffer allocated by this function, you must call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FreeMemory.htm"></bpt>_WinAPI_FreeMemory()<ept id="1">&lt;/a></ept> function (do not use any other memory routines) to release occupied memory.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When you no longer need the buffer allocated by this function, you must call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FreeMemory.htm"></bpt>_WinAPI_FreeMemory()<ept id="1">&lt;/a></ept> function (do not use any other memory routines) to release occupied memory.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> This function internally uses the GDI+ DLL library.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function internally uses the GDI+ DLL library.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function internally uses the GDI+ DLL library.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Load image</source>
+<seg-source><mrk mid="0" mtype="seg">Load image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Load image</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">\Extras\AutoIt.bmp</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\AutoIt.bmp</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\AutoIt.bmp</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Resize bitmap to 256x256 pixels</source>
+<seg-source><mrk mid="0" mtype="seg">Resize bitmap to 256x256 pixels</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Resize bitmap to 256x256 pixels</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Create compressed PNG data</source>
+<seg-source><mrk mid="0" mtype="seg">Create compressed PNG data</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create compressed PNG data</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Create .ico file</source>
+<seg-source><mrk mid="0" mtype="seg">Create .ico file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create .ico file</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">align 1;ushort Reserved;ushort Type;ushort Count;byte Header[20]</source>
+<seg-source><mrk mid="0" mtype="seg">align 1;ushort Reserved;ushort Type;ushort Count;byte Header[20]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">align 1;ushort Reserved;ushort Type;ushort Count;byte Header[20]</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">byte Width;byte Height;byte ColorCount;byte Reserved;ushort Planes;ushort BitCount;long Size;long Offset</source>
+<seg-source><mrk mid="0" mtype="seg">byte Width;byte Height;byte ColorCount;byte Reserved;ushort Planes;ushort BitCount;long Size;long Offset</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">byte Width;byte Height;byte ColorCount;byte Reserved;ushort Planes;ushort BitCount;long Size;long Offset</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Header</source>
+<seg-source><mrk mid="0" mtype="seg">Header</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Header</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Reserved</source>
+<seg-source><mrk mid="0" mtype="seg">Reserved</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Reserved</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Type</source>
+<seg-source><mrk mid="0" mtype="seg">Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Type</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Count</source>
+<seg-source><mrk mid="0" mtype="seg">Count</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Count</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Width</source>
+<seg-source><mrk mid="0" mtype="seg">Width</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Width</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Height</source>
+<seg-source><mrk mid="0" mtype="seg">Height</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Height</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">ColorCount</source>
+<seg-source><mrk mid="0" mtype="seg">ColorCount</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ColorCount</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Reserved</source>
+<seg-source><mrk mid="0" mtype="seg">Reserved</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Reserved</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Planes</source>
+<seg-source><mrk mid="0" mtype="seg">Planes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Planes</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">BitCount</source>
+<seg-source><mrk mid="0" mtype="seg">BitCount</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BitCount</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Size</source>
+<seg-source><mrk mid="0" mtype="seg">Size</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Size</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Offset</source>
+<seg-source><mrk mid="0" mtype="seg">Offset</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Offset</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">\MyIcon.ico</source>
+<seg-source><mrk mid="0" mtype="seg">\MyIcon.ico</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\MyIcon.ico</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">MsPaint</source>
+<seg-source><mrk mid="0" mtype="seg">MsPaint</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MsPaint</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">\MyIcon.ico</source>
+<seg-source><mrk mid="0" mtype="seg">\MyIcon.ico</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\MyIcon.ico</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">_WinAPI_CompressBitmapBits() failed (@error =</source>
+<seg-source><mrk mid="0" mtype="seg">_WinAPI_CompressBitmapBits() failed (@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinAPI_CompressBitmapBits() failed (@error =</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">)</source>
+<seg-source><mrk mid="0" mtype="seg">)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">)</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Delete unnecessary bitmaps</source>
+<seg-source><mrk mid="0" mtype="seg">Delete unnecessary bitmaps</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete unnecessary bitmaps</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Free memory</source>
+<seg-source><mrk mid="0" mtype="seg">Free memory</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Free memory</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

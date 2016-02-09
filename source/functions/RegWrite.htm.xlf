@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/RegWrite.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a key or value in the registry.</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a key or value in the registry.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a key or value in the registry.</mrk></target>
+<note>Function RegWrite</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The registry key to write to. If no other parameters are specified this key will simply be created.</source>
+<seg-source><mrk mid="0" mtype="seg">The registry key to write to.</mrk> <mrk mid="1" mtype="seg">If no other parameters are specified this key will simply be created.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The registry key to write to.</mrk> <mrk mid="1" mtype="seg">If no other parameters are specified this key will simply be created.</mrk></target>
+<note>keyname</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The valuename to write to.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The valuename to write to.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The valuename to write to.</mrk></target>
+<note>valuename</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Type of key to write: "REG_SZ", "REG_MULTI_SZ", "REG_EXPAND_SZ", "REG_DWORD", "REG_QWORD", or "REG_BINARY".</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Type of key to write:</mrk> <mrk mid="2" mtype="seg">"REG_SZ", "REG_MULTI_SZ", "REG_EXPAND_SZ", "REG_DWORD", "REG_QWORD", or "REG_BINARY".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Type of key to write:</mrk> <mrk mid="2" mtype="seg">"REG_SZ", "REG_MULTI_SZ", "REG_EXPAND_SZ", "REG_DWORD", "REG_QWORD", or "REG_BINARY".</mrk></target>
+<note>type</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The value to write.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The value to write.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The value to write.</mrk></target>
+<note>value</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">0 and sets the @error flag to non-zero if error writing registry key or value.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero if error writing registry key or value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero if error writing registry key or value.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">1 = unable to open requested key</source>
+<seg-source><mrk mid="0" mtype="seg">1 = unable to open requested key</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 = unable to open requested key</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">  2 = unable to open requested main key</source>
+<seg-source> <mrk mid="0" mtype="seg"> 2 = unable to open requested main key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"> 2 = unable to open requested main key</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">  3 = unable to remote connect to the registry</source>
+<seg-source> <mrk mid="0" mtype="seg"> 3 = unable to remote connect to the registry</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"> 3 = unable to remote connect to the registry</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> -1 = unable to open requested value</source>
+<seg-source> <mrk mid="0" mtype="seg">-1 = unable to open requested value</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">-1 = unable to open requested value</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> -2 = value type not supported</source>
+<seg-source> <mrk mid="0" mtype="seg">-2 = value type not supported</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">-2 = value type not supported</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">A registry key must start with "HKEY_LOCAL_MACHINE" ("HKLM") or "HKEY_USERS" ("HKU") or "HKEY_CURRENT_USER" ("HKCU") or "HKEY_CLASSES_ROOT" ("HKCR") or "HKEY_CURRENT_CONFIG" ("HKCC").</source>
+<seg-source><mrk mid="0" mtype="seg">A registry key must start with "HKEY_LOCAL_MACHINE" ("HKLM") or "HKEY_USERS" ("HKU") or "HKEY_CURRENT_USER" ("HKCU") or "HKEY_CLASSES_ROOT" ("HKCR") or "HKEY_CURRENT_CONFIG" ("HKCC").</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A registry key must start with "HKEY_LOCAL_MACHINE" ("HKLM") or "HKEY_USERS" ("HKU") or "HKEY_CURRENT_USER" ("HKCU") or "HKEY_CLASSES_ROOT" ("HKCR") or "HKEY_CURRENT_CONFIG" ("HKCC").</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> When running on 64-bit Windows if you want to write a key or value specific to the 64-bit environment you have to suffix the HK... with 64 i.e. HKLM64.</source>
+<seg-source> <mrk mid="0" mtype="seg">When running on 64-bit Windows if you want to write a key or value specific to the 64-bit environment you have to suffix the HK... with 64 i.e.</mrk> <mrk mid="1" mtype="seg">HKLM64.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When running on 64-bit Windows if you want to write a key or value specific to the 64-bit environment you have to suffix the HK... with 64 i.e.</mrk> <mrk mid="1" mtype="seg">HKLM64.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> AutoIt supports registry keys of type REG_BINARY, REG_SZ, REG_MULTI_SZ, REG_EXPAND_SZ, REG_QWORD, and REG_DWORD.</source>
+<seg-source> <mrk mid="0" mtype="seg">AutoIt supports registry keys of type REG_BINARY, REG_SZ, REG_MULTI_SZ, REG_EXPAND_SZ, REG_QWORD, and REG_DWORD.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">AutoIt supports registry keys of type REG_BINARY, REG_SZ, REG_MULTI_SZ, REG_EXPAND_SZ, REG_QWORD, and REG_DWORD.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> To access the <bpt id="1" ctype="x-strong">&lt;strong></bpt>(Default)<ept id="1">&lt;/strong></ept> value use <bpt id="2" ctype="x-strong">&lt;strong></bpt>""<ept id="2">&lt;/strong></ept> (an empty string) for the valuename.</source>
+<seg-source> <mrk mid="0" mtype="seg">To access the <bpt id="1" ctype="x-strong">&lt;strong></bpt>(Default)<ept id="1">&lt;/strong></ept> value use <bpt id="2" ctype="x-strong">&lt;strong></bpt>""<ept id="2">&lt;/strong></ept> (an empty string) for the valuename.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To access the <bpt id="1" ctype="x-strong">&lt;strong></bpt>(Default)<ept id="1">&lt;/strong></ept> value use <bpt id="2" ctype="x-strong">&lt;strong></bpt>""<ept id="2">&lt;/strong></ept> (an empty string) for the valuename.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> When writing a REG_MULTI_SZ key you must separate each value with @LF. The value must NOT end with @LF unless you want an empty substring (see example).</source>
+<seg-source> <mrk mid="0" mtype="seg">When writing a REG_MULTI_SZ key you must separate each value with @LF.</mrk> <mrk mid="1" mtype="seg">The value must NOT end with @LF unless you want an empty substring (see example).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When writing a REG_MULTI_SZ key you must separate each value with @LF.</mrk> <mrk mid="1" mtype="seg">The value must NOT end with @LF unless you want an empty substring (see example).</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> It is possible to access remote registries by using a keyname in the form "\\computername\keyname". To use this feature you must have the correct access rights.</source>
+<seg-source> <mrk mid="0" mtype="seg">It is possible to access remote registries by using a keyname in the form "\\computername\keyname".</mrk> <mrk mid="1" mtype="seg">To use this feature you must have the correct access rights.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">It is possible to access remote registries by using a keyname in the form "\\computername\keyname".</mrk> <mrk mid="1" mtype="seg">To use this feature you must have the correct access rights.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Write a single REG_SZ value</source>
+<seg-source><mrk mid="0" mtype="seg">Write a single REG_SZ value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write a single REG_SZ value</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">HKEY_CURRENT_USER\Software\Test</source>
+<seg-source><mrk mid="0" mtype="seg">HKEY_CURRENT_USER\Software\Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HKEY_CURRENT_USER\Software\Test</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">TestKey</source>
+<seg-source><mrk mid="0" mtype="seg">TestKey</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TestKey</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">REG_SZ</source>
+<seg-source><mrk mid="0" mtype="seg">REG_SZ</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">REG_SZ</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Hello this is a test</source>
+<seg-source><mrk mid="0" mtype="seg">Hello this is a test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hello this is a test</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Write the REG_MULTI_SZ value of "line1" and "line2"</source>
+<seg-source><mrk mid="0" mtype="seg">Write the REG_MULTI_SZ value of "line1" and "line2"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write the REG_MULTI_SZ value of "line1" and "line2"</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">HKEY_CURRENT_USER\Software\Test</source>
+<seg-source><mrk mid="0" mtype="seg">HKEY_CURRENT_USER\Software\Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HKEY_CURRENT_USER\Software\Test</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">TestKey1</source>
+<seg-source><mrk mid="0" mtype="seg">TestKey1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TestKey1</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">REG_MULTI_SZ</source>
+<seg-source><mrk mid="0" mtype="seg">REG_MULTI_SZ</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">REG_MULTI_SZ</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">line1</source>
+<seg-source><mrk mid="0" mtype="seg">line1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">line1</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">line2</source>
+<seg-source><mrk mid="0" mtype="seg">line2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">line2</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Write the REG_MULTI_SZ value of "line1"</source>
+<seg-source><mrk mid="0" mtype="seg">Write the REG_MULTI_SZ value of "line1"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write the REG_MULTI_SZ value of "line1"</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">HKEY_CURRENT_USER\Software\Test</source>
+<seg-source><mrk mid="0" mtype="seg">HKEY_CURRENT_USER\Software\Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HKEY_CURRENT_USER\Software\Test</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">TestKey2</source>
+<seg-source><mrk mid="0" mtype="seg">TestKey2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TestKey2</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">REG_MULTI_SZ</source>
+<seg-source><mrk mid="0" mtype="seg">REG_MULTI_SZ</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">REG_MULTI_SZ</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">line1</source>
+<seg-source><mrk mid="0" mtype="seg">line1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">line1</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">always add and extra null string</source>
+<seg-source><mrk mid="0" mtype="seg">always add and extra null string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">always add and extra null string</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">HKEY_CURRENT_USER\Software\Test</source>
+<seg-source><mrk mid="0" mtype="seg">HKEY_CURRENT_USER\Software\Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HKEY_CURRENT_USER\Software\Test</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">TestKey3</source>
+<seg-source><mrk mid="0" mtype="seg">TestKey3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TestKey3</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">REG_MULTI_SZ</source>
+<seg-source><mrk mid="0" mtype="seg">REG_MULTI_SZ</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">REG_MULTI_SZ</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">line1</source>
+<seg-source><mrk mid="0" mtype="seg">line1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">line1</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">line2</source>
+<seg-source><mrk mid="0" mtype="seg">line2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">line2</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">HKEY_CURRENT_USER\Software\Test</source>
+<seg-source><mrk mid="0" mtype="seg">HKEY_CURRENT_USER\Software\Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HKEY_CURRENT_USER\Software\Test</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">TestKey4</source>
+<seg-source><mrk mid="0" mtype="seg">TestKey4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TestKey4</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">REG_MULTI_SZ</source>
+<seg-source><mrk mid="0" mtype="seg">REG_MULTI_SZ</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">REG_MULTI_SZ</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">line1</source>
+<seg-source><mrk mid="0" mtype="seg">line1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">line1</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">line2</source>
+<seg-source><mrk mid="0" mtype="seg">line2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">line2</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">empty REG_MULTI_SZ</source>
+<seg-source><mrk mid="0" mtype="seg">empty REG_MULTI_SZ</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">empty REG_MULTI_SZ</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">HKEY_CURRENT_USER\Software\Test</source>
+<seg-source><mrk mid="0" mtype="seg">HKEY_CURRENT_USER\Software\Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HKEY_CURRENT_USER\Software\Test</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">TestKey5</source>
+<seg-source><mrk mid="0" mtype="seg">TestKey5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TestKey5</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">REG_MULTI_SZ</source>
+<seg-source><mrk mid="0" mtype="seg">REG_MULTI_SZ</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">REG_MULTI_SZ</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">create just the key</source>
+<seg-source><mrk mid="0" mtype="seg">create just the key</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">create just the key</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">HKEY_CURRENT_USER\Software\Test1</source>
+<seg-source><mrk mid="0" mtype="seg">HKEY_CURRENT_USER\Software\Test1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HKEY_CURRENT_USER\Software\Test1</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

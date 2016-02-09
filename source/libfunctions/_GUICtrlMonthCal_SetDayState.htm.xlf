@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUICtrlMonthCal_SetDayState.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the day states for all months that are currently visible</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the day states for all months that are currently visible</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the day states for all months that are currently visible</mrk></target>
+<note>Function _GUICtrlMonthCal_SetDayState</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Control ID/Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">An array of integers that corresponds to the months that are visible in the calendar</source>
+<seg-source><mrk mid="0" mtype="seg">An array of integers that corresponds to the months that are visible in the calendar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An array of integers that corresponds to the months that are visible in the calendar</mrk></target>
+<note>$aMasks</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">False.</source>
+<seg-source><mrk mid="0" mtype="seg">False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">You must create the calendar control with the $MCS_DAYSTATE style if you want to use this function.</source>
+<seg-source><mrk mid="0" mtype="seg">You must create the calendar control with the $MCS_DAYSTATE style if you want to use this function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You must create the calendar control with the $MCS_DAYSTATE style if you want to use this function.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Month Calendar Set Day State</source>
+<seg-source><mrk mid="0" mtype="seg">Month Calendar Set Day State</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Month Calendar Set Day State</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Get the number of months that we must supply masks for. Normally, this number will be 3.</source>
+<seg-source><mrk mid="0" mtype="seg">Get the number of months that we must supply masks for.</mrk> <mrk mid="1" mtype="seg">Normally, this number will be 3.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get the number of months that we must supply masks for.</mrk> <mrk mid="1" mtype="seg">Normally, this number will be 3.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Make the 1st, 8th and the 16th of the current month bolded. This results in a binary mask of 1000 0000 1000 0001 or</source>
+<seg-source><mrk mid="0" mtype="seg">Make the 1st, 8th and the 16th of the current month bolded.</mrk> <mrk mid="1" mtype="seg">This results in a binary mask of 1000 0000 1000 0001 or</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Make the 1st, 8th and the 16th of the current month bolded.</mrk> <mrk mid="1" mtype="seg">This results in a binary mask of 1000 0000 1000 0001 or</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">0x8081 in hex.</source>
+<seg-source><mrk mid="0" mtype="seg">0x8081 in hex.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0x8081 in hex.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

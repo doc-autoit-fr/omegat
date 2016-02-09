@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/GUISetAccelerators.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the accelerator table to be used in a GUI window.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the accelerator table to be used in a GUI window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the accelerator table to be used in a GUI window.</mrk></target>
+<note>Function GUISetAccelerators</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">A 2 dimensional array holding the accelerator table (See remarks).</source>
+<seg-source><mrk mid="0" mtype="seg">A 2 dimensional array holding the accelerator table (See remarks).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A 2 dimensional array holding the accelerator table (See remarks).</mrk></target>
+<note>accelerators</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Windows handle as returned by <bpt id="1" ctype="x-a">&lt;a href="GUICreate.htm"></bpt>GUICreate()<ept id="1">&lt;/a></ept> (default is the previously used window). </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Windows handle as returned by <bpt id="1" ctype="x-a">&lt;a href="GUICreate.htm"></bpt>GUICreate()<ept id="1">&lt;/a></ept> (default is the previously used window).</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Windows handle as returned by <bpt id="1" ctype="x-a">&lt;a href="GUICreate.htm"></bpt>GUICreate()<ept id="1">&lt;/a></ept> (default is the previously used window).</mrk> </target>
+<note>winhandle</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Accelerator keys are similar to HotKeys, but there are 2 important differences:</source>
+<seg-source><mrk mid="0" mtype="seg">Accelerator keys are similar to HotKeys, but there are 2 important differences:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Accelerator keys are similar to HotKeys, but there are 2 important differences:</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     - 1. They are only active when the GUI specified in the function is active which means that, unlike HotKeys, Accelerator keys will not interfere with other running applications.</source>
+<seg-source> <mrk mid="0" mtype="seg">    - 1.</mrk> <mrk mid="1" mtype="seg">They are only active when the GUI specified in the function is active which means that, unlike HotKeys, Accelerator keys will not interfere with other running applications.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    - 1.</mrk> <mrk mid="1" mtype="seg">They are only active when the GUI specified in the function is active which means that, unlike HotKeys, Accelerator keys will not interfere with other running applications.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     - 2. They cannot fire a function directly - they action their associated control which then fires the function using <bpt id="1" ctype="x-a">&lt;a href="GUIGetMsg.htm"></bpt>GUIGetMsg()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="GUICtrlSetOnEvent.htm"></bpt>GUICtrlSetOnEvent()<ept id="2">&lt;/a></ept>. If there is no suitable control available in the GUI then a dummy control can be created using <bpt id="1" ctype="x-a">&lt;a href="../functions/GUICtrlCreateDummy.htm"></bpt>GUICtrlCreateDummy<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">    - 2.</mrk> <mrk mid="1" mtype="seg">They cannot fire a function directly - they action their associated control which then fires the function using <bpt id="1" ctype="x-a">&lt;a href="GUIGetMsg.htm"></bpt>GUIGetMsg()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="GUICtrlSetOnEvent.htm"></bpt>GUICtrlSetOnEvent()<ept id="2">&lt;/a></ept>.</mrk> <mrk mid="2" mtype="seg">If there is no suitable control available in the GUI then a dummy control can be created using <bpt id="1" ctype="x-a">&lt;a href="../functions/GUICtrlCreateDummy.htm"></bpt>GUICtrlCreateDummy<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    - 2.</mrk> <mrk mid="1" mtype="seg">They cannot fire a function directly - they action their associated control which then fires the function using <bpt id="1" ctype="x-a">&lt;a href="GUIGetMsg.htm"></bpt>GUIGetMsg()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="GUICtrlSetOnEvent.htm"></bpt>GUICtrlSetOnEvent()<ept id="2">&lt;/a></ept>.</mrk> <mrk mid="2" mtype="seg">If there is no suitable control available in the GUI then a dummy control can be created using <bpt id="1" ctype="x-a">&lt;a href="../functions/GUICtrlCreateDummy.htm"></bpt>GUICtrlCreateDummy<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> The array passed as a parameter to this function contains the Accelerator keys and the ControlIDs of the associated controls. The array must be defined as Local/Global $aArray[n][2] - where n is the number of Accelerator keys to set:</source>
+<seg-source> <mrk mid="0" mtype="seg">The array passed as a parameter to this function contains the Accelerator keys and the ControlIDs of the associated controls.</mrk> <mrk mid="1" mtype="seg">The array must be defined as Local/Global $aArray[n][2] - where n is the number of Accelerator keys to set:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The array passed as a parameter to this function contains the Accelerator keys and the ControlIDs of the associated controls.</mrk> <mrk mid="1" mtype="seg">The array must be defined as Local/Global $aArray[n][2] - where n is the number of Accelerator keys to set:</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $aArray[0][0] = 1st Accelerator key (in <bpt id="1" ctype="x-a">&lt;a href="HotKeySet.htm"></bpt>HotKeySet()<ept id="1">&lt;/a></ept> format)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[0][0] = 1st Accelerator key (in <bpt id="1" ctype="x-a">&lt;a href="HotKeySet.htm"></bpt>HotKeySet()<ept id="1">&lt;/a></ept> format)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[0][0] = 1st Accelerator key (in <bpt id="1" ctype="x-a">&lt;a href="HotKeySet.htm"></bpt>HotKeySet()<ept id="1">&lt;/a></ept> format)</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $aArray[0][1] = Associated ControlID for 1st accelerator, as returned by <bpt id="1" ctype="x-a">&lt;a href="../functions/GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...<ept id="1">&lt;/a></ept></source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[0][1] = Associated ControlID for 1st accelerator, as returned by <bpt id="1" ctype="x-a">&lt;a href="../functions/GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...<ept id="1">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[0][1] = Associated ControlID for 1st accelerator, as returned by <bpt id="1" ctype="x-a">&lt;a href="../functions/GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...<ept id="1">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $aArray[1][0] = 2nd Accelerator key</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[1][0] = 2nd Accelerator key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[1][0] = 2nd Accelerator key</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $aArray[1][1] = Associated ControlID for 2nd accelerator</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[1][1] = Associated ControlID for 2nd accelerator</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[1][1] = Associated ControlID for 2nd accelerator</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     ...</source>
+<seg-source> <mrk mid="0" mtype="seg">    ...</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    ...</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $aArray[n][0] = nth Accelerator key</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[n][0] = nth Accelerator key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[n][0] = nth Accelerator key</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $aArray[n][1] = Associated ControlID for the nth accelerator</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[n][1] = Associated ControlID for the nth accelerator</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[n][1] = Associated ControlID for the nth accelerator</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> Passing this function a non-array parameter will unset all accelerators for the specified winhandle.</source>
+<seg-source> <mrk mid="0" mtype="seg">Passing this function a non-array parameter will unset all accelerators for the specified winhandle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Passing this function a non-array parameter will unset all accelerators for the specified winhandle.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Custom MsgBox</source>
+<seg-source><mrk mid="0" mtype="seg">Custom MsgBox</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Custom MsgBox</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Please select a button.</source>
+<seg-source><mrk mid="0" mtype="seg">Please select a button.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Please select a button.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Exit</source>
+<seg-source><mrk mid="0" mtype="seg">Exit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exit</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Set GUIAccelerators for the button controlIDs, these being Ctrl + y and Ctrl + n</source>
+<seg-source><mrk mid="0" mtype="seg">Set GUIAccelerators for the button controlIDs, these being Ctrl + y and Ctrl + n</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set GUIAccelerators for the button controlIDs, these being Ctrl + y and Ctrl + n</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">^y</source>
+<seg-source><mrk mid="0" mtype="seg">^y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">^y</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">^n</source>
+<seg-source><mrk mid="0" mtype="seg">^n</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">^n</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Display the GUI.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the GUI.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the GUI.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">You selected</source>
+<seg-source><mrk mid="0" mtype="seg">You selected</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You selected</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Close</source>
+<seg-source><mrk mid="0" mtype="seg">Close</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">You selected</source>
+<seg-source><mrk mid="0" mtype="seg">You selected</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You selected</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Yes</source>
+<seg-source><mrk mid="0" mtype="seg">Yes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Yes</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Displays if the button was selected or the hotkey combination Ctrl + y was pressed.</source>
+<seg-source><mrk mid="0" mtype="seg">Displays if the button was selected or the hotkey combination Ctrl + y was pressed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Displays if the button was selected or the hotkey combination Ctrl + y was pressed.</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">You selected</source>
+<seg-source><mrk mid="0" mtype="seg">You selected</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You selected</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">No</source>
+<seg-source><mrk mid="0" mtype="seg">No</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Displays if the button was selected or the hotkey combination Ctrl + n was pressed.</source>
+<seg-source><mrk mid="0" mtype="seg">Displays if the button was selected or the hotkey combination Ctrl + n was pressed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Displays if the button was selected or the hotkey combination Ctrl + n was pressed.</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">You selected</source>
+<seg-source><mrk mid="0" mtype="seg">You selected</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You selected</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Exit</source>
+<seg-source><mrk mid="0" mtype="seg">Exit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exit</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Delete the GUI.</source>
+<seg-source><mrk mid="0" mtype="seg">Delete the GUI.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete the GUI.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

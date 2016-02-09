@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_Crypt_HashData.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Hash data with specified algorithm</source>
+<seg-source><mrk mid="0" mtype="seg">Hash data with specified algorithm</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hash data with specified algorithm</mrk></target>
+<note>Function _Crypt_HashData</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Data to hash</source>
+<seg-source><mrk mid="0" mtype="seg">Data to hash</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Data to hash</mrk></target>
+<note>$vData</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Hash ID to use</source>
+<seg-source><mrk mid="0" mtype="seg">Hash ID to use</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hash ID to use</mrk></target>
+<note>$iAlgID</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> False if this is only a segment of the full data, also makes the function return a hash object instead of hash</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">False if this is only a segment of the full data, also makes the function return a hash object instead of hash</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">False if this is only a segment of the full data, also makes the function return a hash object instead of hash</mrk></target>
+<note>$bFinal</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Hash object returned from a previous call to <bpt id="1" ctype="x-a">&lt;a href="_Crypt_HashData.htm"></bpt>_Crypt_HashData()<ept id="1">&lt;/a></ept> </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Hash object returned from a previous call to <bpt id="1" ctype="x-a">&lt;a href="_Crypt_HashData.htm"></bpt>_Crypt_HashData()<ept id="1">&lt;/a></ept></mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Hash object returned from a previous call to <bpt id="1" ctype="x-a">&lt;a href="_Crypt_HashData.htm"></bpt>_Crypt_HashData()<ept id="1">&lt;/a></ept></mrk> </target>
+<note>$hCryptHash</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">a hash or hash object if $bFinal = False.</source>
+<seg-source><mrk mid="0" mtype="seg">a hash or hash object if $bFinal = False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a hash or hash object if $bFinal = False.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">-1 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">-1 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">10 - Failed to create hash object</source>
+<seg-source><mrk mid="0" mtype="seg">10 - Failed to create hash object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">10 - Failed to create hash object</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> 20 - Failed to hash data</source>
+<seg-source> <mrk mid="0" mtype="seg">20 - Failed to hash data</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">20 - Failed to hash data</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> 30 - Failed to get hash size</source>
+<seg-source> <mrk mid="0" mtype="seg">30 - Failed to get hash size</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">30 - Failed to get hash size</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> 40 - Failed to get hash</source>
+<seg-source> <mrk mid="0" mtype="seg">40 - Failed to get hash</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">40 - Failed to get hash</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">The hash digest will be returned as a binary string, the size is specified by the algorithm.</source>
+<seg-source><mrk mid="0" mtype="seg">The hash digest will be returned as a binary string, the size is specified by the algorithm.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The hash digest will be returned as a binary string, the size is specified by the algorithm.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> To use this with segments of data set the $bFinal flag to False for all non ending segments and use the returned hash object with all subsequent calls.</source>
+<seg-source> <mrk mid="0" mtype="seg">To use this with segments of data set the $bFinal flag to False for all non ending segments and use the returned hash object with all subsequent calls.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To use this with segments of data set the $bFinal flag to False for all non ending segments and use the returned hash object with all subsequent calls.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CryptHashData);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CryptHashData<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CryptHashData);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CryptHashData<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CryptHashData);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CryptHashData<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Realtime Hashing</source>
+<seg-source><mrk mid="0" mtype="seg">Realtime Hashing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Realtime Hashing</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">MD2|MD4|MD5|SHA1</source>
+<seg-source><mrk mid="0" mtype="seg">MD2|MD4|MD5|SHA1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MD2|MD4|MD5|SHA1</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">SHA1</source>
+<seg-source><mrk mid="0" mtype="seg">SHA1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SHA1</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">WM_COMMAND</source>
+<seg-source><mrk mid="0" mtype="seg">WM_COMMAND</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_COMMAND</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">To optimize performance start the crypt library.</source>
+<seg-source><mrk mid="0" mtype="seg">To optimize performance start the crypt library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To optimize performance start the crypt library.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Check when the combobox is selected and retrieve the correct algorithm.</source>
+<seg-source><mrk mid="0" mtype="seg">Check when the combobox is selected and retrieve the correct algorithm.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check when the combobox is selected and retrieve the correct algorithm.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Read the combobox selection.</source>
+<seg-source><mrk mid="0" mtype="seg">Read the combobox selection.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Read the combobox selection.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">MD2</source>
+<seg-source><mrk mid="0" mtype="seg">MD2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MD2</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">MD4</source>
+<seg-source><mrk mid="0" mtype="seg">MD4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MD4</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">MD5</source>
+<seg-source><mrk mid="0" mtype="seg">MD5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MD5</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">SHA1</source>
+<seg-source><mrk mid="0" mtype="seg">SHA1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SHA1</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Check there is text available to hash.</source>
+<seg-source><mrk mid="0" mtype="seg">Check there is text available to hash.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check there is text available to hash.</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Create a hash of the text entered.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a hash of the text entered.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a hash of the text entered.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Set the output box with the hash data.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the output box with the hash data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the output box with the hash data.</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Delete the previous GUI and all controls.</source>
+<seg-source><mrk mid="0" mtype="seg">Delete the previous GUI and all controls.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete the previous GUI and all controls.</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Shutdown the crypt library.</source>
+<seg-source><mrk mid="0" mtype="seg">Shutdown the crypt library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shutdown the crypt library.</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Create a hash of the text entered.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a hash of the text entered.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a hash of the text entered.</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Set the output box with the hash data.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the output box with the hash data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the output box with the hash data.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

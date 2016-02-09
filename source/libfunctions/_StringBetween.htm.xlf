@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_StringBetween.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Find strings between two string delimiters</source>
+<seg-source><mrk mid="0" mtype="seg">Find strings between two string delimiters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Find strings between two string delimiters</mrk></target>
+<note>Function _StringBetween</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The string to search.</source>
+<seg-source><mrk mid="0" mtype="seg">The string to search.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The string to search.</mrk></target>
+<note>$sString</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The beginning of the string to find. Passing an empty string starts at the beginning</source>
+<seg-source><mrk mid="0" mtype="seg">The beginning of the string to find.</mrk> <mrk mid="1" mtype="seg">Passing an empty string starts at the beginning</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The beginning of the string to find.</mrk> <mrk mid="1" mtype="seg">Passing an empty string starts at the beginning</mrk></target>
+<note>$sStart</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The end of the string to find. Passing an empty string searches from $sStart to end of string</source>
+<seg-source><mrk mid="0" mtype="seg">The end of the string to find.</mrk> <mrk mid="1" mtype="seg">Passing an empty string searches from $sStart to end of string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The end of the string to find.</mrk> <mrk mid="1" mtype="seg">Passing an empty string searches from $sStart to end of string</mrk></target>
+<note>$sEnd</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Search mode when $sStart = $sEnd</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Search mode when $sStart = $sEnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Search mode when $sStart = $sEnd</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $STR_ENDISSTART (0) the $sEnd string at the end of a match starts the next possible match (default)</source>
+<seg-source> <mrk mid="0" mtype="seg">$STR_ENDISSTART (0) the $sEnd string at the end of a match starts the next possible match (default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$STR_ENDISSTART (0) the $sEnd string at the end of a match starts the next possible match (default)</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $STR_ENDNOTSTART (1) a further instance of the $sStart starts the next match</source>
+<seg-source> <mrk mid="0" mtype="seg">$STR_ENDNOTSTART (1) a further instance of the $sStart starts the next match</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$STR_ENDNOTSTART (1) a further instance of the $sStart starts the next match</mrk></target>
+<note>$iMode</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> False (default setting) = case-insensitive. True = case-sensitive.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">False (default setting) = case-insensitive.</mrk> <mrk mid="2" mtype="seg">True = case-sensitive.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">False (default setting) = case-insensitive.</mrk> <mrk mid="2" mtype="seg">True = case-sensitive.</mrk></target>
+<note>$bCase</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">a 0-based array - element [0] contains the first found string.</source>
+<seg-source><mrk mid="0" mtype="seg">a 0-based array - element [0] contains the first found string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a 0-based array - element [0] contains the first found string.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">1 - No strings found.</source>
+<seg-source><mrk mid="0" mtype="seg">1 - No strings found.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - No strings found.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Create an array of all the values between "[" and "]".</source>
+<seg-source><mrk mid="0" mtype="seg">Create an array of all the values between "[" and "]".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create an array of all the values between "[" and "]".</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">[18][20][3][5][500][60]</source>
+<seg-source><mrk mid="0" mtype="seg">[18][20][3][5][500][60]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[18][20][3][5][500][60]</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">[</source>
+<seg-source><mrk mid="0" mtype="seg">[</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">]</source>
+<seg-source><mrk mid="0" mtype="seg">]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">]</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Display the results in _ArrayDisplay.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the results in _ArrayDisplay.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the results in _ArrayDisplay.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Default Search</source>
+<seg-source><mrk mid="0" mtype="seg">Default Search</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Default Search</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Create an array of all the values between "|" and "|" - note $sStart and $sEnd are identical</source>
+<seg-source><mrk mid="0" mtype="seg">Create an array of all the values between "|" and "|" - note $sStart and $sEnd are identical</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create an array of all the values between "|" and "|" - note $sStart and $sEnd are identical</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">-----|Both Modes|$STR_ENDISSTART only|Both Modes|-----</source>
+<seg-source><mrk mid="0" mtype="seg">-----|Both Modes|$STR_ENDISSTART only|Both Modes|-----</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-----|Both Modes|$STR_ENDISSTART only|Both Modes|-----</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Mode $STR_ENDISSTART - default - $sEnd is next $sStart</source>
+<seg-source><mrk mid="0" mtype="seg">Mode $STR_ENDISSTART - default - $sEnd is next $sStart</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Mode $STR_ENDISSTART - default - $sEnd is next $sStart</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">|</source>
+<seg-source><mrk mid="0" mtype="seg">|</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">|</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">|</source>
+<seg-source><mrk mid="0" mtype="seg">|</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">|</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Display the results in _ArrayDisplay.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the results in _ArrayDisplay.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the results in _ArrayDisplay.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">$STR_ENDISSTART</source>
+<seg-source><mrk mid="0" mtype="seg">$STR_ENDISSTART</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$STR_ENDISSTART</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Mode $STR_ENDNOTSTART - $sEnd is not next $sStart</source>
+<seg-source><mrk mid="0" mtype="seg">Mode $STR_ENDNOTSTART - $sEnd is not next $sStart</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Mode $STR_ENDNOTSTART - $sEnd is not next $sStart</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">|</source>
+<seg-source><mrk mid="0" mtype="seg">|</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">|</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">|</source>
+<seg-source><mrk mid="0" mtype="seg">|</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">|</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Display the results in _ArrayDisplay.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the results in _ArrayDisplay.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the results in _ArrayDisplay.</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">$STR_ENDNOTSTART</source>
+<seg-source><mrk mid="0" mtype="seg">$STR_ENDNOTSTART</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$STR_ENDNOTSTART</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

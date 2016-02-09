@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/RegDelete.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Deletes a key or value from the registry.</source>
+<seg-source><mrk mid="0" mtype="seg">Deletes a key or value from the registry.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Deletes a key or value from the registry.</mrk></target>
+<note>Function RegDelete</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The registry key to delete.</source>
+<seg-source><mrk mid="0" mtype="seg">The registry key to delete.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The registry key to delete.</mrk></target>
+<note>keyname</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The valuename to delete.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The valuename to delete.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The valuename to delete.</mrk></target>
+<note>valuename</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Special:</source>
+<seg-source><mrk mid="0" mtype="seg">Special:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Special:</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">0 if the key/value does not exist.</source>
+<seg-source><mrk mid="0" mtype="seg">0 if the key/value does not exist.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 if the key/value does not exist.</mrk></target>
+<note>Special:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">2 if error deleting key/value and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">2 if error deleting key/value and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2 if error deleting key/value and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">1 = unable to open requested key</source>
+<seg-source><mrk mid="0" mtype="seg">1 = unable to open requested key</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 = unable to open requested key</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">  2 = unable to open requested main key</source>
+<seg-source> <mrk mid="0" mtype="seg"> 2 = unable to open requested main key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"> 2 = unable to open requested main key</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">  3 = unable to remote connect to the registry</source>
+<seg-source> <mrk mid="0" mtype="seg"> 3 = unable to remote connect to the registry</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"> 3 = unable to remote connect to the registry</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> -1 = unable to delete requested value</source>
+<seg-source> <mrk mid="0" mtype="seg">-1 = unable to delete requested value</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">-1 = unable to delete requested value</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> -2 = unable to delete requested key/value</source>
+<seg-source> <mrk mid="0" mtype="seg">-2 = unable to delete requested key/value</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">-2 = unable to delete requested key/value</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">A registry key must start with "HKEY_LOCAL_MACHINE" ("HKLM") or "HKEY_USERS" ("HKU") or "HKEY_CURRENT_USER" ("HKCU") or "HKEY_CLASSES_ROOT" ("HKCR") or "HKEY_CURRENT_CONFIG" ("HKCC").</source>
+<seg-source><mrk mid="0" mtype="seg">A registry key must start with "HKEY_LOCAL_MACHINE" ("HKLM") or "HKEY_USERS" ("HKU") or "HKEY_CURRENT_USER" ("HKCU") or "HKEY_CLASSES_ROOT" ("HKCR") or "HKEY_CURRENT_CONFIG" ("HKCC").</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A registry key must start with "HKEY_LOCAL_MACHINE" ("HKLM") or "HKEY_USERS" ("HKU") or "HKEY_CURRENT_USER" ("HKCU") or "HKEY_CLASSES_ROOT" ("HKCR") or "HKEY_CURRENT_CONFIG" ("HKCC").</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> When running on 64-bit Windows if you want to delete a key or value specific to the 64-bit environment you have to suffix the HK... with 64 i.e. HKLM64.</source>
+<seg-source> <mrk mid="0" mtype="seg">When running on 64-bit Windows if you want to delete a key or value specific to the 64-bit environment you have to suffix the HK... with 64 i.e.</mrk> <mrk mid="1" mtype="seg">HKLM64.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When running on 64-bit Windows if you want to delete a key or value specific to the 64-bit environment you have to suffix the HK... with 64 i.e.</mrk> <mrk mid="1" mtype="seg">HKLM64.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> To access the <bpt id="1" ctype="x-strong">&lt;strong></bpt>(Default)<ept id="1">&lt;/strong></ept> value use <bpt id="2" ctype="x-strong">&lt;strong></bpt>""<ept id="2">&lt;/strong></ept> (an empty string) for the valuename.</source>
+<seg-source> <mrk mid="0" mtype="seg">To access the <bpt id="1" ctype="x-strong">&lt;strong></bpt>(Default)<ept id="1">&lt;/strong></ept> value use <bpt id="2" ctype="x-strong">&lt;strong></bpt>""<ept id="2">&lt;/strong></ept> (an empty string) for the valuename.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To access the <bpt id="1" ctype="x-strong">&lt;strong></bpt>(Default)<ept id="1">&lt;/strong></ept> value use <bpt id="2" ctype="x-strong">&lt;strong></bpt>""<ept id="2">&lt;/strong></ept> (an empty string) for the valuename.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> Deleting from the registry is potentially dangerous--please exercise caution!</source>
+<seg-source> <mrk mid="0" mtype="seg">Deleting from the registry is potentially dangerous--please exercise caution!</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Deleting from the registry is potentially dangerous--please exercise caution!</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> It is possible to access remote registries by using a keyname in the form "\\computername\keyname". To use this feature you must have the correct access rights.</source>
+<seg-source> <mrk mid="0" mtype="seg">It is possible to access remote registries by using a keyname in the form "\\computername\keyname".</mrk> <mrk mid="1" mtype="seg">To use this feature you must have the correct access rights.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">It is possible to access remote registries by using a keyname in the form "\\computername\keyname".</mrk> <mrk mid="1" mtype="seg">To use this feature you must have the correct access rights.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">HKEY_CURRENT_USER\Software\Test</source>
+<seg-source><mrk mid="0" mtype="seg">HKEY_CURRENT_USER\Software\Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HKEY_CURRENT_USER\Software\Test</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">TestKey</source>
+<seg-source><mrk mid="0" mtype="seg">TestKey</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TestKey</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">HKEY_CURRENT_USER\Software\Test</source>
+<seg-source><mrk mid="0" mtype="seg">HKEY_CURRENT_USER\Software\Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HKEY_CURRENT_USER\Software\Test</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">HKEY_CURRENT_USER\Software\Test1</source>
+<seg-source><mrk mid="0" mtype="seg">HKEY_CURRENT_USER\Software\Test1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HKEY_CURRENT_USER\Software\Test1</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

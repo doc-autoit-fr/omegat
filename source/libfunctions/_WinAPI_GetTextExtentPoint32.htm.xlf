@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_GetTextExtentPoint32.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Computes the width and height of the specified string of text</source>
+<seg-source><mrk mid="0" mtype="seg">Computes the width and height of the specified string of text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Computes the width and height of the specified string of text</mrk></target>
+<note>Function _WinAPI_GetTextExtentPoint32</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Identifies the device contex</source>
+<seg-source><mrk mid="0" mtype="seg">Identifies the device contex</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Identifies the device contex</mrk></target>
+<note>$hDC</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">String of text</source>
+<seg-source><mrk mid="0" mtype="seg">String of text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String of text</mrk></target>
+<note>$sText</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">a $tagSIZE structure in which the dimensions of the string are to be returned.</source>
+<seg-source><mrk mid="0" mtype="seg">a $tagSIZE structure in which the dimensions of the string are to be returned.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a $tagSIZE structure in which the dimensions of the string are to be returned.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="$tagSIZE.htm"></bpt>$tagSIZE<ept id="1">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagSIZE.htm"></bpt>$tagSIZE<ept id="1">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagSIZE.htm"></bpt>$tagSIZE<ept id="1">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetTextExtentPoint32);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetTextExtentPoint32<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetTextExtentPoint32);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetTextExtentPoint32<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetTextExtentPoint32);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetTextExtentPoint32<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">String height &amp; width.</source>
+<seg-source><mrk mid="0" mtype="seg">String height &amp; width.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String height &amp; width.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">This is some text</source>
+<seg-source><mrk mid="0" mtype="seg">This is some text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is some text</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">The text we want to find the height &amp; width of.</source>
+<seg-source><mrk mid="0" mtype="seg">The text we want to find the height &amp; width of.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The text we want to find the height &amp; width of.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Retrieve a 1 dimensional array with $aArray[0] = width &amp; $aArray[1] = height.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve a 1 dimensional array with $aArray[0] = width &amp; $aArray[1] = height.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve a 1 dimensional array with $aArray[0] = width &amp; $aArray[1] = height.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">String Height and Width</source>
+<seg-source><mrk mid="0" mtype="seg">String Height and Width</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String Height and Width</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">The height and width of the string "</source>
+<seg-source><mrk mid="0" mtype="seg">The height and width of the string "</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The height and width of the string "</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">" is:</source>
+<seg-source><mrk mid="0" mtype="seg">" is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">" is:</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Width:</source>
+<seg-source><mrk mid="0" mtype="seg">Width:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Width:</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Height:</source>
+<seg-source><mrk mid="0" mtype="seg">Height:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Height:</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Get the device context handle of the current window.</source>
+<seg-source><mrk mid="0" mtype="seg">Get the device context handle of the current window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get the device context handle of the current window.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Retrieve the font with which the control is currently drawing its text.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve the font with which the control is currently drawing its text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve the font with which the control is currently drawing its text.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Select the object of the context device.</source>
+<seg-source><mrk mid="0" mtype="seg">Select the object of the context device.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Select the object of the context device.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Retrieve the height &amp; width of a string.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve the height &amp; width of a string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve the height &amp; width of a string.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Release the device context.</source>
+<seg-source><mrk mid="0" mtype="seg">Release the device context.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Release the device context.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Set an array with the width &amp; height of the string.</source>
+<seg-source><mrk mid="0" mtype="seg">Set an array with the width &amp; height of the string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set an array with the width &amp; height of the string.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

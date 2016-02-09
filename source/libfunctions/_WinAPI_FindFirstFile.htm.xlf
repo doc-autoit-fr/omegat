@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_FindFirstFile.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Searches a directory for a file or subdirectory with a name that matches a specific name</source>
+<seg-source><mrk mid="0" mtype="seg">Searches a directory for a file or subdirectory with a name that matches a specific name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Searches a directory for a file or subdirectory with a name that matches a specific name</mrk></target>
+<note>Function _WinAPI_FindFirstFile</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The directory or path, and the file name, which can include wildcard characters, for example, an asterisk "*" or a question mark "?".</source>
+<seg-source><mrk mid="0" mtype="seg">The directory or path, and the file name, which can include wildcard characters, for example, an asterisk "*" or a question mark "?".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The directory or path, and the file name, which can include wildcard characters, for example, an asterisk "*" or a question mark "?".</mrk></target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> If the string ends with a wildcard, period ".", or directory name, the user must have access permissions to the root and all subdirectories on the path.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the string ends with a wildcard, period ".", or directory name, the user must have access permissions to the root and all subdirectories on the path.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the string ends with a wildcard, period ".", or directory name, the user must have access permissions to the root and all subdirectories on the path.</mrk></target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">A $tagWIN32_FIND_DATA structure or a pointer to it that receives information about a found file or directory.</source>
+<seg-source><mrk mid="0" mtype="seg">A $tagWIN32_FIND_DATA structure or a pointer to it that receives information about a found file or directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A $tagWIN32_FIND_DATA structure or a pointer to it that receives information about a found file or directory.</mrk></target>
+<note>$tData</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">The search handle.</source>
+<seg-source><mrk mid="0" mtype="seg">The search handle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The search handle.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">0 and sets the @error flag to non-zero, @extended flag may contain the system error code.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the system error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the system error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">This function opens a search handle and returns information about the first file that the file system finds with a name that matches the specified pattern.</source>
+<seg-source><mrk mid="0" mtype="seg">This function opens a search handle and returns information about the first file that the file system finds with a name that matches the specified pattern.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function opens a search handle and returns information about the first file that the file system finds with a name that matches the specified pattern.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> This may or may not be the first file or directory that appears in a directory-listing application when given the same file name string pattern.</source>
+<seg-source> <mrk mid="0" mtype="seg">This may or may not be the first file or directory that appears in a directory-listing application when given the same file name string pattern.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This may or may not be the first file or directory that appears in a directory-listing application when given the same file name string pattern.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> After the search handle is established, you can use it to search for other files that match the same pattern by using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FindNextFile.htm"></bpt>_WinAPI_FindNextFile()<ept id="1">&lt;/a></ept> function.</source>
+<seg-source> <mrk mid="0" mtype="seg">After the search handle is established, you can use it to search for other files that match the same pattern by using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FindNextFile.htm"></bpt>_WinAPI_FindNextFile()<ept id="1">&lt;/a></ept> function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">After the search handle is established, you can use it to search for other files that match the same pattern by using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FindNextFile.htm"></bpt>_WinAPI_FindNextFile()<ept id="1">&lt;/a></ept> function.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> If the function fails because no matching files can be found, the @extended flag will contain ERROR_FILE_NOT_FOUND (2) system error code.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the function fails because no matching files can be found, the @extended flag will contain ERROR_FILE_NOT_FOUND (2) system error code.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the function fails because no matching files can be found, the @extended flag will contain ERROR_FILE_NOT_FOUND (2) system error code.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> When the search handle is no longer needed, close it by using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FindClose.htm"></bpt>_WinAPI_FindClose()<ept id="1">&lt;/a></ept> function.</source>
+<seg-source> <mrk mid="0" mtype="seg">When the search handle is no longer needed, close it by using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FindClose.htm"></bpt>_WinAPI_FindClose()<ept id="1">&lt;/a></ept> function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When the search handle is no longer needed, close it by using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FindClose.htm"></bpt>_WinAPI_FindClose()<ept id="1">&lt;/a></ept> function.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FindFirstFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FindFirstFile<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FindFirstFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FindFirstFile<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FindFirstFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FindFirstFile<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">\*</source>
+<seg-source><mrk mid="0" mtype="seg">\*</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\*</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">cFileName</source>
+<seg-source><mrk mid="0" mtype="seg">cFileName</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">cFileName</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">.</source>
+<seg-source><mrk mid="0" mtype="seg">.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">..</source>
+<seg-source><mrk mid="0" mtype="seg">..</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">..</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">dwFileAttributes</source>
+<seg-source><mrk mid="0" mtype="seg">dwFileAttributes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">dwFileAttributes</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">nFileSizeLow</source>
+<seg-source><mrk mid="0" mtype="seg">nFileSizeLow</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">nFileSizeLow</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">nFileSizeHigh</source>
+<seg-source><mrk mid="0" mtype="seg">nFileSizeHigh</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">nFileSizeHigh</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">ERROR_NO_MORE_FILES</source>
+<seg-source><mrk mid="0" mtype="seg">ERROR_NO_MORE_FILES</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ERROR_NO_MORE_FILES</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">_WinAPI_Find...</source>
+<seg-source><mrk mid="0" mtype="seg">_WinAPI_Find...</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinAPI_Find...</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

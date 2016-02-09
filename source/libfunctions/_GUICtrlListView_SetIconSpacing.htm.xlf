@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUICtrlListView_SetIconSpacing.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the spacing between icons where the style is large icon</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the spacing between icons where the style is large icon</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the spacing between icons where the style is large icon</mrk></target>
+<note>Function _GUICtrlListView_SetIconSpacing</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Control ID/Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Distance, in pixels, to set between icons on the x-axis</source>
+<seg-source><mrk mid="0" mtype="seg">Distance, in pixels, to set between icons on the x-axis</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Distance, in pixels, to set between icons on the x-axis</mrk></target>
+<note>$iCX</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Distance, in pixels, to set between icons on the y-axis</source>
+<seg-source><mrk mid="0" mtype="seg">Distance, in pixels, to set between icons on the y-axis</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Distance, in pixels, to set between icons on the y-axis</mrk></target>
+<note>$iCY</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Returns an array with the following format:</source>
+<seg-source><mrk mid="0" mtype="seg">Returns an array with the following format:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns an array with the following format:</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> [0] - Previous CX value</source>
+<seg-source> <mrk mid="0" mtype="seg">[0] - Previous CX value</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[0] - Previous CX value</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> [1] - Previous CY value</source>
+<seg-source> <mrk mid="0" mtype="seg">[1] - Previous CY value</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[1] - Previous CY value</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Values for $iCX and $iCY are relative to the upper-left corner of an icon bitmap. To set spacing between icons that do not overlap, the $iCX or $iCY values must include the size of the icon, plus the amount of empty space desired between icons.</source>
+<seg-source><mrk mid="0" mtype="seg">Values for $iCX and $iCY are relative to the upper-left corner of an icon bitmap.</mrk> <mrk mid="1" mtype="seg">To set spacing between icons that do not overlap, the $iCX or $iCY values must include the size of the icon, plus the amount of empty space desired between icons.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Values for $iCX and $iCY are relative to the upper-left corner of an icon bitmap.</mrk> <mrk mid="1" mtype="seg">To set spacing between icons that do not overlap, the $iCX or $iCY values must include the size of the icon, plus the amount of empty space desired between icons.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> Values that do not include the width of the icon will result in overlaps.</source>
+<seg-source> <mrk mid="0" mtype="seg">Values that do not include the width of the icon will result in overlaps.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Values that do not include the width of the icon will result in overlaps.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">ListView Set Icon Spacing</source>
+<seg-source><mrk mid="0" mtype="seg">ListView Set Icon Spacing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ListView Set Icon Spacing</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Load images</source>
+<seg-source><mrk mid="0" mtype="seg">Load images</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Load images</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Add items</source>
+<seg-source><mrk mid="0" mtype="seg">Add items</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add items</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Item 1</source>
+<seg-source><mrk mid="0" mtype="seg">Item 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item 1</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Item 2</source>
+<seg-source><mrk mid="0" mtype="seg">Item 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item 2</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Item 3</source>
+<seg-source><mrk mid="0" mtype="seg">Item 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item 3</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Change item spacing</source>
+<seg-source><mrk mid="0" mtype="seg">Change item spacing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Change item spacing</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Information</source>
+<seg-source><mrk mid="0" mtype="seg">Information</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Information</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Changing icon spacing</source>
+<seg-source><mrk mid="0" mtype="seg">Changing icon spacing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Changing icon spacing</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

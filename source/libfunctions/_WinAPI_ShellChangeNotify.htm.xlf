@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_ShellChangeNotify.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Notifies the system of an event that an application has performed</source>
+<seg-source><mrk mid="0" mtype="seg">Notifies the system of an event that an application has performed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notifies the system of an event that an application has performed</mrk></target>
+<note>Function _WinAPI_ShellChangeNotify</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Describes the event that has occurred. Typically, only one event is specified at a time. If more than</source>
+<seg-source><mrk mid="0" mtype="seg">Describes the event that has occurred.</mrk> <mrk mid="1" mtype="seg">Typically, only one event is specified at a time.</mrk> <mrk mid="2" mtype="seg">If more than</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Describes the event that has occurred.</mrk> <mrk mid="1" mtype="seg">Typically, only one event is specified at a time.</mrk> <mrk mid="2" mtype="seg">If more than</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> one event is specified, the values contained in the $iItem1 and $iItem2 parameters must be the same,</source>
+<seg-source> <mrk mid="0" mtype="seg">one event is specified, the values contained in the $iItem1 and $iItem2 parameters must be the same,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">one event is specified, the values contained in the $iItem1 and $iItem2 parameters must be the same,</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> respectively, for all specified events. This parameter can be one or more of the following values.</source>
+<seg-source> <mrk mid="0" mtype="seg">respectively, for all specified events.</mrk> <mrk mid="1" mtype="seg">This parameter can be one or more of the following values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">respectively, for all specified events.</mrk> <mrk mid="1" mtype="seg">This parameter can be one or more of the following values.</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> $SHCNE_ALLEVENTS</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_ALLEVENTS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_ALLEVENTS</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $SHCNE_ASSOCCHANGED</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_ASSOCCHANGED</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_ASSOCCHANGED</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $SHCNE_ATTRIBUTES</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_ATTRIBUTES</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_ATTRIBUTES</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $SHCNE_CREATE</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_CREATE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_CREATE</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> $SHCNE_DELETE</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_DELETE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_DELETE</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> $SHCNE_DRIVEADD</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_DRIVEADD</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_DRIVEADD</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> $SHCNE_DRIVEADDGUI</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_DRIVEADDGUI</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_DRIVEADDGUI</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> $SHCNE_DRIVEREMOVED</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_DRIVEREMOVED</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_DRIVEREMOVED</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> $SHCNE_EXTENDED_EVENT</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_EXTENDED_EVENT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_EXTENDED_EVENT</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> $SHCNE_FREESPACE</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_FREESPACE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_FREESPACE</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> $SHCNE_MEDIAINSERTED</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_MEDIAINSERTED</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_MEDIAINSERTED</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> $SHCNE_MEDIAREMOVED</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_MEDIAREMOVED</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_MEDIAREMOVED</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> $SHCNE_MKDIR</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_MKDIR</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_MKDIR</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> $SHCNE_NETSHARE</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_NETSHARE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_NETSHARE</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> $SHCNE_NETUNSHARE</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_NETUNSHARE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_NETUNSHARE</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> $SHCNE_RENAMEFOLDER</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_RENAMEFOLDER</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_RENAMEFOLDER</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> $SHCNE_RENAMEITEM</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_RENAMEITEM</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_RENAMEITEM</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> $SHCNE_RMDIR</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_RMDIR</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_RMDIR</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> $SHCNE_SERVERDISCONNECT</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_SERVERDISCONNECT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_SERVERDISCONNECT</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> $SHCNE_UPDATEDIR</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_UPDATEDIR</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_UPDATEDIR</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> $SHCNE_UPDATEIMAGE</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_UPDATEIMAGE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_UPDATEIMAGE</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> $SHCNE_UPDATEITEM</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_UPDATEITEM</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_UPDATEITEM</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> $SHCNE_DISKEVENTS</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_DISKEVENTS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_DISKEVENTS</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> $SHCNE_GLOBALEVENTS</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_GLOBALEVENTS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_GLOBALEVENTS</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en"> $SHCNE_INTERRUPT</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNE_INTERRUPT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNE_INTERRUPT</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en"> (See MSDN for more information)</source>
+<seg-source> <mrk mid="0" mtype="seg">(See MSDN for more information)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">(See MSDN for more information)</mrk></target>
+<note>$iEvent</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Flags that indicate the meaning of the $iItem1 and $iItem2 parameters. This parameter must be one</source>
+<seg-source><mrk mid="0" mtype="seg">Flags that indicate the meaning of the $iItem1 and $iItem2 parameters.</mrk> <mrk mid="1" mtype="seg">This parameter must be one</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Flags that indicate the meaning of the $iItem1 and $iItem2 parameters.</mrk> <mrk mid="1" mtype="seg">This parameter must be one</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en"> of the following values.</source>
+<seg-source> <mrk mid="0" mtype="seg">of the following values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">of the following values.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"> $SHCNF_DWORD</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNF_DWORD</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNF_DWORD</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en"> $SHCNF_IDLIST</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNF_IDLIST</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNF_IDLIST</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en"> $SHCNF_PATH</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNF_PATH</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNF_PATH</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en"> $SHCNF_PRINTER</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNF_PRINTER</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNF_PRINTER</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en"> $SHCNF_FLUSH</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNF_FLUSH</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNF_FLUSH</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en"> $SHCNF_FLUSHNOWAIT</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNF_FLUSHNOWAIT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNF_FLUSHNOWAIT</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en"> $SHCNF_NOTIFYRECURSIVE</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHCNF_NOTIFYRECURSIVE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHCNF_NOTIFYRECURSIVE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en"> (See MSDN for more information)</source>
+<seg-source> <mrk mid="0" mtype="seg">(See MSDN for more information)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">(See MSDN for more information)</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> First event-dependent value. Default is 0.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">First event-dependent value.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">First event-dependent value.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></target>
+<note>$iItem1</note>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Second event-dependent value. Default is 0.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Second event-dependent value.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Second event-dependent value.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></target>
+<note>$iItem2</note>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">None.</source>
+<seg-source><mrk mid="0" mtype="seg">None.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None.</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHChangeNotify);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHChangeNotify<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHChangeNotify);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHChangeNotify<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHChangeNotify);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHChangeNotify<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">HKCR\AutoIt3Script\DefaultIcon</source>
+<seg-source><mrk mid="0" mtype="seg">HKCR\AutoIt3Script\DefaultIcon</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HKCR\AutoIt3Script\DefaultIcon</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">HKCR\AutoIt3Script\DefaultIcon</source>
+<seg-source><mrk mid="0" mtype="seg">HKCR\AutoIt3Script\DefaultIcon</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HKCR\AutoIt3Script\DefaultIcon</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">REG_SZ</source>
+<seg-source><mrk mid="0" mtype="seg">REG_SZ</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">REG_SZ</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">\shell32.dll,-152</source>
+<seg-source><mrk mid="0" mtype="seg">\shell32.dll,-152</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\shell32.dll,-152</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">The icon for .au3 files has been changed. Press OK to restore it.</source>
+<seg-source><mrk mid="0" mtype="seg">The icon for .au3 files has been changed.</mrk> <mrk mid="1" mtype="seg">Press OK to restore it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The icon for .au3 files has been changed.</mrk> <mrk mid="1" mtype="seg">Press OK to restore it.</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">HKCR\AutoIt3Script\DefaultIcon</source>
+<seg-source><mrk mid="0" mtype="seg">HKCR\AutoIt3Script\DefaultIcon</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HKCR\AutoIt3Script\DefaultIcon</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">REG_SZ</source>
+<seg-source><mrk mid="0" mtype="seg">REG_SZ</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">REG_SZ</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_IsAlphaBitmap.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Determines whether the specified bitmap has an alpha channel</source>
+<seg-source><mrk mid="0" mtype="seg">Determines whether the specified bitmap has an alpha channel</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Determines whether the specified bitmap has an alpha channel</mrk></target>
+<note>Function _WinAPI_IsAlphaBitmap</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the bitmap to test. This bitmap must be a 32 bits-per-pixel.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the bitmap to test.</mrk> <mrk mid="1" mtype="seg">This bitmap must be a 32 bits-per-pixel.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the bitmap to test.</mrk> <mrk mid="1" mtype="seg">This bitmap must be a 32 bits-per-pixel.</mrk></target>
+<note>$hBitmap</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">True - The specified bitmap has an alpha channel.</source>
+<seg-source><mrk mid="0" mtype="seg">True - The specified bitmap has an alpha channel.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True - The specified bitmap has an alpha channel.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> False - Otherwise.</source>
+<seg-source> <mrk mid="0" mtype="seg">False - Otherwise.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">False - Otherwise.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">This function only works with 32 bits-per-pixel uncompressed bitmaps. If the source bitmap is non 32 bits-per-pixel</source>
+<seg-source><mrk mid="0" mtype="seg">This function only works with 32 bits-per-pixel uncompressed bitmaps.</mrk> <mrk mid="1" mtype="seg">If the source bitmap is non 32 bits-per-pixel</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function only works with 32 bits-per-pixel uncompressed bitmaps.</mrk> <mrk mid="1" mtype="seg">If the source bitmap is non 32 bits-per-pixel</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> bitmap, or is a compressed bitmap, the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_IsAlphaBitmap.htm"></bpt>_WinAPI_IsAlphaBitmap()<ept id="1">&lt;/a></ept> always returns 0.</source>
+<seg-source> <mrk mid="0" mtype="seg">bitmap, or is a compressed bitmap, the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_IsAlphaBitmap.htm"></bpt>_WinAPI_IsAlphaBitmap()<ept id="1">&lt;/a></ept> always returns 0.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">bitmap, or is a compressed bitmap, the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_IsAlphaBitmap.htm"></bpt>_WinAPI_IsAlphaBitmap()<ept id="1">&lt;/a></ept> always returns 0.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

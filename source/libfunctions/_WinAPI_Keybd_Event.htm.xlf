@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_Keybd_Event.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Synthesizes a keystroke</source>
+<seg-source><mrk mid="0" mtype="seg">Synthesizes a keystroke</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Synthesizes a keystroke</mrk></target>
+<note>Function _WinAPI_Keybd_Event</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The virtual-key code ($VK_*). The code must be a value in the range 1 to 254.</source>
+<seg-source><mrk mid="0" mtype="seg">The virtual-key code ($VK_*).</mrk> <mrk mid="1" mtype="seg">The code must be a value in the range 1 to 254.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The virtual-key code ($VK_*).</mrk> <mrk mid="1" mtype="seg">The code must be a value in the range 1 to 254.</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> 0x01 - Left mouse button</source>
+<seg-source> <mrk mid="0" mtype="seg">0x01 - Left mouse button</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x01 - Left mouse button</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> 0x02 - Right mouse button</source>
+<seg-source> <mrk mid="0" mtype="seg">0x02 - Right mouse button</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x02 - Right mouse button</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> 0x03 - Control-break processing</source>
+<seg-source> <mrk mid="0" mtype="seg">0x03 - Control-break processing</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x03 - Control-break processing</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> 0x04 - Middle mouse button (three-button mouse)</source>
+<seg-source> <mrk mid="0" mtype="seg">0x04 - Middle mouse button (three-button mouse)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x04 - Middle mouse button (three-button mouse)</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> 0x05 - X1 mouse button</source>
+<seg-source> <mrk mid="0" mtype="seg">0x05 - X1 mouse button</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x05 - X1 mouse button</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> 0x06 - X2 mouse button</source>
+<seg-source> <mrk mid="0" mtype="seg">0x06 - X2 mouse button</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x06 - X2 mouse button</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> 0x08 - BACKSPACE key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x08 - BACKSPACE key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x08 - BACKSPACE key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> 0x09 - TAB key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x09 - TAB key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x09 - TAB key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> 0x0C - CLEAR key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0C - CLEAR key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0C - CLEAR key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> 0x0D - ENTER key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x0D - ENTER key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x0D - ENTER key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> 0x10 - SHIFT key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x10 - SHIFT key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x10 - SHIFT key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> 0x11 - CTRL key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x11 - CTRL key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x11 - CTRL key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> 0x12 - ALT key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x12 - ALT key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x12 - ALT key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> 0x13 - PAUSE key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x13 - PAUSE key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x13 - PAUSE key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> 0x14 - CAPS LOCK key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x14 - CAPS LOCK key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x14 - CAPS LOCK key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> 0x1B - ESC key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x1B - ESC key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x1B - ESC key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> 0x20 - SPACEBAR key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x20 - SPACEBAR key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x20 - SPACEBAR key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> 0x21 - PAGE UP key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x21 - PAGE UP key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x21 - PAGE UP key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> 0x22 - PAGE DOWN key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x22 - PAGE DOWN key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x22 - PAGE DOWN key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> 0x23 - END key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x23 - END key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x23 - END key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> 0x24 - HOME key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x24 - HOME key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x24 - HOME key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> 0x25 - LEFT ARROW key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x25 - LEFT ARROW key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x25 - LEFT ARROW key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> 0x26 - UP ARROW key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x26 - UP ARROW key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x26 - UP ARROW key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> 0x27 - RIGHT ARROW key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x27 - RIGHT ARROW key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x27 - RIGHT ARROW key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> 0x28 - DOWN ARROW key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x28 - DOWN ARROW key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x28 - DOWN ARROW key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> 0x29 - SELECT key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x29 - SELECT key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x29 - SELECT key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en"> 0x2A - PRINT key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x2A - PRINT key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x2A - PRINT key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en"> 0x2B - EXECUTE key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x2B - EXECUTE key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x2B - EXECUTE key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en"> 0x2C - PRINT SCREEN key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x2C - PRINT SCREEN key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x2C - PRINT SCREEN key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en"> 0x2D - INS key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x2D - INS key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x2D - INS key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"> 0x2E - DEL key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x2E - DEL key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x2E - DEL key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en"> 0x2F - HELP key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x2F - HELP key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x2F - HELP key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en"> 0x30 - 0x39 - (0 - 9) key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x30 - 0x39 - (0 - 9) key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x30 - 0x39 - (0 - 9) key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en"> 0x41 - 0x5A - (A - Z) key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x41 - 0x5A - (A - Z) key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x41 - 0x5A - (A - Z) key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en"> 0x5B - Left Windows key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x5B - Left Windows key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x5B - Left Windows key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en"> 0x5C - Right Windows key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x5C - Right Windows key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x5C - Right Windows key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en"> 0x5D - Applications key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x5D - Applications key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x5D - Applications key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en"> 0x5F - Computer Sleep key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x5F - Computer Sleep key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x5F - Computer Sleep key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en"> 0x60 - 0x69 - Numeric keypad (0 - 9) key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x60 - 0x69 - Numeric keypad (0 - 9) key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x60 - 0x69 - Numeric keypad (0 - 9) key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en"> 0x6A - Multiply key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x6A - Multiply key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x6A - Multiply key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en"> 0x6B - Add key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x6B - Add key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x6B - Add key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en"> 0x6C - Separator key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x6C - Separator key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x6C - Separator key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en"> 0x6D - Subtract key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x6D - Subtract key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x6D - Subtract key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en"> 0x6E - Decimal key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x6E - Decimal key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x6E - Decimal key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en"> 0x6F - Divide key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x6F - Divide key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x6F - Divide key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en"> 0x70 - 0x87 - (F1 - F24) key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x70 - 0x87 - (F1 - F24) key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x70 - 0x87 - (F1 - F24) key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en"> 0x90 - NUM LOCK key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x90 - NUM LOCK key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x90 - NUM LOCK key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en"> 0x91 - SCROLL LOCK key</source>
+<seg-source> <mrk mid="0" mtype="seg">0x91 - SCROLL LOCK key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0x91 - SCROLL LOCK key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en"> 0xA0 - Left SHIFT key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xA0 - Left SHIFT key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xA0 - Left SHIFT key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en"> 0xA1 - Right SHIFT key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xA1 - Right SHIFT key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xA1 - Right SHIFT key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en"> 0xA2 - Left CONTROL key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xA2 - Left CONTROL key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xA2 - Left CONTROL key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en"> 0xA3 - Right CONTROL key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xA3 - Right CONTROL key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xA3 - Right CONTROL key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en"> 0xA4 - Left MENU key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xA4 - Left MENU key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xA4 - Left MENU key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en"> 0xA5 - Right MENU key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xA5 - Right MENU key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xA5 - Right MENU key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en"> 0xA6 - Browser Back key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xA6 - Browser Back key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xA6 - Browser Back key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en"> 0xA7 - Browser Forward key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xA7 - Browser Forward key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xA7 - Browser Forward key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en"> 0xA8 - Browser Refresh key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xA8 - Browser Refresh key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xA8 - Browser Refresh key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en"> 0xA9 - Browser Stop key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xA9 - Browser Stop key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xA9 - Browser Stop key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en"> 0xAA - Browser Search key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xAA - Browser Search key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xAA - Browser Search key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en"> 0xAB - Browser Favorites key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xAB - Browser Favorites key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xAB - Browser Favorites key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en"> 0xAC - Browser Start and Home key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xAC - Browser Start and Home key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xAC - Browser Start and Home key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en"> 0xAD - Volume Mute key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xAD - Volume Mute key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xAD - Volume Mute key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en"> 0xAE - Volume Down key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xAE - Volume Down key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xAE - Volume Down key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en"> 0xAF - Volume Up key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xAF - Volume Up key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xAF - Volume Up key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en"> 0xB0 - Next Track key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xB0 - Next Track key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xB0 - Next Track key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en"> 0xB1 - Previous Track key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xB1 - Previous Track key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xB1 - Previous Track key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en"> 0xB2 - Stop Media key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xB2 - Stop Media key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xB2 - Stop Media key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en"> 0xB3 - Play/Pause Media key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xB3 - Play/Pause Media key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xB3 - Play/Pause Media key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en"> 0xB4 - Start Mail key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xB4 - Start Mail key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xB4 - Start Mail key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en"> 0xB5 - Select Media key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xB5 - Select Media key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xB5 - Select Media key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en"> 0xB6 - Start Application 1 key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xB6 - Start Application 1 key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xB6 - Start Application 1 key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en"> 0xB7 - Start Application 2 key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xB7 - Start Application 2 key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xB7 - Start Application 2 key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en"> 0xBA - ';:' key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xBA - ';:' key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xBA - ';:' key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en"> 0xBB - '+' key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xBB - '+' key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xBB - '+' key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en"> 0xBC - ',' key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xBC - ',' key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xBC - ',' key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en"> 0xBD - '-' key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xBD - '-' key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xBD - '-' key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en"> 0xBE - '.' key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xBE - '.' key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xBE - '.' key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en"> 0xBF - '/?' key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xBF - '/?' key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xBF - '/?' key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en"> 0xC0 - '`~' key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xC0 - '`~' key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xC0 - '`~' key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en"> 0xDB - '[{' key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xDB - '[{' key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xDB - '[{' key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en"> 0xDC - '\|' key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xDC - '\|' key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xDC - '\|' key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en"> 0xDD - ']}' key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xDD - ']}' key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xDD - ']}' key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en"> 0xDE - 'single-quote/double-quote' key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xDE - 'single-quote/double-quote' key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xDE - 'single-quote/double-quote' key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en"> 0xE2 - Either the angle bracket key or the backslash key on the RT 102-key keyboard</source>
+<seg-source> <mrk mid="0" mtype="seg">0xE2 - Either the angle bracket key or the backslash key on the RT 102-key keyboard</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xE2 - Either the angle bracket key or the backslash key on the RT 102-key keyboard</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en"> 0xE7 - Used to pass Unicode characters as if they were keystrokes</source>
+<seg-source> <mrk mid="0" mtype="seg">0xE7 - Used to pass Unicode characters as if they were keystrokes</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xE7 - Used to pass Unicode characters as if they were keystrokes</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en"> 0xF6 - Attn key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xF6 - Attn key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xF6 - Attn key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en"> 0xF7 - CrSel key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xF7 - CrSel key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xF7 - CrSel key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en"> 0xF8 - ExSel key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xF8 - ExSel key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xF8 - ExSel key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en"> 0xF9 - Erase EOF key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xF9 - Erase EOF key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xF9 - Erase EOF key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en"> 0xFA - Play key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xFA - Play key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xFA - Play key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="94">
+<source xml:lang="en"> 0xFB - Zoom key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xFB - Zoom key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xFB - Zoom key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="95">
+<source xml:lang="en"> 0xFD - PA1 key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xFD - PA1 key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xFD - PA1 key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="96">
+<source xml:lang="en"> 0xFE - Clear key</source>
+<seg-source> <mrk mid="0" mtype="seg">0xFE - Clear key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0xFE - Clear key</mrk></target>
+<note>$vKey</note>
+</trans-unit>
+<trans-unit id="97">
+<source xml:lang="en">This parameter can be one or more of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg">This parameter can be one or more of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This parameter can be one or more of the following values.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="98">
+<source xml:lang="en"> $KEYEVENTF_EXTENDEDKEY</source>
+<seg-source> <mrk mid="0" mtype="seg">$KEYEVENTF_EXTENDEDKEY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$KEYEVENTF_EXTENDEDKEY</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="99">
+<source xml:lang="en"> $KEYEVENTF_KEYUP</source>
+<seg-source> <mrk mid="0" mtype="seg">$KEYEVENTF_KEYUP</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$KEYEVENTF_KEYUP</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="100">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The hardware scan code for the key. Default is 0.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The hardware scan code for the key.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The hardware scan code for the key.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></target>
+<note>$iScanCode</note>
+</trans-unit>
+<trans-unit id="101">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The additional value associated with the key stroke. Default is 0.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The additional value associated with the key stroke.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The additional value associated with the key stroke.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></target>
+<note>$iExtraInfo</note>
+</trans-unit>
+<trans-unit id="102">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="103">
+<source xml:lang="en">None.</source>
+<seg-source><mrk mid="0" mtype="seg">None.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None.</mrk></target>
+</trans-unit>
+<trans-unit id="104">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="105">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(keybd_event);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>keybd_event<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(keybd_event);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>keybd_event<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(keybd_event);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>keybd_event<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUICtrlToolbar_Create.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Create a Toolbar control</source>
+<seg-source><mrk mid="0" mtype="seg">Create a Toolbar control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a Toolbar control</mrk></target>
+<note>Function _GUICtrlToolbar_Create</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to parent or owner window</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to parent or owner window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to parent or owner window</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Control styles:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control styles:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control styles:</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $TBSTYLE_ALTDRAG - Allows users to change a toolbar button's position by dragging it while holding down the ALT key.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TBSTYLE_ALTDRAG - Allows users to change a toolbar button's position by dragging it while holding down the ALT key.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TBSTYLE_ALTDRAG - Allows users to change a toolbar button's position by dragging it while holding down the ALT key.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">         If this style is not specified, the user must hold down the SHIFT key while dragging a button.</source>
+<seg-source> <mrk mid="0" mtype="seg">        If this style is not specified, the user must hold down the SHIFT key while dragging a button.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        If this style is not specified, the user must hold down the SHIFT key while dragging a button.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">         Note that the $CCS_ADJUSTABLE style must be specified to enable toolbar buttons to be dragged.</source>
+<seg-source> <mrk mid="0" mtype="seg">        Note that the $CCS_ADJUSTABLE style must be specified to enable toolbar buttons to be dragged.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        Note that the $CCS_ADJUSTABLE style must be specified to enable toolbar buttons to be dragged.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $TBSTYLE_CUSTOMERASE - Generates $NM_CUSTOMDRAW messages when the toolbar processes $WM_ERASEBKGND messages</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TBSTYLE_CUSTOMERASE - Generates $NM_CUSTOMDRAW messages when the toolbar processes $WM_ERASEBKGND messages</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TBSTYLE_CUSTOMERASE - Generates $NM_CUSTOMDRAW messages when the toolbar processes $WM_ERASEBKGND messages</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $TBSTYLE_FLAT - Creates a flat toolbar</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TBSTYLE_FLAT - Creates a flat toolbar</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TBSTYLE_FLAT - Creates a flat toolbar</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $TBSTYLE_LIST - Creates a flat toolbar with button text to the right of the bitmap</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TBSTYLE_LIST - Creates a flat toolbar with button text to the right of the bitmap</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TBSTYLE_LIST - Creates a flat toolbar with button text to the right of the bitmap</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $TBSTYLE_REGISTERDROP - Generates $TBN_GETOBJECT notification messages to request drop target objects when the cursor passes over toolbar buttons.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TBSTYLE_REGISTERDROP - Generates $TBN_GETOBJECT notification messages to request drop target objects when the cursor passes over toolbar buttons.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TBSTYLE_REGISTERDROP - Generates $TBN_GETOBJECT notification messages to request drop target objects when the cursor passes over toolbar buttons.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $TBSTYLE_TOOLTIPS - Creates a ToolTip control that an application can use to display descriptive text for the buttons in the toolbar.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TBSTYLE_TOOLTIPS - Creates a ToolTip control that an application can use to display descriptive text for the buttons in the toolbar.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TBSTYLE_TOOLTIPS - Creates a ToolTip control that an application can use to display descriptive text for the buttons in the toolbar.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $TBSTYLE_TRANSPARENT - Creates a transparent toolbar. In a transparent toolbar, the toolbar is transparent but the buttons are not.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TBSTYLE_TRANSPARENT - Creates a transparent toolbar.</mrk> <mrk mid="1" mtype="seg">In a transparent toolbar, the toolbar is transparent but the buttons are not.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TBSTYLE_TRANSPARENT - Creates a transparent toolbar.</mrk> <mrk mid="1" mtype="seg">In a transparent toolbar, the toolbar is transparent but the buttons are not.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">         Button text appears under button bitmaps. To prevent repainting problems, this style should be set before the toolbar control becomes visible.</source>
+<seg-source> <mrk mid="0" mtype="seg">        Button text appears under button bitmaps.</mrk> <mrk mid="1" mtype="seg">To prevent repainting problems, this style should be set before the toolbar control becomes visible.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        Button text appears under button bitmaps.</mrk> <mrk mid="1" mtype="seg">To prevent repainting problems, this style should be set before the toolbar control becomes visible.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $TBSTYLE_WRAPABLE - Creates a toolbar that can have multiple lines of buttons.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TBSTYLE_WRAPABLE - Creates a toolbar that can have multiple lines of buttons.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TBSTYLE_WRAPABLE - Creates a toolbar that can have multiple lines of buttons.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">         Toolbar buttons can "wrap" to the next line when the toolbar becomes too narrow to include all buttons on the same line.</source>
+<seg-source> <mrk mid="0" mtype="seg">        Toolbar buttons can "wrap" to the next line when the toolbar becomes too narrow to include all buttons on the same line.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        Toolbar buttons can "wrap" to the next line when the toolbar becomes too narrow to include all buttons on the same line.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">         When the toolbar is wrapped, the break will occur on either the rightmost separator or the rightmost button if there are no separators on the bar.</source>
+<seg-source> <mrk mid="0" mtype="seg">        When the toolbar is wrapped, the break will occur on either the rightmost separator or the rightmost button if there are no separators on the bar.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        When the toolbar is wrapped, the break will occur on either the rightmost separator or the rightmost button if there are no separators on the bar.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">         This style must be set to display a vertical toolbar control when the toolbar is part of a vertical rebar control.</source>
+<seg-source> <mrk mid="0" mtype="seg">        This style must be set to display a vertical toolbar control when the toolbar is part of a vertical rebar control.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        This style must be set to display a vertical toolbar control when the toolbar is part of a vertical rebar control.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> Default: $TBSTYLE_FLAT</source>
+<seg-source> <mrk mid="0" mtype="seg">Default:</mrk> <mrk mid="1" mtype="seg">$TBSTYLE_FLAT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Default:</mrk> <mrk mid="1" mtype="seg">$TBSTYLE_FLAT</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> Forced: $WS_CHILD, $WS_CLIPSIBLINGS, $WS_VISIBLE</source>
+<seg-source> <mrk mid="0" mtype="seg">Forced:</mrk> <mrk mid="1" mtype="seg">$WS_CHILD, $WS_CLIPSIBLINGS, $WS_VISIBLE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Forced:</mrk> <mrk mid="1" mtype="seg">$WS_CHILD, $WS_CLIPSIBLINGS, $WS_VISIBLE</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Control extended styles:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control extended styles:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control extended styles:</mrk></target>
+<note>$iExStyle</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     $TBSTYLE_EX_DRAWDDARROWS - Allows buttons to have a separate dropdown arrow. Buttons that have the</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TBSTYLE_EX_DRAWDDARROWS - Allows buttons to have a separate dropdown arrow.</mrk> <mrk mid="1" mtype="seg">Buttons that have the</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TBSTYLE_EX_DRAWDDARROWS - Allows buttons to have a separate dropdown arrow.</mrk> <mrk mid="1" mtype="seg">Buttons that have the</mrk></target>
+<note>$iExStyle</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">     $BTNS_DROPDOWN style will be drawn with a drop down arrow in a separate section, to the right of the button.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BTNS_DROPDOWN style will be drawn with a drop down arrow in a separate section, to the right of the button.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BTNS_DROPDOWN style will be drawn with a drop down arrow in a separate section, to the right of the button.</mrk></target>
+<note>$iExStyle</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">         If the arrow is clicked, only the arrow portion of the button will depress, and the toolbar control will send a $TBN_DROPDOWN notification to prompt the application to display the dropdown menu.</source>
+<seg-source> <mrk mid="0" mtype="seg">        If the arrow is clicked, only the arrow portion of the button will depress, and the toolbar control will send a $TBN_DROPDOWN notification to prompt the application to display the dropdown menu.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        If the arrow is clicked, only the arrow portion of the button will depress, and the toolbar control will send a $TBN_DROPDOWN notification to prompt the application to display the dropdown menu.</mrk></target>
+<note>$iExStyle</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">         If the main part of the button is clicked, the toolbar control sends a $WM_COMMAND message with the button's ID.</source>
+<seg-source> <mrk mid="0" mtype="seg">        If the main part of the button is clicked, the toolbar control sends a $WM_COMMAND message with the button's ID.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        If the main part of the button is clicked, the toolbar control sends a $WM_COMMAND message with the button's ID.</mrk></target>
+<note>$iExStyle</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">     $TBSTYLE_EX_HIDECLIPPEDBUTTONS - Hides partially clipped buttons</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TBSTYLE_EX_HIDECLIPPEDBUTTONS - Hides partially clipped buttons</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TBSTYLE_EX_HIDECLIPPEDBUTTONS - Hides partially clipped buttons</mrk></target>
+<note>$iExStyle</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">     $TBSTYLE_EX_DOUBLEBUFFER - Requires the toolbar to be double buffered</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TBSTYLE_EX_DOUBLEBUFFER - Requires the toolbar to be double buffered</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TBSTYLE_EX_DOUBLEBUFFER - Requires the toolbar to be double buffered</mrk></target>
+<note>$iExStyle</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">     $TBSTYLE_EX_MIXEDBUTTONS - Allows you to set text for all buttons, but only display it for the buttons with the $BTNS_SHOWTEXT button style.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TBSTYLE_EX_MIXEDBUTTONS - Allows you to set text for all buttons, but only display it for the buttons with the $BTNS_SHOWTEXT button style.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TBSTYLE_EX_MIXEDBUTTONS - Allows you to set text for all buttons, but only display it for the buttons with the $BTNS_SHOWTEXT button style.</mrk></target>
+<note>$iExStyle</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">         The $TBSTYLE_LIST style must also be set.</source>
+<seg-source> <mrk mid="0" mtype="seg">        The $TBSTYLE_LIST style must also be set.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        The $TBSTYLE_LIST style must also be set.</mrk></target>
+<note>$iExStyle</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">         Normally, when a button does not display text, you must handle $TBN_GETINFOTIP to display a ToolTip.</source>
+<seg-source> <mrk mid="0" mtype="seg">        Normally, when a button does not display text, you must handle $TBN_GETINFOTIP to display a ToolTip.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        Normally, when a button does not display text, you must handle $TBN_GETINFOTIP to display a ToolTip.</mrk></target>
+<note>$iExStyle</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">         With the $TBSTYLE_EX_MIXEDBUTTONS extended style, text that is set but not displayed on a button will automatically be used as the button's ToolTip text.</source>
+<seg-source> <mrk mid="0" mtype="seg">        With the $TBSTYLE_EX_MIXEDBUTTONS extended style, text that is set but not displayed on a button will automatically be used as the button's ToolTip text.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        With the $TBSTYLE_EX_MIXEDBUTTONS extended style, text that is set but not displayed on a button will automatically be used as the button's ToolTip text.</mrk></target>
+<note>$iExStyle</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">         You only need to handle $TBN_GETINFOTIP if it needs more flexibility in specifying the ToolTip text.</source>
+<seg-source> <mrk mid="0" mtype="seg">        You only need to handle $TBN_GETINFOTIP if it needs more flexibility in specifying the ToolTip text.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        You only need to handle $TBN_GETINFOTIP if it needs more flexibility in specifying the ToolTip text.</mrk></target>
+<note>$iExStyle</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">the handle to the Toolbar control.</source>
+<seg-source><mrk mid="0" mtype="seg">the handle to the Toolbar control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the handle to the Toolbar control.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Command identifier of the button associated with the notification.</source>
+<seg-source><mrk mid="0" mtype="seg">Command identifier of the button associated with the notification.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command identifier of the button associated with the notification.</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Toolbar</source>
+<seg-source><mrk mid="0" mtype="seg">Toolbar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Toolbar</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">_WM_NOTIFY</source>
+<seg-source><mrk mid="0" mtype="seg">_WM_NOTIFY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WM_NOTIFY</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Add standard system bitmaps</source>
+<seg-source><mrk mid="0" mtype="seg">Add standard system bitmaps</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add standard system bitmaps</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Add buttons</source>
+<seg-source><mrk mid="0" mtype="seg">Add buttons</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add buttons</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Write message to memo</source>
+<seg-source><mrk mid="0" mtype="seg">Write message to memo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write message to memo</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">WM_NOTIFY event handler</source>
+<seg-source><mrk mid="0" mtype="seg">WM_NOTIFY event handler</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_NOTIFY event handler</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">----------------------------------------------------------------------------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">----------------------------------------------------------------------------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">----------------------------------------------------------------------------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">$NM_LDOWN: Clicked Item:</source>
+<seg-source><mrk mid="0" mtype="seg">$NM_LDOWN:</mrk> <mrk mid="1" mtype="seg">Clicked Item:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$NM_LDOWN:</mrk> <mrk mid="1" mtype="seg">Clicked Item:</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">at index:</source>
+<seg-source><mrk mid="0" mtype="seg">at index:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">at index:</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">----------------------------------------------------------------------------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">----------------------------------------------------------------------------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">----------------------------------------------------------------------------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">idOld</source>
+<seg-source><mrk mid="0" mtype="seg">idOld</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">idOld</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">idNew</source>
+<seg-source><mrk mid="0" mtype="seg">idNew</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">idNew</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">dwFlags</source>
+<seg-source><mrk mid="0" mtype="seg">dwFlags</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">dwFlags</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">$HICF_LEAVING:</source>
+<seg-source><mrk mid="0" mtype="seg">$HICF_LEAVING:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$HICF_LEAVING:</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">----------------------------------------------------------------------------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">----------------------------------------------------------------------------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">----------------------------------------------------------------------------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">$TBN_HOTITEMCHANGE: $e_idNew</source>
+<seg-source><mrk mid="0" mtype="seg">$TBN_HOTITEMCHANGE:</mrk> <mrk mid="1" mtype="seg">$e_idNew</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$TBN_HOTITEMCHANGE:</mrk> <mrk mid="1" mtype="seg">$e_idNew</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">----------------------------------------------------------------------------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">----------------------------------------------------------------------------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">----------------------------------------------------------------------------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">----------------------------------------------------------------------------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">----------------------------------------------------------------------------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">----------------------------------------------------------------------------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">$TBN_HOTITEMCHANGE: $e_idOpen</source>
+<seg-source><mrk mid="0" mtype="seg">$TBN_HOTITEMCHANGE:</mrk> <mrk mid="1" mtype="seg">$e_idOpen</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$TBN_HOTITEMCHANGE:</mrk> <mrk mid="1" mtype="seg">$e_idOpen</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">----------------------------------------------------------------------------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">----------------------------------------------------------------------------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">----------------------------------------------------------------------------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">----------------------------------------------------------------------------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">----------------------------------------------------------------------------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">----------------------------------------------------------------------------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">$TBN_HOTITEMCHANGE: $e_idSave</source>
+<seg-source><mrk mid="0" mtype="seg">$TBN_HOTITEMCHANGE:</mrk> <mrk mid="1" mtype="seg">$e_idSave</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$TBN_HOTITEMCHANGE:</mrk> <mrk mid="1" mtype="seg">$e_idSave</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">----------------------------------------------------------------------------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">----------------------------------------------------------------------------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">----------------------------------------------------------------------------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">----------------------------------------------------------------------------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">----------------------------------------------------------------------------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">----------------------------------------------------------------------------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">$TBN_HOTITEMCHANGE: $idHelp</source>
+<seg-source><mrk mid="0" mtype="seg">$TBN_HOTITEMCHANGE:</mrk> <mrk mid="1" mtype="seg">$idHelp</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$TBN_HOTITEMCHANGE:</mrk> <mrk mid="1" mtype="seg">$idHelp</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">----------------------------------------------------------------------------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">----------------------------------------------------------------------------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">----------------------------------------------------------------------------------------------</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

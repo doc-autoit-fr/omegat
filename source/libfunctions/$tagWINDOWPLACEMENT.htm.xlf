@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/$tagWINDOWPLACEMENT.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Keyword Reference</source>
+<seg-source><mrk mid="0" mtype="seg">Keyword Reference</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Keyword Reference</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">The WINDOWPLACEMENT structure contains information about the placement of a window on the screen</source>
+<seg-source><mrk mid="0" mtype="seg">The WINDOWPLACEMENT structure contains information about the placement of a window on the screen</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The WINDOWPLACEMENT structure contains information about the placement of a window on the screen</mrk></target>
+<note>Keyword $tagWINDOWPLACEMENT</note>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Specifies the length, in bytes, of the structure</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the length, in bytes, of the structure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the length, in bytes, of the structure</mrk></target>
+<note>length</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Specifies flags that control the position of the minimized window and the method by which the window is restored. This member can be one or more of the following values</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies flags that control the position of the minimized window and the method by which the window is restored.</mrk> <mrk mid="1" mtype="seg">This member can be one or more of the following values</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies flags that control the position of the minimized window and the method by which the window is restored.</mrk> <mrk mid="1" mtype="seg">This member can be one or more of the following values</mrk></target>
+<note>flags</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $WPF_ASYNCWINDOWPLACEMENT - If the calling thread and the thread that owns the window are attached to different input queues, the system posts the request to the thread that owns the window.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $WPF_ASYNCWINDOWPLACEMENT - If the calling thread and the thread that owns the window are attached to different input queues, the system posts the request to the thread that owns the window.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $WPF_ASYNCWINDOWPLACEMENT - If the calling thread and the thread that owns the window are attached to different input queues, the system posts the request to the thread that owns the window.</mrk></target>
+<note>flags</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $WPF_RESTORETOMAXIMIZED - Specifies that the restored window will be maximized, regardless of whether it was maximized before it was minimized.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $WPF_RESTORETOMAXIMIZED - Specifies that the restored window will be maximized, regardless of whether it was maximized before it was minimized.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $WPF_RESTORETOMAXIMIZED - Specifies that the restored window will be maximized, regardless of whether it was maximized before it was minimized.</mrk></target>
+<note>flags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">         This setting is only valid the next time the window is restored. It does not change the default restoration behavior.</source>
+<seg-source> <mrk mid="0" mtype="seg">        This setting is only valid the next time the window is restored.</mrk> <mrk mid="1" mtype="seg">It does not change the default restoration behavior.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        This setting is only valid the next time the window is restored.</mrk> <mrk mid="1" mtype="seg">It does not change the default restoration behavior.</mrk></target>
+<note>flags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">         This flag is only valid when the @SW_SHOWMINIMIZED value is specified for the showCmd member.</source>
+<seg-source> <mrk mid="0" mtype="seg">        This flag is only valid when the @SW_SHOWMINIMIZED value is specified for the showCmd member.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        This flag is only valid when the @SW_SHOWMINIMIZED value is specified for the showCmd member.</mrk></target>
+<note>flags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $WPF_SETMINPOSITION - Specifies that the coordinates of the minimized window may be specified.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $WPF_SETMINPOSITION - Specifies that the coordinates of the minimized window may be specified.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $WPF_SETMINPOSITION - Specifies that the coordinates of the minimized window may be specified.</mrk></target>
+<note>flags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">         This flag must be specified if the coordinates are set in the ptMinPosition member.</source>
+<seg-source> <mrk mid="0" mtype="seg">        This flag must be specified if the coordinates are set in the ptMinPosition member.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        This flag must be specified if the coordinates are set in the ptMinPosition member.</mrk></target>
+<note>flags</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Specifies the current show state of the window. This member can be one of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the current show state of the window.</mrk> <mrk mid="1" mtype="seg">This member can be one of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the current show state of the window.</mrk> <mrk mid="1" mtype="seg">This member can be one of the following values:</mrk></target>
+<note>showCmd</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     @SW_HIDE - Hides the window and activates another window.</source>
+<seg-source> <mrk mid="0" mtype="seg">    @SW_HIDE - Hides the window and activates another window.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    @SW_HIDE - Hides the window and activates another window.</mrk></target>
+<note>showCmd</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     @SW_MAXIMIZE - Maximizes the specified window.</source>
+<seg-source> <mrk mid="0" mtype="seg">    @SW_MAXIMIZE - Maximizes the specified window.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    @SW_MAXIMIZE - Maximizes the specified window.</mrk></target>
+<note>showCmd</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     @SW_MINIMIZE - Minimizes the specified window and activates the next top-level window in the z-order.</source>
+<seg-source> <mrk mid="0" mtype="seg">    @SW_MINIMIZE - Minimizes the specified window and activates the next top-level window in the z-order.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    @SW_MINIMIZE - Minimizes the specified window and activates the next top-level window in the z-order.</mrk></target>
+<note>showCmd</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     @SW_RESTORE - Activates and displays the window. If the window is minimized or maximized, the system restores it to its original size and position.</source>
+<seg-source> <mrk mid="0" mtype="seg">    @SW_RESTORE - Activates and displays the window.</mrk> <mrk mid="1" mtype="seg">If the window is minimized or maximized, the system restores it to its original size and position.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    @SW_RESTORE - Activates and displays the window.</mrk> <mrk mid="1" mtype="seg">If the window is minimized or maximized, the system restores it to its original size and position.</mrk></target>
+<note>showCmd</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">         An application should specify this flag when restoring a minimized window.</source>
+<seg-source> <mrk mid="0" mtype="seg">        An application should specify this flag when restoring a minimized window.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        An application should specify this flag when restoring a minimized window.</mrk></target>
+<note>showCmd</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     @SW_SHOW - Activates the window and displays it in its current size and position.</source>
+<seg-source> <mrk mid="0" mtype="seg">    @SW_SHOW - Activates the window and displays it in its current size and position.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    @SW_SHOW - Activates the window and displays it in its current size and position.</mrk></target>
+<note>showCmd</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     @SW_SHOWMAXIMIZED - Activates the window and displays it as a maximized window.</source>
+<seg-source> <mrk mid="0" mtype="seg">    @SW_SHOWMAXIMIZED - Activates the window and displays it as a maximized window.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    @SW_SHOWMAXIMIZED - Activates the window and displays it as a maximized window.</mrk></target>
+<note>showCmd</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     @SW_SHOWMINIMIZED - Activates the window and displays it as a minimized window.</source>
+<seg-source> <mrk mid="0" mtype="seg">    @SW_SHOWMINIMIZED - Activates the window and displays it as a minimized window.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    @SW_SHOWMINIMIZED - Activates the window and displays it as a minimized window.</mrk></target>
+<note>showCmd</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     @SW_SHOWMINNOACTIVE - Displays the window as a minimized window.</source>
+<seg-source> <mrk mid="0" mtype="seg">    @SW_SHOWMINNOACTIVE - Displays the window as a minimized window.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    @SW_SHOWMINNOACTIVE - Displays the window as a minimized window.</mrk></target>
+<note>showCmd</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">         This value is similar to @SW_SHOWMINIMIZED, except the window is not activated.</source>
+<seg-source> <mrk mid="0" mtype="seg">        This value is similar to @SW_SHOWMINIMIZED, except the window is not activated.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        This value is similar to @SW_SHOWMINIMIZED, except the window is not activated.</mrk></target>
+<note>showCmd</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">     @SW_SHOWNA - Displays the window in its current size and position.</source>
+<seg-source> <mrk mid="0" mtype="seg">    @SW_SHOWNA - Displays the window in its current size and position.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    @SW_SHOWNA - Displays the window in its current size and position.</mrk></target>
+<note>showCmd</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">         This value is similar to @SW_SHOW, except the window is not activated.</source>
+<seg-source> <mrk mid="0" mtype="seg">        This value is similar to @SW_SHOW, except the window is not activated.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        This value is similar to @SW_SHOW, except the window is not activated.</mrk></target>
+<note>showCmd</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">     @SW_SHOWNOACTIVATE - Displays a window in its most recent size and position.</source>
+<seg-source> <mrk mid="0" mtype="seg">    @SW_SHOWNOACTIVATE - Displays a window in its most recent size and position.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    @SW_SHOWNOACTIVATE - Displays a window in its most recent size and position.</mrk></target>
+<note>showCmd</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">         This value is similar to @SW_SHOWNORMAL, except the window is not activated.</source>
+<seg-source> <mrk mid="0" mtype="seg">        This value is similar to @SW_SHOWNORMAL, except the window is not activated.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        This value is similar to @SW_SHOWNORMAL, except the window is not activated.</mrk></target>
+<note>showCmd</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">     @SW_SHOWNORMAL - Activates and displays a window.</source>
+<seg-source> <mrk mid="0" mtype="seg">    @SW_SHOWNORMAL - Activates and displays a window.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    @SW_SHOWNORMAL - Activates and displays a window.</mrk></target>
+<note>showCmd</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">         If the window is minimized or maximized, the system restores it to its original size and position.</source>
+<seg-source> <mrk mid="0" mtype="seg">        If the window is minimized or maximized, the system restores it to its original size and position.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        If the window is minimized or maximized, the system restores it to its original size and position.</mrk></target>
+<note>showCmd</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">         An application should specify this flag when displaying the window for the first time.</source>
+<seg-source> <mrk mid="0" mtype="seg">        An application should specify this flag when displaying the window for the first time.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        An application should specify this flag when displaying the window for the first time.</mrk></target>
+<note>showCmd</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Specifies the coordinates of the window's upper-left corner when the window is minimized.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the coordinates of the window's upper-left corner when the window is minimized.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the coordinates of the window's upper-left corner when the window is minimized.</mrk></target>
+<note>ptMinPosition</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Specifies the coordinates of the window's upper-left corner when the window is maximized.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the coordinates of the window's upper-left corner when the window is maximized.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the coordinates of the window's upper-left corner when the window is maximized.</mrk></target>
+<note>ptMaxPosition</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Specifies the window's coordinates when the window is in the restored position.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the window's coordinates when the window is in the restored position.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the window's coordinates when the window is in the restored position.</mrk></target>
+<note>rcNormalPosition</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

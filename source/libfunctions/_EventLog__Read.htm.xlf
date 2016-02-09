@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_EventLog__Read.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Reads an entry from the event log</source>
+<seg-source><mrk mid="0" mtype="seg">Reads an entry from the event log</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Reads an entry from the event log</mrk></target>
+<note>Function _EventLog__Read</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">A handle to the event log</source>
+<seg-source><mrk mid="0" mtype="seg">A handle to the event log</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A handle to the event log</mrk></target>
+<note>$hEventLog</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If True, operation proceeds sequentially from the last call to this function using this handle.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True, operation proceeds sequentially from the last call to this function using this handle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True, operation proceeds sequentially from the last call to this function using this handle.</mrk></target>
+<note>$bRead</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> If False, the read will operation proceeds from the record specified by the $iOffset parameter.</source>
+<seg-source> <mrk mid="0" mtype="seg">If False, the read will operation proceeds from the record specified by the $iOffset parameter.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If False, the read will operation proceeds from the record specified by the $iOffset parameter.</mrk></target>
+<note>$bRead</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If True, the log is read in date order. If False, the log is read in reverse date order.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True, the log is read in date order.</mrk> <mrk mid="2" mtype="seg">If False, the log is read in reverse date order.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If True, the log is read in date order.</mrk> <mrk mid="2" mtype="seg">If False, the log is read in reverse date order.</mrk></target>
+<note>$bForward</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The number of the event record at which the read operation should start.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The number of the event record at which the read operation should start.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The number of the event record at which the read operation should start.</mrk></target>
+<note>$iOffset</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> This parameter is ignored if $bRead is True.</source>
+<seg-source> <mrk mid="0" mtype="seg">This parameter is ignored if $bRead is True.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This parameter is ignored if $bRead is True.</mrk></target>
+<note>$iOffset</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">an array with the following format:</source>
+<seg-source><mrk mid="0" mtype="seg">an array with the following format:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an array with the following format:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     [ 0] - True</source>
+<seg-source> <mrk mid="0" mtype="seg">    [ 0] - True</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [ 0] - True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     [ 1] - Number of the record</source>
+<seg-source> <mrk mid="0" mtype="seg">    [ 1] - Number of the record</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [ 1] - Number of the record</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     [ 2] - Date at which this entry was submitted</source>
+<seg-source> <mrk mid="0" mtype="seg">    [ 2] - Date at which this entry was submitted</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [ 2] - Date at which this entry was submitted</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     [ 3] - Time at which this entry was submitted</source>
+<seg-source> <mrk mid="0" mtype="seg">    [ 3] - Time at which this entry was submitted</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [ 3] - Time at which this entry was submitted</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     [ 4] - Date at which this entry was received to be written to the log</source>
+<seg-source> <mrk mid="0" mtype="seg">    [ 4] - Date at which this entry was received to be written to the log</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [ 4] - Date at which this entry was received to be written to the log</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     [ 5] - Time at which this entry was received to be written to the log</source>
+<seg-source> <mrk mid="0" mtype="seg">    [ 5] - Time at which this entry was received to be written to the log</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [ 5] - Time at which this entry was received to be written to the log</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     [ 6] - Event identifier</source>
+<seg-source> <mrk mid="0" mtype="seg">    [ 6] - Event identifier</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [ 6] - Event identifier</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     [ 7] - Event type. This can be one of the following values:</source>
+<seg-source> <mrk mid="0" mtype="seg">    [ 7] - Event type.</mrk> <mrk mid="1" mtype="seg">This can be one of the following values:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [ 7] - Event type.</mrk> <mrk mid="1" mtype="seg">This can be one of the following values:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">         1 - Error event</source>
+<seg-source> <mrk mid="0" mtype="seg">        1 - Error event</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        1 - Error event</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">         2 - Warning event</source>
+<seg-source> <mrk mid="0" mtype="seg">        2 - Warning event</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        2 - Warning event</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">         4 - Information event</source>
+<seg-source> <mrk mid="0" mtype="seg">        4 - Information event</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        4 - Information event</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">         8 - Success audit event</source>
+<seg-source> <mrk mid="0" mtype="seg">        8 - Success audit event</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        8 - Success audit event</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">         16 - Failure audit event</source>
+<seg-source> <mrk mid="0" mtype="seg">        16 - Failure audit event</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        16 - Failure audit event</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">     [ 8] - Event type string</source>
+<seg-source> <mrk mid="0" mtype="seg">    [ 8] - Event type string</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [ 8] - Event type string</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">     [ 9] - Event category</source>
+<seg-source> <mrk mid="0" mtype="seg">    [ 9] - Event category</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [ 9] - Event category</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">     [10] - Event source</source>
+<seg-source> <mrk mid="0" mtype="seg">    [10] - Event source</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [10] - Event source</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">     [11] - Computer name</source>
+<seg-source> <mrk mid="0" mtype="seg">    [11] - Computer name</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [11] - Computer name</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">     [12] - Username</source>
+<seg-source> <mrk mid="0" mtype="seg">    [12] - Username</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [12] - Username</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">     [13] - Event description</source>
+<seg-source> <mrk mid="0" mtype="seg">    [13] - Event description</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [13] - Event description</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">     [14] - Event data array</source>
+<seg-source> <mrk mid="0" mtype="seg">    [14] - Event data array</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [14] - Event data array</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">$Array[0] = False</source>
+<seg-source><mrk mid="0" mtype="seg">$Array[0] = False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$Array[0] = False</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">When this function returns successfully, the read position in the event log is adjusted by the number of records read.</source>
+<seg-source><mrk mid="0" mtype="seg">When this function returns successfully, the read position in the event log is adjusted by the number of records read.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When this function returns successfully, the read position in the event log is adjusted by the number of records read.</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"> Though multiple records can be read, this function returns one record at a time for sanity sake.</source>
+<seg-source> <mrk mid="0" mtype="seg">Though multiple records can be read, this function returns one record at a time for sanity sake.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Though multiple records can be read, this function returns one record at a time for sanity sake.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">EventLog</source>
+<seg-source><mrk mid="0" mtype="seg">EventLog</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">EventLog</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Read most current event record</source>
+<seg-source><mrk mid="0" mtype="seg">Read most current event record</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Read most current event record</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Application</source>
+<seg-source><mrk mid="0" mtype="seg">Application</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Application</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">read last event</source>
+<seg-source><mrk mid="0" mtype="seg">read last event</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">read last event</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">$hEventLog = _EventLog__Open("", "System")</source>
+<seg-source><mrk mid="0" mtype="seg">$hEventLog = _EventLog__Open("", "System")</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$hEventLog = _EventLog__Open("", "System")</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">$aEvent = _EventLog__Read($hEventLog)</source>
+<seg-source><mrk mid="0" mtype="seg">$aEvent = _EventLog__Read($hEventLog)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$aEvent = _EventLog__Read($hEventLog)</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">$aEvent = _EventLog__Read($hEventLog, True, False)</source>
+<seg-source><mrk mid="0" mtype="seg">$aEvent = _EventLog__Read($hEventLog, True, False)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$aEvent = _EventLog__Read($hEventLog, True, False)</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Result ............:</source>
+<seg-source><mrk mid="0" mtype="seg">Result ............:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Result ............:</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Record number .....:</source>
+<seg-source><mrk mid="0" mtype="seg">Record number .....:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Record number .....:</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Submitted .........:</source>
+<seg-source><mrk mid="0" mtype="seg">Submitted .........:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Submitted .........:</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Generated .........:</source>
+<seg-source><mrk mid="0" mtype="seg">Generated .........:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Generated .........:</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Event ID ..........:</source>
+<seg-source><mrk mid="0" mtype="seg">Event ID ..........:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Event ID ..........:</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Type ..............:</source>
+<seg-source><mrk mid="0" mtype="seg">Type ..............:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Type ..............:</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Category ..........:</source>
+<seg-source><mrk mid="0" mtype="seg">Category ..........:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Category ..........:</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Source ............:</source>
+<seg-source><mrk mid="0" mtype="seg">Source ............:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source ............:</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">Computer ..........:</source>
+<seg-source><mrk mid="0" mtype="seg">Computer ..........:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Computer ..........:</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Username ..........:</source>
+<seg-source><mrk mid="0" mtype="seg">Username ..........:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Username ..........:</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Description .......:</source>
+<seg-source><mrk mid="0" mtype="seg">Description .......:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Description .......:</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">Write a line to the memo control</source>
+<seg-source><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUIToolTip_SetDelayTime.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the initial, pop-up, and reshow durations of a ToolTip</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the initial, pop-up, and reshow durations of a ToolTip</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the initial, pop-up, and reshow durations of a ToolTip</mrk></target>
+<note>Function _GUIToolTip_SetDelayTime</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> Handle to the ToolTip control (returned by <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_Create.htm"></bpt>_GUIToolTip_Create.<ept id="1">&lt;/a></ept>) </source>
+<seg-source> <mrk mid="0" mtype="seg">Handle to the ToolTip control (returned by <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_Create.htm"></bpt>_GUIToolTip_Create.<ept id="1">&lt;/a></ept>)</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Handle to the ToolTip control (returned by <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_Create.htm"></bpt>_GUIToolTip_Create.<ept id="1">&lt;/a></ept>)</mrk> </target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Flag that specifies which duration value will be set:</source>
+<seg-source><mrk mid="0" mtype="seg">Flag that specifies which duration value will be set:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Flag that specifies which duration value will be set:</mrk></target>
+<note>$iDuration</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $TTDT_AUTOMATIC (0) - Set all three delay times to default proportions. (see remarks)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TTDT_AUTOMATIC (0) - Set all three delay times to default proportions.</mrk> <mrk mid="1" mtype="seg">(see remarks)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TTDT_AUTOMATIC (0) - Set all three delay times to default proportions.</mrk> <mrk mid="1" mtype="seg">(see remarks)</mrk></target>
+<note>$iDuration</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $TTDT_RESHOW (1) - Time it takes for subsequent ToolTip windows to appear as the pointer moves from one tool to another</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TTDT_RESHOW (1) - Time it takes for subsequent ToolTip windows to appear as the pointer moves from one tool to another</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TTDT_RESHOW (1) - Time it takes for subsequent ToolTip windows to appear as the pointer moves from one tool to another</mrk></target>
+<note>$iDuration</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $TTDT_AUTOPOP (2) - Time the ToolTip window remains visible if the pointer is stationary within a tool's bounding rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TTDT_AUTOPOP (2) - Time the ToolTip window remains visible if the pointer is stationary within a tool's bounding rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TTDT_AUTOPOP (2) - Time the ToolTip window remains visible if the pointer is stationary within a tool's bounding rectangle</mrk></target>
+<note>$iDuration</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $TTDT_INITIAL (3) - Time the pointer must remain stationary within a tool's bounding rectangle before the window appears</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TTDT_INITIAL (3) - Time the pointer must remain stationary within a tool's bounding rectangle before the window appears</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TTDT_INITIAL (3) - Time the pointer must remain stationary within a tool's bounding rectangle before the window appears</mrk></target>
+<note>$iDuration</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Delay time in milliseconds</source>
+<seg-source><mrk mid="0" mtype="seg">Delay time in milliseconds</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delay time in milliseconds</mrk></target>
+<note>$iTime</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">None.</source>
+<seg-source><mrk mid="0" mtype="seg">None.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">The default delay times are based on the double-click time. The autopop time will be ten times the initial time and the reshow time will be one fifth the initial time.</source>
+<seg-source><mrk mid="0" mtype="seg">The default delay times are based on the double-click time.</mrk> <mrk mid="1" mtype="seg">The autopop time will be ten times the initial time and the reshow time will be one fifth the initial time.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The default delay times are based on the double-click time.</mrk> <mrk mid="1" mtype="seg">The autopop time will be ten times the initial time and the reshow time will be one fifth the initial time.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> For the default double-click time of 500 ms, the initial, autopop, and reshow delay times are 500ms, 5000ms, and 100ms respectively.</source>
+<seg-source> <mrk mid="0" mtype="seg">For the default double-click time of 500 ms, the initial, autopop, and reshow delay times are 500ms, 5000ms, and 100ms respectively.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For the default double-click time of 500 ms, the initial, autopop, and reshow delay times are 500ms, 5000ms, and 100ms respectively.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> If the $iDuration flag is set to $TTDT_AUTOMATIC, use a positive value of $iTime to specify the initial time, in milliseconds. Set $iTime to a negative value to return all three delay times to their default values.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the $iDuration flag is set to $TTDT_AUTOMATIC, use a positive value of $iTime to specify the initial time, in milliseconds.</mrk> <mrk mid="1" mtype="seg">Set $iTime to a negative value to return all three delay times to their default values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the $iDuration flag is set to $TTDT_AUTOMATIC, use a positive value of $iTime to specify the initial time, in milliseconds.</mrk> <mrk mid="1" mtype="seg">Set $iTime to a negative value to return all three delay times to their default values.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">.exe</source>
+<seg-source><mrk mid="0" mtype="seg">.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.exe</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Button ToolTip</source>
+<seg-source><mrk mid="0" mtype="seg">Button ToolTip</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Button ToolTip</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Create a tooltip control</source>
+<seg-source><mrk mid="0" mtype="seg">Create a tooltip control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a tooltip control</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Add a tool to the tooltip control</source>
+<seg-source><mrk mid="0" mtype="seg">Add a tool to the tooltip control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add a tool to the tooltip control</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">This is the ToolTip text</source>
+<seg-source><mrk mid="0" mtype="seg">This is the ToolTip text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is the ToolTip text</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">set the time for how long the tooltip displays, to 1500 ms</source>
+<seg-source><mrk mid="0" mtype="seg">set the time for how long the tooltip displays, to 1500 ms</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">set the time for how long the tooltip displays, to 1500 ms</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Retrieve and display the time that the tooltip displays</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve and display the time that the tooltip displays</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve and display the time that the tooltip displays</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Message</source>
+<seg-source><mrk mid="0" mtype="seg">Message</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Message</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Display time :</source>
+<seg-source><mrk mid="0" mtype="seg">Display time :</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display time :</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">ms</source>
+<seg-source><mrk mid="0" mtype="seg">ms</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ms</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Destroy the tooltip control</source>
+<seg-source><mrk mid="0" mtype="seg">Destroy the tooltip control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Destroy the tooltip control</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

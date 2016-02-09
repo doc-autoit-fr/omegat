@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/$tagWINDOWPOS.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Keyword Reference</source>
+<seg-source><mrk mid="0" mtype="seg">Keyword Reference</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Keyword Reference</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">The WINDOWPOS structure contains information about the size and position of a window</source>
+<seg-source><mrk mid="0" mtype="seg">The WINDOWPOS structure contains information about the size and position of a window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The WINDOWPOS structure contains information about the size and position of a window</mrk></target>
+<note>Keyword $tagWINDOWPOS</note>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Handle to the window</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the window</mrk></target>
+<note>hWnd</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Specifies the position of the window in Z order</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the position of the window in Z order</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the position of the window in Z order</mrk></target>
+<note>InsertAfter</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Specifies the position of the left edge of the window</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the position of the left edge of the window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the position of the left edge of the window</mrk></target>
+<note>X</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Specifies the position of the top edge of the window</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the position of the top edge of the window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the position of the top edge of the window</mrk></target>
+<note>Y</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Specifies the window width, in pixels</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the window width, in pixels</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the window width, in pixels</mrk></target>
+<note>CX</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Specifies the window height, in pixels</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the window height, in pixels</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the window height, in pixels</mrk></target>
+<note>CY</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Specifies the window position. This member can be one or more of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the window position.</mrk> <mrk mid="1" mtype="seg">This member can be one or more of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the window position.</mrk> <mrk mid="1" mtype="seg">This member can be one or more of the following values:</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $SWP_DRAWFRAME - Draws a frame around the window</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SWP_DRAWFRAME - Draws a frame around the window</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SWP_DRAWFRAME - Draws a frame around the window</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $SWP_FRAMECHANGED - Sends a WM_NCCALCSIZE message to the window, even if the window's size is not being changed</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SWP_FRAMECHANGED - Sends a WM_NCCALCSIZE message to the window, even if the window's size is not being changed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SWP_FRAMECHANGED - Sends a WM_NCCALCSIZE message to the window, even if the window's size is not being changed</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $SWP_HIDEWINDOW - Hides the window</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SWP_HIDEWINDOW - Hides the window</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SWP_HIDEWINDOW - Hides the window</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $SWP_NOACTIVATE - Does not activate the window</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SWP_NOACTIVATE - Does not activate the window</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SWP_NOACTIVATE - Does not activate the window</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $SWP_NOCOPYBITS - Discards the entire contents of the client area</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SWP_NOCOPYBITS - Discards the entire contents of the client area</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SWP_NOCOPYBITS - Discards the entire contents of the client area</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $SWP_NOMOVE - Retains the current position (ignores the x and y parameters)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SWP_NOMOVE - Retains the current position (ignores the x and y parameters)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SWP_NOMOVE - Retains the current position (ignores the x and y parameters)</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $SWP_NOOWNERZORDER - Does not change the owner window's position in the Z order</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SWP_NOOWNERZORDER - Does not change the owner window's position in the Z order</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SWP_NOOWNERZORDER - Does not change the owner window's position in the Z order</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $SWP_NOREDRAW - Does not redraw changes</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SWP_NOREDRAW - Does not redraw changes</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SWP_NOREDRAW - Does not redraw changes</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $SWP_NOREPOSITION - Same as the SWP_NOOWNERZORDER flag</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SWP_NOREPOSITION - Same as the SWP_NOOWNERZORDER flag</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SWP_NOREPOSITION - Same as the SWP_NOOWNERZORDER flag</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     $SWP_NOSENDCHANGING - Prevents the window from receiving the WM_WINDOWPOSCHANGING message</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SWP_NOSENDCHANGING - Prevents the window from receiving the WM_WINDOWPOSCHANGING message</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SWP_NOSENDCHANGING - Prevents the window from receiving the WM_WINDOWPOSCHANGING message</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     $SWP_NOSIZE - Retains the current size (ignores the cx and cy parameters)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SWP_NOSIZE - Retains the current size (ignores the cx and cy parameters)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SWP_NOSIZE - Retains the current size (ignores the cx and cy parameters)</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     $SWP_NOZORDER - Retains the current Z order (ignores the InsertAfter parameter)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SWP_NOZORDER - Retains the current Z order (ignores the InsertAfter parameter)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SWP_NOZORDER - Retains the current Z order (ignores the InsertAfter parameter)</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">     $SWP_SHOWWINDOW - Displays the window</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SWP_SHOWWINDOW - Displays the window</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SWP_SHOWWINDOW - Displays the window</mrk></target>
+<note>Flags</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

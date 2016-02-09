@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_GetFileID.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the file system's 8-byte file reference number for a file</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the file system's 8-byte file reference number for a file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the file system's 8-byte file reference number for a file</mrk></target>
+<note>Function _WinAPI_GetFileID</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">A handle to the file or directory whose reference number is to be retrieved.</source>
+<seg-source><mrk mid="0" mtype="seg">A handle to the file or directory whose reference number is to be retrieved.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A handle to the file or directory whose reference number is to be retrieved.</mrk></target>
+<note>$hFile</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The 8-byte file reference number for the file.</source>
+<seg-source><mrk mid="0" mtype="seg">The 8-byte file reference number for the file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The 8-byte file reference number for the file.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">0 and sets the @error flag to non-zero, @extended flag may contain the NTSTATUS error code.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the NTSTATUS error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the NTSTATUS error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">The file reference number is assigned by the file system and is file-system-specific.</source>
+<seg-source><mrk mid="0" mtype="seg">The file reference number is assigned by the file system and is file-system-specific.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The file reference number is assigned by the file system and is file-system-specific.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> (Note that this is not the same as the 16-byte "file object ID" that was added to NTFS.)</source>
+<seg-source> <mrk mid="0" mtype="seg">(Note that this is not the same as the 16-byte "file object ID" that was added to NTFS.)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">(Note that this is not the same as the 16-byte "file object ID" that was added to NTFS.)</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> The file reference numbers, also called file IDs, are guaranteed to be unique only within a static file system.</source>
+<seg-source> <mrk mid="0" mtype="seg">The file reference numbers, also called file IDs, are guaranteed to be unique only within a static file system.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The file reference numbers, also called file IDs, are guaranteed to be unique only within a static file system.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> They are not guaranteed to be unique over time, because file systems are free to reuse them.</source>
+<seg-source> <mrk mid="0" mtype="seg">They are not guaranteed to be unique over time, because file systems are free to reuse them.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">They are not guaranteed to be unique over time, because file systems are free to reuse them.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> Nor are they guaranteed to remain constant.</source>
+<seg-source> <mrk mid="0" mtype="seg">Nor are they guaranteed to remain constant.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Nor are they guaranteed to remain constant.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> For example, the FAT file system generates the file reference number for a file from the byte offset of the file's directory entry record (DIRENT) on the disk.</source>
+<seg-source> <mrk mid="0" mtype="seg">For example, the FAT file system generates the file reference number for a file from the byte offset of the file's directory entry record (DIRENT) on the disk.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For example, the FAT file system generates the file reference number for a file from the byte offset of the file's directory entry record (DIRENT) on the disk.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> Defragmentation can change this byte offset.</source>
+<seg-source> <mrk mid="0" mtype="seg">Defragmentation can change this byte offset.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Defragmentation can change this byte offset.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> Thus a FAT file reference number can change over time.</source>
+<seg-source> <mrk mid="0" mtype="seg">Thus a FAT file reference number can change over time.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Thus a FAT file reference number can change over time.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ZwQueryInformationFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ZwQueryInformationFile<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ZwQueryInformationFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ZwQueryInformationFile<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ZwQueryInformationFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ZwQueryInformationFile<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Handle:</source>
+<seg-source><mrk mid="0" mtype="seg">Handle:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle:</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">ID:</source>
+<seg-source><mrk mid="0" mtype="seg">ID:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ID:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_SQLite_QuerySingleRow.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Read out the first row of the result from the specified query</source>
+<seg-source><mrk mid="0" mtype="seg">Read out the first row of the result from the specified query</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Read out the first row of the result from the specified query</mrk></target>
+<note>Function _SQLite_QuerySingleRow</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">An open database, use -1 to use last opened database</source>
+<seg-source><mrk mid="0" mtype="seg">An open database, use -1 to use last opened database</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An open database, use -1 to use last opened database</mrk></target>
+<note>$hDB</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">SQL statement to be executed</source>
+<seg-source><mrk mid="0" mtype="seg">SQL statement to be executed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SQL statement to be executed</mrk></target>
+<note>$sSQL</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Passes out the amount of 'data' rows</source>
+<seg-source><mrk mid="0" mtype="seg">Passes out the amount of 'data' rows</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Passes out the amount of 'data' rows</mrk></target>
+<note>$aRow</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">$SQLITE_OK.</source>
+<seg-source><mrk mid="0" mtype="seg">$SQLITE_OK.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$SQLITE_OK.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">a value that can be compared against $SQLITE_* constants.</source>
+<seg-source><mrk mid="0" mtype="seg">a value that can be compared against $SQLITE_* constants.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a value that can be compared against $SQLITE_* constants.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> -1 - SQLite Reported an Error (Check Return value)</source>
+<seg-source> <mrk mid="0" mtype="seg">-1 - SQLite Reported an Error (Check Return value)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">-1 - SQLite Reported an Error (Check Return value)</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> 1 - Error Calling <bpt id="1" ctype="x-a">&lt;a href="_SQLite_Query.htm"></bpt>_SQLite_Query()<ept id="1">&lt;/a></ept></source>
+<seg-source> <mrk mid="0" mtype="seg">1 - Error Calling <bpt id="1" ctype="x-a">&lt;a href="_SQLite_Query.htm"></bpt>_SQLite_Query()<ept id="1">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 - Error Calling <bpt id="1" ctype="x-a">&lt;a href="_SQLite_Query.htm"></bpt>_SQLite_Query()<ept id="1">&lt;/a></ept></mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> 2 - Call prevented by SafeMode</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - Call prevented by SafeMode</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - Call prevented by SafeMode</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> 3 - Error Calling <bpt id="1" ctype="x-a">&lt;a href="_SQLite_FetchData.htm"></bpt>_SQLite_FetchData()<ept id="1">&lt;/a></ept></source>
+<seg-source> <mrk mid="0" mtype="seg">3 - Error Calling <bpt id="1" ctype="x-a">&lt;a href="_SQLite_FetchData.htm"></bpt>_SQLite_FetchData()<ept id="1">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - Error Calling <bpt id="1" ctype="x-a">&lt;a href="_SQLite_FetchData.htm"></bpt>_SQLite_FetchData()<ept id="1">&lt;/a></ept></mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> 4 - Error Calling <bpt id="1" ctype="x-a">&lt;a href="_SQLite_QueryFinalize.htm"></bpt>_SQLite_QueryFinalize()<ept id="1">&lt;/a></ept> </source>
+<seg-source> <mrk mid="0" mtype="seg">4 - Error Calling <bpt id="1" ctype="x-a">&lt;a href="_SQLite_QueryFinalize.htm"></bpt>_SQLite_QueryFinalize()<ept id="1">&lt;/a></ept></mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 - Error Calling <bpt id="1" ctype="x-a">&lt;a href="_SQLite_QueryFinalize.htm"></bpt>_SQLite_QueryFinalize()<ept id="1">&lt;/a></ept></mrk> </target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">_SQLite_LibVersion=</source>
+<seg-source><mrk mid="0" mtype="seg">_SQLite_LibVersion=</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_SQLite_LibVersion=</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">open :memory: Database</source>
+<seg-source><mrk mid="0" mtype="seg">open :memory:</mrk> <mrk mid="1" mtype="seg">Database</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">open :memory:</mrk> <mrk mid="1" mtype="seg">Database</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">CREATE TEMP TABLE settings (key,value);</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE TEMP TABLE settings (key,value);</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE TEMP TABLE settings (key,value);</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">INSERT INTO settings (key,value) VALUES ('1','setting one');</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT INTO settings (key,value) VALUES ('1','setting one');</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT INTO settings (key,value) VALUES ('1','setting one');</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">INSERT INTO settings (key,value) VALUES ('2','setting two');</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT INTO settings (key,value) VALUES ('2','setting two');</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT INTO settings (key,value) VALUES ('2','setting two');</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">INSERT INTO settings (key,value) VALUES ('3','setting Three');</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT INTO settings (key,value) VALUES ('3','setting Three');</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT INTO settings (key,value) VALUES ('3','setting Three');</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">INSERT INTO settings (key,value) VALUES ('4','setting Four');</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT INTO settings (key,value) VALUES ('4','setting Four');</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT INTO settings (key,value) VALUES ('4','setting Four');</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">SELECT value FROM settings WHERE key > '2';</source>
+<seg-source><mrk mid="0" mtype="seg">SELECT value FROM settings WHERE key > '2';</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECT value FROM settings WHERE key > '2';</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Select single row and single field !</source>
+<seg-source><mrk mid="0" mtype="seg">Select single row and single field !</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Select single row and single field !</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">One of the values for key > 2:</source>
+<seg-source><mrk mid="0" mtype="seg">One of the values for key > 2:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">One of the values for key > 2:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

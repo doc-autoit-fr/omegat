@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_RegEnumKey.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Enumerates the subkeys of the specified open registry key</source>
+<seg-source><mrk mid="0" mtype="seg">Enumerates the subkeys of the specified open registry key</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enumerates the subkeys of the specified open registry key</mrk></target>
+<note>Function _WinAPI_RegEnumKey</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> Handle to an open registry key. The key must have been opened with the $KEY_ENUMERATE_SUB_KEYS access</source>
+<seg-source> <mrk mid="0" mtype="seg">Handle to an open registry key.</mrk> <mrk mid="1" mtype="seg">The key must have been opened with the $KEY_ENUMERATE_SUB_KEYS access</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Handle to an open registry key.</mrk> <mrk mid="1" mtype="seg">The key must have been opened with the $KEY_ENUMERATE_SUB_KEYS access</mrk></target>
+<note>$hKey</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> right. This handle is returned by the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegCreateKey.htm"></bpt>_WinAPI_RegCreateKey()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_RegOpenKey.htm"></bpt>_WinAPI_RegOpenKey()<ept id="2">&lt;/a></ept> function.</source>
+<seg-source> <mrk mid="0" mtype="seg">right.</mrk> <mrk mid="1" mtype="seg">This handle is returned by the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegCreateKey.htm"></bpt>_WinAPI_RegCreateKey()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_RegOpenKey.htm"></bpt>_WinAPI_RegOpenKey()<ept id="2">&lt;/a></ept> function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">right.</mrk> <mrk mid="1" mtype="seg">This handle is returned by the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegCreateKey.htm"></bpt>_WinAPI_RegCreateKey()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_RegOpenKey.htm"></bpt>_WinAPI_RegOpenKey()<ept id="2">&lt;/a></ept> function.</mrk></target>
+<note>$hKey</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> It can also be one of the following predefined keys.</source>
+<seg-source> <mrk mid="0" mtype="seg">It can also be one of the following predefined keys.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">It can also be one of the following predefined keys.</mrk></target>
+<note>$hKey</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> $HKEY_CLASSES_ROOT</source>
+<seg-source> <mrk mid="0" mtype="seg">$HKEY_CLASSES_ROOT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$HKEY_CLASSES_ROOT</mrk></target>
+<note>$hKey</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $HKEY_CURRENT_CONFIG</source>
+<seg-source> <mrk mid="0" mtype="seg">$HKEY_CURRENT_CONFIG</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$HKEY_CURRENT_CONFIG</mrk></target>
+<note>$hKey</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $HKEY_CURRENT_USER</source>
+<seg-source> <mrk mid="0" mtype="seg">$HKEY_CURRENT_USER</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$HKEY_CURRENT_USER</mrk></target>
+<note>$hKey</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $HKEY_LOCAL_MACHINE</source>
+<seg-source> <mrk mid="0" mtype="seg">$HKEY_LOCAL_MACHINE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$HKEY_LOCAL_MACHINE</mrk></target>
+<note>$hKey</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> $HKEY_PERFORMANCE_DATA</source>
+<seg-source> <mrk mid="0" mtype="seg">$HKEY_PERFORMANCE_DATA</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$HKEY_PERFORMANCE_DATA</mrk></target>
+<note>$hKey</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> $HKEY_USERS </source>
+<seg-source> <mrk mid="0" mtype="seg">$HKEY_USERS</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$HKEY_USERS</mrk> </target>
+<note>$hKey</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> The index of the subkey to retrieve. This parameter should be zero for the first call to the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegEnumKey.htm"></bpt>_WinAPI_RegEnumKey()<ept id="1">&lt;/a></ept></source>
+<seg-source> <mrk mid="0" mtype="seg">The index of the subkey to retrieve.</mrk> <mrk mid="1" mtype="seg">This parameter should be zero for the first call to the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegEnumKey.htm"></bpt>_WinAPI_RegEnumKey()<ept id="1">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The index of the subkey to retrieve.</mrk> <mrk mid="1" mtype="seg">This parameter should be zero for the first call to the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegEnumKey.htm"></bpt>_WinAPI_RegEnumKey()<ept id="1">&lt;/a></ept></mrk></target>
+<note>$iIndex</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> function and then incremented for subsequent calls. </source>
+<seg-source> <mrk mid="0" mtype="seg">function and then incremented for subsequent calls.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">function and then incremented for subsequent calls.</mrk> </target>
+<note>$iIndex</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">The string that contains the name of the subkey.</source>
+<seg-source><mrk mid="0" mtype="seg">The string that contains the name of the subkey.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The string that contains the name of the subkey.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Sets the @error flag to non-zero, @extended flag may contain the system error code.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the @error flag to non-zero, @extended flag may contain the system error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the @error flag to non-zero, @extended flag may contain the system error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">To enumerate subkeys, an application should initially call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegEnumKey.htm"></bpt>_WinAPI_RegEnumKey()<ept id="1">&lt;/a></ept> function with the $iIndex</source>
+<seg-source><mrk mid="0" mtype="seg">To enumerate subkeys, an application should initially call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegEnumKey.htm"></bpt>_WinAPI_RegEnumKey()<ept id="1">&lt;/a></ept> function with the $iIndex</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To enumerate subkeys, an application should initially call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegEnumKey.htm"></bpt>_WinAPI_RegEnumKey()<ept id="1">&lt;/a></ept> function with the $iIndex</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> parameter set to zero. The application should then increment the $iIndex parameter and call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegEnumKey.htm"></bpt>_WinAPI_RegEnumKey()<ept id="1">&lt;/a></ept></source>
+<seg-source> <mrk mid="0" mtype="seg">parameter set to zero.</mrk> <mrk mid="1" mtype="seg">The application should then increment the $iIndex parameter and call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegEnumKey.htm"></bpt>_WinAPI_RegEnumKey()<ept id="1">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">parameter set to zero.</mrk> <mrk mid="1" mtype="seg">The application should then increment the $iIndex parameter and call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegEnumKey.htm"></bpt>_WinAPI_RegEnumKey()<ept id="1">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> until there are no more subkeys (meaning the @extended flag sets to ERROR_NO_MORE_ITEMS (259)).</source>
+<seg-source> <mrk mid="0" mtype="seg">until there are no more subkeys (meaning the @extended flag sets to ERROR_NO_MORE_ITEMS (259)).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">until there are no more subkeys (meaning the @extended flag sets to ERROR_NO_MORE_ITEMS (259)).</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> The application can also set $iIndex to the index of the last subkey on the first call to the function and</source>
+<seg-source> <mrk mid="0" mtype="seg">The application can also set $iIndex to the index of the last subkey on the first call to the function and</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The application can also set $iIndex to the index of the last subkey on the first call to the function and</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> decrement the index until the subkey with the index 0 is enumerated. To retrieve the index of the last subkey,</source>
+<seg-source> <mrk mid="0" mtype="seg">decrement the index until the subkey with the index 0 is enumerated.</mrk> <mrk mid="1" mtype="seg">To retrieve the index of the last subkey,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">decrement the index until the subkey with the index 0 is enumerated.</mrk> <mrk mid="1" mtype="seg">To retrieve the index of the last subkey,</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> use the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegQueryInfoKey.htm"></bpt>_WinAPI_RegQueryInfoKey()<ept id="1">&lt;/a></ept> function.</source>
+<seg-source> <mrk mid="0" mtype="seg">use the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegQueryInfoKey.htm"></bpt>_WinAPI_RegQueryInfoKey()<ept id="1">&lt;/a></ept> function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">use the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegQueryInfoKey.htm"></bpt>_WinAPI_RegQueryInfoKey()<ept id="1">&lt;/a></ept> function.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> While an application is using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegEnumKey.htm"></bpt>_WinAPI_RegEnumKey()<ept id="1">&lt;/a></ept> function, it should not make calls to any registration</source>
+<seg-source> <mrk mid="0" mtype="seg">While an application is using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegEnumKey.htm"></bpt>_WinAPI_RegEnumKey()<ept id="1">&lt;/a></ept> function, it should not make calls to any registration</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">While an application is using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_RegEnumKey.htm"></bpt>_WinAPI_RegEnumKey()<ept id="1">&lt;/a></ept> function, it should not make calls to any registration</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> functions that might change the key being enumerated.</source>
+<seg-source> <mrk mid="0" mtype="seg">functions that might change the key being enumerated.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">functions that might change the key being enumerated.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RegEnumKeyEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RegEnumKeyEx<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RegEnumKeyEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RegEnumKeyEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RegEnumKeyEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RegEnumKeyEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">CLSID</source>
+<seg-source><mrk mid="0" mtype="seg">CLSID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CLSID</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">_WinAPI_RegEnumKey</source>
+<seg-source><mrk mid="0" mtype="seg">_WinAPI_RegEnumKey</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinAPI_RegEnumKey</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

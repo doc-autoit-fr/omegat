@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/TrayTip.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Displays a balloon tip from the AutoIt Icon.</source>
+<seg-source><mrk mid="0" mtype="seg">Displays a balloon tip from the AutoIt Icon.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Displays a balloon tip from the AutoIt Icon.</mrk></target>
+<note>Function TrayTip</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Text appears in bold at the top of the balloon tip. (63 characters maximum)</source>
+<seg-source><mrk mid="0" mtype="seg">Text appears in bold at the top of the balloon tip.</mrk> <mrk mid="1" mtype="seg">(63 characters maximum)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text appears in bold at the top of the balloon tip.</mrk> <mrk mid="1" mtype="seg">(63 characters maximum)</mrk></target>
+<note>title</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Message the balloon tip will display. (255 characters maximum)</source>
+<seg-source><mrk mid="0" mtype="seg">Message the balloon tip will display.</mrk> <mrk mid="1" mtype="seg">(255 characters maximum)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Message the balloon tip will display.</mrk> <mrk mid="1" mtype="seg">(255 characters maximum)</mrk></target>
+<note>text</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">A rough estimate of the time (in seconds) the balloon tip should be displayed. (Windows has a min and max of about 10-30 seconds but does not always honor a time in that range.)</source>
+<seg-source><mrk mid="0" mtype="seg">A rough estimate of the time (in seconds) the balloon tip should be displayed.</mrk> <mrk mid="1" mtype="seg">(Windows has a min and max of about 10-30 seconds but does not always honor a time in that range.)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A rough estimate of the time (in seconds) the balloon tip should be displayed.</mrk> <mrk mid="1" mtype="seg">(Windows has a min and max of about 10-30 seconds but does not always honor a time in that range.)</mrk></target>
+<note>timeout</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk></target>
+<note>option</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $TIP_ICONNONE (0) = No icon (default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TIP_ICONNONE (0) = No icon (default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TIP_ICONNONE (0) = No icon (default)</mrk></target>
+<note>option</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $TIP_ICONASTERISK (1) = Info icon</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TIP_ICONASTERISK (1) = Info icon</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TIP_ICONASTERISK (1) = Info icon</mrk></target>
+<note>option</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $TIP_ICONEXCLAMATION (2) = Warning icon</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TIP_ICONEXCLAMATION (2) = Warning icon</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TIP_ICONEXCLAMATION (2) = Warning icon</mrk></target>
+<note>option</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $TIP_ICONHAND (3) = Error icon</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TIP_ICONHAND (3) = Error icon</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TIP_ICONHAND (3) = Error icon</mrk></target>
+<note>option</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $TIP_NOSOUND (16) = Disable sound</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TIP_NOSOUND (16) = Disable sound</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TIP_NOSOUND (16) = Disable sound</mrk></target>
+<note>option</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> Constants are defined in TrayConstants.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in TrayConstants.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in TrayConstants.au3.</mrk></target>
+<note>option</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">None.</source>
+<seg-source><mrk mid="0" mtype="seg">None.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">A Tray tip will close if the AutoIt tray icon disappears. Consequently, the <bpt id="1" ctype="x-a">&lt;a href="TrayTip.htm"></bpt>TrayTip()<ept id="1">&lt;/a></ept> may not appear if <bpt id="2" ctype="x-a">&lt;a href="AutoItSetOption.htm#TrayIconHide"></bpt>Opt("TrayIconHide", 1)<ept id="2">&lt;/a></ept> is set or if the user has disabled balloon tips via registry settings!</source>
+<seg-source><mrk mid="0" mtype="seg">A Tray tip will close if the AutoIt tray icon disappears.</mrk> <mrk mid="1" mtype="seg">Consequently, the <bpt id="1" ctype="x-a">&lt;a href="TrayTip.htm"></bpt>TrayTip()<ept id="1">&lt;/a></ept> may not appear if <bpt id="2" ctype="x-a">&lt;a href="AutoItSetOption.htm#TrayIconHide"></bpt>Opt("TrayIconHide", 1)<ept id="2">&lt;/a></ept> is set or if the user has disabled balloon tips via registry settings!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A Tray tip will close if the AutoIt tray icon disappears.</mrk> <mrk mid="1" mtype="seg">Consequently, the <bpt id="1" ctype="x-a">&lt;a href="TrayTip.htm"></bpt>TrayTip()<ept id="1">&lt;/a></ept> may not appear if <bpt id="2" ctype="x-a">&lt;a href="AutoItSetOption.htm#TrayIconHide"></bpt>Opt("TrayIconHide", 1)<ept id="2">&lt;/a></ept> is set or if the user has disabled balloon tips via registry settings!</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> Windows XP usually plays a sound when displaying a balloon tip. This sound can be disabled by adding $TIP_NOSOUND to the <bpt id="1" ctype="x-em">&lt;em></bpt>option<ept id="1">&lt;/em></ept> parameter or by setting an empty title.</source>
+<seg-source> <mrk mid="0" mtype="seg">Windows XP usually plays a sound when displaying a balloon tip.</mrk> <mrk mid="1" mtype="seg">This sound can be disabled by adding $TIP_NOSOUND to the <bpt id="1" ctype="x-em">&lt;em></bpt>option<ept id="1">&lt;/em></ept> parameter or by setting an empty title.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Windows XP usually plays a sound when displaying a balloon tip.</mrk> <mrk mid="1" mtype="seg">This sound can be disabled by adding $TIP_NOSOUND to the <bpt id="1" ctype="x-em">&lt;em></bpt>option<ept id="1">&lt;/em></ept> parameter or by setting an empty title.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> To clear a balloon tip that is being displayed, call another tip with an empty text string (and any title).</source>
+<seg-source> <mrk mid="0" mtype="seg">To clear a balloon tip that is being displayed, call another tip with an empty text string (and any title).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To clear a balloon tip that is being displayed, call another tip with an empty text string (and any title).</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="MsgBox.htm"></bpt>MsgBox<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="ToolTip.htm"></bpt>ToolTip<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="AutoItSetOption.htm#TrayIconHide"></bpt>TrayIconHide (Option)<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="TraySetToolTip.htm"></bpt>TraySetToolTip<ept id="4">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="MsgBox.htm"></bpt>MsgBox<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="ToolTip.htm"></bpt>ToolTip<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="AutoItSetOption.htm#TrayIconHide"></bpt>TrayIconHide (Option)<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="TraySetToolTip.htm"></bpt>TraySetToolTip<ept id="4">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="MsgBox.htm"></bpt>MsgBox<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="ToolTip.htm"></bpt>ToolTip<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="AutoItSetOption.htm#TrayIconHide"></bpt>TrayIconHide (Option)<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="TraySetToolTip.htm"></bpt>TraySetToolTip<ept id="4">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">I'm a title</source>
+<seg-source><mrk mid="0" mtype="seg">I'm a title</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">I'm a title</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">I'm the message</source>
+<seg-source><mrk mid="0" mtype="seg">I'm the message</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">I'm the message</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Press OK to reset the tip.</source>
+<seg-source><mrk mid="0" mtype="seg">Press OK to reset the tip.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Press OK to reset the tip.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">clears any tray tip</source>
+<seg-source><mrk mid="0" mtype="seg">clears any tray tip</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">clears any tray tip</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Press OK to see another tip.</source>
+<seg-source><mrk mid="0" mtype="seg">Press OK to see another tip.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Press OK to see another tip.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">A different tray tip.</source>
+<seg-source><mrk mid="0" mtype="seg">A different tray tip.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A different tray tip.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

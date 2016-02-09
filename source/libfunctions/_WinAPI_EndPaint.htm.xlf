@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_EndPaint.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Marks the end of painting in the specified window</source>
+<seg-source><mrk mid="0" mtype="seg">Marks the end of painting in the specified window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Marks the end of painting in the specified window</mrk></target>
+<note>Function _WinAPI_EndPaint</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the window that has been repainted.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the window that has been repainted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the window that has been repainted.</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> $tagPAINTSTRUCT structure that contains the painting information retrieved by <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_BeginPaint.htm"></bpt>_WinAPI_BeginPaint()<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">$tagPAINTSTRUCT structure that contains the painting information retrieved by <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_BeginPaint.htm"></bpt>_WinAPI_BeginPaint()<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$tagPAINTSTRUCT structure that contains the painting information retrieved by <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_BeginPaint.htm"></bpt>_WinAPI_BeginPaint()<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>$tPAINTSTRUCT</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Returns always True</source>
+<seg-source><mrk mid="0" mtype="seg">Returns always True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns always True</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">This function is required for each call to the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_BeginPaint.htm"></bpt>_WinAPI_BeginPaint()<ept id="1">&lt;/a></ept> function, but only after painting is complete.</source>
+<seg-source><mrk mid="0" mtype="seg">This function is required for each call to the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_BeginPaint.htm"></bpt>_WinAPI_BeginPaint()<ept id="1">&lt;/a></ept> function, but only after painting is complete.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function is required for each call to the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_BeginPaint.htm"></bpt>_WinAPI_BeginPaint()<ept id="1">&lt;/a></ept> function, but only after painting is complete.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EndPaint);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EndPaint<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EndPaint);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EndPaint<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EndPaint);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EndPaint<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">MouseCoordMode</source>
+<seg-source><mrk mid="0" mtype="seg">MouseCoordMode</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MouseCoordMode</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">OnAutoItExit</source>
+<seg-source><mrk mid="0" mtype="seg">OnAutoItExit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OnAutoItExit</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Extract icon</source>
+<seg-source><mrk mid="0" mtype="seg">Extract icon</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Extract icon</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">\shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">\shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Register label window proc</source>
+<seg-source><mrk mid="0" mtype="seg">Register label window proc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Register label window proc</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">_WinProc</source>
+<seg-source><mrk mid="0" mtype="seg">_WinProc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinProc</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">ptr</source>
+<seg-source><mrk mid="0" mtype="seg">ptr</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ptr</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">hwnd;uint;wparam;lparam</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd;uint;wparam;lparam</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd;uint;wparam;lparam</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Create gradient</source>
+<seg-source><mrk mid="0" mtype="seg">Create gradient</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create gradient</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Set gradient to control</source>
+<seg-source><mrk mid="0" mtype="seg">Set gradient to control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set gradient to control</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

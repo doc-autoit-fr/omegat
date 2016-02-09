@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/InetGet.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Downloads a file from the internet using the HTTP, HTTPS or FTP protocol.</source>
+<seg-source><mrk mid="0" mtype="seg">Downloads a file from the internet using the HTTP, HTTPS or FTP protocol.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Downloads a file from the internet using the HTTP, HTTPS or FTP protocol.</mrk></target>
+<note>Function InetGet</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">URL of the file to download. See remarks below.</source>
+<seg-source><mrk mid="0" mtype="seg">URL of the file to download.</mrk> <mrk mid="1" mtype="seg">See remarks below.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">URL of the file to download.</mrk> <mrk mid="1" mtype="seg">See remarks below.</mrk></target>
+<note>URL</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Local filename to download to.</source>
+<seg-source><mrk mid="0" mtype="seg">Local filename to download to.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Local filename to download to.</mrk></target>
+<note>filename</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept>$INET_LOCALCACHE (0) = Get the file from local cache if available (default).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept>$INET_LOCALCACHE (0) = Get the file from local cache if available (default).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept>$INET_LOCALCACHE (0) = Get the file from local cache if available (default).</mrk></target>
+<note>options</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $INET_FORCERELOAD (1) = Forces a reload from the remote site.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INET_FORCERELOAD (1) = Forces a reload from the remote site.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INET_FORCERELOAD (1) = Forces a reload from the remote site.</mrk></target>
+<note>options</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $INET_IGNORESSL (2) = Ignore all SSL errors (with HTTPS connections).</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INET_IGNORESSL (2) = Ignore all SSL errors (with HTTPS connections).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INET_IGNORESSL (2) = Ignore all SSL errors (with HTTPS connections).</mrk></target>
+<note>options</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $INET_ASCIITRANSFER (4) = Use ASCII when transferring files with the FTP protocol (Can not be combined with flag $INET_BINARYTRANSFER (8)).</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INET_ASCIITRANSFER (4) = Use ASCII when transferring files with the FTP protocol (Can not be combined with flag $INET_BINARYTRANSFER (8)).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INET_ASCIITRANSFER (4) = Use ASCII when transferring files with the FTP protocol (Can not be combined with flag $INET_BINARYTRANSFER (8)).</mrk></target>
+<note>options</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $INET_BINARYTRANSFER (8) = Use BINARY when transferring files with the FTP protocol (Can not be combined with flag $INET_ASCIITRANSFER (4)). This is the default transfer mode if none are provided.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INET_BINARYTRANSFER (8) = Use BINARY when transferring files with the FTP protocol (Can not be combined with flag $INET_ASCIITRANSFER (4)).</mrk> <mrk mid="1" mtype="seg">This is the default transfer mode if none are provided.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INET_BINARYTRANSFER (8) = Use BINARY when transferring files with the FTP protocol (Can not be combined with flag $INET_ASCIITRANSFER (4)).</mrk> <mrk mid="1" mtype="seg">This is the default transfer mode if none are provided.</mrk></target>
+<note>options</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $INET_FORCEBYPASS (16) = By-pass forcing the connection online (See remarks).</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INET_FORCEBYPASS (16) = By-pass forcing the connection online (See remarks).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INET_FORCEBYPASS (16) = By-pass forcing the connection online (See remarks).</mrk></target>
+<note>options</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> Constants are defined in InetConstants.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in InetConstants.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in InetConstants.au3.</mrk></target>
+<note>options</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk></target>
+<note>background</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $INET_DOWNLOADWAIT (0) = Wait until the download is complete before continuing (default).</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INET_DOWNLOADWAIT (0) = Wait until the download is complete before continuing (default).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INET_DOWNLOADWAIT (0) = Wait until the download is complete before continuing (default).</mrk></target>
+<note>background</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $INET_DOWNLOADBACKGROUND (1) = return immediately and download in the background (see remarks).</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INET_DOWNLOADBACKGROUND (1) = return immediately and download in the background (see remarks).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INET_DOWNLOADBACKGROUND (1) = return immediately and download in the background (see remarks).</mrk></target>
+<note>background</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> Constants are defined in InetConstants.au3</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in InetConstants.au3</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in InetConstants.au3</mrk></target>
+<note>background</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">the return value changes depending on if the download is in the background:</source>
+<seg-source><mrk mid="0" mtype="seg">the return value changes depending on if the download is in the background:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the return value changes depending on if the download is in the background:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> Background: a handle is returned.</source>
+<seg-source> <mrk mid="0" mtype="seg">Background: a handle is returned.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Background: a handle is returned.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> Wait: the number of bytes downloaded.</source>
+<seg-source> <mrk mid="0" mtype="seg">Wait: the number of bytes downloaded.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Wait: the number of bytes downloaded.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Background: a handle is returned.</source>
+<seg-source><mrk mid="0" mtype="seg">Background: a handle is returned.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Background: a handle is returned.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> Wait: 0 and sets the flag to non-zero.</source>
+<seg-source> <mrk mid="0" mtype="seg">Wait:</mrk> <mrk mid="1" mtype="seg">0 and sets the flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Wait:</mrk> <mrk mid="1" mtype="seg">0 and sets the flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Internet Explorer 3 or greater must be installed for this function to work.</source>
+<seg-source><mrk mid="0" mtype="seg">Internet Explorer 3 or greater must be installed for this function to work.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Internet Explorer 3 or greater must be installed for this function to work.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> Use the returned handle with <bpt id="1" ctype="x-a">&lt;a href="InetGetInfo.htm"></bpt>InetGetInfo()<ept id="1">&lt;/a></ept> to determine if there was an error with the download.</source>
+<seg-source> <mrk mid="0" mtype="seg">Use the returned handle with <bpt id="1" ctype="x-a">&lt;a href="InetGetInfo.htm"></bpt>InetGetInfo()<ept id="1">&lt;/a></ept> to determine if there was an error with the download.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Use the returned handle with <bpt id="1" ctype="x-a">&lt;a href="InetGetInfo.htm"></bpt>InetGetInfo()<ept id="1">&lt;/a></ept> to determine if there was an error with the download.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> The returned handle must be closed with <bpt id="1" ctype="x-a">&lt;a href="InetClose.htm"></bpt>InetClose()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">The returned handle must be closed with <bpt id="1" ctype="x-a">&lt;a href="InetClose.htm"></bpt>InetClose()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The returned handle must be closed with <bpt id="1" ctype="x-a">&lt;a href="InetClose.htm"></bpt>InetClose()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> The URL parameter should be in the form "http://www.somesite.com/path/file.html" - just like an address you would type into your web browser.</source>
+<seg-source> <mrk mid="0" mtype="seg">The URL parameter should be in the form "http://www.somesite.com/path/file.html" - just like an address you would type into your web browser.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The URL parameter should be in the form "http://www.somesite.com/path/file.html" - just like an address you would type into your web browser.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> To use a username and password when connecting simply prefix the servername with "username:password@", e.g.</source>
+<seg-source> <mrk mid="0" mtype="seg">To use a username and password when connecting simply prefix the servername with "username:password@", e.g.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To use a username and password when connecting simply prefix the servername with "username:password@", e.g.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> "http://myuser:mypassword@www.somesite.com"</source>
+<seg-source> <mrk mid="0" mtype="seg">"http://myuser:mypassword@www.somesite.com"</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">"http://myuser:mypassword@www.somesite.com"</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>Notes about the "background" Parameter<ept id="1">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Notes about the "background" Parameter<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Notes about the "background" Parameter<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en"> By default the function waits until the download has finished before returning. If the <bpt id="1" ctype="x-strong">&lt;strong></bpt>background<ept id="1">&lt;/strong></ept> parameter is set to $INET_DOWNLOADBACKGROUND (1) the function returns immediately and the download continues in the background. The function <bpt id="1" ctype="x-a">&lt;a href="InetGetInfo.htm"></bpt>InetGetInfo()<ept id="1">&lt;/a></ept> can be used to check the status of the download. It takes the handle returned from <bpt id="1" ctype="x-a">&lt;a href="InetGet.htm"></bpt>InetGet()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">By default the function waits until the download has finished before returning.</mrk> <mrk mid="1" mtype="seg">If the <bpt id="1" ctype="x-strong">&lt;strong></bpt>background<ept id="1">&lt;/strong></ept> parameter is set to $INET_DOWNLOADBACKGROUND (1) the function returns immediately and the download continues in the background.</mrk> <mrk mid="2" mtype="seg">The function <bpt id="1" ctype="x-a">&lt;a href="InetGetInfo.htm"></bpt>InetGetInfo()<ept id="1">&lt;/a></ept> can be used to check the status of the download.</mrk> <mrk mid="3" mtype="seg">It takes the handle returned from <bpt id="1" ctype="x-a">&lt;a href="InetGet.htm"></bpt>InetGet()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">By default the function waits until the download has finished before returning.</mrk> <mrk mid="1" mtype="seg">If the <bpt id="1" ctype="x-strong">&lt;strong></bpt>background<ept id="1">&lt;/strong></ept> parameter is set to $INET_DOWNLOADBACKGROUND (1) the function returns immediately and the download continues in the background.</mrk> <mrk mid="2" mtype="seg">The function <bpt id="1" ctype="x-a">&lt;a href="InetGetInfo.htm"></bpt>InetGetInfo()<ept id="1">&lt;/a></ept> can be used to check the status of the download.</mrk> <mrk mid="3" mtype="seg">It takes the handle returned from <bpt id="1" ctype="x-a">&lt;a href="InetGet.htm"></bpt>InetGet()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en"> Multiple downloads are supported if they are started in background mode.</source>
+<seg-source> <mrk mid="0" mtype="seg">Multiple downloads are supported if they are started in background mode.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Multiple downloads are supported if they are started in background mode.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en"> To abort a download call <bpt id="1" ctype="x-a">&lt;a href="InetClose.htm"></bpt>InetClose()<ept id="1">&lt;/a></ept> and pass it the handle returned by <bpt id="2" ctype="x-a">&lt;a href="InetGet.htm"></bpt>InetGet()<ept id="2">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">To abort a download call <bpt id="1" ctype="x-a">&lt;a href="InetClose.htm"></bpt>InetClose()<ept id="1">&lt;/a></ept> and pass it the handle returned by <bpt id="2" ctype="x-a">&lt;a href="InetGet.htm"></bpt>InetGet()<ept id="2">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To abort a download call <bpt id="1" ctype="x-a">&lt;a href="InetClose.htm"></bpt>InetClose()<ept id="1">&lt;/a></ept> and pass it the handle returned by <bpt id="2" ctype="x-a">&lt;a href="InetGet.htm"></bpt>InetGet()<ept id="2">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en"> By default AutoIt forces a connection before starting a download. For dial-up users this will prompt to go online or dial the modem (depending on how the system is configured). The options value $INET_FORCEBYPASS (16) disables this behavior. Disabling the behavior can be useful for persistent connects (Broadband, LAN). However, it is also required to work around certain issues in Windows Vista and Windows 7.</source>
+<seg-source> <mrk mid="0" mtype="seg">By default AutoIt forces a connection before starting a download.</mrk> <mrk mid="1" mtype="seg">For dial-up users this will prompt to go online or dial the modem (depending on how the system is configured).</mrk> <mrk mid="2" mtype="seg">The options value $INET_FORCEBYPASS (16) disables this behavior.</mrk> <mrk mid="3" mtype="seg">Disabling the behavior can be useful for persistent connects (Broadband, LAN).</mrk> <mrk mid="4" mtype="seg">However, it is also required to work around certain issues in Windows Vista and Windows 7.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">By default AutoIt forces a connection before starting a download.</mrk> <mrk mid="1" mtype="seg">For dial-up users this will prompt to go online or dial the modem (depending on how the system is configured).</mrk> <mrk mid="2" mtype="seg">The options value $INET_FORCEBYPASS (16) disables this behavior.</mrk> <mrk mid="3" mtype="seg">Disabling the behavior can be useful for persistent connects (Broadband, LAN).</mrk> <mrk mid="4" mtype="seg">However, it is also required to work around certain issues in Windows Vista and Windows 7.</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Download a file in the background.</source>
+<seg-source><mrk mid="0" mtype="seg">Download a file in the background.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Download a file in the background.</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Wait for the download to complete.</source>
+<seg-source><mrk mid="0" mtype="seg">Wait for the download to complete.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wait for the download to complete.</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Save the downloaded file to the temporary folder.</source>
+<seg-source><mrk mid="0" mtype="seg">Save the downloaded file to the temporary folder.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Save the downloaded file to the temporary folder.</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Download the file in the background with the selected option of 'force a reload from the remote site.'</source>
+<seg-source><mrk mid="0" mtype="seg">Download the file in the background with the selected option of 'force a reload from the remote site.'</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Download the file in the background with the selected option of 'force a reload from the remote site.'</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">http://www.autoitscript.com/autoit3/files/beta/update.dat</source>
+<seg-source><mrk mid="0" mtype="seg">http://www.autoitscript.com/autoit3/files/beta/update.dat</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">http://www.autoitscript.com/autoit3/files/beta/update.dat</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Wait for the download to complete by monitoring when the 2nd index value of InetGetInfo returns True.</source>
+<seg-source><mrk mid="0" mtype="seg">Wait for the download to complete by monitoring when the 2nd index value of InetGetInfo returns True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wait for the download to complete by monitoring when the 2nd index value of InetGetInfo returns True.</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Retrieve the number of total bytes received and the filesize.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve the number of total bytes received and the filesize.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve the number of total bytes received and the filesize.</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Close the handle returned by InetGet.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the handle returned by InetGet.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the handle returned by InetGet.</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Display details about the total number of bytes read and the filesize.</source>
+<seg-source><mrk mid="0" mtype="seg">Display details about the total number of bytes read and the filesize.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display details about the total number of bytes read and the filesize.</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">The total download size:</source>
+<seg-source><mrk mid="0" mtype="seg">The total download size:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The total download size:</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">The total filesize:</source>
+<seg-source><mrk mid="0" mtype="seg">The total filesize:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The total filesize:</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Delete the file.</source>
+<seg-source><mrk mid="0" mtype="seg">Delete the file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete the file.</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Download a file in the background.</source>
+<seg-source><mrk mid="0" mtype="seg">Download a file in the background.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Download a file in the background.</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Wait for the download to complete.</source>
+<seg-source><mrk mid="0" mtype="seg">Wait for the download to complete.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wait for the download to complete.</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Save the downloaded file to the temporary folder.</source>
+<seg-source><mrk mid="0" mtype="seg">Save the downloaded file to the temporary folder.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Save the downloaded file to the temporary folder.</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Download the file by waiting for it to complete. The option of 'get the file from the local cache' has been selected.</source>
+<seg-source><mrk mid="0" mtype="seg">Download the file by waiting for it to complete.</mrk> <mrk mid="1" mtype="seg">The option of 'get the file from the local cache' has been selected.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Download the file by waiting for it to complete.</mrk> <mrk mid="1" mtype="seg">The option of 'get the file from the local cache' has been selected.</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">http://www.autoitscript.com/autoit3/files/beta/update.dat</source>
+<seg-source><mrk mid="0" mtype="seg">http://www.autoitscript.com/autoit3/files/beta/update.dat</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">http://www.autoitscript.com/autoit3/files/beta/update.dat</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Retrieve the filesize.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve the filesize.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve the filesize.</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Display details about the total number of bytes read and the filesize.</source>
+<seg-source><mrk mid="0" mtype="seg">Display details about the total number of bytes read and the filesize.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display details about the total number of bytes read and the filesize.</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">The total download size:</source>
+<seg-source><mrk mid="0" mtype="seg">The total download size:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The total download size:</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">The total filesize:</source>
+<seg-source><mrk mid="0" mtype="seg">The total filesize:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The total filesize:</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">Delete the file.</source>
+<seg-source><mrk mid="0" mtype="seg">Delete the file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete the file.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/ConsoleWriteError.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Writes data to the STDERR stream. Some text editors can read this stream as can other programs which may be expecting data on this stream.</source>
+<seg-source><mrk mid="0" mtype="seg">Writes data to the STDERR stream.</mrk> <mrk mid="1" mtype="seg">Some text editors can read this stream as can other programs which may be expecting data on this stream.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Writes data to the STDERR stream.</mrk> <mrk mid="1" mtype="seg">Some text editors can read this stream as can other programs which may be expecting data on this stream.</mrk></target>
+<note>Function ConsoleWriteError</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The data you wish to output. This may either be text or binary.</source>
+<seg-source><mrk mid="0" mtype="seg">The data you wish to output.</mrk> <mrk mid="1" mtype="seg">This may either be text or binary.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The data you wish to output.</mrk> <mrk mid="1" mtype="seg">This may either be text or binary.</mrk></target>
+<note>data</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The amount of data written. If writing binary, the number of bytes written, if writing text, the number of characters written.</source>
+<seg-source><mrk mid="0" mtype="seg">The amount of data written.</mrk> <mrk mid="1" mtype="seg">If writing binary, the number of bytes written, if writing text, the number of characters written.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The amount of data written.</mrk> <mrk mid="1" mtype="seg">If writing binary, the number of bytes written, if writing text, the number of characters written.</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">The purpose for this function is to write to the STDERR stream. Many popular text editors can read this stream. Scripts compiled as Console applications also have a STDERR stream.</source>
+<seg-source><mrk mid="0" mtype="seg">The purpose for this function is to write to the STDERR stream.</mrk> <mrk mid="1" mtype="seg">Many popular text editors can read this stream.</mrk> <mrk mid="2" mtype="seg">Scripts compiled as Console applications also have a STDERR stream.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The purpose for this function is to write to the STDERR stream.</mrk> <mrk mid="1" mtype="seg">Many popular text editors can read this stream.</mrk> <mrk mid="2" mtype="seg">Scripts compiled as Console applications also have a STDERR stream.</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>This does not write to a DOS console unless the script is compiled as a console application.<ept id="1">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>This does not write to a DOS console unless the script is compiled as a console application.<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>This does not write to a DOS console unless the script is compiled as a console application.<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> Characters are converted to ANSI before being written.</source>
+<seg-source> <mrk mid="0" mtype="seg">Characters are converted to ANSI before being written.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Characters are converted to ANSI before being written.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> Binary data is written as-is. It will not be converted to a string. To print the hex representation of binary data, use the <bpt id="1" ctype="x-a">&lt;a href="String.htm"></bpt>String()<ept id="1">&lt;/a></ept> function to explicitly cast the data to a string.</source>
+<seg-source> <mrk mid="0" mtype="seg">Binary data is written as-is.</mrk> <mrk mid="1" mtype="seg">It will not be converted to a string.</mrk> <mrk mid="2" mtype="seg">To print the hex representation of binary data, use the <bpt id="1" ctype="x-a">&lt;a href="String.htm"></bpt>String()<ept id="1">&lt;/a></ept> function to explicitly cast the data to a string.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Binary data is written as-is.</mrk> <mrk mid="1" mtype="seg">It will not be converted to a string.</mrk> <mrk mid="2" mtype="seg">To print the hex representation of binary data, use the <bpt id="1" ctype="x-a">&lt;a href="String.htm"></bpt>String()<ept id="1">&lt;/a></ept> function to explicitly cast the data to a string.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">An error occurred.</source>
+<seg-source><mrk mid="0" mtype="seg">An error occurred.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An error occurred.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Running this in a text editor which can trap console output e.g. SciTE, will display value of $sString.</source>
+<seg-source><mrk mid="0" mtype="seg">Running this in a text editor which can trap console output e.g.</mrk> <mrk mid="1" mtype="seg">SciTE, will display value of $sString.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Running this in a text editor which can trap console output e.g.</mrk> <mrk mid="1" mtype="seg">SciTE, will display value of $sString.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

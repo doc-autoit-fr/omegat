@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/$tagGDIPENCODERPARAMS.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Keyword Reference</source>
+<seg-source><mrk mid="0" mtype="seg">Keyword Reference</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Keyword Reference</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">$tagGDIPENCODERPARAMS structure</source>
+<seg-source><mrk mid="0" mtype="seg">$tagGDIPENCODERPARAMS structure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$tagGDIPENCODERPARAMS structure</mrk></target>
+<note>Keyword $tagGDIPENCODERPARAMS</note>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Number of $tagGDIPENCODERPARAM structures in the array</source>
+<seg-source><mrk mid="0" mtype="seg">Number of $tagGDIPENCODERPARAM structures in the array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Number of $tagGDIPENCODERPARAM structures in the array</mrk></target>
+<note>Count</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">First $tagGDIPENCODERPARAM structure of the array</source>
+<seg-source><mrk mid="0" mtype="seg">First $tagGDIPENCODERPARAM structure of the array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">First $tagGDIPENCODERPARAM structure of the array</mrk></target>
+<note>$tagGDIPENCODERPARAM</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Use such kind of code to $i entry being less than the $ibEntries in the $tagGDIPENCODERPARAMS (Count)</source>
+<seg-source><mrk mid="0" mtype="seg">Use such kind of code to $i entry being less than the $ibEntries in the $tagGDIPENCODERPARAMS (Count)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use such kind of code to $i entry being less than the $ibEntries in the $tagGDIPENCODERPARAMS (Count)</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> ; Just to calculate entry size to be OK under x86 or x64</source>
+<seg-source> <mrk mid="0" mtype="seg">; Just to calculate entry size to be OK under x86 or x64</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">; Just to calculate entry size to be OK under x86 or x64</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> Local $tParam = DllStructCreate($tagGDIPENCODERPARAM)</source>
+<seg-source> <mrk mid="0" mtype="seg">Local $tParam = DllStructCreate($tagGDIPENCODERPARAM)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Local $tParam = DllStructCreate($tagGDIPENCODERPARAM)</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> Local $iParamSize = DllStructGetSize($tParam)</source>
+<seg-source> <mrk mid="0" mtype="seg">Local $iParamSize = DllStructGetSize($tParam)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Local $iParamSize = DllStructGetSize($tParam)</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> ; allocate a $tagGDIPENCODERPARAMS structure with $ibEntries</source>
+<seg-source> <mrk mid="0" mtype="seg">; allocate a $tagGDIPENCODERPARAMS structure with $ibEntries</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">; allocate a $tagGDIPENCODERPARAMS structure with $ibEntries</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> Local $ibEntries = 3;</source>
+<seg-source> <mrk mid="0" mtype="seg">Local $ibEntries = 3;</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Local $ibEntries = 3;</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> Local $tParams = DllStructCreate($tagGDIPENCODERPARAMS &amp; "byte[$iEntrySize * ($ibEntries - 1))</source>
+<seg-source> <mrk mid="0" mtype="seg">Local $tParams = DllStructCreate($tagGDIPENCODERPARAMS &amp; "byte[$iEntrySize * ($ibEntries - 1))</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Local $tParams = DllStructCreate($tagGDIPENCODERPARAMS &amp; "byte[$iEntrySize * ($ibEntries - 1))</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> DLLStructSetData($tParams, "Count", $ibEntries)</source>
+<seg-source> <mrk mid="0" mtype="seg">DLLStructSetData($tParams, "Count", $ibEntries)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">DLLStructSetData($tParams, "Count", $ibEntries)</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> ; Reallocate entry structure to point to the desired $i entry (0-based)</source>
+<seg-source> <mrk mid="0" mtype="seg">; Reallocate entry structure to point to the desired $i entry (0-based)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">; Reallocate entry structure to point to the desired $i entry (0-based)</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> Local $i = 1;</source>
+<seg-source> <mrk mid="0" mtype="seg">Local $i = 1;</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Local $i = 1;</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> Local $tParamI = DllStructCreate($tagGDIPENCODERPARAM, DllStructGetPtr($tParams, "GUID") + ($i * $iParamSize))</source>
+<seg-source> <mrk mid="0" mtype="seg">Local $tParamI = DllStructCreate($tagGDIPENCODERPARAM, DllStructGetPtr($tParams, "GUID") + ($i * $iParamSize))</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Local $tParamI = DllStructCreate($tagGDIPENCODERPARAM, DllStructGetPtr($tParams, "GUID") + ($i * $iParamSize))</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> ; we can access the $tagGDIPENCODERPARAM selected entry just using $tParam structure which has been reallocated</source>
+<seg-source> <mrk mid="0" mtype="seg">; we can access the $tagGDIPENCODERPARAM selected entry just using $tParam structure which has been reallocated</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">; we can access the $tagGDIPENCODERPARAM selected entry just using $tParam structure which has been reallocated</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> ; if we only use <bpt id="1" ctype="x-strong">&lt;strong></bpt>one entry<ept id="1">&lt;/strong></ept> the code is <bpt id="2" ctype="x-strong">&lt;strong></bpt>greatly simplified<ept id="2">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg">; if we only use <bpt id="1" ctype="x-strong">&lt;strong></bpt>one entry<ept id="1">&lt;/strong></ept> the code is <bpt id="2" ctype="x-strong">&lt;strong></bpt>greatly simplified<ept id="2">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">; if we only use <bpt id="1" ctype="x-strong">&lt;strong></bpt>one entry<ept id="1">&lt;/strong></ept> the code is <bpt id="2" ctype="x-strong">&lt;strong></bpt>greatly simplified<ept id="2">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> Local $tParams = DllStructCreate($tagGDIPENCODERPARAMS)</source>
+<seg-source> <mrk mid="0" mtype="seg">Local $tParams = DllStructCreate($tagGDIPENCODERPARAMS)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Local $tParams = DllStructCreate($tagGDIPENCODERPARAMS)</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> DLLStructSetData($tParams, "Count", 1)</source>
+<seg-source> <mrk mid="0" mtype="seg">DLLStructSetData($tParams, "Count", 1)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">DLLStructSetData($tParams, "Count", 1)</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> ; the entry can be access directly thru $tParams structure</source>
+<seg-source> <mrk mid="0" mtype="seg">; the entry can be access directly thru $tParams structure</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">; the entry can be access directly thru $tParams structure</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="$tagGDIPENCODERPARAM.htm"></bpt>$tagGDIPENCODERPARAM<ept id="1">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagGDIPENCODERPARAM.htm"></bpt>$tagGDIPENCODERPARAM<ept id="1">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagGDIPENCODERPARAM.htm"></bpt>$tagGDIPENCODERPARAM<ept id="1">&lt;/a></ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

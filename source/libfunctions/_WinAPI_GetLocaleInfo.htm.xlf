@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_GetLocaleInfo.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves information about a locale specified by identifier</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves information about a locale specified by identifier</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves information about a locale specified by identifier</mrk></target>
+<note>Function _WinAPI_GetLocaleInfo</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The locale identifier (LCID) that specifies the locale or one of the following predefined values.</source>
+<seg-source><mrk mid="0" mtype="seg">The locale identifier (LCID) that specifies the locale or one of the following predefined values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The locale identifier (LCID) that specifies the locale or one of the following predefined values.</mrk></target>
+<note>$iLCID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> $LOCALE_INVARIANT</source>
+<seg-source> <mrk mid="0" mtype="seg">$LOCALE_INVARIANT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$LOCALE_INVARIANT</mrk></target>
+<note>$iLCID</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> $LOCALE_SYSTEM_DEFAULT</source>
+<seg-source> <mrk mid="0" mtype="seg">$LOCALE_SYSTEM_DEFAULT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$LOCALE_SYSTEM_DEFAULT</mrk></target>
+<note>$iLCID</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> $LOCALE_USER_DEFAULT</source>
+<seg-source> <mrk mid="0" mtype="seg">$LOCALE_USER_DEFAULT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$LOCALE_USER_DEFAULT</mrk></target>
+<note>$iLCID</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept></mrk></target>
+<note>$iLCID</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $LOCALE_CUSTOM_DEFAULT</source>
+<seg-source> <mrk mid="0" mtype="seg">$LOCALE_CUSTOM_DEFAULT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$LOCALE_CUSTOM_DEFAULT</mrk></target>
+<note>$iLCID</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $LOCALE_CUSTOM_UI_DEFAULT</source>
+<seg-source> <mrk mid="0" mtype="seg">$LOCALE_CUSTOM_UI_DEFAULT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$LOCALE_CUSTOM_UI_DEFAULT</mrk></target>
+<note>$iLCID</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> $LOCALE_CUSTOM_UNSPECIFIED</source>
+<seg-source> <mrk mid="0" mtype="seg">$LOCALE_CUSTOM_UNSPECIFIED</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$LOCALE_CUSTOM_UNSPECIFIED</mrk></target>
+<note>$iLCID</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">The one of the locale information constants ($LOCALE_*) to retrieve.</source>
+<seg-source><mrk mid="0" mtype="seg">The one of the locale information constants ($LOCALE_*) to retrieve.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The one of the locale information constants ($LOCALE_*) to retrieve.</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">String containing the requested information.</source>
+<seg-source><mrk mid="0" mtype="seg">String containing the requested information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String containing the requested information.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> Empty string and sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">Empty string and sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Empty string and sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetLocaleInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetLocaleInfo<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetLocaleInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetLocaleInfo<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetLocaleInfo);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetLocaleInfo<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Language =></source>
+<seg-source><mrk mid="0" mtype="seg">Language =></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Language =></mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Date format =></source>
+<seg-source><mrk mid="0" mtype="seg">Date format =></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Date format =></mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Time format =></source>
+<seg-source><mrk mid="0" mtype="seg">Time format =></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Time format =></mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Currency name =></source>
+<seg-source><mrk mid="0" mtype="seg">Currency name =></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Currency name =></mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Monetary symbol =></source>
+<seg-source><mrk mid="0" mtype="seg">Monetary symbol =></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Monetary symbol =></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

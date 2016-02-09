@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_SQLite_FastEncode.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Fast encodes binary data (exclusively) for use in SQLite statements</source>
+<seg-source><mrk mid="0" mtype="seg">Fast encodes binary data (exclusively) for use in SQLite statements</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Fast encodes binary data (exclusively) for use in SQLite statements</mrk></target>
+<note>Function _SQLite_FastEncode</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Data To be encoded (Binary only)</source>
+<seg-source><mrk mid="0" mtype="seg">Data To be encoded (Binary only)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Data To be encoded (Binary only)</mrk></target>
+<note>$vData</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">an encoded binary string.</source>
+<seg-source><mrk mid="0" mtype="seg">an encoded binary string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an encoded binary string.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">an empty string and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">an empty string and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an empty string and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">1 - Data is not a binary type</source>
+<seg-source><mrk mid="0" mtype="seg">1 - Data is not a binary type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - Data is not a binary type</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">The encoded string is already wrapped with single quotes.</source>
+<seg-source><mrk mid="0" mtype="seg">The encoded string is already wrapped with single quotes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The encoded string is already wrapped with single quotes.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> For example <bpt id="1" ctype="x-a">&lt;a href="../functions/Chr.htm"></bpt>Chr(0)<ept id="1">&lt;/a></ept> &amp; <bpt id="2" ctype="x-a">&lt;a href="../functions/Chr.htm"></bpt>Chr(1)<ept id="2">&lt;/a></ept> would look like X'0001'.</source>
+<seg-source> <mrk mid="0" mtype="seg">For example <bpt id="1" ctype="x-a">&lt;a href="../functions/Chr.htm"></bpt>Chr(0)<ept id="1">&lt;/a></ept> &amp; <bpt id="2" ctype="x-a">&lt;a href="../functions/Chr.htm"></bpt>Chr(1)<ept id="2">&lt;/a></ept> would look like X'0001'.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For example <bpt id="1" ctype="x-a">&lt;a href="../functions/Chr.htm"></bpt>Chr(0)<ept id="1">&lt;/a></ept> &amp; <bpt id="2" ctype="x-a">&lt;a href="../functions/Chr.htm"></bpt>Chr(1)<ept id="2">&lt;/a></ept> would look like X'0001'.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> The encoded string can be decoded by Sqlite and stored in binary state as a BLOB.</source>
+<seg-source> <mrk mid="0" mtype="seg">The encoded string can be decoded by Sqlite and stored in binary state as a BLOB.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The encoded string can be decoded by Sqlite and stored in binary state as a BLOB.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> For strings to be stored as TEXT, use <bpt id="1" ctype="x-a">&lt;a href="_SQLite_Escape.htm"></bpt>_SQLite_Escape()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">For strings to be stored as TEXT, use <bpt id="1" ctype="x-a">&lt;a href="_SQLite_Escape.htm"></bpt>_SQLite_Escape()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For strings to be stored as TEXT, use <bpt id="1" ctype="x-a">&lt;a href="_SQLite_Escape.htm"></bpt>_SQLite_Escape()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> For numeric value to be stored as such, use simple concatenation.</source>
+<seg-source> <mrk mid="0" mtype="seg">For numeric value to be stored as such, use simple concatenation.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For numeric value to be stored as such, use simple concatenation.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">_SQLite_LibVersion=</source>
+<seg-source><mrk mid="0" mtype="seg">_SQLite_LibVersion=</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_SQLite_LibVersion=</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">CREATE TABLE IF NOT EXISTS Test (data blob);</source>
+<seg-source><mrk mid="0" mtype="seg">CREATE TABLE IF NOT EXISTS Test (data blob);</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CREATE TABLE IF NOT EXISTS Test (data blob);</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Hello</source>
+<seg-source><mrk mid="0" mtype="seg">Hello</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hello</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">World</source>
+<seg-source><mrk mid="0" mtype="seg">World</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">World</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">= 48656C6C6F00576F726C64</source>
+<seg-source><mrk mid="0" mtype="seg">= 48656C6C6F00576F726C64</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">= 48656C6C6F00576F726C64</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">INSERT INTO Test VALUES (</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT INTO Test VALUES (</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT INTO Test VALUES (</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">);</source>
+<seg-source><mrk mid="0" mtype="seg">);</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">);</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">= 000D0A</source>
+<seg-source><mrk mid="0" mtype="seg">= 000D0A</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">= 000D0A</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">INSERT INTO Test VALUES (</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT INTO Test VALUES (</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT INTO Test VALUES (</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">);</source>
+<seg-source><mrk mid="0" mtype="seg">);</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">);</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">= 00</source>
+<seg-source><mrk mid="0" mtype="seg">= 00</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">= 00</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">INSERT INTO Test VALUES (</source>
+<seg-source><mrk mid="0" mtype="seg">INSERT INTO Test VALUES (</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INSERT INTO Test VALUES (</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">);</source>
+<seg-source><mrk mid="0" mtype="seg">);</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">);</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">SELECT * FROM Test;</source>
+<seg-source><mrk mid="0" mtype="seg">SELECT * FROM Test;</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SELECT * FROM Test;</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Result</source>
+<seg-source><mrk mid="0" mtype="seg">Result</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Result</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

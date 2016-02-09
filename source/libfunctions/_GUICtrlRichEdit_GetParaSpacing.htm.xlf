@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUICtrlRichEdit_GetParaSpacing.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Gets the spacing settings of (first) selected paragraph or (if no selection) of the current paragraph</source>
+<seg-source><mrk mid="0" mtype="seg">Gets the spacing settings of (first) selected paragraph or (if no selection) of the current paragraph</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Gets the spacing settings of (first) selected paragraph or (if no selection) of the current paragraph</mrk></target>
+<note>Function _GUICtrlRichEdit_GetParaSpacing</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">a string consisting of the settings separated by semicolons (;):</source>
+<seg-source><mrk mid="0" mtype="seg">a string consisting of the settings separated by semicolons (;):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a string consisting of the settings separated by semicolons (;):</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     value 1 - inter-line spacing:</source>
+<seg-source> <mrk mid="0" mtype="seg">    value 1 - inter-line spacing:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    value 1 - inter-line spacing:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">         either a number - in space units</source>
+<seg-source> <mrk mid="0" mtype="seg">        either a number - in space units</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        either a number - in space units</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">         or "</source>
+<seg-source> <mrk mid="0" mtype="seg">        or "</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        or "</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> lines" - in lines</source>
+<seg-source> <mrk mid="0" mtype="seg">lines" - in lines</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">lines" - in lines</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     value 2 - scope of value 1:</source>
+<seg-source> <mrk mid="0" mtype="seg">    value 2 - scope of value 1:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    value 2 - scope of value 1:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">         a - all (or only) selected paragraph(s) have the above setting</source>
+<seg-source> <mrk mid="0" mtype="seg">        a - all (or only) selected paragraph(s) have the above setting</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        a - all (or only) selected paragraph(s) have the above setting</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">         f - the first selected paragraph has this setting, but other(s) don't</source>
+<seg-source> <mrk mid="0" mtype="seg">        f - the first selected paragraph has this setting, but other(s) don't</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        f - the first selected paragraph has this setting, but other(s) don't</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">         c - the current paragraph has this setting</source>
+<seg-source> <mrk mid="0" mtype="seg">        c - the current paragraph has this setting</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        c - the current paragraph has this setting</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     value 3 - spacing before paragraphs (in space units)</source>
+<seg-source> <mrk mid="0" mtype="seg">    value 3 - spacing before paragraphs (in space units)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    value 3 - spacing before paragraphs (in space units)</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     value 4 - scope of value 3 - see above</source>
+<seg-source> <mrk mid="0" mtype="seg">    value 4 - scope of value 3 - see above</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    value 4 - scope of value 3 - see above</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     value 5 - spacing after paragraphs (in space units)</source>
+<seg-source> <mrk mid="0" mtype="seg">    value 5 - spacing after paragraphs (in space units)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    value 5 - spacing after paragraphs (in space units)</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     value 6 - scope of value 5 - see above</source>
+<seg-source> <mrk mid="0" mtype="seg">    value 6 - scope of value 5 - see above</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    value 6 - scope of value 5 - see above</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">"" and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">"" and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"" and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">101 - $hWnd is not a handle</source>
+<seg-source><mrk mid="0" mtype="seg">101 - $hWnd is not a handle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">101 - $hWnd is not a handle</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EM_SETPARAFORMAT);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EM_SETPARAFORMAT<ept id="1">&lt;/a></ept> in MSDN Library. </source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EM_SETPARAFORMAT);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EM_SETPARAFORMAT<ept id="1">&lt;/a></ept> in MSDN Library.</mrk> </seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EM_SETPARAFORMAT);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EM_SETPARAFORMAT<ept id="1">&lt;/a></ept> in MSDN Library.</mrk> </target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Example (</source>
+<seg-source><mrk mid="0" mtype="seg">Example (</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example (</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">.exe</source>
+<seg-source><mrk mid="0" mtype="seg">.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.exe</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">)</source>
+<seg-source><mrk mid="0" mtype="seg">)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">)</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">This is a test.</source>
+<seg-source><mrk mid="0" mtype="seg">This is a test.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a test.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Next</source>
+<seg-source><mrk mid="0" mtype="seg">Next</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Next</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">First paragraph</source>
+<seg-source><mrk mid="0" mtype="seg">First paragraph</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">First paragraph</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">0. Para with default settings</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk> <mrk mid="1" mtype="seg">Para with default settings</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk> <mrk mid="1" mtype="seg">Para with default settings</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">needed unless script crashes</source>
+<seg-source><mrk mid="0" mtype="seg">needed unless script crashes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">needed unless script crashes</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">GUIDelete()   ; is OK too</source>
+<seg-source><mrk mid="0" mtype="seg">GUIDelete()   ; is OK too</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUIDelete()   ; is OK too</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Second paragraph</source>
+<seg-source><mrk mid="0" mtype="seg">Second paragraph</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Second paragraph</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">2 lines</source>
+<seg-source><mrk mid="0" mtype="seg">2 lines</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2 lines</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">1. Spacing of second paragraph is</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk> <mrk mid="1" mtype="seg">Spacing of second paragraph is</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk> <mrk mid="1" mtype="seg">Spacing of second paragraph is</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">2. Settings of first paragraph in the selection are</source>
+<seg-source><mrk mid="0" mtype="seg">2.</mrk> <mrk mid="1" mtype="seg">Settings of first paragraph in the selection are</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2.</mrk> <mrk mid="1" mtype="seg">Settings of first paragraph in the selection are</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">3. Change spacing of both paragraphs</source>
+<seg-source><mrk mid="0" mtype="seg">3.</mrk> <mrk mid="1" mtype="seg">Change spacing of both paragraphs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3.</mrk> <mrk mid="1" mtype="seg">Change spacing of both paragraphs</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Stream all text to the Desktop so you can look at Indents settings in Word</source>
+<seg-source><mrk mid="0" mtype="seg">Stream all text to the Desktop so you can look at Indents settings in Word</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Stream all text to the Desktop so you can look at Indents settings in Word</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">\gcre.rtf</source>
+<seg-source><mrk mid="0" mtype="seg">\gcre.rtf</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\gcre.rtf</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Get function returns</source>
+<seg-source><mrk mid="0" mtype="seg">Get function returns</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get function returns</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

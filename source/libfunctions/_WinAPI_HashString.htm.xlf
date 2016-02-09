@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_HashString.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Hashes a string</source>
+<seg-source><mrk mid="0" mtype="seg">Hashes a string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hashes a string</mrk></target>
+<note>Function _WinAPI_HashString</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The string to hash.</source>
+<seg-source><mrk mid="0" mtype="seg">The string to hash.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The string to hash.</mrk></target>
+<note>$sString</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether to treat the string as case sensitive when computing the hash value, valid values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to treat the string as case sensitive when computing the hash value, valid values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to treat the string as case sensitive when computing the hash value, valid values:</mrk></target>
+<note>$bCaseSensitive</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> True - The lowercase and uppercase string hash to the different value (Default).</source>
+<seg-source> <mrk mid="0" mtype="seg">True - The lowercase and uppercase string hash to the different value (Default).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">True - The lowercase and uppercase string hash to the different value (Default).</mrk></target>
+<note>$bCaseSensitive</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> False - The lowercase and uppercase string hash to the same value.</source>
+<seg-source> <mrk mid="0" mtype="seg">False - The lowercase and uppercase string hash to the same value.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">False - The lowercase and uppercase string hash to the same value.</mrk></target>
+<note>$bCaseSensitive</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The length of the hash data, in bytes. It should be no larger than 256, otherwise, the function fails. Default is 32.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The length of the hash data, in bytes.</mrk> <mrk mid="2" mtype="seg">It should be no larger than 256, otherwise, the function fails.</mrk> <mrk mid="3" mtype="seg">Default is 32.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The length of the hash data, in bytes.</mrk> <mrk mid="2" mtype="seg">It should be no larger than 256, otherwise, the function fails.</mrk> <mrk mid="3" mtype="seg">Default is 32.</mrk></target>
+<note>$iLength</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">The hash data in binary form.</source>
+<seg-source><mrk mid="0" mtype="seg">The hash data in binary form.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The hash data in binary form.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">WM_COMMAND</source>
+<seg-source><mrk mid="0" mtype="seg">WM_COMMAND</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_COMMAND</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

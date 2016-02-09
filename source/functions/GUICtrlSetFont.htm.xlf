@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/GUICtrlSetFont.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the font for a control.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the font for a control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the font for a control.</mrk></target>
+<note>Function GUICtrlSetFont</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> The control identifier (controlID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...()<ept id="1">&lt;/a></ept> function, or -1 for the last created control. </source>
+<seg-source> <mrk mid="0" mtype="seg">The control identifier (controlID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...()<ept id="1">&lt;/a></ept> function, or -1 for the last created control.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The control identifier (controlID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...()<ept id="1">&lt;/a></ept> function, or -1 for the last created control.</mrk> </target>
+<note>controlID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Fontsize (default is 8.5).</source>
+<seg-source><mrk mid="0" mtype="seg">Fontsize (default is 8.5).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Fontsize (default is 8.5).</mrk></target>
+<note>size</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The weight of the font in the range 0 through 1000. For example, 400 is normal and 700 is bold. If this value is zero, a default weight is used.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The weight of the font in the range 0 through 1000.</mrk> <mrk mid="2" mtype="seg">For example, 400 is normal and 700 is bold.</mrk> <mrk mid="3" mtype="seg">If this value is zero, a default weight is used.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The weight of the font in the range 0 through 1000.</mrk> <mrk mid="2" mtype="seg">For example, 400 is normal and 700 is bold.</mrk> <mrk mid="3" mtype="seg">If this value is zero, a default weight is used.</mrk></target>
+<note>weight</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> The following values are defined for convenience.</source>
+<seg-source> <mrk mid="0" mtype="seg">The following values are defined for convenience.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The following values are defined for convenience.</mrk></target>
+<note>weight</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $FW_DONTCARE = 0 (Use the default font weight)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_DONTCARE = 0 (Use the default font weight)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_DONTCARE = 0 (Use the default font weight)</mrk></target>
+<note>weight</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $FW_THIN = 100</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_THIN = 100</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_THIN = 100</mrk></target>
+<note>weight</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $FW_EXTRALIGHT = 200</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_EXTRALIGHT = 200</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_EXTRALIGHT = 200</mrk></target>
+<note>weight</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $FW_LIGHT = 300</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_LIGHT = 300</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_LIGHT = 300</mrk></target>
+<note>weight</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $FW_NORMAL = 400</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_NORMAL = 400</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_NORMAL = 400</mrk></target>
+<note>weight</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $FW_MEDIUM = 500</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_MEDIUM = 500</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_MEDIUM = 500</mrk></target>
+<note>weight</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $FW_SEMIBOLD = 600</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_SEMIBOLD = 600</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_SEMIBOLD = 600</mrk></target>
+<note>weight</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $FW_BOLD = 700</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_BOLD = 700</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_BOLD = 700</mrk></target>
+<note>weight</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $FW_EXTRABOLD = 800</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_EXTRABOLD = 800</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_EXTRABOLD = 800</mrk></target>
+<note>weight</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $FW_HEAVY = 900</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_HEAVY = 900</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_HEAVY = 900</mrk></target>
+<note>weight</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> Constants are defined in FontConstants.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in FontConstants.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in FontConstants.au3.</mrk></target>
+<note>weight</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Font attributes, which can be a combination of the following added together:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Font attributes, which can be a combination of the following added together:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Font attributes, which can be a combination of the following added together:</mrk></target>
+<note>attribute</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $GUI_FONTITALIC (2) = Italic</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GUI_FONTITALIC (2) = Italic</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GUI_FONTITALIC (2) = Italic</mrk></target>
+<note>attribute</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     $GUI_FONTUNDER (4) = Underlined</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GUI_FONTUNDER (4) = Underlined</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GUI_FONTUNDER (4) = Underlined</mrk></target>
+<note>attribute</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     $GUI_FONTSTRIKE (8) = Strike</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GUI_FONTSTRIKE (8) = Strike</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GUI_FONTSTRIKE (8) = Strike</mrk></target>
+<note>attribute</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> Constants are defined in GUIConstantsEx.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in GUIConstantsEx.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in GUIConstantsEx.au3.</mrk></target>
+<note>attribute</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Name of the font to use. (OS default GUI font is used if the font is "" or is not found).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Name of the font to use.</mrk> <mrk mid="2" mtype="seg">(OS default GUI font is used if the font is "" or is not found).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Name of the font to use.</mrk> <mrk mid="2" mtype="seg">(OS default GUI font is used if the font is "" or is not found).</mrk></target>
+<note>fontname</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Font quality to select. The following qualities are accepted:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Font quality to select.</mrk> <mrk mid="2" mtype="seg">The following qualities are accepted:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Font quality to select.</mrk> <mrk mid="2" mtype="seg">The following qualities are accepted:</mrk></target>
+<note>quality</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">     $DEFAULT_QUALITY (0) = Appearance of the font does not matter.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DEFAULT_QUALITY (0) = Appearance of the font does not matter.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DEFAULT_QUALITY (0) = Appearance of the font does not matter.</mrk></target>
+<note>quality</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">     $DRAFT_QUALITY (1) = Appearance of the font is less important than when $PROOF_QUALITY is used. For GDI raster fonts, scaling is enabled, which means that more font sizes are available, but the quality may be lower. Bold, italic, underline, and strikeout fonts are synthesized if necessary.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DRAFT_QUALITY (1) = Appearance of the font is less important than when $PROOF_QUALITY is used.</mrk> <mrk mid="1" mtype="seg">For GDI raster fonts, scaling is enabled, which means that more font sizes are available, but the quality may be lower.</mrk> <mrk mid="2" mtype="seg">Bold, italic, underline, and strikeout fonts are synthesized if necessary.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DRAFT_QUALITY (1) = Appearance of the font is less important than when $PROOF_QUALITY is used.</mrk> <mrk mid="1" mtype="seg">For GDI raster fonts, scaling is enabled, which means that more font sizes are available, but the quality may be lower.</mrk> <mrk mid="2" mtype="seg">Bold, italic, underline, and strikeout fonts are synthesized if necessary.</mrk></target>
+<note>quality</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">     $PROOF_QUALITY (2) = (default) Character quality of the font is more important than exact matching of the logical-font attributes. For GDI raster fonts, scaling is disabled and the font closest in size is chosen. Although the chosen font size may not be mapped exactly when $PROOF_QUALITY is used, the quality of the font is high and there is no distortion of appearance. Bold, italic, underline, and strikeout fonts are synthesized if necessary.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PROOF_QUALITY (2) = (default) Character quality of the font is more important than exact matching of the logical-font attributes.</mrk> <mrk mid="1" mtype="seg">For GDI raster fonts, scaling is disabled and the font closest in size is chosen.</mrk> <mrk mid="2" mtype="seg">Although the chosen font size may not be mapped exactly when $PROOF_QUALITY is used, the quality of the font is high and there is no distortion of appearance.</mrk> <mrk mid="3" mtype="seg">Bold, italic, underline, and strikeout fonts are synthesized if necessary.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PROOF_QUALITY (2) = (default) Character quality of the font is more important than exact matching of the logical-font attributes.</mrk> <mrk mid="1" mtype="seg">For GDI raster fonts, scaling is disabled and the font closest in size is chosen.</mrk> <mrk mid="2" mtype="seg">Although the chosen font size may not be mapped exactly when $PROOF_QUALITY is used, the quality of the font is high and there is no distortion of appearance.</mrk> <mrk mid="3" mtype="seg">Bold, italic, underline, and strikeout fonts are synthesized if necessary.</mrk></target>
+<note>quality</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">     $NONANTIALIASED_QUALITY (3) = Font is never antialiased.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $NONANTIALIASED_QUALITY (3) = Font is never antialiased.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $NONANTIALIASED_QUALITY (3) = Font is never antialiased.</mrk></target>
+<note>quality</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">     $ANTIALIASED_QUALITY (4) = Font is always antialiased if the font supports it and the size of the font is not too small or too large.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ANTIALIASED_QUALITY (4) = Font is always antialiased if the font supports it and the size of the font is not too small or too large.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ANTIALIASED_QUALITY (4) = Font is always antialiased if the font supports it and the size of the font is not too small or too large.</mrk></target>
+<note>quality</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">     $CLEARTYPE_QUALITY (5) = If set, text is rendered (when possible) using ClearType antialiasing method. See the remarks on the msdn page for LOGFONT for details about when cleartype is not available.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CLEARTYPE_QUALITY (5) = If set, text is rendered (when possible) using ClearType antialiasing method.</mrk> <mrk mid="1" mtype="seg">See the remarks on the msdn page for LOGFONT for details about when cleartype is not available.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CLEARTYPE_QUALITY (5) = If set, text is rendered (when possible) using ClearType antialiasing method.</mrk> <mrk mid="1" mtype="seg">See the remarks on the msdn page for LOGFONT for details about when cleartype is not available.</mrk></target>
+<note>quality</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en"> If neither $ANTIALIASED_QUALITY nor $NONANTIALIASED_QUALITY is selected, the font is antialiased only if the user chooses smooth screen fonts in Control Panel.</source>
+<seg-source> <mrk mid="0" mtype="seg">If neither $ANTIALIASED_QUALITY nor $NONANTIALIASED_QUALITY is selected, the font is antialiased only if the user chooses smooth screen fonts in Control Panel.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If neither $ANTIALIASED_QUALITY nor $NONANTIALIASED_QUALITY is selected, the font is antialiased only if the user chooses smooth screen fonts in Control Panel.</mrk></target>
+<note>quality</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en"> Constants are defined in FontConstants.au3</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in FontConstants.au3</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in FontConstants.au3</mrk></target>
+<note>quality</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">By default, controls use the font set by <bpt id="1" ctype="x-a">&lt;a href="GUISetFont.htm"></bpt>GUISetFont()<ept id="1">&lt;/a></ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">By default, controls use the font set by <bpt id="1" ctype="x-a">&lt;a href="GUISetFont.htm"></bpt>GUISetFont()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">By default, controls use the font set by <bpt id="1" ctype="x-a">&lt;a href="GUISetFont.htm"></bpt>GUISetFont()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en"> See the <bpt id="1" ctype="x-a">&lt;a href="../appendix/fonts.htm"></bpt>Appendix<ept id="1">&lt;/a></ept> for a complete list of Windows fonts and the Windows versions under which they are supported.</source>
+<seg-source> <mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-a">&lt;a href="../appendix/fonts.htm"></bpt>Appendix<ept id="1">&lt;/a></ept> for a complete list of Windows fonts and the Windows versions under which they are supported.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-a">&lt;a href="../appendix/fonts.htm"></bpt>Appendix<ept id="1">&lt;/a></ept> for a complete list of Windows fonts and the Windows versions under which they are supported.</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en"> Size can contain a decimal as in 8.5.</source>
+<seg-source> <mrk mid="0" mtype="seg">Size can contain a decimal as in 8.5.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Size can contain a decimal as in 8.5.</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en"> For some controls such as labels, the default size can be 8.5 instead of 9 according to Windows Theme Values.</source>
+<seg-source> <mrk mid="0" mtype="seg">For some controls such as labels, the default size can be 8.5 instead of 9 according to Windows Theme Values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For some controls such as labels, the default size can be 8.5 instead of 9 according to Windows Theme Values.</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en"> For Quality parameter check MSDN, some Windows XP installation need CLEARTYPE_QUALITY=5</source>
+<seg-source> <mrk mid="0" mtype="seg">For Quality parameter check MSDN, some Windows XP installation need CLEARTYPE_QUALITY=5</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For Quality parameter check MSDN, some Windows XP installation need CLEARTYPE_QUALITY=5</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...<ept id="1">&lt;/a></ept>, <bpt id="1" ctype="x-a">&lt;a href="GUISetFont.htm"></bpt>GUISetFont<ept id="1">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...<ept id="1">&lt;/a></ept>,</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUISetFont.htm"></bpt>GUISetFont<ept id="1">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...<ept id="1">&lt;/a></ept>,</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUISetFont.htm"></bpt>GUISetFont<ept id="1">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Font type to be used for setting the font of the controls.</source>
+<seg-source><mrk mid="0" mtype="seg">Font type to be used for setting the font of the controls.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Font type to be used for setting the font of the controls.</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Comic Sans Ms</source>
+<seg-source><mrk mid="0" mtype="seg">Comic Sans Ms</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Comic Sans Ms</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Create a GUI with various controls.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a GUI with various controls.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a GUI with various controls.</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Create label controls.</source>
+<seg-source><mrk mid="0" mtype="seg">Create label controls.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create label controls.</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">A string of text underlined</source>
+<seg-source><mrk mid="0" mtype="seg">A string of text underlined</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A string of text underlined</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Set the font of the previous control.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the font of the previous control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the font of the previous control.</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">A string of italic text</source>
+<seg-source><mrk mid="0" mtype="seg">A string of italic text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A string of italic text</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Set the font of the controlID stored in $iLabel2.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the font of the controlID stored in $iLabel2.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the font of the controlID stored in $iLabel2.</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">A string of text with a strike through</source>
+<seg-source><mrk mid="0" mtype="seg">A string of text with a strike through</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A string of text with a strike through</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Set the font of the controlID stored in $iLabel3.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the font of the controlID stored in $iLabel3.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the font of the controlID stored in $iLabel3.</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Close</source>
+<seg-source><mrk mid="0" mtype="seg">Close</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">Display the GUI.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the GUI.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the GUI.</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">Delete the previous GUI and all controls.</source>
+<seg-source><mrk mid="0" mtype="seg">Delete the previous GUI and all controls.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete the previous GUI and all controls.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

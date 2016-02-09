@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_LPtoDP.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Converts a logical coordinates into device coordinates</source>
+<seg-source><mrk mid="0" mtype="seg">Converts a logical coordinates into device coordinates</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Converts a logical coordinates into device coordinates</mrk></target>
+<note>Function _WinAPI_LPtoDP</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the device context.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the device context.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the device context.</mrk></target>
+<note>$hDC</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">$tagPOINT structure or structure of points ("long x1;long y1;...long xN;long yN") containing the</source>
+<seg-source><mrk mid="0" mtype="seg">$tagPOINT structure or structure of points ("long x1;long y1;...long xN;long yN") containing the</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$tagPOINT structure or structure of points ("long x1;long y1;...long xN;long yN") containing the</mrk></target>
+<note>$tPOINT</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> x- and y-coordinates to be transformed.</source>
+<seg-source> <mrk mid="0" mtype="seg">x- and y-coordinates to be transformed.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">x- and y-coordinates to be transformed.</mrk></target>
+<note>$tPOINT</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The number of points. Default is 1.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The number of points.</mrk> <mrk mid="2" mtype="seg">Default is 1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The number of points.</mrk> <mrk mid="2" mtype="seg">Default is 1.</mrk></target>
+<note>$iCount</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">False</source>
+<seg-source><mrk mid="0" mtype="seg">False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DPtoLP.htm"></bpt>_WinAPI_DPtoLP()<ept id="1">&lt;/a></ept> function fails if the device coordinates exceed 27 bits, or if the converted logical coordinates</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DPtoLP.htm"></bpt>_WinAPI_DPtoLP()<ept id="1">&lt;/a></ept> function fails if the device coordinates exceed 27 bits, or if the converted logical coordinates</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DPtoLP.htm"></bpt>_WinAPI_DPtoLP()<ept id="1">&lt;/a></ept> function fails if the device coordinates exceed 27 bits, or if the converted logical coordinates</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> exceed 32 bits. In the case of such an overflow, the results for all the points are undefined.</source>
+<seg-source> <mrk mid="0" mtype="seg">exceed 32 bits.</mrk> <mrk mid="1" mtype="seg">In the case of such an overflow, the results for all the points are undefined.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">exceed 32 bits.</mrk> <mrk mid="1" mtype="seg">In the case of such an overflow, the results for all the points are undefined.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(LPtoDP);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>LPtoDP<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(LPtoDP);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>LPtoDP<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(LPtoDP);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>LPtoDP<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

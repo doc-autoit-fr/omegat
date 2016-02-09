@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_FindTextDlg.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a system-defined modeless Find dialog box to search for text in a document</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a system-defined modeless Find dialog box to search for text in a document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a system-defined modeless Find dialog box to search for text in a document</mrk></target>
+<note>Function _WinAPI_FindTextDlg</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">A handle to the window that owns the dialog box. The window procedure of the specified window receives FINDMSGSTRING messages from the dialog box. This parameter can be any valid window handle, but it must not be 0.</source>
+<seg-source><mrk mid="0" mtype="seg">A handle to the window that owns the dialog box.</mrk> <mrk mid="1" mtype="seg">The window procedure of the specified window receives FINDMSGSTRING messages from the dialog box.</mrk> <mrk mid="2" mtype="seg">This parameter can be any valid window handle, but it must not be 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A handle to the window that owns the dialog box.</mrk> <mrk mid="1" mtype="seg">The window procedure of the specified window receives FINDMSGSTRING messages from the dialog box.</mrk> <mrk mid="2" mtype="seg">This parameter can be any valid window handle, but it must not be 0.</mrk></target>
+<note>$hOwner</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The search string that is displayed when you initialize the dialog box.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The search string that is displayed when you initialize the dialog box.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The search string that is displayed when you initialize the dialog box.</mrk></target>
+<note>$sFindWhat</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> A set of bit flags that used to initialize the dialog box.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A set of bit flags that used to initialize the dialog box.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A set of bit flags that used to initialize the dialog box.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> The dialog box sets these flags when it sends the FINDMSGSTRING registered message to indicate the user's input.</source>
+<seg-source> <mrk mid="0" mtype="seg">The dialog box sets these flags when it sends the FINDMSGSTRING registered message to indicate the user's input.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The dialog box sets these flags when it sends the FINDMSGSTRING registered message to indicate the user's input.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> This parameter can be one or more of the following values.</source>
+<seg-source> <mrk mid="0" mtype="seg">This parameter can be one or more of the following values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This parameter can be one or more of the following values.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $FR_DIALOGTERM</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FR_DIALOGTERM</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FR_DIALOGTERM</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $FR_DOWN</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FR_DOWN</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FR_DOWN</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $FR_ENABLEHOOK</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FR_ENABLEHOOK</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FR_ENABLEHOOK</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $FR_ENABLETEMPLATE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FR_ENABLETEMPLATE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FR_ENABLETEMPLATE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $FR_ENABLETEMPLATEHANDLE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FR_ENABLETEMPLATEHANDLE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FR_ENABLETEMPLATEHANDLE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $FR_FINDNEXT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FR_FINDNEXT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FR_FINDNEXT</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $FR_HIDEUPDOWN</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FR_HIDEUPDOWN</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FR_HIDEUPDOWN</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $FR_HIDEMATCHCASE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FR_HIDEMATCHCASE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FR_HIDEMATCHCASE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $FR_HIDEWHOLEWORD</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FR_HIDEWHOLEWORD</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FR_HIDEWHOLEWORD</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $FR_MATCHCASE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FR_MATCHCASE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FR_MATCHCASE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $FR_NOMATCHCASE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FR_NOMATCHCASE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FR_NOMATCHCASE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $FR_NOUPDOWN</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FR_NOUPDOWN</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FR_NOUPDOWN</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     $FR_NOWHOLEWORD</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FR_NOWHOLEWORD</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FR_NOWHOLEWORD</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     $FR_REPLACE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FR_REPLACE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FR_REPLACE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     $FR_REPLACEALL</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FR_REPLACEALL</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FR_REPLACEALL</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">     $FR_SHOWHELP</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FR_SHOWHELP</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FR_SHOWHELP</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">     $FR_WHOLEWORD</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FR_WHOLEWORD</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FR_WHOLEWORD</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Pointer to an hook procedure that can process messages intended for the dialog box.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Pointer to an hook procedure that can process messages intended for the dialog box.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Pointer to an hook procedure that can process messages intended for the dialog box.</mrk></target>
+<note>$pFindProc</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> This parameter is ignored unless the $FR_ENABLEHOOK flag is not set.</source>
+<seg-source> <mrk mid="0" mtype="seg">This parameter is ignored unless the $FR_ENABLEHOOK flag is not set.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This parameter is ignored unless the $FR_ENABLEHOOK flag is not set.</mrk></target>
+<note>$pFindProc</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> (See MSDN for more information)</source>
+<seg-source> <mrk mid="0" mtype="seg">(See MSDN for more information)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">(See MSDN for more information)</mrk></target>
+<note>$pFindProc</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Application-defined data that the system passes to the hook procedure.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Application-defined data that the system passes to the hook procedure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Application-defined data that the system passes to the hook procedure.</mrk></target>
+<note>$lParam</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">The window handle to the dialog box.</source>
+<seg-source><mrk mid="0" mtype="seg">The window handle to the dialog box.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The window handle to the dialog box.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">0 and sets the @error flag to non-zero, @extended flag may contain the dialog box error code.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the dialog box error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the dialog box error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FindTextDlg.htm"></bpt>_WinAPI_FindTextDlg()<ept id="1">&lt;/a></ept> does not perform a search operation. Instead, the dialog box sends FINDMSGSTRING registered messages to the window procedure of the owner window of the dialog box.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FindTextDlg.htm"></bpt>_WinAPI_FindTextDlg()<ept id="1">&lt;/a></ept> does not perform a search operation.</mrk> <mrk mid="1" mtype="seg">Instead, the dialog box sends FINDMSGSTRING registered messages to the window procedure of the owner window of the dialog box.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FindTextDlg.htm"></bpt>_WinAPI_FindTextDlg()<ept id="1">&lt;/a></ept> does not perform a search operation.</mrk> <mrk mid="1" mtype="seg">Instead, the dialog box sends FINDMSGSTRING registered messages to the window procedure of the owner window of the dialog box.</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"> Before calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FindTextDlg.htm"></bpt>_WinAPI_FindTextDlg()<ept id="1">&lt;/a></ept>, you must call the <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_RegisterWindowMessage.htm"></bpt>_WinAPI_RegisterWindowMessage()<ept id="2">&lt;/a></ept> function to get the identifier for the FINDMSGSTRING message. The dialog box procedure uses this identifier to send messages when the user clicks the "Find Next" button, or when the dialog box is closing. The "lParam" parameter of the FINDMSGSTRING message contains a pointer to a $tagFINDREPLACE structure. The "Flags" member of this structure indicates the event that caused the message. Other members of the structure indicate the user's input.</source>
+<seg-source> <mrk mid="0" mtype="seg">Before calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FindTextDlg.htm"></bpt>_WinAPI_FindTextDlg()<ept id="1">&lt;/a></ept>, you must call the <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_RegisterWindowMessage.htm"></bpt>_WinAPI_RegisterWindowMessage()<ept id="2">&lt;/a></ept> function to get the identifier for the FINDMSGSTRING message.</mrk> <mrk mid="1" mtype="seg">The dialog box procedure uses this identifier to send messages when the user clicks the "Find Next" button, or when the dialog box is closing.</mrk> <mrk mid="2" mtype="seg">The "lParam" parameter of the FINDMSGSTRING message contains a pointer to a $tagFINDREPLACE structure.</mrk> <mrk mid="3" mtype="seg">The "Flags" member of this structure indicates the event that caused the message.</mrk> <mrk mid="4" mtype="seg">Other members of the structure indicate the user's input.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Before calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FindTextDlg.htm"></bpt>_WinAPI_FindTextDlg()<ept id="1">&lt;/a></ept>, you must call the <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_RegisterWindowMessage.htm"></bpt>_WinAPI_RegisterWindowMessage()<ept id="2">&lt;/a></ept> function to get the identifier for the FINDMSGSTRING message.</mrk> <mrk mid="1" mtype="seg">The dialog box procedure uses this identifier to send messages when the user clicks the "Find Next" button, or when the dialog box is closing.</mrk> <mrk mid="2" mtype="seg">The "lParam" parameter of the FINDMSGSTRING message contains a pointer to a $tagFINDREPLACE structure.</mrk> <mrk mid="3" mtype="seg">The "Flags" member of this structure indicates the event that caused the message.</mrk> <mrk mid="4" mtype="seg">Other members of the structure indicate the user's input.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en"> The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FindTextDlg.htm"></bpt>_WinAPI_FindTextDlg()<ept id="1">&lt;/a></ept> uses an internal buffer to hold the string that the user typed in the "Find What" edit controls. You can increase the size of this buffer by using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetFRBuffer.htm"></bpt>_WinAPI_SetFRBuffer()<ept id="1">&lt;/a></ept> function. In addition to free the memory allocated for the internal buffer, you must call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FlushFRBuffer.htm"></bpt>_WinAPI_FlushFRBuffer()<ept id="1">&lt;/a></ept> in response to the FINDMSGSTRING message with $FR_DIALOGTERM flag set.</source>
+<seg-source> <mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FindTextDlg.htm"></bpt>_WinAPI_FindTextDlg()<ept id="1">&lt;/a></ept> uses an internal buffer to hold the string that the user typed in the "Find What" edit controls.</mrk> <mrk mid="1" mtype="seg">You can increase the size of this buffer by using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetFRBuffer.htm"></bpt>_WinAPI_SetFRBuffer()<ept id="1">&lt;/a></ept> function.</mrk> <mrk mid="2" mtype="seg">In addition to free the memory allocated for the internal buffer, you must call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FlushFRBuffer.htm"></bpt>_WinAPI_FlushFRBuffer()<ept id="1">&lt;/a></ept> in response to the FINDMSGSTRING message with $FR_DIALOGTERM flag set.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FindTextDlg.htm"></bpt>_WinAPI_FindTextDlg()<ept id="1">&lt;/a></ept> uses an internal buffer to hold the string that the user typed in the "Find What" edit controls.</mrk> <mrk mid="1" mtype="seg">You can increase the size of this buffer by using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetFRBuffer.htm"></bpt>_WinAPI_SetFRBuffer()<ept id="1">&lt;/a></ept> function.</mrk> <mrk mid="2" mtype="seg">In addition to free the memory allocated for the internal buffer, you must call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_FlushFRBuffer.htm"></bpt>_WinAPI_FlushFRBuffer()<ept id="1">&lt;/a></ept> in response to the FINDMSGSTRING message with $FR_DIALOGTERM flag set.</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FindText);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FindText<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FindText);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FindText<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FindText);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FindText<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">AutoIt v3 is a freeware BASIC-like scripting language designed for automating the Windows GUI and general scripting. It uses a combination of simulated keystrokes, mouse movement and window/control manipulation in order to automate tasks in a way not possible or reliable with other languages (e.g. VBScript and SendKeys). AutoIt is also very small, self-contained and will run on all versions of Windows out-of-the-box with no annoying "runtimes" required!</source>
+<seg-source><mrk mid="0" mtype="seg">AutoIt v3 is a freeware BASIC-like scripting language designed for automating the Windows GUI and general scripting.</mrk> <mrk mid="1" mtype="seg">It uses a combination of simulated keystrokes, mouse movement and window/control manipulation in order to automate tasks in a way not possible or reliable with other languages (e.g.</mrk> <mrk mid="2" mtype="seg">VBScript and SendKeys).</mrk> <mrk mid="3" mtype="seg">AutoIt is also very small, self-contained and will run on all versions of Windows out-of-the-box with no annoying "runtimes" required!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AutoIt v3 is a freeware BASIC-like scripting language designed for automating the Windows GUI and general scripting.</mrk> <mrk mid="1" mtype="seg">It uses a combination of simulated keystrokes, mouse movement and window/control manipulation in order to automate tasks in a way not possible or reliable with other languages (e.g.</mrk> <mrk mid="2" mtype="seg">VBScript and SendKeys).</mrk> <mrk mid="3" mtype="seg">AutoIt is also very small, self-contained and will run on all versions of Windows out-of-the-box with no annoying "runtimes" required!</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">AutoIt was initially designed for PC "roll out" situations to reliably automate and configure thousands of PCs. Over time it has become a powerful language that supports complex expressions, user functions, loops and everything else that veteran scripters would expect.</source>
+<seg-source><mrk mid="0" mtype="seg">AutoIt was initially designed for PC "roll out" situations to reliably automate and configure thousands of PCs.</mrk> <mrk mid="1" mtype="seg">Over time it has become a powerful language that supports complex expressions, user functions, loops and everything else that veteran scripters would expect.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AutoIt was initially designed for PC "roll out" situations to reliably automate and configure thousands of PCs.</mrk> <mrk mid="1" mtype="seg">Over time it has become a powerful language that supports complex expressions, user functions, loops and everything else that veteran scripters would expect.</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Create main menu</source>
+<seg-source><mrk mid="0" mtype="seg">Create main menu</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create main menu</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">&amp;File</source>
+<seg-source><mrk mid="0" mtype="seg">&amp;File</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&amp;File</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">E&amp;xit...</source>
+<seg-source><mrk mid="0" mtype="seg">E&amp;xit...</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">E&amp;xit...</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">&amp;Edit</source>
+<seg-source><mrk mid="0" mtype="seg">&amp;Edit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&amp;Edit</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">&amp;Find...</source>
+<seg-source><mrk mid="0" mtype="seg">&amp;Find...</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">&amp;Find...</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">R&amp;eplace...</source>
+<seg-source><mrk mid="0" mtype="seg">R&amp;eplace...</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">R&amp;eplace...</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Create Rich Edit control with always visible text selection, and set "Courier New" font to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Create Rich Edit control with always visible text selection, and set "Courier New" font to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create Rich Edit control with always visible text selection, and set "Courier New" font to the control</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">Register FINDMSGSTRING message to receive the messages from the dialog box</source>
+<seg-source><mrk mid="0" mtype="seg">Register FINDMSGSTRING message to receive the messages from the dialog box</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Register FINDMSGSTRING message to receive the messages from the dialog box</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">commdlg_FindReplace</source>
+<seg-source><mrk mid="0" mtype="seg">commdlg_FindReplace</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">commdlg_FindReplace</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">WM_FINDMSGSTRING</source>
+<seg-source><mrk mid="0" mtype="seg">WM_FINDMSGSTRING</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_FINDMSGSTRING</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">Show GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Show GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show GUI</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">Disable "Find..." and "Replace..." menu items, otherwise, the script maay crash</source>
+<seg-source><mrk mid="0" mtype="seg">Disable "Find..." and "Replace..." menu items, otherwise, the script maay crash</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Disable "Find..." and "Replace..." menu items, otherwise, the script maay crash</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">ReplaceWith</source>
+<seg-source><mrk mid="0" mtype="seg">ReplaceWith</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ReplaceWith</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">FindWhat</source>
+<seg-source><mrk mid="0" mtype="seg">FindWhat</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FindWhat</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">lParam</source>
+<seg-source><mrk mid="0" mtype="seg">lParam</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">lParam</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">Flags</source>
+<seg-source><mrk mid="0" mtype="seg">Flags</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Flags</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">The user clicked the "Replace" button in a Replace dialog box</source>
+<seg-source><mrk mid="0" mtype="seg">The user clicked the "Replace" button in a Replace dialog box</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user clicked the "Replace" button in a Replace dialog box</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">The user clicked the "Find Next" button in a Find or Replace dialog box</source>
+<seg-source><mrk mid="0" mtype="seg">The user clicked the "Find Next" button in a Find or Replace dialog box</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user clicked the "Find Next" button in a Find or Replace dialog box</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">Cannot find "</source>
+<seg-source><mrk mid="0" mtype="seg">Cannot find "</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cannot find "</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">" (</source>
+<seg-source><mrk mid="0" mtype="seg">" (</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">" (</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">)</source>
+<seg-source><mrk mid="0" mtype="seg">)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">)</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">Here and below used the EM_SETSEL message directly because _GUICtrlRichEdit_SetSel() sets a focus to the Rich Edit control</source>
+<seg-source><mrk mid="0" mtype="seg">Here and below used the EM_SETSEL message directly because _GUICtrlRichEdit_SetSel() sets a focus to the Rich Edit control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Here and below used the EM_SETSEL message directly because _GUICtrlRichEdit_SetSel() sets a focus to the Rich Edit control</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">_GUICtrlRichEdit_ScrollToCaret($hRichEdit)</source>
+<seg-source><mrk mid="0" mtype="seg">_GUICtrlRichEdit_ScrollToCaret($hRichEdit)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_GUICtrlRichEdit_ScrollToCaret($hRichEdit)</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">The user clicked the "Replace All" button in a Replace dialog box</source>
+<seg-source><mrk mid="0" mtype="seg">The user clicked the "Replace All" button in a Replace dialog box</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The user clicked the "Replace All" button in a Replace dialog box</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">Cannot find "</source>
+<seg-source><mrk mid="0" mtype="seg">Cannot find "</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cannot find "</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">_GUICtrlRichEdit_ScrollToCaret($hRichEdit)</source>
+<seg-source><mrk mid="0" mtype="seg">_GUICtrlRichEdit_ScrollToCaret($hRichEdit)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_GUICtrlRichEdit_ScrollToCaret($hRichEdit)</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">The dialog box is closing</source>
+<seg-source><mrk mid="0" mtype="seg">The dialog box is closing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The dialog box is closing</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">Destroy internal buffer, and free allocated memory</source>
+<seg-source><mrk mid="0" mtype="seg">Destroy internal buffer, and free allocated memory</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Destroy internal buffer, and free allocated memory</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">Enable "Find..." and "Replace..." menu items</source>
+<seg-source><mrk mid="0" mtype="seg">Enable "Find..." and "Replace..." menu items</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enable "Find..." and "Replace..." menu items</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/WinSetTrans.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the transparency of a window.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the transparency of a window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the transparency of a window.</mrk></target>
+<note>Function WinSetTrans</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> The title/hWnd/class of the window to change. See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsadvanced.htm"></bpt>Title special definition<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">The title/hWnd/class of the window to change.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsadvanced.htm"></bpt>Title special definition<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The title/hWnd/class of the window to change.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsadvanced.htm"></bpt>Title special definition<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>title</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> The text of the window to change. See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsbasic.htm#specialtext"></bpt>Text special definition<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">The text of the window to change.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsbasic.htm#specialtext"></bpt>Text special definition<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The text of the window to change.</mrk> <mrk mid="1" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsbasic.htm#specialtext"></bpt>Text special definition<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>text</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">A number in the range 0 - 255. The lower the number, the more transparent the window will become. 255 = Solid, 0 = Invisible.</source>
+<seg-source><mrk mid="0" mtype="seg">A number in the range 0 - 255.</mrk> <mrk mid="1" mtype="seg">The lower the number, the more transparent the window will become.</mrk> <mrk mid="2" mtype="seg">255 = Solid, 0 = Invisible.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A number in the range 0 - 255.</mrk> <mrk mid="1" mtype="seg">The lower the number, the more transparent the window will become.</mrk> <mrk mid="2" mtype="seg">255 = Solid, 0 = Invisible.</mrk></target>
+<note>transparency</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">Non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Non-zero.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">0 and sets the @error flag to non-zero if no supported on the OS.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero if no supported on the OS.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero if no supported on the OS.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Screen color must be greater or equal to 16-bit.</source>
+<seg-source><mrk mid="0" mtype="seg">Screen color must be greater or equal to 16-bit.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Screen color must be greater or equal to 16-bit.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Run Notepad</source>
+<seg-source><mrk mid="0" mtype="seg">Run Notepad</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Run Notepad</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">notepad.exe</source>
+<seg-source><mrk mid="0" mtype="seg">notepad.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">notepad.exe</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Wait 10 seconds for the Notepad window to appear.</source>
+<seg-source><mrk mid="0" mtype="seg">Wait 10 seconds for the Notepad window to appear.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wait 10 seconds for the Notepad window to appear.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">[CLASS:Notepad]</source>
+<seg-source><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Set the transparency of the Notepad window to 170.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the transparency of the Notepad window to 170.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the transparency of the Notepad window to 170.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Wait for 2 seconds to display the Notepad window.</source>
+<seg-source><mrk mid="0" mtype="seg">Wait for 2 seconds to display the Notepad window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wait for 2 seconds to display the Notepad window.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Close the Notepad window using the handle returned by WinWait.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the Notepad window using the handle returned by WinWait.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the Notepad window using the handle returned by WinWait.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

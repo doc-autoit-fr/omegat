@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/GUICtrlSetState.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Changes the state of a control.</source>
+<seg-source><mrk mid="0" mtype="seg">Changes the state of a control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Changes the state of a control.</mrk></target>
+<note>Function GUICtrlSetState</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> The control identifier (controlID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...()<ept id="1">&lt;/a></ept> function, or -1 for the last created control. </source>
+<seg-source> <mrk mid="0" mtype="seg">The control identifier (controlID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...()<ept id="1">&lt;/a></ept> function, or -1 for the last created control.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The control identifier (controlID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...()<ept id="1">&lt;/a></ept> function, or -1 for the last created control.</mrk> </target>
+<note>controlID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> See the <bpt id="1" ctype="x-a">&lt;a href="#StateTable"></bpt>State table<ept id="1">&lt;/a></ept> below. </source>
+<seg-source> <mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-a">&lt;a href="#StateTable"></bpt>State table<ept id="1">&lt;/a></ept> below.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-a">&lt;a href="#StateTable"></bpt>State table<ept id="1">&lt;/a></ept> below.</mrk> </target>
+<note>state</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">    <ph id="1" ctype="x-a">&lt;a id="StateTable"></ph><bpt id="2" ctype="x-strong">&lt;strong></bpt>State table<ept id="2">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg">    <ph id="1" ctype="x-a">&lt;a id="StateTable"></ph><bpt id="2" ctype="x-strong">&lt;strong></bpt>State table<ept id="2">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">    <ph id="1" ctype="x-a">&lt;a id="StateTable"></ph><bpt id="2" ctype="x-strong">&lt;strong></bpt>State table<ept id="2">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>State<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>State<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>State<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Comments<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Comments<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Comments<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">$GUI_CHECKED (1)</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_CHECKED (1)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_CHECKED (1)</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Radio, Checkbox or ListViewItem will be checked.</source>
+<seg-source><mrk mid="0" mtype="seg">Radio, Checkbox or ListViewItem will be checked.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Radio, Checkbox or ListViewItem will be checked.</mrk></target>
+<note>$GUI_CHECKED (1)</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">$GUI_INDETERMINATE (2)</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_INDETERMINATE (2)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_INDETERMINATE (2)</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Checkbox having the tristate attribute will be greyed.</source>
+<seg-source><mrk mid="0" mtype="seg">Checkbox having the tristate attribute will be greyed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Checkbox having the tristate attribute will be greyed.</mrk></target>
+<note>$GUI_INDETERMINATE (2)</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">$GUI_UNCHECKED (4)</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_UNCHECKED (4)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_UNCHECKED (4)</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Radio, Checkbox or ListViewItem will be unchecked.</source>
+<seg-source><mrk mid="0" mtype="seg">Radio, Checkbox or ListViewItem will be unchecked.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Radio, Checkbox or ListViewItem will be unchecked.</mrk></target>
+<note>$GUI_UNCHECKED (4)</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">$GUI_DROPACCEPTED (8)</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_DROPACCEPTED (8)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_DROPACCEPTED (8)</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Control will accept drop action : from file or from a drag of another control. See remarks.</source>
+<seg-source><mrk mid="0" mtype="seg">Control will accept drop action : from file or from a drag of another control.</mrk> <mrk mid="1" mtype="seg">See remarks.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control will accept drop action : from file or from a drag of another control.</mrk> <mrk mid="1" mtype="seg">See remarks.</mrk></target>
+<note>$GUI_DROPACCEPTED (8)</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">$GUI_SHOW (16)</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_SHOW (16)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_SHOW (16)</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Control will be visible. On Tabitem control will select the first tab to be displayed.</source>
+<seg-source><mrk mid="0" mtype="seg">Control will be visible.</mrk> <mrk mid="1" mtype="seg">On Tabitem control will select the first tab to be displayed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control will be visible.</mrk> <mrk mid="1" mtype="seg">On Tabitem control will select the first tab to be displayed.</mrk></target>
+<note>$GUI_SHOW (16)</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">$GUI_HIDE (32)</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_HIDE (32)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_HIDE (32)</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Control will not be visible.</source>
+<seg-source><mrk mid="0" mtype="seg">Control will not be visible.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control will not be visible.</mrk></target>
+<note>$GUI_HIDE (32)</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">$GUI_ENABLE (64)</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_ENABLE (64)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_ENABLE (64)</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Control will be enabled.</source>
+<seg-source><mrk mid="0" mtype="seg">Control will be enabled.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control will be enabled.</mrk></target>
+<note>$GUI_ENABLE (64)</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">$GUI_DISABLE (128)</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_DISABLE (128)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_DISABLE (128)</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Control will be greyed out.</source>
+<seg-source><mrk mid="0" mtype="seg">Control will be greyed out.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control will be greyed out.</mrk></target>
+<note>$GUI_DISABLE (128)</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">$GUI_FOCUS (256)</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_FOCUS (256)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_FOCUS (256)</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Control will be given input/selected focus.</source>
+<seg-source><mrk mid="0" mtype="seg">Control will be given input/selected focus.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control will be given input/selected focus.</mrk></target>
+<note>$GUI_FOCUS (256)</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">$GUI_DEFBUTTON (512)</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_DEFBUTTON (512)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_DEFBUTTON (512)</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Control will be set as the default button on the window. See remark about TreeviewItems.</source>
+<seg-source><mrk mid="0" mtype="seg">Control will be set as the default button on the window.</mrk> <mrk mid="1" mtype="seg">See remark about TreeviewItems.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control will be set as the default button on the window.</mrk> <mrk mid="1" mtype="seg">See remark about TreeviewItems.</mrk></target>
+<note>$GUI_DEFBUTTON (512)</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">$GUI_EXPAND (1024)</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_EXPAND (1024)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_EXPAND (1024)</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">TreeViewItem will expand its child items.</source>
+<seg-source><mrk mid="0" mtype="seg">TreeViewItem will expand its child items.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TreeViewItem will expand its child items.</mrk></target>
+<note>$GUI_EXPAND (1024)</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">$GUI_ONTOP (2048)</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_ONTOP (2048)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_ONTOP (2048)</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Control will be have the ontop attribute for the window (zOrdering).</source>
+<seg-source><mrk mid="0" mtype="seg">Control will be have the ontop attribute for the window (zOrdering).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control will be have the ontop attribute for the window (zOrdering).</mrk></target>
+<note>$GUI_ONTOP (2048)</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">$GUI_NODROPACCEPTED (4096)</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_NODROPACCEPTED (4096)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_NODROPACCEPTED (4096)</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Control will not accept drop action.</source>
+<seg-source><mrk mid="0" mtype="seg">Control will not accept drop action.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control will not accept drop action.</mrk></target>
+<note>$GUI_NODROPACCEPTED (4096)</note>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">$GUI_NOFOCUS (8192)</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_NOFOCUS (8192)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_NOFOCUS (8192)</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Listview control will loose focus.</source>
+<seg-source><mrk mid="0" mtype="seg">Listview control will loose focus.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Listview control will loose focus.</mrk></target>
+<note>$GUI_NOFOCUS (8192)</note>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">$GUI_AVISTART (0)</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_AVISTART (0)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_AVISTART (0)</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Avi control will start playing.</source>
+<seg-source><mrk mid="0" mtype="seg">Avi control will start playing.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Avi control will start playing.</mrk></target>
+<note>$GUI_AVISTART (0)</note>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">$GUI_AVISTOP (1)</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_AVISTOP (1)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_AVISTOP (1)</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Avi control will stop playing.</source>
+<seg-source><mrk mid="0" mtype="seg">Avi control will stop playing.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Avi control will stop playing.</mrk></target>
+<note>$GUI_AVISTOP (1)</note>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">$GUI_AVICLOSE (2)</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_AVICLOSE (2)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_AVICLOSE (2)</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Avi control will stop playing and release resource.</source>
+<seg-source><mrk mid="0" mtype="seg">Avi control will stop playing and release resource.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Avi control will stop playing and release resource.</mrk></target>
+<note>$GUI_AVICLOSE (2)</note>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en"> State values can be summed up as for example $GUI_DISABLE (128) + $GUI_HIDE (32) sets the control in an disabled and hidden state.</source>
+<seg-source> <mrk mid="0" mtype="seg">State values can be summed up as for example $GUI_DISABLE (128) + $GUI_HIDE (32) sets the control in an disabled and hidden state.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">State values can be summed up as for example $GUI_DISABLE (128) + $GUI_HIDE (32) sets the control in an disabled and hidden state.</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en"> If an AVI control has to be hidden with $GUI_HIDE (32) it should be closed with $GUI_AVICLOSE (1).</source>
+<seg-source> <mrk mid="0" mtype="seg">If an AVI control has to be hidden with $GUI_HIDE (32) it should be closed with $GUI_AVICLOSE (1).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If an AVI control has to be hidden with $GUI_HIDE (32) it should be closed with $GUI_AVICLOSE (1).</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en"> State of a "contextmenu" control <bpt id="1" ctype="x-strong">&lt;strong></bpt>cannot be changed.<ept id="1">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg">State of a "contextmenu" control <bpt id="1" ctype="x-strong">&lt;strong></bpt>cannot be changed.<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">State of a "contextmenu" control <bpt id="1" ctype="x-strong">&lt;strong></bpt>cannot be changed.<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en"> State of a "listviewitem" control can be changed if the associated "listview" control has been created with an extended style $LVS_EX_CHECKBOXES. $GUI_FOCUS (256) and $GUI_NOFOCUS (8192) can be used on specific listviewitem provided listview control style allows to display it : $LVS_SHOWSELALWAYS.</source>
+<seg-source> <mrk mid="0" mtype="seg">State of a "listviewitem" control can be changed if the associated "listview" control has been created with an extended style $LVS_EX_CHECKBOXES.</mrk> <mrk mid="1" mtype="seg">$GUI_FOCUS (256) and $GUI_NOFOCUS (8192) can be used on specific listviewitem provided listview control style allows to display it :</mrk> <mrk mid="2" mtype="seg">$LVS_SHOWSELALWAYS.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">State of a "listviewitem" control can be changed if the associated "listview" control has been created with an extended style $LVS_EX_CHECKBOXES.</mrk> <mrk mid="1" mtype="seg">$GUI_FOCUS (256) and $GUI_NOFOCUS (8192) can be used on specific listviewitem provided listview control style allows to display it :</mrk> <mrk mid="2" mtype="seg">$LVS_SHOWSELALWAYS.</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en"> State of a "menu or a ""menuitem" control <bpt id="1" ctype="x-strong">&lt;strong></bpt>cannot be hidden.<ept id="1">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg">State of a "menu or a ""menuitem" control <bpt id="1" ctype="x-strong">&lt;strong></bpt>cannot be hidden.<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">State of a "menu or a ""menuitem" control <bpt id="1" ctype="x-strong">&lt;strong></bpt>cannot be hidden.<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en"> ! Important information for $GUI_EXPAND: this state is only used for TreeViewItems. If you want to use this 'action' then at least 1 Sub-TreeViewItem has to exist/created under this item !</source>
+<seg-source> <mrk mid="0" mtype="seg">!</mrk> <mrk mid="1" mtype="seg">Important information for $GUI_EXPAND: this state is only used for TreeViewItems.</mrk> <mrk mid="2" mtype="seg">If you want to use this 'action' then at least 1 Sub-TreeViewItem has to exist/created under this item !</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">!</mrk> <mrk mid="1" mtype="seg">Important information for $GUI_EXPAND: this state is only used for TreeViewItems.</mrk> <mrk mid="2" mtype="seg">If you want to use this 'action' then at least 1 Sub-TreeViewItem has to exist/created under this item !</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en"> If you want to select another item in a TreeView then you can use $GUI_FOCUS (256) - the parent TreeView gets the window focus and the specified item is marked as selected.</source>
+<seg-source> <mrk mid="0" mtype="seg">If you want to select another item in a TreeView then you can use $GUI_FOCUS (256) - the parent TreeView gets the window focus and the specified item is marked as selected.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If you want to select another item in a TreeView then you can use $GUI_FOCUS (256) - the parent TreeView gets the window focus and the specified item is marked as selected.</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en"> If you want to set a treeview item as a default item which means painting it bold you can use $GUI_DEFBUTTON (512) - to turn it off just use another value but $GUI_DEFBUTTON (512), for instance 0. This state will not be returned by <bpt id="1" ctype="x-a">&lt;a href="GUICtrlGetState.htm"></bpt>GUICtrlGetState()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">If you want to set a treeview item as a default item which means painting it bold you can use $GUI_DEFBUTTON (512) - to turn it off just use another value but $GUI_DEFBUTTON (512), for instance 0.</mrk> <mrk mid="1" mtype="seg">This state will not be returned by <bpt id="1" ctype="x-a">&lt;a href="GUICtrlGetState.htm"></bpt>GUICtrlGetState()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If you want to set a treeview item as a default item which means painting it bold you can use $GUI_DEFBUTTON (512) - to turn it off just use another value but $GUI_DEFBUTTON (512), for instance 0.</mrk> <mrk mid="1" mtype="seg">This state will not be returned by <bpt id="1" ctype="x-a">&lt;a href="GUICtrlGetState.htm"></bpt>GUICtrlGetState()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en"> If $GUI_DROPACCEPTED (8) is set to a visible control a drag &amp; drop can be taken in account. The edit/input control will be set with the filename.</source>
+<seg-source> <mrk mid="0" mtype="seg">If $GUI_DROPACCEPTED (8) is set to a visible control a drag &amp; drop can be taken in account.</mrk> <mrk mid="1" mtype="seg">The edit/input control will be set with the filename.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If $GUI_DROPACCEPTED (8) is set to a visible control a drag &amp; drop can be taken in account.</mrk> <mrk mid="1" mtype="seg">The edit/input control will be set with the filename.</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en"> For other controls on reception of $GUI_EVENT_DROPPED, @GUI_DragId will return the controlID from where the drag start (-1 if from a file, @GUI_DragFile contain the filename being dropped) and @GUI_DropId returns the controlID of the dropped control.</source>
+<seg-source> <mrk mid="0" mtype="seg">For other controls on reception of $GUI_EVENT_DROPPED, @GUI_DragId will return the controlID from where the drag start (-1 if from a file, @GUI_DragFile contain the filename being dropped) and @GUI_DropId returns the controlID of the dropped control.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For other controls on reception of $GUI_EVENT_DROPPED, @GUI_DragId will return the controlID from where the drag start (-1 if from a file, @GUI_DragFile contain the filename being dropped) and @GUI_DropId returns the controlID of the dropped control.</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en"> Only dragging a ListviewItem will start the drag &amp; drop process. The @GUI_DragId will be the ListView controlID.</source>
+<seg-source> <mrk mid="0" mtype="seg">Only dragging a ListviewItem will start the drag &amp; drop process.</mrk> <mrk mid="1" mtype="seg">The @GUI_DragId will be the ListView controlID.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Only dragging a ListviewItem will start the drag &amp; drop process.</mrk> <mrk mid="1" mtype="seg">The @GUI_DragId will be the ListView controlID.</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...<ept id="1">&lt;/a></ept>, <bpt id="1" ctype="x-a">&lt;a href="GUICtrlGetState.htm"></bpt>GUICtrlGetState<ept id="1">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...<ept id="1">&lt;/a></ept>,</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlGetState.htm"></bpt>GUICtrlGetState<ept id="1">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...<ept id="1">&lt;/a></ept>,</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlGetState.htm"></bpt>GUICtrlGetState<ept id="1">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Create a GUI with various controls.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a GUI with various controls.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a GUI with various controls.</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">Create a label and set the state as drop accepted.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a label and set the state as drop accepted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a label and set the state as drop accepted.</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">Drop a file on this label.</source>
+<seg-source><mrk mid="0" mtype="seg">Drop a file on this label.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Drop a file on this label.</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">Create an input and set the state as drop accepted.</source>
+<seg-source><mrk mid="0" mtype="seg">Create an input and set the state as drop accepted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create an input and set the state as drop accepted.</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">OK</source>
+<seg-source><mrk mid="0" mtype="seg">OK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">OK</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">Display the GUI.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the GUI.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the GUI.</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">If the value of @GUI_DropId is $idLabel, then set the label of the dragged file.</source>
+<seg-source><mrk mid="0" mtype="seg">If the value of @GUI_DropId is $idLabel, then set the label of the dragged file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the value of @GUI_DropId is $idLabel, then set the label of the dragged file.</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">Delete the previous GUI and all controls.</source>
+<seg-source><mrk mid="0" mtype="seg">Delete the previous GUI and all controls.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete the previous GUI and all controls.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_Excel_RangeFind.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Finds matching cells in a range or workbook and returns an array with information about the found cells</source>
+<seg-source><mrk mid="0" mtype="seg">Finds matching cells in a range or workbook and returns an array with information about the found cells</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Finds matching cells in a range or workbook and returns an array with information about the found cells</mrk></target>
+<note>Function _Excel_RangeFind</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Workbook object</source>
+<seg-source><mrk mid="0" mtype="seg">Workbook object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Workbook object</mrk></target>
+<note>$oWorkbook</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Search string. Can be a string (wildcards - *?~ - can be used) or any Excel data type. See Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Search string.</mrk> <mrk mid="1" mtype="seg">Can be a string (wildcards - *?~ - can be used) or any Excel data type.</mrk> <mrk mid="2" mtype="seg">See Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search string.</mrk> <mrk mid="1" mtype="seg">Can be a string (wildcards - *?~ - can be used) or any Excel data type.</mrk> <mrk mid="2" mtype="seg">See Remarks</mrk></target>
+<note>$sSearch</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> A range object, an A1 range (string) or keyword Default to search all sheets of the workbook (default = keyword Default)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A range object, an A1 range (string) or keyword Default to search all sheets of the workbook (default = keyword Default)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A range object, an A1 range (string) or keyword Default to search all sheets of the workbook (default = keyword Default)</mrk></target>
+<note>$vRange</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies where to search. Can be any of the XLFindLookIn enumeration (default = $xlValues)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies where to search.</mrk> <mrk mid="2" mtype="seg">Can be any of the XLFindLookIn enumeration (default = $xlValues)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies where to search.</mrk> <mrk mid="2" mtype="seg">Can be any of the XLFindLookIn enumeration (default = $xlValues)</mrk></target>
+<note>$iLookIn</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether the search text must match as a whole or any part. Can be any of the XLLookAt enumeration (default = $xlPart)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether the search text must match as a whole or any part.</mrk> <mrk mid="2" mtype="seg">Can be any of the XLLookAt enumeration (default = $xlPart)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether the search text must match as a whole or any part.</mrk> <mrk mid="2" mtype="seg">Can be any of the XLLookAt enumeration (default = $xlPart)</mrk></target>
+<note>$iLookAt</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> True = case sensitive, False = case insensitive (default = False)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True = case sensitive, False = case insensitive (default = False)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True = case sensitive, False = case insensitive (default = False)</mrk></target>
+<note>$bMatchcase</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">a two-dimensional zero based array with the following information:</source>
+<seg-source><mrk mid="0" mtype="seg">a two-dimensional zero based array with the following information:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a two-dimensional zero based array with the following information:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     0 - Name of the worksheet</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 - Name of the worksheet</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 - Name of the worksheet</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     1 - Name of the cell</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 - Name of the cell</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 - Name of the cell</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     2 - Address of the cell</source>
+<seg-source> <mrk mid="0" mtype="seg">    2 - Address of the cell</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    2 - Address of the cell</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     3 - Value of the cell</source>
+<seg-source> <mrk mid="0" mtype="seg">    3 - Value of the cell</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    3 - Value of the cell</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     4 - Formula of the cell</source>
+<seg-source> <mrk mid="0" mtype="seg">    4 - Formula of the cell</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    4 - Formula of the cell</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     5 - Comment of the cell</source>
+<seg-source> <mrk mid="0" mtype="seg">    5 - Comment of the cell</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    5 - Comment of the cell</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">0 and sets @error.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets @error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets @error.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">1 - $oWorkbook is not an object or not a workbook object</source>
+<seg-source><mrk mid="0" mtype="seg">1 - $oWorkbook is not an object or not a workbook object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - $oWorkbook is not an object or not a workbook object</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> 2 - $sSearch is empty</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - $sSearch is empty</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - $sSearch is empty</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> 3 - $vRange is invalid. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - $vRange is invalid.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - $vRange is invalid.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> 4 - Error returned by the Find method. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">4 - Error returned by the Find method.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 - Error returned by the Find method.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">This function mimics the Ctrl+F functionality of Excel, except that it adds the cells comment to the result.</source>
+<seg-source><mrk mid="0" mtype="seg">This function mimics the Ctrl+F functionality of Excel, except that it adds the cells comment to the result.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function mimics the Ctrl+F functionality of Excel, except that it adds the cells comment to the result.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> Excel recognizes the following wildcards:</source>
+<seg-source> <mrk mid="0" mtype="seg">Excel recognizes the following wildcards:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Excel recognizes the following wildcards:</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> ? (question mark) - Any single character</source>
+<seg-source> <mrk mid="0" mtype="seg">?</mrk> <mrk mid="1" mtype="seg">(question mark) - Any single character</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">?</mrk> <mrk mid="1" mtype="seg">(question mark) - Any single character</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> * (asterisk) - Any number of characters</source>
+<seg-source> <mrk mid="0" mtype="seg">* (asterisk) - Any number of characters</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">* (asterisk) - Any number of characters</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> ~ (tilde) followed by ?, *, or ~ - A question mark, asterisk, or tilde</source>
+<seg-source> <mrk mid="0" mtype="seg">~ (tilde) followed by ?,</mrk> <mrk mid="1" mtype="seg">*, or ~ - A question mark, asterisk, or tilde</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">~ (tilde) followed by ?,</mrk> <mrk mid="1" mtype="seg">*, or ~ - A question mark, asterisk, or tilde</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> When $vRange is specified as A1 range (string) then the active sheet of $oWorkbook is being searched.</source>
+<seg-source> <mrk mid="0" mtype="seg">When $vRange is specified as A1 range (string) then the active sheet of $oWorkbook is being searched.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When $vRange is specified as A1 range (string) then the active sheet of $oWorkbook is being searched.</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">See <bpt id="1" ctype="x-a">&lt;a href="http://office.microsoft.com/en-us/excel-help/wildcard-characters-HP005203612.aspx"></bpt>http://office.microsoft.com/en-us/excel-help/wildcard-characters-HP005203612.aspx<ept id="1">&lt;/a></ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="http://office.microsoft.com/en-us/excel-help/wildcard-characters-HP005203612.aspx"></bpt>http://office.microsoft.com/en-us/excel-help/wildcard-characters-HP005203612.aspx<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="http://office.microsoft.com/en-us/excel-help/wildcard-characters-HP005203612.aspx"></bpt>http://office.microsoft.com/en-us/excel-help/wildcard-characters-HP005203612.aspx<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Create application object and open an example workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Excel UDF: _Excel_RangeFind Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Error creating the Excel application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">\Extras\_Excel1.xls</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Excel UDF: _Excel_RangeFind Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Error opening workbook '</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening workbook '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening workbook '</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">\Extras\_Excel1.xls'.</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Find all occurrences of value "37000" (partial match)</source>
+<seg-source><mrk mid="0" mtype="seg">Find all occurrences of value "37000" (partial match)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Find all occurrences of value "37000" (partial match)</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Excel UDF: _Excel_RangeFind Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Error searching the range.</source>
+<seg-source><mrk mid="0" mtype="seg">Error searching the range.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error searching the range.</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Excel UDF: _Excel_RangeFind Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">Find all occurrences of value '37000' (partial match).</source>
+<seg-source><mrk mid="0" mtype="seg">Find all occurrences of value '37000' (partial match).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Find all occurrences of value '37000' (partial match).</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Data successfully searched.</source>
+<seg-source><mrk mid="0" mtype="seg">Data successfully searched.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Data successfully searched.</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Excel UDF: _Excel_RangeFind Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">|</source>
+<seg-source><mrk mid="0" mtype="seg">|</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">|</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">Sheet|Name|Cell|Value|Formula|Comment</source>
+<seg-source><mrk mid="0" mtype="seg">Sheet|Name|Cell|Value|Formula|Comment</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sheet|Name|Cell|Value|Formula|Comment</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Create application object and open an example workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">Excel UDF: _Excel_RangeFind Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">Error creating the Excel application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">\Extras\_Excel1.xls</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">Excel UDF: _Excel_RangeFind Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">Error opening workbook '</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening workbook '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening workbook '</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">\Extras\_Excel1.xls'.</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">Find all occurrences of string "=C10*10" in the formulas, exact match</source>
+<seg-source><mrk mid="0" mtype="seg">Find all occurrences of string "=C10*10" in the formulas, exact match</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Find all occurrences of string "=C10*10" in the formulas, exact match</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">=C10*10</source>
+<seg-source><mrk mid="0" mtype="seg">=C10*10</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">=C10*10</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">A1:G15</source>
+<seg-source><mrk mid="0" mtype="seg">A1:G15</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A1:G15</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">Excel UDF: _Excel_RangeFind Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">Error searching the range.</source>
+<seg-source><mrk mid="0" mtype="seg">Error searching the range.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error searching the range.</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">Excel UDF: _Excel_RangeFind Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">Find all occurrences of string '=C10*10' in the formulas, exact match.</source>
+<seg-source><mrk mid="0" mtype="seg">Find all occurrences of string '=C10*10' in the formulas, exact match.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Find all occurrences of string '=C10*10' in the formulas, exact match.</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">Data successfully searched.</source>
+<seg-source><mrk mid="0" mtype="seg">Data successfully searched.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Data successfully searched.</mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">Excel UDF: _Excel_RangeFind Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">|</source>
+<seg-source><mrk mid="0" mtype="seg">|</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">|</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">Sheet|Name|Cell|Value|Formula|Comment</source>
+<seg-source><mrk mid="0" mtype="seg">Sheet|Name|Cell|Value|Formula|Comment</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sheet|Name|Cell|Value|Formula|Comment</mrk></target>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en">Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">Create application object and open an example workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">Excel UDF: _Excel_RangeFind Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example</mrk></target>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en">Error creating the Excel application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></target>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en">\Extras\_Excel1.xls</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></target>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en">Excel UDF: _Excel_RangeFind Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example</mrk></target>
+</trans-unit>
+<trans-unit id="94">
+<source xml:lang="en">Error opening workbook '</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening workbook '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening workbook '</mrk></target>
+</trans-unit>
+<trans-unit id="95">
+<source xml:lang="en">\Extras\_Excel1.xls'.</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></target>
+</trans-unit>
+<trans-unit id="96">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="97">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="98">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="99">
+<source xml:lang="en">Find all occurrences of string "test" in the comments</source>
+<seg-source><mrk mid="0" mtype="seg">Find all occurrences of string "test" in the comments</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Find all occurrences of string "test" in the comments</mrk></target>
+</trans-unit>
+<trans-unit id="100">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="101">
+<source xml:lang="en">test</source>
+<seg-source><mrk mid="0" mtype="seg">test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">test</mrk></target>
+</trans-unit>
+<trans-unit id="102">
+<source xml:lang="en">Excel UDF: _Excel_RangeFind Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="103">
+<source xml:lang="en">Error searching the range.</source>
+<seg-source><mrk mid="0" mtype="seg">Error searching the range.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error searching the range.</mrk></target>
+</trans-unit>
+<trans-unit id="104">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="105">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="106">
+<source xml:lang="en">Excel UDF: _Excel_RangeFind Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="107">
+<source xml:lang="en">Find all occurrences of string 'test' in the comments.</source>
+<seg-source><mrk mid="0" mtype="seg">Find all occurrences of string 'test' in the comments.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Find all occurrences of string 'test' in the comments.</mrk></target>
+</trans-unit>
+<trans-unit id="108">
+<source xml:lang="en">Data successfully searched.</source>
+<seg-source><mrk mid="0" mtype="seg">Data successfully searched.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Data successfully searched.</mrk></target>
+</trans-unit>
+<trans-unit id="109">
+<source xml:lang="en">Excel UDF: _Excel_RangeFind Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="110">
+<source xml:lang="en">|</source>
+<seg-source><mrk mid="0" mtype="seg">|</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">|</mrk></target>
+</trans-unit>
+<trans-unit id="111">
+<source xml:lang="en">Sheet|Name|Cell|Value|Formula|Comment</source>
+<seg-source><mrk mid="0" mtype="seg">Sheet|Name|Cell|Value|Formula|Comment</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sheet|Name|Cell|Value|Formula|Comment</mrk></target>
+</trans-unit>
+<trans-unit id="112">
+<source xml:lang="en">Example 4</source>
+<seg-source><mrk mid="0" mtype="seg">Example 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 4</mrk></target>
+</trans-unit>
+<trans-unit id="113">
+<source xml:lang="en">Create application object and open an example workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></target>
+</trans-unit>
+<trans-unit id="114">
+<source xml:lang="en">Excel UDF: _Excel_RangeFind Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example</mrk></target>
+</trans-unit>
+<trans-unit id="115">
+<source xml:lang="en">Error creating the Excel application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></target>
+</trans-unit>
+<trans-unit id="116">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="117">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="118">
+<source xml:lang="en">\Extras\_Excel1.xls</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></target>
+</trans-unit>
+<trans-unit id="119">
+<source xml:lang="en">Excel UDF: _Excel_RangeFind Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example</mrk></target>
+</trans-unit>
+<trans-unit id="120">
+<source xml:lang="en">Error opening workbook '</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening workbook '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening workbook '</mrk></target>
+</trans-unit>
+<trans-unit id="121">
+<source xml:lang="en">\Extras\_Excel1.xls'.</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></target>
+</trans-unit>
+<trans-unit id="122">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="123">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="124">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="125">
+<source xml:lang="en">Find all values with "Story" at the end using wildcards and exact match</source>
+<seg-source><mrk mid="0" mtype="seg">Find all values with "Story" at the end using wildcards and exact match</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Find all values with "Story" at the end using wildcards and exact match</mrk></target>
+</trans-unit>
+<trans-unit id="126">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="127">
+<source xml:lang="en">* Story</source>
+<seg-source><mrk mid="0" mtype="seg">* Story</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">* Story</mrk></target>
+</trans-unit>
+<trans-unit id="128">
+<source xml:lang="en">Excel UDF: _Excel_RangeFind Example 4</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 4</mrk></target>
+</trans-unit>
+<trans-unit id="129">
+<source xml:lang="en">Error searching the range.</source>
+<seg-source><mrk mid="0" mtype="seg">Error searching the range.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error searching the range.</mrk></target>
+</trans-unit>
+<trans-unit id="130">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="131">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="132">
+<source xml:lang="en">Excel UDF: _Excel_RangeFind Example 4</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 4</mrk></target>
+</trans-unit>
+<trans-unit id="133">
+<source xml:lang="en">Find all values with 'Story' at the end using wildcards and exact match.</source>
+<seg-source><mrk mid="0" mtype="seg">Find all values with 'Story' at the end using wildcards and exact match.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Find all values with 'Story' at the end using wildcards and exact match.</mrk></target>
+</trans-unit>
+<trans-unit id="134">
+<source xml:lang="en">Data successfully searched.</source>
+<seg-source><mrk mid="0" mtype="seg">Data successfully searched.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Data successfully searched.</mrk></target>
+</trans-unit>
+<trans-unit id="135">
+<source xml:lang="en">Excel UDF: _Excel_RangeFind Example 4</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeFind Example 4</mrk></target>
+</trans-unit>
+<trans-unit id="136">
+<source xml:lang="en">|</source>
+<seg-source><mrk mid="0" mtype="seg">|</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">|</mrk></target>
+</trans-unit>
+<trans-unit id="137">
+<source xml:lang="en">Sheet|Name|Cell|Value|Formula|Comment</source>
+<seg-source><mrk mid="0" mtype="seg">Sheet|Name|Cell|Value|Formula|Comment</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sheet|Name|Cell|Value|Formula|Comment</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

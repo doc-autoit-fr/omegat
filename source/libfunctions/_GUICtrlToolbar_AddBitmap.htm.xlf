@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUICtrlToolbar_AddBitmap.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Adds images to the image list</source>
+<seg-source><mrk mid="0" mtype="seg">Adds images to the image list</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Adds images to the image list</mrk></target>
+<note>Function _GUICtrlToolbar_AddBitmap</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Number of button images in the bitmap</source>
+<seg-source><mrk mid="0" mtype="seg">Number of button images in the bitmap</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Number of button images in the bitmap</mrk></target>
+<note>$iButtons</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Handle to the module instance with the executable file that contains a bitmap resource.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the module instance with the executable file that contains a bitmap resource.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the module instance with the executable file that contains a bitmap resource.</mrk></target>
+<note>$hInst</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> To use bitmap handles instead of resource IDs, set this to 0. You can add system defined button bitmaps to the list by specifying -1 as the $hInst member and one of the following values as the $iID member:</source>
+<seg-source> <mrk mid="0" mtype="seg">To use bitmap handles instead of resource IDs, set this to 0.</mrk> <mrk mid="1" mtype="seg">You can add system defined button bitmaps to the list by specifying -1 as the $hInst member and one of the following values as the $iID member:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To use bitmap handles instead of resource IDs, set this to 0.</mrk> <mrk mid="1" mtype="seg">You can add system defined button bitmaps to the list by specifying -1 as the $hInst member and one of the following values as the $iID member:</mrk></target>
+<note>$hInst</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $IDB_STD_LARGE_COLOR - Adds large, color standard bitmaps</source>
+<seg-source> <mrk mid="0" mtype="seg">    $IDB_STD_LARGE_COLOR - Adds large, color standard bitmaps</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $IDB_STD_LARGE_COLOR - Adds large, color standard bitmaps</mrk></target>
+<note>$hInst</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $IDB_STD_SMALL_COLOR - Adds small, color standard bitmaps</source>
+<seg-source> <mrk mid="0" mtype="seg">    $IDB_STD_SMALL_COLOR - Adds small, color standard bitmaps</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $IDB_STD_SMALL_COLOR - Adds small, color standard bitmaps</mrk></target>
+<note>$hInst</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $IDB_VIEW_LARGE_COLOR - Adds large, color view bitmaps</source>
+<seg-source> <mrk mid="0" mtype="seg">    $IDB_VIEW_LARGE_COLOR - Adds large, color view bitmaps</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $IDB_VIEW_LARGE_COLOR - Adds large, color view bitmaps</mrk></target>
+<note>$hInst</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $IDB_VIEW_SMALL_COLOR - Adds small, color view bitmaps</source>
+<seg-source> <mrk mid="0" mtype="seg">    $IDB_VIEW_SMALL_COLOR - Adds small, color view bitmaps</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $IDB_VIEW_SMALL_COLOR - Adds small, color view bitmaps</mrk></target>
+<note>$hInst</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">If $hInst is 0, set this member to the bitmap handle of the bitmap with the button images.</source>
+<seg-source><mrk mid="0" mtype="seg">If $hInst is 0, set this member to the bitmap handle of the bitmap with the button images.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If $hInst is 0, set this member to the bitmap handle of the bitmap with the button images.</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> Otherwise, set it to the resource identifier of the bitmap with the button images.</source>
+<seg-source> <mrk mid="0" mtype="seg">Otherwise, set it to the resource identifier of the bitmap with the button images.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Otherwise, set it to the resource identifier of the bitmap with the button images.</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> The following are resource IDs to the standard and view bitmaps:</source>
+<seg-source> <mrk mid="0" mtype="seg">The following are resource IDs to the standard and view bitmaps:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The following are resource IDs to the standard and view bitmaps:</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $STD_COPY - Copy image</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STD_COPY - Copy image</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STD_COPY - Copy image</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $STD_CUT - Cut image</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STD_CUT - Cut image</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STD_CUT - Cut image</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $STD_DELETE - Delete image</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STD_DELETE - Delete image</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STD_DELETE - Delete image</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $STD_FILENEW - New file image</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STD_FILENEW - New file image</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STD_FILENEW - New file image</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $STD_FILEOPEN - Open file image</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STD_FILEOPEN - Open file image</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STD_FILEOPEN - Open file image</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $STD_FILESAVE - Save file image</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STD_FILESAVE - Save file image</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STD_FILESAVE - Save file image</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     $STD_FIND - Find image</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STD_FIND - Find image</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STD_FIND - Find image</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     $STD_HELP - Help image</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STD_HELP - Help image</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STD_HELP - Help image</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     $STD_PASTE - Paste image</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STD_PASTE - Paste image</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STD_PASTE - Paste image</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">     $STD_PRINT - Print image</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STD_PRINT - Print image</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STD_PRINT - Print image</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">     $STD_PRINTPRE - Print preview image</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STD_PRINTPRE - Print preview image</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STD_PRINTPRE - Print preview image</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">     $STD_PROPERTIES - Properties image</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STD_PROPERTIES - Properties image</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STD_PROPERTIES - Properties image</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">     $STD_REDOW - Redo image</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STD_REDOW - Redo image</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STD_REDOW - Redo image</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">     $STD_REPLACE - Replace image</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STD_REPLACE - Replace image</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STD_REPLACE - Replace image</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">     $STD_UNDO - Undo image</source>
+<seg-source> <mrk mid="0" mtype="seg">    $STD_UNDO - Undo image</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $STD_UNDO - Undo image</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">     $VIEW_DETAILS - View details image</source>
+<seg-source> <mrk mid="0" mtype="seg">    $VIEW_DETAILS - View details image</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $VIEW_DETAILS - View details image</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">     $VIEW_LARGEICONS - View large icons image</source>
+<seg-source> <mrk mid="0" mtype="seg">    $VIEW_LARGEICONS - View large icons image</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $VIEW_LARGEICONS - View large icons image</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">     $VIEW_LIST - View list image</source>
+<seg-source> <mrk mid="0" mtype="seg">    $VIEW_LIST - View list image</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $VIEW_LIST - View list image</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">     $VIEW_SMALLICONS - View small icons image.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $VIEW_SMALLICONS - View small icons image.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $VIEW_SMALLICONS - View small icons image.</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">     $VIEW_SORTDATE - Sort by date image.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $VIEW_SORTDATE - Sort by date image.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $VIEW_SORTDATE - Sort by date image.</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">     $VIEW_SORTNAME - Sort by name image.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $VIEW_SORTNAME - Sort by name image.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $VIEW_SORTNAME - Sort by name image.</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">     $VIEW_SORTSIZE - Sort by size image.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $VIEW_SORTSIZE - Sort by size image.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $VIEW_SORTSIZE - Sort by size image.</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">     $VIEW_SORTTYPE - Sort by type image.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $VIEW_SORTTYPE - Sort by type image.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $VIEW_SORTTYPE - Sort by type image.</mrk></target>
+<note>$iID</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">the 0-based index of the first new image.</source>
+<seg-source><mrk mid="0" mtype="seg">the 0-based index of the first new image.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the 0-based index of the first new image.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">-1.</source>
+<seg-source><mrk mid="0" mtype="seg">-1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Toolbar</source>
+<seg-source><mrk mid="0" mtype="seg">Toolbar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Toolbar</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Add standard system bitmaps</source>
+<seg-source><mrk mid="0" mtype="seg">Add standard system bitmaps</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add standard system bitmaps</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Add buttons</source>
+<seg-source><mrk mid="0" mtype="seg">Add buttons</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add buttons</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

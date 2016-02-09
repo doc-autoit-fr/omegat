@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_ArrayToString.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Places the elements of a 1D or 2D array into a single string, separated by the specified delimiters</source>
+<seg-source><mrk mid="0" mtype="seg">Places the elements of a 1D or 2D array into a single string, separated by the specified delimiters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Places the elements of a 1D or 2D array into a single string, separated by the specified delimiters</mrk></target>
+<note>Function _ArrayToString</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Array to convert to a string</source>
+<seg-source><mrk mid="0" mtype="seg">Array to convert to a string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Array to convert to a string</mrk></target>
+<note>$aArray</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Delimiter for elements of 1D array or columns of 2D array</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Delimiter for elements of 1D array or columns of 2D array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Delimiter for elements of 1D array or columns of 2D array</mrk></target>
+<note>$sDelim_Col</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Index of array row to start copy</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Index of array row to start copy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Index of array row to start copy</mrk></target>
+<note>$iStart_Row</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Index of array row to stop copy</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Index of array row to stop copy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Index of array row to stop copy</mrk></target>
+<note>$iEnd_Row</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Delimiter for rows of 2D array (2D only)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Delimiter for rows of 2D array (2D only)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Delimiter for rows of 2D array (2D only)</mrk></target>
+<note>$sDelim_Row</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Index of array column to start copy (2D only)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Index of array column to start copy (2D only)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Index of array column to start copy (2D only)</mrk></target>
+<note>$iStart_Col</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Index of array column to stop copy (2D only)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Index of array column to stop copy (2D only)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Index of array column to stop copy (2D only)</mrk></target>
+<note>$iEnd_Col</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">a string which combined selected elements separated by the delimiters.</source>
+<seg-source><mrk mid="0" mtype="seg">a string which combined selected elements separated by the delimiters.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a string which combined selected elements separated by the delimiters.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">1 - $aArray is not an array</source>
+<seg-source><mrk mid="0" mtype="seg">1 - $aArray is not an array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - $aArray is not an array</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> 2 - $aArray is not a 1D or 2D array</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - $aArray is not a 1D or 2D array</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - $aArray is not a 1D or 2D array</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> 3 - $iStart_Row or $iEnd_Row outside array bounds</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - $iStart_Row or $iEnd_Row outside array bounds</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - $iStart_Row or $iEnd_Row outside array bounds</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> 4 - $iStart_Row greater then $iEnd_Row</source>
+<seg-source> <mrk mid="0" mtype="seg">4 - $iStart_Row greater then $iEnd_Row</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 - $iStart_Row greater then $iEnd_Row</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> 5 - $iStart_Col or $iEnd_Col outside array bounds</source>
+<seg-source> <mrk mid="0" mtype="seg">5 - $iStart_Col or $iEnd_Col outside array bounds</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">5 - $iStart_Col or $iEnd_Col outside array bounds</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> 6 - $iStart_Col greater then $iEnd_Col</source>
+<seg-source> <mrk mid="0" mtype="seg">6 - $iStart_Col greater then $iEnd_Col</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">6 - $iStart_Col greater then $iEnd_Col</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">1D Array</source>
+<seg-source><mrk mid="0" mtype="seg">1D Array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1D Array</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Items 1-7</source>
+<seg-source><mrk mid="0" mtype="seg">Items 1-7</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Items 1-7</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">-</source>
+<seg-source><mrk mid="0" mtype="seg">-</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">2D Array</source>
+<seg-source><mrk mid="0" mtype="seg">2D Array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2D Array</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Rows 4-7, cols 2-5</source>
+<seg-source><mrk mid="0" mtype="seg">Rows 4-7, cols 2-5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Rows 4-7, cols 2-5</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">::</source>
+<seg-source><mrk mid="0" mtype="seg">::</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">::</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

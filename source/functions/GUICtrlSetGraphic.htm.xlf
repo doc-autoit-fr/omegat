@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/GUICtrlSetGraphic.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Modifies the data for a control.</source>
+<seg-source><mrk mid="0" mtype="seg">Modifies the data for a control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Modifies the data for a control.</mrk></target>
+<note>Function GUICtrlSetGraphic</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> The control identifier (controlID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateGraphic.htm"></bpt>GUICtrlCreateGraphic()<ept id="1">&lt;/a></ept> function. </source>
+<seg-source> <mrk mid="0" mtype="seg">The control identifier (controlID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateGraphic.htm"></bpt>GUICtrlCreateGraphic()<ept id="1">&lt;/a></ept> function.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The control identifier (controlID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateGraphic.htm"></bpt>GUICtrlCreateGraphic()<ept id="1">&lt;/a></ept> function.</mrk> </target>
+<note>controlID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">type of drawing : dot, line, bezier, rect, ellipse, pie.</source>
+<seg-source><mrk mid="0" mtype="seg">type of drawing : dot, line, bezier, rect, ellipse, pie.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">type of drawing : dot, line, bezier, rect, ellipse, pie.</mrk></target>
+<note>type</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> See the <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetGraphic.htm#Graphic%20Type%20table"></bpt>Graphic Type table<ept id="1">&lt;/a></ept> below. </source>
+<seg-source> <mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetGraphic.htm#Graphic%20Type%20table"></bpt>Graphic Type table<ept id="1">&lt;/a></ept> below.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">See the <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetGraphic.htm#Graphic%20Type%20table"></bpt>Graphic Type table<ept id="1">&lt;/a></ept> below.</mrk> </target>
+<note>par1...par6</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> -1 in case of invalid data</source>
+<seg-source> <mrk mid="0" mtype="seg">-1 in case of invalid data</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">-1 in case of invalid data</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">The point position (x,y) is relative to the <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateGraphic.htm"></bpt>GUICtrlCreateGraphic()<ept id="1">&lt;/a></ept> coordinates. It can be outside the graphic control but inside of the GUI window.</source>
+<seg-source><mrk mid="0" mtype="seg">The point position (x,y) is relative to the <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateGraphic.htm"></bpt>GUICtrlCreateGraphic()<ept id="1">&lt;/a></ept> coordinates.</mrk> <mrk mid="1" mtype="seg">It can be outside the graphic control but inside of the GUI window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The point position (x,y) is relative to the <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreateGraphic.htm"></bpt>GUICtrlCreateGraphic()<ept id="1">&lt;/a></ept> coordinates.</mrk> <mrk mid="1" mtype="seg">It can be outside the graphic control but inside of the GUI window.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> <ph id="1" ctype="x-a">&lt;a id="Graphic Type table"></ph><bpt id="2" ctype="x-strong">&lt;strong></bpt>Graphic Type table<ept id="2">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="Graphic Type table"></ph><bpt id="2" ctype="x-strong">&lt;strong></bpt>Graphic Type table<ept id="2">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><ph id="1" ctype="x-a">&lt;a id="Graphic Type table"></ph><bpt id="2" ctype="x-strong">&lt;strong></bpt>Graphic Type table<ept id="2">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Type<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Type<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Type<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Parameters<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Parameters<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Parameters<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>result<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>result<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>result<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">$GUI_GR_COLOR</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_GR_COLOR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_GR_COLOR</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Color [,BkColor]</source>
+<seg-source><mrk mid="0" mtype="seg">Color [,BkColor]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Color [,BkColor]</mrk></target>
+<note>$GUI_GR_COLOR</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Define the color of the next drawings. When BkColor is equal to $GUI_GR_NOBKCOLOR the drawing will not be filled. It is the default. For Color the default line color is black.</source>
+<seg-source><mrk mid="0" mtype="seg">Define the color of the next drawings.</mrk> <mrk mid="1" mtype="seg">When BkColor is equal to $GUI_GR_NOBKCOLOR the drawing will not be filled.</mrk> <mrk mid="2" mtype="seg">It is the default.</mrk> <mrk mid="3" mtype="seg">For Color the default line color is black.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Define the color of the next drawings.</mrk> <mrk mid="1" mtype="seg">When BkColor is equal to $GUI_GR_NOBKCOLOR the drawing will not be filled.</mrk> <mrk mid="2" mtype="seg">It is the default.</mrk> <mrk mid="3" mtype="seg">For Color the default line color is black.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">$GUI_GR_MOVE</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_GR_MOVE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_GR_MOVE</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">x,y</source>
+<seg-source><mrk mid="0" mtype="seg">x,y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">x,y</mrk></target>
+<note>$GUI_GR_MOVE</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Move the current position without drawing.</source>
+<seg-source><mrk mid="0" mtype="seg">Move the current position without drawing.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Move the current position without drawing.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">$GUI_GR_DOT</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_GR_DOT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_GR_DOT</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">x,y</source>
+<seg-source><mrk mid="0" mtype="seg">x,y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">x,y</mrk></target>
+<note>$GUI_GR_DOT</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Draw a point(smallest square around the point), the next drawing will start from previous position.</source>
+<seg-source><mrk mid="0" mtype="seg">Draw a point(smallest square around the point), the next drawing will start from previous position.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draw a point(smallest square around the point), the next drawing will start from previous position.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">$GUI_GR_PIXEL</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_GR_PIXEL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_GR_PIXEL</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">x,y</source>
+<seg-source><mrk mid="0" mtype="seg">x,y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">x,y</mrk></target>
+<note>$GUI_GR_PIXEL</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Draw a pixel, the next drawing will start from previous position.</source>
+<seg-source><mrk mid="0" mtype="seg">Draw a pixel, the next drawing will start from previous position.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draw a pixel, the next drawing will start from previous position.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">$GUI_GR_LINE</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_GR_LINE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_GR_LINE</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">x,y</source>
+<seg-source><mrk mid="0" mtype="seg">x,y</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">x,y</mrk></target>
+<note>$GUI_GR_LINE</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Draw a line.</source>
+<seg-source><mrk mid="0" mtype="seg">Draw a line.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draw a line.</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">$GUI_GR_BEZIER</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_GR_BEZIER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_GR_BEZIER</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">x,y,x1,y1,x2,y2</source>
+<seg-source><mrk mid="0" mtype="seg">x,y,x1,y1,x2,y2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">x,y,x1,y1,x2,y2</mrk></target>
+<note>$GUI_GR_BEZIER</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Draw a bezier curve with 2 control points.</source>
+<seg-source><mrk mid="0" mtype="seg">Draw a bezier curve with 2 control points.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draw a bezier curve with 2 control points.</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">$GUI_GR_RECT</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_GR_RECT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_GR_RECT</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">x,y,w,h</source>
+<seg-source><mrk mid="0" mtype="seg">x,y,w,h</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">x,y,w,h</mrk></target>
+<note>$GUI_GR_RECT</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Draw a rectangle. If w=h it will be a square.</source>
+<seg-source><mrk mid="0" mtype="seg">Draw a rectangle.</mrk> <mrk mid="1" mtype="seg">If w=h it will be a square.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draw a rectangle.</mrk> <mrk mid="1" mtype="seg">If w=h it will be a square.</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">$GUI_GR_ELLIPSE</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_GR_ELLIPSE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_GR_ELLIPSE</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">x,y,w,h</source>
+<seg-source><mrk mid="0" mtype="seg">x,y,w,h</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">x,y,w,h</mrk></target>
+<note>$GUI_GR_ELLIPSE</note>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Draw an ellipse. If w=h it will be a circle.</source>
+<seg-source><mrk mid="0" mtype="seg">Draw an ellipse.</mrk> <mrk mid="1" mtype="seg">If w=h it will be a circle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draw an ellipse.</mrk> <mrk mid="1" mtype="seg">If w=h it will be a circle.</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">$GUI_GR_PIE</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_GR_PIE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_GR_PIE</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">x,y,r,sa,wa</source>
+<seg-source><mrk mid="0" mtype="seg">x,y,r,sa,wa</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">x,y,r,sa,wa</mrk></target>
+<note>$GUI_GR_PIE</note>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Draw a pie radius=r startangle=sa sweepangle=wa. Angles are in degrees.</source>
+<seg-source><mrk mid="0" mtype="seg">Draw a pie radius=r startangle=sa sweepangle=wa.</mrk> <mrk mid="1" mtype="seg">Angles are in degrees.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draw a pie radius=r startangle=sa sweepangle=wa.</mrk> <mrk mid="1" mtype="seg">Angles are in degrees.</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">$GUI_GR_CLOSE</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_GR_CLOSE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_GR_CLOSE</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en"> </source>
+<seg-source><mrk mid="0" mtype="seg"> </mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> </mrk></target>
+<note>$GUI_GR_CLOSE</note>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">to close the current drawing. It has to be added to $GUI_GR_LINE or $GUI_GR_BEZIER to close current drawing. Use alone will be ignored.</source>
+<seg-source><mrk mid="0" mtype="seg">to close the current drawing.</mrk> <mrk mid="1" mtype="seg">It has to be added to $GUI_GR_LINE or $GUI_GR_BEZIER to close current drawing.</mrk> <mrk mid="2" mtype="seg">Use alone will be ignored.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">to close the current drawing.</mrk> <mrk mid="1" mtype="seg">It has to be added to $GUI_GR_LINE or $GUI_GR_BEZIER to close current drawing.</mrk> <mrk mid="2" mtype="seg">Use alone will be ignored.</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">$GUI_GR_REFRESH</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_GR_REFRESH</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_GR_REFRESH</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en"> </source>
+<seg-source><mrk mid="0" mtype="seg"> </mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> </mrk></target>
+<note>$GUI_GR_REFRESH</note>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">to force refresh after dynamic update of graphics.</source>
+<seg-source><mrk mid="0" mtype="seg">to force refresh after dynamic update of graphics.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">to force refresh after dynamic update of graphics.</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">$GUI_GR_HINT</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_GR_HINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_GR_HINT</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en"> </source>
+<seg-source><mrk mid="0" mtype="seg"> </mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> </mrk></target>
+<note>$GUI_GR_HINT</note>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">to display control point and end point of bezier/line curve.</source>
+<seg-source><mrk mid="0" mtype="seg">to display control point and end point of bezier/line curve.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">to display control point and end point of bezier/line curve.</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">$GUI_GR_PENSIZE</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_GR_PENSIZE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_GR_PENSIZE</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">n</source>
+<seg-source><mrk mid="0" mtype="seg">n</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">n</mrk></target>
+<note>$GUI_GR_PENSIZE</note>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">set pensize for the next drawings. It has to be defined before $GUI_GR_COLOR to be taken in account.</source>
+<seg-source><mrk mid="0" mtype="seg">set pensize for the next drawings.</mrk> <mrk mid="1" mtype="seg">It has to be defined before $GUI_GR_COLOR to be taken in account.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">set pensize for the next drawings.</mrk> <mrk mid="1" mtype="seg">It has to be defined before $GUI_GR_COLOR to be taken in account.</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">$GUI_GR_NOBKCOLOR</source>
+<seg-source><mrk mid="0" mtype="seg">$GUI_GR_NOBKCOLOR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$GUI_GR_NOBKCOLOR</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en"> </source>
+<seg-source><mrk mid="0" mtype="seg"> </mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> </mrk></target>
+<note>$GUI_GR_NOBKCOLOR</note>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">is a dummy BkColor to force closed drawing not to be filled. Just line drawings.</source>
+<seg-source><mrk mid="0" mtype="seg">is a dummy BkColor to force closed drawing not to be filled.</mrk> <mrk mid="1" mtype="seg">Just line drawings.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">is a dummy BkColor to force closed drawing not to be filled.</mrk> <mrk mid="1" mtype="seg">Just line drawings.</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en"> Due to design constraints RECT, ELLIPSE and PIE graphics are drawn first. For example, a LINE will always be drawn over a RECT. If the drawing order is important to the look of the graphic, then it is recommended that multiple graphic controls be used instead of using a single control to do all the drawing.</source>
+<seg-source> <mrk mid="0" mtype="seg">Due to design constraints RECT, ELLIPSE and PIE graphics are drawn first.</mrk> <mrk mid="1" mtype="seg">For example, a LINE will always be drawn over a RECT.</mrk> <mrk mid="2" mtype="seg">If the drawing order is important to the look of the graphic, then it is recommended that multiple graphic controls be used instead of using a single control to do all the drawing.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Due to design constraints RECT, ELLIPSE and PIE graphics are drawn first.</mrk> <mrk mid="1" mtype="seg">For example, a LINE will always be drawn over a RECT.</mrk> <mrk mid="2" mtype="seg">If the drawing order is important to the look of the graphic, then it is recommended that multiple graphic controls be used instead of using a single control to do all the drawing.</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">0 and $g_MAXGr entries not used to allow GUICtrlDelete result</source>
+<seg-source><mrk mid="0" mtype="seg">0 and $g_MAXGr entries not used to allow GUICtrlDelete result</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and $g_MAXGr entries not used to allow GUICtrlDelete result</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">My Main</source>
+<seg-source><mrk mid="0" mtype="seg">My Main</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">My Main</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">ReCreate</source>
+<seg-source><mrk mid="0" mtype="seg">ReCreate</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ReCreate</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">$i=5 ; uncomment to delete starting from last define Graphic control</source>
+<seg-source><mrk mid="0" mtype="seg">$i=5 ; uncomment to delete starting from last define Graphic control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$i=5 ; uncomment to delete starting from last define Graphic control</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">$iInc=-1</source>
+<seg-source><mrk mid="0" mtype="seg">$iInc=-1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$iInc=-1</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">My Draw</source>
+<seg-source><mrk mid="0" mtype="seg">My Draw</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">My Draw</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">Delete</source>
+<seg-source><mrk mid="0" mtype="seg">Delete</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">label</source>
+<seg-source><mrk mid="0" mtype="seg">label</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">label</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">start point</source>
+<seg-source><mrk mid="0" mtype="seg">start point</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">start point</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">it is better to draw line and after point</source>
+<seg-source><mrk mid="0" mtype="seg">it is better to draw line and after point</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">it is better to draw line and after point</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">to avoid to switch color at each drawing</source>
+<seg-source><mrk mid="0" mtype="seg">to avoid to switch color at each drawing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">to avoid to switch color at each drawing</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">to display a black border line</source>
+<seg-source><mrk mid="0" mtype="seg">to display a black border line</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">to display a black border line</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">to display control lines and end points</source>
+<seg-source><mrk mid="0" mtype="seg">to display control lines and end points</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">to display control lines and end points</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">fill in blue</source>
+<seg-source><mrk mid="0" mtype="seg">fill in blue</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">fill in blue</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">start point</source>
+<seg-source><mrk mid="0" mtype="seg">start point</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">start point</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">start point</source>
+<seg-source><mrk mid="0" mtype="seg">start point</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">start point</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

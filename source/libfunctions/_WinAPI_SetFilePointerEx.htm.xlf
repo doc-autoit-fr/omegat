@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_SetFilePointerEx.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Moves the file pointer of the specified file</source>
+<seg-source><mrk mid="0" mtype="seg">Moves the file pointer of the specified file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Moves the file pointer of the specified file</mrk></target>
+<note>Function _WinAPI_SetFilePointerEx</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the file.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the file.</mrk></target>
+<note>$hFile</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The number of bytes to move the file pointer. A positive value moves the pointer forward in the</source>
+<seg-source><mrk mid="0" mtype="seg">The number of bytes to move the file pointer.</mrk> <mrk mid="1" mtype="seg">A positive value moves the pointer forward in the</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The number of bytes to move the file pointer.</mrk> <mrk mid="1" mtype="seg">A positive value moves the pointer forward in the</mrk></target>
+<note>$iPos</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> file and a negative value moves the file pointer backward.</source>
+<seg-source> <mrk mid="0" mtype="seg">file and a negative value moves the file pointer backward.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">file and a negative value moves the file pointer backward.</mrk></target>
+<note>$iPos</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The starting point for the file pointer move. This parameter can be one of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The starting point for the file pointer move.</mrk> <mrk mid="2" mtype="seg">This parameter can be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The starting point for the file pointer move.</mrk> <mrk mid="2" mtype="seg">This parameter can be one of the following values.</mrk></target>
+<note>$iMethod</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $FILE_BEGIN (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">$FILE_BEGIN (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FILE_BEGIN (Default)</mrk></target>
+<note>$iMethod</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $FILE_CURRENT</source>
+<seg-source> <mrk mid="0" mtype="seg">$FILE_CURRENT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FILE_CURRENT</mrk></target>
+<note>$iMethod</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $FILE_END</source>
+<seg-source> <mrk mid="0" mtype="seg">$FILE_END</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FILE_END</mrk></target>
+<note>$iMethod</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetFilePointerEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetFilePointerEx<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetFilePointerEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetFilePointerEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SetFilePointerEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SetFilePointerEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

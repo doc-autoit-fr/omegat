@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_GetFileSizeOnDisk.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the file allocation size on disk</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the file allocation size on disk</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the file allocation size on disk</mrk></target>
+<note>Function _WinAPI_GetFileSizeOnDisk</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The name of the file to retrieve allocation size.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the file to retrieve allocation size.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the file to retrieve allocation size.</mrk></target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The allocation size, in bytes.</source>
+<seg-source><mrk mid="0" mtype="seg">The allocation size, in bytes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The allocation size, in bytes.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> This value is a multiple of the sector or cluster size of the specified physical device.</source>
+<seg-source> <mrk mid="0" mtype="seg">This value is a multiple of the sector or cluster size of the specified physical device.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This value is a multiple of the sector or cluster size of the specified physical device.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> 0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Localtion:</source>
+<seg-source><mrk mid="0" mtype="seg">Localtion:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Localtion:</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Size:</source>
+<seg-source><mrk mid="0" mtype="seg">Size:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Size:</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Size on disk:</source>
+<seg-source><mrk mid="0" mtype="seg">Size on disk:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Size on disk:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

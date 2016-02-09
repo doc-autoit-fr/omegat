@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_NamedPipes_CallNamedPipe.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Performs a read/write operation on a named pipe</source>
+<seg-source><mrk mid="0" mtype="seg">Performs a read/write operation on a named pipe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Performs a read/write operation on a named pipe</mrk></target>
+<note>Function _NamedPipes_CallNamedPipe</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Pipe name</source>
+<seg-source><mrk mid="0" mtype="seg">Pipe name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pipe name</mrk></target>
+<note>$sPipeName</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Pointer to the buffer containing the data written to the pipe</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to the buffer containing the data written to the pipe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to the buffer containing the data written to the pipe</mrk></target>
+<note>$pInpBuf</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Size of the write buffer, in bytes</source>
+<seg-source><mrk mid="0" mtype="seg">Size of the write buffer, in bytes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Size of the write buffer, in bytes</mrk></target>
+<note>$iInpSize</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Pointer to the buffer that receives the data read from the pipe</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to the buffer that receives the data read from the pipe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to the buffer that receives the data read from the pipe</mrk></target>
+<note>$pOutBuf</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Size of the read buffer, in bytes</source>
+<seg-source><mrk mid="0" mtype="seg">Size of the read buffer, in bytes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Size of the read buffer, in bytes</mrk></target>
+<note>$iOutSize</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">On return, contains the number of bytes read from the pipe</source>
+<seg-source><mrk mid="0" mtype="seg">On return, contains the number of bytes read from the pipe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">On return, contains the number of bytes read from the pipe</mrk></target>
+<note>$iRead</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Number of milliseconds to wait for the named pipe to be available.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Number of milliseconds to wait for the named pipe to be available.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Number of milliseconds to wait for the named pipe to be available.</mrk></target>
+<note>$iTimeOut</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> In addition to numeric values, the following special values can be specified:</source>
+<seg-source> <mrk mid="0" mtype="seg">In addition to numeric values, the following special values can be specified:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">In addition to numeric values, the following special values can be specified:</mrk></target>
+<note>$iTimeOut</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     -1 - Wait indefinitely</source>
+<seg-source> <mrk mid="0" mtype="seg">    -1 - Wait indefinitely</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    -1 - Wait indefinitely</mrk></target>
+<note>$iTimeOut</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     0 - Uses the default time-out specified in the call to the CreateNamedPipe</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 - Uses the default time-out specified in the call to the CreateNamedPipe</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 - Uses the default time-out specified in the call to the CreateNamedPipe</mrk></target>
+<note>$iTimeOut</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     1 - Do not wait. If the pipe is not available, return an error</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 - Do not wait.</mrk> <mrk mid="1" mtype="seg">If the pipe is not available, return an error</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 - Do not wait.</mrk> <mrk mid="1" mtype="seg">If the pipe is not available, return an error</mrk></target>
+<note>$iTimeOut</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">False.</source>
+<seg-source><mrk mid="0" mtype="seg">False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Calling CallNamedPipe is equivalent to calling the CreateFile (or WaitNamedPipe, if CreateFile cannot open the pipe immediately), TransactNamedPipe, and CloseHandle functions.</source>
+<seg-source><mrk mid="0" mtype="seg">Calling CallNamedPipe is equivalent to calling the CreateFile (or WaitNamedPipe, if CreateFile cannot open the pipe immediately), TransactNamedPipe, and CloseHandle functions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Calling CallNamedPipe is equivalent to calling the CreateFile (or WaitNamedPipe, if CreateFile cannot open the pipe immediately), TransactNamedPipe, and CloseHandle functions.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> CreateFile is called with an access flag of GENERIC_READ | GENERIC_WRITE, and an inherit handle flag of False.</source>
+<seg-source> <mrk mid="0" mtype="seg">CreateFile is called with an access flag of GENERIC_READ | GENERIC_WRITE, and an inherit handle flag of False.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">CreateFile is called with an access flag of GENERIC_READ | GENERIC_WRITE, and an inherit handle flag of False.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> CallNamedPipe fails if the pipe is a byte-type pipe.</source>
+<seg-source> <mrk mid="0" mtype="seg">CallNamedPipe fails if the pipe is a byte-type pipe.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">CallNamedPipe fails if the pipe is a byte-type pipe.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CallNamedPipe);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CallNamedPipe<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CallNamedPipe);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CallNamedPipe<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CallNamedPipe);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CallNamedPipe<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

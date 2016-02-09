@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/GUIGetStyle.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the styles of a GUI window.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the styles of a GUI window.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the styles of a GUI window.</mrk></target>
+<note>Function GUIGetStyle</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Windows handle as returned by <bpt id="1" ctype="x-a">&lt;a href="GUICreate.htm"></bpt>GUICreate()<ept id="1">&lt;/a></ept> (default is the previously used window). </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Windows handle as returned by <bpt id="1" ctype="x-a">&lt;a href="GUICreate.htm"></bpt>GUICreate()<ept id="1">&lt;/a></ept> (default is the previously used window).</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Windows handle as returned by <bpt id="1" ctype="x-a">&lt;a href="GUICreate.htm"></bpt>GUICreate()<ept id="1">&lt;/a></ept> (default is the previously used window).</mrk> </target>
+<note>winhandle</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">a two-element array that containing the styles information:</source>
+<seg-source><mrk mid="0" mtype="seg">a two-element array that containing the styles information:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a two-element array that containing the styles information:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $aArray[0] = Style</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[0] = Style</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[0] = Style</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $aArray[1] = ExStyle</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[1] = ExStyle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[1] = ExStyle</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Be careful Style changes after <bpt id="1" ctype="x-a">&lt;a href="GUISetState.htm"></bpt>GUISetState()<ept id="1">&lt;/a></ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">Be careful Style changes after <bpt id="1" ctype="x-a">&lt;a href="GUISetState.htm"></bpt>GUISetState()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Be careful Style changes after <bpt id="1" ctype="x-a">&lt;a href="GUISetState.htm"></bpt>GUISetState()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Gui Style</source>
+<seg-source><mrk mid="0" mtype="seg">Gui Style</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Gui Style</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Set Style</source>
+<seg-source><mrk mid="0" mtype="seg">Set Style</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set Style</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">be careful the style change after opening</source>
+<seg-source><mrk mid="0" mtype="seg">be careful the style change after opening</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">be careful the style change after opening</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Undo Style</source>
+<seg-source><mrk mid="0" mtype="seg">Undo Style</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Undo Style</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Set Style</source>
+<seg-source><mrk mid="0" mtype="seg">Set Style</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set Style</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

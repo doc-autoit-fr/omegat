@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/GUICtrlRead.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Read state or data of a control.</source>
+<seg-source><mrk mid="0" mtype="seg">Read state or data of a control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Read state or data of a control.</mrk></target>
+<note>Function GUICtrlRead</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> The control identifier (controlID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...()<ept id="1">&lt;/a></ept> function, or -1 for the last created control. </source>
+<seg-source> <mrk mid="0" mtype="seg">The control identifier (controlID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...()<ept id="1">&lt;/a></ept> function, or -1 for the last created control.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The control identifier (controlID) as returned by a <bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...()<ept id="1">&lt;/a></ept> function, or -1 for the last created control.</mrk> </target>
+<note>controlID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> returns extended information of a control.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">returns extended information of a control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">returns extended information of a control.</mrk></target>
+<note>advanced</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $GUI_READ_DEFAULT (0) = (Default) Returns a value with state or data of a control.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GUI_READ_DEFAULT (0) = (Default) Returns a value with state or data of a control.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GUI_READ_DEFAULT (0) = (Default) Returns a value with state or data of a control.</mrk></target>
+<note>advanced</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $GUI_READ_EXTENDED (1) = Returns extended information of a control (see Remarks).</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GUI_READ_EXTENDED (1) = Returns extended information of a control (see Remarks).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GUI_READ_EXTENDED (1) = Returns extended information of a control (see Remarks).</mrk></target>
+<note>advanced</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> Constants are defined in GUIConstantsEx.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in GUIConstantsEx.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in GUIConstantsEx.au3.</mrk></target>
+<note>advanced</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">depends on the control (see below).</source>
+<seg-source><mrk mid="0" mtype="seg">depends on the control (see below).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">depends on the control (see below).</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Type<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Type<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Type<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Value<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Value<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Value<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Checkbox, Radio</source>
+<seg-source><mrk mid="0" mtype="seg">Checkbox, Radio</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Checkbox, Radio</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">The checked state ($GUI_CHECKED or $GUI_UNCHECKED)</source>
+<seg-source><mrk mid="0" mtype="seg">The checked state ($GUI_CHECKED or $GUI_UNCHECKED)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The checked state ($GUI_CHECKED or $GUI_UNCHECKED)</mrk></target>
+<note>Checkbox, Radio</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Combo, List</source>
+<seg-source><mrk mid="0" mtype="seg">Combo, List</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Combo, List</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">The value selected</source>
+<seg-source><mrk mid="0" mtype="seg">The value selected</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The value selected</mrk></target>
+<note>Combo, List</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Input, Edit</source>
+<seg-source><mrk mid="0" mtype="seg">Input, Edit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Input, Edit</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">The text entered</source>
+<seg-source><mrk mid="0" mtype="seg">The text entered</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The text entered</mrk></target>
+<note>Input, Edit</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Button</source>
+<seg-source><mrk mid="0" mtype="seg">Button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Button</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">The display text</source>
+<seg-source><mrk mid="0" mtype="seg">The display text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The display text</mrk></target>
+<note>Button</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Date</source>
+<seg-source><mrk mid="0" mtype="seg">Date</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Date</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">The selected date in the format defined by the regional settings</source>
+<seg-source><mrk mid="0" mtype="seg">The selected date in the format defined by the regional settings</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The selected date in the format defined by the regional settings</mrk></target>
+<note>Date</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Progress</source>
+<seg-source><mrk mid="0" mtype="seg">Progress</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Progress</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Current percentage</source>
+<seg-source><mrk mid="0" mtype="seg">Current percentage</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Current percentage</mrk></target>
+<note>Progress</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Slider</source>
+<seg-source><mrk mid="0" mtype="seg">Slider</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Slider</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Current value</source>
+<seg-source><mrk mid="0" mtype="seg">Current value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Current value</mrk></target>
+<note>Slider</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Tab</source>
+<seg-source><mrk mid="0" mtype="seg">Tab</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Tab</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">The index of the selected tabitem (0-based)</source>
+<seg-source><mrk mid="0" mtype="seg">The index of the selected tabitem (0-based)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The index of the selected tabitem (0-based)</mrk></target>
+<note>Tab</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Menu, MenuItem</source>
+<seg-source><mrk mid="0" mtype="seg">Menu, MenuItem</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Menu, MenuItem</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en"> State of the menu/item. <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetState.htm#StateTable"></bpt>See State table<ept id="1">&lt;/a></ept> </source>
+<seg-source> <mrk mid="0" mtype="seg">State of the menu/item.</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetState.htm#StateTable"></bpt>See State table<ept id="1">&lt;/a></ept></mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">State of the menu/item.</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetState.htm#StateTable"></bpt>See State table<ept id="1">&lt;/a></ept></mrk> </target>
+<note>Menu, MenuItem</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">TreeView</source>
+<seg-source><mrk mid="0" mtype="seg">TreeView</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TreeView</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Control identifier (controlID) of the selected TreeViewItem</source>
+<seg-source><mrk mid="0" mtype="seg">Control identifier (controlID) of the selected TreeViewItem</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control identifier (controlID) of the selected TreeViewItem</mrk></target>
+<note>TreeView</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">TreeViewItem</source>
+<seg-source><mrk mid="0" mtype="seg">TreeViewItem</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TreeViewItem</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">State of the TreeViewItem</source>
+<seg-source><mrk mid="0" mtype="seg">State of the TreeViewItem</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">State of the TreeViewItem</mrk></target>
+<note>TreeViewItem</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">ListView</source>
+<seg-source><mrk mid="0" mtype="seg">ListView</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ListView</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Control identifier (controlID) of the selected ListViewItem. 0 means no item is selected</source>
+<seg-source><mrk mid="0" mtype="seg">Control identifier (controlID) of the selected ListViewItem.</mrk> <mrk mid="1" mtype="seg">0 means no item is selected</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control identifier (controlID) of the selected ListViewItem.</mrk> <mrk mid="1" mtype="seg">0 means no item is selected</mrk></target>
+<note>ListView</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">ListViewItem</source>
+<seg-source><mrk mid="0" mtype="seg">ListViewItem</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ListViewItem</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">The text of the selected item/lines in the ListView</source>
+<seg-source><mrk mid="0" mtype="seg">The text of the selected item/lines in the ListView</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The text of the selected item/lines in the ListView</mrk></target>
+<note>ListViewItem</note>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Dummy</source>
+<seg-source><mrk mid="0" mtype="seg">Dummy</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dummy</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en"> The value set by <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSendToDummy.htm"></bpt>GUICtrlSendToDummy()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="GUICtrlSetData.htm"></bpt>GUICtrlSetData()<ept id="2">&lt;/a></ept> </source>
+<seg-source> <mrk mid="0" mtype="seg">The value set by <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSendToDummy.htm"></bpt>GUICtrlSendToDummy()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="GUICtrlSetData.htm"></bpt>GUICtrlSetData()<ept id="2">&lt;/a></ept></mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The value set by <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSendToDummy.htm"></bpt>GUICtrlSendToDummy()<ept id="1">&lt;/a></ept> or <bpt id="2" ctype="x-a">&lt;a href="GUICtrlSetData.htm"></bpt>GUICtrlSetData()<ept id="2">&lt;/a></ept></mrk> </target>
+<note>Dummy</note>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">In 'advanced' mode the return value contains additional data of the control (see below).</source>
+<seg-source><mrk mid="0" mtype="seg">In 'advanced' mode the return value contains additional data of the control (see below).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">In 'advanced' mode the return value contains additional data of the control (see below).</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en"> Note: not all controls return additional data!</source>
+<seg-source> <mrk mid="0" mtype="seg">Note: not all controls return additional data!</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Note: not all controls return additional data!</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Type<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Type<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Type<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Additional Value<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Additional Value<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Additional Value<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Checkbox, Radio</source>
+<seg-source><mrk mid="0" mtype="seg">Checkbox, Radio</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Checkbox, Radio</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">The text of the control.</source>
+<seg-source><mrk mid="0" mtype="seg">The text of the control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The text of the control.</mrk></target>
+<note>Checkbox, Radio</note>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Menu, MenuItem</source>
+<seg-source><mrk mid="0" mtype="seg">Menu, MenuItem</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Menu, MenuItem</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">The text of the control.</source>
+<seg-source><mrk mid="0" mtype="seg">The text of the control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The text of the control.</mrk></target>
+<note>Menu, MenuItem</note>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">TreeView</source>
+<seg-source><mrk mid="0" mtype="seg">TreeView</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TreeView</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">The text of the current selected TreeViewItem.</source>
+<seg-source><mrk mid="0" mtype="seg">The text of the current selected TreeViewItem.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The text of the current selected TreeViewItem.</mrk></target>
+<note>TreeView</note>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">TreeViewItem</source>
+<seg-source><mrk mid="0" mtype="seg">TreeViewItem</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TreeViewItem</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">The text of the TreeViewItem.</source>
+<seg-source><mrk mid="0" mtype="seg">The text of the TreeViewItem.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The text of the TreeViewItem.</mrk></target>
+<note>TreeViewItem</note>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">ListViewItem</source>
+<seg-source><mrk mid="0" mtype="seg">ListViewItem</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ListViewItem</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en"> The state of the ListViewItem if $LVS_EX_CHECKBOXES exStyle used in advanced mode. <bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetState.htm#StateTable"></bpt>See State table<ept id="1">&lt;/a></ept> </source>
+<seg-source> <mrk mid="0" mtype="seg">The state of the ListViewItem if $LVS_EX_CHECKBOXES exStyle used in advanced mode.</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetState.htm#StateTable"></bpt>See State table<ept id="1">&lt;/a></ept></mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The state of the ListViewItem if $LVS_EX_CHECKBOXES exStyle used in advanced mode.</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlSetState.htm#StateTable"></bpt>See State table<ept id="1">&lt;/a></ept></mrk> </target>
+<note>ListViewItem</note>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Tab</source>
+<seg-source><mrk mid="0" mtype="seg">Tab</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Tab</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">The controlID of the tabitem selected</source>
+<seg-source><mrk mid="0" mtype="seg">The controlID of the tabitem selected</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The controlID of the tabitem selected</mrk></target>
+<note>Tab</note>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en"> For Checkbox and Radio controls only the $GUI_CHECKED (1), $GUI_UNCHECKED (4) or $GUI_INDETERMINATE (2) states are returned so the value can be used directly.</source>
+<seg-source> <mrk mid="0" mtype="seg">For Checkbox and Radio controls only the $GUI_CHECKED (1), $GUI_UNCHECKED (4) or $GUI_INDETERMINATE (2) states are returned so the value can be used directly.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For Checkbox and Radio controls only the $GUI_CHECKED (1), $GUI_UNCHECKED (4) or $GUI_INDETERMINATE (2) states are returned so the value can be used directly.</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en"> For Listview items several states can be returned as $GUI_CHECKED and $GUI_UNCHECKED (only for listview controls with LVS_EX_CHECKBOXES-exstyle and on 'advanced' return) . So use i.e. <bpt id="1" ctype="x-a">&lt;a href="BitAND.htm"></bpt>BitAND<ept id="1">&lt;/a></ept>(<bpt id="2" ctype="x-a">&lt;a href="GUICtrlRead.htm"></bpt>GUICtrlRead<ept id="2">&lt;/a></ept>($Item),$GUI_CHECKED) to test if the item is checked.</source>
+<seg-source> <mrk mid="0" mtype="seg">For Listview items several states can be returned as $GUI_CHECKED and $GUI_UNCHECKED (only for listview controls with LVS_EX_CHECKBOXES-exstyle and on 'advanced' return) .</mrk> <mrk mid="1" mtype="seg">So use i.e.</mrk> <mrk mid="2" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="BitAND.htm"></bpt>BitAND<ept id="1">&lt;/a></ept>(<bpt id="2" ctype="x-a">&lt;a href="GUICtrlRead.htm"></bpt>GUICtrlRead<ept id="2">&lt;/a></ept>($Item),$GUI_CHECKED) to test if the item is checked.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For Listview items several states can be returned as $GUI_CHECKED and $GUI_UNCHECKED (only for listview controls with LVS_EX_CHECKBOXES-exstyle and on 'advanced' return) .</mrk> <mrk mid="1" mtype="seg">So use i.e.</mrk> <mrk mid="2" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="BitAND.htm"></bpt>BitAND<ept id="1">&lt;/a></ept>(<bpt id="2" ctype="x-a">&lt;a href="GUICtrlRead.htm"></bpt>GUICtrlRead<ept id="2">&lt;/a></ept>($Item),$GUI_CHECKED) to test if the item is checked.</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en"> For Treeview items several states can be returned as $GUI_FOCUS, $GUI_EXPAND and $GUI_CHECKED, $GUI_UNCHECKED (only for treeview controls with TVS_CHECKBOXES-style . So use i.e. <bpt id="1" ctype="x-a">&lt;a href="BitAND.htm"></bpt>BitAND<ept id="1">&lt;/a></ept>(<bpt id="2" ctype="x-a">&lt;a href="GUICtrlRead.htm"></bpt>GUICtrlRead<ept id="2">&lt;/a></ept>($Item),$GUI_CHECKED) to test if the item is checked.</source>
+<seg-source> <mrk mid="0" mtype="seg">For Treeview items several states can be returned as $GUI_FOCUS, $GUI_EXPAND and $GUI_CHECKED, $GUI_UNCHECKED (only for treeview controls with TVS_CHECKBOXES-style .</mrk> <mrk mid="1" mtype="seg">So use i.e.</mrk> <mrk mid="2" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="BitAND.htm"></bpt>BitAND<ept id="1">&lt;/a></ept>(<bpt id="2" ctype="x-a">&lt;a href="GUICtrlRead.htm"></bpt>GUICtrlRead<ept id="2">&lt;/a></ept>($Item),$GUI_CHECKED) to test if the item is checked.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For Treeview items several states can be returned as $GUI_FOCUS, $GUI_EXPAND and $GUI_CHECKED, $GUI_UNCHECKED (only for treeview controls with TVS_CHECKBOXES-style .</mrk> <mrk mid="1" mtype="seg">So use i.e.</mrk> <mrk mid="2" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="BitAND.htm"></bpt>BitAND<ept id="1">&lt;/a></ept>(<bpt id="2" ctype="x-a">&lt;a href="GUICtrlRead.htm"></bpt>GUICtrlRead<ept id="2">&lt;/a></ept>($Item),$GUI_CHECKED) to test if the item is checked.</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...<ept id="1">&lt;/a></ept>, <bpt id="1" ctype="x-a">&lt;a href="GUICtrlGetState.htm"></bpt>GUICtrlGetState<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="GUICtrlSendMsg.htm"></bpt>GUICtrlSendMsg<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="GUICtrlSendToDummy.htm"></bpt>GUICtrlSendToDummy<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="GUICtrlSetData.htm"></bpt>GUICtrlSetData<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="GUICtrlUpdate%20Management.htm"></bpt>GUICtrlUpdate...<ept id="5">&lt;/a></ept>, <bpt id="1" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIEventOptions"></bpt>GUIEventOptions (Option)<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="GUIGetMsg.htm"></bpt>GUIGetMsg<ept id="2">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...<ept id="1">&lt;/a></ept>,</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlGetState.htm"></bpt>GUICtrlGetState<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="GUICtrlSendMsg.htm"></bpt>GUICtrlSendMsg<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="GUICtrlSendToDummy.htm"></bpt>GUICtrlSendToDummy<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="GUICtrlSetData.htm"></bpt>GUICtrlSetData<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="GUICtrlUpdate%20Management.htm"></bpt>GUICtrlUpdate...<ept id="5">&lt;/a></ept>,</mrk> <mrk mid="2" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIEventOptions"></bpt>GUIEventOptions (Option)<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="GUIGetMsg.htm"></bpt>GUIGetMsg<ept id="2">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlCreate%20Management.htm"></bpt>GUICtrlCreate...<ept id="1">&lt;/a></ept>,</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="GUICtrlGetState.htm"></bpt>GUICtrlGetState<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="GUICtrlSendMsg.htm"></bpt>GUICtrlSendMsg<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="GUICtrlSendToDummy.htm"></bpt>GUICtrlSendToDummy<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="GUICtrlSetData.htm"></bpt>GUICtrlSetData<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="GUICtrlUpdate%20Management.htm"></bpt>GUICtrlUpdate...<ept id="5">&lt;/a></ept>,</mrk> <mrk mid="2" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="AutoItSetOption.htm#GUIEventOptions"></bpt>GUIEventOptions (Option)<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="GUIGetMsg.htm"></bpt>GUIGetMsg<ept id="2">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">My GUICtrlRead</source>
+<seg-source><mrk mid="0" mtype="seg">My GUICtrlRead</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">My GUICtrlRead</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">will create a dialog box that when displayed is centered</source>
+<seg-source><mrk mid="0" mtype="seg">will create a dialog box that when displayed is centered</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">will create a dialog box that when displayed is centered</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">File</source>
+<seg-source><mrk mid="0" mtype="seg">File</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">item1|item2|item3</source>
+<seg-source><mrk mid="0" mtype="seg">item1|item2|item3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">item1|item2|item3</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">item2</source>
+<seg-source><mrk mid="0" mtype="seg">item2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">item2</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">Read</source>
+<seg-source><mrk mid="0" mtype="seg">Read</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Read</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">the focus is on this button</source>
+<seg-source><mrk mid="0" mtype="seg">the focus is on this button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the focus is on this button</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">will display an empty dialog box</source>
+<seg-source><mrk mid="0" mtype="seg">will display an empty dialog box</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">will display an empty dialog box</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">Selected listbox entry</source>
+<seg-source><mrk mid="0" mtype="seg">Selected listbox entry</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Selected listbox entry</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">display the selected listbox entry</source>
+<seg-source><mrk mid="0" mtype="seg">display the selected listbox entry</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">display the selected listbox entry</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">return the state of the menu item</source>
+<seg-source><mrk mid="0" mtype="seg">return the state of the menu item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">return the state of the menu item</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">return the text of the menu item</source>
+<seg-source><mrk mid="0" mtype="seg">return the text of the menu item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">return the text of the menu item</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">State and text of the menuitem</source>
+<seg-source><mrk mid="0" mtype="seg">State and text of the menuitem</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">State and text of the menuitem</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">state:</source>
+<seg-source><mrk mid="0" mtype="seg">state:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">state:</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">text:</source>
+<seg-source><mrk mid="0" mtype="seg">text:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">text:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

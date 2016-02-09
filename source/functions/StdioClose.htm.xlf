@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/StdioClose.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Closes all resources associated with a process previously run with STDIO redirection.</source>
+<seg-source><mrk mid="0" mtype="seg">Closes all resources associated with a process previously run with STDIO redirection.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Closes all resources associated with a process previously run with STDIO redirection.</mrk></target>
+<note>Function StdioClose</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The process ID of a child process, as returned by a previous call to Run.</source>
+<seg-source><mrk mid="0" mtype="seg">The process ID of a child process, as returned by a previous call to Run.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The process ID of a child process, as returned by a previous call to Run.</mrk></target>
+<note>process_id</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">Non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Non-zero.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">0 if the process did not have STDIO redirection or was already closed.</source>
+<seg-source><mrk mid="0" mtype="seg">0 if the process did not have STDIO redirection or was already closed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 if the process did not have STDIO redirection or was already closed.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">This function closes all handles and releases all resources related to STDIO. It will no longer be possible to read the STDIO data from the process. Any pending data will be lost.</source>
+<seg-source><mrk mid="0" mtype="seg">This function closes all handles and releases all resources related to STDIO.</mrk> <mrk mid="1" mtype="seg">It will no longer be possible to read the STDIO data from the process.</mrk> <mrk mid="2" mtype="seg">Any pending data will be lost.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function closes all handles and releases all resources related to STDIO.</mrk> <mrk mid="1" mtype="seg">It will no longer be possible to read the STDIO data from the process.</mrk> <mrk mid="2" mtype="seg">Any pending data will be lost.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Required for _ArrayDisplay only.</source>
+<seg-source><mrk mid="0" mtype="seg">Required for _ArrayDisplay only.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Required for _ArrayDisplay only.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Recursively display a list of files in a directory.</source>
+<seg-source><mrk mid="0" mtype="seg">Recursively display a list of files in a directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Recursively display a list of files in a directory.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Search the current script directory.</source>
+<seg-source><mrk mid="0" mtype="seg">Search the current script directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search the current script directory.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">*.*</source>
+<seg-source><mrk mid="0" mtype="seg">*.*</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*.*</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Search for all files in the current directory. For a list of valid wildcards, search for 'Wildcards' in the Help file.</source>
+<seg-source><mrk mid="0" mtype="seg">Search for all files in the current directory.</mrk> <mrk mid="1" mtype="seg">For a list of valid wildcards, search for 'Wildcards' in the Help file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search for all files in the current directory.</mrk> <mrk mid="1" mtype="seg">For a list of valid wildcards, search for 'Wildcards' in the Help file.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Store the output of StdoutRead to a variable.</source>
+<seg-source><mrk mid="0" mtype="seg">Store the output of StdoutRead to a variable.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Store the output of StdoutRead to a variable.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">If the file path isn't a directory then return from the 'Example' function.</source>
+<seg-source><mrk mid="0" mtype="seg">If the file path isn't a directory then return from the 'Example' function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the file path isn't a directory then return from the 'Example' function.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">D</source>
+<seg-source><mrk mid="0" mtype="seg">D</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">D</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Remove trailing backslashes and append a single trailing backslash.</source>
+<seg-source><mrk mid="0" mtype="seg">Remove trailing backslashes and append a single trailing backslash.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remove trailing backslashes and append a single trailing backslash.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">[\\/]+\z</source>
+<seg-source><mrk mid="0" mtype="seg">[\\/]+\z</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[\\/]+\z</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">\</source>
+<seg-source><mrk mid="0" mtype="seg">\</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">/C DIR "</source>
+<seg-source><mrk mid="0" mtype="seg">/C DIR "</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">/C DIR "</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">" /B /A-D /S</source>
+<seg-source><mrk mid="0" mtype="seg">" /B /A-D /S</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">" /B /A-D /S</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Close the Stdio stream of the PID returned by Run. This will cause the message box to display due to not being able to read the stdout stream.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the Stdio stream of the PID returned by Run.</mrk> <mrk mid="1" mtype="seg">This will cause the message box to display due to not being able to read the stdout stream.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the Stdio stream of the PID returned by Run.</mrk> <mrk mid="1" mtype="seg">This will cause the message box to display due to not being able to read the stdout stream.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Read the Stdout stream of the PID returned by Run.</source>
+<seg-source><mrk mid="0" mtype="seg">Read the Stdout stream of the PID returned by Run.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Read the Stdout stream of the PID returned by Run.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Exit the loop if the process closes or StdoutRead returns an error.</source>
+<seg-source><mrk mid="0" mtype="seg">Exit the loop if the process closes or StdoutRead returns an error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Exit the loop if the process closes or StdoutRead returns an error.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Use StringSplit to split the output of StdoutRead to an array. All carriage returns (@CRLF) are stripped and @CRLF (line feed) is used as the delimiter.</source>
+<seg-source><mrk mid="0" mtype="seg">Use StringSplit to split the output of StdoutRead to an array.</mrk> <mrk mid="1" mtype="seg">All carriage returns (@CRLF) are stripped and @CRLF (line feed) is used as the delimiter.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use StringSplit to split the output of StdoutRead to an array.</mrk> <mrk mid="1" mtype="seg">All carriage returns (@CRLF) are stripped and @CRLF (line feed) is used as the delimiter.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">It appears there was an error trying to find all the files in the current script directory.</source>
+<seg-source><mrk mid="0" mtype="seg">It appears there was an error trying to find all the files in the current script directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It appears there was an error trying to find all the files in the current script directory.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Display the results.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the results.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the results.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

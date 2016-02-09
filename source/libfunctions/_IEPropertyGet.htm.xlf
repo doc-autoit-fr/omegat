@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_IEPropertyGet.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Returns a select property of the Browser or DOM element</source>
+<seg-source><mrk mid="0" mtype="seg">Returns a select property of the Browser or DOM element</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns a select property of the Browser or DOM element</mrk></target>
+<note>Function _IEPropertyGet</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Object variable of an InternetExplorer.Application or DOM element</source>
+<seg-source><mrk mid="0" mtype="seg">Object variable of an InternetExplorer.</mrk><mrk mid="1" mtype="seg">Application or DOM element</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Object variable of an InternetExplorer.</mrk><mrk mid="1" mtype="seg">Application or DOM element</mrk></target>
+<note>$oObject</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Property selection (see remarks)</source>
+<seg-source><mrk mid="0" mtype="seg">Property selection (see remarks)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Property selection (see remarks)</mrk></target>
+<note>$sProperty</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">the selected property.</source>
+<seg-source><mrk mid="0" mtype="seg">the selected property.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the selected property.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">3 ($_IEStatus_InvalidDataType) - Invalid Data Type</source>
+<seg-source><mrk mid="0" mtype="seg">3 ($_IEStatus_InvalidDataType) - Invalid Data Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3 ($_IEStatus_InvalidDataType) - Invalid Data Type</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> 4 ($_IEStatus_InvalidObjectType) - Invalid Object Type</source>
+<seg-source> <mrk mid="0" mtype="seg">4 ($_IEStatus_InvalidObjectType) - Invalid Object Type</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 ($_IEStatus_InvalidObjectType) - Invalid Object Type</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> 5 ($_IEStatus_InvalidValue) - Invalid Value</source>
+<seg-source> <mrk mid="0" mtype="seg">5 ($_IEStatus_InvalidValue) - Invalid Value</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">5 ($_IEStatus_InvalidValue) - Invalid Value</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">@extended:</source>
+<seg-source><mrk mid="0" mtype="seg">@extended:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@extended:</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Contains invalid parameter number</source>
+<seg-source><mrk mid="0" mtype="seg">Contains invalid parameter number</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains invalid parameter number</mrk></target>
+<note>@extended:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">The following tables provide a description of each property available for use.</source>
+<seg-source><mrk mid="0" mtype="seg">The following tables provide a description of each property available for use.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The following tables provide a description of each property available for use.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> Some properties to DOM elements, others to the browser.</source>
+<seg-source> <mrk mid="0" mtype="seg">Some properties to DOM elements, others to the browser.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Some properties to DOM elements, others to the browser.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt><bpt id="2" ctype="x-u">&lt;u></bpt>Browser Properties<ept id="2">&lt;/u></ept><ept id="1">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt><bpt id="2" ctype="x-u">&lt;u></bpt>Browser Properties<ept id="2">&lt;/u></ept><ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt><bpt id="2" ctype="x-u">&lt;u></bpt>Browser Properties<ept id="2">&lt;/u></ept><ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Property<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Property<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Property<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Description<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Description<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Description<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">"addressbar"</source>
+<seg-source><mrk mid="0" mtype="seg">"addressbar"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"addressbar"</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Retrieves a Boolean value indicating whether the browser address bar is visible or hidden.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves a Boolean value indicating whether the browser address bar is visible or hidden.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves a Boolean value indicating whether the browser address bar is visible or hidden.</mrk></target>
+<note>"addressbar"</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">"browserx"</source>
+<seg-source><mrk mid="0" mtype="seg">"browserx"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"browserx"</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Retrieves the x-coordinate of the top left corner of a document element, relative to the browser.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the x-coordinate of the top left corner of a document element, relative to the browser.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the x-coordinate of the top left corner of a document element, relative to the browser.</mrk></target>
+<note>"browserx"</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">"browsery"</source>
+<seg-source><mrk mid="0" mtype="seg">"browsery"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"browsery"</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Retrieves the y-coordinate of the top left corner of a document element, relative to the browser.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the y-coordinate of the top left corner of a document element, relative to the browser.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the y-coordinate of the top left corner of a document element, relative to the browser.</mrk></target>
+<note>"browsery"</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">"busy"</source>
+<seg-source><mrk mid="0" mtype="seg">"busy"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"busy"</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Retrieves a Boolean value indicating whether the object is engaged in a navigation or downloading operation.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves a Boolean value indicating whether the object is engaged in a navigation or downloading operation.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves a Boolean value indicating whether the object is engaged in a navigation or downloading operation.</mrk></target>
+<note>"busy"</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">"contenteditable"</source>
+<seg-source><mrk mid="0" mtype="seg">"contenteditable"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"contenteditable"</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Retrieves a Boolean value that indicates whether the object can be edited with mouse and keyboard.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves a Boolean value that indicates whether the object can be edited with mouse and keyboard.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves a Boolean value that indicates whether the object can be edited with mouse and keyboard.</mrk></target>
+<note>"contenteditable"</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">"fullscreen"</source>
+<seg-source><mrk mid="0" mtype="seg">"fullscreen"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"fullscreen"</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Retrieves a Boolean value that indicates whether the browser is in full-screen or normal window mode.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves a Boolean value that indicates whether the browser is in full-screen or normal window mode.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves a Boolean value that indicates whether the browser is in full-screen or normal window mode.</mrk></target>
+<note>"fullscreen"</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">"height"</source>
+<seg-source><mrk mid="0" mtype="seg">"height"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"height"</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Retrieves the height of the browser main window or a document element.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the height of the browser main window or a document element.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the height of the browser main window or a document element.</mrk></target>
+<note>"height"</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">"hwnd"</source>
+<seg-source><mrk mid="0" mtype="seg">"hwnd"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"hwnd"</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Retrieves the handle of the Internet Explorer main window. Can be used in most AutoIt Win* functions.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the handle of the Internet Explorer main window.</mrk> <mrk mid="1" mtype="seg">Can be used in most AutoIt Win* functions.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the handle of the Internet Explorer main window.</mrk> <mrk mid="1" mtype="seg">Can be used in most AutoIt Win* functions.</mrk></target>
+<note>"hwnd"</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">"innerhtml"</source>
+<seg-source><mrk mid="0" mtype="seg">"innerhtml"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"innerhtml"</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Retrieves the rendered HTML of an element excluding the beginning and ending element tags.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the rendered HTML of an element excluding the beginning and ending element tags.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the rendered HTML of an element excluding the beginning and ending element tags.</mrk></target>
+<note>"innerhtml"</note>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">"innertext"</source>
+<seg-source><mrk mid="0" mtype="seg">"innertext"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"innertext"</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Retrieves the rendered Text (but not any tags) of an element. Typically identical to outertext.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the rendered Text (but not any tags) of an element.</mrk> <mrk mid="1" mtype="seg">Typically identical to outertext.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the rendered Text (but not any tags) of an element.</mrk> <mrk mid="1" mtype="seg">Typically identical to outertext.</mrk></target>
+<note>"innertext"</note>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">"isdisabled"</source>
+<seg-source><mrk mid="0" mtype="seg">"isdisabled"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"isdisabled"</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Retrieves the value indicating whether the user can interact with the object.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the value indicating whether the user can interact with the object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the value indicating whether the user can interact with the object.</mrk></target>
+<note>"isdisabled"</note>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">"left"</source>
+<seg-source><mrk mid="0" mtype="seg">"left"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"left"</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Retrieves the screen coordinate of the left edge of the main window of the object.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the screen coordinate of the left edge of the main window of the object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the screen coordinate of the left edge of the main window of the object.</mrk></target>
+<note>"left"</note>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">"locationname"</source>
+<seg-source><mrk mid="0" mtype="seg">"locationname"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"locationname"</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Retrieves the name of the resource that Internet Explorer is currently displaying.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the name of the resource that Internet Explorer is currently displaying.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the name of the resource that Internet Explorer is currently displaying.</mrk></target>
+<note>"locationname"</note>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">"locationurl"</source>
+<seg-source><mrk mid="0" mtype="seg">"locationurl"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"locationurl"</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Retrieves the URL of the resource that Internet Explorer is currently displaying.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the URL of the resource that Internet Explorer is currently displaying.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the URL of the resource that Internet Explorer is currently displaying.</mrk></target>
+<note>"locationurl"</note>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">"menubar"</source>
+<seg-source><mrk mid="0" mtype="seg">"menubar"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"menubar"</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Retrieves a Boolean value that indicates whether the browser menu bar is visible.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves a Boolean value that indicates whether the browser menu bar is visible.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves a Boolean value that indicates whether the browser menu bar is visible.</mrk></target>
+<note>"menubar"</note>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">"offline"</source>
+<seg-source><mrk mid="0" mtype="seg">"offline"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"offline"</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Retrieves a Boolean value that indicates whether the browser is currently operating in offline mode.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves a Boolean value that indicates whether the browser is currently operating in offline mode.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves a Boolean value that indicates whether the browser is currently operating in offline mode.</mrk></target>
+<note>"offline"</note>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">"outertext"</source>
+<seg-source><mrk mid="0" mtype="seg">"outertext"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"outertext"</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Retrieves the rendered Text (but not any tags) of an element. Typically identical to innertext.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the rendered Text (but not any tags) of an element.</mrk> <mrk mid="1" mtype="seg">Typically identical to innertext.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the rendered Text (but not any tags) of an element.</mrk> <mrk mid="1" mtype="seg">Typically identical to innertext.</mrk></target>
+<note>"outertext"</note>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">"outerhtml"</source>
+<seg-source><mrk mid="0" mtype="seg">"outerhtml"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"outerhtml"</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Retrieves the rendered HTML of an element including the beginning and ending element tags.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the rendered HTML of an element including the beginning and ending element tags.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the rendered HTML of an element including the beginning and ending element tags.</mrk></target>
+<note>"outerhtml"</note>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">"readystate"</source>
+<seg-source><mrk mid="0" mtype="seg">"readystate"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"readystate"</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">Retrieves the ready state of the object.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the ready state of the object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the ready state of the object.</mrk></target>
+<note>"readystate"</note>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">"referrer"</source>
+<seg-source><mrk mid="0" mtype="seg">"referrer"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"referrer"</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">Retrieves a string of the URL of the page from which the current page was accessed (but only if accessed via a link on that page, else the string is null).</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves a string of the URL of the page from which the current page was accessed (but only if accessed via a link on that page, else the string is null).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves a string of the URL of the page from which the current page was accessed (but only if accessed via a link on that page, else the string is null).</mrk></target>
+<note>"referrer"</note>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">"resizable"</source>
+<seg-source><mrk mid="0" mtype="seg">"resizable"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"resizable"</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">Retrieves a value that indicates whether the object can be resized.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves a value that indicates whether the object can be resized.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves a value that indicates whether the object can be resized.</mrk></target>
+<note>"resizable"</note>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">"screenx"</source>
+<seg-source><mrk mid="0" mtype="seg">"screenx"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"screenx"</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">Retrieves the x-coordinate of the top left corner of a document object or the browser, relative to the screen.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the x-coordinate of the top left corner of a document object or the browser, relative to the screen.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the x-coordinate of the top left corner of a document object or the browser, relative to the screen.</mrk></target>
+<note>"screenx"</note>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">"screeny"</source>
+<seg-source><mrk mid="0" mtype="seg">"screeny"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"screeny"</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">Retrieves the y-coordinate of the top left corner of a document object or the browser, relative to the screen.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the y-coordinate of the top left corner of a document object or the browser, relative to the screen.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the y-coordinate of the top left corner of a document object or the browser, relative to the screen.</mrk></target>
+<note>"screeny"</note>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">"silent"</source>
+<seg-source><mrk mid="0" mtype="seg">"silent"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"silent"</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">Retrieves a value that indicates whether the browser can show dialog boxes.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves a value that indicates whether the browser can show dialog boxes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves a value that indicates whether the browser can show dialog boxes.</mrk></target>
+<note>"silent"</note>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">"statusbar"</source>
+<seg-source><mrk mid="0" mtype="seg">"statusbar"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"statusbar"</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">Retrieves a value that indicates whether the status bar for the object is visible.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves a value that indicates whether the status bar for the object is visible.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves a value that indicates whether the status bar for the object is visible.</mrk></target>
+<note>"statusbar"</note>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">"statustext"</source>
+<seg-source><mrk mid="0" mtype="seg">"statustext"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"statustext"</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">Retrieves the text in the status bar for the object.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the text in the status bar for the object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the text in the status bar for the object.</mrk></target>
+<note>"statustext"</note>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">"theatermode"</source>
+<seg-source><mrk mid="0" mtype="seg">"theatermode"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"theatermode"</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">Retrieves a Boolean value indicating whether the browser is in Theater Mode. In theater mode, the browser main window fills the entire screen and displays a toolbar with a minimal set of navigational buttons.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves a Boolean value indicating whether the browser is in Theater Mode.</mrk> <mrk mid="1" mtype="seg">In theater mode, the browser main window fills the entire screen and displays a toolbar with a minimal set of navigational buttons.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves a Boolean value indicating whether the browser is in Theater Mode.</mrk> <mrk mid="1" mtype="seg">In theater mode, the browser main window fills the entire screen and displays a toolbar with a minimal set of navigational buttons.</mrk></target>
+<note>"theatermode"</note>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">"title"</source>
+<seg-source><mrk mid="0" mtype="seg">"title"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"title"</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">Retrieves the document title. Note that this is different than the window title which typically starts with the document title, but has additional text specified in the windows registry appended to it.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the document title.</mrk> <mrk mid="1" mtype="seg">Note that this is different than the window title which typically starts with the document title, but has additional text specified in the windows registry appended to it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the document title.</mrk> <mrk mid="1" mtype="seg">Note that this is different than the window title which typically starts with the document title, but has additional text specified in the windows registry appended to it.</mrk></target>
+<note>"title"</note>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">"toolbar"</source>
+<seg-source><mrk mid="0" mtype="seg">"toolbar"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"toolbar"</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">Retrieves a Boolean value indicating whether the tool bar of the browser is visible or hidden.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves a Boolean value indicating whether the tool bar of the browser is visible or hidden.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves a Boolean value indicating whether the tool bar of the browser is visible or hidden.</mrk></target>
+<note>"toolbar"</note>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">"top"</source>
+<seg-source><mrk mid="0" mtype="seg">"top"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"top"</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">Retrieves the screen coordinate of the top edge of the main window of the object.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the screen coordinate of the top edge of the main window of the object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the screen coordinate of the top edge of the main window of the object.</mrk></target>
+<note>"top"</note>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">"visible"</source>
+<seg-source><mrk mid="0" mtype="seg">"visible"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"visible"</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">Retrieves a value that indicates whether the object is visible or hidden.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves a value that indicates whether the object is visible or hidden.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves a value that indicates whether the object is visible or hidden.</mrk></target>
+<note>"visible"</note>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">"width"</source>
+<seg-source><mrk mid="0" mtype="seg">"width"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"width"</mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">Retrieves the width of the browser main window or a document element.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the width of the browser main window or a document element.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the width of the browser main window or a document element.</mrk></target>
+<note>"width"</note>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">"uniqueid"</source>
+<seg-source><mrk mid="0" mtype="seg">"uniqueid"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"uniqueid"</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">Retrieves an ID assigned by the DOM that is unique among all elements. This can be used in any context that requires an element ID.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves an ID assigned by the DOM that is unique among all elements.</mrk> <mrk mid="1" mtype="seg">This can be used in any context that requires an element ID.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves an ID assigned by the DOM that is unique among all elements.</mrk> <mrk mid="1" mtype="seg">This can be used in any context that requires an element ID.</mrk></target>
+<note>"uniqueid"</note>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en"> Further information for ClientInfo Object can be found at <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ie/ms535860(v=vs.85).aspx" target="_blank"></bpt>MSDN<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">Further information for ClientInfo Object can be found at <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ie/ms535860(v=vs.85).aspx" target="_blank"></bpt>MSDN<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Further information for ClientInfo Object can be found at <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ie/ms535860(v=vs.85).aspx" target="_blank"></bpt>MSDN<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt><bpt id="2" ctype="x-u">&lt;u></bpt>ClientInfo Properties<ept id="2">&lt;/u></ept><ept id="1">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt><bpt id="2" ctype="x-u">&lt;u></bpt>ClientInfo Properties<ept id="2">&lt;/u></ept><ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt><bpt id="2" ctype="x-u">&lt;u></bpt>ClientInfo Properties<ept id="2">&lt;/u></ept><ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Property<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Property<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Property<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Description<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Description<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Description<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">"appcodename"</source>
+<seg-source><mrk mid="0" mtype="seg">"appcodename"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"appcodename"</mrk></target>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en">Retrieves the code name of the browser (the property has a default value of Mozilla).</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the code name of the browser (the property has a default value of Mozilla).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the code name of the browser (the property has a default value of Mozilla).</mrk></target>
+<note>"appcodename"</note>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en">"appminorversion"</source>
+<seg-source><mrk mid="0" mtype="seg">"appminorversion"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"appminorversion"</mrk></target>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en">Retrieves the application's minor version value.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the application's minor version value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the application's minor version value.</mrk></target>
+<note>"appminorversion"</note>
+</trans-unit>
+<trans-unit id="94">
+<source xml:lang="en">"appname"</source>
+<seg-source><mrk mid="0" mtype="seg">"appname"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"appname"</mrk></target>
+</trans-unit>
+<trans-unit id="95">
+<source xml:lang="en">Retrieves the name of the browser (the property has a default value of Microsoft Internet Explorer).</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the name of the browser (the property has a default value of Microsoft Internet Explorer).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the name of the browser (the property has a default value of Microsoft Internet Explorer).</mrk></target>
+<note>"appname"</note>
+</trans-unit>
+<trans-unit id="96">
+<source xml:lang="en">"appversion"</source>
+<seg-source><mrk mid="0" mtype="seg">"appversion"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"appversion"</mrk></target>
+</trans-unit>
+<trans-unit id="97">
+<source xml:lang="en">Retrieves the platform and version of the browser.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the platform and version of the browser.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the platform and version of the browser.</mrk></target>
+<note>"appversion"</note>
+</trans-unit>
+<trans-unit id="98">
+<source xml:lang="en">"browserlanguage"</source>
+<seg-source><mrk mid="0" mtype="seg">"browserlanguage"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"browserlanguage"</mrk></target>
+</trans-unit>
+<trans-unit id="99">
+<source xml:lang="en"> Retrieves the current browser language (the value will be one of these <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ie/ms533052(v=vs.85).aspx" target="_blank"></bpt>Language Codes<ept id="1">&lt;/a></ept>). </source>
+<seg-source> <mrk mid="0" mtype="seg">Retrieves the current browser language (the value will be one of these <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ie/ms533052(v=vs.85).aspx" target="_blank"></bpt>Language Codes<ept id="1">&lt;/a></ept>).</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Retrieves the current browser language (the value will be one of these <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ie/ms533052(v=vs.85).aspx" target="_blank"></bpt>Language Codes<ept id="1">&lt;/a></ept>).</mrk> </target>
+<note>"browserlanguage"</note>
+</trans-unit>
+<trans-unit id="100">
+<source xml:lang="en">"cookieenabled"</source>
+<seg-source><mrk mid="0" mtype="seg">"cookieenabled"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"cookieenabled"</mrk></target>
+</trans-unit>
+<trans-unit id="101">
+<source xml:lang="en">Retrieves whether client-side persistent cookies are enabled in the browser. Persistent cookies are those that are stored on the client-side computer.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves whether client-side persistent cookies are enabled in the browser.</mrk> <mrk mid="1" mtype="seg">Persistent cookies are those that are stored on the client-side computer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves whether client-side persistent cookies are enabled in the browser.</mrk> <mrk mid="1" mtype="seg">Persistent cookies are those that are stored on the client-side computer.</mrk></target>
+<note>"cookieenabled"</note>
+</trans-unit>
+<trans-unit id="102">
+<source xml:lang="en">"cpuclass"</source>
+<seg-source><mrk mid="0" mtype="seg">"cpuclass"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"cpuclass"</mrk></target>
+</trans-unit>
+<trans-unit id="103">
+<source xml:lang="en"> Retrieves a string denoting the CPU class (the return values can be found <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ie/ms533697(v=vs.85).aspx" target="_blank"></bpt>here<ept id="1">&lt;/a></ept>). </source>
+<seg-source> <mrk mid="0" mtype="seg">Retrieves a string denoting the CPU class (the return values can be found <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ie/ms533697(v=vs.85).aspx" target="_blank"></bpt>here<ept id="1">&lt;/a></ept>).</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Retrieves a string denoting the CPU class (the return values can be found <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ie/ms533697(v=vs.85).aspx" target="_blank"></bpt>here<ept id="1">&lt;/a></ept>).</mrk> </target>
+<note>"cpuclass"</note>
+</trans-unit>
+<trans-unit id="104">
+<source xml:lang="en">"javaenabled"</source>
+<seg-source><mrk mid="0" mtype="seg">"javaenabled"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"javaenabled"</mrk></target>
+</trans-unit>
+<trans-unit id="105">
+<source xml:lang="en">Returns whether Java is enabled.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns whether Java is enabled.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns whether Java is enabled.</mrk></target>
+<note>"javaenabled"</note>
+</trans-unit>
+<trans-unit id="106">
+<source xml:lang="en">"online"</source>
+<seg-source><mrk mid="0" mtype="seg">"online"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"online"</mrk></target>
+</trans-unit>
+<trans-unit id="107">
+<source xml:lang="en"> Retrieves a value indicating whether the system is in <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ie/aa768170(v=vs.85).aspx" target="_blank"></bpt>global offline mode<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">Retrieves a value indicating whether the system is in <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ie/aa768170(v=vs.85).aspx" target="_blank"></bpt>global offline mode<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Retrieves a value indicating whether the system is in <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ie/aa768170(v=vs.85).aspx" target="_blank"></bpt>global offline mode<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>"online"</note>
+</trans-unit>
+<trans-unit id="108">
+<source xml:lang="en">"platform"</source>
+<seg-source><mrk mid="0" mtype="seg">"platform"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"platform"</mrk></target>
+</trans-unit>
+<trans-unit id="109">
+<source xml:lang="en"> Retrieves the name of the user's operating system (the return values can be found <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ie/ms534340(v=vs.85).aspx" target="_blank"></bpt>here<ept id="1">&lt;/a></ept>). </source>
+<seg-source> <mrk mid="0" mtype="seg">Retrieves the name of the user's operating system (the return values can be found <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ie/ms534340(v=vs.85).aspx" target="_blank"></bpt>here<ept id="1">&lt;/a></ept>).</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Retrieves the name of the user's operating system (the return values can be found <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ie/ms534340(v=vs.85).aspx" target="_blank"></bpt>here<ept id="1">&lt;/a></ept>).</mrk> </target>
+<note>"platform"</note>
+</trans-unit>
+<trans-unit id="110">
+<source xml:lang="en">"systemlanguage"</source>
+<seg-source><mrk mid="0" mtype="seg">"systemlanguage"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"systemlanguage"</mrk></target>
+</trans-unit>
+<trans-unit id="111">
+<source xml:lang="en"> Retrieves the default language used by the operating system (the value will be one of these <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ie/ms533052(v=vs.85).aspx" target="_blank"></bpt>Language Codes<ept id="1">&lt;/a></ept>). </source>
+<seg-source> <mrk mid="0" mtype="seg">Retrieves the default language used by the operating system (the value will be one of these <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ie/ms533052(v=vs.85).aspx" target="_blank"></bpt>Language Codes<ept id="1">&lt;/a></ept>).</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Retrieves the default language used by the operating system (the value will be one of these <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ie/ms533052(v=vs.85).aspx" target="_blank"></bpt>Language Codes<ept id="1">&lt;/a></ept>).</mrk> </target>
+<note>"systemlanguage"</note>
+</trans-unit>
+<trans-unit id="112">
+<source xml:lang="en">"useragent"</source>
+<seg-source><mrk mid="0" mtype="seg">"useragent"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"useragent"</mrk></target>
+</trans-unit>
+<trans-unit id="113">
+<source xml:lang="en">Retrieves a string equivalent to the HTTP user-agent request header.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves a string equivalent to the HTTP user-agent request header.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves a string equivalent to the HTTP user-agent request header.</mrk></target>
+<note>"useragent"</note>
+</trans-unit>
+<trans-unit id="114">
+<source xml:lang="en">"userlanguage"</source>
+<seg-source><mrk mid="0" mtype="seg">"userlanguage"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">"userlanguage"</mrk></target>
+</trans-unit>
+<trans-unit id="115">
+<source xml:lang="en"> Retrieves the operating system's natural language setting (the value will be one of these <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ie/ms533052(v=vs.85).aspx" target="_blank"></bpt>Language Codes<ept id="1">&lt;/a></ept>). </source>
+<seg-source> <mrk mid="0" mtype="seg">Retrieves the operating system's natural language setting (the value will be one of these <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ie/ms533052(v=vs.85).aspx" target="_blank"></bpt>Language Codes<ept id="1">&lt;/a></ept>).</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Retrieves the operating system's natural language setting (the value will be one of these <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/ie/ms533052(v=vs.85).aspx" target="_blank"></bpt>Language Codes<ept id="1">&lt;/a></ept>).</mrk> </target>
+<note>"userlanguage"</note>
+</trans-unit>
+<trans-unit id="116">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="117">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="118">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="119">
+<source xml:lang="en">Open a browser with the basic example, check to see if the</source>
+<seg-source><mrk mid="0" mtype="seg">Open a browser with the basic example, check to see if the</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open a browser with the basic example, check to see if the</mrk></target>
+</trans-unit>
+<trans-unit id="120">
+<source xml:lang="en">addressbar is visible, if it is turn it off, if it is not turn it on</source>
+<seg-source><mrk mid="0" mtype="seg">addressbar is visible, if it is turn it off, if it is not turn it on</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">addressbar is visible, if it is turn it off, if it is not turn it on</mrk></target>
+</trans-unit>
+<trans-unit id="121">
+<source xml:lang="en">basic</source>
+<seg-source><mrk mid="0" mtype="seg">basic</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">basic</mrk></target>
+</trans-unit>
+<trans-unit id="122">
+<source xml:lang="en">addressbar</source>
+<seg-source><mrk mid="0" mtype="seg">addressbar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">addressbar</mrk></target>
+</trans-unit>
+<trans-unit id="123">
+<source xml:lang="en">AddressBar Status</source>
+<seg-source><mrk mid="0" mtype="seg">AddressBar Status</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AddressBar Status</mrk></target>
+</trans-unit>
+<trans-unit id="124">
+<source xml:lang="en">AddressBar Visible, turning it off</source>
+<seg-source><mrk mid="0" mtype="seg">AddressBar Visible, turning it off</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AddressBar Visible, turning it off</mrk></target>
+</trans-unit>
+<trans-unit id="125">
+<source xml:lang="en">addressbar</source>
+<seg-source><mrk mid="0" mtype="seg">addressbar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">addressbar</mrk></target>
+</trans-unit>
+<trans-unit id="126">
+<source xml:lang="en">AddressBar Status</source>
+<seg-source><mrk mid="0" mtype="seg">AddressBar Status</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AddressBar Status</mrk></target>
+</trans-unit>
+<trans-unit id="127">
+<source xml:lang="en">AddressBar Invisible, turning it on</source>
+<seg-source><mrk mid="0" mtype="seg">AddressBar Invisible, turning it on</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AddressBar Invisible, turning it on</mrk></target>
+</trans-unit>
+<trans-unit id="128">
+<source xml:lang="en">addressbar</source>
+<seg-source><mrk mid="0" mtype="seg">addressbar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">addressbar</mrk></target>
+</trans-unit>
+<trans-unit id="129">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="130">
+<source xml:lang="en">Open a browser with the form example and get a reference to the form</source>
+<seg-source><mrk mid="0" mtype="seg">Open a browser with the form example and get a reference to the form</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open a browser with the form example and get a reference to the form</mrk></target>
+</trans-unit>
+<trans-unit id="131">
+<source xml:lang="en">textarea element. Get the coordinates and dimensions of the text area,</source>
+<seg-source><mrk mid="0" mtype="seg">textarea element.</mrk> <mrk mid="1" mtype="seg">Get the coordinates and dimensions of the text area,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">textarea element.</mrk> <mrk mid="1" mtype="seg">Get the coordinates and dimensions of the text area,</mrk></target>
+</trans-unit>
+<trans-unit id="132">
+<source xml:lang="en">outline its shape with the mouse and come to rest in the center</source>
+<seg-source><mrk mid="0" mtype="seg">outline its shape with the mouse and come to rest in the center</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">outline its shape with the mouse and come to rest in the center</mrk></target>
+</trans-unit>
+<trans-unit id="133">
+<source xml:lang="en">form</source>
+<seg-source><mrk mid="0" mtype="seg">form</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">form</mrk></target>
+</trans-unit>
+<trans-unit id="134">
+<source xml:lang="en">ExampleForm</source>
+<seg-source><mrk mid="0" mtype="seg">ExampleForm</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ExampleForm</mrk></target>
+</trans-unit>
+<trans-unit id="135">
+<source xml:lang="en">textareaExample</source>
+<seg-source><mrk mid="0" mtype="seg">textareaExample</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">textareaExample</mrk></target>
+</trans-unit>
+<trans-unit id="136">
+<source xml:lang="en">Get coordinates and dimensions of the textarea</source>
+<seg-source><mrk mid="0" mtype="seg">Get coordinates and dimensions of the textarea</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get coordinates and dimensions of the textarea</mrk></target>
+</trans-unit>
+<trans-unit id="137">
+<source xml:lang="en">screenx</source>
+<seg-source><mrk mid="0" mtype="seg">screenx</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">screenx</mrk></target>
+</trans-unit>
+<trans-unit id="138">
+<source xml:lang="en">screeny</source>
+<seg-source><mrk mid="0" mtype="seg">screeny</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">screeny</mrk></target>
+</trans-unit>
+<trans-unit id="139">
+<source xml:lang="en">browserx</source>
+<seg-source><mrk mid="0" mtype="seg">browserx</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">browserx</mrk></target>
+</trans-unit>
+<trans-unit id="140">
+<source xml:lang="en">browserY</source>
+<seg-source><mrk mid="0" mtype="seg">browserY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">browserY</mrk></target>
+</trans-unit>
+<trans-unit id="141">
+<source xml:lang="en">width</source>
+<seg-source><mrk mid="0" mtype="seg">width</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">width</mrk></target>
+</trans-unit>
+<trans-unit id="142">
+<source xml:lang="en">height</source>
+<seg-source><mrk mid="0" mtype="seg">height</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">height</mrk></target>
+</trans-unit>
+<trans-unit id="143">
+<source xml:lang="en">Outline the textarea with the mouse, come to rest in the center</source>
+<seg-source><mrk mid="0" mtype="seg">Outline the textarea with the mouse, come to rest in the center</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Outline the textarea with the mouse, come to rest in the center</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

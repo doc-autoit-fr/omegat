@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUICtrlComboBox_Create.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Create a ComboBox control</source>
+<seg-source><mrk mid="0" mtype="seg">Create a ComboBox control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a ComboBox control</mrk></target>
+<note>Function _GUICtrlComboBox_Create</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to parent or owner window</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to parent or owner window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to parent or owner window</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Delimited string to add to the combobox</source>
+<seg-source><mrk mid="0" mtype="seg">Delimited string to add to the combobox</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delimited string to add to the combobox</mrk></target>
+<note>$sText</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Horizontal position of the control</source>
+<seg-source><mrk mid="0" mtype="seg">Horizontal position of the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Horizontal position of the control</mrk></target>
+<note>$iX</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Vertical position of the control</source>
+<seg-source><mrk mid="0" mtype="seg">Vertical position of the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Vertical position of the control</mrk></target>
+<note>$iY</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Control width</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control width</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control width</mrk></target>
+<note>$iWidth</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Control height</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control height</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control height</mrk></target>
+<note>$iHeight</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Control style:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control style:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control style:</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $CBS_AUTOHSCROLL - Automatically scrolls the text in an edit control to the right when the user types a character at the end of the line.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CBS_AUTOHSCROLL - Automatically scrolls the text in an edit control to the right when the user types a character at the end of the line.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CBS_AUTOHSCROLL - Automatically scrolls the text in an edit control to the right when the user types a character at the end of the line.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $CBS_DISABLENOSCROLL - Shows a disabled vertical scroll bar</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CBS_DISABLENOSCROLL - Shows a disabled vertical scroll bar</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CBS_DISABLENOSCROLL - Shows a disabled vertical scroll bar</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $CBS_DROPDOWN - Similar to $CBS_SIMPLE, except that the list box is not displayed unless the user selects an icon next to the edit control</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CBS_DROPDOWN - Similar to $CBS_SIMPLE, except that the list box is not displayed unless the user selects an icon next to the edit control</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CBS_DROPDOWN - Similar to $CBS_SIMPLE, except that the list box is not displayed unless the user selects an icon next to the edit control</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $CBS_DROPDOWNLIST - Similar to $CBS_DROPDOWN, except that the edit control is replaced by a static text item that displays the current selection in the list box</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CBS_DROPDOWNLIST - Similar to $CBS_DROPDOWN, except that the edit control is replaced by a static text item that displays the current selection in the list box</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CBS_DROPDOWNLIST - Similar to $CBS_DROPDOWN, except that the edit control is replaced by a static text item that displays the current selection in the list box</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $CBS_LOWERCASE - Converts to lowercase all text in both the selection field and the list</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CBS_LOWERCASE - Converts to lowercase all text in both the selection field and the list</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CBS_LOWERCASE - Converts to lowercase all text in both the selection field and the list</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $CBS_NOINTEGRALHEIGHT - Specifies that the size of the combo box is exactly the size specified by the application when it created the combo box</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CBS_NOINTEGRALHEIGHT - Specifies that the size of the combo box is exactly the size specified by the application when it created the combo box</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CBS_NOINTEGRALHEIGHT - Specifies that the size of the combo box is exactly the size specified by the application when it created the combo box</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $CBS_OEMCONVERT - Converts text entered in the combo box edit control from the Windows character set to the OEM character set and then back to the Windows character set</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CBS_OEMCONVERT - Converts text entered in the combo box edit control from the Windows character set to the OEM character set and then back to the Windows character set</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CBS_OEMCONVERT - Converts text entered in the combo box edit control from the Windows character set to the OEM character set and then back to the Windows character set</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $CBS_OWNERDRAWFIXED - Specifies that the owner of the list box is responsible for drawing its contents and that the items in the list box are all the same height</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CBS_OWNERDRAWFIXED - Specifies that the owner of the list box is responsible for drawing its contents and that the items in the list box are all the same height</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CBS_OWNERDRAWFIXED - Specifies that the owner of the list box is responsible for drawing its contents and that the items in the list box are all the same height</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $CBS_OWNERDRAWVARIABLE - Specifies that the owner of the list box is responsible for drawing its contents and that the items in the list box are variable in height</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CBS_OWNERDRAWVARIABLE - Specifies that the owner of the list box is responsible for drawing its contents and that the items in the list box are variable in height</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CBS_OWNERDRAWVARIABLE - Specifies that the owner of the list box is responsible for drawing its contents and that the items in the list box are variable in height</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $CBS_SIMPLE - Displays the list box at all times</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CBS_SIMPLE - Displays the list box at all times</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CBS_SIMPLE - Displays the list box at all times</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     $CBS_SORT - Automatically sorts strings added to the list box</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CBS_SORT - Automatically sorts strings added to the list box</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CBS_SORT - Automatically sorts strings added to the list box</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     $CBS_UPPERCASE - Converts to uppercase all text in both the selection field and the list</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CBS_UPPERCASE - Converts to uppercase all text in both the selection field and the list</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CBS_UPPERCASE - Converts to uppercase all text in both the selection field and the list</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> Default: $CBS_DROPDOWN, $CBS_AUTOHSCROLL, $WS_VSCROLL</source>
+<seg-source> <mrk mid="0" mtype="seg">Default:</mrk> <mrk mid="1" mtype="seg">$CBS_DROPDOWN, $CBS_AUTOHSCROLL, $WS_VSCROLL</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Default:</mrk> <mrk mid="1" mtype="seg">$CBS_DROPDOWN, $CBS_AUTOHSCROLL, $WS_VSCROLL</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> Forced : $WS_CHILD, $WS_TABSTOP, $WS_VISIBLE</source>
+<seg-source> <mrk mid="0" mtype="seg">Forced :</mrk> <mrk mid="1" mtype="seg">$WS_CHILD, $WS_TABSTOP, $WS_VISIBLE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Forced :</mrk> <mrk mid="1" mtype="seg">$WS_CHILD, $WS_TABSTOP, $WS_VISIBLE</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Control extended style. These correspond to the standard $WS_EX_* constants. See <bpt id="1" ctype="x-a">&lt;a href="../appendix/GUIStyles.htm#Extended"></bpt>Extended Style Table<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control extended style.</mrk> <mrk mid="2" mtype="seg">These correspond to the standard $WS_EX_* constants.</mrk> <mrk mid="3" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../appendix/GUIStyles.htm#Extended"></bpt>Extended Style Table<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control extended style.</mrk> <mrk mid="2" mtype="seg">These correspond to the standard $WS_EX_* constants.</mrk> <mrk mid="3" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../appendix/GUIStyles.htm#Extended"></bpt>Extended Style Table<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>$iExStyle</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">the handle to the Listbox control.</source>
+<seg-source><mrk mid="0" mtype="seg">the handle to the Listbox control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the handle to the Listbox control.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">This function is for Advanced users and for learning how the control works.</source>
+<seg-source><mrk mid="0" mtype="seg">This function is for Advanced users and for learning how the control works.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function is for Advanced users and for learning how the control works.</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">(UDF) ComboBox Create</source>
+<seg-source><mrk mid="0" mtype="seg">(UDF) ComboBox Create</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(UDF) ComboBox Create</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Add files</source>
+<seg-source><mrk mid="0" mtype="seg">Add files</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add files</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">WM_COMMAND</source>
+<seg-source><mrk mid="0" mtype="seg">WM_COMMAND</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_COMMAND</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Low Word</source>
+<seg-source><mrk mid="0" mtype="seg">Low Word</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Low Word</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Hi Word</source>
+<seg-source><mrk mid="0" mtype="seg">Hi Word</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hi Word</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Sent when the list box of a combo box has been closed</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when the list box of a combo box has been closed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when the list box of a combo box has been closed</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">$CBN_CLOSEUP</source>
+<seg-source><mrk mid="0" mtype="seg">$CBN_CLOSEUP</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$CBN_CLOSEUP</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Sent when the user double-clicks a string in the list box of a combo box</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when the user double-clicks a string in the list box of a combo box</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when the user double-clicks a string in the list box of a combo box</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">$CBN_DBLCLK</source>
+<seg-source><mrk mid="0" mtype="seg">$CBN_DBLCLK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$CBN_DBLCLK</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Sent when the list box of a combo box is about to be made visible</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when the list box of a combo box is about to be made visible</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when the list box of a combo box is about to be made visible</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">$CBN_DROPDOWN</source>
+<seg-source><mrk mid="0" mtype="seg">$CBN_DROPDOWN</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$CBN_DROPDOWN</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">Sent after the user has taken an action that may have altered the text in the edit control portion of a combo box</source>
+<seg-source><mrk mid="0" mtype="seg">Sent after the user has taken an action that may have altered the text in the edit control portion of a combo box</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent after the user has taken an action that may have altered the text in the edit control portion of a combo box</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">$CBN_EDITCHANGE</source>
+<seg-source><mrk mid="0" mtype="seg">$CBN_EDITCHANGE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$CBN_EDITCHANGE</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">Sent when the edit control portion of a combo box is about to display altered text</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when the edit control portion of a combo box is about to display altered text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when the edit control portion of a combo box is about to display altered text</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">$CBN_EDITUPDATE</source>
+<seg-source><mrk mid="0" mtype="seg">$CBN_EDITUPDATE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$CBN_EDITUPDATE</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">Sent when a combo box cannot allocate enough memory to meet a specific request</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when a combo box cannot allocate enough memory to meet a specific request</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when a combo box cannot allocate enough memory to meet a specific request</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">$CBN_ERRSPACE</source>
+<seg-source><mrk mid="0" mtype="seg">$CBN_ERRSPACE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$CBN_ERRSPACE</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">Sent when a combo box loses the keyboard focus</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when a combo box loses the keyboard focus</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when a combo box loses the keyboard focus</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">$CBN_KILLFOCUS</source>
+<seg-source><mrk mid="0" mtype="seg">$CBN_KILLFOCUS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$CBN_KILLFOCUS</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">Sent when the user changes the current selection in the list box of a combo box</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when the user changes the current selection in the list box of a combo box</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when the user changes the current selection in the list box of a combo box</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">$CBN_SELCHANGE</source>
+<seg-source><mrk mid="0" mtype="seg">$CBN_SELCHANGE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$CBN_SELCHANGE</mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">Sent when the user selects an item, but then selects another control or closes the dialog box</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when the user selects an item, but then selects another control or closes the dialog box</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when the user selects an item, but then selects another control or closes the dialog box</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">$CBN_SELENDCANCEL</source>
+<seg-source><mrk mid="0" mtype="seg">$CBN_SELENDCANCEL</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$CBN_SELENDCANCEL</mrk></target>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en">Sent when the user selects a list item, or selects an item and then closes the list</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when the user selects a list item, or selects an item and then closes the list</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when the user selects a list item, or selects an item and then closes the list</mrk></target>
+</trans-unit>
+<trans-unit id="94">
+<source xml:lang="en">$CBN_SELENDOK</source>
+<seg-source><mrk mid="0" mtype="seg">$CBN_SELENDOK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$CBN_SELENDOK</mrk></target>
+</trans-unit>
+<trans-unit id="95">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="96">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="97">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="98">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="99">
+<source xml:lang="en">Sent when a combo box receives the keyboard focus</source>
+<seg-source><mrk mid="0" mtype="seg">Sent when a combo box receives the keyboard focus</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sent when a combo box receives the keyboard focus</mrk></target>
+</trans-unit>
+<trans-unit id="100">
+<source xml:lang="en">$CBN_SETFOCUS</source>
+<seg-source><mrk mid="0" mtype="seg">$CBN_SETFOCUS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$CBN_SETFOCUS</mrk></target>
+</trans-unit>
+<trans-unit id="101">
+<source xml:lang="en">--> hWndFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">--> hWndFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="102">
+<source xml:lang="en">-->IDFrom:</source>
+<seg-source><mrk mid="0" mtype="seg">-->IDFrom:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->IDFrom:</mrk></target>
+</trans-unit>
+<trans-unit id="103">
+<source xml:lang="en">-->Code:</source>
+<seg-source><mrk mid="0" mtype="seg">-->Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Code:</mrk></target>
+</trans-unit>
+<trans-unit id="104">
+<source xml:lang="en">no return value</source>
+<seg-source><mrk mid="0" mtype="seg">no return value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no return value</mrk></target>
+</trans-unit>
+<trans-unit id="105">
+<source xml:lang="en">!===========================================================</source>
+<seg-source><mrk mid="0" mtype="seg">!===========================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!===========================================================</mrk></target>
+</trans-unit>
+<trans-unit id="106">
+<source xml:lang="en">+======================================================</source>
+<seg-source><mrk mid="0" mtype="seg">+======================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+======================================================</mrk></target>
+</trans-unit>
+<trans-unit id="107">
+<source xml:lang="en">-->Line(</source>
+<seg-source><mrk mid="0" mtype="seg">-->Line(</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-->Line(</mrk></target>
+</trans-unit>
+<trans-unit id="108">
+<source xml:lang="en">%04d</source>
+<seg-source><mrk mid="0" mtype="seg">%04d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">%04d</mrk></target>
+</trans-unit>
+<trans-unit id="109">
+<source xml:lang="en">):</source>
+<seg-source><mrk mid="0" mtype="seg">):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">):</mrk></target>
+</trans-unit>
+<trans-unit id="110">
+<source xml:lang="en">+======================================================</source>
+<seg-source><mrk mid="0" mtype="seg">+======================================================</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+======================================================</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

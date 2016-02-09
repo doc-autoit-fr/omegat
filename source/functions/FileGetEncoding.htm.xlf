@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/FileGetEncoding.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Determines the text encoding used in a file.</source>
+<seg-source><mrk mid="0" mtype="seg">Determines the text encoding used in a file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Determines the text encoding used in a file.</mrk></target>
+<note>Function FileGetEncoding</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> The handle of a file, as returned by a previous call to <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept>. Alternatively you may use a string filename as the first parameter. </source>
+<seg-source> <mrk mid="0" mtype="seg">The handle of a file, as returned by a previous call to <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept>.</mrk> <mrk mid="1" mtype="seg">Alternatively you may use a string filename as the first parameter.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The handle of a file, as returned by a previous call to <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept>.</mrk> <mrk mid="1" mtype="seg">Alternatively you may use a string filename as the first parameter.</mrk> </target>
+<note>filehandle/filename</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The UTF8 detection mode to use.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The UTF8 detection mode to use.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The UTF8 detection mode to use.</mrk></target>
+<note>mode</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $FE_ENTIRE_UTF8 (1) = Check entire file for UTF8 sequences (default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FE_ENTIRE_UTF8 (1) = Check entire file for UTF8 sequences (default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FE_ENTIRE_UTF8 (1) = Check entire file for UTF8 sequences (default)</mrk></target>
+<note>mode</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $FE_PARTIALFIRST_UTF8 (2) = Check first part of file for UTF8 sequences (the same as <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> uses by default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FE_PARTIALFIRST_UTF8 (2) = Check first part of file for UTF8 sequences (the same as <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> uses by default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FE_PARTIALFIRST_UTF8 (2) = Check first part of file for UTF8 sequences (the same as <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> uses by default)</mrk></target>
+<note>mode</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> Constants are defined in FileConstants.au3. </source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in FileConstants.au3.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in FileConstants.au3.</mrk> </target>
+<note>mode</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> the file encoding using similar values to the <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> function:</source>
+<seg-source> <mrk mid="0" mtype="seg">the file encoding using similar values to the <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> function:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">the file encoding using similar values to the <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> function:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $FO_UTF16_LE (32) = UTF16 Little Endian.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FO_UTF16_LE (32) = UTF16 Little Endian.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FO_UTF16_LE (32) = UTF16 Little Endian.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $FO_UTF16_BE (64) = UTF16 Big Endian.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FO_UTF16_BE (64) = UTF16 Big Endian.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FO_UTF16_BE (64) = UTF16 Big Endian.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $FO_UTF8 (128) = UTF8 (with BOM).</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FO_UTF8 (128) = UTF8 (with BOM).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FO_UTF8 (128) = UTF8 (with BOM).</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $FO_UTF8_NOBOM (256) = UTF8 (without BOM).</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FO_UTF8_NOBOM (256) = UTF8 (without BOM).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FO_UTF8_NOBOM (256) = UTF8 (without BOM).</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $FO_ANSI (512) = ANSI (containing char > 127 and &lt; 255) </source>
+<seg-source> <mrk mid="0" mtype="seg">    $FO_ANSI (512) = ANSI (containing char > 127 and &lt; 255)</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FO_ANSI (512) = ANSI (containing char > 127 and &lt; 255)</mrk> </target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">-1.</source>
+<seg-source><mrk mid="0" mtype="seg">-1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> Constants are defined in FileConstants.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in FileConstants.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in FileConstants.au3.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">If a filename is given rather than a file handle - the file will be opened and closed during the function call.</source>
+<seg-source><mrk mid="0" mtype="seg">If a filename is given rather than a file handle - the file will be opened and closed during the function call.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a filename is given rather than a file handle - the file will be opened and closed during the function call.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> Note: Do not mix filehandles and filenames, i.e., don't <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> a file and then use a filename in this function. Use either filehandles or filenames in your routines, not both!</source>
+<seg-source> <mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">Do not mix filehandles and filenames, i.e., don't <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> a file and then use a filename in this function.</mrk> <mrk mid="2" mtype="seg">Use either filehandles or filenames in your routines, not both!</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">Do not mix filehandles and filenames, i.e., don't <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> a file and then use a filename in this function.</mrk> <mrk mid="2" mtype="seg">Use either filehandles or filenames in your routines, not both!</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> If a file handle is used then the "mode" parameter has no effect - the mode used for <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> takes precedence.</source>
+<seg-source> <mrk mid="0" mtype="seg">If a file handle is used then the "mode" parameter has no effect - the mode used for <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> takes precedence.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If a file handle is used then the "mode" parameter has no effect - the mode used for <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> takes precedence.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Retrieve the file encoding of the current script.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve the file encoding of the current script.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve the file encoding of the current script.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Error: Could not obtain the file encoding.</source>
+<seg-source><mrk mid="0" mtype="seg">Error:</mrk> <mrk mid="1" mtype="seg">Could not obtain the file encoding.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error:</mrk> <mrk mid="1" mtype="seg">Could not obtain the file encoding.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">FileGetEncoding: The value returned was:</source>
+<seg-source><mrk mid="0" mtype="seg">FileGetEncoding:</mrk> <mrk mid="1" mtype="seg">The value returned was:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FileGetEncoding:</mrk> <mrk mid="1" mtype="seg">The value returned was:</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">The value returned for this example should be 0 or $FO_ANSI.</source>
+<seg-source><mrk mid="0" mtype="seg">The value returned for this example should be 0 or $FO_ANSI.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The value returned for this example should be 0 or $FO_ANSI.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

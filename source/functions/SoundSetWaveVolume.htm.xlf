@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/SoundSetWaveVolume.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the system wave volume by percent.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the system wave volume by percent.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the system wave volume by percent.</mrk></target>
+<note>Function SoundSetWaveVolume</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">percentage number between 0 and 100</source>
+<seg-source><mrk mid="0" mtype="seg">percentage number between 0 and 100</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">percentage number between 0 and 100</mrk></target>
+<note>percent</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">0 and sets the @error flag to 1 if percent is invalid.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to 1 if percent is invalid.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to 1 if percent is invalid.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">This controls the Wave volume, not the master volume control. Also, a value of Zero does not set mute status.</source>
+<seg-source><mrk mid="0" mtype="seg">This controls the Wave volume, not the master volume control.</mrk> <mrk mid="1" mtype="seg">Also, a value of Zero does not set mute status.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This controls the Wave volume, not the master volume control.</mrk> <mrk mid="1" mtype="seg">Also, a value of Zero does not set mute status.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> On Windows Vista, there is no system-wide wave volume. This function only changes the wave volume for the script. It can not be used to change the wave volume of other programs.</source>
+<seg-source> <mrk mid="0" mtype="seg">On Windows Vista, there is no system-wide wave volume.</mrk> <mrk mid="1" mtype="seg">This function only changes the wave volume for the script.</mrk> <mrk mid="2" mtype="seg">It can not be used to change the wave volume of other programs.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">On Windows Vista, there is no system-wide wave volume.</mrk> <mrk mid="1" mtype="seg">This function only changes the wave volume for the script.</mrk> <mrk mid="2" mtype="seg">It can not be used to change the wave volume of other programs.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Set the volume to 50%.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the volume to 50%.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the volume to 50%.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

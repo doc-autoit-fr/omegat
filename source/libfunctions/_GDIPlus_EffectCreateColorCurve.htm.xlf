@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GDIPlus_EffectCreateColorCurve.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a ColorBalance class effect object</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a ColorBalance class effect object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a ColorBalance class effect object</mrk></target>
+<note>Function _GDIPlus_EffectCreateColorCurve</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">CurveAdjustments constant that specifies the adjustment to be applied ($GDIP_Adjust*).</source>
+<seg-source><mrk mid="0" mtype="seg">CurveAdjustments constant that specifies the adjustment to be applied ($GDIP_Adjust*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CurveAdjustments constant that specifies the adjustment to be applied ($GDIP_Adjust*).</mrk></target>
+<note>$iAdjustment</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">CurveChannel constant that specifies the color channel to which the adjustment applies ($GDIP_CurveChannel*).</source>
+<seg-source><mrk mid="0" mtype="seg">CurveChannel constant that specifies the color channel to which the adjustment applies ($GDIP_CurveChannel*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CurveChannel constant that specifies the color channel to which the adjustment applies ($GDIP_CurveChannel*).</mrk></target>
+<note>$iChannel</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Integer that specifies the intensity of the adjustment.</source>
+<seg-source><mrk mid="0" mtype="seg">Integer that specifies the intensity of the adjustment.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Integer that specifies the intensity of the adjustment.</mrk></target>
+<note>$iAdjustValue</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> The range of acceptable values depends on which adjustment is being applied (see $GDIP_Adjust* constants).</source>
+<seg-source> <mrk mid="0" mtype="seg">The range of acceptable values depends on which adjustment is being applied (see $GDIP_Adjust* constants).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The range of acceptable values depends on which adjustment is being applied (see $GDIP_Adjust* constants).</mrk></target>
+<note>$iAdjustValue</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">a handle to an Effect object.</source>
+<seg-source><mrk mid="0" mtype="seg">a handle to an Effect object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a handle to an Effect object.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">0 and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">-1 - GDIPlus.dll does not support this function.</source>
+<seg-source><mrk mid="0" mtype="seg">-1 - GDIPlus.dll does not support this function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1 - GDIPlus.dll does not support this function.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> 10 - Invalid parameters.</source>
+<seg-source> <mrk mid="0" mtype="seg">10 - Invalid parameters.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">10 - Invalid parameters.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">When you are done with the Effect object, call <bpt id="1" ctype="x-a">&lt;a href="_GDIPlus_EffectDispose.htm"></bpt>_GDIPlus_EffectDispose()<ept id="1">&lt;/a></ept> to release the resources.</source>
+<seg-source><mrk mid="0" mtype="seg">When you are done with the Effect object, call <bpt id="1" ctype="x-a">&lt;a href="_GDIPlus_EffectDispose.htm"></bpt>_GDIPlus_EffectDispose()<ept id="1">&lt;/a></ept> to release the resources.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you are done with the Effect object, call <bpt id="1" ctype="x-a">&lt;a href="_GDIPlus_EffectDispose.htm"></bpt>_GDIPlus_EffectDispose()<ept id="1">&lt;/a></ept> to release the resources.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">ERROR</source>
+<seg-source><mrk mid="0" mtype="seg">ERROR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ERROR</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">GDIPlus.dll v1.1 not available</source>
+<seg-source><mrk mid="0" mtype="seg">GDIPlus.dll v1.1 not available</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GDIPlus.dll v1.1 not available</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Select an image</source>
+<seg-source><mrk mid="0" mtype="seg">Select an image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Select an image</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Images (*.bmp;*.png;*.jpg;*.gif;*.tif)</source>
+<seg-source><mrk mid="0" mtype="seg">Images (*.bmp;*.png;*.jpg;*.gif;*.tif)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Images (*.bmp;*.png;*.jpg;*.gif;*.tif)</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">GDI+ v1.1 (</source>
+<seg-source><mrk mid="0" mtype="seg">GDI+ v1.1 (</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GDI+ v1.1 (</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">)</source>
+<seg-source><mrk mid="0" mtype="seg">)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">)</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

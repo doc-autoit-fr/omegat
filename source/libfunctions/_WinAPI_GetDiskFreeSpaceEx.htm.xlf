@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_GetDiskFreeSpaceEx.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves information about the amount of space that is available on a disk volume</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves information about the amount of space that is available on a disk volume</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves information about the amount of space that is available on a disk volume</mrk></target>
+<note>Function _WinAPI_GetDiskFreeSpaceEx</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The drive to retrieve information, in the format D:, E:, etc.</source>
+<seg-source><mrk mid="0" mtype="seg">The drive to retrieve information, in the format D:,</mrk> <mrk mid="1" mtype="seg">E:, etc.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The drive to retrieve information, in the format D:,</mrk> <mrk mid="1" mtype="seg">E:, etc.</mrk></target>
+<note>$sDrive</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The array containing the following information:</source>
+<seg-source><mrk mid="0" mtype="seg">The array containing the following information:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The array containing the following information:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     [0] - The total number of available free bytes on a disk.</source>
+<seg-source> <mrk mid="0" mtype="seg">    [0] - The total number of available free bytes on a disk.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [0] - The total number of available free bytes on a disk.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     If per-user quotas are being used, this value may be less than the total number of free bytes on a disk.</source>
+<seg-source> <mrk mid="0" mtype="seg">    If per-user quotas are being used, this value may be less than the total number of free bytes on a disk.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    If per-user quotas are being used, this value may be less than the total number of free bytes on a disk.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     [1] - The total number of available bytes on a disk.</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1] - The total number of available bytes on a disk.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1] - The total number of available bytes on a disk.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     If per-user quotas are being used, this value may be less than the total number of bytes on a disk.</source>
+<seg-source> <mrk mid="0" mtype="seg">    If per-user quotas are being used, this value may be less than the total number of bytes on a disk.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    If per-user quotas are being used, this value may be less than the total number of bytes on a disk.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     [2] - The total number of free bytes on a disk.</source>
+<seg-source> <mrk mid="0" mtype="seg">    [2] - The total number of free bytes on a disk.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [2] - The total number of free bytes on a disk.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> Sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">Sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Sets the @error flag to non-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetDiskFreeSpaceEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetDiskFreeSpaceEx<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetDiskFreeSpaceEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetDiskFreeSpaceEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetDiskFreeSpaceEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetDiskFreeSpaceEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Total available free space on</source>
+<seg-source><mrk mid="0" mtype="seg">Total available free space on</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Total available free space on</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">=></source>
+<seg-source><mrk mid="0" mtype="seg">=></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">=></mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">bytes</source>
+<seg-source><mrk mid="0" mtype="seg">bytes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">bytes</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Total available space on</source>
+<seg-source><mrk mid="0" mtype="seg">Total available space on</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Total available space on</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">=></source>
+<seg-source><mrk mid="0" mtype="seg">=></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">=></mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">bytes</source>
+<seg-source><mrk mid="0" mtype="seg">bytes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">bytes</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Total free space on</source>
+<seg-source><mrk mid="0" mtype="seg">Total free space on</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Total free space on</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">=></source>
+<seg-source><mrk mid="0" mtype="seg">=></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">=></mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">bytes</source>
+<seg-source><mrk mid="0" mtype="seg">bytes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">bytes</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

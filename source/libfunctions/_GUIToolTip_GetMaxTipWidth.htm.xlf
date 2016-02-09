@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUIToolTip_GetMaxTipWidth.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the maximum width of a ToolTip window</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the maximum width of a ToolTip window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the maximum width of a ToolTip window</mrk></target>
+<note>Function _GUIToolTip_GetMaxTipWidth</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> Handle to the ToolTip control (returned by <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_Create.htm"></bpt>_GUIToolTip_Create.<ept id="1">&lt;/a></ept>) </source>
+<seg-source> <mrk mid="0" mtype="seg">Handle to the ToolTip control (returned by <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_Create.htm"></bpt>_GUIToolTip_Create.<ept id="1">&lt;/a></ept>)</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Handle to the ToolTip control (returned by <bpt id="1" ctype="x-a">&lt;a href="_GUIToolTip_Create.htm"></bpt>_GUIToolTip_Create.<ept id="1">&lt;/a></ept>)</mrk> </target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">the maximum ToolTip width, in pixels.</source>
+<seg-source><mrk mid="0" mtype="seg">the maximum ToolTip width, in pixels.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the maximum ToolTip width, in pixels.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">-1.</source>
+<seg-source><mrk mid="0" mtype="seg">-1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">The maximum ToolTip width value does not indicate a ToolTip window's actual width.</source>
+<seg-source><mrk mid="0" mtype="seg">The maximum ToolTip width value does not indicate a ToolTip window's actual width.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The maximum ToolTip width value does not indicate a ToolTip window's actual width.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> Rather, if a ToolTip string exceeds the maximum width, the control breaks the text into multiple lines, using spaces to determine line breaks.</source>
+<seg-source> <mrk mid="0" mtype="seg">Rather, if a ToolTip string exceeds the maximum width, the control breaks the text into multiple lines, using spaces to determine line breaks.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Rather, if a ToolTip string exceeds the maximum width, the control breaks the text into multiple lines, using spaces to determine line breaks.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> If the text cannot be segmented into multiple lines, it will be displayed on a single line.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the text cannot be segmented into multiple lines, it will be displayed on a single line.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the text cannot be segmented into multiple lines, it will be displayed on a single line.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> The length of this line may exceed the maximum ToolTip width.</source>
+<seg-source> <mrk mid="0" mtype="seg">The length of this line may exceed the maximum ToolTip width.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The length of this line may exceed the maximum ToolTip width.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">.exe</source>
+<seg-source><mrk mid="0" mtype="seg">.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.exe</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">This is a button</source>
+<seg-source><mrk mid="0" mtype="seg">This is a button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a button</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Create a tooltip control</source>
+<seg-source><mrk mid="0" mtype="seg">Create a tooltip control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a tooltip control</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Set the maximum width to 400 pixels</source>
+<seg-source><mrk mid="0" mtype="seg">Set the maximum width to 400 pixels</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the maximum width to 400 pixels</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">If the text exceeds the width, then it carries over to the next line.</source>
+<seg-source><mrk mid="0" mtype="seg">If the text exceeds the width, then it carries over to the next line.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the text exceeds the width, then it carries over to the next line.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Also allows you to use @CRLF</source>
+<seg-source><mrk mid="0" mtype="seg">Also allows you to use @CRLF</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Also allows you to use @CRLF</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Display the max width of the tooltip</source>
+<seg-source><mrk mid="0" mtype="seg">Display the max width of the tooltip</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the max width of the tooltip</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Info</source>
+<seg-source><mrk mid="0" mtype="seg">Info</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Info</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Max Width:</source>
+<seg-source><mrk mid="0" mtype="seg">Max Width:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Max Width:</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Pixels</source>
+<seg-source><mrk mid="0" mtype="seg">Pixels</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pixels</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Destroy the tooltip control</source>
+<seg-source><mrk mid="0" mtype="seg">Destroy the tooltip control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Destroy the tooltip control</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

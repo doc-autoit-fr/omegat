@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GDIPlus_ImageGetThumbnail.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Gets a thumbnail image from this Image object</source>
+<seg-source><mrk mid="0" mtype="seg">Gets a thumbnail image from this Image object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Gets a thumbnail image from this Image object</mrk></target>
+<note>Function _GDIPlus_ImageGetThumbnail</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> A handle to image object</source>
+<seg-source><mrk mid="0" mtype="seg"> A handle to image object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> A handle to image object</mrk></target>
+<note>$hImage</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Width, in pixels, of the requested thumbnail image. Default is 0.</source>
+<seg-source><mrk mid="0" mtype="seg"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Width, in pixels, of the requested thumbnail image.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Width, in pixels, of the requested thumbnail image.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></target>
+<note>$iWidth</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Height, in pixels, of the requested thumbnail image. Default is 0.</source>
+<seg-source><mrk mid="0" mtype="seg"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Height, in pixels, of the requested thumbnail image.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Height, in pixels, of the requested thumbnail image.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></target>
+<note>$iHeight</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If true destination width and height of the image will be recalculated to keep image aspect ratio. Default is True.</source>
+<seg-source><mrk mid="0" mtype="seg"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If true destination width and height of the image will be recalculated to keep image aspect ratio.</mrk> <mrk mid="2" mtype="seg">Default is True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If true destination width and height of the image will be recalculated to keep image aspect ratio.</mrk> <mrk mid="2" mtype="seg">Default is True.</mrk></target>
+<note>$bKeepRatio</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Callback function that you provide. During the process of creating or retrieving the thumbnail image, Microsoft Windows GDI+ calls this function to give you the opportunity to abort the process. The default value is NULL.</source>
+<seg-source><mrk mid="0" mtype="seg"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Callback function that you provide.</mrk> <mrk mid="2" mtype="seg">During the process of creating or retrieving the thumbnail image, Microsoft Windows GDI+ calls this function to give you the opportunity to abort the process.</mrk> <mrk mid="3" mtype="seg">The default value is NULL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Callback function that you provide.</mrk> <mrk mid="2" mtype="seg">During the process of creating or retrieving the thumbnail image, Microsoft Windows GDI+ calls this function to give you the opportunity to abort the process.</mrk> <mrk mid="3" mtype="seg">The default value is NULL.</mrk></target>
+<note>$hCallback</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Pointer to a block of memory that contains data to be used by the callback function. The default value is NULL.</source>
+<seg-source><mrk mid="0" mtype="seg"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Pointer to a block of memory that contains data to be used by the callback function.</mrk> <mrk mid="2" mtype="seg">The default value is NULL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Pointer to a block of memory that contains data to be used by the callback function.</mrk> <mrk mid="2" mtype="seg">The default value is NULL.</mrk></target>
+<note>$hCallbackData</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Handle to an Image object that contains the thumbnail image.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to an Image object that contains the thumbnail image.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to an Image object that contains the thumbnail image.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">0 and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">A thumbnail image is a small copy of an image. Some image files have a thumbnail image embedded in the file. In such cases, this method retrieves the embedded thumbnail image. If there is no embedded thumbnail image, this method creates a thumbnail image by scaling the main image to the size specified in the thumbWidth and thumbHeight parameters. If both of those parameters are 0, a system-defined size is used.</source>
+<seg-source><mrk mid="0" mtype="seg">A thumbnail image is a small copy of an image.</mrk> <mrk mid="1" mtype="seg">Some image files have a thumbnail image embedded in the file.</mrk> <mrk mid="2" mtype="seg">In such cases, this method retrieves the embedded thumbnail image.</mrk> <mrk mid="3" mtype="seg">If there is no embedded thumbnail image, this method creates a thumbnail image by scaling the main image to the size specified in the thumbWidth and thumbHeight parameters.</mrk> <mrk mid="4" mtype="seg">If both of those parameters are 0, a system-defined size is used.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A thumbnail image is a small copy of an image.</mrk> <mrk mid="1" mtype="seg">Some image files have a thumbnail image embedded in the file.</mrk> <mrk mid="2" mtype="seg">In such cases, this method retrieves the embedded thumbnail image.</mrk> <mrk mid="3" mtype="seg">If there is no embedded thumbnail image, this method creates a thumbnail image by scaling the main image to the size specified in the thumbWidth and thumbHeight parameters.</mrk> <mrk mid="4" mtype="seg">If both of those parameters are 0, a system-defined size is used.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> Don't forget to dispose the thumbnail imgage using _GDIPlus_ImageDispose().</source>
+<seg-source> <mrk mid="0" mtype="seg">Don't forget to dispose the thumbnail imgage using _GDIPlus_ImageDispose().</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Don't forget to dispose the thumbnail imgage using _GDIPlus_ImageDispose().</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipGetImageThumbnail"></bpt>GdipGetImageThumbnail<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipGetImageThumbnail"></bpt>GdipGetImageThumbnail<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipGetImageThumbnail"></bpt>GdipGetImageThumbnail<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Please select an image</source>
+<seg-source><mrk mid="0" mtype="seg">Please select an image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Please select an image</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Image (*.jpg;*.png;*.bmp;*.gif;*.tif)</source>
+<seg-source><mrk mid="0" mtype="seg">Image (*.jpg;*.png;*.bmp;*.gif;*.tif)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Image (*.jpg;*.png;*.bmp;*.gif;*.tif)</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">No image file has been selected</source>
+<seg-source><mrk mid="0" mtype="seg">No image file has been selected</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No image file has been selected</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">This file isn't supported by GDIPlus!</source>
+<seg-source><mrk mid="0" mtype="seg">This file isn't supported by GDIPlus!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This file isn't supported by GDIPlus!</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">GDI+ _GDIPlus_ImageGetThumbnail Demo</source>
+<seg-source><mrk mid="0" mtype="seg">GDI+ _GDIPlus_ImageGetThumbnail Demo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GDI+ _GDIPlus_ImageGetThumbnail Demo</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">center image in GUI</source>
+<seg-source><mrk mid="0" mtype="seg">center image in GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">center image in GUI</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

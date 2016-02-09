@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_DeleteEnhMetaFile.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Deletes an enhanced-format metafile or an enhanced-format metafile handle</source>
+<seg-source><mrk mid="0" mtype="seg">Deletes an enhanced-format metafile or an enhanced-format metafile handle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Deletes an enhanced-format metafile or an enhanced-format metafile handle</mrk></target>
+<note>Function _WinAPI_DeleteEnhMetaFile</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to an enhanced metafile.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to an enhanced metafile.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to an enhanced metafile.</mrk></target>
+<note>$hEmf</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">False</source>
+<seg-source><mrk mid="0" mtype="seg">False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">If the $hEmf parameter identifies an enhanced metafile stored in memory, the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteEnhMetaFile.htm"></bpt>_WinAPI_DeleteEnhMetaFile()<ept id="1">&lt;/a></ept> function deletes the metafile.</source>
+<seg-source><mrk mid="0" mtype="seg">If the $hEmf parameter identifies an enhanced metafile stored in memory, the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteEnhMetaFile.htm"></bpt>_WinAPI_DeleteEnhMetaFile()<ept id="1">&lt;/a></ept> function deletes the metafile.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the $hEmf parameter identifies an enhanced metafile stored in memory, the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteEnhMetaFile.htm"></bpt>_WinAPI_DeleteEnhMetaFile()<ept id="1">&lt;/a></ept> function deletes the metafile.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> If $hEmf identifies a metafile stored on a disk, the function deletes the metafile handle but does not destroy the actual metafile.</source>
+<seg-source> <mrk mid="0" mtype="seg">If $hEmf identifies a metafile stored on a disk, the function deletes the metafile handle but does not destroy the actual metafile.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If $hEmf identifies a metafile stored on a disk, the function deletes the metafile handle but does not destroy the actual metafile.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> An application can retrieve the file by calling the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetEnhMetaFile.htm"></bpt>_WinAPI_GetEnhMetaFile()<ept id="1">&lt;/a></ept> function.</source>
+<seg-source> <mrk mid="0" mtype="seg">An application can retrieve the file by calling the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetEnhMetaFile.htm"></bpt>_WinAPI_GetEnhMetaFile()<ept id="1">&lt;/a></ept> function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">An application can retrieve the file by calling the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetEnhMetaFile.htm"></bpt>_WinAPI_GetEnhMetaFile()<ept id="1">&lt;/a></ept> function.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DeleteEnhMetaFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DeleteEnhMetaFile<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DeleteEnhMetaFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DeleteEnhMetaFile<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DeleteEnhMetaFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DeleteEnhMetaFile<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">\Test.emf</source>
+<seg-source><mrk mid="0" mtype="seg">\Test.emf</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Test.emf</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Create Enhanced Metafile</source>
+<seg-source><mrk mid="0" mtype="seg">Create Enhanced Metafile</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create Enhanced Metafile</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">is already exists.</source>
+<seg-source><mrk mid="0" mtype="seg">is already exists.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">is already exists.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Do you want to replace it?</source>
+<seg-source><mrk mid="0" mtype="seg">Do you want to replace it?</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Do you want to replace it?</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Create Enhanced Metafile</source>
+<seg-source><mrk mid="0" mtype="seg">Create Enhanced Metafile</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create Enhanced Metafile</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Unable to delete file.</source>
+<seg-source><mrk mid="0" mtype="seg">Unable to delete file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unable to delete file.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Create device context for an enhanced-format metafile</source>
+<seg-source><mrk mid="0" mtype="seg">Create device context for an enhanced-format metafile</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create device context for an enhanced-format metafile</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">\Test.emf</source>
+<seg-source><mrk mid="0" mtype="seg">\Test.emf</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Test.emf</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Draw objects</source>
+<seg-source><mrk mid="0" mtype="seg">Draw objects</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draw objects</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Release objects</source>
+<seg-source><mrk mid="0" mtype="seg">Release objects</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Release objects</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Show created .emf file into the Microsoft Paint</source>
+<seg-source><mrk mid="0" mtype="seg">Show created .emf file into the Microsoft Paint</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show created .emf file into the Microsoft Paint</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">\mspaint.exe</source>
+<seg-source><mrk mid="0" mtype="seg">\mspaint.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\mspaint.exe</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_DrawText.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Draws formatted text in the specified rectangle</source>
+<seg-source><mrk mid="0" mtype="seg">Draws formatted text in the specified rectangle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draws formatted text in the specified rectangle</mrk></target>
+<note>Function _WinAPI_DrawText</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Identifies the device context</source>
+<seg-source><mrk mid="0" mtype="seg">Identifies the device context</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Identifies the device context</mrk></target>
+<note>$hDC</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The string to be drawn</source>
+<seg-source><mrk mid="0" mtype="seg">The string to be drawn</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The string to be drawn</mrk></target>
+<note>$sText</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">$tagRECT structure that contains the rectangle for the text</source>
+<seg-source><mrk mid="0" mtype="seg">$tagRECT structure that contains the rectangle for the text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$tagRECT structure that contains the rectangle for the text</mrk></target>
+<note>$tRECT</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Specifies the method of formatting the text:</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the method of formatting the text:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the method of formatting the text:</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $DT_BOTTOM - Justifies the text to the bottom of the rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_BOTTOM - Justifies the text to the bottom of the rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_BOTTOM - Justifies the text to the bottom of the rectangle</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $DT_CALCRECT - Determines the width and height of the rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_CALCRECT - Determines the width and height of the rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_CALCRECT - Determines the width and height of the rectangle</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $DT_CENTER - Centers text horizontally in the rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_CENTER - Centers text horizontally in the rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_CENTER - Centers text horizontally in the rectangle</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> $DT_EDITCONTROL - Duplicates the text-displaying characteristics of a multiline edit control</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_EDITCONTROL - Duplicates the text-displaying characteristics of a multiline edit control</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_EDITCONTROL - Duplicates the text-displaying characteristics of a multiline edit control</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> $DT_END_ELLIPSIS - Replaces part of the given string with ellipses if necessary</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_END_ELLIPSIS - Replaces part of the given string with ellipses if necessary</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_END_ELLIPSIS - Replaces part of the given string with ellipses if necessary</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> $DT_EXPANDTABS - Expands tab characters</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_EXPANDTABS - Expands tab characters</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_EXPANDTABS - Expands tab characters</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> $DT_EXTERNALLEADING - Includes the font external leading in line height</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_EXTERNALLEADING - Includes the font external leading in line height</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_EXTERNALLEADING - Includes the font external leading in line height</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> $DT_HIDEPREFIX - Ignores the ampersand (&amp;) prefix character in the text.</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_HIDEPREFIX - Ignores the ampersand (&amp;) prefix character in the text.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_HIDEPREFIX - Ignores the ampersand (&amp;) prefix character in the text.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> The letter that follows will not be underlined, but other mnemonic-prefix characters are still processed.</source>
+<seg-source> <mrk mid="0" mtype="seg">The letter that follows will not be underlined, but other mnemonic-prefix characters are still processed.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The letter that follows will not be underlined, but other mnemonic-prefix characters are still processed.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> $DT_INTERNAL - Uses the system font to calculate text metrics</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_INTERNAL - Uses the system font to calculate text metrics</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_INTERNAL - Uses the system font to calculate text metrics</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> $DT_LEFT - Aligns text to the left</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_LEFT - Aligns text to the left</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_LEFT - Aligns text to the left</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> $DT_MODIFYSTRING - Modifies the given string to match the displayed text</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_MODIFYSTRING - Modifies the given string to match the displayed text</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_MODIFYSTRING - Modifies the given string to match the displayed text</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> $DT_NOCLIP - Draws without clipping</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_NOCLIP - Draws without clipping</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_NOCLIP - Draws without clipping</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> $DT_NOFULLWIDTHCHARBREAK - Prevents a line break at a DBCS (double-wide character string), so that the line breaking rule is equivalent to SBCS strings.</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_NOFULLWIDTHCHARBREAK - Prevents a line break at a DBCS (double-wide character string), so that the line breaking rule is equivalent to SBCS strings.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_NOFULLWIDTHCHARBREAK - Prevents a line break at a DBCS (double-wide character string), so that the line breaking rule is equivalent to SBCS strings.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> For example, this can be used in Korean windows, for more readability of icon labels.</source>
+<seg-source> <mrk mid="0" mtype="seg">For example, this can be used in Korean windows, for more readability of icon labels.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For example, this can be used in Korean windows, for more readability of icon labels.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> This value has no effect unless $DT_WORDBREAK is specified</source>
+<seg-source> <mrk mid="0" mtype="seg">This value has no effect unless $DT_WORDBREAK is specified</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This value has no effect unless $DT_WORDBREAK is specified</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> $DT_NOPREFIX - Turns off processing of prefix characters</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_NOPREFIX - Turns off processing of prefix characters</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_NOPREFIX - Turns off processing of prefix characters</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> $DT_PATH_ELLIPSIS - For displayed text, replaces characters in the middle of the string with ellipses so that the result fits in the specified rectangle.</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_PATH_ELLIPSIS - For displayed text, replaces characters in the middle of the string with ellipses so that the result fits in the specified rectangle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_PATH_ELLIPSIS - For displayed text, replaces characters in the middle of the string with ellipses so that the result fits in the specified rectangle.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> If the string contains backslash (\) characters, $DT_PATH_ELLIPSIS preserves as much as possible of the text after the last backslash.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the string contains backslash (\) characters, $DT_PATH_ELLIPSIS preserves as much as possible of the text after the last backslash.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the string contains backslash (\) characters, $DT_PATH_ELLIPSIS preserves as much as possible of the text after the last backslash.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> The string is not modified unless the $DT_MODIFYSTRING flag is specified</source>
+<seg-source> <mrk mid="0" mtype="seg">The string is not modified unless the $DT_MODIFYSTRING flag is specified</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The string is not modified unless the $DT_MODIFYSTRING flag is specified</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> $DT_PREFIXONLY - Draws only an underline at the position of the character following the ampersand (&amp;) prefix character.</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_PREFIXONLY - Draws only an underline at the position of the character following the ampersand (&amp;) prefix character.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_PREFIXONLY - Draws only an underline at the position of the character following the ampersand (&amp;) prefix character.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> Does not draw any other characters in the string</source>
+<seg-source> <mrk mid="0" mtype="seg">Does not draw any other characters in the string</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Does not draw any other characters in the string</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> $DT_RIGHT - Aligns text to the right</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_RIGHT - Aligns text to the right</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_RIGHT - Aligns text to the right</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en"> $DT_RTLREADING - Layout in right to left reading order for bi-directional text</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_RTLREADING - Layout in right to left reading order for bi-directional text</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_RTLREADING - Layout in right to left reading order for bi-directional text</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en"> $DT_SINGLELINE - Displays text on a single line only</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_SINGLELINE - Displays text on a single line only</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_SINGLELINE - Displays text on a single line only</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en"> $DT_TABSTOP - Sets tab stops. Bits 15-8 of $iFlags specify the number of characters for each tab</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_TABSTOP - Sets tab stops.</mrk> <mrk mid="1" mtype="seg">Bits 15-8 of $iFlags specify the number of characters for each tab</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_TABSTOP - Sets tab stops.</mrk> <mrk mid="1" mtype="seg">Bits 15-8 of $iFlags specify the number of characters for each tab</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en"> $DT_TOP - Top-justifies text (single line only)</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_TOP - Top-justifies text (single line only)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_TOP - Top-justifies text (single line only)</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"> $DT_VCENTER - Centers text vertically (single line only)</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_VCENTER - Centers text vertically (single line only)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_VCENTER - Centers text vertically (single line only)</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en"> $DT_WORDBREAK - Breaks words</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_WORDBREAK - Breaks words</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_WORDBREAK - Breaks words</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en"> $DT_WORD_ELLIPSIS - Truncates any word that does not fit in the rectangle and adds ellipses</source>
+<seg-source> <mrk mid="0" mtype="seg">$DT_WORD_ELLIPSIS - Truncates any word that does not fit in the rectangle and adds ellipses</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DT_WORD_ELLIPSIS - Truncates any word that does not fit in the rectangle and adds ellipses</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">The height of the text</source>
+<seg-source><mrk mid="0" mtype="seg">The height of the text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The height of the text</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">0</source>
+<seg-source><mrk mid="0" mtype="seg">0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">The DrawText function uses the device context's selected font, text color, and background color to draw the text.</source>
+<seg-source><mrk mid="0" mtype="seg">The DrawText function uses the device context's selected font, text color, and background color to draw the text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The DrawText function uses the device context's selected font, text color, and background color to draw the text.</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en"> Unless the $DT_NOCLIP format is used, DrawText clips the text so that it does not appear outside the specified rectangle.</source>
+<seg-source> <mrk mid="0" mtype="seg">Unless the $DT_NOCLIP format is used, DrawText clips the text so that it does not appear outside the specified rectangle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Unless the $DT_NOCLIP format is used, DrawText clips the text so that it does not appear outside the specified rectangle.</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en"> All formatting is assumed to have multiple lines unless the $DT_SINGLELINE format is specified.</source>
+<seg-source> <mrk mid="0" mtype="seg">All formatting is assumed to have multiple lines unless the $DT_SINGLELINE format is specified.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">All formatting is assumed to have multiple lines unless the $DT_SINGLELINE format is specified.</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en"> If the selected font is too large, DrawText does not attempt to substitute a smaller font.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the selected font is too large, DrawText does not attempt to substitute a smaller font.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the selected font is too large, DrawText does not attempt to substitute a smaller font.</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en"> Above constants require #include &lt;WindowsConstants.au3></source>
+<seg-source> <mrk mid="0" mtype="seg">Above constants require #include &lt;WindowsConstants.au3></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Above constants require #include &lt;WindowsConstants.au3></mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="$tagRECT.htm"></bpt>$tagRECT<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_GetBkMode.htm"></bpt>_WinAPI_GetBkMode<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="_WinAPI_SetBkMode.htm"></bpt>_WinAPI_SetBkMode<ept id="3">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagRECT.htm"></bpt>$tagRECT<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_GetBkMode.htm"></bpt>_WinAPI_GetBkMode<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="_WinAPI_SetBkMode.htm"></bpt>_WinAPI_SetBkMode<ept id="3">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagRECT.htm"></bpt>$tagRECT<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_GetBkMode.htm"></bpt>_WinAPI_GetBkMode<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="_WinAPI_SetBkMode.htm"></bpt>_WinAPI_SetBkMode<ept id="3">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DrawText);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DrawText<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DrawText);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DrawText<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DrawText);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DrawText<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">_Exit</source>
+<seg-source><mrk mid="0" mtype="seg">_Exit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_Exit</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Left</source>
+<seg-source><mrk mid="0" mtype="seg">Left</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Left</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Top</source>
+<seg-source><mrk mid="0" mtype="seg">Top</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Top</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">Right</source>
+<seg-source><mrk mid="0" mtype="seg">Right</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Right</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Bottom</source>
+<seg-source><mrk mid="0" mtype="seg">Bottom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bottom</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Arial</source>
+<seg-source><mrk mid="0" mtype="seg">Arial</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Arial</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">comment next line to get black background instead of transparent one</source>
+<seg-source><mrk mid="0" mtype="seg">comment next line to get black background instead of transparent one</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">comment next line to get black background instead of transparent one</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">Hello world!</source>
+<seg-source><mrk mid="0" mtype="seg">Hello world!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hello world!</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

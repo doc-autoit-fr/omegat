@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/$tagNMTBHOTITEM.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Keyword Reference</source>
+<seg-source><mrk mid="0" mtype="seg">Keyword Reference</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Keyword Reference</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Contains information used with the $TBN_HOTITEMCHANGE notification</source>
+<seg-source><mrk mid="0" mtype="seg">Contains information used with the $TBN_HOTITEMCHANGE notification</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains information used with the $TBN_HOTITEMCHANGE notification</mrk></target>
+<note>Keyword $tagNMTBHOTITEM</note>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Contains information about a notification message</source>
+<seg-source><mrk mid="0" mtype="seg">Contains information about a notification message</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains information about a notification message</mrk></target>
+<note>$tagNMHDR</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Command identifier of the previously highlighted item</source>
+<seg-source><mrk mid="0" mtype="seg">Command identifier of the previously highlighted item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command identifier of the previously highlighted item</mrk></target>
+<note>idOld</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Command identifier of the item about to be highlighted</source>
+<seg-source><mrk mid="0" mtype="seg">Command identifier of the item about to be highlighted</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Command identifier of the item about to be highlighted</mrk></target>
+<note>idNew</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Flags that indicate why the hot item has changed. This can be one or more of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg">Flags that indicate why the hot item has changed.</mrk> <mrk mid="1" mtype="seg">This can be one or more of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Flags that indicate why the hot item has changed.</mrk> <mrk mid="1" mtype="seg">This can be one or more of the following values:</mrk></target>
+<note>dwFlags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $HICF_ACCELERATOR - The change in the hot item was caused by a shortcut key</source>
+<seg-source> <mrk mid="0" mtype="seg">    $HICF_ACCELERATOR - The change in the hot item was caused by a shortcut key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $HICF_ACCELERATOR - The change in the hot item was caused by a shortcut key</mrk></target>
+<note>dwFlags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $HICF_ARROWKEYS - The change in the hot item was caused by an arrow key</source>
+<seg-source> <mrk mid="0" mtype="seg">    $HICF_ARROWKEYS - The change in the hot item was caused by an arrow key</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $HICF_ARROWKEYS - The change in the hot item was caused by an arrow key</mrk></target>
+<note>dwFlags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $HICF_DUPACCEL - Modifies $HICF_ACCELERATOR. If this flag is set, more than one item has the same shortcut key character</source>
+<seg-source> <mrk mid="0" mtype="seg">    $HICF_DUPACCEL - Modifies $HICF_ACCELERATOR.</mrk> <mrk mid="1" mtype="seg">If this flag is set, more than one item has the same shortcut key character</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $HICF_DUPACCEL - Modifies $HICF_ACCELERATOR.</mrk> <mrk mid="1" mtype="seg">If this flag is set, more than one item has the same shortcut key character</mrk></target>
+<note>dwFlags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $HICF_ENTERING - Modifies the other reason flags. If this flag is set, there is no previous hot item and idOld does not contain valid information</source>
+<seg-source> <mrk mid="0" mtype="seg">    $HICF_ENTERING - Modifies the other reason flags.</mrk> <mrk mid="1" mtype="seg">If this flag is set, there is no previous hot item and idOld does not contain valid information</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $HICF_ENTERING - Modifies the other reason flags.</mrk> <mrk mid="1" mtype="seg">If this flag is set, there is no previous hot item and idOld does not contain valid information</mrk></target>
+<note>dwFlags</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $HICF_LEAVING - Modifies the other reason flags. If this flag is set, there is no new hot item and idNew does not contain valid information</source>
+<seg-source> <mrk mid="0" mtype="seg">    $HICF_LEAVING - Modifies the other reason flags.</mrk> <mrk mid="1" mtype="seg">If this flag is set, there is no new hot item and idNew does not contain valid information</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $HICF_LEAVING - Modifies the other reason flags.</mrk> <mrk mid="1" mtype="seg">If this flag is set, there is no new hot item and idNew does not contain valid information</mrk></target>
+<note>dwFlags</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $HICF_LMOUSE - The change in the hot item resulted from a left-click mouse event</source>
+<seg-source> <mrk mid="0" mtype="seg">    $HICF_LMOUSE - The change in the hot item resulted from a left-click mouse event</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $HICF_LMOUSE - The change in the hot item resulted from a left-click mouse event</mrk></target>
+<note>dwFlags</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $HICF_MOUSE - The change in the hot item resulted from a mouse event</source>
+<seg-source> <mrk mid="0" mtype="seg">    $HICF_MOUSE - The change in the hot item resulted from a mouse event</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $HICF_MOUSE - The change in the hot item resulted from a mouse event</mrk></target>
+<note>dwFlags</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $HICF_OTHER - The change in the hot item resulted from an event that could not be determined. This will most often be due to a change in focus or the $TB_SETHOTITEM message</source>
+<seg-source> <mrk mid="0" mtype="seg">    $HICF_OTHER - The change in the hot item resulted from an event that could not be determined.</mrk> <mrk mid="1" mtype="seg">This will most often be due to a change in focus or the $TB_SETHOTITEM message</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $HICF_OTHER - The change in the hot item resulted from an event that could not be determined.</mrk> <mrk mid="1" mtype="seg">This will most often be due to a change in focus or the $TB_SETHOTITEM message</mrk></target>
+<note>dwFlags</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $HICF_RESELECT - The change in the hot item resulted from the user entering the shortcut key for an item that was already hot</source>
+<seg-source> <mrk mid="0" mtype="seg">    $HICF_RESELECT - The change in the hot item resulted from the user entering the shortcut key for an item that was already hot</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $HICF_RESELECT - The change in the hot item resulted from the user entering the shortcut key for an item that was already hot</mrk></target>
+<note>dwFlags</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $HICF_TOGGLEDROPDOWN - Version 5.80. Causes the button to switch states</source>
+<seg-source> <mrk mid="0" mtype="seg">    $HICF_TOGGLEDROPDOWN - Version 5.80.</mrk> <mrk mid="1" mtype="seg">Causes the button to switch states</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $HICF_TOGGLEDROPDOWN - Version 5.80.</mrk> <mrk mid="1" mtype="seg">Causes the button to switch states</mrk></target>
+<note>dwFlags</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Needs alignment for x64</source>
+<seg-source><mrk mid="0" mtype="seg">Needs alignment for x64</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Needs alignment for x64</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

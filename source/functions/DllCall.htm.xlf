@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/DllCall.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Dynamically calls a function in a DLL.</source>
+<seg-source><mrk mid="0" mtype="seg">Dynamically calls a function in a DLL.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dynamically calls a function in a DLL.</mrk></target>
+<note>Function DllCall</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The filename of the DLL to use. e.g. "user32.dll". A handle obtained from DllOpen can also be used (See Remarks).</source>
+<seg-source><mrk mid="0" mtype="seg">The filename of the DLL to use.</mrk> <mrk mid="1" mtype="seg">e.g.</mrk> <mrk mid="2" mtype="seg">"user32.dll".</mrk> <mrk mid="3" mtype="seg">A handle obtained from DllOpen can also be used (See Remarks).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The filename of the DLL to use.</mrk> <mrk mid="1" mtype="seg">e.g.</mrk> <mrk mid="2" mtype="seg">"user32.dll".</mrk> <mrk mid="3" mtype="seg">A handle obtained from DllOpen can also be used (See Remarks).</mrk></target>
+<note>dll</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The return type of the function (see below).</source>
+<seg-source><mrk mid="0" mtype="seg">The return type of the function (see below).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The return type of the function (see below).</mrk></target>
+<note>return type</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The name, eg. "MessageBox" or the ordinal value, e.g. 62, of the function in the DLL to call.</source>
+<seg-source><mrk mid="0" mtype="seg">The name, eg.</mrk> <mrk mid="1" mtype="seg">"MessageBox" or the ordinal value, e.g.</mrk> <mrk mid="2" mtype="seg">62, of the function in the DLL to call.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name, eg.</mrk> <mrk mid="1" mtype="seg">"MessageBox" or the ordinal value, e.g.</mrk> <mrk mid="2" mtype="seg">62, of the function in the DLL to call.</mrk></target>
+<note>function</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The type of the parameter (see remarks).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The type of the parameter (see remarks).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The type of the parameter (see remarks).</mrk></target>
+<note>type1</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The actual parameter (see remarks).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The actual parameter (see remarks).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The actual parameter (see remarks).</mrk></target>
+<note>param1</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The type of the nth parameter (see remarks).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The type of the nth parameter (see remarks).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The type of the nth parameter (see remarks).</mrk></target>
+<note>type n</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The actual nth parameter (see remarks).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The actual nth parameter (see remarks).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The actual nth parameter (see remarks).</mrk></target>
+<note>param n</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> Valid Types are:</source>
+<seg-source> <mrk mid="0" mtype="seg">Valid Types are:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Valid Types are:</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Details<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Details<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Details<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">no value (only valid for return type - equivalent to void in C)</source>
+<seg-source><mrk mid="0" mtype="seg">no value (only valid for return type - equivalent to void in C)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">no value (only valid for return type - equivalent to void in C)</mrk></target>
+<note>NONE</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">an unsigned 8 bit integer</source>
+<seg-source><mrk mid="0" mtype="seg">an unsigned 8 bit integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an unsigned 8 bit integer</mrk></target>
+<note>BYTE</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">an unsigned 8 bit integer</source>
+<seg-source><mrk mid="0" mtype="seg">an unsigned 8 bit integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an unsigned 8 bit integer</mrk></target>
+<note>BOOLEAN</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">a 16 bit integer</source>
+<seg-source><mrk mid="0" mtype="seg">a 16 bit integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a 16 bit integer</mrk></target>
+<note>SHORT</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">an unsigned 16 bit integer</source>
+<seg-source><mrk mid="0" mtype="seg">an unsigned 16 bit integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an unsigned 16 bit integer</mrk></target>
+<note>USHORT</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">an unsigned 16 bit integer</source>
+<seg-source><mrk mid="0" mtype="seg">an unsigned 16 bit integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an unsigned 16 bit integer</mrk></target>
+<note>WORD</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">a 32 bit integer</source>
+<seg-source><mrk mid="0" mtype="seg">a 32 bit integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a 32 bit integer</mrk></target>
+<note>INT</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">a 32 bit integer</source>
+<seg-source><mrk mid="0" mtype="seg">a 32 bit integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a 32 bit integer</mrk></target>
+<note>LONG</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">a 32 bit integer</source>
+<seg-source><mrk mid="0" mtype="seg">a 32 bit integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a 32 bit integer</mrk></target>
+<note>BOOL</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">an unsigned 32 bit integer</source>
+<seg-source><mrk mid="0" mtype="seg">an unsigned 32 bit integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an unsigned 32 bit integer</mrk></target>
+<note>UINT</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">an unsigned 32 bit integer</source>
+<seg-source><mrk mid="0" mtype="seg">an unsigned 32 bit integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an unsigned 32 bit integer</mrk></target>
+<note>ULONG</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">an unsigned 32 bit integer</source>
+<seg-source><mrk mid="0" mtype="seg">an unsigned 32 bit integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an unsigned 32 bit integer</mrk></target>
+<note>DWORD</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">a 64 bit integer</source>
+<seg-source><mrk mid="0" mtype="seg">a 64 bit integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a 64 bit integer</mrk></target>
+<note>INT64</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">an unsigned 64 bit integer</source>
+<seg-source><mrk mid="0" mtype="seg">an unsigned 64 bit integer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an unsigned 64 bit integer</mrk></target>
+<note>UINT64</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">a general pointer (void *)</source>
+<seg-source><mrk mid="0" mtype="seg">a general pointer (void *)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a general pointer (void *)</mrk></target>
+<note>PTR</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">a window handle (pointer)</source>
+<seg-source><mrk mid="0" mtype="seg">a window handle (pointer)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a window handle (pointer)</mrk></target>
+<note>HWND</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">an handle (pointer)</source>
+<seg-source><mrk mid="0" mtype="seg">an handle (pointer)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an handle (pointer)</mrk></target>
+<note>HANDLE</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">a single precision floating point number</source>
+<seg-source><mrk mid="0" mtype="seg">a single precision floating point number</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a single precision floating point number</mrk></target>
+<note>FLOAT</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">a double precision floating point number</source>
+<seg-source><mrk mid="0" mtype="seg">a double precision floating point number</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a double precision floating point number</mrk></target>
+<note>DOUBLE</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">an integer big enough to hold a pointer when running on x86 or x64 versions of AutoIt.</source>
+<seg-source><mrk mid="0" mtype="seg">an integer big enough to hold a pointer when running on x86 or x64 versions of AutoIt.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an integer big enough to hold a pointer when running on x86 or x64 versions of AutoIt.</mrk></target>
+<note>INT_PTR, LONG_PTR, LRESULT, LPARAM</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">an unsigned integer big enough to hold a pointer when running on x86 or x64 versions of AutoIt.</source>
+<seg-source><mrk mid="0" mtype="seg">an unsigned integer big enough to hold a pointer when running on x86 or x64 versions of AutoIt.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an unsigned integer big enough to hold a pointer when running on x86 or x64 versions of AutoIt.</mrk></target>
+<note>UINT_PTR, ULONG_PTR, DWORD_PTR, WPARAM</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">an ANSI string (a minimum of 65536 chars is allocated).</source>
+<seg-source><mrk mid="0" mtype="seg">an ANSI string (a minimum of 65536 chars is allocated).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an ANSI string (a minimum of 65536 chars is allocated).</mrk></target>
+<note>STR</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">a UNICODE wide character string (a minimum of 65536 chars is allocated).</source>
+<seg-source><mrk mid="0" mtype="seg">a UNICODE wide character string (a minimum of 65536 chars is allocated).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a UNICODE wide character string (a minimum of 65536 chars is allocated).</mrk></target>
+<note>WSTR</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">structure created with DllStructCreate()</source>
+<seg-source><mrk mid="0" mtype="seg">structure created with DllStructCreate()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">structure created with DllStructCreate()</mrk></target>
+<note>STRUCT</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Add * to the end of another type to pass it by reference. For example "int*" passes a pointer to an "int" type.</source>
+<seg-source><mrk mid="0" mtype="seg">Add * to the end of another type to pass it by reference.</mrk> <mrk mid="1" mtype="seg">For example "int*" passes a pointer to an "int" type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Add * to the end of another type to pass it by reference.</mrk> <mrk mid="1" mtype="seg">For example "int*" passes a pointer to an "int" type.</mrk></target>
+<note>*</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en"> Conversions from Windows API types to AutoIt types:</source>
+<seg-source> <mrk mid="0" mtype="seg">Conversions from Windows API types to AutoIt types:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Conversions from Windows API types to AutoIt types:</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>AutoIt Type<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>AutoIt Type<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>AutoIt Type<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">STR</source>
+<seg-source><mrk mid="0" mtype="seg">STR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">STR</mrk></target>
+<note>LPCSTR/LPSTR</note>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">WSTR</source>
+<seg-source><mrk mid="0" mtype="seg">WSTR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WSTR</mrk></target>
+<note>LPCWSTR/LPWSTR</note>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">PTR</source>
+<seg-source><mrk mid="0" mtype="seg">PTR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">PTR</mrk></target>
+<note>LPVOID</note>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en"><bpt id="1" ctype="x-em">&lt;em></bpt>xyz<ept id="1">&lt;/em></ept>*</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-em">&lt;em></bpt>xyz<ept id="1">&lt;/em></ept>*</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-em">&lt;em></bpt>xyz<ept id="1">&lt;/em></ept>*</mrk></target>
+<note>LP</note>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">HANDLE</source>
+<seg-source><mrk mid="0" mtype="seg">HANDLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HANDLE</mrk></target>
+<note>HINSTANCE</note>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">LONG</source>
+<seg-source><mrk mid="0" mtype="seg">LONG</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">LONG</mrk></target>
+<note>HRESULT</note>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">INT64</source>
+<seg-source><mrk mid="0" mtype="seg">INT64</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">INT64</mrk></target>
+<note>LONGLONG/LARGE_INTEGER</note>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">UINT64</source>
+<seg-source><mrk mid="0" mtype="seg">UINT64</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UINT64</mrk></target>
+<note>ULONGLONG/ULARGE_INTEGER</note>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">ULONG_PTR</source>
+<seg-source><mrk mid="0" mtype="seg">ULONG_PTR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ULONG_PTR</mrk></target>
+<note>SIZE_T</note>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">To use nested structures inside a structure you must re-define the nested structure. For example, a structure containing 2 POINT structures ("long;long") would be declared as "long;long;long;long". The first two long values correspond to the first POINT structure and the second two values correspond to the second POINT structure.</source>
+<seg-source><mrk mid="0" mtype="seg">To use nested structures inside a structure you must re-define the nested structure.</mrk> <mrk mid="1" mtype="seg">For example, a structure containing 2 POINT structures ("long;long") would be declared as "long;long;long;long".</mrk> <mrk mid="2" mtype="seg">The first two long values correspond to the first POINT structure and the second two values correspond to the second POINT structure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To use nested structures inside a structure you must re-define the nested structure.</mrk> <mrk mid="1" mtype="seg">For example, a structure containing 2 POINT structures ("long;long") would be declared as "long;long;long;long".</mrk> <mrk mid="2" mtype="seg">The first two long values correspond to the first POINT structure and the second two values correspond to the second POINT structure.</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en"> For more Windows API types see <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/aa383751.aspx"></bpt>MSDN<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">For more Windows API types see <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/aa383751.aspx"></bpt>MSDN<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For more Windows API types see <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/en-us/library/aa383751.aspx"></bpt>MSDN<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">an array. See remarks.</source>
+<seg-source><mrk mid="0" mtype="seg">an array.</mrk> <mrk mid="1" mtype="seg">See remarks.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an array.</mrk> <mrk mid="1" mtype="seg">See remarks.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">1 = unable to use the DLL file,</source>
+<seg-source><mrk mid="0" mtype="seg">1 = unable to use the DLL file,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 = unable to use the DLL file,</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en"> 2 = unknown "return type",</source>
+<seg-source> <mrk mid="0" mtype="seg">2 = unknown "return type",</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 = unknown "return type",</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en"> 3 = "function" not found in the DLL file,</source>
+<seg-source> <mrk mid="0" mtype="seg">3 = "function" not found in the DLL file,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 = "function" not found in the DLL file,</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en"> 4 = bad number of parameters,</source>
+<seg-source> <mrk mid="0" mtype="seg">4 = bad number of parameters,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 = bad number of parameters,</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en"> 5 = bad parameter.</source>
+<seg-source> <mrk mid="0" mtype="seg">5 = bad parameter.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">5 = bad parameter.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">If a dll filename is given then the DLL is automatically loaded and then closed at the end of the call. If you want to manually control the loading and unloading of the DLL then you should use <bpt id="1" ctype="x-a">&lt;a href="DllOpen.htm"></bpt>DllOpen()<ept id="1">&lt;/a></ept> and <bpt id="2" ctype="x-a">&lt;a href="DllClose.htm"></bpt>DllClose()<ept id="2">&lt;/a></ept> and use a handle instead of a filename in this function.</source>
+<seg-source><mrk mid="0" mtype="seg">If a dll filename is given then the DLL is automatically loaded and then closed at the end of the call.</mrk> <mrk mid="1" mtype="seg">If you want to manually control the loading and unloading of the DLL then you should use <bpt id="1" ctype="x-a">&lt;a href="DllOpen.htm"></bpt>DllOpen()<ept id="1">&lt;/a></ept> and <bpt id="2" ctype="x-a">&lt;a href="DllClose.htm"></bpt>DllClose()<ept id="2">&lt;/a></ept> and use a handle instead of a filename in this function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a dll filename is given then the DLL is automatically loaded and then closed at the end of the call.</mrk> <mrk mid="1" mtype="seg">If you want to manually control the loading and unloading of the DLL then you should use <bpt id="1" ctype="x-a">&lt;a href="DllOpen.htm"></bpt>DllOpen()<ept id="1">&lt;/a></ept> and <bpt id="2" ctype="x-a">&lt;a href="DllClose.htm"></bpt>DllClose()<ept id="2">&lt;/a></ept> and use a handle instead of a filename in this function.</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en"> By default, AutoIt uses the 'stdcall' calling method. To use the 'cdecl' method place ':cdecl' after the return type.</source>
+<seg-source> <mrk mid="0" mtype="seg">By default, AutoIt uses the 'stdcall' calling method.</mrk> <mrk mid="1" mtype="seg">To use the 'cdecl' method place ':cdecl' after the return type.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">By default, AutoIt uses the 'stdcall' calling method.</mrk> <mrk mid="1" mtype="seg">To use the 'cdecl' method place ':cdecl' after the return type.</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="DllCall.htm"></bpt>DllCall<ept id="1">&lt;/a></ept>("SQLite.dll", "int:cdecl", "sqlite3_open", "str", $sDatabase_Filename , "long*", 0).</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="DllCall.htm"></bpt>DllCall<ept id="1">&lt;/a></ept>("SQLite.dll", "int:cdecl", "sqlite3_open", "str", $sDatabase_Filename , "long*", 0).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="DllCall.htm"></bpt>DllCall<ept id="1">&lt;/a></ept>("SQLite.dll", "int:cdecl", "sqlite3_open", "str", $sDatabase_Filename , "long*", 0).</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en"> By default, AutoIt tries to use the ANSI version of a function name, i.e. MessageBoxA is attempted when MessageBox is given as the function name. To call the unicode version use MessageBoxW.</source>
+<seg-source> <mrk mid="0" mtype="seg">By default, AutoIt tries to use the ANSI version of a function name, i.e.</mrk> <mrk mid="1" mtype="seg">MessageBoxA is attempted when MessageBox is given as the function name.</mrk> <mrk mid="2" mtype="seg">To call the unicode version use MessageBoxW.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">By default, AutoIt tries to use the ANSI version of a function name, i.e.</mrk> <mrk mid="1" mtype="seg">MessageBoxA is attempted when MessageBox is given as the function name.</mrk> <mrk mid="2" mtype="seg">To call the unicode version use MessageBoxW.</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en"> If the function call fails then @error is set to non-zero.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the function call fails then @error is set to non-zero.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the function call fails then @error is set to non-zero.</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en"> Otherwise an array is returned that contains the function return value and a copy of all the parameters (including parameters that the function may have modified when passed by reference).</source>
+<seg-source> <mrk mid="0" mtype="seg">Otherwise an array is returned that contains the function return value and a copy of all the parameters (including parameters that the function may have modified when passed by reference).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Otherwise an array is returned that contains the function return value and a copy of all the parameters (including parameters that the function may have modified when passed by reference).</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en"> $return[0] = function return value</source>
+<seg-source> <mrk mid="0" mtype="seg">$return[0] = function return value</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$return[0] = function return value</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en"> $return[1] = param1</source>
+<seg-source> <mrk mid="0" mtype="seg">$return[1] = param1</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$return[1] = param1</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en"> $return[2] = param2</source>
+<seg-source> <mrk mid="0" mtype="seg">$return[2] = param2</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$return[2] = param2</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en"> ...</source>
+<seg-source> <mrk mid="0" mtype="seg">...</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">...</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en"> $return[n] = paramn</source>
+<seg-source> <mrk mid="0" mtype="seg">$return[n] = paramn</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$return[n] = paramn</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">Calling the MessageBox API directly.</source>
+<seg-source><mrk mid="0" mtype="seg">Calling the MessageBox API directly.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Calling the MessageBox API directly.</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">user32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">user32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">MessageBox</source>
+<seg-source><mrk mid="0" mtype="seg">MessageBox</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MessageBox</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">Handle to the parent window</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the parent window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the parent window</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">str</source>
+<seg-source><mrk mid="0" mtype="seg">str</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">str</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">Some text</source>
+<seg-source><mrk mid="0" mtype="seg">Some text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Some text</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">The text of the message box</source>
+<seg-source><mrk mid="0" mtype="seg">The text of the message box</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The text of the message box</mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">str</source>
+<seg-source><mrk mid="0" mtype="seg">str</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">str</mrk></target>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">Some title</source>
+<seg-source><mrk mid="0" mtype="seg">Some title</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Some title</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">The title of the message box</source>
+<seg-source><mrk mid="0" mtype="seg">The title of the message box</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The title of the message box</mrk></target>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">Flags for the message box.</source>
+<seg-source><mrk mid="0" mtype="seg">Flags for the message box.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Flags for the message box.</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en">Calling a function that modifies parameters,</source>
+<seg-source><mrk mid="0" mtype="seg">Calling a function that modifies parameters,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Calling a function that modifies parameters,</mrk></target>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">notepad</source>
+<seg-source><mrk mid="0" mtype="seg">notepad</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">notepad</mrk></target>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en">[CLASS:Notepad]</source>
+<seg-source><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></target>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en">Timeout occured.</source>
+<seg-source><mrk mid="0" mtype="seg">Timeout occured.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Timeout occured.</mrk></target>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en">Unable to start notepad!</source>
+<seg-source><mrk mid="0" mtype="seg">Unable to start notepad!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unable to start notepad!</mrk></target>
+</trans-unit>
+<trans-unit id="94">
+<source xml:lang="en">user32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">user32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="95">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="96">
+<source xml:lang="en">GetWindowText</source>
+<seg-source><mrk mid="0" mtype="seg">GetWindowText</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GetWindowText</mrk></target>
+</trans-unit>
+<trans-unit id="97">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="98">
+<source xml:lang="en">str</source>
+<seg-source><mrk mid="0" mtype="seg">str</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">str</mrk></target>
+</trans-unit>
+<trans-unit id="99">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="100">
+<source xml:lang="en">Number of characters returned:</source>
+<seg-source><mrk mid="0" mtype="seg">Number of characters returned:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Number of characters returned:</mrk></target>
+</trans-unit>
+<trans-unit id="101">
+<source xml:lang="en">Text (returned in parameter 2): '</source>
+<seg-source><mrk mid="0" mtype="seg">Text (returned in parameter 2):</mrk> <mrk mid="1" mtype="seg">'</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text (returned in parameter 2):</mrk> <mrk mid="1" mtype="seg">'</mrk></target>
+</trans-unit>
+<trans-unit id="102">
+<source xml:lang="en">Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="103">
+<source xml:lang="en">Show the Windows PickIconDlg.</source>
+<seg-source><mrk mid="0" mtype="seg">Show the Windows PickIconDlg.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show the Windows PickIconDlg.</mrk></target>
+</trans-unit>
+<trans-unit id="104">
+<source xml:lang="en">\shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">\shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="105">
+<source xml:lang="en">Create a structure to store the icon index</source>
+<seg-source><mrk mid="0" mtype="seg">Create a structure to store the icon index</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a structure to store the icon index</mrk></target>
+</trans-unit>
+<trans-unit id="106">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="107">
+<source xml:lang="en">wchar[260]</source>
+<seg-source><mrk mid="0" mtype="seg">wchar[260]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">wchar[260]</mrk></target>
+</trans-unit>
+<trans-unit id="108">
+<source xml:lang="en">Run the PickIconDlg - '62' is the ordinal value for this function</source>
+<seg-source><mrk mid="0" mtype="seg">Run the PickIconDlg - '62' is the ordinal value for this function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Run the PickIconDlg - '62' is the ordinal value for this function</mrk></target>
+</trans-unit>
+<trans-unit id="109">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="110">
+<source xml:lang="en">none</source>
+<seg-source><mrk mid="0" mtype="seg">none</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">none</mrk></target>
+</trans-unit>
+<trans-unit id="111">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="112">
+<source xml:lang="en">struct*</source>
+<seg-source><mrk mid="0" mtype="seg">struct*</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">struct*</mrk></target>
+</trans-unit>
+<trans-unit id="113">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="114">
+<source xml:lang="en">struct*</source>
+<seg-source><mrk mid="0" mtype="seg">struct*</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">struct*</mrk></target>
+</trans-unit>
+<trans-unit id="115">
+<source xml:lang="en">Show the new filename and icon index</source>
+<seg-source><mrk mid="0" mtype="seg">Show the new filename and icon index</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show the new filename and icon index</mrk></target>
+</trans-unit>
+<trans-unit id="116">
+<source xml:lang="en">Info</source>
+<seg-source><mrk mid="0" mtype="seg">Info</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Info</mrk></target>
+</trans-unit>
+<trans-unit id="117">
+<source xml:lang="en">Last selected file:</source>
+<seg-source><mrk mid="0" mtype="seg">Last selected file:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Last selected file:</mrk></target>
+</trans-unit>
+<trans-unit id="118">
+<source xml:lang="en">Icon-Index:</source>
+<seg-source><mrk mid="0" mtype="seg">Icon-Index:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Icon-Index:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

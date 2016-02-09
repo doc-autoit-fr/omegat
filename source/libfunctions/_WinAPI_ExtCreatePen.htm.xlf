@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_ExtCreatePen.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a logical cosmetic or geometric pen that has the specified style, width, and brush attributes</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a logical cosmetic or geometric pen that has the specified style, width, and brush attributes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a logical cosmetic or geometric pen that has the specified style, width, and brush attributes</mrk></target>
+<note>Function _WinAPI_ExtCreatePen</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">A combination of type, style, end cap, and join attributes.</source>
+<seg-source><mrk mid="0" mtype="seg">A combination of type, style, end cap, and join attributes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A combination of type, style, end cap, and join attributes.</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> The values from each category are combined by using the bitwise operation.</source>
+<seg-source> <mrk mid="0" mtype="seg">The values from each category are combined by using the bitwise operation.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The values from each category are combined by using the bitwise operation.</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> The pen type can be one of the following values.</source>
+<seg-source> <mrk mid="0" mtype="seg">The pen type can be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The pen type can be one of the following values.</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $PS_GEOMETRIC</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PS_GEOMETRIC</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PS_GEOMETRIC</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $PS_COSMETIC</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PS_COSMETIC</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PS_COSMETIC</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> The pen style can be one of the following values.</source>
+<seg-source> <mrk mid="0" mtype="seg">The pen style can be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The pen style can be one of the following values.</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $PS_SOLID</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PS_SOLID</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PS_SOLID</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $PS_DASH</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PS_DASH</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PS_DASH</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $PS_DOT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PS_DOT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PS_DOT</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $PS_DASHDOT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PS_DASHDOT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PS_DASHDOT</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $PS_DASHDOTDOT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PS_DASHDOTDOT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PS_DASHDOTDOT</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $PS_NULL</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PS_NULL</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PS_NULL</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $PS_INSIDEFRAME</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PS_INSIDEFRAME</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PS_INSIDEFRAME</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $PS_USERSTYLE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PS_USERSTYLE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PS_USERSTYLE</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $PS_ALTERNATE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PS_ALTERNATE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PS_ALTERNATE</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> The end cap is only specified for geometric pens and can be one of the following values.</source>
+<seg-source> <mrk mid="0" mtype="seg">The end cap is only specified for geometric pens and can be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The end cap is only specified for geometric pens and can be one of the following values.</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $PS_ENDCAP_ROUND</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PS_ENDCAP_ROUND</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PS_ENDCAP_ROUND</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     $PS_ENDCAP_SQUARE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PS_ENDCAP_SQUARE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PS_ENDCAP_SQUARE</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     $PS_ENDCAP_FLAT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PS_ENDCAP_FLAT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PS_ENDCAP_FLAT</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> The join is only specified for geometric pens and can be one of the following values.</source>
+<seg-source> <mrk mid="0" mtype="seg">The join is only specified for geometric pens and can be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The join is only specified for geometric pens and can be one of the following values.</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">     $PS_JOIN_BEVEL</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PS_JOIN_BEVEL</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PS_JOIN_BEVEL</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">     $PS_JOIN_MITER</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PS_JOIN_MITER</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PS_JOIN_MITER</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">     $PS_JOIN_ROUND</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PS_JOIN_ROUND</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PS_JOIN_ROUND</mrk></target>
+<note>$iPenStyle</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">The width of the pen.</source>
+<seg-source><mrk mid="0" mtype="seg">The width of the pen.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The width of the pen.</mrk></target>
+<note>$iWidth</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> If $PS_GEOMETRIC type is specified, the width is given in logical units, otherwise, the width must be set to 1.</source>
+<seg-source> <mrk mid="0" mtype="seg">If $PS_GEOMETRIC type is specified, the width is given in logical units, otherwise, the width must be set to 1.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If $PS_GEOMETRIC type is specified, the width is given in logical units, otherwise, the width must be set to 1.</mrk></target>
+<note>$iWidth</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">A brush style. This parameter can be one of the $BS_* constants.</source>
+<seg-source><mrk mid="0" mtype="seg">A brush style.</mrk> <mrk mid="1" mtype="seg">This parameter can be one of the $BS_* constants.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A brush style.</mrk> <mrk mid="1" mtype="seg">This parameter can be one of the $BS_* constants.</mrk></target>
+<note>$iBrushStyle</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">The color of a pen, in RGB.</source>
+<seg-source><mrk mid="0" mtype="seg">The color of a pen, in RGB.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The color of a pen, in RGB.</mrk></target>
+<note>$iRGB</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> A hatch style. For more information, see <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateBrushIndirect.htm"></bpt>_WinAPI_CreateBrushIndirect()<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A hatch style.</mrk> <mrk mid="2" mtype="seg">For more information, see <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateBrushIndirect.htm"></bpt>_WinAPI_CreateBrushIndirect()<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A hatch style.</mrk> <mrk mid="2" mtype="seg">For more information, see <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateBrushIndirect.htm"></bpt>_WinAPI_CreateBrushIndirect()<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>$iHatch</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The array (dash1, space1, dash2, space2, ... dashN, spaceN) that contains the length of the dashes and spaces in a user-defined style. The first value specifies the length of the first dash, the second value specifies the length of the first space, and so on.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The array (dash1, space1, dash2, space2, ... dashN, spaceN) that contains the length of the dashes and spaces in a user-defined style.</mrk> <mrk mid="2" mtype="seg">The first value specifies the length of the first dash, the second value specifies the length of the first space, and so on.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The array (dash1, space1, dash2, space2, ... dashN, spaceN) that contains the length of the dashes and spaces in a user-defined style.</mrk> <mrk mid="2" mtype="seg">The first value specifies the length of the first dash, the second value specifies the length of the first space, and so on.</mrk></target>
+<note>$aUserStyle</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en"> This parameter is ignored if $PS_USERSTYLE style is not specified. The style count is limited to 16.</source>
+<seg-source> <mrk mid="0" mtype="seg">This parameter is ignored if $PS_USERSTYLE style is not specified.</mrk> <mrk mid="1" mtype="seg">The style count is limited to 16.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This parameter is ignored if $PS_USERSTYLE style is not specified.</mrk> <mrk mid="1" mtype="seg">The style count is limited to 16.</mrk></target>
+<note>$aUserStyle</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The index of array to start filling at.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array to start filling at.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array to start filling at.</mrk></target>
+<note>$iStart</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The index of array to stop filling at.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array to stop filling at.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index of array to stop filling at.</mrk></target>
+<note>$iEnd</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Handle to the logical pen.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the logical pen.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the logical pen.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">After an application creates a pen by calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ExtCreatePen.htm"></bpt>_WinAPI_ExtCreatePen()<ept id="1">&lt;/a></ept>, it can select it into any device context by calling the <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_SelectObject.htm"></bpt>_WinAPI_SelectObject()<ept id="2">&lt;/a></ept> function.</source>
+<seg-source><mrk mid="0" mtype="seg">After an application creates a pen by calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ExtCreatePen.htm"></bpt>_WinAPI_ExtCreatePen()<ept id="1">&lt;/a></ept>, it can select it into any device context by calling the <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_SelectObject.htm"></bpt>_WinAPI_SelectObject()<ept id="2">&lt;/a></ept> function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">After an application creates a pen by calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_ExtCreatePen.htm"></bpt>_WinAPI_ExtCreatePen()<ept id="1">&lt;/a></ept>, it can select it into any device context by calling the <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_SelectObject.htm"></bpt>_WinAPI_SelectObject()<ept id="2">&lt;/a></ept> function.</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en"> When an application no longer requires a specified pen, it should call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteObject.htm"></bpt>_WinAPI_DeleteObject()<ept id="1">&lt;/a></ept> function to delete the pen.</source>
+<seg-source> <mrk mid="0" mtype="seg">When an application no longer requires a specified pen, it should call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteObject.htm"></bpt>_WinAPI_DeleteObject()<ept id="1">&lt;/a></ept> function to delete the pen.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When an application no longer requires a specified pen, it should call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteObject.htm"></bpt>_WinAPI_DeleteObject()<ept id="1">&lt;/a></ept> function to delete the pen.</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ExtCreatePen);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ExtCreatePen<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ExtCreatePen);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ExtCreatePen<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ExtCreatePen);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ExtCreatePen<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Create bitmap</source>
+<seg-source><mrk mid="0" mtype="seg">Create bitmap</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create bitmap</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Draw a lines with a variety of type, style, end cap, and join attributes</source>
+<seg-source><mrk mid="0" mtype="seg">Draw a lines with a variety of type, style, end cap, and join attributes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draw a lines with a variety of type, style, end cap, and join attributes</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">\Extras\Pen.bmp</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\Pen.bmp</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\Pen.bmp</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Release objects</source>
+<seg-source><mrk mid="0" mtype="seg">Release objects</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Release objects</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Set bitmap to control</source>
+<seg-source><mrk mid="0" mtype="seg">Set bitmap to control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set bitmap to control</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_Date_Time_SystemTimeToTzSpecificLocalTime.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Converts a UTC time to a specified time zone's corresponding local time</source>
+<seg-source><mrk mid="0" mtype="seg">Converts a UTC time to a specified time zone's corresponding local time</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Converts a UTC time to a specified time zone's corresponding local time</mrk></target>
+<note>Function _Date_Time_SystemTimeToTzSpecificLocalTime</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">a $tagSYSTEMTIME structure that specifies a time in UTC or a pointer to it. The function converts this time to the specified time zone's local time.</source>
+<seg-source><mrk mid="0" mtype="seg">a $tagSYSTEMTIME structure that specifies a time in UTC or a pointer to it.</mrk> <mrk mid="1" mtype="seg">The function converts this time to the specified time zone's local time.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a $tagSYSTEMTIME structure that specifies a time in UTC or a pointer to it.</mrk> <mrk mid="1" mtype="seg">The function converts this time to the specified time zone's local time.</mrk></target>
+<note>$tUTC</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> a $tagTIME_ZONE_INFORMATION structure that specifies the time zone of interest or a pointer to it.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">a $tagTIME_ZONE_INFORMATION structure that specifies the time zone of interest or a pointer to it.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">a $tagTIME_ZONE_INFORMATION structure that specifies the time zone of interest or a pointer to it.</mrk></target>
+<note>$tTimeZone</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> If 0, the function uses the currently active time zone.</source>
+<seg-source> <mrk mid="0" mtype="seg">If 0, the function uses the currently active time zone.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If 0, the function uses the currently active time zone.</mrk></target>
+<note>$tTimeZone</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Returns a $tagSYSTEMTIME structure containing the local time.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns a $tagSYSTEMTIME structure containing the local time.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns a $tagSYSTEMTIME structure containing the local time.</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="$tagSYSTEMTIME.htm"></bpt>$tagSYSTEMTIME<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="$tagTIME_ZONE_INFORMATION.htm"></bpt>$tagTIME_ZONE_INFORMATION<ept id="2">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagSYSTEMTIME.htm"></bpt>$tagSYSTEMTIME<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="$tagTIME_ZONE_INFORMATION.htm"></bpt>$tagTIME_ZONE_INFORMATION<ept id="2">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagSYSTEMTIME.htm"></bpt>$tagSYSTEMTIME<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="$tagTIME_ZONE_INFORMATION.htm"></bpt>$tagTIME_ZONE_INFORMATION<ept id="2">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Time</source>
+<seg-source><mrk mid="0" mtype="seg">Time</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Time</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Convert system time to local time</source>
+<seg-source><mrk mid="0" mtype="seg">Convert system time to local time</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Convert system time to local time</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">System time to local time .:</source>
+<seg-source><mrk mid="0" mtype="seg">System time to local time .:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">System time to local time .:</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Local time to system time .:</source>
+<seg-source><mrk mid="0" mtype="seg">Local time to system time .:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Local time to system time .:</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Write a line to the memo control</source>
+<seg-source><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

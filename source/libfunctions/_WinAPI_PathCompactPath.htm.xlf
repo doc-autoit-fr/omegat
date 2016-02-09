@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_PathCompactPath.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Truncates a file path to fit within a given pixel width by replacing path components with ellipses</source>
+<seg-source><mrk mid="0" mtype="seg">Truncates a file path to fit within a given pixel width by replacing path components with ellipses</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Truncates a file path to fit within a given pixel width by replacing path components with ellipses</mrk></target>
+<note>Function _WinAPI_PathCompactPath</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the window used for font metrics.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the window used for font metrics.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the window used for font metrics.</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The path to be modified.</source>
+<seg-source><mrk mid="0" mtype="seg">The path to be modified.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The path to be modified.</mrk></target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The width, in pixels, in which the string must fit. If this parameter is 0 (Default), width will be equal to</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The width, in pixels, in which the string must fit.</mrk> <mrk mid="2" mtype="seg">If this parameter is 0 (Default), width will be equal to</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The width, in pixels, in which the string must fit.</mrk> <mrk mid="2" mtype="seg">If this parameter is 0 (Default), width will be equal to</mrk></target>
+<note>$iWidth</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> the width of the window's client area. If this parameter is a negative number, the width will be</source>
+<seg-source> <mrk mid="0" mtype="seg">the width of the window's client area.</mrk> <mrk mid="1" mtype="seg">If this parameter is a negative number, the width will be</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">the width of the window's client area.</mrk> <mrk mid="1" mtype="seg">If this parameter is a negative number, the width will be</mrk></target>
+<note>$iWidth</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> decreased to its absolute value.</source>
+<seg-source> <mrk mid="0" mtype="seg">decreased to its absolute value.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">decreased to its absolute value.</mrk></target>
+<note>$iWidth</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">The modified path.</source>
+<seg-source><mrk mid="0" mtype="seg">The modified path.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The modified path.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">The original $sFilePath parameter and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">The original $sFilePath parameter and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The original $sFilePath parameter and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">This function will not compact the path beyond the base file name preceded by ellipses.</source>
+<seg-source><mrk mid="0" mtype="seg">This function will not compact the path beyond the base file name preceded by ellipses.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function will not compact the path beyond the base file name preceded by ellipses.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(PathCompactPath);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>PathCompactPath<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(PathCompactPath);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>PathCompactPath<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(PathCompactPath);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>PathCompactPath<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

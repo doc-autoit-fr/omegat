@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/HotKeySet.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets a hotkey that calls a user function.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets a hotkey that calls a user function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets a hotkey that calls a user function.</mrk></target>
+<note>Function HotKeySet</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The key combination to use as the hotkey. <bpt id="1" ctype="x-strong">&lt;strong></bpt>Same format as <bpt id="2" ctype="x-a">&lt;a href="Send.htm"></bpt>Send()<ept id="2">&lt;/a></ept>.<ept id="1">&lt;/strong></ept> See remarks.</source>
+<seg-source><mrk mid="0" mtype="seg">The key combination to use as the hotkey.</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Same format as <bpt id="2" ctype="x-a">&lt;a href="Send.htm"></bpt>Send()<ept id="2">&lt;/a></ept>.<ept id="1">&lt;/strong></ept></mrk> <mrk mid="2" mtype="seg">See remarks.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The key combination to use as the hotkey.</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Same format as <bpt id="2" ctype="x-a">&lt;a href="Send.htm"></bpt>Send()<ept id="2">&lt;/a></ept>.<ept id="1">&lt;/strong></ept></mrk> <mrk mid="2" mtype="seg">See remarks.</mrk></target>
+<note>key</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The name of the function to call when the key is pressed. Not specifying this parameter will unset a previous hotkey.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The name of the function to call when the key is pressed.</mrk> <mrk mid="2" mtype="seg">Not specifying this parameter will unset a previous hotkey.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The name of the function to call when the key is pressed.</mrk> <mrk mid="2" mtype="seg">Not specifying this parameter will unset a previous hotkey.</mrk></target>
+<note>function</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">It is recommended to use lower-case keys/characters (e.g. "b" and not "B") when setting hotkeys to avoid errors as with some keyboard layouts upper and lower case keys may be mapped differently.</source>
+<seg-source><mrk mid="0" mtype="seg">It is recommended to use lower-case keys/characters (e.g.</mrk> <mrk mid="1" mtype="seg">"b" and not "B") when setting hotkeys to avoid errors as with some keyboard layouts upper and lower case keys may be mapped differently.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It is recommended to use lower-case keys/characters (e.g.</mrk> <mrk mid="1" mtype="seg">"b" and not "B") when setting hotkeys to avoid errors as with some keyboard layouts upper and lower case keys may be mapped differently.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> Keyboard with 102 keys as the Hungarian keyboard need to use "{OEM_102}" to capture the "í" key.</source>
+<seg-source> <mrk mid="0" mtype="seg">Keyboard with 102 keys as the Hungarian keyboard need to use "{OEM_102}" to capture the "í" key.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Keyboard with 102 keys as the Hungarian keyboard need to use "{OEM_102}" to capture the "í" key.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> If two AutoIt scripts set the same hotkeys, you should avoid running those scripts simultaneously as the second script cannot capture the hotkey unless the first script terminates or unregisters the key prior to the second script setting the hotkey. If the scripts use GUIs, then consider using GUISetAccelerators as these keys are only active when the parent GUI is active.</source>
+<seg-source> <mrk mid="0" mtype="seg">If two AutoIt scripts set the same hotkeys, you should avoid running those scripts simultaneously as the second script cannot capture the hotkey unless the first script terminates or unregisters the key prior to the second script setting the hotkey.</mrk> <mrk mid="1" mtype="seg">If the scripts use GUIs, then consider using GUISetAccelerators as these keys are only active when the parent GUI is active.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If two AutoIt scripts set the same hotkeys, you should avoid running those scripts simultaneously as the second script cannot capture the hotkey unless the first script terminates or unregisters the key prior to the second script setting the hotkey.</mrk> <mrk mid="1" mtype="seg">If the scripts use GUIs, then consider using GUISetAccelerators as these keys are only active when the parent GUI is active.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> A hotkey-press *typically* interrupts the active AutoIt function/statement and runs its user function until it completes or is interrupted. Exceptions are as follows:</source>
+<seg-source> <mrk mid="0" mtype="seg">A hotkey-press *typically* interrupts the active AutoIt function/statement and runs its user function until it completes or is interrupted.</mrk> <mrk mid="1" mtype="seg">Exceptions are as follows:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">A hotkey-press *typically* interrupts the active AutoIt function/statement and runs its user function until it completes or is interrupted.</mrk> <mrk mid="1" mtype="seg">Exceptions are as follows:</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> 1) If the current function is a "blocking" function, then the key-presses are buffered and execute as soon as the blocking function completes. <bpt id="1" ctype="x-a">&lt;a href="MsgBox.htm"></bpt>MsgBox()<ept id="1">&lt;/a></ept> and <bpt id="2" ctype="x-a">&lt;a href="FileSelectFolder.htm"></bpt>FileSelectFolder()<ept id="2">&lt;/a></ept> are examples of blocking functions. Try the behavior of Shift-Alt-d in the Example.</source>
+<seg-source> <mrk mid="0" mtype="seg">1) If the current function is a "blocking" function, then the key-presses are buffered and execute as soon as the blocking function completes.</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="MsgBox.htm"></bpt>MsgBox()<ept id="1">&lt;/a></ept> and <bpt id="2" ctype="x-a">&lt;a href="FileSelectFolder.htm"></bpt>FileSelectFolder()<ept id="2">&lt;/a></ept> are examples of blocking functions.</mrk> <mrk mid="2" mtype="seg">Try the behavior of Shift-Alt-d in the Example.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1) If the current function is a "blocking" function, then the key-presses are buffered and execute as soon as the blocking function completes.</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="MsgBox.htm"></bpt>MsgBox()<ept id="1">&lt;/a></ept> and <bpt id="2" ctype="x-a">&lt;a href="FileSelectFolder.htm"></bpt>FileSelectFolder()<ept id="2">&lt;/a></ept> are examples of blocking functions.</mrk> <mrk mid="2" mtype="seg">Try the behavior of Shift-Alt-d in the Example.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> 2) If you have paused the script by clicking on the AutoIt Tray icon, any hotkeys pressed during this paused state are ignored.</source>
+<seg-source> <mrk mid="0" mtype="seg">2) If you have paused the script by clicking on the AutoIt Tray icon, any hotkeys pressed during this paused state are ignored.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2) If you have paused the script by clicking on the AutoIt Tray icon, any hotkeys pressed during this paused state are ignored.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>The following hotkeys cannot be set:<ept id="1">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>The following hotkeys cannot be set:<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>The following hotkeys cannot be set:<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">ASC nnnn</source>
+<seg-source><mrk mid="0" mtype="seg">ASC nnnn</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ASC nnnn</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Cannot be used as in Send().<ept id="1">&lt;/strong></ept> It will use "A" first char as Send() does when the "{...}" is invalid.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Cannot be used as in Send().<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">It will use "A" first char as Send() does when the "{...}" is invalid.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Cannot be used as in Send().<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">It will use "A" first char as Send() does when the "{...}" is invalid.</mrk></target>
+<note>ASC nnnn</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Ctrl+Alt+Delete</source>
+<seg-source><mrk mid="0" mtype="seg">Ctrl+Alt+Delete</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Ctrl+Alt+Delete</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">It is reserved by Windows</source>
+<seg-source><mrk mid="0" mtype="seg">It is reserved by Windows</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It is reserved by Windows</mrk></target>
+<note>Ctrl+Alt+Delete</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">F12</source>
+<seg-source><mrk mid="0" mtype="seg">F12</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">F12</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">It is also reserved by Windows, according to its API.</source>
+<seg-source><mrk mid="0" mtype="seg">It is also reserved by Windows, according to its API.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It is also reserved by Windows, according to its API.</mrk></target>
+<note>F12</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">NumPad's Enter Key</source>
+<seg-source><mrk mid="0" mtype="seg">NumPad's Enter Key</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">NumPad's Enter Key</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Instead, use {Enter} which captures both Enter keys on the keyboard.</source>
+<seg-source><mrk mid="0" mtype="seg">Instead, use {Enter} which captures both Enter keys on the keyboard.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Instead, use {Enter} which captures both Enter keys on the keyboard.</mrk></target>
+<note>NumPad's Enter Key</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Win+B,D,E,F,L,M,R,U; and Win+Shift+M</source>
+<seg-source><mrk mid="0" mtype="seg">Win+B,D,E,F,L,M,R,U; and Win+Shift+M</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Win+B,D,E,F,L,M,R,U; and Win+Shift+M</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">These are built-in Windows shortcuts. Note: Win+B and Win+L might only be reserved on Windows XP and above.</source>
+<seg-source><mrk mid="0" mtype="seg">These are built-in Windows shortcuts.</mrk> <mrk mid="1" mtype="seg">Note:</mrk> <mrk mid="2" mtype="seg">Win+B and Win+L might only be reserved on Windows XP and above.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">These are built-in Windows shortcuts.</mrk> <mrk mid="1" mtype="seg">Note:</mrk> <mrk mid="2" mtype="seg">Win+B and Win+L might only be reserved on Windows XP and above.</mrk></target>
+<note>Win+B,D,E,F,L,M,R,U; and Win+Shift+M</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Alt, Ctrl, Shift, Win</source>
+<seg-source><mrk mid="0" mtype="seg">Alt, Ctrl, Shift, Win</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Alt, Ctrl, Shift, Win</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">These are the modifier keys themselves!</source>
+<seg-source><mrk mid="0" mtype="seg">These are the modifier keys themselves!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">These are the modifier keys themselves!</mrk></target>
+<note>Alt, Ctrl, Shift, Win</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Other</source>
+<seg-source><mrk mid="0" mtype="seg">Other</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Other</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Any global hotkeys a user has defined using third-party software, any combos of two or more "base keys" such as '{F1}{F2}', and any keys of the form '{LALT}' or '{ALTDOWN}'.</source>
+<seg-source><mrk mid="0" mtype="seg">Any global hotkeys a user has defined using third-party software, any combos of two or more "base keys" such as '{F1}{F2}', and any keys of the form '{LALT}' or '{ALTDOWN}'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Any global hotkeys a user has defined using third-party software, any combos of two or more "base keys" such as '{F1}{F2}', and any keys of the form '{LALT}' or '{ALTDOWN}'.</mrk></target>
+<note>Other</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en"> When you set a hotkey, AutoIt captures the key-press and does not pass it on to the active application, with one exception: the Lock keys (NumLock, CapsLock, and ScrollLock) still toggle their respective state!</source>
+<seg-source> <mrk mid="0" mtype="seg">When you set a hotkey, AutoIt captures the key-press and does not pass it on to the active application, with one exception: the Lock keys (NumLock, CapsLock, and ScrollLock) still toggle their respective state!</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When you set a hotkey, AutoIt captures the key-press and does not pass it on to the active application, with one exception: the Lock keys (NumLock, CapsLock, and ScrollLock) still toggle their respective state!</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en"> To <bpt id="1" ctype="x-a">&lt;a href="Send.htm"></bpt>Send()<ept id="1">&lt;/a></ept> a key combination which will trigger a <bpt id="2" ctype="x-a">&lt;a href="HotKeySet.htm"></bpt>HotKeySet()<ept id="2">&lt;/a></ept> event, either use <bpt id="3" ctype="x-a">&lt;a href="ControlSend.htm"></bpt>ControlSend()<ept id="3">&lt;/a></ept> or unregister the <bpt id="4" ctype="x-a">&lt;a href="HotKeySet.htm"></bpt>HotKeySet()<ept id="4">&lt;/a></ept> event, otherwise, the <bpt id="5" ctype="x-a">&lt;a href="Send.htm"></bpt>Send()<ept id="5">&lt;/a></ept> event may trigger an infinite loop.</source>
+<seg-source> <mrk mid="0" mtype="seg">To <bpt id="1" ctype="x-a">&lt;a href="Send.htm"></bpt>Send()<ept id="1">&lt;/a></ept> a key combination which will trigger a <bpt id="2" ctype="x-a">&lt;a href="HotKeySet.htm"></bpt>HotKeySet()<ept id="2">&lt;/a></ept> event, either use <bpt id="3" ctype="x-a">&lt;a href="ControlSend.htm"></bpt>ControlSend()<ept id="3">&lt;/a></ept> or unregister the <bpt id="4" ctype="x-a">&lt;a href="HotKeySet.htm"></bpt>HotKeySet()<ept id="4">&lt;/a></ept> event, otherwise, the <bpt id="5" ctype="x-a">&lt;a href="Send.htm"></bpt>Send()<ept id="5">&lt;/a></ept> event may trigger an infinite loop.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To <bpt id="1" ctype="x-a">&lt;a href="Send.htm"></bpt>Send()<ept id="1">&lt;/a></ept> a key combination which will trigger a <bpt id="2" ctype="x-a">&lt;a href="HotKeySet.htm"></bpt>HotKeySet()<ept id="2">&lt;/a></ept> event, either use <bpt id="3" ctype="x-a">&lt;a href="ControlSend.htm"></bpt>ControlSend()<ept id="3">&lt;/a></ept> or unregister the <bpt id="4" ctype="x-a">&lt;a href="HotKeySet.htm"></bpt>HotKeySet()<ept id="4">&lt;/a></ept> event, otherwise, the <bpt id="5" ctype="x-a">&lt;a href="Send.htm"></bpt>Send()<ept id="5">&lt;/a></ept> event may trigger an infinite loop.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en"> ; capture and pass along a keypress</source>
+<seg-source> <mrk mid="0" mtype="seg">; capture and pass along a keypress</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">; capture and pass along a keypress</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en"> <it id="1" ctype="x-em" pos="open">&lt;em></it><bpt id="2" ctype="x-a">&lt;a href="HotKeySet.htm"></bpt>HotKeySet<ept id="2">&lt;/a></ept>("{Esc}", "captureEsc")</source>
+<seg-source> <mrk mid="0" mtype="seg"><it id="1" ctype="x-em" pos="open">&lt;em></it><bpt id="2" ctype="x-a">&lt;a href="HotKeySet.htm"></bpt>HotKeySet<ept id="2">&lt;/a></ept>("{Esc}", "captureEsc")</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><it id="1" ctype="x-em" pos="open">&lt;em></it><bpt id="2" ctype="x-a">&lt;a href="HotKeySet.htm"></bpt>HotKeySet<ept id="2">&lt;/a></ept>("{Esc}", "captureEsc")</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"> Func captureEsc()</source>
+<seg-source> <mrk mid="0" mtype="seg">Func captureEsc()</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Func captureEsc()</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">     ; ... can do stuff here</source>
+<seg-source> <mrk mid="0" mtype="seg">    ; ... can do stuff here</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    ; ... can do stuff here</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">     <bpt id="1" ctype="x-a">&lt;a href="HotKeySet.htm"></bpt>HotKeySet<ept id="1">&lt;/a></ept>("{Esc}")</source>
+<seg-source> <mrk mid="0" mtype="seg">    <bpt id="1" ctype="x-a">&lt;a href="HotKeySet.htm"></bpt>HotKeySet<ept id="1">&lt;/a></ept>("{Esc}")</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    <bpt id="1" ctype="x-a">&lt;a href="HotKeySet.htm"></bpt>HotKeySet<ept id="1">&lt;/a></ept>("{Esc}")</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">     <bpt id="1" ctype="x-a">&lt;a href="Send.htm"></bpt>Send<ept id="1">&lt;/a></ept>("{Esc}")</source>
+<seg-source> <mrk mid="0" mtype="seg">    <bpt id="1" ctype="x-a">&lt;a href="Send.htm"></bpt>Send<ept id="1">&lt;/a></ept>("{Esc}")</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    <bpt id="1" ctype="x-a">&lt;a href="Send.htm"></bpt>Send<ept id="1">&lt;/a></ept>("{Esc}")</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">     <bpt id="1" ctype="x-a">&lt;a href="HotKeySet.htm"></bpt>HotKeySet<ept id="1">&lt;/a></ept>("{Esc}", "captureEsc")</source>
+<seg-source> <mrk mid="0" mtype="seg">    <bpt id="1" ctype="x-a">&lt;a href="HotKeySet.htm"></bpt>HotKeySet<ept id="1">&lt;/a></ept>("{Esc}", "captureEsc")</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    <bpt id="1" ctype="x-a">&lt;a href="HotKeySet.htm"></bpt>HotKeySet<ept id="1">&lt;/a></ept>("{Esc}", "captureEsc")</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en"> EndFunc</source>
+<seg-source> <mrk mid="0" mtype="seg">EndFunc</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">EndFunc</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en"><it id="1" ctype="x-em" pos="close">&lt;/em></it></source>
+<seg-source><mrk mid="0" mtype="seg"><it id="1" ctype="x-em" pos="close">&lt;/em></it></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><it id="1" ctype="x-em" pos="close">&lt;/em></it></mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en"> The called function can <bpt id="1" ctype="x-strong">&lt;strong></bpt>not<ept id="1">&lt;/strong></ept> be given parameters. They will be ignored.</source>
+<seg-source> <mrk mid="0" mtype="seg">The called function can <bpt id="1" ctype="x-strong">&lt;strong></bpt>not<ept id="1">&lt;/strong></ept> be given parameters.</mrk> <mrk mid="1" mtype="seg">They will be ignored.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The called function can <bpt id="1" ctype="x-strong">&lt;strong></bpt>not<ept id="1">&lt;/strong></ept> be given parameters.</mrk> <mrk mid="1" mtype="seg">They will be ignored.</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en"> @HotKeyPressed macro can be used inside the function to handle several keys in the same function.</source>
+<seg-source> <mrk mid="0" mtype="seg">@HotKeyPressed macro can be used inside the function to handle several keys in the same function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">@HotKeyPressed macro can be used inside the function to handle several keys in the same function.</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Press Esc to terminate script, Pause/Break to "pause"</source>
+<seg-source><mrk mid="0" mtype="seg">Press Esc to terminate script, Pause/Break to "pause"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Press Esc to terminate script, Pause/Break to "pause"</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">TogglePause</source>
+<seg-source><mrk mid="0" mtype="seg">TogglePause</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">TogglePause</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Terminate</source>
+<seg-source><mrk mid="0" mtype="seg">Terminate</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Terminate</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">+!d</source>
+<seg-source><mrk mid="0" mtype="seg">+!d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+!d</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">ShowMessage</source>
+<seg-source><mrk mid="0" mtype="seg">ShowMessage</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ShowMessage</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Shift-Alt-d</source>
+<seg-source><mrk mid="0" mtype="seg">Shift-Alt-d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shift-Alt-d</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Script is "Paused"</source>
+<seg-source><mrk mid="0" mtype="seg">Script is "Paused"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Script is "Paused"</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">This is a message.</source>
+<seg-source><mrk mid="0" mtype="seg">This is a message.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a message.</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Press Esc to terminate script, Pause/Break to "pause"</source>
+<seg-source><mrk mid="0" mtype="seg">Press Esc to terminate script, Pause/Break to "pause"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Press Esc to terminate script, Pause/Break to "pause"</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">HotKeyPressed</source>
+<seg-source><mrk mid="0" mtype="seg">HotKeyPressed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HotKeyPressed</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">HotKeyPressed</source>
+<seg-source><mrk mid="0" mtype="seg">HotKeyPressed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HotKeyPressed</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">+!d</source>
+<seg-source><mrk mid="0" mtype="seg">+!d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+!d</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">HotKeyPressed</source>
+<seg-source><mrk mid="0" mtype="seg">HotKeyPressed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HotKeyPressed</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Shift-Alt-d</source>
+<seg-source><mrk mid="0" mtype="seg">Shift-Alt-d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shift-Alt-d</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">The last hotkey pressed.</source>
+<seg-source><mrk mid="0" mtype="seg">The last hotkey pressed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The last hotkey pressed.</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">String is the {PAUSE} hotkey.</source>
+<seg-source><mrk mid="0" mtype="seg">String is the {PAUSE} hotkey.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String is the {PAUSE} hotkey.</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">Script is "Paused"</source>
+<seg-source><mrk mid="0" mtype="seg">Script is "Paused"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Script is "Paused"</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">String is the {ESC} hotkey.</source>
+<seg-source><mrk mid="0" mtype="seg">String is the {ESC} hotkey.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String is the {ESC} hotkey.</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">+!d</source>
+<seg-source><mrk mid="0" mtype="seg">+!d</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">+!d</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">String is the Shift-Alt-d hotkey.</source>
+<seg-source><mrk mid="0" mtype="seg">String is the Shift-Alt-d hotkey.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String is the Shift-Alt-d hotkey.</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">This is a message.</source>
+<seg-source><mrk mid="0" mtype="seg">This is a message.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a message.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

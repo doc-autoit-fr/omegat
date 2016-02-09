@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GDIPlus_GraphicsDrawString.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Draw a string</source>
+<seg-source><mrk mid="0" mtype="seg">Draw a string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draw a string</mrk></target>
+<note>Function _GDIPlus_GraphicsDrawString</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to a Graphics object</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to a Graphics object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to a Graphics object</mrk></target>
+<note>$hGraphics</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">String to be drawn</source>
+<seg-source><mrk mid="0" mtype="seg">String to be drawn</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String to be drawn</mrk></target>
+<note>$sString</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">X coordinate where the string will be drawn</source>
+<seg-source><mrk mid="0" mtype="seg">X coordinate where the string will be drawn</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">X coordinate where the string will be drawn</mrk></target>
+<note>$nX</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Y coordinate where the string will be drawn</source>
+<seg-source><mrk mid="0" mtype="seg">Y coordinate where the string will be drawn</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Y coordinate where the string will be drawn</mrk></target>
+<note>$nY</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Name of the font to use for drawing</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Name of the font to use for drawing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Name of the font to use for drawing</mrk></target>
+<note>$sFont</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Font size to use for drawing</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Font size to use for drawing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Font size to use for drawing</mrk></target>
+<note>$fSize</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Format flags. Can be one or more of the following:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Format flags.</mrk> <mrk mid="2" mtype="seg">Can be one or more of the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Format flags.</mrk> <mrk mid="2" mtype="seg">Can be one or more of the following:</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     0x0001 - Specifies that reading order is right to left</source>
+<seg-source> <mrk mid="0" mtype="seg">    0x0001 - Specifies that reading order is right to left</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0x0001 - Specifies that reading order is right to left</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     0x0002 - Specifies that individual lines of text are drawn vertically on the display device</source>
+<seg-source> <mrk mid="0" mtype="seg">    0x0002 - Specifies that individual lines of text are drawn vertically on the display device</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0x0002 - Specifies that individual lines of text are drawn vertically on the display device</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     0x0004 - Specifies that parts of characters are allowed to overhang the string's layout rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">    0x0004 - Specifies that parts of characters are allowed to overhang the string's layout rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0x0004 - Specifies that parts of characters are allowed to overhang the string's layout rectangle</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     0x0020 - Specifies that Unicode layout control characters are displayed with a representative character</source>
+<seg-source> <mrk mid="0" mtype="seg">    0x0020 - Specifies that Unicode layout control characters are displayed with a representative character</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0x0020 - Specifies that Unicode layout control characters are displayed with a representative character</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     0x0400 - Specifies that an alternate font is used for characters that are not supported in the requested font</source>
+<seg-source> <mrk mid="0" mtype="seg">    0x0400 - Specifies that an alternate font is used for characters that are not supported in the requested font</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0x0400 - Specifies that an alternate font is used for characters that are not supported in the requested font</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     0x0800 - Specifies that the space at the end of each line is included in a string measurement</source>
+<seg-source> <mrk mid="0" mtype="seg">    0x0800 - Specifies that the space at the end of each line is included in a string measurement</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0x0800 - Specifies that the space at the end of each line is included in a string measurement</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     0x1000 - Specifies that the wrapping of text to the next line is disabled</source>
+<seg-source> <mrk mid="0" mtype="seg">    0x1000 - Specifies that the wrapping of text to the next line is disabled</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0x1000 - Specifies that the wrapping of text to the next line is disabled</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     0x2000 - Specifies that only entire lines are laid out in the layout rectangle</source>
+<seg-source> <mrk mid="0" mtype="seg">    0x2000 - Specifies that only entire lines are laid out in the layout rectangle</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0x2000 - Specifies that only entire lines are laid out in the layout rectangle</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     0x4000 - Specifies that characters overhanging the layout rectangle and text extending outside the layout rectangle are allowed to show</source>
+<seg-source> <mrk mid="0" mtype="seg">    0x4000 - Specifies that characters overhanging the layout rectangle and text extending outside the layout rectangle are allowed to show</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0x4000 - Specifies that characters overhanging the layout rectangle and text extending outside the layout rectangle are allowed to show</mrk></target>
+<note>$iFormat</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</source>
+<seg-source><mrk mid="0" mtype="seg">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">GDI+</source>
+<seg-source><mrk mid="0" mtype="seg">GDI+</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GDI+</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Draw a string</source>
+<seg-source><mrk mid="0" mtype="seg">Draw a string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draw a string</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Hello world</source>
+<seg-source><mrk mid="0" mtype="seg">Hello world</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hello world</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Clean up resources</source>
+<seg-source><mrk mid="0" mtype="seg">Clean up resources</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Clean up resources</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

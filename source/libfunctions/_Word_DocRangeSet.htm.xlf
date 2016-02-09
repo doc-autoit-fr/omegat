@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_Word_DocRangeSet.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets or modifies a range in a document</source>
+<seg-source><mrk mid="0" mtype="seg">Sets or modifies a range in a document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets or modifies a range in a document</mrk></target>
+<note>Function _Word_DocRangeSet</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Word document object</source>
+<seg-source><mrk mid="0" mtype="seg">Word document object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word document object</mrk></target>
+<note>$oDoc</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Range to set or extend. You can pass an existing range which then is extended. Also valid is:</source>
+<seg-source><mrk mid="0" mtype="seg">Range to set or extend.</mrk> <mrk mid="1" mtype="seg">You can pass an existing range which then is extended.</mrk> <mrk mid="2" mtype="seg">Also valid is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Range to set or extend.</mrk> <mrk mid="1" mtype="seg">You can pass an existing range which then is extended.</mrk> <mrk mid="2" mtype="seg">Also valid is:</mrk></target>
+<note>$vRange</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     0 - uses the current selection as range</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 - uses the current selection as range</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 - uses the current selection as range</mrk></target>
+<note>$vRange</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     -1 - sets the range start/end at the start of the document</source>
+<seg-source> <mrk mid="0" mtype="seg">    -1 - sets the range start/end at the start of the document</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    -1 - sets the range start/end at the start of the document</mrk></target>
+<note>$vRange</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     -2 - sets the range start/end at the end of the document</source>
+<seg-source> <mrk mid="0" mtype="seg">    -2 - sets the range start/end at the end of the document</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    -2 - sets the range start/end at the end of the document</mrk></target>
+<note>$vRange</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Unit by/to which the start position of the range is to be moved/set.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Unit by/to which the start position of the range is to be moved/set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Unit by/to which the start position of the range is to be moved/set.</mrk></target>
+<note>$iStartUnit</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> Can be any of the WdUnit enumeration (default = $WdWord).</source>
+<seg-source> <mrk mid="0" mtype="seg">Can be any of the WdUnit enumeration (default = $WdWord).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Can be any of the WdUnit enumeration (default = $WdWord).</mrk></target>
+<note>$iStartUnit</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> When set to -1 the range is collapsed to the start of the range</source>
+<seg-source> <mrk mid="0" mtype="seg">When set to -1 the range is collapsed to the start of the range</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When set to -1 the range is collapsed to the start of the range</mrk></target>
+<note>$iStartUnit</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Number of units by/to which the start of range is moved/set.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Number of units by/to which the start of range is moved/set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Number of units by/to which the start of range is moved/set.</mrk></target>
+<note>$iStartCount</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> Positive numbers move the range forward in the document.</source>
+<seg-source> <mrk mid="0" mtype="seg">Positive numbers move the range forward in the document.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Positive numbers move the range forward in the document.</mrk></target>
+<note>$iStartCount</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> If the position is moved forward to a position beyond the end position of the range, the range is collapsed</source>
+<seg-source> <mrk mid="0" mtype="seg">If the position is moved forward to a position beyond the end position of the range, the range is collapsed</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the position is moved forward to a position beyond the end position of the range, the range is collapsed</mrk></target>
+<note>$iStartCount</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> and both the start and end positions are moved together(default = don't move the start position)</source>
+<seg-source> <mrk mid="0" mtype="seg">and both the start and end positions are moved together(default = don't move the start position)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">and both the start and end positions are moved together(default = don't move the start position)</mrk></target>
+<note>$iStartCount</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Unit by/to which the end position of the range is to be moved/set.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Unit by/to which the end position of the range is to be moved/set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Unit by/to which the end position of the range is to be moved/set.</mrk></target>
+<note>$iEndUnit</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> Can be any of the WdUnit enumeration (default = $WdWord).</source>
+<seg-source> <mrk mid="0" mtype="seg">Can be any of the WdUnit enumeration (default = $WdWord).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Can be any of the WdUnit enumeration (default = $WdWord).</mrk></target>
+<note>$iEndUnit</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> When set to -1 the range is collapsed to the end of the range</source>
+<seg-source> <mrk mid="0" mtype="seg">When set to -1 the range is collapsed to the end of the range</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When set to -1 the range is collapsed to the end of the range</mrk></target>
+<note>$iEndUnit</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Number of units by/to which the end of the range is moved/set.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Number of units by/to which the end of the range is moved/set.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Number of units by/to which the end of the range is moved/set.</mrk></target>
+<note>$iEndCount</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> If this number is negative, the end is moved backward.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this number is negative, the end is moved backward.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this number is negative, the end is moved backward.</mrk></target>
+<note>$iEndCount</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> If the ending position overtakes the starting position, the range</source>
+<seg-source> <mrk mid="0" mtype="seg">If the ending position overtakes the starting position, the range</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the ending position overtakes the starting position, the range</mrk></target>
+<note>$iEndCount</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> collapses and both positions move together (default = don't move the end position)</source>
+<seg-source> <mrk mid="0" mtype="seg">collapses and both positions move together (default = don't move the end position)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">collapses and both positions move together (default = don't move the end position)</mrk></target>
+<note>$iEndCount</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">the modified range object.</source>
+<seg-source><mrk mid="0" mtype="seg">the modified range object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the modified range object.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">1 - $oDoc is not an object</source>
+<seg-source><mrk mid="0" mtype="seg">1 - $oDoc is not an object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - $oDoc is not an object</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> 2 - $vRange has to be a range object, 0 or -1</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - $vRange has to be a range object, 0 or -1</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - $vRange has to be a range object, 0 or -1</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> 3 - Error occurred when setting the start of the range. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - Error occurred when setting the start of the range.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - Error occurred when setting the start of the range.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> 4 - Error occurred when setting the end of the range. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">4 - Error occurred when setting the end of the range.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 - Error occurred when setting the end of the range.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Create application object</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Word UDF: _Word_DocRangeSet Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Error creating a new Word application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating a new Word application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating a new Word application object.</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Open the test document</source>
+<seg-source><mrk mid="0" mtype="seg">Open the test document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open the test document</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">\Extras\Test.doc</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\Test.doc</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\Test.doc</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Word UDF: _Word_DocRangeSet Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Error opening '.\Extras\Test.doc'.</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening '.\Extras\Test.doc'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening '.\Extras\Test.doc'.</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Scene 1</source>
+<seg-source><mrk mid="0" mtype="seg">Scene 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scene 1</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Move the start of the range to the next paragraph and extend the end by 2</source>
+<seg-source><mrk mid="0" mtype="seg">Move the start of the range to the next paragraph and extend the end by 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Move the start of the range to the next paragraph and extend the end by 2</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">words. Insert text before and after the range and display some statistics</source>
+<seg-source><mrk mid="0" mtype="seg">words.</mrk> <mrk mid="1" mtype="seg">Insert text before and after the range and display some statistics</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">words.</mrk> <mrk mid="1" mtype="seg">Insert text before and after the range and display some statistics</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Move the start of the range to the next paragraph and extend the end by 2 words</source>
+<seg-source><mrk mid="0" mtype="seg">Move the start of the range to the next paragraph and extend the end by 2 words</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Move the start of the range to the next paragraph and extend the end by 2 words</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Word UDF: _Word_DocRangeSet Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Error setting/expanding range.</source>
+<seg-source><mrk mid="0" mtype="seg">Error setting/expanding range.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error setting/expanding range.</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Word UDF: _Word_DocRangeSet Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Range has been successfully set to the first two words in the second paragraph.</source>
+<seg-source><mrk mid="0" mtype="seg">Range has been successfully set to the first two words in the second paragraph.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Range has been successfully set to the first two words in the second paragraph.</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">Insert some text before the range</source>
+<seg-source><mrk mid="0" mtype="seg">Insert some text before the range</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insert some text before the range</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Inserted text at the start!</source>
+<seg-source><mrk mid="0" mtype="seg">Inserted text at the start!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Inserted text at the start!</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Word UDF: _Word_DocRangeSet Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">Inserted text at the start of the range.</source>
+<seg-source><mrk mid="0" mtype="seg">Inserted text at the start of the range.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Inserted text at the start of the range.</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">Insert some text after the range</source>
+<seg-source><mrk mid="0" mtype="seg">Insert some text after the range</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Insert some text after the range</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">inserted text at the end!</source>
+<seg-source><mrk mid="0" mtype="seg">inserted text at the end!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">inserted text at the end!</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Word UDF: _Word_DocRangeSet Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">Inserted text at the end of the range.</source>
+<seg-source><mrk mid="0" mtype="seg">Inserted text at the end of the range.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Inserted text at the end of the range.</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">Display some statistics</source>
+<seg-source><mrk mid="0" mtype="seg">Display some statistics</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display some statistics</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">Word UDF: _Word_DocRangeSet Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">The selected range has:</source>
+<seg-source><mrk mid="0" mtype="seg">The selected range has:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The selected range has:</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">words</source>
+<seg-source><mrk mid="0" mtype="seg">words</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">words</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">characters.</source>
+<seg-source><mrk mid="0" mtype="seg">characters.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">characters.</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">Scene 2</source>
+<seg-source><mrk mid="0" mtype="seg">Scene 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scene 2</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">Move the end of the range one character to the left so the space to the next</source>
+<seg-source><mrk mid="0" mtype="seg">Move the end of the range one character to the left so the space to the next</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Move the end of the range one character to the left so the space to the next</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">word isn't formatted and format the text bold, italic and underlined</source>
+<seg-source><mrk mid="0" mtype="seg">word isn't formatted and format the text bold, italic and underlined</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">word isn't formatted and format the text bold, italic and underlined</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">Word UDF: _Word_DocRangeSet Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">Error setting/expanding range.</source>
+<seg-source><mrk mid="0" mtype="seg">Error setting/expanding range.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error setting/expanding range.</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">Format the range bold, italic und underline</source>
+<seg-source><mrk mid="0" mtype="seg">Format the range bold, italic und underline</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Format the range bold, italic und underline</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">Word UDF: _Word_DocRangeSet Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">Added some formatting.</source>
+<seg-source><mrk mid="0" mtype="seg">Added some formatting.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Added some formatting.</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">Scene 3</source>
+<seg-source><mrk mid="0" mtype="seg">Scene 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scene 3</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">Collapse the range to 0 length (insert mark) and insert a line break</source>
+<seg-source><mrk mid="0" mtype="seg">Collapse the range to 0 length (insert mark) and insert a line break</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Collapse the range to 0 length (insert mark) and insert a line break</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">Word UDF: _Word_DocRangeSet Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></target>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">Error setting/expanding range.</source>
+<seg-source><mrk mid="0" mtype="seg">Error setting/expanding range.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error setting/expanding range.</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">Word UDF: _Word_DocRangeSet Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">Inserted a break.</source>
+<seg-source><mrk mid="0" mtype="seg">Inserted a break.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Inserted a break.</mrk></target>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">Scene 4</source>
+<seg-source><mrk mid="0" mtype="seg">Scene 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scene 4</mrk></target>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en">Move the range to the first character in the next line (space) and remove it</source>
+<seg-source><mrk mid="0" mtype="seg">Move the range to the first character in the next line (space) and remove it</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Move the range to the first character in the next line (space) and remove it</mrk></target>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en">Word UDF: _Word_DocRangeSet Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></target>
+</trans-unit>
+<trans-unit id="94">
+<source xml:lang="en">Error setting/expanding range.</source>
+<seg-source><mrk mid="0" mtype="seg">Error setting/expanding range.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error setting/expanding range.</mrk></target>
+</trans-unit>
+<trans-unit id="95">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="96">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="97">
+<source xml:lang="en">Word UDF: _Word_DocRangeSet Example</source>
+<seg-source><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Word UDF:</mrk> <mrk mid="1" mtype="seg">_Word_DocRangeSet Example</mrk></target>
+</trans-unit>
+<trans-unit id="98">
+<source xml:lang="en">Deleted a character.</source>
+<seg-source><mrk mid="0" mtype="seg">Deleted a character.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Deleted a character.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_GetDlgCtrlID.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Returns the identifier of the specified control</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the identifier of the specified control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the identifier of the specified control</mrk></target>
+<note>Function _WinAPI_GetDlgCtrlID</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Identifier of the control</source>
+<seg-source><mrk mid="0" mtype="seg">Identifier of the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Identifier of the control</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> 0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information </source>
+<seg-source> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">GetDlgCtrlID accepts child window handles as well as handles of controls in dialog boxes.</source>
+<seg-source><mrk mid="0" mtype="seg">GetDlgCtrlID accepts child window handles as well as handles of controls in dialog boxes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GetDlgCtrlID accepts child window handles as well as handles of controls in dialog boxes.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> An application sets the identifier for a child window when it creates the window by assigning the identifier value to the hmenu parameter when calling the CreateWindow or CreateWindowEx function.</source>
+<seg-source> <mrk mid="0" mtype="seg">An application sets the identifier for a child window when it creates the window by assigning the identifier value to the hmenu parameter when calling the CreateWindow or CreateWindowEx function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">An application sets the identifier for a child window when it creates the window by assigning the identifier value to the hmenu parameter when calling the CreateWindow or CreateWindowEx function.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> Although GetDlgCtrlID may return a value if $hWnd identifies a top-level window, top-level windows cannot have identifiers and such a return value is never valid.</source>
+<seg-source> <mrk mid="0" mtype="seg">Although GetDlgCtrlID may return a value if $hWnd identifies a top-level window, top-level windows cannot have identifiers and such a return value is never valid.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Although GetDlgCtrlID may return a value if $hWnd identifies a top-level window, top-level windows cannot have identifiers and such a return value is never valid.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetDlgCtrlID);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetDlgCtrlID<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetDlgCtrlID);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetDlgCtrlID<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetDlgCtrlID);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetDlgCtrlID<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">test</source>
+<seg-source><mrk mid="0" mtype="seg">test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">test</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">testing</source>
+<seg-source><mrk mid="0" mtype="seg">testing</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">testing</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">ID</source>
+<seg-source><mrk mid="0" mtype="seg">ID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ID</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Dialog Control ID:</source>
+<seg-source><mrk mid="0" mtype="seg">Dialog Control ID:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Dialog Control ID:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

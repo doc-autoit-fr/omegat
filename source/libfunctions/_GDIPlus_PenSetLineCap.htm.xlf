@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GDIPlus_PenSetLineCap.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the cap styles for the start, end, and dashes in a line drawn with the pen</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the cap styles for the start, end, and dashes in a line drawn with the pen</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the cap styles for the start, end, and dashes in a line drawn with the pen</mrk></target>
+<note>Function _GDIPlus_PenSetLineCap</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Pointer to a Pen object</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to a Pen object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to a Pen object</mrk></target>
+<note>$hPen</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Line cap style for the start cap:</source>
+<seg-source><mrk mid="0" mtype="seg">Line cap style for the start cap:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Line cap style for the start cap:</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     0x00 - Line ends at the last point. The end is squared off</source>
+<seg-source> <mrk mid="0" mtype="seg">    0x00 - Line ends at the last point.</mrk> <mrk mid="1" mtype="seg">The end is squared off</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0x00 - Line ends at the last point.</mrk> <mrk mid="1" mtype="seg">The end is squared off</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     0x01 - Square cap. The center of the square is the last point in the line.</source>
+<seg-source> <mrk mid="0" mtype="seg">    0x01 - Square cap.</mrk> <mrk mid="1" mtype="seg">The center of the square is the last point in the line.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0x01 - Square cap.</mrk> <mrk mid="1" mtype="seg">The center of the square is the last point in the line.</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">         The height and width of the square are the line width.</source>
+<seg-source> <mrk mid="0" mtype="seg">        The height and width of the square are the line width.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        The height and width of the square are the line width.</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     0x02 - Circular cap. The center of the circle is the last point in the line.</source>
+<seg-source> <mrk mid="0" mtype="seg">    0x02 - Circular cap.</mrk> <mrk mid="1" mtype="seg">The center of the circle is the last point in the line.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0x02 - Circular cap.</mrk> <mrk mid="1" mtype="seg">The center of the circle is the last point in the line.</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">         The diameter of the circle is the line width.</source>
+<seg-source> <mrk mid="0" mtype="seg">        The diameter of the circle is the line width.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        The diameter of the circle is the line width.</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     0x03 - Triangular cap.</source>
+<seg-source> <mrk mid="0" mtype="seg">    0x03 - Triangular cap.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0x03 - Triangular cap.</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">         The base of the triangle is the last point in the line.</source>
+<seg-source> <mrk mid="0" mtype="seg">        The base of the triangle is the last point in the line.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        The base of the triangle is the last point in the line.</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">         The base of the triangle is the line width.</source>
+<seg-source> <mrk mid="0" mtype="seg">        The base of the triangle is the line width.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        The base of the triangle is the line width.</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     0x10 - Line ends are not anchored.</source>
+<seg-source> <mrk mid="0" mtype="seg">    0x10 - Line ends are not anchored.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0x10 - Line ends are not anchored.</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     0x11 - Line ends are anchored with a square.</source>
+<seg-source> <mrk mid="0" mtype="seg">    0x11 - Line ends are anchored with a square.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0x11 - Line ends are anchored with a square.</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">         The center of the square is the last point in the line.</source>
+<seg-source> <mrk mid="0" mtype="seg">        The center of the square is the last point in the line.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        The center of the square is the last point in the line.</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">         The height and width of the square are the line width.</source>
+<seg-source> <mrk mid="0" mtype="seg">        The height and width of the square are the line width.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        The height and width of the square are the line width.</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     0x12 - Line ends are anchored with a circle.</source>
+<seg-source> <mrk mid="0" mtype="seg">    0x12 - Line ends are anchored with a circle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0x12 - Line ends are anchored with a circle.</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">         The center of the circle is at the last point in the line.</source>
+<seg-source> <mrk mid="0" mtype="seg">        The center of the circle is at the last point in the line.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        The center of the circle is at the last point in the line.</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">         The circle is wider than the line.</source>
+<seg-source> <mrk mid="0" mtype="seg">        The circle is wider than the line.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        The circle is wider than the line.</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     0x13 - Line ends are anchored with a diamond (a square turned at 45 degrees).</source>
+<seg-source> <mrk mid="0" mtype="seg">    0x13 - Line ends are anchored with a diamond (a square turned at 45 degrees).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0x13 - Line ends are anchored with a diamond (a square turned at 45 degrees).</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">         The center of the diamond is at the last point in the line.</source>
+<seg-source> <mrk mid="0" mtype="seg">        The center of the diamond is at the last point in the line.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        The center of the diamond is at the last point in the line.</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">         The diamond is wider than the line.</source>
+<seg-source> <mrk mid="0" mtype="seg">        The diamond is wider than the line.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        The diamond is wider than the line.</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">     0x14 - Line ends are anchored with arrowheads.</source>
+<seg-source> <mrk mid="0" mtype="seg">    0x14 - Line ends are anchored with arrowheads.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0x14 - Line ends are anchored with arrowheads.</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">         The arrowhead point is located at the last point in the line.</source>
+<seg-source> <mrk mid="0" mtype="seg">        The arrowhead point is located at the last point in the line.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        The arrowhead point is located at the last point in the line.</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">         The arrowhead is wider than the line.</source>
+<seg-source> <mrk mid="0" mtype="seg">        The arrowhead is wider than the line.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">        The arrowhead is wider than the line.</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">     0xff - Line ends are made from a CustomLineCap object</source>
+<seg-source> <mrk mid="0" mtype="seg">    0xff - Line ends are made from a CustomLineCap object</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0xff - Line ends are made from a CustomLineCap object</mrk></target>
+<note>$iStartCap</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Line cap style for the end cap (same values as $iStartCap)</source>
+<seg-source><mrk mid="0" mtype="seg">Line cap style for the end cap (same values as $iStartCap)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Line cap style for the end cap (same values as $iStartCap)</mrk></target>
+<note>$iEndCap</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Start and end caps for a dashed line:</source>
+<seg-source><mrk mid="0" mtype="seg">Start and end caps for a dashed line:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Start and end caps for a dashed line:</mrk></target>
+<note>$iDashCap</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">     0 - A square cap that squares off both ends of each dash</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 - A square cap that squares off both ends of each dash</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 - A square cap that squares off both ends of each dash</mrk></target>
+<note>$iDashCap</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">     2 - A circular cap that rounds off both ends of each dash</source>
+<seg-source> <mrk mid="0" mtype="seg">    2 - A circular cap that rounds off both ends of each dash</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    2 - A circular cap that rounds off both ends of each dash</mrk></target>
+<note>$iDashCap</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">     3 - A triangular cap that points both ends of each dash</source>
+<seg-source> <mrk mid="0" mtype="seg">    3 - A triangular cap that points both ends of each dash</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    3 - A triangular cap that points both ends of each dash</mrk></target>
+<note>$iDashCap</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</source>
+<seg-source><mrk mid="0" mtype="seg">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipSetPenLineCap197819"></bpt>GdipSetPenLineCap197819<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipSetPenLineCap197819"></bpt>GdipSetPenLineCap197819<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipSetPenLineCap197819"></bpt>GdipSetPenLineCap197819<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

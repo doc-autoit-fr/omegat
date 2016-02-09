@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_ShellGetKnownFolderPath.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the full path of a known folder identified</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the full path of a known folder identified</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the full path of a known folder identified</mrk></target>
+<note>Function _WinAPI_ShellGetKnownFolderPath</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The GUID ($FOLDERID_*) that identifies the standard folders registered with the system.</source>
+<seg-source><mrk mid="0" mtype="seg">The GUID ($FOLDERID_*) that identifies the standard folders registered with the system.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The GUID ($FOLDERID_*) that identifies the standard folders registered with the system.</mrk></target>
+<note>$sGUID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The flags that specify special retrieval options. This parameter can be one or more of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The flags that specify special retrieval options.</mrk> <mrk mid="2" mtype="seg">This parameter can be one or more of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The flags that specify special retrieval options.</mrk> <mrk mid="2" mtype="seg">This parameter can be one or more of the following values.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $KF_FLAG_CREATE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $KF_FLAG_CREATE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $KF_FLAG_CREATE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $KF_FLAG_DONT_VERIFY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $KF_FLAG_DONT_VERIFY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $KF_FLAG_DONT_VERIFY</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $KF_FLAG_DONT_UNEXPAND</source>
+<seg-source> <mrk mid="0" mtype="seg">    $KF_FLAG_DONT_UNEXPAND</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $KF_FLAG_DONT_UNEXPAND</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $KF_FLAG_NO_ALIAS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $KF_FLAG_NO_ALIAS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $KF_FLAG_NO_ALIAS</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $KF_FLAG_INIT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $KF_FLAG_INIT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $KF_FLAG_INIT</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $KF_FLAG_DEFAULT_PATH</source>
+<seg-source> <mrk mid="0" mtype="seg">    $KF_FLAG_DEFAULT_PATH</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $KF_FLAG_DEFAULT_PATH</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $KF_FLAG_NOT_PARENT_RELATIVE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $KF_FLAG_NOT_PARENT_RELATIVE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $KF_FLAG_NOT_PARENT_RELATIVE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $KF_FLAG_SIMPLE_IDLIST</source>
+<seg-source> <mrk mid="0" mtype="seg">    $KF_FLAG_SIMPLE_IDLIST</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $KF_FLAG_SIMPLE_IDLIST</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows 7 or later<ept id="1">&lt;/strong></ept></source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows 7 or later<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows 7 or later<ept id="1">&lt;/strong></ept></mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $KF_FLAG_ALIAS_ONLY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $KF_FLAG_ALIAS_ONLY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $KF_FLAG_ALIAS_ONLY</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The access token that represents a particular user. If this parameter is 0, the function requests</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The access token that represents a particular user.</mrk> <mrk mid="2" mtype="seg">If this parameter is 0, the function requests</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The access token that represents a particular user.</mrk> <mrk mid="2" mtype="seg">If this parameter is 0, the function requests</mrk></target>
+<note>$hToken</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> the known folder for the current user. Assigning the $hToken parameter a value of (-1) indicates the</source>
+<seg-source> <mrk mid="0" mtype="seg">the known folder for the current user.</mrk> <mrk mid="1" mtype="seg">Assigning the $hToken parameter a value of (-1) indicates the</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">the known folder for the current user.</mrk> <mrk mid="1" mtype="seg">Assigning the $hToken parameter a value of (-1) indicates the</mrk></target>
+<note>$hToken</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> Default User. Note that access to the Default User folders requires administrator privileges.</source>
+<seg-source> <mrk mid="0" mtype="seg">Default User.</mrk> <mrk mid="1" mtype="seg">Note that access to the Default User folders requires administrator privileges.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Default User.</mrk> <mrk mid="1" mtype="seg">Note that access to the Default User folders requires administrator privileges.</mrk></target>
+<note>$hToken</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">The path of the known folder.</source>
+<seg-source><mrk mid="0" mtype="seg">The path of the known folder.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The path of the known folder.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Empty string and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</source>
+<seg-source><mrk mid="0" mtype="seg">Empty string and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Empty string and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</source>
+<seg-source><mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHGetKnownFolderPath);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHGetKnownFolderPath<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHGetKnownFolderPath);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHGetKnownFolderPath<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(SHGetKnownFolderPath);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>SHGetKnownFolderPath<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">6.0</source>
+<seg-source><mrk mid="0" mtype="seg">6.0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">6.0</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Require Windows Vista or later.</source>
+<seg-source><mrk mid="0" mtype="seg">Require Windows Vista or later.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Require Windows Vista or later.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">{8983036C-27C0-404B-8F08-102D10DCFD75}</source>
+<seg-source><mrk mid="0" mtype="seg">{8983036C-27C0-404B-8F08-102D10DCFD75}</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">{8983036C-27C0-404B-8F08-102D10DCFD75}</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">" @error =</source>
+<seg-source><mrk mid="0" mtype="seg">" @error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">" @error =</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">@extended = 0x</source>
+<seg-source><mrk mid="0" mtype="seg">@extended = 0x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@extended = 0x</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

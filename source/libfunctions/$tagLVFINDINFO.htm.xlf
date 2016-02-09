@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/$tagLVFINDINFO.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Keyword Reference</source>
+<seg-source><mrk mid="0" mtype="seg">Keyword Reference</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Keyword Reference</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Contains information used when searching for a list-view item</source>
+<seg-source><mrk mid="0" mtype="seg">Contains information used when searching for a list-view item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains information used when searching for a list-view item</mrk></target>
+<note>Keyword $tagLVFINDINFO</note>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Type of search to perform. This member can be set to one or more of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg">Type of search to perform.</mrk> <mrk mid="1" mtype="seg">This member can be set to one or more of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Type of search to perform.</mrk> <mrk mid="1" mtype="seg">This member can be set to one or more of the following values:</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $LVFI_PARAM - Searches for a match between this structure's Param member and the Param member of an item. If $LVFI_PARAM is specified, all other flags are ignored.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVFI_PARAM - Searches for a match between this structure's Param member and the Param member of an item.</mrk> <mrk mid="1" mtype="seg">If $LVFI_PARAM is specified, all other flags are ignored.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVFI_PARAM - Searches for a match between this structure's Param member and the Param member of an item.</mrk> <mrk mid="1" mtype="seg">If $LVFI_PARAM is specified, all other flags are ignored.</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $LVFI_PARTIAL - Checks to see if the item text begins with the string pointed to by the Text member. This value implies use of $LVFI_STRING.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVFI_PARTIAL - Checks to see if the item text begins with the string pointed to by the Text member.</mrk> <mrk mid="1" mtype="seg">This value implies use of $LVFI_STRING.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVFI_PARTIAL - Checks to see if the item text begins with the string pointed to by the Text member.</mrk> <mrk mid="1" mtype="seg">This value implies use of $LVFI_STRING.</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $LVFI_STRING - Searches based on the item text. Unless additional values are specified, the item text of the matching item must exactly match the string pointed to by the Text member.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVFI_STRING - Searches based on the item text.</mrk> <mrk mid="1" mtype="seg">Unless additional values are specified, the item text of the matching item must exactly match the string pointed to by the Text member.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVFI_STRING - Searches based on the item text.</mrk> <mrk mid="1" mtype="seg">Unless additional values are specified, the item text of the matching item must exactly match the string pointed to by the Text member.</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $LVFI_SUBSTRING - Equivalent to $LVFI_PARTIAL <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVFI_SUBSTRING - Equivalent to $LVFI_PARTIAL <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVFI_SUBSTRING - Equivalent to $LVFI_PARTIAL <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $LVFI_WRAP - Continues the search at the beginning if no match is found</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVFI_WRAP - Continues the search at the beginning if no match is found</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVFI_WRAP - Continues the search at the beginning if no match is found</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $LVFI_NEARESTXY - Finds the item nearest to the position specified in the X and Y members, in the direction specified by the Direction member. This flag is supported only by large icon and small icon modes.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LVFI_NEARESTXY - Finds the item nearest to the position specified in the X and Y members, in the direction specified by the Direction member.</mrk> <mrk mid="1" mtype="seg">This flag is supported only by large icon and small icon modes.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LVFI_NEARESTXY - Finds the item nearest to the position specified in the X and Y members, in the direction specified by the Direction member.</mrk> <mrk mid="1" mtype="seg">This flag is supported only by large icon and small icon modes.</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Address of a string to compare with the item text. It is valid if $LVFI_STRING or $LVFI_PARTIAL is set in the Flags member.</source>
+<seg-source><mrk mid="0" mtype="seg">Address of a string to compare with the item text.</mrk> <mrk mid="1" mtype="seg">It is valid if $LVFI_STRING or $LVFI_PARTIAL is set in the Flags member.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Address of a string to compare with the item text.</mrk> <mrk mid="1" mtype="seg">It is valid if $LVFI_STRING or $LVFI_PARTIAL is set in the Flags member.</mrk></target>
+<note>Text</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Value to compare with the Param member of an item's $LVITEM structure. It is valid only if $LVFI_PARAM is set in the flags member.</source>
+<seg-source><mrk mid="0" mtype="seg">Value to compare with the Param member of an item's $LVITEM structure.</mrk> <mrk mid="1" mtype="seg">It is valid only if $LVFI_PARAM is set in the flags member.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Value to compare with the Param member of an item's $LVITEM structure.</mrk> <mrk mid="1" mtype="seg">It is valid only if $LVFI_PARAM is set in the flags member.</mrk></target>
+<note>Param</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Initial X,Y search position. It is valid only if $LVFI_NEARESTXY is set in the Flags member.</source>
+<seg-source><mrk mid="0" mtype="seg">Initial X,Y search position.</mrk> <mrk mid="1" mtype="seg">It is valid only if $LVFI_NEARESTXY is set in the Flags member.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Initial X,Y search position.</mrk> <mrk mid="1" mtype="seg">It is valid only if $LVFI_NEARESTXY is set in the Flags member.</mrk></target>
+<note>$tagPOINT</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Virtual key code that specifies the direction to search. The following codes are supported:</source>
+<seg-source><mrk mid="0" mtype="seg">Virtual key code that specifies the direction to search.</mrk> <mrk mid="1" mtype="seg">The following codes are supported:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Virtual key code that specifies the direction to search.</mrk> <mrk mid="1" mtype="seg">The following codes are supported:</mrk></target>
+<note>Direction</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     VK_LEFT</source>
+<seg-source> <mrk mid="0" mtype="seg">    VK_LEFT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    VK_LEFT</mrk></target>
+<note>Direction</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     VK_RIGHT</source>
+<seg-source> <mrk mid="0" mtype="seg">    VK_RIGHT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    VK_RIGHT</mrk></target>
+<note>Direction</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     VK_UP</source>
+<seg-source> <mrk mid="0" mtype="seg">    VK_UP</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    VK_UP</mrk></target>
+<note>Direction</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     VK_DOWN</source>
+<seg-source> <mrk mid="0" mtype="seg">    VK_DOWN</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    VK_DOWN</mrk></target>
+<note>Direction</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     VK_HOME</source>
+<seg-source> <mrk mid="0" mtype="seg">    VK_HOME</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    VK_HOME</mrk></target>
+<note>Direction</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     VK_END</source>
+<seg-source> <mrk mid="0" mtype="seg">    VK_END</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    VK_END</mrk></target>
+<note>Direction</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     VK_PRIOR</source>
+<seg-source> <mrk mid="0" mtype="seg">    VK_PRIOR</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    VK_PRIOR</mrk></target>
+<note>Direction</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     VK_NEXT</source>
+<seg-source> <mrk mid="0" mtype="seg">    VK_NEXT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    VK_NEXT</mrk></target>
+<note>Direction</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> This member is valid only if $LVFI_NEARESTXY is set in the flags member.</source>
+<seg-source> <mrk mid="0" mtype="seg">This member is valid only if $LVFI_NEARESTXY is set in the flags member.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This member is valid only if $LVFI_NEARESTXY is set in the flags member.</mrk></target>
+<note>Direction</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

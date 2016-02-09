@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUICtrlListView_DeleteAllItems.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Removes all items from a list-view control</source>
+<seg-source><mrk mid="0" mtype="seg">Removes all items from a list-view control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Removes all items from a list-view control</mrk></target>
+<note>Function _GUICtrlListView_DeleteAllItems</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Control ID/Control ID/Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Control ID/Control ID/Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control ID/Control ID/Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">False.</source>
+<seg-source><mrk mid="0" mtype="seg">False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Deleting all items from a native-created ListView can take some time - it is recommended to enclose this command in a _GUICtrlListView_Begin/EndUpdate pairing if this is the case.</source>
+<seg-source><mrk mid="0" mtype="seg">Deleting all items from a native-created ListView can take some time - it is recommended to enclose this command in a _GUICtrlListView_Begin/EndUpdate pairing if this is the case.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Deleting all items from a native-created ListView can take some time - it is recommended to enclose this command in a _GUICtrlListView_Begin/EndUpdate pairing if this is the case.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">ListView Item Deletion</source>
+<seg-source><mrk mid="0" mtype="seg">ListView Item Deletion</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ListView Item Deletion</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Col 1 |Col 2 |Col 3</source>
+<seg-source><mrk mid="0" mtype="seg">Col 1 |Col 2 |Col 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Col 1 |Col 2 |Col 3</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Display the GUI.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the GUI.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the GUI.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Native Item</source>
+<seg-source><mrk mid="0" mtype="seg">Native Item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Native Item</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">|Item</source>
+<seg-source><mrk mid="0" mtype="seg">|Item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">|Item</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">-1|Item</source>
+<seg-source><mrk mid="0" mtype="seg">-1|Item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1|Item</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">UDF Item</source>
+<seg-source><mrk mid="0" mtype="seg">UDF Item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">UDF Item</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Item</source>
+<seg-source><mrk mid="0" mtype="seg">Item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Item</source>
+<seg-source><mrk mid="0" mtype="seg">Item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Delete all</source>
+<seg-source><mrk mid="0" mtype="seg">Delete all</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete all</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Deleting both native and UDF Items</source>
+<seg-source><mrk mid="0" mtype="seg">Deleting both native and UDF Items</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Deleting both native and UDF Items</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Pass the controlID of a native-created ListView</source>
+<seg-source><mrk mid="0" mtype="seg">Pass the controlID of a native-created ListView</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pass the controlID of a native-created ListView</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Loop until the user exits</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Delete the previous GUI and all controls.</source>
+<seg-source><mrk mid="0" mtype="seg">Delete the previous GUI and all controls.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete the previous GUI and all controls.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">A ListView control created with the ListView UDF.</source>
+<seg-source><mrk mid="0" mtype="seg">A ListView control created with the ListView UDF.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A ListView control created with the ListView UDF.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">(UDF Created) ListView Delete All Items</source>
+<seg-source><mrk mid="0" mtype="seg">(UDF Created) ListView Delete All Items</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(UDF Created) ListView Delete All Items</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">col1|col2|col3</source>
+<seg-source><mrk mid="0" mtype="seg">col1|col2|col3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">col1|col2|col3</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Display the GUI.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the GUI.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the GUI.</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">3 column load</source>
+<seg-source><mrk mid="0" mtype="seg">3 column load</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3 column load</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Item</source>
+<seg-source><mrk mid="0" mtype="seg">Item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Item</source>
+<seg-source><mrk mid="0" mtype="seg">Item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Item</source>
+<seg-source><mrk mid="0" mtype="seg">Item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Item</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Delete all</source>
+<seg-source><mrk mid="0" mtype="seg">Delete all</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete all</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Delete all items</source>
+<seg-source><mrk mid="0" mtype="seg">Delete all items</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete all items</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Pass the handle of a UDF-created ListView</source>
+<seg-source><mrk mid="0" mtype="seg">Pass the handle of a UDF-created ListView</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pass the handle of a UDF-created ListView</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Loop until the user exits</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Delete the previous GUI and all controls.</source>
+<seg-source><mrk mid="0" mtype="seg">Delete the previous GUI and all controls.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete the previous GUI and all controls.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

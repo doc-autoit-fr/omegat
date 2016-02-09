@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/$tagNMREBAR.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Keyword Reference</source>
+<seg-source><mrk mid="0" mtype="seg">Keyword Reference</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Keyword Reference</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Contains information used in handling various rebar notification messages</source>
+<seg-source><mrk mid="0" mtype="seg">Contains information used in handling various rebar notification messages</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains information used in handling various rebar notification messages</mrk></target>
+<note>Keyword $tagNMREBAR</note>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Contains information about a notification message</source>
+<seg-source><mrk mid="0" mtype="seg">Contains information about a notification message</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains information about a notification message</mrk></target>
+<note>$tagNMHDR</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Set of flags that define which members of this structure contain valid information. This can be one or more of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg">Set of flags that define which members of this structure contain valid information.</mrk> <mrk mid="1" mtype="seg">This can be one or more of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set of flags that define which members of this structure contain valid information.</mrk> <mrk mid="1" mtype="seg">This can be one or more of the following values:</mrk></target>
+<note>dwMask</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $RBNM_ID - The wID member contains valid information.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $RBNM_ID - The wID member contains valid information.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $RBNM_ID - The wID member contains valid information.</mrk></target>
+<note>dwMask</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $RBNM_LPARAM - The lParam member contains valid information.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $RBNM_LPARAM - The lParam member contains valid information.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $RBNM_LPARAM - The lParam member contains valid information.</mrk></target>
+<note>dwMask</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $RBNM_STYLE - The fStyle member contains valid information.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $RBNM_STYLE - The fStyle member contains valid information.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $RBNM_STYLE - The fStyle member contains valid information.</mrk></target>
+<note>dwMask</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">0-based index of the band affected by the notification. This will be -1 if no band is affected.</source>
+<seg-source><mrk mid="0" mtype="seg">0-based index of the band affected by the notification.</mrk> <mrk mid="1" mtype="seg">This will be -1 if no band is affected.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0-based index of the band affected by the notification.</mrk> <mrk mid="1" mtype="seg">This will be -1 if no band is affected.</mrk></target>
+<note>uBand</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">The style of the band. This is one or more of the $RBBS_ styles detailed in the fStyle member of the $tagREBARBANDINFO structure.</source>
+<seg-source><mrk mid="0" mtype="seg">The style of the band.</mrk> <mrk mid="1" mtype="seg">This is one or more of the $RBBS_ styles detailed in the fStyle member of the $tagREBARBANDINFO structure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The style of the band.</mrk> <mrk mid="1" mtype="seg">This is one or more of the $RBBS_ styles detailed in the fStyle member of the $tagREBARBANDINFO structure.</mrk></target>
+<note>fStyle</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> This member is only valid if dwMask contains $RBNM_STYLE.</source>
+<seg-source> <mrk mid="0" mtype="seg">This member is only valid if dwMask contains $RBNM_STYLE.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This member is only valid if dwMask contains $RBNM_STYLE.</mrk></target>
+<note>fStyle</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Application-defined identifier of the band. This member is only valid if dwMask contains $RBNM_ID.</source>
+<seg-source><mrk mid="0" mtype="seg">Application-defined identifier of the band.</mrk> <mrk mid="1" mtype="seg">This member is only valid if dwMask contains $RBNM_ID.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Application-defined identifier of the band.</mrk> <mrk mid="1" mtype="seg">This member is only valid if dwMask contains $RBNM_ID.</mrk></target>
+<note>wID</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Application-defined value associated with the band. This member is only valid if dwMask contains $RBNM_LPARAM</source>
+<seg-source><mrk mid="0" mtype="seg">Application-defined value associated with the band.</mrk> <mrk mid="1" mtype="seg">This member is only valid if dwMask contains $RBNM_LPARAM</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Application-defined value associated with the band.</mrk> <mrk mid="1" mtype="seg">This member is only valid if dwMask contains $RBNM_LPARAM</mrk></target>
+<note>lParam</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

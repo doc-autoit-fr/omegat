@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/WinList.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves a list of windows.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves a list of windows.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves a list of windows.</mrk></target>
+<note>Function WinList</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The title/hWnd/class of the windows to get the list. See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsadvanced.htm"></bpt>Title special definition<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The title/hWnd/class of the windows to get the list.</mrk> <mrk mid="2" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsadvanced.htm"></bpt>Title special definition<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The title/hWnd/class of the windows to get the list.</mrk> <mrk mid="2" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsadvanced.htm"></bpt>Title special definition<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>title</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The text of the windows to get the list. Default is an empty string. See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsbasic.htm#specialtext"></bpt>Text special definition<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The text of the windows to get the list.</mrk> <mrk mid="2" mtype="seg">Default is an empty string.</mrk> <mrk mid="3" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsbasic.htm#specialtext"></bpt>Text special definition<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The text of the windows to get the list.</mrk> <mrk mid="2" mtype="seg">Default is an empty string.</mrk> <mrk mid="3" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../intro/windowsbasic.htm#specialtext"></bpt>Text special definition<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>text</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Returns an array of matching window titles and handles.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns an array of matching window titles and handles.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns an array of matching window titles and handles.</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">If no title and text is given then all top-level windows are returned.</source>
+<seg-source><mrk mid="0" mtype="seg">If no title and text is given then all top-level windows are returned.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If no title and text is given then all top-level windows are returned.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> The array returned is two-dimensional and is made up as follows:</source>
+<seg-source> <mrk mid="0" mtype="seg">The array returned is two-dimensional and is made up as follows:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The array returned is two-dimensional and is made up as follows:</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $aArray[0][0] = Number of windows returned</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[0][0] = Number of windows returned</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[0][0] = Number of windows returned</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $aArray[1][0] = 1st window title</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[1][0] = 1st window title</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[1][0] = 1st window title</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $aArray[1][1] = 1st window handle (HWND)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[1][1] = 1st window handle (HWND)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[1][1] = 1st window handle (HWND)</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $aArray[2][0] = 2nd window title</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[2][0] = 2nd window title</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[2][0] = 2nd window title</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $aArray[2][1] = 2nd window handle (HWND)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[2][1] = 2nd window handle (HWND)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[2][1] = 2nd window handle (HWND)</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     ...</source>
+<seg-source> <mrk mid="0" mtype="seg">    ...</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    ...</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $aArray[n][0] = nth window title</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[n][0] = nth window title</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[n][0] = nth window title</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $aArray[n][1] = nth window handle (HWND)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[n][1] = nth window handle (HWND)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[n][1] = nth window handle (HWND)</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Retrieve a list of window handles.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve a list of window handles.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve a list of window handles.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Loop through the array displaying only visable windows with a title.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop through the array displaying only visable windows with a title.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop through the array displaying only visable windows with a title.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Title:</source>
+<seg-source><mrk mid="0" mtype="seg">Title:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Title:</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Handle:</source>
+<seg-source><mrk mid="0" mtype="seg">Handle:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle:</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Retrieve a list of window handles using a regular expression. The regular expression looks for titles that contain the word SciTE or Internet Explorer.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve a list of window handles using a regular expression.</mrk> <mrk mid="1" mtype="seg">The regular expression looks for titles that contain the word SciTE or Internet Explorer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve a list of window handles using a regular expression.</mrk> <mrk mid="1" mtype="seg">The regular expression looks for titles that contain the word SciTE or Internet Explorer.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">[REGEXPTITLE:(?i)(.*SciTE.*|.*Internet Explorer.*)]</source>
+<seg-source><mrk mid="0" mtype="seg">[REGEXPTITLE:(?i)(.*SciTE.*|.*Internet Explorer.*)]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[REGEXPTITLE:(?i)(.*SciTE.*|.*Internet Explorer.*)]</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

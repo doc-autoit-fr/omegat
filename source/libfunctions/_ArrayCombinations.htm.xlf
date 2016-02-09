@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_ArrayCombinations.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Returns an array of the combinations of a set of elements from a selected 1D array</source>
+<seg-source><mrk mid="0" mtype="seg">Returns an array of the combinations of a set of elements from a selected 1D array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns an array of the combinations of a set of elements from a selected 1D array</mrk></target>
+<note>Function _ArrayCombinations</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The Array to use</source>
+<seg-source><mrk mid="0" mtype="seg">The Array to use</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Array to use</mrk></target>
+<note>$aArray</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Size of the combinations set</source>
+<seg-source><mrk mid="0" mtype="seg">Size of the combinations set</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Size of the combinations set</mrk></target>
+<note>$iSet</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> String result separator, default is "" for none</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">String result separator, default is "" for none</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">String result separator, default is "" for none</mrk></target>
+<note>$sDelimiter</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">an array of Combinations</source>
+<seg-source><mrk mid="0" mtype="seg">an array of Combinations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an array of Combinations</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> The first element ($aArray[0]) contains the number of strings returned.</source>
+<seg-source> <mrk mid="0" mtype="seg">The first element ($aArray[0]) contains the number of strings returned.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The first element ($aArray[0]) contains the number of strings returned.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> The remaining elements ($aArray[1], $aArray[2], etc.) contain the Combinations.</source>
+<seg-source> <mrk mid="0" mtype="seg">The remaining elements ($aArray[1], $aArray[2], etc.) contain the Combinations.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The remaining elements ($aArray[1], $aArray[2], etc.) contain the Combinations.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">1 - The Input Must be an Array</source>
+<seg-source><mrk mid="0" mtype="seg">1 - The Input Must be an Array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - The Input Must be an Array</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> 2 - $aArray is not a 1D array</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - $aArray is not a 1D array</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - $aArray is not a 1D array</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">The input array must be 0-based, i.e. no counter in $aArray[0]. Based on an algorithm by Kenneth H. Rosen.</source>
+<seg-source><mrk mid="0" mtype="seg">The input array must be 0-based, i.e. no counter in $aArray[0].</mrk> <mrk mid="1" mtype="seg">Based on an algorithm by Kenneth H.</mrk> <mrk mid="2" mtype="seg">Rosen.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The input array must be 0-based, i.e. no counter in $aArray[0].</mrk> <mrk mid="1" mtype="seg">Based on an algorithm by Kenneth H.</mrk> <mrk mid="2" mtype="seg">Rosen.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Declare a 1-dimensional array, and create an array showing the Possible Combinations</source>
+<seg-source><mrk mid="0" mtype="seg">Declare a 1-dimensional array, and create an array showing the Possible Combinations</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Declare a 1-dimensional array, and create an array showing the Possible Combinations</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">,</source>
+<seg-source><mrk mid="0" mtype="seg">,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">,</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">iSet =</source>
+<seg-source><mrk mid="0" mtype="seg">iSet =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">iSet =</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

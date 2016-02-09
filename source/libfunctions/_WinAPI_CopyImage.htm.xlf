@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_CopyImage.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a new image (icon, cursor, or bitmap) and copies the attributes of the specified image to the new one</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a new image (icon, cursor, or bitmap) and copies the attributes of the specified image to the new one</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a new image (icon, cursor, or bitmap) and copies the attributes of the specified image to the new one</mrk></target>
+<note>Function _WinAPI_CopyImage</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the image to be copied.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the image to be copied.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the image to be copied.</mrk></target>
+<note>$hImage</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the type of image to be copied. This parameter can be one of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the type of image to be copied.</mrk> <mrk mid="2" mtype="seg">This parameter can be one of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the type of image to be copied.</mrk> <mrk mid="2" mtype="seg">This parameter can be one of the following values:</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $IMAGE_BITMAP 'Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $IMAGE_BITMAP 'Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $IMAGE_BITMAP 'Default)</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $IMAGE_CURSOR</source>
+<seg-source> <mrk mid="0" mtype="seg">    $IMAGE_CURSOR</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $IMAGE_CURSOR</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $IMAGE_ICON</source>
+<seg-source> <mrk mid="0" mtype="seg">    $IMAGE_ICON</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $IMAGE_ICON</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the desired width, in pixels, of the image. If this is zero (Default), then the returned image will have the same width as the original $hImage.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the desired width, in pixels, of the image.</mrk> <mrk mid="2" mtype="seg">If this is zero (Default), then the returned image will have the same width as the original $hImage.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the desired width, in pixels, of the image.</mrk> <mrk mid="2" mtype="seg">If this is zero (Default), then the returned image will have the same width as the original $hImage.</mrk></target>
+<note>$iXDesiredPixels</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the desired height, in pixels, of the image. If this is zero (Default), then the returned image will have the same height as the original $hImage.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the desired height, in pixels, of the image.</mrk> <mrk mid="2" mtype="seg">If this is zero (Default), then the returned image will have the same height as the original $hImage.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the desired height, in pixels, of the image.</mrk> <mrk mid="2" mtype="seg">If this is zero (Default), then the returned image will have the same height as the original $hImage.</mrk></target>
+<note>$iYDesiredPixels</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> This parameter can be one or more of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">This parameter can be one or more of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">This parameter can be one or more of the following values.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> $LR_DEFAULTCOLOR (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">$LR_DEFAULTCOLOR (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$LR_DEFAULTCOLOR (Default)</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> $LR_COPYDELETEORG</source>
+<seg-source> <mrk mid="0" mtype="seg">$LR_COPYDELETEORG</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$LR_COPYDELETEORG</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> $LR_COPYFROMRESOURCE</source>
+<seg-source> <mrk mid="0" mtype="seg">$LR_COPYFROMRESOURCE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$LR_COPYFROMRESOURCE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> $LR_COPYRETURNORG</source>
+<seg-source> <mrk mid="0" mtype="seg">$LR_COPYRETURNORG</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$LR_COPYRETURNORG</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> $LR_CREATEDIBSECTION</source>
+<seg-source> <mrk mid="0" mtype="seg">$LR_CREATEDIBSECTION</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$LR_CREATEDIBSECTION</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> $LR_DEFAULTSIZE</source>
+<seg-source> <mrk mid="0" mtype="seg">$LR_DEFAULTSIZE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$LR_DEFAULTSIZE</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> $LR_MONOCHROME</source>
+<seg-source> <mrk mid="0" mtype="seg">$LR_MONOCHROME</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$LR_MONOCHROME</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Handle to the newly created image.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the newly created image.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the newly created image.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> 0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">When you are finished using the resource, you can release its associated memory by calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteObject.htm"></bpt>_WinAPI_DeleteObject()<ept id="1">&lt;/a></ept> function respectively for bitmaps, cursors, or icons.</source>
+<seg-source><mrk mid="0" mtype="seg">When you are finished using the resource, you can release its associated memory by calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteObject.htm"></bpt>_WinAPI_DeleteObject()<ept id="1">&lt;/a></ept> function respectively for bitmaps, cursors, or icons.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you are finished using the resource, you can release its associated memory by calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteObject.htm"></bpt>_WinAPI_DeleteObject()<ept id="1">&lt;/a></ept> function respectively for bitmaps, cursors, or icons.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> The system automatically deletes the resource when its process terminates, however, calling the appropriate function saves memory and decreases the size of the process's working set.</source>
+<seg-source> <mrk mid="0" mtype="seg">The system automatically deletes the resource when its process terminates, however, calling the appropriate function saves memory and decreases the size of the process's working set.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The system automatically deletes the resource when its process terminates, however, calling the appropriate function saves memory and decreases the size of the process's working set.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CopyImage);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CopyImage<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CopyImage);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CopyImage<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CopyImage);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CopyImage<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_VerQueryValue.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the non-fixed (strings) version information from the specified version-information resource</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the non-fixed (strings) version information from the specified version-information resource</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the non-fixed (strings) version information from the specified version-information resource</mrk></target>
+<note>Function _WinAPI_VerQueryValue</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> A pointer to the buffer that contains the version-information resource returned by the</source>
+<seg-source> <mrk mid="0" mtype="seg">A pointer to the buffer that contains the version-information resource returned by the</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">A pointer to the buffer that contains the version-information resource returned by the</mrk></target>
+<note>$pData</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetFileVersionInfo.htm"></bpt>_WinAPI_GetFileVersionInfo()<ept id="1">&lt;/a></ept> function. </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetFileVersionInfo.htm"></bpt>_WinAPI_GetFileVersionInfo()<ept id="1">&lt;/a></ept> function.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetFileVersionInfo.htm"></bpt>_WinAPI_GetFileVersionInfo()<ept id="1">&lt;/a></ept> function.</mrk> </target>
+<note>$pData</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The string containing the field names for which you want to get values. The names must be separated by a "|".</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The string containing the field names for which you want to get values.</mrk> <mrk mid="2" mtype="seg">The names must be separated by a "|".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The string containing the field names for which you want to get values.</mrk> <mrk mid="2" mtype="seg">The names must be separated by a "|".</mrk></target>
+<note>$sValues</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> For example, "name1|name2|...|namei". If some fields do not exist, the corresponding array elements is an empty string.</source>
+<seg-source> <mrk mid="0" mtype="seg">For example, "name1|name2|...|namei".</mrk> <mrk mid="1" mtype="seg">If some fields do not exist, the corresponding array elements is an empty string.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For example, "name1|name2|...|namei".</mrk> <mrk mid="1" mtype="seg">If some fields do not exist, the corresponding array elements is an empty string.</mrk></target>
+<note>$sValues</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> If this parameter is not specified (empty string), uses the reserved names (12) in the following sequence:</source>
+<seg-source> <mrk mid="0" mtype="seg">If this parameter is not specified (empty string), uses the reserved names (12) in the following sequence:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this parameter is not specified (empty string), uses the reserved names (12) in the following sequence:</mrk></target>
+<note>$sValues</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $FV_COMMENTS ("Comments")</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FV_COMMENTS ("Comments")</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FV_COMMENTS ("Comments")</mrk></target>
+<note>$sValues</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $FV_COMPANYNAME ("CompanyName")</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FV_COMPANYNAME ("CompanyName")</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FV_COMPANYNAME ("CompanyName")</mrk></target>
+<note>$sValues</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $FV_FILEDESCRIPTION ("FileDescription")</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FV_FILEDESCRIPTION ("FileDescription")</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FV_FILEDESCRIPTION ("FileDescription")</mrk></target>
+<note>$sValues</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $FV_FILEVERSION ("FileVersion")</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FV_FILEVERSION ("FileVersion")</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FV_FILEVERSION ("FileVersion")</mrk></target>
+<note>$sValues</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $FV_INTERNALNAME ("InternalName")</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FV_INTERNALNAME ("InternalName")</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FV_INTERNALNAME ("InternalName")</mrk></target>
+<note>$sValues</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $FV_LEGALCOPYRIGHT ("LegalCopyright")</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FV_LEGALCOPYRIGHT ("LegalCopyright")</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FV_LEGALCOPYRIGHT ("LegalCopyright")</mrk></target>
+<note>$sValues</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $FV_LEGALTRADEMARKS ("LegalTrademarks")</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FV_LEGALTRADEMARKS ("LegalTrademarks")</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FV_LEGALTRADEMARKS ("LegalTrademarks")</mrk></target>
+<note>$sValues</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $FV_ORIGINALFILENAME ("OriginalFilename")</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FV_ORIGINALFILENAME ("OriginalFilename")</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FV_ORIGINALFILENAME ("OriginalFilename")</mrk></target>
+<note>$sValues</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $FV_PRODUCTNAME ("ProductName")</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FV_PRODUCTNAME ("ProductName")</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FV_PRODUCTNAME ("ProductName")</mrk></target>
+<note>$sValues</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $FV_PRODUCTVERSION ("ProductVersion")</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FV_PRODUCTVERSION ("ProductVersion")</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FV_PRODUCTVERSION ("ProductVersion")</mrk></target>
+<note>$sValues</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $FV_PRIVATEBUILD ("PrivateBuild")</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FV_PRIVATEBUILD ("PrivateBuild")</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FV_PRIVATEBUILD ("PrivateBuild")</mrk></target>
+<note>$sValues</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $FV_SPECIALBUILD ("SpecialBuild")</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FV_SPECIALBUILD ("SpecialBuild")</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FV_SPECIALBUILD ("SpecialBuild")</mrk></target>
+<note>$sValues</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> Constants are defined in FileConstants.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in FileConstants.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in FileConstants.au3.</mrk></target>
+<note>$sValues</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">The 2D array of the string values that specified by $sValues parameter for each language.</source>
+<seg-source><mrk mid="0" mtype="seg">The 2D array of the string values that specified by $sValues parameter for each language.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The 2D array of the string values that specified by $sValues parameter for each language.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> The zeroth array element [0][0] contains the number of languages of the resource.</source>
+<seg-source> <mrk mid="0" mtype="seg">The zeroth array element [0][0] contains the number of languages of the resource.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The zeroth array element [0][0] contains the number of languages of the resource.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> The array dimension (i) equal to the number specified parameters + 1.</source>
+<seg-source> <mrk mid="0" mtype="seg">The array dimension (i) equal to the number specified parameters + 1.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The array dimension (i) equal to the number specified parameters + 1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> The zeroth array element [n][0] contains the language identifier (ID).</source>
+<seg-source> <mrk mid="0" mtype="seg">The zeroth array element [n][0] contains the language identifier (ID).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The zeroth array element [n][0] contains the language identifier (ID).</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> [0][0] - Number of languages (n)</source>
+<seg-source> <mrk mid="0" mtype="seg">[0][0] - Number of languages (n)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[0][0] - Number of languages (n)</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> [0][i] - Unused</source>
+<seg-source> <mrk mid="0" mtype="seg">[0][i] - Unused</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[0][i] - Unused</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> [n][0] - ID</source>
+<seg-source> <mrk mid="0" mtype="seg">[n][0] - ID</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[n][0] - ID</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> [n][i] - Value</source>
+<seg-source> <mrk mid="0" mtype="seg">[n][i] - Value</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[n][i] - Value</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(VerQueryValue);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>VerQueryValue<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(VerQueryValue);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>VerQueryValue<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(VerQueryValue);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>VerQueryValue<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">\shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">\shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">_WinAPI_VerQueryValue</source>
+<seg-source><mrk mid="0" mtype="seg">_WinAPI_VerQueryValue</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinAPI_VerQueryValue</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

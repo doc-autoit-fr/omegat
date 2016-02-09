@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_UnregisterApplicationRestart.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Removes the active instance of an application from the restart list</source>
+<seg-source><mrk mid="0" mtype="seg">Removes the active instance of an application from the restart list</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Removes the active instance of an application from the restart list</mrk></target>
+<note>Function _WinAPI_UnregisterApplicationRestart</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">You do not need to call this function before exiting. You need to remove the registration only if you choose to</source>
+<seg-source><mrk mid="0" mtype="seg">You do not need to call this function before exiting.</mrk> <mrk mid="1" mtype="seg">You need to remove the registration only if you choose to</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You do not need to call this function before exiting.</mrk> <mrk mid="1" mtype="seg">You need to remove the registration only if you choose to</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> not restart the application. For example, you could remove the registration if your application entered a corrupted</source>
+<seg-source> <mrk mid="0" mtype="seg">not restart the application.</mrk> <mrk mid="1" mtype="seg">For example, you could remove the registration if your application entered a corrupted</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">not restart the application.</mrk> <mrk mid="1" mtype="seg">For example, you could remove the registration if your application entered a corrupted</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> state where a future restart would also fail. You must call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_UnregisterApplicationRestart.htm"></bpt>_WinAPI_UnregisterApplicationRestart()<ept id="1">&lt;/a></ept> before the</source>
+<seg-source> <mrk mid="0" mtype="seg">state where a future restart would also fail.</mrk> <mrk mid="1" mtype="seg">You must call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_UnregisterApplicationRestart.htm"></bpt>_WinAPI_UnregisterApplicationRestart()<ept id="1">&lt;/a></ept> before the</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">state where a future restart would also fail.</mrk> <mrk mid="1" mtype="seg">You must call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_UnregisterApplicationRestart.htm"></bpt>_WinAPI_UnregisterApplicationRestart()<ept id="1">&lt;/a></ept> before the</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> application fails abnormally.</source>
+<seg-source> <mrk mid="0" mtype="seg">application fails abnormally.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">application fails abnormally.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(UnregisterApplicationRestart);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>UnregisterApplicationRestart<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(UnregisterApplicationRestart);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>UnregisterApplicationRestart<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(UnregisterApplicationRestart);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>UnregisterApplicationRestart<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

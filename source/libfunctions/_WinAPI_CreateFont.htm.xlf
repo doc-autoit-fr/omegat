@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_CreateFont.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a logical font with the specified characteristics</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a logical font with the specified characteristics</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a logical font with the specified characteristics</mrk></target>
+<note>Function _WinAPI_CreateFont</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">height of font</source>
+<seg-source><mrk mid="0" mtype="seg">height of font</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">height of font</mrk></target>
+<note>$iHeight</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">average character width</source>
+<seg-source><mrk mid="0" mtype="seg">average character width</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">average character width</mrk></target>
+<note>$iWidth</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> angle of escapement</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">angle of escapement</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">angle of escapement</mrk></target>
+<note>$iEscape</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> base-line orientation angle</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">base-line orientation angle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">base-line orientation angle</mrk></target>
+<note>$iOrientn</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> font weight, The following values are defined for convenience:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">font weight, The following values are defined for convenience:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">font weight, The following values are defined for convenience:</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $FW_DONTCARE - 0</source>
+<seg-source> <mrk mid="0" mtype="seg">$FW_DONTCARE - 0</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FW_DONTCARE - 0</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $FW_THIN - 100</source>
+<seg-source> <mrk mid="0" mtype="seg">$FW_THIN - 100</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FW_THIN - 100</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> $FW_EXTRALIGHT - 200</source>
+<seg-source> <mrk mid="0" mtype="seg">$FW_EXTRALIGHT - 200</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FW_EXTRALIGHT - 200</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> $FW_LIGHT - 300</source>
+<seg-source> <mrk mid="0" mtype="seg">$FW_LIGHT - 300</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FW_LIGHT - 300</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> $FW_NORMAL - 400</source>
+<seg-source> <mrk mid="0" mtype="seg">$FW_NORMAL - 400</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FW_NORMAL - 400</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> $FW_MEDIUM - 500</source>
+<seg-source> <mrk mid="0" mtype="seg">$FW_MEDIUM - 500</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FW_MEDIUM - 500</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> $FW_SEMIBOLD - 600</source>
+<seg-source> <mrk mid="0" mtype="seg">$FW_SEMIBOLD - 600</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FW_SEMIBOLD - 600</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> $FW_BOLD - 700</source>
+<seg-source> <mrk mid="0" mtype="seg">$FW_BOLD - 700</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FW_BOLD - 700</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> $FW_EXTRABOLD - 800</source>
+<seg-source> <mrk mid="0" mtype="seg">$FW_EXTRABOLD - 800</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FW_EXTRABOLD - 800</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> $FW_HEAVY - 900</source>
+<seg-source> <mrk mid="0" mtype="seg">$FW_HEAVY - 900</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FW_HEAVY - 900</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> italic attribute option</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">italic attribute option</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">italic attribute option</mrk></target>
+<note>$bItalic</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> underline attribute option</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">underline attribute option</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">underline attribute option</mrk></target>
+<note>$bUnderline</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> strikeout attribute option</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">strikeout attribute option</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">strikeout attribute option</mrk></target>
+<note>$bStrikeout</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the character set. The following values are predefined:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the character set.</mrk> <mrk mid="2" mtype="seg">The following values are predefined:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the character set.</mrk> <mrk mid="2" mtype="seg">The following values are predefined:</mrk></target>
+<note>$iCharset</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> $ANSI_CHARSET - 0</source>
+<seg-source> <mrk mid="0" mtype="seg">$ANSI_CHARSET - 0</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$ANSI_CHARSET - 0</mrk></target>
+<note>$iCharset</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> $BALTIC_CHARSET - 186</source>
+<seg-source> <mrk mid="0" mtype="seg">$BALTIC_CHARSET - 186</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$BALTIC_CHARSET - 186</mrk></target>
+<note>$iCharset</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> $CHINESEBIG5_CHARSET - 136</source>
+<seg-source> <mrk mid="0" mtype="seg">$CHINESEBIG5_CHARSET - 136</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$CHINESEBIG5_CHARSET - 136</mrk></target>
+<note>$iCharset</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> $DEFAULT_CHARSET - 1</source>
+<seg-source> <mrk mid="0" mtype="seg">$DEFAULT_CHARSET - 1</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DEFAULT_CHARSET - 1</mrk></target>
+<note>$iCharset</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> $EASTEUROPE_CHARSET - 238</source>
+<seg-source> <mrk mid="0" mtype="seg">$EASTEUROPE_CHARSET - 238</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$EASTEUROPE_CHARSET - 238</mrk></target>
+<note>$iCharset</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> $GB2312_CHARSET - 134</source>
+<seg-source> <mrk mid="0" mtype="seg">$GB2312_CHARSET - 134</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$GB2312_CHARSET - 134</mrk></target>
+<note>$iCharset</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> $GREEK_CHARSET - 161</source>
+<seg-source> <mrk mid="0" mtype="seg">$GREEK_CHARSET - 161</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$GREEK_CHARSET - 161</mrk></target>
+<note>$iCharset</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> $HANGEUL_CHARSET - 129</source>
+<seg-source> <mrk mid="0" mtype="seg">$HANGEUL_CHARSET - 129</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$HANGEUL_CHARSET - 129</mrk></target>
+<note>$iCharset</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en"> $MAC_CHARSET - 77</source>
+<seg-source> <mrk mid="0" mtype="seg">$MAC_CHARSET - 77</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$MAC_CHARSET - 77</mrk></target>
+<note>$iCharset</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en"> $OEM_CHARSET - 255</source>
+<seg-source> <mrk mid="0" mtype="seg">$OEM_CHARSET - 255</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$OEM_CHARSET - 255</mrk></target>
+<note>$iCharset</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en"> $RUSSIAN_CHARSET - 204</source>
+<seg-source> <mrk mid="0" mtype="seg">$RUSSIAN_CHARSET - 204</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$RUSSIAN_CHARSET - 204</mrk></target>
+<note>$iCharset</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en"> $SHIFTJIS_CHARSET - 128</source>
+<seg-source> <mrk mid="0" mtype="seg">$SHIFTJIS_CHARSET - 128</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SHIFTJIS_CHARSET - 128</mrk></target>
+<note>$iCharset</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"> $SYMBOL_CHARSET - 2</source>
+<seg-source> <mrk mid="0" mtype="seg">$SYMBOL_CHARSET - 2</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SYMBOL_CHARSET - 2</mrk></target>
+<note>$iCharset</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en"> $TURKISH_CHARSET - 162</source>
+<seg-source> <mrk mid="0" mtype="seg">$TURKISH_CHARSET - 162</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TURKISH_CHARSET - 162</mrk></target>
+<note>$iCharset</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en"> $VIETNAMESE_CHARSET - 163</source>
+<seg-source> <mrk mid="0" mtype="seg">$VIETNAMESE_CHARSET - 163</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$VIETNAMESE_CHARSET - 163</mrk></target>
+<note>$iCharset</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the output precision, It can be one of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the output precision, It can be one of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the output precision, It can be one of the following values:</mrk></target>
+<note>$iOutputPrec</note>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en"> $OUT_CHARACTER_PRECIS - Not used</source>
+<seg-source> <mrk mid="0" mtype="seg">$OUT_CHARACTER_PRECIS - Not used</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$OUT_CHARACTER_PRECIS - Not used</mrk></target>
+<note>$iOutputPrec</note>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en"> $OUT_DEFAULT_PRECIS - Specifies the default font mapper behavior</source>
+<seg-source> <mrk mid="0" mtype="seg">$OUT_DEFAULT_PRECIS - Specifies the default font mapper behavior</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$OUT_DEFAULT_PRECIS - Specifies the default font mapper behavior</mrk></target>
+<note>$iOutputPrec</note>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en"> $OUT_DEVICE_PRECIS - Instructs the font mapper to choose a Device font when the system contains multiple fonts with the same name</source>
+<seg-source> <mrk mid="0" mtype="seg">$OUT_DEVICE_PRECIS - Instructs the font mapper to choose a Device font when the system contains multiple fonts with the same name</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$OUT_DEVICE_PRECIS - Instructs the font mapper to choose a Device font when the system contains multiple fonts with the same name</mrk></target>
+<note>$iOutputPrec</note>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en"> $OUT_OUTLINE_PRECIS - This value instructs the font mapper to choose from TrueType and other outline-based fonts</source>
+<seg-source> <mrk mid="0" mtype="seg">$OUT_OUTLINE_PRECIS - This value instructs the font mapper to choose from TrueType and other outline-based fonts</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$OUT_OUTLINE_PRECIS - This value instructs the font mapper to choose from TrueType and other outline-based fonts</mrk></target>
+<note>$iOutputPrec</note>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en"> $OUT_PS_ONLY_PRECIS - Instructs the font mapper to choose from only PostScript fonts.</source>
+<seg-source> <mrk mid="0" mtype="seg">$OUT_PS_ONLY_PRECIS - Instructs the font mapper to choose from only PostScript fonts.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$OUT_PS_ONLY_PRECIS - Instructs the font mapper to choose from only PostScript fonts.</mrk></target>
+<note>$iOutputPrec</note>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en"> If there are no PostScript fonts installed in the system, the font mapper returns to default behavior</source>
+<seg-source> <mrk mid="0" mtype="seg">If there are no PostScript fonts installed in the system, the font mapper returns to default behavior</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If there are no PostScript fonts installed in the system, the font mapper returns to default behavior</mrk></target>
+<note>$iOutputPrec</note>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en"> $OUT_RASTER_PRECIS - Instructs the font mapper to choose a raster font when the system contains multiple fonts with the same name</source>
+<seg-source> <mrk mid="0" mtype="seg">$OUT_RASTER_PRECIS - Instructs the font mapper to choose a raster font when the system contains multiple fonts with the same name</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$OUT_RASTER_PRECIS - Instructs the font mapper to choose a raster font when the system contains multiple fonts with the same name</mrk></target>
+<note>$iOutputPrec</note>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en"> $OUT_STRING_PRECIS - This value is not used by the font mapper, but it is returned when raster fonts are enumerated</source>
+<seg-source> <mrk mid="0" mtype="seg">$OUT_STRING_PRECIS - This value is not used by the font mapper, but it is returned when raster fonts are enumerated</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$OUT_STRING_PRECIS - This value is not used by the font mapper, but it is returned when raster fonts are enumerated</mrk></target>
+<note>$iOutputPrec</note>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en"> $OUT_STROKE_PRECIS - This value is not used by the font mapper, but it is returned when TrueType, other outline-based fonts, and vector fonts are enumerated</source>
+<seg-source> <mrk mid="0" mtype="seg">$OUT_STROKE_PRECIS - This value is not used by the font mapper, but it is returned when TrueType, other outline-based fonts, and vector fonts are enumerated</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$OUT_STROKE_PRECIS - This value is not used by the font mapper, but it is returned when TrueType, other outline-based fonts, and vector fonts are enumerated</mrk></target>
+<note>$iOutputPrec</note>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en"> $OUT_TT_ONLY_PRECIS - Instructs the font mapper to choose from only TrueType fonts. If there are no TrueType fonts installed in the system, the font mapper returns to default behavior</source>
+<seg-source> <mrk mid="0" mtype="seg">$OUT_TT_ONLY_PRECIS - Instructs the font mapper to choose from only TrueType fonts.</mrk> <mrk mid="1" mtype="seg">If there are no TrueType fonts installed in the system, the font mapper returns to default behavior</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$OUT_TT_ONLY_PRECIS - Instructs the font mapper to choose from only TrueType fonts.</mrk> <mrk mid="1" mtype="seg">If there are no TrueType fonts installed in the system, the font mapper returns to default behavior</mrk></target>
+<note>$iOutputPrec</note>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en"> $OUT_TT_PRECIS - Instructs the font mapper to choose a TrueType font when the system contains multiple fonts with the same name</source>
+<seg-source> <mrk mid="0" mtype="seg">$OUT_TT_PRECIS - Instructs the font mapper to choose a TrueType font when the system contains multiple fonts with the same name</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$OUT_TT_PRECIS - Instructs the font mapper to choose a TrueType font when the system contains multiple fonts with the same name</mrk></target>
+<note>$iOutputPrec</note>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the clipping precision, It can be one or more of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the clipping precision, It can be one or more of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the clipping precision, It can be one or more of the following values:</mrk></target>
+<note>$iClipPrec</note>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en"> $CLIP_CHARACTER_PRECIS - Not used</source>
+<seg-source> <mrk mid="0" mtype="seg">$CLIP_CHARACTER_PRECIS - Not used</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$CLIP_CHARACTER_PRECIS - Not used</mrk></target>
+<note>$iClipPrec</note>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en"> $CLIP_DEFAULT_PRECIS - Specifies default clipping behavior</source>
+<seg-source> <mrk mid="0" mtype="seg">$CLIP_DEFAULT_PRECIS - Specifies default clipping behavior</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$CLIP_DEFAULT_PRECIS - Specifies default clipping behavior</mrk></target>
+<note>$iClipPrec</note>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en"> $CLIP_EMBEDDED - You must specify this flag to use an embedded read-only font</source>
+<seg-source> <mrk mid="0" mtype="seg">$CLIP_EMBEDDED - You must specify this flag to use an embedded read-only font</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$CLIP_EMBEDDED - You must specify this flag to use an embedded read-only font</mrk></target>
+<note>$iClipPrec</note>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en"> $CLIP_LH_ANGLES - When this value is used, the rotation for all fonts depends on whether the orientation of the coordinate system is left-handed or right-handed.</source>
+<seg-source> <mrk mid="0" mtype="seg">$CLIP_LH_ANGLES - When this value is used, the rotation for all fonts depends on whether the orientation of the coordinate system is left-handed or right-handed.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$CLIP_LH_ANGLES - When this value is used, the rotation for all fonts depends on whether the orientation of the coordinate system is left-handed or right-handed.</mrk></target>
+<note>$iClipPrec</note>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en"> If not used, device fonts always rotate counterclockwise, but the rotation of other fonts is dependent on the orientation of the coordinate system.</source>
+<seg-source> <mrk mid="0" mtype="seg">If not used, device fonts always rotate counterclockwise, but the rotation of other fonts is dependent on the orientation of the coordinate system.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If not used, device fonts always rotate counterclockwise, but the rotation of other fonts is dependent on the orientation of the coordinate system.</mrk></target>
+<note>$iClipPrec</note>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en"> $CLIP_MASK - Not used</source>
+<seg-source> <mrk mid="0" mtype="seg">$CLIP_MASK - Not used</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$CLIP_MASK - Not used</mrk></target>
+<note>$iClipPrec</note>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en"> $CLIP_STROKE_PRECIS - Not used by the font mapper, but is returned when raster, vector, or TrueType fonts are enumerated</source>
+<seg-source> <mrk mid="0" mtype="seg">$CLIP_STROKE_PRECIS - Not used by the font mapper, but is returned when raster, vector, or TrueType fonts are enumerated</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$CLIP_STROKE_PRECIS - Not used by the font mapper, but is returned when raster, vector, or TrueType fonts are enumerated</mrk></target>
+<note>$iClipPrec</note>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en"> For compatibility, this value is always returned when enumerating fonts</source>
+<seg-source> <mrk mid="0" mtype="seg">For compatibility, this value is always returned when enumerating fonts</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For compatibility, this value is always returned when enumerating fonts</mrk></target>
+<note>$iClipPrec</note>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en"> $CLIP_TT_ALWAYS - Not used</source>
+<seg-source> <mrk mid="0" mtype="seg">$CLIP_TT_ALWAYS - Not used</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$CLIP_TT_ALWAYS - Not used</mrk></target>
+<note>$iClipPrec</note>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the output quality, It can be one of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the output quality, It can be one of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the output quality, It can be one of the following values:</mrk></target>
+<note>$iQuality</note>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en"> $ANTIALIASED_QUALITY - Font is antialiased, or smoothed, if the font supports it and the size of the font is not too small or too large.</source>
+<seg-source> <mrk mid="0" mtype="seg">$ANTIALIASED_QUALITY - Font is antialiased, or smoothed, if the font supports it and the size of the font is not too small or too large.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$ANTIALIASED_QUALITY - Font is antialiased, or smoothed, if the font supports it and the size of the font is not too small or too large.</mrk></target>
+<note>$iQuality</note>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en"> In addition, you must select a TrueType font into a screen DC prior to using it in a DIBSection, otherwise antialiasing does not happen</source>
+<seg-source> <mrk mid="0" mtype="seg">In addition, you must select a TrueType font into a screen DC prior to using it in a DIBSection, otherwise antialiasing does not happen</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">In addition, you must select a TrueType font into a screen DC prior to using it in a DIBSection, otherwise antialiasing does not happen</mrk></target>
+<note>$iQuality</note>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en"> $DEFAULT_QUALITY - Appearance of the font does not matter</source>
+<seg-source> <mrk mid="0" mtype="seg">$DEFAULT_QUALITY - Appearance of the font does not matter</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DEFAULT_QUALITY - Appearance of the font does not matter</mrk></target>
+<note>$iQuality</note>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en"> $DRAFT_QUALITY - Appearance of the font is less important than when the PROOF_QUALITY value is used.</source>
+<seg-source> <mrk mid="0" mtype="seg">$DRAFT_QUALITY - Appearance of the font is less important than when the PROOF_QUALITY value is used.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DRAFT_QUALITY - Appearance of the font is less important than when the PROOF_QUALITY value is used.</mrk></target>
+<note>$iQuality</note>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en"> For GDI raster fonts, scaling is enabled, which means that more font sizes are available, but the quality may be lower.</source>
+<seg-source> <mrk mid="0" mtype="seg">For GDI raster fonts, scaling is enabled, which means that more font sizes are available, but the quality may be lower.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For GDI raster fonts, scaling is enabled, which means that more font sizes are available, but the quality may be lower.</mrk></target>
+<note>$iQuality</note>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en"> Bold, italic, underline, and strikeout fonts are synthesized, if necessary</source>
+<seg-source> <mrk mid="0" mtype="seg">Bold, italic, underline, and strikeout fonts are synthesized, if necessary</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Bold, italic, underline, and strikeout fonts are synthesized, if necessary</mrk></target>
+<note>$iQuality</note>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en"> $NONANTIALIASED_QUALITY - Font is never antialiased, that is, font smoothing is not done</source>
+<seg-source> <mrk mid="0" mtype="seg">$NONANTIALIASED_QUALITY - Font is never antialiased, that is, font smoothing is not done</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$NONANTIALIASED_QUALITY - Font is never antialiased, that is, font smoothing is not done</mrk></target>
+<note>$iQuality</note>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en"> $PROOF_QUALITY - Character quality of the font is more important than exact matching of the logical-font attributes.</source>
+<seg-source> <mrk mid="0" mtype="seg">$PROOF_QUALITY - Character quality of the font is more important than exact matching of the logical-font attributes.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$PROOF_QUALITY - Character quality of the font is more important than exact matching of the logical-font attributes.</mrk></target>
+<note>$iQuality</note>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en"> For GDI raster fonts, scaling is disabled and the font closest in size is chosen.</source>
+<seg-source> <mrk mid="0" mtype="seg">For GDI raster fonts, scaling is disabled and the font closest in size is chosen.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For GDI raster fonts, scaling is disabled and the font closest in size is chosen.</mrk></target>
+<note>$iQuality</note>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en"> Although the chosen font size may not be mapped exactly when PROOF_QUALITY is used, the quality of the font is high and there is no distortion of appearance.</source>
+<seg-source> <mrk mid="0" mtype="seg">Although the chosen font size may not be mapped exactly when PROOF_QUALITY is used, the quality of the font is high and there is no distortion of appearance.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Although the chosen font size may not be mapped exactly when PROOF_QUALITY is used, the quality of the font is high and there is no distortion of appearance.</mrk></target>
+<note>$iQuality</note>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en"> Bold, italic, underline, and strikeout fonts are synthesized, if necessary</source>
+<seg-source> <mrk mid="0" mtype="seg">Bold, italic, underline, and strikeout fonts are synthesized, if necessary</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Bold, italic, underline, and strikeout fonts are synthesized, if necessary</mrk></target>
+<note>$iQuality</note>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the pitch and family of the font. The two low-order bits specify the pitch of the font and can be one of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the pitch and family of the font.</mrk> <mrk mid="2" mtype="seg">The two low-order bits specify the pitch of the font and can be one of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the pitch and family of the font.</mrk> <mrk mid="2" mtype="seg">The two low-order bits specify the pitch of the font and can be one of the following values:</mrk></target>
+<note>$iPitch</note>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en"> $DEFAULT_PITCH, $FIXED_PITCH, $VARIABLE_PITCH</source>
+<seg-source> <mrk mid="0" mtype="seg">$DEFAULT_PITCH, $FIXED_PITCH, $VARIABLE_PITCH</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$DEFAULT_PITCH, $FIXED_PITCH, $VARIABLE_PITCH</mrk></target>
+<note>$iPitch</note>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en"> The four high-order bits specify the font family and can be one of the following values:</source>
+<seg-source> <mrk mid="0" mtype="seg">The four high-order bits specify the font family and can be one of the following values:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The four high-order bits specify the font family and can be one of the following values:</mrk></target>
+<note>$iPitch</note>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en"> $FF_DECORATIVE - Novelty fonts. Old English is an example</source>
+<seg-source> <mrk mid="0" mtype="seg">$FF_DECORATIVE - Novelty fonts.</mrk> <mrk mid="1" mtype="seg">Old English is an example</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FF_DECORATIVE - Novelty fonts.</mrk> <mrk mid="1" mtype="seg">Old English is an example</mrk></target>
+<note>$iPitch</note>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en"> $FF_DONTCARE - Use default font</source>
+<seg-source> <mrk mid="0" mtype="seg">$FF_DONTCARE - Use default font</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FF_DONTCARE - Use default font</mrk></target>
+<note>$iPitch</note>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en"> $FF_MODERN - Fonts with constant stroke width, with or without serifs. Pica, Elite, and Courier New are examples</source>
+<seg-source> <mrk mid="0" mtype="seg">$FF_MODERN - Fonts with constant stroke width, with or without serifs.</mrk> <mrk mid="1" mtype="seg">Pica, Elite, and Courier New are examples</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FF_MODERN - Fonts with constant stroke width, with or without serifs.</mrk> <mrk mid="1" mtype="seg">Pica, Elite, and Courier New are examples</mrk></target>
+<note>$iPitch</note>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en"> $FF_ROMAN - Fonts with variable stroke width and with serifs. MS Serif is an example</source>
+<seg-source> <mrk mid="0" mtype="seg">$FF_ROMAN - Fonts with variable stroke width and with serifs.</mrk> <mrk mid="1" mtype="seg">MS Serif is an example</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FF_ROMAN - Fonts with variable stroke width and with serifs.</mrk> <mrk mid="1" mtype="seg">MS Serif is an example</mrk></target>
+<note>$iPitch</note>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en"> $FF_SCRIPT - Fonts designed to look like handwriting. Script and Cursive are examples</source>
+<seg-source> <mrk mid="0" mtype="seg">$FF_SCRIPT - Fonts designed to look like handwriting.</mrk> <mrk mid="1" mtype="seg">Script and Cursive are examples</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FF_SCRIPT - Fonts designed to look like handwriting.</mrk> <mrk mid="1" mtype="seg">Script and Cursive are examples</mrk></target>
+<note>$iPitch</note>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en"> $FF_SWISS - Fonts with variable stroke width and without serifs. MS Sans Serif is an example</source>
+<seg-source> <mrk mid="0" mtype="seg">$FF_SWISS - Fonts with variable stroke width and without serifs.</mrk> <mrk mid="1" mtype="seg">MS Sans Serif is an example</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$FF_SWISS - Fonts with variable stroke width and without serifs.</mrk> <mrk mid="1" mtype="seg">MS Sans Serif is an example</mrk></target>
+<note>$iPitch</note>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> typeface name</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">typeface name</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">typeface name</mrk></target>
+<note>$sFace</note>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">The handle to a logical font</source>
+<seg-source><mrk mid="0" mtype="seg">The handle to a logical font</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The handle to a logical font</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">0</source>
+<seg-source><mrk mid="0" mtype="seg">0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">When you no longer need the font, call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteObject.htm"></bpt>_WinAPI_DeleteObject()<ept id="1">&lt;/a></ept> function to delete it</source>
+<seg-source><mrk mid="0" mtype="seg">When you no longer need the font, call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteObject.htm"></bpt>_WinAPI_DeleteObject()<ept id="1">&lt;/a></ept> function to delete it</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When you no longer need the font, call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteObject.htm"></bpt>_WinAPI_DeleteObject()<ept id="1">&lt;/a></ept> function to delete it</mrk></target>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en"> Above constants require #include &lt;FontConstants.au3></source>
+<seg-source> <mrk mid="0" mtype="seg">Above constants require #include &lt;FontConstants.au3></mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Above constants require #include &lt;FontConstants.au3></mrk></target>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateFont);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateFont<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateFont);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateFont<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateFont);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateFont<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">_Exit</source>
+<seg-source><mrk mid="0" mtype="seg">_Exit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_Exit</mrk></target>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en">Left</source>
+<seg-source><mrk mid="0" mtype="seg">Left</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Left</mrk></target>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en">Top</source>
+<seg-source><mrk mid="0" mtype="seg">Top</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Top</mrk></target>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en">Right</source>
+<seg-source><mrk mid="0" mtype="seg">Right</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Right</mrk></target>
+</trans-unit>
+<trans-unit id="94">
+<source xml:lang="en">Bottom</source>
+<seg-source><mrk mid="0" mtype="seg">Bottom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bottom</mrk></target>
+</trans-unit>
+<trans-unit id="95">
+<source xml:lang="en">Arial</source>
+<seg-source><mrk mid="0" mtype="seg">Arial</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Arial</mrk></target>
+</trans-unit>
+<trans-unit id="96">
+<source xml:lang="en">comment next line to get black background instead of transparent one</source>
+<seg-source><mrk mid="0" mtype="seg">comment next line to get black background instead of transparent one</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">comment next line to get black background instead of transparent one</mrk></target>
+</trans-unit>
+<trans-unit id="97">
+<source xml:lang="en">Hello world!</source>
+<seg-source><mrk mid="0" mtype="seg">Hello world!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hello world!</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

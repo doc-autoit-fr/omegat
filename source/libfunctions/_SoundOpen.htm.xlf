@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_SoundOpen.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Opens a sound file for use with other _Sound functions</source>
+<seg-source><mrk mid="0" mtype="seg">Opens a sound file for use with other _Sound functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Opens a sound file for use with other _Sound functions</mrk></target>
+<note>Function _SoundOpen</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Path to sound file</source>
+<seg-source><mrk mid="0" mtype="seg">Path to sound file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Path to sound file</mrk></target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">a 4-element array containing the following information:</source>
+<seg-source><mrk mid="0" mtype="seg">a 4-element array containing the following information:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a 4-element array containing the following information:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $aArray[0] = Sound file ID string</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[0] = Sound file ID string</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[0] = Sound file ID string</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $aArray[1] = VBR length correction factor</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[1] = VBR length correction factor</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[1] = VBR length correction factor</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $aArray[2] = VBR timing correction factor</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[2] = VBR timing correction factor</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[2] = VBR timing correction factor</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $aArray[3] = Sound ID marker</source>
+<seg-source> <mrk mid="0" mtype="seg">    $aArray[3] = Sound ID marker</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $aArray[3] = Sound ID marker</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">1 - MCI open error</source>
+<seg-source><mrk mid="0" mtype="seg">1 - MCI open error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - MCI open error</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> 2 - File does not exist</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - File does not exist</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - File does not exist</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">@extended:</source>
+<seg-source><mrk mid="0" mtype="seg">@extended:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@extended:</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Integer other than 0 = MCI Error</source>
+<seg-source><mrk mid="0" mtype="seg">Integer other than 0 = MCI Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Integer other than 0 = MCI Error</mrk></target>
+<note>@extended:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Although many of the _Sound...() functions will accept the filename as a parameter, if there is a possibility of the file being VBR (variable bit rate) encoded it is highly recommended to use <bpt id="1" ctype="x-a">&lt;a href="_SoundOpen.htm"></bpt>_SoundOpen()<ept id="1">&lt;/a></ept> initially and then use the returned array as the identity parameter in other _Sound...() functions. This is because the MCI DLL assumes all files are CBR (constant bit rate) encoded and produces incorrect results from those _Sound...() functions dealing with length and position when the sound file has been VBR (variable bit rate) encoded. If using the array as the ID parameter with the _Sound...() functions which alter the VBR correction factors (<bpt id="1" ctype="x-a">&lt;a href="_SoundStop.htm"></bpt>_SoundStop()<ept id="1">&lt;/a></ept>) the ID array will be updated when needed.</source>
+<seg-source><mrk mid="0" mtype="seg">Although many of the _Sound...() functions will accept the filename as a parameter, if there is a possibility of the file being VBR (variable bit rate) encoded it is highly recommended to use <bpt id="1" ctype="x-a">&lt;a href="_SoundOpen.htm"></bpt>_SoundOpen()<ept id="1">&lt;/a></ept> initially and then use the returned array as the identity parameter in other _Sound...() functions.</mrk> <mrk mid="1" mtype="seg">This is because the MCI DLL assumes all files are CBR (constant bit rate) encoded and produces incorrect results from those _Sound...() functions dealing with length and position when the sound file has been VBR (variable bit rate) encoded.</mrk> <mrk mid="2" mtype="seg">If using the array as the ID parameter with the _Sound...() functions which alter the VBR correction factors (<bpt id="1" ctype="x-a">&lt;a href="_SoundStop.htm"></bpt>_SoundStop()<ept id="1">&lt;/a></ept>) the ID array will be updated when needed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Although many of the _Sound...() functions will accept the filename as a parameter, if there is a possibility of the file being VBR (variable bit rate) encoded it is highly recommended to use <bpt id="1" ctype="x-a">&lt;a href="_SoundOpen.htm"></bpt>_SoundOpen()<ept id="1">&lt;/a></ept> initially and then use the returned array as the identity parameter in other _Sound...() functions.</mrk> <mrk mid="1" mtype="seg">This is because the MCI DLL assumes all files are CBR (constant bit rate) encoded and produces incorrect results from those _Sound...() functions dealing with length and position when the sound file has been VBR (variable bit rate) encoded.</mrk> <mrk mid="2" mtype="seg">If using the array as the ID parameter with the _Sound...() functions which alter the VBR correction factors (<bpt id="1" ctype="x-a">&lt;a href="_SoundStop.htm"></bpt>_SoundStop()<ept id="1">&lt;/a></ept>) the ID array will be updated when needed.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> The individual elements of the returned array have no utility outside the _Sound functions and their internal use is transparent to the user.</source>
+<seg-source> <mrk mid="0" mtype="seg">The individual elements of the returned array have no utility outside the _Sound functions and their internal use is transparent to the user.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The individual elements of the returned array have no utility outside the _Sound functions and their internal use is transparent to the user.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">\media\tada.wav</source>
+<seg-source><mrk mid="0" mtype="seg">\media\tada.wav</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\media\tada.wav</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">The file does not exist</source>
+<seg-source><mrk mid="0" mtype="seg">The file does not exist</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The file does not exist</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Assign because @extended will be set after DllStructCreate().</source>
+<seg-source><mrk mid="0" mtype="seg">Assign because @extended will be set after DllStructCreate().</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign because @extended will be set after DllStructCreate().</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">char[128]</source>
+<seg-source><mrk mid="0" mtype="seg">char[128]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">char[128]</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">winmm.dll</source>
+<seg-source><mrk mid="0" mtype="seg">winmm.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">winmm.dll</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">short</source>
+<seg-source><mrk mid="0" mtype="seg">short</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">short</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">mciGetErrorStringA</source>
+<seg-source><mrk mid="0" mtype="seg">mciGetErrorStringA</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">mciGetErrorStringA</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">str</source>
+<seg-source><mrk mid="0" mtype="seg">str</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">str</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">struct*</source>
+<seg-source><mrk mid="0" mtype="seg">struct*</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">struct*</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">The open failed.</source>
+<seg-source><mrk mid="0" mtype="seg">The open failed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The open failed.</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Error Number:</source>
+<seg-source><mrk mid="0" mtype="seg">Error Number:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error Number:</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Error Description:</source>
+<seg-source><mrk mid="0" mtype="seg">Error Description:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error Description:</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Please Note: The sound may still play correctly.</source>
+<seg-source><mrk mid="0" mtype="seg">Please Note:</mrk> <mrk mid="1" mtype="seg">The sound may still play correctly.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Please Note:</mrk> <mrk mid="1" mtype="seg">The sound may still play correctly.</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Success</source>
+<seg-source><mrk mid="0" mtype="seg">Success</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Success</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">The file opened successfully</source>
+<seg-source><mrk mid="0" mtype="seg">The file opened successfully</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The file opened successfully</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

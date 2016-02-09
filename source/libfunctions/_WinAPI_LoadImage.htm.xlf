@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_LoadImage.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Loads an icon, cursor, or bitmap</source>
+<seg-source><mrk mid="0" mtype="seg">Loads an icon, cursor, or bitmap</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loads an icon, cursor, or bitmap</mrk></target>
+<note>Function _WinAPI_LoadImage</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Identifies an instance of the module that contains the image to be loaded. To load an OEM</source>
+<seg-source><mrk mid="0" mtype="seg">Identifies an instance of the module that contains the image to be loaded.</mrk> <mrk mid="1" mtype="seg">To load an OEM</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Identifies an instance of the module that contains the image to be loaded.</mrk> <mrk mid="1" mtype="seg">To load an OEM</mrk></target>
+<note>$hInstance</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> image, set this parameter to zero.</source>
+<seg-source> <mrk mid="0" mtype="seg">image, set this parameter to zero.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">image, set this parameter to zero.</mrk></target>
+<note>$hInstance</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Identifies the image to load. If the $hInstance parameter is not 0 and the $iLoad parameter</source>
+<seg-source><mrk mid="0" mtype="seg">Identifies the image to load.</mrk> <mrk mid="1" mtype="seg">If the $hInstance parameter is not 0 and the $iLoad parameter</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Identifies the image to load.</mrk> <mrk mid="1" mtype="seg">If the $hInstance parameter is not 0 and the $iLoad parameter</mrk></target>
+<note>$sImage</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> does not include $LR_LOADFROMFILE $sImage is a string that contains the name of the image resource in the</source>
+<seg-source> <mrk mid="0" mtype="seg">does not include $LR_LOADFROMFILE $sImage is a string that contains the name of the image resource in the</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">does not include $LR_LOADFROMFILE $sImage is a string that contains the name of the image resource in the</mrk></target>
+<note>$sImage</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $hInstance module. If $hInstance is 0 and $LR_LOADFROMFILE is not specified, the low-order word of this</source>
+<seg-source> <mrk mid="0" mtype="seg">$hInstance module.</mrk> <mrk mid="1" mtype="seg">If $hInstance is 0 and $LR_LOADFROMFILE is not specified, the low-order word of this</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$hInstance module.</mrk> <mrk mid="1" mtype="seg">If $hInstance is 0 and $LR_LOADFROMFILE is not specified, the low-order word of this</mrk></target>
+<note>$sImage</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> parameter must be the identifier of the OEM image to load.</source>
+<seg-source> <mrk mid="0" mtype="seg">parameter must be the identifier of the OEM image to load.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">parameter must be the identifier of the OEM image to load.</mrk></target>
+<note>$sImage</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Specifies the type of image to be loaded. This parameter can be one of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the type of image to be loaded.</mrk> <mrk mid="1" mtype="seg">This parameter can be one of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the type of image to be loaded.</mrk> <mrk mid="1" mtype="seg">This parameter can be one of the following values:</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> $IMAGE_BITMAP - Loads a bitmap</source>
+<seg-source> <mrk mid="0" mtype="seg">$IMAGE_BITMAP - Loads a bitmap</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$IMAGE_BITMAP - Loads a bitmap</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> $IMAGE_CURSOR - Loads a cursor</source>
+<seg-source> <mrk mid="0" mtype="seg">$IMAGE_CURSOR - Loads a cursor</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$IMAGE_CURSOR - Loads a cursor</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> $IMAGE_ICON - Loads an icon</source>
+<seg-source> <mrk mid="0" mtype="seg">$IMAGE_ICON - Loads an icon</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$IMAGE_ICON - Loads an icon</mrk></target>
+<note>$iType</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Specifies the width, in pixels, of the icon or cursor. If this is 0</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the width, in pixels, of the icon or cursor.</mrk> <mrk mid="1" mtype="seg">If this is 0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the width, in pixels, of the icon or cursor.</mrk> <mrk mid="1" mtype="seg">If this is 0</mrk></target>
+<note>$iXDesired</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> and $iLoad is $LR_DEFAULTSIZE the function uses the SM_CXICON or SM_CXCURSOR system</source>
+<seg-source> <mrk mid="0" mtype="seg">and $iLoad is $LR_DEFAULTSIZE the function uses the SM_CXICON or SM_CXCURSOR system</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">and $iLoad is $LR_DEFAULTSIZE the function uses the SM_CXICON or SM_CXCURSOR system</mrk></target>
+<note>$iXDesired</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> metric value to set the width. If this parameter is 0 and $LR_DEFAULTSIZE is not</source>
+<seg-source> <mrk mid="0" mtype="seg">metric value to set the width.</mrk> <mrk mid="1" mtype="seg">If this parameter is 0 and $LR_DEFAULTSIZE is not</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">metric value to set the width.</mrk> <mrk mid="1" mtype="seg">If this parameter is 0 and $LR_DEFAULTSIZE is not</mrk></target>
+<note>$iXDesired</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> used, the function uses the actual resource width.</source>
+<seg-source> <mrk mid="0" mtype="seg">used, the function uses the actual resource width.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">used, the function uses the actual resource width.</mrk></target>
+<note>$iXDesired</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Specifies the height, in pixels, of the icon or cursor. If this is 0</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the height, in pixels, of the icon or cursor.</mrk> <mrk mid="1" mtype="seg">If this is 0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the height, in pixels, of the icon or cursor.</mrk> <mrk mid="1" mtype="seg">If this is 0</mrk></target>
+<note>$iYDesired</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> and $iLoad is $LR_DEFAULTSIZE the function uses the SM_CYICON or SM_CYCURSOR system</source>
+<seg-source> <mrk mid="0" mtype="seg">and $iLoad is $LR_DEFAULTSIZE the function uses the SM_CYICON or SM_CYCURSOR system</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">and $iLoad is $LR_DEFAULTSIZE the function uses the SM_CYICON or SM_CYCURSOR system</mrk></target>
+<note>$iYDesired</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> metric value to set the height. If this parameter is 0 and $LR_DEFAULTSIZE is not</source>
+<seg-source> <mrk mid="0" mtype="seg">metric value to set the height.</mrk> <mrk mid="1" mtype="seg">If this parameter is 0 and $LR_DEFAULTSIZE is not</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">metric value to set the height.</mrk> <mrk mid="1" mtype="seg">If this parameter is 0 and $LR_DEFAULTSIZE is not</mrk></target>
+<note>$iYDesired</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> used, the function uses the actual resource height.</source>
+<seg-source> <mrk mid="0" mtype="seg">used, the function uses the actual resource height.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">used, the function uses the actual resource height.</mrk></target>
+<note>$iYDesired</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Specifies a combination of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies a combination of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies a combination of the following values:</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> $LR_DEFAULTCOLOR - The default flag</source>
+<seg-source> <mrk mid="0" mtype="seg">$LR_DEFAULTCOLOR - The default flag</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$LR_DEFAULTCOLOR - The default flag</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> $LR_CREATEDIBSECTION - When the $iType parameter specifies $IMAGE_BITMAP, causes the function to return a DIB</source>
+<seg-source> <mrk mid="0" mtype="seg">$LR_CREATEDIBSECTION - When the $iType parameter specifies $IMAGE_BITMAP, causes the function to return a DIB</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$LR_CREATEDIBSECTION - When the $iType parameter specifies $IMAGE_BITMAP, causes the function to return a DIB</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> section bitmap rather than a compatible bitmap. This flag is useful for loading a bitmap without mapping it</source>
+<seg-source> <mrk mid="0" mtype="seg">section bitmap rather than a compatible bitmap.</mrk> <mrk mid="1" mtype="seg">This flag is useful for loading a bitmap without mapping it</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">section bitmap rather than a compatible bitmap.</mrk> <mrk mid="1" mtype="seg">This flag is useful for loading a bitmap without mapping it</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> to the colors of the display device.</source>
+<seg-source> <mrk mid="0" mtype="seg">to the colors of the display device.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">to the colors of the display device.</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> $LR_DEFAULTSIZE - Uses the width or height specified by the system metric values for cursors or icons if</source>
+<seg-source> <mrk mid="0" mtype="seg">$LR_DEFAULTSIZE - Uses the width or height specified by the system metric values for cursors or icons if</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$LR_DEFAULTSIZE - Uses the width or height specified by the system metric values for cursors or icons if</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en"> the $iXDesired or $iYDesired values are set to 0. If this flag is not specified and $iXDesired and $iYDesired</source>
+<seg-source> <mrk mid="0" mtype="seg">the $iXDesired or $iYDesired values are set to 0.</mrk> <mrk mid="1" mtype="seg">If this flag is not specified and $iXDesired and $iYDesired</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">the $iXDesired or $iYDesired values are set to 0.</mrk> <mrk mid="1" mtype="seg">If this flag is not specified and $iXDesired and $iYDesired</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> are set to zero, the function uses the actual resource size. If the resource contains multiple images the</source>
+<seg-source> <mrk mid="0" mtype="seg">are set to zero, the function uses the actual resource size.</mrk> <mrk mid="1" mtype="seg">If the resource contains multiple images the</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">are set to zero, the function uses the actual resource size.</mrk> <mrk mid="1" mtype="seg">If the resource contains multiple images the</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> function uses the size of the first image.</source>
+<seg-source> <mrk mid="0" mtype="seg">function uses the size of the first image.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">function uses the size of the first image.</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en"> $LR_LOADFROMFILE - Loads the image from the file specified by the $sImage parameter. If this flag is not</source>
+<seg-source> <mrk mid="0" mtype="seg">$LR_LOADFROMFILE - Loads the image from the file specified by the $sImage parameter.</mrk> <mrk mid="1" mtype="seg">If this flag is not</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$LR_LOADFROMFILE - Loads the image from the file specified by the $sImage parameter.</mrk> <mrk mid="1" mtype="seg">If this flag is not</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en"> specified, $sImage is the name of the resource.</source>
+<seg-source> <mrk mid="0" mtype="seg">specified, $sImage is the name of the resource.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">specified, $sImage is the name of the resource.</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en"> $LR_LOADMAP3DCOLORS - Searches the color table for the image and replaces the following shades of gray with</source>
+<seg-source> <mrk mid="0" mtype="seg">$LR_LOADMAP3DCOLORS - Searches the color table for the image and replaces the following shades of gray with</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$LR_LOADMAP3DCOLORS - Searches the color table for the image and replaces the following shades of gray with</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en"> the corresponding 3D color:</source>
+<seg-source> <mrk mid="0" mtype="seg">the corresponding 3D color:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">the corresponding 3D color:</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"> Dk Gray: RGB(128,128,128) COLOR_3DSHADOW</source>
+<seg-source> <mrk mid="0" mtype="seg">Dk Gray:</mrk> <mrk mid="1" mtype="seg">RGB(128,128,128) COLOR_3DSHADOW</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Dk Gray:</mrk> <mrk mid="1" mtype="seg">RGB(128,128,128) COLOR_3DSHADOW</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en"> Gray : RGB(192,192,192) COLOR_3DFACE</source>
+<seg-source> <mrk mid="0" mtype="seg">Gray :</mrk> <mrk mid="1" mtype="seg">RGB(192,192,192) COLOR_3DFACE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Gray :</mrk> <mrk mid="1" mtype="seg">RGB(192,192,192) COLOR_3DFACE</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en"> Lt Gray: RGB(223,223,223) COLOR_3DLIGHT</source>
+<seg-source> <mrk mid="0" mtype="seg">Lt Gray:</mrk> <mrk mid="1" mtype="seg">RGB(223,223,223) COLOR_3DLIGHT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Lt Gray:</mrk> <mrk mid="1" mtype="seg">RGB(223,223,223) COLOR_3DLIGHT</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en"> $LR_LOADTRANSPARENT - Gets the color value of the first pixel in the image and replaces the corresponding</source>
+<seg-source> <mrk mid="0" mtype="seg">$LR_LOADTRANSPARENT - Gets the color value of the first pixel in the image and replaces the corresponding</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$LR_LOADTRANSPARENT - Gets the color value of the first pixel in the image and replaces the corresponding</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en"> entry in the color table with the default window color. All pixels in the image that use that entry become</source>
+<seg-source> <mrk mid="0" mtype="seg">entry in the color table with the default window color.</mrk> <mrk mid="1" mtype="seg">All pixels in the image that use that entry become</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">entry in the color table with the default window color.</mrk> <mrk mid="1" mtype="seg">All pixels in the image that use that entry become</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en"> the default window color. This value applies only to images that have corresponding color tables. If $iLoad</source>
+<seg-source> <mrk mid="0" mtype="seg">the default window color.</mrk> <mrk mid="1" mtype="seg">This value applies only to images that have corresponding color tables.</mrk> <mrk mid="2" mtype="seg">If $iLoad</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">the default window color.</mrk> <mrk mid="1" mtype="seg">This value applies only to images that have corresponding color tables.</mrk> <mrk mid="2" mtype="seg">If $iLoad</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en"> includes both the $LR_LOADTRANSPARENT and $LR_LOADMAP3DCOLORS values, $LRLOADTRANSPARENT takes precedence.</source>
+<seg-source> <mrk mid="0" mtype="seg">includes both the $LR_LOADTRANSPARENT and $LR_LOADMAP3DCOLORS values, $LRLOADTRANSPARENT takes precedence.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">includes both the $LR_LOADTRANSPARENT and $LR_LOADMAP3DCOLORS values, $LRLOADTRANSPARENT takes precedence.</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en"> However, the color table entry is replaced with COLOR_3DFACE rather than COLOR_WINDOW.</source>
+<seg-source> <mrk mid="0" mtype="seg">However, the color table entry is replaced with COLOR_3DFACE rather than COLOR_WINDOW.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">However, the color table entry is replaced with COLOR_3DFACE rather than COLOR_WINDOW.</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en"> $LR_MONOCHROME - Loads the image in black and white</source>
+<seg-source> <mrk mid="0" mtype="seg">$LR_MONOCHROME - Loads the image in black and white</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$LR_MONOCHROME - Loads the image in black and white</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en"> $LR_SHARED - Shares the image handle if the image is loaded multiple times. If LR_SHARED is not set,</source>
+<seg-source> <mrk mid="0" mtype="seg">$LR_SHARED - Shares the image handle if the image is loaded multiple times.</mrk> <mrk mid="1" mtype="seg">If LR_SHARED is not set,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$LR_SHARED - Shares the image handle if the image is loaded multiple times.</mrk> <mrk mid="1" mtype="seg">If LR_SHARED is not set,</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en"> a second call to LoadImage for the same resource will load the image again and return a different handle. Do</source>
+<seg-source> <mrk mid="0" mtype="seg">a second call to LoadImage for the same resource will load the image again and return a different handle.</mrk> <mrk mid="1" mtype="seg">Do</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">a second call to LoadImage for the same resource will load the image again and return a different handle.</mrk> <mrk mid="1" mtype="seg">Do</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en"> not use $LR_SHARED for images that have non-standard sizes, that may change after loading, or that are loaded</source>
+<seg-source> <mrk mid="0" mtype="seg">not use $LR_SHARED for images that have non-standard sizes, that may change after loading, or that are loaded</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">not use $LR_SHARED for images that have non-standard sizes, that may change after loading, or that are loaded</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en"> from a file.</source>
+<seg-source> <mrk mid="0" mtype="seg">from a file.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">from a file.</mrk></target>
+<note>$iLoad</note>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">The handle of the newly loaded image</source>
+<seg-source><mrk mid="0" mtype="seg">The handle of the newly loaded image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The handle of the newly loaded image</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en"> 0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information </source>
+<seg-source> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Above constants require #include &lt;WinAPIConstants.au3></source>
+<seg-source><mrk mid="0" mtype="seg">Above constants require #include &lt;WinAPIConstants.au3></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Above constants require #include &lt;WinAPIConstants.au3></mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(LoadImage);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>LoadImage<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(LoadImage);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>LoadImage<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(LoadImage);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>LoadImage<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

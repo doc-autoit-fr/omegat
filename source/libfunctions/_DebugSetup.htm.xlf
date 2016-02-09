@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_DebugSetup.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Setup up a debug session using a specific reporting type</source>
+<seg-source><mrk mid="0" mtype="seg">Setup up a debug session using a specific reporting type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Setup up a debug session using a specific reporting type</mrk></target>
+<note>Function _DebugSetup</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Title to be displayed on the report window. Default value is "AutoIt Debug Report".</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Title to be displayed on the report window.</mrk> <mrk mid="2" mtype="seg">Default value is "AutoIt Debug Report".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Title to be displayed on the report window.</mrk> <mrk mid="2" mtype="seg">Default value is "AutoIt Debug Report".</mrk></target>
+<note>$sTitle</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Display BugReport infos. Default value is False.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Display BugReport infos.</mrk> <mrk mid="2" mtype="seg">Default value is False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Display BugReport infos.</mrk> <mrk mid="2" mtype="seg">Default value is False.</mrk></target>
+<note>$bBugReportInfos</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> 1 - Report Log Window (Default).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">1 - Report Log Window (Default).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">1 - Report Log Window (Default).</mrk></target>
+<note>$vReportType</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> 2 - ConsoleWrite.</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - ConsoleWrite.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - ConsoleWrite.</mrk></target>
+<note>$vReportType</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> 3 - MsgBox.</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - MsgBox.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - MsgBox.</mrk></target>
+<note>$vReportType</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> 4 - FileWrite into $sLogFile defines the filename.</source>
+<seg-source> <mrk mid="0" mtype="seg">4 - FileWrite into $sLogFile defines the filename.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 - FileWrite into $sLogFile defines the filename.</mrk></target>
+<note>$vReportType</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> 5 - Report Notepad Window.</source>
+<seg-source> <mrk mid="0" mtype="seg">5 - Report Notepad Window.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">5 - Report Notepad Window.</mrk></target>
+<note>$vReportType</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> string - name of specific report function to be used.</source>
+<seg-source> <mrk mid="0" mtype="seg">string - name of specific report function to be used.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">string - name of specific report function to be used.</mrk></target>
+<note>$vReportType</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Name of the file if $vReportType = 4</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Name of the file if $vReportType = 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Name of the file if $vReportType = 4</mrk></target>
+<note>$sLogFile</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> True if every message must be prefixed with a timeStamp "YYYY/MM/DD HH:MM:SS"</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True if every message must be prefixed with a timeStamp "YYYY/MM/DD HH:MM:SS"</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">True if every message must be prefixed with a timeStamp "YYYY/MM/DD HH:MM:SS"</mrk></target>
+<note>$bTimeStamp</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">the report type.</source>
+<seg-source><mrk mid="0" mtype="seg">the report type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the report type.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">1 - if already called</source>
+<seg-source><mrk mid="0" mtype="seg">1 - if already called</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - if already called</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> 2 - invalid report type</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - invalid report type</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - invalid report type</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> 3 - invalid CallBack function</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - invalid CallBack function</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - invalid CallBack function</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">If a specific reporting function is registered then on AutoIt exit it is called without parameters.</source>
+<seg-source><mrk mid="0" mtype="seg">If a specific reporting function is registered then on AutoIt exit it is called without parameters.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a specific reporting function is registered then on AutoIt exit it is called without parameters.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> You can only start one debug session at a time in the running script.</source>
+<seg-source> <mrk mid="0" mtype="seg">You can only start one debug session at a time in the running script.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">You can only start one debug session at a time in the running script.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> You can debug several concurrent scripts using the same debugging session, just use the same $sTitle when calling <bpt id="1" ctype="x-a">&lt;a href="_DebugSetup.htm"></bpt>_DebugSetup()<ept id="1">&lt;/a></ept>. All <bpt id="1" ctype="x-a">&lt;a href="_DebugOut.htm"></bpt>_DebugOut()<ept id="1">&lt;/a></ept> will go to the same debugging session.</source>
+<seg-source> <mrk mid="0" mtype="seg">You can debug several concurrent scripts using the same debugging session, just use the same $sTitle when calling <bpt id="1" ctype="x-a">&lt;a href="_DebugSetup.htm"></bpt>_DebugSetup()<ept id="1">&lt;/a></ept>.</mrk> <mrk mid="1" mtype="seg">All <bpt id="1" ctype="x-a">&lt;a href="_DebugOut.htm"></bpt>_DebugOut()<ept id="1">&lt;/a></ept> will go to the same debugging session.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">You can debug several concurrent scripts using the same debugging session, just use the same $sTitle when calling <bpt id="1" ctype="x-a">&lt;a href="_DebugSetup.htm"></bpt>_DebugSetup()<ept id="1">&lt;/a></ept>.</mrk> <mrk mid="1" mtype="seg">All <bpt id="1" ctype="x-a">&lt;a href="_DebugOut.htm"></bpt>_DebugOut()<ept id="1">&lt;/a></ept> will go to the same debugging session.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> Commenting out the <bpt id="1" ctype="x-a">&lt;a href="_DebugSetup.htm"></bpt>_DebugSetup()<ept id="1">&lt;/a></ept> call will effectively disable all the calls to _Debug...(), but you may want to remove the calls to all _Debug...() functions before making a release version of your script.</source>
+<seg-source> <mrk mid="0" mtype="seg">Commenting out the <bpt id="1" ctype="x-a">&lt;a href="_DebugSetup.htm"></bpt>_DebugSetup()<ept id="1">&lt;/a></ept> call will effectively disable all the calls to _Debug...(), but you may want to remove the calls to all _Debug...() functions before making a release version of your script.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Commenting out the <bpt id="1" ctype="x-a">&lt;a href="_DebugSetup.htm"></bpt>_DebugSetup()<ept id="1">&lt;/a></ept> call will effectively disable all the calls to _Debug...(), but you may want to remove the calls to all _Debug...() functions before making a release version of your script.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> If the "Report Log Window" type is used then the script will end only when closing the report window.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the "Report Log Window" type is used then the script will end only when closing the report window.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the "Report Log Window" type is used then the script will end only when closing the report window.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Check Excel</source>
+<seg-source><mrk mid="0" mtype="seg">Check Excel</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check Excel</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">start displaying debug environment</source>
+<seg-source><mrk mid="0" mtype="seg">start displaying debug environment</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">start displaying debug environment</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Microsoft Excel</source>
+<seg-source><mrk mid="0" mtype="seg">Microsoft Excel</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Microsoft Excel</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">interact with Excel</source>
+<seg-source><mrk mid="0" mtype="seg">interact with Excel</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">interact with Excel</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Moved Mouse Down</source>
+<seg-source><mrk mid="0" mtype="seg">Moved Mouse Down</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Moved Mouse Down</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">forces debug notepad window to take control</source>
+<seg-source><mrk mid="0" mtype="seg">forces debug notepad window to take control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">forces debug notepad window to take control</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

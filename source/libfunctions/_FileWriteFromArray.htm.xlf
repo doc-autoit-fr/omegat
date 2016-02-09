@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_FileWriteFromArray.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Writes an array to a specified file</source>
+<seg-source><mrk mid="0" mtype="seg">Writes an array to a specified file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Writes an array to a specified file</mrk></target>
+<note>Function _FileWriteFromArray</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> Path of the file to write to, or a file handle returned by <bpt id="1" ctype="x-a">&lt;a href="../functions/FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">Path of the file to write to, or a file handle returned by <bpt id="1" ctype="x-a">&lt;a href="../functions/FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Path of the file to write to, or a file handle returned by <bpt id="1" ctype="x-a">&lt;a href="../functions/FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The array to be written to the specified file.</source>
+<seg-source><mrk mid="0" mtype="seg">The array to be written to the specified file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The array to be written to the specified file.</mrk></target>
+<note>$aArray</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Start array index to read, normally set to 0 or 1. Default is 0.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Start array index to read, normally set to 0 or 1.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Start array index to read, normally set to 0 or 1.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></target>
+<note>$iBase</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Set to the last record you want to write to the File. Default is the whole array.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Set to the last record you want to write to the File.</mrk> <mrk mid="2" mtype="seg">Default is the whole array.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Set to the last record you want to write to the File.</mrk> <mrk mid="2" mtype="seg">Default is the whole array.</mrk></target>
+<note>$iUbound</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Delimiter character(s) for 2-dimension arrays. Default is "|".</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Delimiter character(s) for 2-dimension arrays.</mrk> <mrk mid="2" mtype="seg">Default is "|".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Delimiter character(s) for 2-dimension arrays.</mrk> <mrk mid="2" mtype="seg">Default is "|".</mrk></target>
+<note>$sDelimiter</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">1 - Error opening specified file</source>
+<seg-source><mrk mid="0" mtype="seg">1 - Error opening specified file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - Error opening specified file</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> 2 - $aArray is not an array</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - $aArray is not an array</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - $aArray is not an array</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> 3 - Error writing to file</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - Error writing to file</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - Error writing to file</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> 4 - $aArray is not a 1D or 2D array</source>
+<seg-source> <mrk mid="0" mtype="seg">4 - $aArray is not a 1D or 2D array</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 - $aArray is not a 1D or 2D array</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> 5 - Start index is greater than the $iUbound parameter</source>
+<seg-source> <mrk mid="0" mtype="seg">5 - Start index is greater than the $iUbound parameter</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">5 - Start index is greater than the $iUbound parameter</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">If a string path is provided, the file will be overwritten and closed.</source>
+<seg-source><mrk mid="0" mtype="seg">If a string path is provided, the file will be overwritten and closed.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If a string path is provided, the file will be overwritten and closed.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> To use other write modes, like append or Unicode formats, open the file with <bpt id="1" ctype="x-a">&lt;a href="../functions/FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> first and pass the file handle instead.</source>
+<seg-source> <mrk mid="0" mtype="seg">To use other write modes, like append or Unicode formats, open the file with <bpt id="1" ctype="x-a">&lt;a href="../functions/FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> first and pass the file handle instead.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">To use other write modes, like append or Unicode formats, open the file with <bpt id="1" ctype="x-a">&lt;a href="../functions/FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept> first and pass the file handle instead.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> If a file handle is passed, the file will still be open after writing.</source>
+<seg-source> <mrk mid="0" mtype="seg">If a file handle is passed, the file will still be open after writing.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If a file handle is passed, the file will still be open after writing.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">List all the files in the current script directory.</source>
+<seg-source><mrk mid="0" mtype="seg">List all the files in the current script directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">List all the files in the current script directory.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Create a file in the users %TEMP% directory.</source>
+<seg-source><mrk mid="0" mtype="seg">Create a file in the users %TEMP% directory.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a file in the users %TEMP% directory.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">\Examples.txt</source>
+<seg-source><mrk mid="0" mtype="seg">\Examples.txt</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Examples.txt</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Write array to a file by passing the file name.</source>
+<seg-source><mrk mid="0" mtype="seg">Write array to a file by passing the file name.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write array to a file by passing the file name.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Display the file.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the file.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

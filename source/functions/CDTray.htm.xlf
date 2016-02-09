@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/CDTray.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Opens or closes the CD tray.</source>
+<seg-source><mrk mid="0" mtype="seg">Opens or closes the CD tray.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Opens or closes the CD tray.</mrk></target>
+<note>Function CDTray</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The drive letter of the CD tray to control, in the format <bpt id="1" ctype="x-strong">&lt;strong></bpt>D:<ept id="1">&lt;/strong></ept>, <bpt id="1" ctype="x-strong">&lt;strong></bpt>E:<ept id="1">&lt;/strong></ept>, etc.</source>
+<seg-source><mrk mid="0" mtype="seg">The drive letter of the CD tray to control, in the format <bpt id="1" ctype="x-strong">&lt;strong></bpt>D:<ept id="1">&lt;/strong></ept>,</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>E:<ept id="1">&lt;/strong></ept>, etc.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The drive letter of the CD tray to control, in the format <bpt id="1" ctype="x-strong">&lt;strong></bpt>D:<ept id="1">&lt;/strong></ept>,</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>E:<ept id="1">&lt;/strong></ept>, etc.</mrk></target>
+<note>drive</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Specifies if you want the CD tray to be open or closed:</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies if you want the CD tray to be open or closed:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies if you want the CD tray to be open or closed:</mrk></target>
+<note>status</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $CDTRAY_OPEN ("open") - to be open</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDTRAY_OPEN ("open") - to be open</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDTRAY_OPEN ("open") - to be open</mrk></target>
+<note>status</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $CDTRAY_CLOSED ("closed") - to be closed on cd tray (not laptop-style)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CDTRAY_CLOSED ("closed") - to be closed on cd tray (not laptop-style)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CDTRAY_CLOSED ("closed") - to be closed on cd tray (not laptop-style)</mrk></target>
+<note>status</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> Constants are defined in AutoItConstants.au3</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in AutoItConstants.au3</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in AutoItConstants.au3</mrk></target>
+<note>status</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">0 if drive is locked via CD burning software or if the drive letter is not a CD drive.</source>
+<seg-source><mrk mid="0" mtype="seg">0 if drive is locked via CD burning software or if the drive letter is not a CD drive.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 if drive is locked via CD burning software or if the drive letter is not a CD drive.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="CDTray.htm"></bpt>CDTray()<ept id="1">&lt;/a></ept> works as expected with virtual CD drives such as DAEMON Tools.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="CDTray.htm"></bpt>CDTray()<ept id="1">&lt;/a></ept> works as expected with virtual CD drives such as DAEMON Tools.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="CDTray.htm"></bpt>CDTray()<ept id="1">&lt;/a></ept> works as expected with virtual CD drives such as DAEMON Tools.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="CDTray.htm"></bpt>CDTray()<ept id="1">&lt;/a></ept> does not work on non-local/mapped CD drives; <bpt id="2" ctype="x-a">&lt;a href="CDTray.htm"></bpt>CDTray()<ept id="2">&lt;/a></ept> must be run from the computer whose drive it affects.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="CDTray.htm"></bpt>CDTray()<ept id="1">&lt;/a></ept> does not work on non-local/mapped CD drives; <bpt id="2" ctype="x-a">&lt;a href="CDTray.htm"></bpt>CDTray()<ept id="2">&lt;/a></ept> must be run from the computer whose drive it affects.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="CDTray.htm"></bpt>CDTray()<ept id="1">&lt;/a></ept> does not work on non-local/mapped CD drives; <bpt id="2" ctype="x-a">&lt;a href="CDTray.htm"></bpt>CDTray()<ept id="2">&lt;/a></ept> must be run from the computer whose drive it affects.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="CDTray.htm"></bpt>CDTray<ept id="1">&lt;/a></ept>("X:", "close") returns 1 on laptop-style cd trays that can only be closed manually.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="CDTray.htm"></bpt>CDTray<ept id="1">&lt;/a></ept>("X:",</mrk> <mrk mid="1" mtype="seg">"close") returns 1 on laptop-style cd trays that can only be closed manually.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="CDTray.htm"></bpt>CDTray<ept id="1">&lt;/a></ept>("X:",</mrk> <mrk mid="1" mtype="seg">"close") returns 1 on laptop-style cd trays that can only be closed manually.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Get List of all CDRom's</source>
+<seg-source><mrk mid="0" mtype="seg">Get List of all CDRom's</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get List of all CDRom's</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">No CDRom found.</source>
+<seg-source><mrk mid="0" mtype="seg">No CDRom found.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">No CDRom found.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Open the CD tray of the first CDRom</source>
+<seg-source><mrk mid="0" mtype="seg">Open the CD tray of the first CDRom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open the CD tray of the first CDRom</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">does not work on laptop-style cd trays that can only be closed manually.</source>
+<seg-source><mrk mid="0" mtype="seg">does not work on laptop-style cd trays that can only be closed manually.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">does not work on laptop-style cd trays that can only be closed manually.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

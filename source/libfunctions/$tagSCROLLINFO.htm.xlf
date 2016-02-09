@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/$tagSCROLLINFO.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Keyword Reference</source>
+<seg-source><mrk mid="0" mtype="seg">Keyword Reference</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Keyword Reference</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Contains scroll bar parameters to be set by the $SBM_SETSCROLLINFO message, or retrieved by the $SBM_GETSCROLLINFO message</source>
+<seg-source><mrk mid="0" mtype="seg">Contains scroll bar parameters to be set by the $SBM_SETSCROLLINFO message, or retrieved by the $SBM_GETSCROLLINFO message</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains scroll bar parameters to be set by the $SBM_SETSCROLLINFO message, or retrieved by the $SBM_GETSCROLLINFO message</mrk></target>
+<note>Keyword $tagSCROLLINFO</note>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Specifies the size, in bytes, of this structure. The caller must set this to DllStructGetSize($tagSCROLLINFO).</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the size, in bytes, of this structure.</mrk> <mrk mid="1" mtype="seg">The caller must set this to DllStructGetSize($tagSCROLLINFO).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the size, in bytes, of this structure.</mrk> <mrk mid="1" mtype="seg">The caller must set this to DllStructGetSize($tagSCROLLINFO).</mrk></target>
+<note>cbSize</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Specifies the scroll bar parameters to set or retrieve. This member can be a combination of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the scroll bar parameters to set or retrieve.</mrk> <mrk mid="1" mtype="seg">This member can be a combination of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the scroll bar parameters to set or retrieve.</mrk> <mrk mid="1" mtype="seg">This member can be a combination of the following values:</mrk></target>
+<note>fMask</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $SIF_ALL - Combination of $SIF_PAGE, $SIF_POS, $SIF_RANGE, and $SIF_TRACKPOS.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SIF_ALL - Combination of $SIF_PAGE, $SIF_POS, $SIF_RANGE, and $SIF_TRACKPOS.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SIF_ALL - Combination of $SIF_PAGE, $SIF_POS, $SIF_RANGE, and $SIF_TRACKPOS.</mrk></target>
+<note>fMask</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $SIF_DISABLENOSCROLL - This value is used only when setting a scroll bar's parameters.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SIF_DISABLENOSCROLL - This value is used only when setting a scroll bar's parameters.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SIF_DISABLENOSCROLL - This value is used only when setting a scroll bar's parameters.</mrk></target>
+<note>fMask</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> If the scroll bar's new parameters make the scroll bar unnecessary, disable the scroll bar instead of removing it.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the scroll bar's new parameters make the scroll bar unnecessary, disable the scroll bar instead of removing it.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the scroll bar's new parameters make the scroll bar unnecessary, disable the scroll bar instead of removing it.</mrk></target>
+<note>fMask</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $SIF_PAGE - The nPage member contains the page size for a proportional scroll bar.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SIF_PAGE - The nPage member contains the page size for a proportional scroll bar.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SIF_PAGE - The nPage member contains the page size for a proportional scroll bar.</mrk></target>
+<note>fMask</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $SIF_POS - The nPos member contains the scroll box position, which is not updated while the user drags the scroll box.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SIF_POS - The nPos member contains the scroll box position, which is not updated while the user drags the scroll box.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SIF_POS - The nPos member contains the scroll box position, which is not updated while the user drags the scroll box.</mrk></target>
+<note>fMask</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $SIF_RANGE - The nMin and nMax members contain the minimum and maximum values for the scrolling range.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SIF_RANGE - The nMin and nMax members contain the minimum and maximum values for the scrolling range.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SIF_RANGE - The nMin and nMax members contain the minimum and maximum values for the scrolling range.</mrk></target>
+<note>fMask</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $SIF_TRACKPOS - The nTrackPos member contains the current position of the scroll box while the user is dragging it.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SIF_TRACKPOS - The nTrackPos member contains the current position of the scroll box while the user is dragging it.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SIF_TRACKPOS - The nTrackPos member contains the current position of the scroll box while the user is dragging it.</mrk></target>
+<note>fMask</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Specifies the minimum scrolling position.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the minimum scrolling position.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the minimum scrolling position.</mrk></target>
+<note>nMin</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Specifies the maximum scrolling position.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the maximum scrolling position.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the maximum scrolling position.</mrk></target>
+<note>nMax</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Specifies the page size. A scroll bar uses this value to determine the appropriate size of the proportional scroll box.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the page size.</mrk> <mrk mid="1" mtype="seg">A scroll bar uses this value to determine the appropriate size of the proportional scroll box.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the page size.</mrk> <mrk mid="1" mtype="seg">A scroll bar uses this value to determine the appropriate size of the proportional scroll box.</mrk></target>
+<note>nPage</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Specifies the position of the scroll box.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the position of the scroll box.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the position of the scroll box.</mrk></target>
+<note>nPos</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Specifies the immediate position of a scroll box that the user is dragging.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the immediate position of a scroll box that the user is dragging.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the immediate position of a scroll box that the user is dragging.</mrk></target>
+<note>nTrackPos</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> An application can retrieve this value while processing the $SB_THUMBTRACK request code.</source>
+<seg-source> <mrk mid="0" mtype="seg">An application can retrieve this value while processing the $SB_THUMBTRACK request code.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">An application can retrieve this value while processing the $SB_THUMBTRACK request code.</mrk></target>
+<note>nTrackPos</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> An application cannot set the immediate scroll position, the SetScrollInfo function ignores this member.</source>
+<seg-source> <mrk mid="0" mtype="seg">An application cannot set the immediate scroll position, the SetScrollInfo function ignores this member.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">An application cannot set the immediate scroll position, the SetScrollInfo function ignores this member.</mrk></target>
+<note>nTrackPos</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">$SIF_xxxxx and $SB_XXX for scrollbar require #include &lt;ScrollbarsConstants.au3></source>
+<seg-source><mrk mid="0" mtype="seg">$SIF_xxxxx and $SB_XXX for scrollbar require #include &lt;ScrollbarsConstants.au3></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$SIF_xxxxx and $SB_XXX for scrollbar require #include &lt;ScrollbarsConstants.au3></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

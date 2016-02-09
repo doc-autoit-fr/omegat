@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GDIPlus_PathBrushCreate.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a PathGradientBrush object based on an array of points and initializes the wrap mode of the brush</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a PathGradientBrush object based on an array of points and initializes the wrap mode of the brush</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a PathGradientBrush object based on an array of points and initializes the wrap mode of the brush</mrk></target>
+<note>Function _GDIPlus_PathBrushCreate</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Array of points that specify the boundary path of the path gradient brush</source>
+<seg-source><mrk mid="0" mtype="seg">Array of points that specify the boundary path of the path gradient brush</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Array of points that specify the boundary path of the path gradient brush</mrk></target>
+<note>$aPoints</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">     [0][0] - Number of points</source>
+<seg-source> <mrk mid="0" mtype="seg">    [0][0] - Number of points</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [0][0] - Number of points</mrk></target>
+<note>$aPoints</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     [1][0] - Point 1 X coordinate</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1][0] - Point 1 X coordinate</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1][0] - Point 1 X coordinate</mrk></target>
+<note>$aPoints</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     [1][1] - Point 1 Y coordinate</source>
+<seg-source> <mrk mid="0" mtype="seg">    [1][1] - Point 1 Y coordinate</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [1][1] - Point 1 Y coordinate</mrk></target>
+<note>$aPoints</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     [2][0] - Point 2 X coordinate</source>
+<seg-source> <mrk mid="0" mtype="seg">    [2][0] - Point 2 X coordinate</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [2][0] - Point 2 X coordinate</mrk></target>
+<note>$aPoints</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     [2][1] - Point 2 Y coordinate</source>
+<seg-source> <mrk mid="0" mtype="seg">    [2][1] - Point 2 Y coordinate</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [2][1] - Point 2 Y coordinate</mrk></target>
+<note>$aPoints</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     [n][0] - Point n X coordinate</source>
+<seg-source> <mrk mid="0" mtype="seg">    [n][0] - Point n X coordinate</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [n][0] - Point n X coordinate</mrk></target>
+<note>$aPoints</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     [n][1] - Point n Y coordinate</source>
+<seg-source> <mrk mid="0" mtype="seg">    [n][1] - Point n Y coordinate</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [n][1] - Point n Y coordinate</mrk></target>
+<note>$aPoints</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Wrap mode that specifies how areas filled with the brush are tiled:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Wrap mode that specifies how areas filled with the brush are tiled:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Wrap mode that specifies how areas filled with the brush are tiled:</mrk></target>
+<note>$iWrapMode</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     0 - Tiling without flipping</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 - Tiling without flipping</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 - Tiling without flipping</mrk></target>
+<note>$iWrapMode</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     1 - Tiles are flipped horizontally as you move from one tile to the next in a row</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 - Tiles are flipped horizontally as you move from one tile to the next in a row</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 - Tiles are flipped horizontally as you move from one tile to the next in a row</mrk></target>
+<note>$iWrapMode</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     2 - Tiles are flipped vertically as you move from one tile to the next in a column</source>
+<seg-source> <mrk mid="0" mtype="seg">    2 - Tiles are flipped vertically as you move from one tile to the next in a column</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    2 - Tiles are flipped vertically as you move from one tile to the next in a column</mrk></target>
+<note>$iWrapMode</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     3 - Tiles are flipped horizontally as you move along a row and flipped vertically as you move along a column</source>
+<seg-source> <mrk mid="0" mtype="seg">    3 - Tiles are flipped horizontally as you move along a row and flipped vertically as you move along a column</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    3 - Tiles are flipped horizontally as you move along a row and flipped vertically as you move along a column</mrk></target>
+<note>$iWrapMode</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     4 - No tiling takes place</source>
+<seg-source> <mrk mid="0" mtype="seg">    4 - No tiling takes place</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    4 - No tiling takes place</mrk></target>
+<note>$iWrapMode</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">a pointer to a new PathGradientBrush object.</source>
+<seg-source><mrk mid="0" mtype="seg">a pointer to a new PathGradientBrush object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a pointer to a new PathGradientBrush object.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">0 and sets the @error flag to non-zero, @extended may contain GPSTATUS ($GPID_ERR*).</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended may contain GPSTATUS ($GPID_ERR*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended may contain GPSTATUS ($GPID_ERR*).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">After you are done with the object, call <bpt id="1" ctype="x-a">&lt;a href="_GDIPlus_BrushDispose.htm"></bpt>_GDIPlus_BrushDispose()<ept id="1">&lt;/a></ept> to release the object resources.</source>
+<seg-source><mrk mid="0" mtype="seg">After you are done with the object, call <bpt id="1" ctype="x-a">&lt;a href="_GDIPlus_BrushDispose.htm"></bpt>_GDIPlus_BrushDispose()<ept id="1">&lt;/a></ept> to release the object resources.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">After you are done with the object, call <bpt id="1" ctype="x-a">&lt;a href="_GDIPlus_BrushDispose.htm"></bpt>_GDIPlus_BrushDispose()<ept id="1">&lt;/a></ept> to release the object resources.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipCreatePathGradient"></bpt>GdipCreatePathGradient<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipCreatePathGradient"></bpt>GdipCreatePathGradient<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipCreatePathGradient"></bpt>GdipCreatePathGradient<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">GDI+</source>
+<seg-source><mrk mid="0" mtype="seg">GDI+</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GDI+</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Clean up resources</source>
+<seg-source><mrk mid="0" mtype="seg">Clean up resources</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Clean up resources</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

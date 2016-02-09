@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_Excel_BookSave.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Saves the specified workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Saves the specified workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Saves the specified workbook</mrk></target>
+<note>Function _Excel_BookSave</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Object of the workbook to save</source>
+<seg-source><mrk mid="0" mtype="seg">Object of the workbook to save</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Object of the workbook to save</mrk></target>
+<note>$oWorkbook</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">1. Sets @extended to:</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk> <mrk mid="1" mtype="seg">Sets @extended to:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk> <mrk mid="1" mtype="seg">Sets @extended to:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     0 - File has not been saved because it has not been changed since the last save or file open</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 - File has not been saved because it has not been changed since the last save or file open</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 - File has not been saved because it has not been changed since the last save or file open</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     1 - File has been saved because it has been changed since the last save or file open</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 - File has been saved because it has been changed since the last save or file open</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 - File has been saved because it has been changed since the last save or file open</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">0 and sets @error.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets @error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets @error.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">1 - $oWorkbook is not an object or not a workbook object</source>
+<seg-source><mrk mid="0" mtype="seg">1 - $oWorkbook is not an object or not a workbook object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - $oWorkbook is not an object or not a workbook object</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> 2 - Error occurred when saving the workbook. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - Error occurred when saving the workbook.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - Error occurred when saving the workbook.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">A newly created workbook has to be saved using _Excel_BookSaveAs() before.</source>
+<seg-source><mrk mid="0" mtype="seg">A newly created workbook has to be saved using _Excel_BookSaveAs() before.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A newly created workbook has to be saved using _Excel_BookSaveAs() before.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Create application object</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Excel UDF: _Excel_BookOpen Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookOpen Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookOpen Example</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Error creating the Excel application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Create a new workbook, write some data and save it to @tempdir</source>
+<seg-source><mrk mid="0" mtype="seg">Create a new workbook, write some data and save it to @tempdir</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a new workbook, write some data and save it to @tempdir</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Create the new workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Create the new workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create the new workbook</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Excel UDF: _Excel_BookSave Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookSave Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookSave Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Error creating new workbook.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating new workbook.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating new workbook.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Write something into cell A1</source>
+<seg-source><mrk mid="0" mtype="seg">Write something into cell A1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write something into cell A1</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">A1</source>
+<seg-source><mrk mid="0" mtype="seg">A1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A1</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">_Workbook</source>
+<seg-source><mrk mid="0" mtype="seg">_Workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_Workbook</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Excel UDF: _Excel_BookSave Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookSave Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookSave Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Error writing to cell 'A1'.</source>
+<seg-source><mrk mid="0" mtype="seg">Error writing to cell 'A1'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error writing to cell 'A1'.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Save the workbook to @tempdir as _Excel.xls (replacing existing file)</source>
+<seg-source><mrk mid="0" mtype="seg">Save the workbook to @tempdir as _Excel.xls (replacing existing file)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Save the workbook to @tempdir as _Excel.xls (replacing existing file)</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">\_Excel.xls</source>
+<seg-source><mrk mid="0" mtype="seg">\_Excel.xls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\_Excel.xls</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Excel UDF: _Excel_BookSave Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookSave Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookSave Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Error saving workbook.</source>
+<seg-source><mrk mid="0" mtype="seg">Error saving workbook.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error saving workbook.</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Write something into cell B1</source>
+<seg-source><mrk mid="0" mtype="seg">Write something into cell B1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write something into cell B1</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">2nd Test</source>
+<seg-source><mrk mid="0" mtype="seg">2nd Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2nd Test</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">B1</source>
+<seg-source><mrk mid="0" mtype="seg">B1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">B1</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Excel UDF: _Excel_BookSave Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookSave Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookSave Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Error writing to cell 'A1'.</source>
+<seg-source><mrk mid="0" mtype="seg">Error writing to cell 'A1'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error writing to cell 'A1'.</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Save changed workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Save changed workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Save changed workbook</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Excel UDF: _Excel_BookSave Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookSave Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookSave Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Error saving workbook.</source>
+<seg-source><mrk mid="0" mtype="seg">Error saving workbook.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error saving workbook.</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Excel UDF: _Excel_BookSave Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookSave Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_BookSave Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Workbook has been successfully saved as '</source>
+<seg-source><mrk mid="0" mtype="seg">Workbook has been successfully saved as '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Workbook has been successfully saved as '</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">\_Excel.xls'.</source>
+<seg-source><mrk mid="0" mtype="seg">\_Excel.xls'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\_Excel.xls'.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

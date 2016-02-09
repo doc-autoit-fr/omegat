@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/StringToASCIIArray.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Converts a string to an array containing the ASCII code of each character.</source>
+<seg-source><mrk mid="0" mtype="seg">Converts a string to an array containing the ASCII code of each character.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Converts a string to an array containing the ASCII code of each character.</mrk></target>
+<note>Function StringToASCIIArray</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The string to convert to an array of ASCII codes.</source>
+<seg-source><mrk mid="0" mtype="seg">The string to convert to an array of ASCII codes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The string to convert to an array of ASCII codes.</mrk></target>
+<note>"string"</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The 0-based position to start processing from (Default: 0).</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The 0-based position to start processing from (Default:</mrk> <mrk mid="2" mtype="seg">0).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The 0-based position to start processing from (Default:</mrk> <mrk mid="2" mtype="seg">0).</mrk></target>
+<note>start</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The 0-based position to end processing at (Default: <bpt id="1" ctype="x-a">&lt;a href="StringLen.htm"></bpt>StringLen<ept id="1">&lt;/a></ept>("string")). </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The 0-based position to end processing at (Default:</mrk> <mrk mid="2" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="StringLen.htm"></bpt>StringLen<ept id="1">&lt;/a></ept>("string")).</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The 0-based position to end processing at (Default:</mrk> <mrk mid="2" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="StringLen.htm"></bpt>StringLen<ept id="1">&lt;/a></ept>("string")).</mrk> </target>
+<note>end</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The returned array will contain values in the specified character set:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The returned array will contain values in the specified character set:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The returned array will contain values in the specified character set:</mrk></target>
+<note>encoding</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $SE_UTF16 (0) = UTF-16 (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SE_UTF16 (0) = UTF-16 (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SE_UTF16 (0) = UTF-16 (Default)</mrk></target>
+<note>encoding</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $SE_ANSI (1) = ANSI</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SE_ANSI (1) = ANSI</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SE_ANSI (1) = ANSI</mrk></target>
+<note>encoding</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $SE_UTF8 (2) = UTF-8</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SE_UTF8 (2) = UTF-8</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SE_UTF8 (2) = UTF-8</mrk></target>
+<note>encoding</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> Constants are defined in StringConstants.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in StringConstants.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in StringConstants.au3.</mrk></target>
+<note>encoding</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">an array where each element is the UNICODE code of the character at the corresponding position.</source>
+<seg-source><mrk mid="0" mtype="seg">an array where each element is the UNICODE code of the character at the corresponding position.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an array where each element is the UNICODE code of the character at the corresponding position.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">an empty string.</source>
+<seg-source><mrk mid="0" mtype="seg">an empty string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an empty string.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">The string may contain embedded <bpt id="1" ctype="x-a">&lt;a href="Chr.htm"></bpt>Chr<ept id="1">&lt;/a></ept>(0). These will appear in the returned array as well as any data past them. Processing only stops when the end of the string is reached or the user specified end.</source>
+<seg-source><mrk mid="0" mtype="seg">The string may contain embedded <bpt id="1" ctype="x-a">&lt;a href="Chr.htm"></bpt>Chr<ept id="1">&lt;/a></ept>(0).</mrk> <mrk mid="1" mtype="seg">These will appear in the returned array as well as any data past them.</mrk> <mrk mid="2" mtype="seg">Processing only stops when the end of the string is reached or the user specified end.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The string may contain embedded <bpt id="1" ctype="x-a">&lt;a href="Chr.htm"></bpt>Chr<ept id="1">&lt;/a></ept>(0).</mrk> <mrk mid="1" mtype="seg">These will appear in the returned array as well as any data past them.</mrk> <mrk mid="2" mtype="seg">Processing only stops when the end of the string is reached or the user specified end.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> In order to convert binary data to an array using this function it must first be converted to a string with the <bpt id="1" ctype="x-a">&lt;a href="BinaryToString.htm"></bpt>BinaryToString()<ept id="1">&lt;/a></ept> function.</source>
+<seg-source> <mrk mid="0" mtype="seg">In order to convert binary data to an array using this function it must first be converted to a string with the <bpt id="1" ctype="x-a">&lt;a href="BinaryToString.htm"></bpt>BinaryToString()<ept id="1">&lt;/a></ept> function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">In order to convert binary data to an array using this function it must first be converted to a string with the <bpt id="1" ctype="x-a">&lt;a href="BinaryToString.htm"></bpt>BinaryToString()<ept id="1">&lt;/a></ept> function.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Required for _ArrayDisplay() only.</source>
+<seg-source><mrk mid="0" mtype="seg">Required for _ArrayDisplay() only.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Required for _ArrayDisplay() only.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Convert the string to an ASCII array.</source>
+<seg-source><mrk mid="0" mtype="seg">Convert the string to an ASCII array.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Convert the string to an ASCII array.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">This is a sentence with whitespace.</source>
+<seg-source><mrk mid="0" mtype="seg">This is a sentence with whitespace.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a sentence with whitespace.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Display the array to see that it contains the ASCII values for each character in the string.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the array to see that it contains the ASCII values for each character in the string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the array to see that it contains the ASCII values for each character in the string.</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Convert the array into a string.</source>
+<seg-source><mrk mid="0" mtype="seg">Convert the array into a string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Convert the array into a string.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Display the string to see that it matches the original string initially converted to an array.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the string to see that it matches the original string initially converted to an array.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the string to see that it matches the original string initially converted to an array.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

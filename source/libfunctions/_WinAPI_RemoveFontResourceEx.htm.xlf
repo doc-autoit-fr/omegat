@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_RemoveFontResourceEx.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Removes the fonts in the specified file from the system font table</source>
+<seg-source><mrk mid="0" mtype="seg">Removes the fonts in the specified file from the system font table</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Removes the fonts in the specified file from the system font table</mrk></target>
+<note>Function _WinAPI_RemoveFontResourceEx</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">String that names a font resource file. To remove a font whose information comes from several resource</source>
+<seg-source><mrk mid="0" mtype="seg">String that names a font resource file.</mrk> <mrk mid="1" mtype="seg">To remove a font whose information comes from several resource</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">String that names a font resource file.</mrk> <mrk mid="1" mtype="seg">To remove a font whose information comes from several resource</mrk></target>
+<note>$sFont</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> files, they must be separated by a "|". For example, abcxxxxx.pfm|abcxxxxx.pfb.</source>
+<seg-source> <mrk mid="0" mtype="seg">files, they must be separated by a "|".</mrk> <mrk mid="1" mtype="seg">For example, abcxxxxx.pfm|abcxxxxx.pfb.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">files, they must be separated by a "|".</mrk> <mrk mid="1" mtype="seg">For example, abcxxxxx.pfm|abcxxxxx.pfb.</mrk></target>
+<note>$sFont</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The characteristics of the font to be removed from the system. In order for the font to be removed, the flags</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The characteristics of the font to be removed from the system.</mrk> <mrk mid="2" mtype="seg">In order for the font to be removed, the flags</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The characteristics of the font to be removed from the system.</mrk> <mrk mid="2" mtype="seg">In order for the font to be removed, the flags</mrk></target>
+<note>$iFlag</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> used must be the same as when the font was added with the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_AddFontResourceEx.htm"></bpt>_WinAPI_AddFontResourceEx()<ept id="1">&lt;/a></ept> function. </source>
+<seg-source> <mrk mid="0" mtype="seg">used must be the same as when the font was added with the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_AddFontResourceEx.htm"></bpt>_WinAPI_AddFontResourceEx()<ept id="1">&lt;/a></ept> function.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">used must be the same as when the font was added with the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_AddFontResourceEx.htm"></bpt>_WinAPI_AddFontResourceEx()<ept id="1">&lt;/a></ept> function.</mrk> </target>
+<note>$iFlag</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether sends a WM_FONTCHANGE message, valid values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether sends a WM_FONTCHANGE message, valid values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether sends a WM_FONTCHANGE message, valid values:</mrk></target>
+<note>$bNotify</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     True - Send the WM_FONTCHANGE message to all top-level windows after changing the pool of font resources.</source>
+<seg-source> <mrk mid="0" mtype="seg">    True - Send the WM_FONTCHANGE message to all top-level windows after changing the pool of font resources.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    True - Send the WM_FONTCHANGE message to all top-level windows after changing the pool of font resources.</mrk></target>
+<note>$bNotify</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     False - Don't send (Default).</source>
+<seg-source> <mrk mid="0" mtype="seg">    False - Don't send (Default).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    False - Don't send (Default).</mrk></target>
+<note>$bNotify</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">False</source>
+<seg-source><mrk mid="0" mtype="seg">False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RemoveFontResourceEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RemoveFontResourceEx<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RemoveFontResourceEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RemoveFontResourceEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(RemoveFontResourceEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>RemoveFontResourceEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

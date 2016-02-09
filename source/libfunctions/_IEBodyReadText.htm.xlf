@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_IEBodyReadText.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Returns the Text inside the &lt;body> tag of the document</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the Text inside the &lt;body> tag of the document</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the Text inside the &lt;body> tag of the document</mrk></target>
+<note>Function _IEBodyReadText</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Object variable of an InternetExplorer.Application, Window or Frame object</source>
+<seg-source><mrk mid="0" mtype="seg">Object variable of an InternetExplorer.</mrk><mrk mid="1" mtype="seg">Application, Window or Frame object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Object variable of an InternetExplorer.</mrk><mrk mid="1" mtype="seg">Application, Window or Frame object</mrk></target>
+<note>$oObject</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">the text included in the &lt;body> of the document.</source>
+<seg-source><mrk mid="0" mtype="seg">the text included in the &lt;body> of the document.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the text included in the &lt;body> of the document.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">3 ($_IEStatus_InvalidDataType) - Invalid Data Type</source>
+<seg-source><mrk mid="0" mtype="seg">3 ($_IEStatus_InvalidDataType) - Invalid Data Type</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3 ($_IEStatus_InvalidDataType) - Invalid Data Type</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">@extended:</source>
+<seg-source><mrk mid="0" mtype="seg">@extended:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@extended:</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Contains invalid parameter number</source>
+<seg-source><mrk mid="0" mtype="seg">Contains invalid parameter number</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains invalid parameter number</mrk></target>
+<note>@extended:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">This function uses the .innerText property of the document Body.</source>
+<seg-source><mrk mid="0" mtype="seg">This function uses the .innerText property of the document Body.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function uses the .innerText property of the document Body.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> .innerText is available for nearly all DOM elements and is a fast convenient method of parsing out just the text in a document using <bpt id="1" ctype="x-a">&lt;a href="_IEPropertyGet.htm"></bpt>_IEPropertyGet()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">.innerText is available for nearly all DOM elements and is a fast convenient method of parsing out just the text in a document using <bpt id="1" ctype="x-a">&lt;a href="_IEPropertyGet.htm"></bpt>_IEPropertyGet()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">.innerText is available for nearly all DOM elements and is a fast convenient method of parsing out just the text in a document using <bpt id="1" ctype="x-a">&lt;a href="_IEPropertyGet.htm"></bpt>_IEPropertyGet()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Open a browser with the basic example, read the body Text</source>
+<seg-source><mrk mid="0" mtype="seg">Open a browser with the basic example, read the body Text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open a browser with the basic example, read the body Text</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">(the content with all HTML tags removed) and display it in a MsgBox</source>
+<seg-source><mrk mid="0" mtype="seg">(the content with all HTML tags removed) and display it in a MsgBox</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">(the content with all HTML tags removed) and display it in a MsgBox</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">basic</source>
+<seg-source><mrk mid="0" mtype="seg">basic</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">basic</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Body Text</source>
+<seg-source><mrk mid="0" mtype="seg">Body Text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Body Text</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

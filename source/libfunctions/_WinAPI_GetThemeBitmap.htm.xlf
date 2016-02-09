@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_GetThemeBitmap.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the bitmap associated with a particular theme, part, state, and property</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the bitmap associated with a particular theme, part, state, and property</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the bitmap associated with a particular theme, part, state, and property</mrk></target>
+<note>Function _WinAPI_GetThemeBitmap</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to a window's specified theme data.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to a window's specified theme data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to a window's specified theme data.</mrk></target>
+<note>$hTheme</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The part that contains the bitmap.</source>
+<seg-source><mrk mid="0" mtype="seg">The part that contains the bitmap.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The part that contains the bitmap.</mrk></target>
+<note>$iPartID</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The state of the part.</source>
+<seg-source><mrk mid="0" mtype="seg">The state of the part.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The state of the part.</mrk></target>
+<note>$iStateID</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The property to retrieve. Set this parameter to 0 to automatically select the first available bitmap</source>
+<seg-source><mrk mid="0" mtype="seg">The property to retrieve.</mrk> <mrk mid="1" mtype="seg">Set this parameter to 0 to automatically select the first available bitmap</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The property to retrieve.</mrk> <mrk mid="1" mtype="seg">Set this parameter to 0 to automatically select the first available bitmap</mrk></target>
+<note>$iPropID</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> for this part and state, or use one of the following values.</source>
+<seg-source> <mrk mid="0" mtype="seg">for this part and state, or use one of the following values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">for this part and state, or use one of the following values.</mrk></target>
+<note>$iPropID</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $TMT_DIBDATA</source>
+<seg-source> <mrk mid="0" mtype="seg">$TMT_DIBDATA</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TMT_DIBDATA</mrk></target>
+<note>$iPropID</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> $TMT_GLYPHDIBDATA</source>
+<seg-source> <mrk mid="0" mtype="seg">$TMT_GLYPHDIBDATA</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TMT_GLYPHDIBDATA</mrk></target>
+<note>$iPropID</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> $TMT_HBITMAP</source>
+<seg-source> <mrk mid="0" mtype="seg">$TMT_HBITMAP</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$TMT_HBITMAP</mrk></target>
+<note>$iPropID</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> This parameter can be one of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">This parameter can be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">This parameter can be one of the following values.</mrk></target>
+<note>$iFlag</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> $GBF_DIRECT</source>
+<seg-source> <mrk mid="0" mtype="seg">$GBF_DIRECT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$GBF_DIRECT</mrk></target>
+<note>$iFlag</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> $GBF_COPY</source>
+<seg-source> <mrk mid="0" mtype="seg">$GBF_COPY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$GBF_COPY</mrk></target>
+<note>$iFlag</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> $GBF_VALIDBITS</source>
+<seg-source> <mrk mid="0" mtype="seg">$GBF_VALIDBITS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$GBF_VALIDBITS</mrk></target>
+<note>$iFlag</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Handle to the requested bitmap.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the requested bitmap.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the requested bitmap.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">If $iFlag is set to $GBF_COPY, release the bitmap returned by this function when no longer needed by calling</source>
+<seg-source><mrk mid="0" mtype="seg">If $iFlag is set to $GBF_COPY, release the bitmap returned by this function when no longer needed by calling</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If $iFlag is set to $GBF_COPY, release the bitmap returned by this function when no longer needed by calling</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteObject.htm"></bpt>_WinAPI_DeleteObject()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteObject.htm"></bpt>_WinAPI_DeleteObject()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteObject.htm"></bpt>_WinAPI_DeleteObject()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function requires <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetThemeBitmap);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetThemeBitmap<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetThemeBitmap);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetThemeBitmap<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetThemeBitmap);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetThemeBitmap<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

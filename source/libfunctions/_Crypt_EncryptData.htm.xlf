@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_Crypt_EncryptData.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Encrypts data using the supplied key</source>
+<seg-source><mrk mid="0" mtype="seg">Encrypts data using the supplied key</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encrypts data using the supplied key</mrk></target>
+<note>Function _Crypt_EncryptData</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Data to encrypt/decrypt</source>
+<seg-source><mrk mid="0" mtype="seg">Data to encrypt/decrypt</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Data to encrypt/decrypt</mrk></target>
+<note>$vData</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Password or handle to a key if the CALG_USERKEY flag is specified</source>
+<seg-source><mrk mid="0" mtype="seg">Password or handle to a key if the CALG_USERKEY flag is specified</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Password or handle to a key if the CALG_USERKEY flag is specified</mrk></target>
+<note>$vCryptKey</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The algorithm to use</source>
+<seg-source><mrk mid="0" mtype="seg">The algorithm to use</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The algorithm to use</mrk></target>
+<note>$iAlgID</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> False if this is only a segment of the full data</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">False if this is only a segment of the full data</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">False if this is only a segment of the full data</mrk></target>
+<note>$bFinal</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">a binary string containing encrypted data.</source>
+<seg-source><mrk mid="0" mtype="seg">a binary string containing encrypted data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a binary string containing encrypted data.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">-1 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">-1 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">100+ - Cannot create key</source>
+<seg-source><mrk mid="0" mtype="seg">100+ - Cannot create key</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">100+ - Cannot create key</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> 20 - Failed to determine buffer</source>
+<seg-source> <mrk mid="0" mtype="seg">20 - Failed to determine buffer</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">20 - Failed to determine buffer</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> 30 - Failed to encrypt data</source>
+<seg-source> <mrk mid="0" mtype="seg">30 - Failed to encrypt data</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">30 - Failed to encrypt data</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Returns a binary string regardless of input</source>
+<seg-source><mrk mid="0" mtype="seg">Returns a binary string regardless of input</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns a binary string regardless of input</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CryptEncrypt);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CryptEncrypt<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CryptEncrypt);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CryptEncrypt<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CryptEncrypt);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CryptEncrypt<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Realtime Encryption</source>
+<seg-source><mrk mid="0" mtype="seg">Realtime Encryption</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Realtime Encryption</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">3DES|AES (128bit)|AES (192bit)|AES (256bit)|DES|RC2|RC4</source>
+<seg-source><mrk mid="0" mtype="seg">3DES|AES (128bit)|AES (192bit)|AES (256bit)|DES|RC2|RC4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3DES|AES (128bit)|AES (192bit)|AES (256bit)|DES|RC2|RC4</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">RC4</source>
+<seg-source><mrk mid="0" mtype="seg">RC4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RC4</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">WM_COMMAND</source>
+<seg-source><mrk mid="0" mtype="seg">WM_COMMAND</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_COMMAND</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">To optimize performance start the crypt library.</source>
+<seg-source><mrk mid="0" mtype="seg">To optimize performance start the crypt library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">To optimize performance start the crypt library.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">CryptPassword</source>
+<seg-source><mrk mid="0" mtype="seg">CryptPassword</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CryptPassword</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Declare a password string and algorithm to create a cryptographic key.</source>
+<seg-source><mrk mid="0" mtype="seg">Declare a password string and algorithm to create a cryptographic key.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Declare a password string and algorithm to create a cryptographic key.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Check when the combobox is selected and retrieve the correct algorithm.</source>
+<seg-source><mrk mid="0" mtype="seg">Check when the combobox is selected and retrieve the correct algorithm.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check when the combobox is selected and retrieve the correct algorithm.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Read the combobox selection.</source>
+<seg-source><mrk mid="0" mtype="seg">Read the combobox selection.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Read the combobox selection.</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">3DES</source>
+<seg-source><mrk mid="0" mtype="seg">3DES</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3DES</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">AES (128bit)</source>
+<seg-source><mrk mid="0" mtype="seg">AES (128bit)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AES (128bit)</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">AES (192bit)</source>
+<seg-source><mrk mid="0" mtype="seg">AES (192bit)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AES (192bit)</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">AES (256bit)</source>
+<seg-source><mrk mid="0" mtype="seg">AES (256bit)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AES (256bit)</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">DES</source>
+<seg-source><mrk mid="0" mtype="seg">DES</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DES</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">RC2</source>
+<seg-source><mrk mid="0" mtype="seg">RC2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RC2</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">RC4</source>
+<seg-source><mrk mid="0" mtype="seg">RC4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RC4</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Destroy the cryptographic key.</source>
+<seg-source><mrk mid="0" mtype="seg">Destroy the cryptographic key.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Destroy the cryptographic key.</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">CryptPassword</source>
+<seg-source><mrk mid="0" mtype="seg">CryptPassword</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CryptPassword</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Re-declare a password string and algorithm to create a new cryptographic key.</source>
+<seg-source><mrk mid="0" mtype="seg">Re-declare a password string and algorithm to create a new cryptographic key.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Re-declare a password string and algorithm to create a new cryptographic key.</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Check there is text available to encrypt.</source>
+<seg-source><mrk mid="0" mtype="seg">Check there is text available to encrypt.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check there is text available to encrypt.</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Encrypt the text with the new cryptographic key.</source>
+<seg-source><mrk mid="0" mtype="seg">Encrypt the text with the new cryptographic key.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encrypt the text with the new cryptographic key.</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Set the output box with the encrypted text.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the output box with the encrypted text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the output box with the encrypted text.</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Delete the previous GUI and all controls.</source>
+<seg-source><mrk mid="0" mtype="seg">Delete the previous GUI and all controls.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete the previous GUI and all controls.</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Destroy the cryptographic key.</source>
+<seg-source><mrk mid="0" mtype="seg">Destroy the cryptographic key.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Destroy the cryptographic key.</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Shutdown the crypt library.</source>
+<seg-source><mrk mid="0" mtype="seg">Shutdown the crypt library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shutdown the crypt library.</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Encrypt the text with the cryptographic key.</source>
+<seg-source><mrk mid="0" mtype="seg">Encrypt the text with the cryptographic key.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encrypt the text with the cryptographic key.</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Set the output box with the encrypted text.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the output box with the encrypted text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the output box with the encrypted text.</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Encrypt text using a generic password.</source>
+<seg-source><mrk mid="0" mtype="seg">Encrypt text using a generic password.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encrypt text using a generic password.</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Encrypt this data.</source>
+<seg-source><mrk mid="0" mtype="seg">Encrypt this data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Encrypt this data.</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">securepassword</source>
+<seg-source><mrk mid="0" mtype="seg">securepassword</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">securepassword</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Display the encrypted text.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the encrypted text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the encrypted text.</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Decrypt the encrypted text using the generic password.</source>
+<seg-source><mrk mid="0" mtype="seg">Decrypt the encrypted text using the generic password.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Decrypt the encrypted text using the generic password.</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">securepassword</source>
+<seg-source><mrk mid="0" mtype="seg">securepassword</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">securepassword</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Display the decrypted text.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the decrypted text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the decrypted text.</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Start the Crypt library.</source>
+<seg-source><mrk mid="0" mtype="seg">Start the Crypt library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Start the Crypt library.</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">If the flag is set to True then encrypt, otherwise decrypt.</source>
+<seg-source><mrk mid="0" mtype="seg">If the flag is set to True then encrypt, otherwise decrypt.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the flag is set to True then encrypt, otherwise decrypt.</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">Shutdown the Crypt library.</source>
+<seg-source><mrk mid="0" mtype="seg">Shutdown the Crypt library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Shutdown the Crypt library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

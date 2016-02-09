@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/InetGetInfo.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Returns detailed data for a handle returned from InetGet().</source>
+<seg-source><mrk mid="0" mtype="seg">Returns detailed data for a handle returned from InetGet().</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns detailed data for a handle returned from InetGet().</mrk></target>
+<note>Function InetGetInfo</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> A handle return from <bpt id="1" ctype="x-a">&lt;a href="InetGet.htm"></bpt>InetGet()<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A handle return from <bpt id="1" ctype="x-a">&lt;a href="InetGet.htm"></bpt>InetGet()<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A handle return from <bpt id="1" ctype="x-a">&lt;a href="InetGet.htm"></bpt>InetGet()<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>handle</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The index for the data to retrieve. If this value is -1 an array containing all of the below data will be returned.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index for the data to retrieve.</mrk> <mrk mid="2" mtype="seg">If this value is -1 an array containing all of the below data will be returned.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The index for the data to retrieve.</mrk> <mrk mid="2" mtype="seg">If this value is -1 an array containing all of the below data will be returned.</mrk></target>
+<note>index</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $INET_DOWNLOADREAD (0) - Bytes read so far (this is updated while the download progresses).</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INET_DOWNLOADREAD (0) - Bytes read so far (this is updated while the download progresses).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INET_DOWNLOADREAD (0) - Bytes read so far (this is updated while the download progresses).</mrk></target>
+<note>index</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $INET_DOWNLOADSIZE (1) - The size of the download in bytes (this may not always be present).</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INET_DOWNLOADSIZE (1) - The size of the download in bytes (this may not always be present).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INET_DOWNLOADSIZE (1) - The size of the download in bytes (this may not always be present).</mrk></target>
+<note>index</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $INET_DOWNLOADCOMPLETE (2) - Set to True if the download is complete, False if the download is still ongoing.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INET_DOWNLOADCOMPLETE (2) - Set to True if the download is complete, False if the download is still ongoing.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INET_DOWNLOADCOMPLETE (2) - Set to True if the download is complete, False if the download is still ongoing.</mrk></target>
+<note>index</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $INET_DOWNLOADSUCCESS (3) - True if the download was successful. If this is False then the next data member will be non-zero.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INET_DOWNLOADSUCCESS (3) - True if the download was successful.</mrk> <mrk mid="1" mtype="seg">If this is False then the next data member will be non-zero.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INET_DOWNLOADSUCCESS (3) - True if the download was successful.</mrk> <mrk mid="1" mtype="seg">If this is False then the next data member will be non-zero.</mrk></target>
+<note>index</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $INET_DOWNLOADERROR (4) - The error value for the download. The value itself is arbitrary. Testing that the value is non-zero is sufficient for determining if an error occurred.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INET_DOWNLOADERROR (4) - The error value for the download.</mrk> <mrk mid="1" mtype="seg">The value itself is arbitrary.</mrk> <mrk mid="2" mtype="seg">Testing that the value is non-zero is sufficient for determining if an error occurred.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INET_DOWNLOADERROR (4) - The error value for the download.</mrk> <mrk mid="1" mtype="seg">The value itself is arbitrary.</mrk> <mrk mid="2" mtype="seg">Testing that the value is non-zero is sufficient for determining if an error occurred.</mrk></target>
+<note>index</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $INET_DOWNLOADEXTENDED (5) - The extended value for the download. The value is arbitrary and is primarily only useful to the AutoIt developers.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $INET_DOWNLOADEXTENDED (5) - The extended value for the download.</mrk> <mrk mid="1" mtype="seg">The value is arbitrary and is primarily only useful to the AutoIt developers.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $INET_DOWNLOADEXTENDED (5) - The extended value for the download.</mrk> <mrk mid="1" mtype="seg">The value is arbitrary and is primarily only useful to the AutoIt developers.</mrk></target>
+<note>index</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> Constants are defined in InetConstants.au3.</source>
+<seg-source> <mrk mid="0" mtype="seg">Constants are defined in InetConstants.au3.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Constants are defined in InetConstants.au3.</mrk></target>
+<note>index</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">the request data.</source>
+<seg-source><mrk mid="0" mtype="seg">the request data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the request data.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">an empty string and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">an empty string and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">an empty string and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">If called with no arguments then the total number of active downloads will be returned.</source>
+<seg-source><mrk mid="0" mtype="seg">If called with no arguments then the total number of active downloads will be returned.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If called with no arguments then the total number of active downloads will be returned.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> This function can be called in a loop to query the number of bytes download or to pause until a download is complete.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function can be called in a loop to query the number of bytes download or to pause until a download is complete.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function can be called in a loop to query the number of bytes download or to pause until a download is complete.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Save the downloaded file to the temporary folder.</source>
+<seg-source><mrk mid="0" mtype="seg">Save the downloaded file to the temporary folder.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Save the downloaded file to the temporary folder.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Download the file in the background with the selected option of 'force a reload from the remote site.'</source>
+<seg-source><mrk mid="0" mtype="seg">Download the file in the background with the selected option of 'force a reload from the remote site.'</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Download the file in the background with the selected option of 'force a reload from the remote site.'</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">http://www.autoitscript.com/autoit3/files/beta/update.dat</source>
+<seg-source><mrk mid="0" mtype="seg">http://www.autoitscript.com/autoit3/files/beta/update.dat</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">http://www.autoitscript.com/autoit3/files/beta/update.dat</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Wait for the download to complete by monitoring when the 2nd index value of InetGetInfo returns True.</source>
+<seg-source><mrk mid="0" mtype="seg">Wait for the download to complete by monitoring when the 2nd index value of InetGetInfo returns True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Wait for the download to complete by monitoring when the 2nd index value of InetGetInfo returns True.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Retrieve details about the download file.</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve details about the download file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve details about the download file.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">If an error occurred then return from the function and delete the file.</source>
+<seg-source><mrk mid="0" mtype="seg">If an error occurred then return from the function and delete the file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If an error occurred then return from the function and delete the file.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Close the handle returned by InetGet.</source>
+<seg-source><mrk mid="0" mtype="seg">Close the handle returned by InetGet.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Close the handle returned by InetGet.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Display details about the downloaded file.</source>
+<seg-source><mrk mid="0" mtype="seg">Display details about the downloaded file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display details about the downloaded file.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Bytes read:</source>
+<seg-source><mrk mid="0" mtype="seg">Bytes read:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bytes read:</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Size:</source>
+<seg-source><mrk mid="0" mtype="seg">Size:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Size:</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Complete:</source>
+<seg-source><mrk mid="0" mtype="seg">Complete:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Complete:</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">successful:</source>
+<seg-source><mrk mid="0" mtype="seg">successful:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">successful:</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">@extended:</source>
+<seg-source><mrk mid="0" mtype="seg">@extended:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@extended:</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Delete the file.</source>
+<seg-source><mrk mid="0" mtype="seg">Delete the file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Delete the file.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

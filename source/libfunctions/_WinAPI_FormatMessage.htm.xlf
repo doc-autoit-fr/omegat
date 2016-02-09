@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_FormatMessage.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Formats a message string</source>
+<seg-source><mrk mid="0" mtype="seg">Formats a message string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Formats a message string</mrk></target>
+<note>Function _WinAPI_FormatMessage</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Contains a set of bit flags that specify aspects of the formatting process and how to interpret the $pSource parameter.</source>
+<seg-source><mrk mid="0" mtype="seg">Contains a set of bit flags that specify aspects of the formatting process and how to interpret the $pSource parameter.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains a set of bit flags that specify aspects of the formatting process and how to interpret the $pSource parameter.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> The low-order byte of $iFlags specifies how the function handles line breaks in the output buffer.</source>
+<seg-source> <mrk mid="0" mtype="seg">The low-order byte of $iFlags specifies how the function handles line breaks in the output buffer.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The low-order byte of $iFlags specifies how the function handles line breaks in the output buffer.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> The low-order byte can also specify the maximum width of a formatted output line.</source>
+<seg-source> <mrk mid="0" mtype="seg">The low-order byte can also specify the maximum width of a formatted output line.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The low-order byte can also specify the maximum width of a formatted output line.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Pointer to message source</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to message source</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to message source</mrk></target>
+<note>$pSource</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Requested message identifier</source>
+<seg-source><mrk mid="0" mtype="seg">Requested message identifier</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Requested message identifier</mrk></target>
+<note>$iMessageID</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Language identifier for requested message</source>
+<seg-source><mrk mid="0" mtype="seg">Language identifier for requested message</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Language identifier for requested message</mrk></target>
+<note>$iLanguageID</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Pointer to message buffer or string variable that will contain the message</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to message buffer or string variable that will contain the message</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to message buffer or string variable that will contain the message</mrk></target>
+<note>$pBuffer</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Maximum size of message buffer</source>
+<seg-source><mrk mid="0" mtype="seg">Maximum size of message buffer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Maximum size of message buffer</mrk></target>
+<note>$iSize</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Address of array of message inserts</source>
+<seg-source><mrk mid="0" mtype="seg">Address of array of message inserts</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Address of array of message inserts</mrk></target>
+<note>$vArguments</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Number of bytes stored in message buffer</source>
+<seg-source><mrk mid="0" mtype="seg">Number of bytes stored in message buffer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Number of bytes stored in message buffer</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> Set the @error flag to on-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information </source>
+<seg-source> <mrk mid="0" mtype="seg">Set the @error flag to on-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Set the @error flag to on-zero, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FormatMessage);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FormatMessage<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FormatMessage);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FormatMessage<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FormatMessage);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FormatMessage<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

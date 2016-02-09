@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GDIPlus_MatrixTranslate.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Updates a matrix with the product of itself and a translation matrix</source>
+<seg-source><mrk mid="0" mtype="seg">Updates a matrix with the product of itself and a translation matrix</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Updates a matrix with the product of itself and a translation matrix</mrk></target>
+<note>Function _GDIPlus_MatrixTranslate</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to a Matrix object</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to a Matrix object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to a Matrix object</mrk></target>
+<note>$hMatrix</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Amount of pixels to add along the x-axis</source>
+<seg-source><mrk mid="0" mtype="seg">Amount of pixels to add along the x-axis</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Amount of pixels to add along the x-axis</mrk></target>
+<note>$fOffsetX</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Amount of pixels to add along the y-axis</source>
+<seg-source><mrk mid="0" mtype="seg">Amount of pixels to add along the y-axis</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Amount of pixels to add along the y-axis</mrk></target>
+<note>$fOffsetY</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies the order of the multiplication:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the order of the multiplication:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies the order of the multiplication:</mrk></target>
+<note>$bAppend</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     True - Specifies that the translation matrix is on the left</source>
+<seg-source> <mrk mid="0" mtype="seg">    True - Specifies that the translation matrix is on the left</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    True - Specifies that the translation matrix is on the left</mrk></target>
+<note>$bAppend</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     False - Specifies that the translation matrix is on the right</source>
+<seg-source> <mrk mid="0" mtype="seg">    False - Specifies that the translation matrix is on the right</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    False - Specifies that the translation matrix is on the right</mrk></target>
+<note>$bAppend</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</source>
+<seg-source><mrk mid="0" mtype="seg">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipTranslateMatrix"></bpt>GdipTranslateMatrix<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipTranslateMatrix"></bpt>GdipTranslateMatrix<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipTranslateMatrix"></bpt>GdipTranslateMatrix<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">GDI+ Example (</source>
+<seg-source><mrk mid="0" mtype="seg">GDI+ Example (</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GDI+ Example (</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">)</source>
+<seg-source><mrk mid="0" mtype="seg">)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">)</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Start GDI+</source>
+<seg-source><mrk mid="0" mtype="seg">Start GDI+</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Start GDI+</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Move the matrix half the width and helf the height towards the center</source>
+<seg-source><mrk mid="0" mtype="seg">Move the matrix half the width and helf the height towards the center</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Move the matrix half the width and helf the height towards the center</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Draw around upper left corner of the GUI, but since we have translated the matrix the object will appear at the center of GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Draw around upper left corner of the GUI, but since we have translated the matrix the object will appear at the center of GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draw around upper left corner of the GUI, but since we have translated the matrix the object will appear at the center of GUI</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Clean up resources</source>
+<seg-source><mrk mid="0" mtype="seg">Clean up resources</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Clean up resources</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

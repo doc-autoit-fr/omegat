@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_GetDriveGeometryEx.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves extended information about the disk's geometry</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves extended information about the disk's geometry</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves extended information about the disk's geometry</mrk></target>
+<note>Function _WinAPI_GetDriveGeometryEx</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The physical drive number (0, 1, 2, etc) to retrieve information.</source>
+<seg-source><mrk mid="0" mtype="seg">The physical drive number (0, 1, 2, etc) to retrieve information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The physical drive number (0, 1, 2, etc) to retrieve information.</mrk></target>
+<note>$iDrive</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The array containing the following information:</source>
+<seg-source><mrk mid="0" mtype="seg">The array containing the following information:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The array containing the following information:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> [0] - The number of cylinders.</source>
+<seg-source> <mrk mid="0" mtype="seg">[0] - The number of cylinders.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[0] - The number of cylinders.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> [1] - The type of media.</source>
+<seg-source> <mrk mid="0" mtype="seg">[1] - The type of media.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[1] - The type of media.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> [2] - The number of tracks per cylinder.</source>
+<seg-source> <mrk mid="0" mtype="seg">[2] - The number of tracks per cylinder.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[2] - The number of tracks per cylinder.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> [3] - The number of sectors per track.</source>
+<seg-source> <mrk mid="0" mtype="seg">[3] - The number of sectors per track.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[3] - The number of sectors per track.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> [4] - The number of bytes per sector.</source>
+<seg-source> <mrk mid="0" mtype="seg">[4] - The number of bytes per sector.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[4] - The number of bytes per sector.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> [5] - The disk size, in bytes.</source>
+<seg-source> <mrk mid="0" mtype="seg">[5] - The disk size, in bytes.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[5] - The disk size, in bytes.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(IOCTL_DISK_GET_DRIVE_GEOMETRY_EX);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>IOCTL_DISK_GET_DRIVE_GEOMETRY_EX<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(IOCTL_DISK_GET_DRIVE_GEOMETRY_EX);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>IOCTL_DISK_GET_DRIVE_GEOMETRY_EX<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(IOCTL_DISK_GET_DRIVE_GEOMETRY_EX);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>IOCTL_DISK_GET_DRIVE_GEOMETRY_EX<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">-------------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">-------------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-------------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Drive:</source>
+<seg-source><mrk mid="0" mtype="seg">Drive:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Drive:</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Cylinders:</source>
+<seg-source><mrk mid="0" mtype="seg">Cylinders:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cylinders:</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Tracks per Cylinder:</source>
+<seg-source><mrk mid="0" mtype="seg">Tracks per Cylinder:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Tracks per Cylinder:</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Sectors per Track:</source>
+<seg-source><mrk mid="0" mtype="seg">Sectors per Track:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sectors per Track:</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Bytes per Sector:</source>
+<seg-source><mrk mid="0" mtype="seg">Bytes per Sector:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bytes per Sector:</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Total Space:</source>
+<seg-source><mrk mid="0" mtype="seg">Total Space:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Total Space:</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">bytes</source>
+<seg-source><mrk mid="0" mtype="seg">bytes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">bytes</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">-------------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">-------------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-------------------------------</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

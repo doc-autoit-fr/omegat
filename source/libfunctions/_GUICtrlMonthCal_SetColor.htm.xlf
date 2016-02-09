@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUICtrlMonthCal_SetColor.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the color for a given portion of the month calendar</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the color for a given portion of the month calendar</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the color for a given portion of the month calendar</mrk></target>
+<note>Function _GUICtrlMonthCal_SetColor</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Control ID/Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Indicates which month calendar color to set:</source>
+<seg-source><mrk mid="0" mtype="seg">Indicates which month calendar color to set:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Indicates which month calendar color to set:</mrk></target>
+<note>$iIndex</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $MCSC_BACKGROUND - Background color displayed between months</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCSC_BACKGROUND - Background color displayed between months</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCSC_BACKGROUND - Background color displayed between months</mrk></target>
+<note>$iIndex</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $MCSC_TEXT - Color used to display text within a month</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCSC_TEXT - Color used to display text within a month</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCSC_TEXT - Color used to display text within a month</mrk></target>
+<note>$iIndex</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $MCSC_TITLEBK - Background color displayed in the calendar title</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCSC_TITLEBK - Background color displayed in the calendar title</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCSC_TITLEBK - Background color displayed in the calendar title</mrk></target>
+<note>$iIndex</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $MCSC_TITLETEXT - Color used to display text within the calendar title</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCSC_TITLETEXT - Color used to display text within the calendar title</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCSC_TITLETEXT - Color used to display text within the calendar title</mrk></target>
+<note>$iIndex</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $MCSC_MONTHBK - Background color displayed within the month</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCSC_MONTHBK - Background color displayed within the month</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCSC_MONTHBK - Background color displayed within the month</mrk></target>
+<note>$iIndex</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $MCSC_TRAILINGTEXT - Color used to display header day and trailing day text</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MCSC_TRAILINGTEXT - Color used to display header day and trailing day text</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MCSC_TRAILINGTEXT - Color used to display header day and trailing day text</mrk></target>
+<note>$iIndex</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Color value</source>
+<seg-source><mrk mid="0" mtype="seg">Color value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Color value</mrk></target>
+<note>$iColor</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">the previous color setting for the specified portion of the control.</source>
+<seg-source><mrk mid="0" mtype="seg">the previous color setting for the specified portion of the control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the previous color setting for the specified portion of the control.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">-1.</source>
+<seg-source><mrk mid="0" mtype="seg">-1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Month Calendar Set Color</source>
+<seg-source><mrk mid="0" mtype="seg">Month Calendar Set Color</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Month Calendar Set Color</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Create memo control</source>
+<seg-source><mrk mid="0" mtype="seg">Create memo control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create memo control</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Get/Set calendar color</source>
+<seg-source><mrk mid="0" mtype="seg">Get/Set calendar color</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get/Set calendar color</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Background: 0x</source>
+<seg-source><mrk mid="0" mtype="seg">Background:</mrk> <mrk mid="1" mtype="seg">0x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Background:</mrk> <mrk mid="1" mtype="seg">0x</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">_GUICtrlMonthCal_SetColor($idMonthCal, $MCSC_MONTHBK, $CLR_MONEYGREEN)</source>
+<seg-source><mrk mid="0" mtype="seg">_GUICtrlMonthCal_SetColor($idMonthCal, $MCSC_MONTHBK, $CLR_MONEYGREEN)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_GUICtrlMonthCal_SetColor($idMonthCal, $MCSC_MONTHBK, $CLR_MONEYGREEN)</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Background: 0x</source>
+<seg-source><mrk mid="0" mtype="seg">Background:</mrk> <mrk mid="1" mtype="seg">0x</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Background:</mrk> <mrk mid="1" mtype="seg">0x</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Write message to memo</source>
+<seg-source><mrk mid="0" mtype="seg">Write message to memo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write message to memo</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

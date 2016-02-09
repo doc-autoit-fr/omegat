@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/$tagNMLVGETINFOTIP.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Keyword Reference</source>
+<seg-source><mrk mid="0" mtype="seg">Keyword Reference</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Keyword Reference</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Contains and receives list-view item information needed to display a ToolTip for an item</source>
+<seg-source><mrk mid="0" mtype="seg">Contains and receives list-view item information needed to display a ToolTip for an item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains and receives list-view item information needed to display a ToolTip for an item</mrk></target>
+<note>Keyword $tagNMLVGETINFOTIP</note>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Contains information about a notification message</source>
+<seg-source><mrk mid="0" mtype="seg">Contains information about a notification message</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains information about a notification message</mrk></target>
+<note>$tagNMHDR</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Either zero or $LVGIT_UNFOLDED</source>
+<seg-source><mrk mid="0" mtype="seg">Either zero or $LVGIT_UNFOLDED</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Either zero or $LVGIT_UNFOLDED</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Address of a string buffer that receives any additional text information.</source>
+<seg-source><mrk mid="0" mtype="seg">Address of a string buffer that receives any additional text information.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Address of a string buffer that receives any additional text information.</mrk></target>
+<note>Text</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> If Flags is zero, this member will contain the existing item text.</source>
+<seg-source> <mrk mid="0" mtype="seg">If Flags is zero, this member will contain the existing item text.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If Flags is zero, this member will contain the existing item text.</mrk></target>
+<note>Text</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> In this case, you should append any additional text onto the end of this string.</source>
+<seg-source> <mrk mid="0" mtype="seg">In this case, you should append any additional text onto the end of this string.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">In this case, you should append any additional text onto the end of this string.</mrk></target>
+<note>Text</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Size, in characters, of the buffer pointed to by Text.</source>
+<seg-source><mrk mid="0" mtype="seg">Size, in characters, of the buffer pointed to by Text.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Size, in characters, of the buffer pointed to by Text.</mrk></target>
+<note>TextMax</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> Although you should never assume that this buffer will be of any particular size, the $INFOTIPSIZE value can be used for design purposes</source>
+<seg-source> <mrk mid="0" mtype="seg">Although you should never assume that this buffer will be of any particular size, the $INFOTIPSIZE value can be used for design purposes</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Although you should never assume that this buffer will be of any particular size, the $INFOTIPSIZE value can be used for design purposes</mrk></target>
+<note>TextMax</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">0-based index of the item to which this structure refers.</source>
+<seg-source><mrk mid="0" mtype="seg">0-based index of the item to which this structure refers.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0-based index of the item to which this structure refers.</mrk></target>
+<note>Item</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">1-based index of the subitem to which this structure refers.</source>
+<seg-source><mrk mid="0" mtype="seg">1-based index of the subitem to which this structure refers.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1-based index of the subitem to which this structure refers.</mrk></target>
+<note>SubItem</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> If this member is zero, the structure is referring to the item and not a subitem.</source>
+<seg-source> <mrk mid="0" mtype="seg">If this member is zero, the structure is referring to the item and not a subitem.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If this member is zero, the structure is referring to the item and not a subitem.</mrk></target>
+<note>SubItem</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> This member is not currently used and will always be zero.</source>
+<seg-source> <mrk mid="0" mtype="seg">This member is not currently used and will always be zero.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This member is not currently used and will always be zero.</mrk></target>
+<note>SubItem</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Application-defined value associated with the item</source>
+<seg-source><mrk mid="0" mtype="seg">Application-defined value associated with the item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Application-defined value associated with the item</mrk></target>
+<note>lParam</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> This member is not currently used and will always be zero.</source>
+<seg-source> <mrk mid="0" mtype="seg">This member is not currently used and will always be zero.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This member is not currently used and will always be zero.</mrk></target>
+<note>lParam</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

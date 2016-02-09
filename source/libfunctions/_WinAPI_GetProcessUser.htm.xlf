@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_GetProcessUser.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the user and domain name for the specified process</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the user and domain name for the specified process</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the user and domain name for the specified process</mrk></target>
+<note>Function _WinAPI_GetProcessUser</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The PID of the process. Default (0) is the current process.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="2" mtype="seg">The PID of the process.</mrk> <mrk mid="3" mtype="seg">Default (0) is the current process.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="2" mtype="seg">The PID of the process.</mrk> <mrk mid="3" mtype="seg">Default (0) is the current process.</mrk></target>
+<note>$iPID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The array that contains the following information:</source>
+<seg-source><mrk mid="0" mtype="seg">The array that contains the following information:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The array that contains the following information:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> [0] - The user (account) name.</source>
+<seg-source> <mrk mid="0" mtype="seg">[0] - The user (account) name.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[0] - The user (account) name.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> [1] - The domain name.</source>
+<seg-source> <mrk mid="0" mtype="seg">[1] - The domain name.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">[1] - The domain name.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Using this function for some processes may require full access rights. Use <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_AdjustTokenPrivileges.htm"></bpt>_WinAPI_AdjustTokenPrivileges()<ept id="1">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg">Using this function for some processes may require full access rights.</mrk> <mrk mid="1" mtype="seg">Use <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_AdjustTokenPrivileges.htm"></bpt>_WinAPI_AdjustTokenPrivileges()<ept id="1">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Using this function for some processes may require full access rights.</mrk> <mrk mid="1" mtype="seg">Use <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_AdjustTokenPrivileges.htm"></bpt>_WinAPI_AdjustTokenPrivileges()<ept id="1">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> function to enable $SE_DEBUG_NAME privilege before calling this function.</source>
+<seg-source> <mrk mid="0" mtype="seg">function to enable $SE_DEBUG_NAME privilege before calling this function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">function to enable $SE_DEBUG_NAME privilege before calling this function.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Enable "SeDebugPrivilege" privilege for obtain full access rights to another processes</source>
+<seg-source><mrk mid="0" mtype="seg">Enable "SeDebugPrivilege" privilege for obtain full access rights to another processes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enable "SeDebugPrivilege" privilege for obtain full access rights to another processes</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Retrieve user names for all processes the system</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieve user names for all processes the system</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieve user names for all processes the system</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Enable SeDebugPrivilege privilege by default</source>
+<seg-source><mrk mid="0" mtype="seg">Enable SeDebugPrivilege privilege by default</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Enable SeDebugPrivilege privilege by default</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">_WinAPI_GetProcessUser</source>
+<seg-source><mrk mid="0" mtype="seg">_WinAPI_GetProcessUser</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinAPI_GetProcessUser</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

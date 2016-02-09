@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/DllStructSetData.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the data of an element in the struct.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the data of an element in the struct.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the data of an element in the struct.</mrk></target>
+<note>Function DllStructSetData</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> The struct returned by <bpt id="1" ctype="x-a">&lt;a href="DllStructCreate.htm"></bpt>DllStructCreate()<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">The struct returned by <bpt id="1" ctype="x-a">&lt;a href="DllStructCreate.htm"></bpt>DllStructCreate()<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The struct returned by <bpt id="1" ctype="x-a">&lt;a href="DllStructCreate.htm"></bpt>DllStructCreate()<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>Struct</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> Which element of the struct you want to access, starting at 1, or the element name as defined in <bpt id="1" ctype="x-a">&lt;a href="DllStructCreate.htm"></bpt>DllStructCreate()<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">Which element of the struct you want to access, starting at 1, or the element name as defined in <bpt id="1" ctype="x-a">&lt;a href="DllStructCreate.htm"></bpt>DllStructCreate()<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Which element of the struct you want to access, starting at 1, or the element name as defined in <bpt id="1" ctype="x-a">&lt;a href="DllStructCreate.htm"></bpt>DllStructCreate()<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>Element</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The new value to place in the struct element.</source>
+<seg-source><mrk mid="0" mtype="seg">The new value to place in the struct element.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The new value to place in the struct element.</mrk></target>
+<note>value</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> For elements that are an array this specifies the 1-based index to set. If omitted or the Default keyword then as much of the value as possible will be set in element starting at index 1 (Useful for quickly setting strings). <bpt id="1" ctype="x-strong">&lt;strong></bpt>Not used for non-array elements.<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">For elements that are an array this specifies the 1-based index to set.</mrk> <mrk mid="2" mtype="seg">If omitted or the Default keyword then as much of the value as possible will be set in element starting at index 1 (Useful for quickly setting strings).</mrk> <mrk mid="3" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Not used for non-array elements.<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">For elements that are an array this specifies the 1-based index to set.</mrk> <mrk mid="2" mtype="seg">If omitted or the Default keyword then as much of the value as possible will be set in element starting at index 1 (Useful for quickly setting strings).</mrk> <mrk mid="3" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Not used for non-array elements.<ept id="1">&lt;/strong></ept></mrk></target>
+<note>index</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">value, which is read back from the struct.</source>
+<seg-source><mrk mid="0" mtype="seg">value, which is read back from the struct.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">value, which is read back from the struct.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> 1 = Struct not a valid struct returned by <bpt id="1" ctype="x-a">&lt;a href="DllStructCreate.htm"></bpt>DllStructCreate()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">1 = Struct not a valid struct returned by <bpt id="1" ctype="x-a">&lt;a href="DllStructCreate.htm"></bpt>DllStructCreate()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1 = Struct not a valid struct returned by <bpt id="1" ctype="x-a">&lt;a href="DllStructCreate.htm"></bpt>DllStructCreate()<ept id="1">&lt;/a></ept>.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> 2 = Element out of range or unknown.</source>
+<seg-source> <mrk mid="0" mtype="seg">2 = Element out of range or unknown.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 = Element out of range or unknown.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> 3 = Index out of range.</source>
+<seg-source> <mrk mid="0" mtype="seg">3 = Index out of range.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 = Index out of range.</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> 4 = Element data type is unknown</source>
+<seg-source> <mrk mid="0" mtype="seg">4 = Element data type is unknown</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 = Element data type is unknown</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> 5 = Index &lt;=0. </source>
+<seg-source> <mrk mid="0" mtype="seg">5 = Index &lt;=0.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">5 = Index &lt;=0.</mrk> </target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">When the element is char[n], wchar[n] or byte[n] the data can be a string. byte[n] also accepts binary data. Otherwise the data has to be either an AutoIt type compatible with the element type, or a number which will be converted to the required type.</source>
+<seg-source><mrk mid="0" mtype="seg">When the element is char[n], wchar[n] or byte[n] the data can be a string.</mrk> <mrk mid="1" mtype="seg">byte[n] also accepts binary data.</mrk> <mrk mid="2" mtype="seg">Otherwise the data has to be either an AutoIt type compatible with the element type, or a number which will be converted to the required type.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">When the element is char[n], wchar[n] or byte[n] the data can be a string.</mrk> <mrk mid="1" mtype="seg">byte[n] also accepts binary data.</mrk> <mrk mid="2" mtype="seg">Otherwise the data has to be either an AutoIt type compatible with the element type, or a number which will be converted to the required type.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> Native AutoIt strings are implicitely converted to ANSI prior to copy into a char[n] or byte[n] element. You need to convert native Unicode strings to UTF8 when the element is expecting this encoding (e.g. in DllCall).</source>
+<seg-source> <mrk mid="0" mtype="seg">Native AutoIt strings are implicitely converted to ANSI prior to copy into a char[n] or byte[n] element.</mrk> <mrk mid="1" mtype="seg">You need to convert native Unicode strings to UTF8 when the element is expecting this encoding (e.g. in DllCall).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Native AutoIt strings are implicitely converted to ANSI prior to copy into a char[n] or byte[n] element.</mrk> <mrk mid="1" mtype="seg">You need to convert native Unicode strings to UTF8 when the element is expecting this encoding (e.g. in DllCall).</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Assign a Local constant variable the definition of a structure (read carefully the DllStructCreate remarks).</source>
+<seg-source><mrk mid="0" mtype="seg">Assign a Local constant variable the definition of a structure (read carefully the DllStructCreate remarks).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign a Local constant variable the definition of a structure (read carefully the DllStructCreate remarks).</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">struct;int var1;byte var2;uint var3;char var4[128];endstruct</source>
+<seg-source><mrk mid="0" mtype="seg">struct;int var1;byte var2;uint var3;char var4[128];endstruct</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">struct;int var1;byte var2;uint var3;char var4[128];endstruct</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Note: The tag variable is declared as Constant because its value will never change for any script execution.</source>
+<seg-source><mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">The tag variable is declared as Constant because its value will never change for any script execution.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">The tag variable is declared as Constant because its value will never change for any script execution.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Assign a Local variable the structure.</source>
+<seg-source><mrk mid="0" mtype="seg">Assign a Local variable the structure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Assign a Local variable the structure.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">If an error occurred display the error code and return False.</source>
+<seg-source><mrk mid="0" mtype="seg">If an error occurred display the error code and return False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If an error occurred display the error code and return False.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Error in DllStructCreate, Code:</source>
+<seg-source><mrk mid="0" mtype="seg">Error in DllStructCreate, Code:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error in DllStructCreate, Code:</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Set the data of the element var1 (int) in the $tSTRUCT1.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the data of the element var1 (int) in the $tSTRUCT1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the data of the element var1 (int) in the $tSTRUCT1.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">var1</source>
+<seg-source><mrk mid="0" mtype="seg">var1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">var1</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Or 1 instead of "var1".</source>
+<seg-source><mrk mid="0" mtype="seg">Or 1 instead of "var1".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Or 1 instead of "var1".</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Set the data of the element var2 (byte) in the $tSTRUCT1.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the data of the element var2 (byte) in the $tSTRUCT1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the data of the element var2 (byte) in the $tSTRUCT1.</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Or "var2" instead of 2.</source>
+<seg-source><mrk mid="0" mtype="seg">Or "var2" instead of 2.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Or "var2" instead of 2.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Set the data of the element var3 (uint) in the $tSTRUCT1.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the data of the element var3 (uint) in the $tSTRUCT1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the data of the element var3 (uint) in the $tSTRUCT1.</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">var3</source>
+<seg-source><mrk mid="0" mtype="seg">var3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">var3</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">The -1 (signed int) will be typecasted to unsigned int.</source>
+<seg-source><mrk mid="0" mtype="seg">The -1 (signed int) will be typecasted to unsigned int.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The -1 (signed int) will be typecasted to unsigned int.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Or 3 instead of "var3".</source>
+<seg-source><mrk mid="0" mtype="seg">Or 3 instead of "var3".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Or 3 instead of "var3".</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Set the data of the element var4 (char) in the $tSTRUCT1.</source>
+<seg-source><mrk mid="0" mtype="seg">Set the data of the element var4 (char) in the $tSTRUCT1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the data of the element var4 (char) in the $tSTRUCT1.</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">var4</source>
+<seg-source><mrk mid="0" mtype="seg">var4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">var4</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Hello</source>
+<seg-source><mrk mid="0" mtype="seg">Hello</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hello</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Or 4 instead of "var4".</source>
+<seg-source><mrk mid="0" mtype="seg">Or 4 instead of "var4".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Or 4 instead of "var4".</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Note: This element can contain up to 128 characters.</source>
+<seg-source><mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">This element can contain up to 128 characters.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Note:</mrk> <mrk mid="1" mtype="seg">This element can contain up to 128 characters.</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Change the data of the element var4 (char) in the $tSTRUCT1, at the index 1 of the char array (1 based index).</source>
+<seg-source><mrk mid="0" mtype="seg">Change the data of the element var4 (char) in the $tSTRUCT1, at the index 1 of the char array (1 based index).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Change the data of the element var4 (char) in the $tSTRUCT1, at the index 1 of the char array (1 based index).</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">var4</source>
+<seg-source><mrk mid="0" mtype="seg">var4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">var4</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">h</source>
+<seg-source><mrk mid="0" mtype="seg">h</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">h</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Display the results.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the results.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the results.</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Struct Size:</source>
+<seg-source><mrk mid="0" mtype="seg">Struct Size:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Struct Size:</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Struct pointer:</source>
+<seg-source><mrk mid="0" mtype="seg">Struct pointer:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Struct pointer:</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Data:</source>
+<seg-source><mrk mid="0" mtype="seg">Data:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Data:</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Or "var1" instead of 1.</source>
+<seg-source><mrk mid="0" mtype="seg">Or "var1" instead of 1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Or "var1" instead of 1.</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">var2</source>
+<seg-source><mrk mid="0" mtype="seg">var2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">var2</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Or 2 instead of "var2".</source>
+<seg-source><mrk mid="0" mtype="seg">Or 2 instead of "var2".</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Or 2 instead of "var2".</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Or "var3" instead of 3.</source>
+<seg-source><mrk mid="0" mtype="seg">Or "var3" instead of 3.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Or "var3" instead of 3.</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Or "var4" instead of 4.</source>
+<seg-source><mrk mid="0" mtype="seg">Or "var4" instead of 4.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Or "var4" instead of 4.</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Release the resources used by the structure.</source>
+<seg-source><mrk mid="0" mtype="seg">Release the resources used by the structure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Release the resources used by the structure.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

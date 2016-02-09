@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUICtrlEdit_LineScroll.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Scrolls the text</source>
+<seg-source><mrk mid="0" mtype="seg">Scrolls the text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scrolls the text</mrk></target>
+<note>Function _GUICtrlEdit_LineScroll</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Control ID/Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Specifies the number of characters to scroll horizontally.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the number of characters to scroll horizontally.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the number of characters to scroll horizontally.</mrk></target>
+<note>$iHoriz</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Specifies the number of lines to scroll vertically.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the number of lines to scroll vertically.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the number of lines to scroll vertically.</mrk></target>
+<note>$iVert</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">False.</source>
+<seg-source><mrk mid="0" mtype="seg">False.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">The control does not scroll vertically past the last line of text in the edit control.</source>
+<seg-source><mrk mid="0" mtype="seg">The control does not scroll vertically past the last line of text in the edit control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The control does not scroll vertically past the last line of text in the edit control.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> If the current line plus the number of lines specified by the $iVert parameter exceeds the total number of lines in the edit control, the value is adjusted so that the last line of the edit control is scrolled to the top of the edit-control window.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the current line plus the number of lines specified by the $iVert parameter exceeds the total number of lines in the edit control, the value is adjusted so that the last line of the edit control is scrolled to the top of the edit-control window.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the current line plus the number of lines specified by the $iVert parameter exceeds the total number of lines in the edit control, the value is adjusted so that the last line of the edit control is scrolled to the top of the edit-control window.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="_GUICtrlEdit_LineScroll.htm"></bpt>_GUICtrlEdit_LineScroll()<ept id="1">&lt;/a></ept> scrolls the text vertically or horizontally.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_GUICtrlEdit_LineScroll.htm"></bpt>_GUICtrlEdit_LineScroll()<ept id="1">&lt;/a></ept> scrolls the text vertically or horizontally.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_GUICtrlEdit_LineScroll.htm"></bpt>_GUICtrlEdit_LineScroll()<ept id="1">&lt;/a></ept> scrolls the text vertically or horizontally.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> <bpt id="1" ctype="x-a">&lt;a href="_GUICtrlEdit_LineScroll.htm"></bpt>_GUICtrlEdit_LineScroll()<ept id="1">&lt;/a></ept> can be used to scroll horizontally past the last character of any line.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_GUICtrlEdit_LineScroll.htm"></bpt>_GUICtrlEdit_LineScroll()<ept id="1">&lt;/a></ept> can be used to scroll horizontally past the last character of any line.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="_GUICtrlEdit_LineScroll.htm"></bpt>_GUICtrlEdit_LineScroll()<ept id="1">&lt;/a></ept> can be used to scroll horizontally past the last character of any line.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Edit Line Scroll</source>
+<seg-source><mrk mid="0" mtype="seg">Edit Line Scroll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Edit Line Scroll</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Set Text</source>
+<seg-source><mrk mid="0" mtype="seg">Set Text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set Text</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Scroll</source>
+<seg-source><mrk mid="0" mtype="seg">Scroll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scroll</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Scrolled:</source>
+<seg-source><mrk mid="0" mtype="seg">Scrolled:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scrolled:</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

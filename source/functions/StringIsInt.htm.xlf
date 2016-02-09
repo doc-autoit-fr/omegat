@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/StringIsInt.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Checks if a string is an integer.</source>
+<seg-source><mrk mid="0" mtype="seg">Checks if a string is an integer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Checks if a string is an integer.</mrk></target>
+<note>Function StringIsInt</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The string to check.</source>
+<seg-source><mrk mid="0" mtype="seg">The string to check.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The string to check.</mrk></target>
+<note>string</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">0 if string cannot be an integer.</source>
+<seg-source><mrk mid="0" mtype="seg">0 if string cannot be an integer.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 if string cannot be an integer.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="StringIsInt.htm"></bpt>StringIsInt()<ept id="1">&lt;/a></ept> also returns 1 for non-string integer expressions; however, <bpt id="2" ctype="x-a">&lt;a href="StringIsInt.htm"></bpt>StringIsInt()<ept id="2">&lt;/a></ept> returns 0 for hexadecimal expressions such as "4ff0". The only punctuation allowed is either a plus or a minus at the beginning of the string.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="StringIsInt.htm"></bpt>StringIsInt()<ept id="1">&lt;/a></ept> also returns 1 for non-string integer expressions; however, <bpt id="2" ctype="x-a">&lt;a href="StringIsInt.htm"></bpt>StringIsInt()<ept id="2">&lt;/a></ept> returns 0 for hexadecimal expressions such as "4ff0".</mrk> <mrk mid="1" mtype="seg">The only punctuation allowed is either a plus or a minus at the beginning of the string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="StringIsInt.htm"></bpt>StringIsInt()<ept id="1">&lt;/a></ept> also returns 1 for non-string integer expressions; however, <bpt id="2" ctype="x-a">&lt;a href="StringIsInt.htm"></bpt>StringIsInt()<ept id="2">&lt;/a></ept> returns 0 for hexadecimal expressions such as "4ff0".</mrk> <mrk mid="1" mtype="seg">The only punctuation allowed is either a plus or a minus at the beginning of the string.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Is the string +42 an integer:</source>
+<seg-source><mrk mid="0" mtype="seg">Is the string +42 an integer:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Is the string +42 an integer:</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Returns 1, due to the + (plus) symbol being at the beginning of the string.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns 1, due to the + (plus) symbol being at the beginning of the string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns 1, due to the + (plus) symbol being at the beginning of the string.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Is the string -00 an integer:</source>
+<seg-source><mrk mid="0" mtype="seg">Is the string -00 an integer:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Is the string -00 an integer:</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Returns 1, due to the - (minus) symbol being at the beginning of the string.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns 1, due to the - (minus) symbol being at the beginning of the string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns 1, due to the - (minus) symbol being at the beginning of the string.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Is the string 1.0 an integer:</source>
+<seg-source><mrk mid="0" mtype="seg">Is the string 1.0 an integer:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Is the string 1.0 an integer:</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">1.0</source>
+<seg-source><mrk mid="0" mtype="seg">1.0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.0</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Returns 0, due to the decimal point.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns 0, due to the decimal point.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns 0, due to the decimal point.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Is the number 1.0 an integer:</source>
+<seg-source><mrk mid="0" mtype="seg">Is the number 1.0 an integer:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Is the number 1.0 an integer:</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Returns 1, due to the number to string conversion.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns 1, due to the number to string conversion.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns 1, due to the number to string conversion.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Is the string 1+2 an integer:</source>
+<seg-source><mrk mid="0" mtype="seg">Is the string 1+2 an integer:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Is the string 1+2 an integer:</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">1+2</source>
+<seg-source><mrk mid="0" mtype="seg">1+2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1+2</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Returns 0, as the + (plus) symbol is not at the beginning of the string.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns 0, as the + (plus) symbol is not at the beginning of the string.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns 0, as the + (plus) symbol is not at the beginning of the string.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

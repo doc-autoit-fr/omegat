@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_ArrayDelete.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Deletes the specified element(s) from the specified 1D or 2D array</source>
+<seg-source><mrk mid="0" mtype="seg">Deletes the specified element(s) from the specified 1D or 2D array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Deletes the specified element(s) from the specified 1D or 2D array</mrk></target>
+<note>Function _ArrayDelete</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Array to modify</source>
+<seg-source><mrk mid="0" mtype="seg">Array to modify</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Array to modify</mrk></target>
+<note>$aArray</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Element(s) to delete - either a single index, a range string or a 1D array with a count in the [0] element (see example for details)</source>
+<seg-source><mrk mid="0" mtype="seg">Element(s) to delete - either a single index, a range string or a 1D array with a count in the [0] element (see example for details)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Element(s) to delete - either a single index, a range string or a 1D array with a count in the [0] element (see example for details)</mrk></target>
+<note>$vRange</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">the new size of the array (see remarks)</source>
+<seg-source><mrk mid="0" mtype="seg">the new size of the array (see remarks)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the new size of the array (see remarks)</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">-1 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">-1 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">1 - $aArray is not an array</source>
+<seg-source><mrk mid="0" mtype="seg">1 - $aArray is not an array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - $aArray is not an array</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> 2 - $aArray is not a 1D or 2D array</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - $aArray is not a 1D or 2D array</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - $aArray is not a 1D or 2D array</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> 3 - $vRange is not a valid range string</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - $vRange is not a valid range string</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - $vRange is not a valid range string</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> 4 - $vRange is not a 1D array or has only 1 element</source>
+<seg-source> <mrk mid="0" mtype="seg">4 - $vRange is not a 1D array or has only 1 element</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 - $vRange is not a 1D array or has only 1 element</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> 5 - $vRange content is outside array bounds</source>
+<seg-source> <mrk mid="0" mtype="seg">5 - $vRange content is outside array bounds</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">5 - $vRange content is outside array bounds</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">$vRange can be a string containing the rows which are to be deleted. It can be a single number or a range denoted by the first and last lines separated by a hyphen (-) - multiple items are separated by a semi-colon (;).</source>
+<seg-source><mrk mid="0" mtype="seg">$vRange can be a string containing the rows which are to be deleted.</mrk> <mrk mid="1" mtype="seg">It can be a single number or a range denoted by the first and last lines separated by a hyphen (-) - multiple items are separated by a semi-colon (;).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$vRange can be a string containing the rows which are to be deleted.</mrk> <mrk mid="1" mtype="seg">It can be a single number or a range denoted by the first and last lines separated by a hyphen (-) - multiple items are separated by a semi-colon (;).</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> $vRange can also be a 1D array listing all rows to be deleted with the count in the [0] element].</source>
+<seg-source> <mrk mid="0" mtype="seg">$vRange can also be a 1D array listing all rows to be deleted with the count in the [0] element].</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$vRange can also be a 1D array listing all rows to be deleted with the count in the [0] element].</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> In either case, the rows need not be in ascending order and can be duplicated.</source>
+<seg-source> <mrk mid="0" mtype="seg">In either case, the rows need not be in ascending order and can be duplicated.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">In either case, the rows need not be in ascending order and can be duplicated.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Original</source>
+<seg-source><mrk mid="0" mtype="seg">Original</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Original</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Element 2 deleted</source>
+<seg-source><mrk mid="0" mtype="seg">Element 2 deleted</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Element 2 deleted</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">-</source>
+<seg-source><mrk mid="0" mtype="seg">-</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Single row</source>
+<seg-source><mrk mid="0" mtype="seg">Single row</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Single row</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">BEFORE deletion</source>
+<seg-source><mrk mid="0" mtype="seg">BEFORE deletion</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BEFORE deletion</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">SINGLE ROW deleted</source>
+<seg-source><mrk mid="0" mtype="seg">SINGLE ROW deleted</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SINGLE ROW deleted</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Range string</source>
+<seg-source><mrk mid="0" mtype="seg">Range string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Range string</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">0;11-15;24</source>
+<seg-source><mrk mid="0" mtype="seg">0;11-15;24</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0;11-15;24</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">BEFORE deletion</source>
+<seg-source><mrk mid="0" mtype="seg">BEFORE deletion</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BEFORE deletion</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">RANGE STRING deleted</source>
+<seg-source><mrk mid="0" mtype="seg">RANGE STRING deleted</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RANGE STRING deleted</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">1D array</source>
+<seg-source><mrk mid="0" mtype="seg">1D array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1D array</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">BEFORE deletion</source>
+<seg-source><mrk mid="0" mtype="seg">BEFORE deletion</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">BEFORE deletion</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">RANGE ARRAY deleted</source>
+<seg-source><mrk mid="0" mtype="seg">RANGE ARRAY deleted</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RANGE ARRAY deleted</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

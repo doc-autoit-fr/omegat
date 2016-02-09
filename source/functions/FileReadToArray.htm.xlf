@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/FileReadToArray.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Reads the specified file into an array.</source>
+<seg-source><mrk mid="0" mtype="seg">Reads the specified file into an array.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Reads the specified file into an array.</mrk></target>
+<note>Function FileReadToArray</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> The handle of a file, as returned by a previous call to <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept>. Alternatively you may use a string filename as the first parameter. </source>
+<seg-source> <mrk mid="0" mtype="seg">The handle of a file, as returned by a previous call to <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept>.</mrk> <mrk mid="1" mtype="seg">Alternatively you may use a string filename as the first parameter.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The handle of a file, as returned by a previous call to <bpt id="1" ctype="x-a">&lt;a href="FileOpen.htm"></bpt>FileOpen()<ept id="1">&lt;/a></ept>.</mrk> <mrk mid="1" mtype="seg">Alternatively you may use a string filename as the first parameter.</mrk> </target>
+<note>filehandle/filename</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">a 1 dimension array containing one line of text per element and @extended set to the number of lines read.</source>
+<seg-source><mrk mid="0" mtype="seg">a 1 dimension array containing one line of text per element and @extended set to the number of lines read.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a 1 dimension array containing one line of text per element and @extended set to the number of lines read.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">sets the @error flag to non_zero.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to non_zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to non_zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">1 = Error opening specified file</source>
+<seg-source><mrk mid="0" mtype="seg">1 = Error opening specified file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 = Error opening specified file</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> 2 = Empty file</source>
+<seg-source> <mrk mid="0" mtype="seg">2 = Empty file</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 = Empty file</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Use @extended or <bpt id="1" ctype="x-a">&lt;a href="UBound.htm"></bpt>UBound()<ept id="1">&lt;/a></ept> to determine the number of lines read.</source>
+<seg-source><mrk mid="0" mtype="seg">Use @extended or <bpt id="1" ctype="x-a">&lt;a href="UBound.htm"></bpt>UBound()<ept id="1">&lt;/a></ept> to determine the number of lines read.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Use @extended or <bpt id="1" ctype="x-a">&lt;a href="UBound.htm"></bpt>UBound()<ept id="1">&lt;/a></ept> to determine the number of lines read.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Read the current script file into an array using the filepath.</source>
+<seg-source><mrk mid="0" mtype="seg">Read the current script file into an array using the filepath.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Read the current script file into an array using the filepath.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">There was an error reading the file. @error:</source>
+<seg-source><mrk mid="0" mtype="seg">There was an error reading the file.</mrk> <mrk mid="1" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">There was an error reading the file.</mrk> <mrk mid="1" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">An error occurred reading the current script file.</source>
+<seg-source><mrk mid="0" mtype="seg">An error occurred reading the current script file.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">An error occurred reading the current script file.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Loop through the array.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop through the array.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop through the array.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Display the contents of the array.</source>
+<seg-source><mrk mid="0" mtype="seg">Display the contents of the array.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Display the contents of the array.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

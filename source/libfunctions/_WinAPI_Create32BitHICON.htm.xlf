@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_Create32BitHICON.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Converts an icon to a 32 bits-per-pixel format and copies to the new icon</source>
+<seg-source><mrk mid="0" mtype="seg">Converts an icon to a 32 bits-per-pixel format and copies to the new icon</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Converts an icon to a 32 bits-per-pixel format and copies to the new icon</mrk></target>
+<note>Function _WinAPI_Create32BitHICON</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the icon to be converted.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the icon to be converted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the icon to be converted.</mrk></target>
+<note>$hIcon</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether to delete the icon after the function is successful, valid values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to delete the icon after the function is successful, valid values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to delete the icon after the function is successful, valid values:</mrk></target>
+<note>$bDelete</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     True - Icon will be deleted if the function succeeds.</source>
+<seg-source> <mrk mid="0" mtype="seg">    True - Icon will be deleted if the function succeeds.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    True - Icon will be deleted if the function succeeds.</mrk></target>
+<note>$bDelete</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     False - Do not delete, you must release the icon themselves when you are finished using it (Default).</source>
+<seg-source> <mrk mid="0" mtype="seg">    False - Do not delete, you must release the icon themselves when you are finished using it (Default).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    False - Do not delete, you must release the icon themselves when you are finished using it (Default).</mrk></target>
+<note>$bDelete</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Handle to the newly created icon.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the newly created icon.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the newly created icon.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">This function converts an icon with any color depth into an icon with 32 bits-per-pixel (RGB + Alpha) format.</source>
+<seg-source><mrk mid="0" mtype="seg">This function converts an icon with any color depth into an icon with 32 bits-per-pixel (RGB + Alpha) format.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function converts an icon with any color depth into an icon with 32 bits-per-pixel (RGB + Alpha) format.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> If the source icon already is a 32 bits-per-pixel icon, and has an alpha chanel, the function generates the new AND bitmask bitmap, and copies it to a new icon.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the source icon already is a 32 bits-per-pixel icon, and has an alpha chanel, the function generates the new AND bitmask bitmap, and copies it to a new icon.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the source icon already is a 32 bits-per-pixel icon, and has an alpha chanel, the function generates the new AND bitmask bitmap, and copies it to a new icon.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> If the source icon has a 32 bits-per-pixel color depth, and do not have an alpha chanel, the function creates an alpha chanel from its AND bitmask.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the source icon has a 32 bits-per-pixel color depth, and do not have an alpha chanel, the function creates an alpha chanel from its AND bitmask.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the source icon has a 32 bits-per-pixel color depth, and do not have an alpha chanel, the function creates an alpha chanel from its AND bitmask.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> If the source icon is non 32 bits-per-pixel icon, it will be converted into a 32 bits-per-pixel format with alpha chanel.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the source icon is non 32 bits-per-pixel icon, it will be converted into a 32 bits-per-pixel format with alpha chanel.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the source icon is non 32 bits-per-pixel icon, it will be converted into a 32 bits-per-pixel format with alpha chanel.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_Create32BitHICON.htm"></bpt>_WinAPI_Create32BitHICON()<ept id="1">&lt;/a></ept> always creates an icon with alpha channel and AND bitmask, although it is not used to display icons that contain an alpha channel.</source>
+<seg-source> <mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_Create32BitHICON.htm"></bpt>_WinAPI_Create32BitHICON()<ept id="1">&lt;/a></ept> always creates an icon with alpha channel and AND bitmask, although it is not used to display icons that contain an alpha channel.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_Create32BitHICON.htm"></bpt>_WinAPI_Create32BitHICON()<ept id="1">&lt;/a></ept> always creates an icon with alpha channel and AND bitmask, although it is not used to display icons that contain an alpha channel.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> Note that to display the fully transparent icons used only its AND bitmask, not the alpha channel.</source>
+<seg-source> <mrk mid="0" mtype="seg">Note that to display the fully transparent icons used only its AND bitmask, not the alpha channel.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Note that to display the fully transparent icons used only its AND bitmask, not the alpha channel.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> Therefore, its XOR and AND bitmasks will remain unchanged.</source>
+<seg-source> <mrk mid="0" mtype="seg">Therefore, its XOR and AND bitmasks will remain unchanged.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Therefore, its XOR and AND bitmasks will remain unchanged.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> When you are finished using the icon, destroy it using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DestroyIcon.htm"></bpt>_WinAPI_DestroyIcon()<ept id="1">&lt;/a></ept> function.</source>
+<seg-source> <mrk mid="0" mtype="seg">When you are finished using the icon, destroy it using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DestroyIcon.htm"></bpt>_WinAPI_DestroyIcon()<ept id="1">&lt;/a></ept> function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When you are finished using the icon, destroy it using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DestroyIcon.htm"></bpt>_WinAPI_DestroyIcon()<ept id="1">&lt;/a></ept> function.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

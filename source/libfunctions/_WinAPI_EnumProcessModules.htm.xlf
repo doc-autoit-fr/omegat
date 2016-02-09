@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_EnumProcessModules.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves a handle and name for each module in the specified process</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves a handle and name for each module in the specified process</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves a handle and name for each module in the specified process</mrk></target>
+<note>Function _WinAPI_EnumProcessModules</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The PID of the process. Default (0) is the current process.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The PID of the process.</mrk> <mrk mid="2" mtype="seg">Default (0) is the current process.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The PID of the process.</mrk> <mrk mid="2" mtype="seg">Default (0) is the current process.</mrk></target>
+<note>$iPID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The filter criteria. This parameter is valid only for <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>, and can be one of the following values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The filter criteria.</mrk> <mrk mid="2" mtype="seg">This parameter is valid only for <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>, and can be one of the following values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The filter criteria.</mrk> <mrk mid="2" mtype="seg">This parameter is valid only for <bpt id="1" ctype="x-strong">&lt;strong></bpt>Windows Vista or later<ept id="1">&lt;/strong></ept>, and can be one of the following values:</mrk></target>
+<note>$iFlag</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     $LIST_MODULES_32BIT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LIST_MODULES_32BIT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LIST_MODULES_32BIT</mrk></target>
+<note>$iFlag</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     $LIST_MODULES_64BIT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LIST_MODULES_64BIT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LIST_MODULES_64BIT</mrk></target>
+<note>$iFlag</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     $LIST_MODULES_ALL</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LIST_MODULES_ALL</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LIST_MODULES_ALL</mrk></target>
+<note>$iFlag</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $LIST_MODULES_DEFAULT (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $LIST_MODULES_DEFAULT (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $LIST_MODULES_DEFAULT (Default)</mrk></target>
+<note>$iFlag</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">The 2D array containing the following information:</source>
+<seg-source><mrk mid="0" mtype="seg">The 2D array containing the following information:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The 2D array containing the following information:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     [0][0] - Number of rows in array (n)</source>
+<seg-source> <mrk mid="0" mtype="seg">    [0][0] - Number of rows in array (n)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [0][0] - Number of rows in array (n)</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     [0][1] - Unused</source>
+<seg-source> <mrk mid="0" mtype="seg">    [0][1] - Unused</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [0][1] - Unused</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     [n][0] - Handle to the module.</source>
+<seg-source> <mrk mid="0" mtype="seg">    [n][0] - Handle to the module.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [n][0] - Handle to the module.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     [n][1] - The path to the file that contains the module.</source>
+<seg-source> <mrk mid="0" mtype="seg">    [n][1] - The path to the file that contains the module.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    [n][1] - The path to the file that contains the module.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">This function does not retrieve handles for modules that were loaded with the $LOAD_LIBRARY_AS_DATAFILE flag.</source>
+<seg-source><mrk mid="0" mtype="seg">This function does not retrieve handles for modules that were loaded with the $LOAD_LIBRARY_AS_DATAFILE flag.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function does not retrieve handles for modules that were loaded with the $LOAD_LIBRARY_AS_DATAFILE flag.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> For more information, see <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_LoadLibraryEx.htm"></bpt>_WinAPI_LoadLibraryEx()<ept id="1">&lt;/a></ept>.</source>
+<seg-source> <mrk mid="0" mtype="seg">For more information, see <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_LoadLibraryEx.htm"></bpt>_WinAPI_LoadLibraryEx()<ept id="1">&lt;/a></ept>.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">For more information, see <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_LoadLibraryEx.htm"></bpt>_WinAPI_LoadLibraryEx()<ept id="1">&lt;/a></ept>.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> Do not call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CloseHandle.htm"></bpt>_WinAPI_CloseHandle()<ept id="1">&lt;/a></ept> on any of the handles returned by this function.</source>
+<seg-source> <mrk mid="0" mtype="seg">Do not call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CloseHandle.htm"></bpt>_WinAPI_CloseHandle()<ept id="1">&lt;/a></ept> on any of the handles returned by this function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Do not call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CloseHandle.htm"></bpt>_WinAPI_CloseHandle()<ept id="1">&lt;/a></ept> on any of the handles returned by this function.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> The information comes from a snapshot, so there are no resources to be freed.</source>
+<seg-source> <mrk mid="0" mtype="seg">The information comes from a snapshot, so there are no resources to be freed.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The information comes from a snapshot, so there are no resources to be freed.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> If <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_EnumProcessModules.htm"></bpt>_WinAPI_EnumProcessModules()<ept id="1">&lt;/a></ept> is called from a 32-bit application running on WOW64, it can only enumerate the modules of a 32-bit process.</source>
+<seg-source> <mrk mid="0" mtype="seg">If <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_EnumProcessModules.htm"></bpt>_WinAPI_EnumProcessModules()<ept id="1">&lt;/a></ept> is called from a 32-bit application running on WOW64, it can only enumerate the modules of a 32-bit process.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_EnumProcessModules.htm"></bpt>_WinAPI_EnumProcessModules()<ept id="1">&lt;/a></ept> is called from a 32-bit application running on WOW64, it can only enumerate the modules of a 32-bit process.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> If the process is a 64-bit process, this function fails and the last error code is ERROR_PARTIAL_COPY (299).</source>
+<seg-source> <mrk mid="0" mtype="seg">If the process is a 64-bit process, this function fails and the last error code is ERROR_PARTIAL_COPY (299).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the process is a 64-bit process, this function fails and the last error code is ERROR_PARTIAL_COPY (299).</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EnumProcessModulesEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EnumProcessModulesEx<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EnumProcessModulesEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EnumProcessModulesEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EnumProcessModulesEx);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EnumProcessModulesEx<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">6.0</source>
+<seg-source><mrk mid="0" mtype="seg">6.0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">6.0</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">This example works from a 64-bit system only in Windows Vista or later.</source>
+<seg-source><mrk mid="0" mtype="seg">This example works from a 64-bit system only in Windows Vista or later.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This example works from a 64-bit system only in Windows Vista or later.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">_WinAPI_EnumProcessModules</source>
+<seg-source><mrk mid="0" mtype="seg">_WinAPI_EnumProcessModules</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinAPI_EnumProcessModules</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

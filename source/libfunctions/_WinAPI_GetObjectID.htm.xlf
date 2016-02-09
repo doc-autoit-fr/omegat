@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_GetObjectID.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the object identifier for the specified file or directory</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the object identifier for the specified file or directory</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the object identifier for the specified file or directory</mrk></target>
+<note>Function _WinAPI_GetObjectID</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Path to the file or directory from which the object identifier is to be retrieved.</source>
+<seg-source><mrk mid="0" mtype="seg">Path to the file or directory from which the object identifier is to be retrieved.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Path to the file or directory from which the object identifier is to be retrieved.</mrk></target>
+<note>$sFilePath</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">$tagGUID structure that contains the object identifier for the file or directory within the volume on which it resides.</source>
+<seg-source><mrk mid="0" mtype="seg">$tagGUID structure that contains the object identifier for the file or directory within the volume on which it resides.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$tagGUID structure that contains the object identifier for the file or directory within the volume on which it resides.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Unlike <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateObjectID.htm"></bpt>_WinAPI_CreateObjectID()<ept id="1">&lt;/a></ept>, this function only returns the object identifier. If a file or directory does not</source>
+<seg-source><mrk mid="0" mtype="seg">Unlike <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateObjectID.htm"></bpt>_WinAPI_CreateObjectID()<ept id="1">&lt;/a></ept>, this function only returns the object identifier.</mrk> <mrk mid="1" mtype="seg">If a file or directory does not</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Unlike <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateObjectID.htm"></bpt>_WinAPI_CreateObjectID()<ept id="1">&lt;/a></ept>, this function only returns the object identifier.</mrk> <mrk mid="1" mtype="seg">If a file or directory does not</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> have an object identifier, the function fails.</source>
+<seg-source> <mrk mid="0" mtype="seg">have an object identifier, the function fails.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">have an object identifier, the function fails.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FSCTL_GET_OBJECT_ID);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FSCTL_GET_OBJECT_ID<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FSCTL_GET_OBJECT_ID);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FSCTL_GET_OBJECT_ID<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(FSCTL_GET_OBJECT_ID);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>FSCTL_GET_OBJECT_ID<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_CreateDIB.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates an uncompressed device-independent bitmap (DIB) with the specified width, height, and color depth</source>
+<seg-source><mrk mid="0" mtype="seg">Creates an uncompressed device-independent bitmap (DIB) with the specified width, height, and color depth</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates an uncompressed device-independent bitmap (DIB) with the specified width, height, and color depth</mrk></target>
+<note>Function _WinAPI_CreateDIB</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The width of the bitmap, in pixels.</source>
+<seg-source><mrk mid="0" mtype="seg">The width of the bitmap, in pixels.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The width of the bitmap, in pixels.</mrk></target>
+<note>$iWidth</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The height of the bitmap, in pixels. If this value is positive, the bitmap is a bottom-up DIB and its origin is the lower-left corner, otherwise, the bitmap is a top-down DIB and its origin is the upper-left corner.</source>
+<seg-source><mrk mid="0" mtype="seg">The height of the bitmap, in pixels.</mrk> <mrk mid="1" mtype="seg">If this value is positive, the bitmap is a bottom-up DIB and its origin is the lower-left corner, otherwise, the bitmap is a top-down DIB and its origin is the upper-left corner.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The height of the bitmap, in pixels.</mrk> <mrk mid="1" mtype="seg">If this value is positive, the bitmap is a bottom-up DIB and its origin is the lower-left corner, otherwise, the bitmap is a top-down DIB and its origin is the upper-left corner.</mrk></target>
+<note>$iHeight</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The number of bits that define each pixel and the maximum number of colors in the bitmap. Default is 32.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The number of bits that define each pixel and the maximum number of colors in the bitmap.</mrk> <mrk mid="2" mtype="seg">Default is 32.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The number of bits that define each pixel and the maximum number of colors in the bitmap.</mrk> <mrk mid="2" mtype="seg">Default is 32.</mrk></target>
+<note>$iBitsPerPel</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> "dword[n]" structure that represents a DIB color table.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">"dword[n]" structure that represents a DIB color table.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">"dword[n]" structure that represents a DIB color table.</mrk></target>
+<note>$tColorTable</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> The number of colors in this table depends on the values of the $iBitsPerPel parameters.</source>
+<seg-source> <mrk mid="0" mtype="seg">The number of colors in this table depends on the values of the $iBitsPerPel parameters.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The number of colors in this table depends on the values of the $iBitsPerPel parameters.</mrk></target>
+<note>$tColorTable</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The number of color indexes in the DIB color table that are actually used by the bitmap.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The number of color indexes in the DIB color table that are actually used by the bitmap.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The number of color indexes in the DIB color table that are actually used by the bitmap.</mrk></target>
+<note>$iColorCount</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> The value of this parameter should not exceed the number of colors in the color table pointed to by the $pColorTable parameter. Default is 0.</source>
+<seg-source> <mrk mid="0" mtype="seg">The value of this parameter should not exceed the number of colors in the color table pointed to by the $pColorTable parameter.</mrk> <mrk mid="1" mtype="seg">Default is 0.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The value of this parameter should not exceed the number of colors in the color table pointed to by the $pColorTable parameter.</mrk> <mrk mid="1" mtype="seg">Default is 0.</mrk></target>
+<note>$iColorCount</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Handle to the DIB.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the DIB.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the DIB.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">If the bitmap is monochrome (1 bits-per-pixel), the color table should contain two entries.</source>
+<seg-source><mrk mid="0" mtype="seg">If the bitmap is monochrome (1 bits-per-pixel), the color table should contain two entries.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If the bitmap is monochrome (1 bits-per-pixel), the color table should contain two entries.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> If the color table is not specified, the function creates a monochrome bitmap with black and white colors. If the bitmap use 4 or 8 bits-per-pixel, the color table should contain up to 16 or 256 entries respectively.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the color table is not specified, the function creates a monochrome bitmap with black and white colors.</mrk> <mrk mid="1" mtype="seg">If the bitmap use 4 or 8 bits-per-pixel, the color table should contain up to 16 or 256 entries respectively.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the color table is not specified, the function creates a monochrome bitmap with black and white colors.</mrk> <mrk mid="1" mtype="seg">If the bitmap use 4 or 8 bits-per-pixel, the color table should contain up to 16 or 256 entries respectively.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> In this case, if the color table is not specified, the function creates an empty color table (all colors is black) with the maximum possible number of entries for the specified color depth.</source>
+<seg-source> <mrk mid="0" mtype="seg">In this case, if the color table is not specified, the function creates an empty color table (all colors is black) with the maximum possible number of entries for the specified color depth.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">In this case, if the color table is not specified, the function creates an empty color table (all colors is black) with the maximum possible number of entries for the specified color depth.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> You can fill out this color table later by using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetDIBColorTable.htm"></bpt>_WinAPI_SetDIBColorTable()<ept id="1">&lt;/a></ept> function.</source>
+<seg-source> <mrk mid="0" mtype="seg">You can fill out this color table later by using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetDIBColorTable.htm"></bpt>_WinAPI_SetDIBColorTable()<ept id="1">&lt;/a></ept> function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">You can fill out this color table later by using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_SetDIBColorTable.htm"></bpt>_WinAPI_SetDIBColorTable()<ept id="1">&lt;/a></ept> function.</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> If the bitmap use 16, 24, or 32 bits-per-pixel, the color table is not used, and $tColorTable parameter is ignored.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the bitmap use 16, 24, or 32 bits-per-pixel, the color table is not used, and $tColorTable parameter is ignored.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the bitmap use 16, 24, or 32 bits-per-pixel, the color table is not used, and $tColorTable parameter is ignored.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"> This function does not create a compressed 16, 24, or 32 bits-per-pixel bitmaps, that is the "biCompression" member of $tagBITMAPINFO structure is always 0 ($BI_RGB).</source>
+<seg-source> <mrk mid="0" mtype="seg">This function does not create a compressed 16, 24, or 32 bits-per-pixel bitmaps, that is the "biCompression" member of $tagBITMAPINFO structure is always 0 ($BI_RGB).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function does not create a compressed 16, 24, or 32 bits-per-pixel bitmaps, that is the "biCompression" member of $tagBITMAPINFO structure is always 0 ($BI_RGB).</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"> When you are finished using the bitmap, destroy it using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteObject.htm"></bpt>_WinAPI_DeleteObject()<ept id="1">&lt;/a></ept> function.</source>
+<seg-source> <mrk mid="0" mtype="seg">When you are finished using the bitmap, destroy it using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteObject.htm"></bpt>_WinAPI_DeleteObject()<ept id="1">&lt;/a></ept> function.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When you are finished using the bitmap, destroy it using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteObject.htm"></bpt>_WinAPI_DeleteObject()<ept id="1">&lt;/a></ept> function.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> Call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetExtended.htm"></bpt>_WinAPI_GetExtended()<ept id="1">&lt;/a></ept> to retrieve a pointer to the location of the DIB bit values.</source>
+<seg-source> <mrk mid="0" mtype="seg">Call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetExtended.htm"></bpt>_WinAPI_GetExtended()<ept id="1">&lt;/a></ept> to retrieve a pointer to the location of the DIB bit values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetExtended.htm"></bpt>_WinAPI_GetExtended()<ept id="1">&lt;/a></ept> to retrieve a pointer to the location of the DIB bit values.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Create array of colors of 256 entries required for 8 bits-per-pixel bitmap</source>
+<seg-source><mrk mid="0" mtype="seg">Create array of colors of 256 entries required for 8 bits-per-pixel bitmap</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create array of colors of 256 entries required for 8 bits-per-pixel bitmap</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Create color table from an array of colors</source>
+<seg-source><mrk mid="0" mtype="seg">Create color table from an array of colors</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create color table from an array of colors</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Create 8 bits-per-pixel device-independent bitmap (DIB) and retrieve a pointer to the location of its bit values</source>
+<seg-source><mrk mid="0" mtype="seg">Create 8 bits-per-pixel device-independent bitmap (DIB) and retrieve a pointer to the location of its bit values</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create 8 bits-per-pixel device-independent bitmap (DIB) and retrieve a pointer to the location of its bit values</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Fill bitmap color indexes</source>
+<seg-source><mrk mid="0" mtype="seg">Fill bitmap color indexes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Fill bitmap color indexes</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Test</source>
+<seg-source><mrk mid="0" mtype="seg">Test</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">.au3</source>
+<seg-source><mrk mid="0" mtype="seg">.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.au3</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">()</source>
+<seg-source><mrk mid="0" mtype="seg">()</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">()</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">Create DDB from DIB to correct display in control</source>
+<seg-source><mrk mid="0" mtype="seg">Create DDB from DIB to correct display in control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create DDB from DIB to correct display in control</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Set bitmap to control</source>
+<seg-source><mrk mid="0" mtype="seg">Set bitmap to control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set bitmap to control</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Show GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Show GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show GUI</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Save 8 bits-per-pixel bitmap to .bmp file</source>
+<seg-source><mrk mid="0" mtype="seg">Save 8 bits-per-pixel bitmap to .bmp file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Save 8 bits-per-pixel bitmap to .bmp file</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Save Image</source>
+<seg-source><mrk mid="0" mtype="seg">Save Image</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Save Image</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Bitmap Image Files (*.bmp)</source>
+<seg-source><mrk mid="0" mtype="seg">Bitmap Image Files (*.bmp)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bitmap Image Files (*.bmp)</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">MyImage.bmp</source>
+<seg-source><mrk mid="0" mtype="seg">MyImage.bmp</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MyImage.bmp</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

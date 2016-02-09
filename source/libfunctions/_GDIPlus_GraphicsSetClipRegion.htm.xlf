@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GDIPlus_GraphicsSetClipRegion.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Updates the clipping region of a Graphics object to a region that is the combination of itself and the region specified by a Region object</source>
+<seg-source><mrk mid="0" mtype="seg">Updates the clipping region of a Graphics object to a region that is the combination of itself and the region specified by a Region object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Updates the clipping region of a Graphics object to a region that is the combination of itself and the region specified by a Region object</mrk></target>
+<note>Function _GDIPlus_GraphicsSetClipRegion</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Pointer to a Graphics object</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to a Graphics object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to a Graphics object</mrk></target>
+<note>$hGraphics</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Pointer to a Region object to be combined with the clipping region of the Graphics object</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to a Region object to be combined with the clipping region of the Graphics object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to a Region object to be combined with the clipping region of the Graphics object</mrk></target>
+<note>$hRegion</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Regions combination mode:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Regions combination mode:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Regions combination mode:</mrk></target>
+<note>$iCombineMode</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     0 - The existing region is replaced by the new region</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 - The existing region is replaced by the new region</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 - The existing region is replaced by the new region</mrk></target>
+<note>$iCombineMode</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     1 - The existing region is replaced by the intersection of itself and the new region</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 - The existing region is replaced by the intersection of itself and the new region</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 - The existing region is replaced by the intersection of itself and the new region</mrk></target>
+<note>$iCombineMode</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     2 - The existing region is replaced by the union of itself and the new region</source>
+<seg-source> <mrk mid="0" mtype="seg">    2 - The existing region is replaced by the union of itself and the new region</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    2 - The existing region is replaced by the union of itself and the new region</mrk></target>
+<note>$iCombineMode</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     3 - The existing region is replaced by the result of performing an XOR on the two regions</source>
+<seg-source> <mrk mid="0" mtype="seg">    3 - The existing region is replaced by the result of performing an XOR on the two regions</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    3 - The existing region is replaced by the result of performing an XOR on the two regions</mrk></target>
+<note>$iCombineMode</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     4 - The existing region is replaced by the portion of itself that is outside of the new region</source>
+<seg-source> <mrk mid="0" mtype="seg">    4 - The existing region is replaced by the portion of itself that is outside of the new region</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    4 - The existing region is replaced by the portion of itself that is outside of the new region</mrk></target>
+<note>$iCombineMode</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     5 - The existing region is replaced by the portion of the new region that is outside of the existing region</source>
+<seg-source> <mrk mid="0" mtype="seg">    5 - The existing region is replaced by the portion of the new region that is outside of the existing region</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    5 - The existing region is replaced by the portion of the new region that is outside of the existing region</mrk></target>
+<note>$iCombineMode</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">True.</source>
+<seg-source><mrk mid="0" mtype="seg">True.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</source>
+<seg-source><mrk mid="0" mtype="seg">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False and sets the @error flag to non-zero, @extended may contain GPSTATUS error code ($GPID_ERR*).</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipSetClipRegion"></bpt>GdipSetClipRegion<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipSetClipRegion"></bpt>GdipSetClipRegion<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://search.msdn.microsoft.com/search/Default.aspx?brand=msdn&amp;amp;query=GdipSetClipRegion"></bpt>GdipSetClipRegion<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">GDI+</source>
+<seg-source><mrk mid="0" mtype="seg">GDI+</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GDI+</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Create a graphics object from a window handle</source>
+<seg-source><mrk mid="0" mtype="seg">Create a graphics object from a window handle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create a graphics object from a window handle</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Clean up resources</source>
+<seg-source><mrk mid="0" mtype="seg">Clean up resources</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Clean up resources</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

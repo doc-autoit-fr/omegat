@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_GetAsyncKeyState.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Determines whether a key is up or down at the time the function is called</source>
+<seg-source><mrk mid="0" mtype="seg">Determines whether a key is up or down at the time the function is called</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Determines whether a key is up or down at the time the function is called</mrk></target>
+<note>Function _WinAPI_GetAsyncKeyState</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Key to test for</source>
+<seg-source><mrk mid="0" mtype="seg">Key to test for</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Key to test for</mrk></target>
+<note>$iKey</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> If the most significant bit is set the key is down, and if the least significant bit is set, the key was pressed after the previous call to <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetAsyncKeyState.htm"></bpt>_WinAPI_GetAsyncKeyState()<ept id="1">&lt;/a></ept>. However, you should not rely on this last behavior; for more information, see the Remarks. </source>
+<seg-source> <mrk mid="0" mtype="seg">If the most significant bit is set the key is down, and if the least significant bit is set, the key was pressed after the previous call to <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetAsyncKeyState.htm"></bpt>_WinAPI_GetAsyncKeyState()<ept id="1">&lt;/a></ept>.</mrk> <mrk mid="1" mtype="seg">However, you should not rely on this last behavior; for more information, see the Remarks.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the most significant bit is set the key is down, and if the least significant bit is set, the key was pressed after the previous call to <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetAsyncKeyState.htm"></bpt>_WinAPI_GetAsyncKeyState()<ept id="1">&lt;/a></ept>.</mrk> <mrk mid="1" mtype="seg">However, you should not rely on this last behavior; for more information, see the Remarks.</mrk> </target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The return value is zero if the key isn't down, or for the following cases:</source>
+<seg-source><mrk mid="0" mtype="seg">The return value is zero if the key isn't down, or for the following cases:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The return value is zero if the key isn't down, or for the following cases:</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> The current desktop is not the active desktop</source>
+<seg-source> <mrk mid="0" mtype="seg">The current desktop is not the active desktop</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The current desktop is not the active desktop</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> The foreground thread belongs to another process and the desktop does not allow the hook or the journal record.</source>
+<seg-source> <mrk mid="0" mtype="seg">The foreground thread belongs to another process and the desktop does not allow the hook or the journal record.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The foreground thread belongs to another process and the desktop does not allow the hook or the journal record.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">The constants to use for $iKey can be found in WinAPIvkeysConstants.au3</source>
+<seg-source><mrk mid="0" mtype="seg">The constants to use for $iKey can be found in WinAPIvkeysConstants.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The constants to use for $iKey can be found in WinAPIvkeysConstants.au3</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> The GetAsyncKeyState function works with mouse buttons. However, it checks on the state of the physical mouse buttons, not on the logical mouse buttons that the physical buttons are mapped to. For example, the call _WinAPI_GetAsyncKeyState($VK_LBUTTON) always returns the state of the left physical mouse button, regardless of whether it is mapped to the left or right logical mouse button. You can determine the system's current mapping of physical mouse buttons to logical mouse buttons by calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetSystemMetrics.htm"></bpt>_WinAPI_GetSystemMetrics<ept id="1">&lt;/a></ept>($SM_SWAPBUTTON), which returns TRUE if the mouse buttons have been swapped.</source>
+<seg-source> <mrk mid="0" mtype="seg">The GetAsyncKeyState function works with mouse buttons.</mrk> <mrk mid="1" mtype="seg">However, it checks on the state of the physical mouse buttons, not on the logical mouse buttons that the physical buttons are mapped to.</mrk> <mrk mid="2" mtype="seg">For example, the call _WinAPI_GetAsyncKeyState($VK_LBUTTON) always returns the state of the left physical mouse button, regardless of whether it is mapped to the left or right logical mouse button.</mrk> <mrk mid="3" mtype="seg">You can determine the system's current mapping of physical mouse buttons to logical mouse buttons by calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetSystemMetrics.htm"></bpt>_WinAPI_GetSystemMetrics<ept id="1">&lt;/a></ept>($SM_SWAPBUTTON), which returns TRUE if the mouse buttons have been swapped.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The GetAsyncKeyState function works with mouse buttons.</mrk> <mrk mid="1" mtype="seg">However, it checks on the state of the physical mouse buttons, not on the logical mouse buttons that the physical buttons are mapped to.</mrk> <mrk mid="2" mtype="seg">For example, the call _WinAPI_GetAsyncKeyState($VK_LBUTTON) always returns the state of the left physical mouse button, regardless of whether it is mapped to the left or right logical mouse button.</mrk> <mrk mid="3" mtype="seg">You can determine the system's current mapping of physical mouse buttons to logical mouse buttons by calling <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetSystemMetrics.htm"></bpt>_WinAPI_GetSystemMetrics<ept id="1">&lt;/a></ept>($SM_SWAPBUTTON), which returns TRUE if the mouse buttons have been swapped.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> Although the least significant bit of the return value indicates whether the key has been pressed since the last query, due to the pre-emptive multitasking nature of Windows, another application can call GetAsyncKeyState and receive the "recently pressed" bit instead of your application. The behavior of the least significant bit of the return value is retained strictly for compatibility with 16-bit Windows applications (which are non-preemptive) and should not be relied upon.</source>
+<seg-source> <mrk mid="0" mtype="seg">Although the least significant bit of the return value indicates whether the key has been pressed since the last query, due to the pre-emptive multitasking nature of Windows, another application can call GetAsyncKeyState and receive the "recently pressed" bit instead of your application.</mrk> <mrk mid="1" mtype="seg">The behavior of the least significant bit of the return value is retained strictly for compatibility with 16-bit Windows applications (which are non-preemptive) and should not be relied upon.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Although the least significant bit of the return value indicates whether the key has been pressed since the last query, due to the pre-emptive multitasking nature of Windows, another application can call GetAsyncKeyState and receive the "recently pressed" bit instead of your application.</mrk> <mrk mid="1" mtype="seg">The behavior of the least significant bit of the return value is retained strictly for compatibility with 16-bit Windows applications (which are non-preemptive) and should not be relied upon.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> You can use the virtual-key code constants $VK_SHIFT, $VK_CONTROL, and $VK_MENU as values for the vKey parameter. This gives the state of the SHIFT, CTRL, or ALT keys without distinguishing between left and right.</source>
+<seg-source> <mrk mid="0" mtype="seg">You can use the virtual-key code constants $VK_SHIFT, $VK_CONTROL, and $VK_MENU as values for the vKey parameter.</mrk> <mrk mid="1" mtype="seg">This gives the state of the SHIFT, CTRL, or ALT keys without distinguishing between left and right.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">You can use the virtual-key code constants $VK_SHIFT, $VK_CONTROL, and $VK_MENU as values for the vKey parameter.</mrk> <mrk mid="1" mtype="seg">This gives the state of the SHIFT, CTRL, or ALT keys without distinguishing between left and right.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetAsyncKeyState);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetAsyncKeyState<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetAsyncKeyState);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetAsyncKeyState<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetAsyncKeyState);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetAsyncKeyState<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">_WinAPI_GetAsyncKeyState Demo</source>
+<seg-source><mrk mid="0" mtype="seg">_WinAPI_GetAsyncKeyState Demo</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinAPI_GetAsyncKeyState Demo</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Press the number to select the task you wish to use from list below</source>
+<seg-source><mrk mid="0" mtype="seg">Press the number to select the task you wish to use from list below</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Press the number to select the task you wish to use from list below</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Press 1 key for task 1</source>
+<seg-source><mrk mid="0" mtype="seg">Press 1 key for task 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Press 1 key for task 1</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Press 2 key for task 2</source>
+<seg-source><mrk mid="0" mtype="seg">Press 2 key for task 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Press 2 key for task 2</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Press 3 key for task 3</source>
+<seg-source><mrk mid="0" mtype="seg">Press 3 key for task 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Press 3 key for task 3</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Press the ESCAPE key, or click the close button, to exit</source>
+<seg-source><mrk mid="0" mtype="seg">Press the ESCAPE key, or click the close button, to exit</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Press the ESCAPE key, or click the close button, to exit</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">a bit mask to strip the high word bits from the return of the function.</source>
+<seg-source><mrk mid="0" mtype="seg">a bit mask to strip the high word bits from the return of the function.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a bit mask to strip the high word bits from the return of the function.</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">_WinAPI_GetAsyncKeyState</source>
+<seg-source><mrk mid="0" mtype="seg">_WinAPI_GetAsyncKeyState</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinAPI_GetAsyncKeyState</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Task 1</source>
+<seg-source><mrk mid="0" mtype="seg">Task 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Task 1</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">_WinAPI_GetAsyncKeyState</source>
+<seg-source><mrk mid="0" mtype="seg">_WinAPI_GetAsyncKeyState</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinAPI_GetAsyncKeyState</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Task 2</source>
+<seg-source><mrk mid="0" mtype="seg">Task 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Task 2</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">_WinAPI_GetAsyncKeyState</source>
+<seg-source><mrk mid="0" mtype="seg">_WinAPI_GetAsyncKeyState</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinAPI_GetAsyncKeyState</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Task 3</source>
+<seg-source><mrk mid="0" mtype="seg">Task 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Task 3</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">_WinAPI_GetAsyncKeyState</source>
+<seg-source><mrk mid="0" mtype="seg">_WinAPI_GetAsyncKeyState</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_WinAPI_GetAsyncKeyState</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">The Esc Key was pressed, exiting.</source>
+<seg-source><mrk mid="0" mtype="seg">The Esc Key was pressed, exiting.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Esc Key was pressed, exiting.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

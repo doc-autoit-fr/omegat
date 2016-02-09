@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_OpenSemaphore.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Opens an existing named semaphore object</source>
+<seg-source><mrk mid="0" mtype="seg">Opens an existing named semaphore object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Opens an existing named semaphore object</mrk></target>
+<note>Function _WinAPI_OpenSemaphore</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The name of the semaphore to be opened. Name comparisons are case sensitive.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the semaphore to be opened.</mrk> <mrk mid="1" mtype="seg">Name comparisons are case sensitive.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the semaphore to be opened.</mrk> <mrk mid="1" mtype="seg">Name comparisons are case sensitive.</mrk></target>
+<note>$sSemaphore</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The access to the semaphore object. The function fails if the security descriptor of the specified</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The access to the semaphore object.</mrk> <mrk mid="2" mtype="seg">The function fails if the security descriptor of the specified</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The access to the semaphore object.</mrk> <mrk mid="2" mtype="seg">The function fails if the security descriptor of the specified</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> object does not permit the requested access for the calling process.</source>
+<seg-source> <mrk mid="0" mtype="seg">object does not permit the requested access for the calling process.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">object does not permit the requested access for the calling process.</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"> This parameter can be one of the following values.</source>
+<seg-source> <mrk mid="0" mtype="seg">This parameter can be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This parameter can be one of the following values.</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> $SEMAPHORE_ALL_ACCESS (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">$SEMAPHORE_ALL_ACCESS (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SEMAPHORE_ALL_ACCESS (Default)</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> $SEMAPHORE_MODIFY_STATE</source>
+<seg-source> <mrk mid="0" mtype="seg">$SEMAPHORE_MODIFY_STATE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">$SEMAPHORE_MODIFY_STATE</mrk></target>
+<note>$iAccess</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether inherites the handle by a processes, valid values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether inherites the handle by a processes, valid values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether inherites the handle by a processes, valid values:</mrk></target>
+<note>$bInherit</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> True - The processes created by this process will inherit the handle.</source>
+<seg-source> <mrk mid="0" mtype="seg">True - The processes created by this process will inherit the handle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">True - The processes created by this process will inherit the handle.</mrk></target>
+<note>$bInherit</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> False - The processes do not inherit this handle (Default).</source>
+<seg-source> <mrk mid="0" mtype="seg">False - The processes do not inherit this handle (Default).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">False - The processes do not inherit this handle (Default).</mrk></target>
+<note>$bInherit</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">The handle to the semaphore object.</source>
+<seg-source><mrk mid="0" mtype="seg">The handle to the semaphore object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The handle to the semaphore object.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> 0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">The function succeeds only if some process has already created the semaphore by using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateSemaphore.htm"></bpt>_WinAPI_CreateSemaphore()<ept id="1">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg">The function succeeds only if some process has already created the semaphore by using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateSemaphore.htm"></bpt>_WinAPI_CreateSemaphore()<ept id="1">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The function succeeds only if some process has already created the semaphore by using the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_CreateSemaphore.htm"></bpt>_WinAPI_CreateSemaphore()<ept id="1">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> function. The calling process can use the returned handle in any function that requires a handle to</source>
+<seg-source> <mrk mid="0" mtype="seg">function.</mrk> <mrk mid="1" mtype="seg">The calling process can use the returned handle in any function that requires a handle to</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">function.</mrk> <mrk mid="1" mtype="seg">The calling process can use the returned handle in any function that requires a handle to</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> a semaphore object.</source>
+<seg-source> <mrk mid="0" mtype="seg">a semaphore object.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">a semaphore object.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(OpenSemaphore);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>OpenSemaphore<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(OpenSemaphore);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>OpenSemaphore<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(OpenSemaphore);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>OpenSemaphore<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

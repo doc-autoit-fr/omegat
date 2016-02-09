@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_Date_Time_SetLocalTime.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Sets the current local date and time</source>
+<seg-source><mrk mid="0" mtype="seg">Sets the current local date and time</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Sets the current local date and time</mrk></target>
+<note>Function _Date_Time_SetLocalTime</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">a $tagSYSTEMTIME structure that contains the new local date and time or a pointer to it</source>
+<seg-source><mrk mid="0" mtype="seg">a $tagSYSTEMTIME structure that contains the new local date and time or a pointer to it</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a $tagSYSTEMTIME structure that contains the new local date and time or a pointer to it</mrk></target>
+<note>$tSYSTEMTIME</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">False</source>
+<seg-source><mrk mid="0" mtype="seg">False</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">False</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">The <bpt id="1" ctype="x-a">&lt;a href="_Date_Time_SetLocalTime.htm"></bpt>_Date_Time_SetLocalTime()<ept id="1">&lt;/a></ept> function enables the SE_SYSTEMTIME_NAME privilege before changing the local time.</source>
+<seg-source><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_Date_Time_SetLocalTime.htm"></bpt>_Date_Time_SetLocalTime()<ept id="1">&lt;/a></ept> function enables the SE_SYSTEMTIME_NAME privilege before changing the local time.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The <bpt id="1" ctype="x-a">&lt;a href="_Date_Time_SetLocalTime.htm"></bpt>_Date_Time_SetLocalTime()<ept id="1">&lt;/a></ept> function enables the SE_SYSTEMTIME_NAME privilege before changing the local time.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="$tagSYSTEMTIME.htm"></bpt>$tagSYSTEMTIME<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_Date_Time_GetLocalTime.htm"></bpt>_Date_Time_GetLocalTime<ept id="2">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagSYSTEMTIME.htm"></bpt>$tagSYSTEMTIME<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_Date_Time_GetLocalTime.htm"></bpt>_Date_Time_GetLocalTime<ept id="2">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagSYSTEMTIME.htm"></bpt>$tagSYSTEMTIME<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_Date_Time_GetLocalTime.htm"></bpt>_Date_Time_GetLocalTime<ept id="2">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Under Vista the Windows API "SetLocalTime" may be rejected due to system security</source>
+<seg-source><mrk mid="0" mtype="seg">Under Vista the Windows API "SetLocalTime" may be rejected due to system security</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Under Vista the Windows API "SetLocalTime" may be rejected due to system security</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Time</source>
+<seg-source><mrk mid="0" mtype="seg">Time</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Time</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Show current local time</source>
+<seg-source><mrk mid="0" mtype="seg">Show current local time</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show current local time</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Current date/time .:</source>
+<seg-source><mrk mid="0" mtype="seg">Current date/time .:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Current date/time .:</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Set new local time</source>
+<seg-source><mrk mid="0" mtype="seg">Set new local time</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set new local time</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">System clock cannot be SET</source>
+<seg-source><mrk mid="0" mtype="seg">System clock cannot be SET</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">System clock cannot be SET</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">New date/time .....:</source>
+<seg-source><mrk mid="0" mtype="seg">New date/time .....:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">New date/time .....:</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Reset local time</source>
+<seg-source><mrk mid="0" mtype="seg">Reset local time</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Reset local time</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Show current local time</source>
+<seg-source><mrk mid="0" mtype="seg">Show current local time</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Show current local time</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Current date/time .:</source>
+<seg-source><mrk mid="0" mtype="seg">Current date/time .:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Current date/time .:</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Write a line to the memo control</source>
+<seg-source><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

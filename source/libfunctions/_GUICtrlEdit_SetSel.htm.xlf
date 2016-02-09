@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUICtrlEdit_SetSel.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Selects a range of characters</source>
+<seg-source><mrk mid="0" mtype="seg">Selects a range of characters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Selects a range of characters</mrk></target>
+<note>Function _GUICtrlEdit_SetSel</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Control ID/Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control ID/Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Specifies the starting character position of the selection.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the starting character position of the selection.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the starting character position of the selection.</mrk></target>
+<note>$iStart</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Specifies the ending character position of the selection.</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies the ending character position of the selection.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies the ending character position of the selection.</mrk></target>
+<note>$iEnd</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">None.</source>
+<seg-source><mrk mid="0" mtype="seg">None.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">None.</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">The start value can be greater than the end value.</source>
+<seg-source><mrk mid="0" mtype="seg">The start value can be greater than the end value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The start value can be greater than the end value.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> The lower of the two values specifies the character position of the first character in the selection.</source>
+<seg-source> <mrk mid="0" mtype="seg">The lower of the two values specifies the character position of the first character in the selection.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The lower of the two values specifies the character position of the first character in the selection.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> The higher value specifies the position of the first character beyond the selection.</source>
+<seg-source> <mrk mid="0" mtype="seg">The higher value specifies the position of the first character beyond the selection.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The higher value specifies the position of the first character beyond the selection.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> The start value is the anchor point of the selection, and the end value is the active end.</source>
+<seg-source> <mrk mid="0" mtype="seg">The start value is the anchor point of the selection, and the end value is the active end.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The start value is the anchor point of the selection, and the end value is the active end.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> If the user uses the SHIFT key to adjust the size of the selection, the active end can move but the anchor point remains the same.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the user uses the SHIFT key to adjust the size of the selection, the active end can move but the anchor point remains the same.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the user uses the SHIFT key to adjust the size of the selection, the active end can move but the anchor point remains the same.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> If the $iStart is 0 and the $iEnd is –1, all the text in the edit control is selected.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the $iStart is 0 and the $iEnd is –1, all the text in the edit control is selected.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the $iStart is 0 and the $iEnd is –1, all the text in the edit control is selected.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> If the $iStart is –1, any current selection is deselected.</source>
+<seg-source> <mrk mid="0" mtype="seg">If the $iStart is –1, any current selection is deselected.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If the $iStart is –1, any current selection is deselected.</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> The control displays a flashing caret at the $iEnd position regardless of the relative values of $iStart and $iEnd.</source>
+<seg-source> <mrk mid="0" mtype="seg">The control displays a flashing caret at the $iEnd position regardless of the relative values of $iStart and $iEnd.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The control displays a flashing caret at the $iEnd position regardless of the relative values of $iStart and $iEnd.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">\Wow6432Node</source>
+<seg-source><mrk mid="0" mtype="seg">\Wow6432Node</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Wow6432Node</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">HKEY_LOCAL_MACHINE\SOFTWARE</source>
+<seg-source><mrk mid="0" mtype="seg">HKEY_LOCAL_MACHINE\SOFTWARE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">HKEY_LOCAL_MACHINE\SOFTWARE</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">\AutoIt v3\AutoIt</source>
+<seg-source><mrk mid="0" mtype="seg">\AutoIt v3\AutoIt</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\AutoIt v3\AutoIt</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">InstallDir</source>
+<seg-source><mrk mid="0" mtype="seg">InstallDir</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">InstallDir</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">\include\_ReadMe_.txt</source>
+<seg-source><mrk mid="0" mtype="seg">\include\_ReadMe_.txt</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\include\_ReadMe_.txt</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Create GUI</source>
+<seg-source><mrk mid="0" mtype="seg">Create GUI</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create GUI</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Edit Set Sel</source>
+<seg-source><mrk mid="0" mtype="seg">Edit Set Sel</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Edit Set Sel</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">shell32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">shell32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">shell32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Set Margins</source>
+<seg-source><mrk mid="0" mtype="seg">Set Margins</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set Margins</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Set Text</source>
+<seg-source><mrk mid="0" mtype="seg">Set Text</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set Text</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Set Sel</source>
+<seg-source><mrk mid="0" mtype="seg">Set Sel</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set Sel</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Get Sel</source>
+<seg-source><mrk mid="0" mtype="seg">Get Sel</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get Sel</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Start:</source>
+<seg-source><mrk mid="0" mtype="seg">Start:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Start:</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">End:</source>
+<seg-source><mrk mid="0" mtype="seg">End:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">End:</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Loop until the user exits.</source>
+<seg-source><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Loop until the user exits.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

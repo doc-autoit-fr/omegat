@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_Excel_RangeCopyPaste.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Cuts or copies one or multiple cells, rows or columns to a range or from/to the clipboard</source>
+<seg-source><mrk mid="0" mtype="seg">Cuts or copies one or multiple cells, rows or columns to a range or from/to the clipboard</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Cuts or copies one or multiple cells, rows or columns to a range or from/to the clipboard</mrk></target>
+<note>Function _Excel_RangeCopyPaste</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Object of the source worksheet</source>
+<seg-source><mrk mid="0" mtype="seg">Object of the source worksheet</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Object of the source worksheet</mrk></target>
+<note>$oWorksheet</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Source range to copy/cut from. Can be a range object or an A1 range.</source>
+<seg-source><mrk mid="0" mtype="seg">Source range to copy/cut from.</mrk> <mrk mid="1" mtype="seg">Can be a range object or an A1 range.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Source range to copy/cut from.</mrk> <mrk mid="1" mtype="seg">Can be a range object or an A1 range.</mrk></target>
+<note>$vSourceRange</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     If set to keyword Default then the range will be copied from the clipboard.</source>
+<seg-source> <mrk mid="0" mtype="seg">    If set to keyword Default then the range will be copied from the clipboard.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    If set to keyword Default then the range will be copied from the clipboard.</mrk></target>
+<note>$vSourceRange</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Target range to copy/cut to. Can be a range object or an A1 range.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Target range to copy/cut to.</mrk> <mrk mid="2" mtype="seg">Can be a range object or an A1 range.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Target range to copy/cut to.</mrk> <mrk mid="2" mtype="seg">Can be a range object or an A1 range.</mrk></target>
+<note>$vTargetRange</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     If set to keyword Default then the range will be copied to the clipboard (default = keyword Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    If set to keyword Default then the range will be copied to the clipboard (default = keyword Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    If set to keyword Default then the range will be copied to the clipboard (default = keyword Default)</mrk></target>
+<note>$vTargetRange</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If set to True the source range isn't copied but cut out (default = False)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If set to True the source range isn't copied but cut out (default = False)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If set to True the source range isn't copied but cut out (default = False)</mrk></target>
+<note>$bCut</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     This parameter is ignored when $vSourceRange is set to keyword Default.</source>
+<seg-source> <mrk mid="0" mtype="seg">    This parameter is ignored when $vSourceRange is set to keyword Default.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    This parameter is ignored when $vSourceRange is set to keyword Default.</mrk></target>
+<note>$bCut</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The part of the range to be pasted from the clipboard (formulas, formats ...). Must be a value of the XlPasteType enumeration</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The part of the range to be pasted from the clipboard (formulas, formats ...).</mrk> <mrk mid="2" mtype="seg">Must be a value of the XlPasteType enumeration</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The part of the range to be pasted from the clipboard (formulas, formats ...).</mrk> <mrk mid="2" mtype="seg">Must be a value of the XlPasteType enumeration</mrk></target>
+<note>$iPaste</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     (default = keyword Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    (default = keyword Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    (default = keyword Default)</mrk></target>
+<note>$iPaste</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The paste operation (add, divide, multiply ...). Must be a value of the XlPasteSpecialOperation enunmeration</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The paste operation (add, divide, multiply ...).</mrk> <mrk mid="2" mtype="seg">Must be a value of the XlPasteSpecialOperation enunmeration</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The paste operation (add, divide, multiply ...).</mrk> <mrk mid="2" mtype="seg">Must be a value of the XlPasteSpecialOperation enunmeration</mrk></target>
+<note>$iOperation</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     (default = keyword Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    (default = keyword Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    (default = keyword Default)</mrk></target>
+<note>$iOperation</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> If set to True blank cells from the clipboard will not be pasted into the target range (default = False)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If set to True blank cells from the clipboard will not be pasted into the target range (default = False)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">If set to True blank cells from the clipboard will not be pasted into the target range (default = False)</mrk></target>
+<note>$bSkipBlanks</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Set to True to transpose rows and columns when the range is pasted (default = False)</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Set to True to transpose rows and columns when the range is pasted (default = False)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Set to True to transpose rows and columns when the range is pasted (default = False)</mrk></target>
+<note>$bTranspose</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">the object of the target range if $vTargetRange &lt;> Default, else 1.</source>
+<seg-source><mrk mid="0" mtype="seg">the object of the target range if $vTargetRange &lt;> Default, else 1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the object of the target range if $vTargetRange &lt;> Default, else 1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">0 and sets @error.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets @error.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets @error.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">1 - $oWorksheet is not an object or not a worksheet object</source>
+<seg-source><mrk mid="0" mtype="seg">1 - $oWorksheet is not an object or not a worksheet object</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1 - $oWorksheet is not an object or not a worksheet object</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"> 2 - $vSourceRange is invalid. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">2 - $vSourceRange is invalid.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">2 - $vSourceRange is invalid.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en"> 3 - $vTargetRange is invalid. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">3 - $vTargetRange is invalid.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">3 - $vTargetRange is invalid.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"> 4 - Error occurred when pasting cells. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">4 - Error occurred when pasting cells.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">4 - Error occurred when pasting cells.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en"> 5 - Error occurred when cutting cells. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">5 - Error occurred when cutting cells.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">5 - Error occurred when cutting cells.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en"> 6 - Error occurred when copying cells. @extended is set to the COM error code</source>
+<seg-source> <mrk mid="0" mtype="seg">6 - Error occurred when copying cells.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">6 - Error occurred when copying cells.</mrk> <mrk mid="1" mtype="seg">@extended is set to the COM error code</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"> 7 - $vSourceRange and $vTargetRange can't be set to keyword Default at the same time</source>
+<seg-source> <mrk mid="0" mtype="seg">7 - $vSourceRange and $vTargetRange can't be set to keyword Default at the same time</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">7 - $vSourceRange and $vTargetRange can't be set to keyword Default at the same time</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">$vSourceRange and $vTargetRange can't be set to keyword Default at the same time.</source>
+<seg-source><mrk mid="0" mtype="seg">$vSourceRange and $vTargetRange can't be set to keyword Default at the same time.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$vSourceRange and $vTargetRange can't be set to keyword Default at the same time.</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"> If $vSourceRange = Default then:</source>
+<seg-source> <mrk mid="0" mtype="seg">If $vSourceRange = Default then:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If $vSourceRange = Default then:</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en"> * the range will be copied from the clipboard using the PasteSpecial method</source>
+<seg-source> <mrk mid="0" mtype="seg">* the range will be copied from the clipboard using the PasteSpecial method</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">* the range will be copied from the clipboard using the PasteSpecial method</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en"> * $bCut will be ignored</source>
+<seg-source> <mrk mid="0" mtype="seg">* $bCut will be ignored</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">* $bCut will be ignored</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en"> * $iPaste, $iOperation, $bSkipBlanks and $bTranspose will be honored</source>
+<seg-source> <mrk mid="0" mtype="seg">* $iPaste, $iOperation, $bSkipBlanks and $bTranspose will be honored</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">* $iPaste, $iOperation, $bSkipBlanks and $bTranspose will be honored</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en"> If $vSourceRange and $vTargetRange are specified parameters $iPaste, $iOperation, $bSkipBlanks and $bTranspose are ignored</source>
+<seg-source> <mrk mid="0" mtype="seg">If $vSourceRange and $vTargetRange are specified parameters $iPaste, $iOperation, $bSkipBlanks and $bTranspose are ignored</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">If $vSourceRange and $vTargetRange are specified parameters $iPaste, $iOperation, $bSkipBlanks and $bTranspose are ignored</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Create application object and open an example workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Excel UDF: _Excel_RangeCopy Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Error creating the Excel application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Open Workbook 1</source>
+<seg-source><mrk mid="0" mtype="seg">Open Workbook 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open Workbook 1</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">\Extras\_Excel1.xls</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Excel UDF: _Excel_RangeCopy Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Error opening workbook '</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening workbook '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening workbook '</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">\Extras\_Excel1.xls'.</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Copy a range with 3 rows and 2 columns on the active worksheet.</source>
+<seg-source><mrk mid="0" mtype="seg">Copy a range with 3 rows and 2 columns on the active worksheet.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Copy a range with 3 rows and 2 columns on the active worksheet.</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">Pass the source range as object.</source>
+<seg-source><mrk mid="0" mtype="seg">Pass the source range as object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pass the source range as object.</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">I2:J4</source>
+<seg-source><mrk mid="0" mtype="seg">I2:J4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">I2:J4</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">G7</source>
+<seg-source><mrk mid="0" mtype="seg">G7</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">G7</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">Excel UDF: _Excel_RangeCopy Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Error copying cells.</source>
+<seg-source><mrk mid="0" mtype="seg">Error copying cells.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error copying cells.</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">Excel UDF: _Excel_RangeCopy Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">Range 'I2:J4' successfully copied to 'G7'.</source>
+<seg-source><mrk mid="0" mtype="seg">Range 'I2:J4' successfully copied to 'G7'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Range 'I2:J4' successfully copied to 'G7'.</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">Create application object and open an example workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">Excel UDF: _Excel_RangeCopy Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">Error creating the Excel application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">Open Workbook 2</source>
+<seg-source><mrk mid="0" mtype="seg">Open Workbook 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open Workbook 2</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">\Extras\_Excel3.xls</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel3.xls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel3.xls</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">Excel UDF: _Excel_RangeCopy Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">Error opening workbook '</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening workbook '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening workbook '</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">\Extras\_Excel3.xls'.</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel3.xls'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel3.xls'.</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">Open Workbook 1</source>
+<seg-source><mrk mid="0" mtype="seg">Open Workbook 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open Workbook 1</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">\Extras\_Excel1.xls</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">Excel UDF: _Excel_RangeCopy Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">Error opening workbook '</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening workbook '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening workbook '</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">\Extras\_Excel1.xls'.</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">Copy a single cell from another workbook. Pass the source range as object.</source>
+<seg-source><mrk mid="0" mtype="seg">Copy a single cell from another workbook.</mrk> <mrk mid="1" mtype="seg">Pass the source range as object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Copy a single cell from another workbook.</mrk> <mrk mid="1" mtype="seg">Pass the source range as object.</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">A1</source>
+<seg-source><mrk mid="0" mtype="seg">A1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A1</mrk></target>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">G15</source>
+<seg-source><mrk mid="0" mtype="seg">G15</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">G15</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">Excel UDF: _Excel_RangeCopy Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en">Error copying cells.</source>
+<seg-source><mrk mid="0" mtype="seg">Error copying cells.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error copying cells.</mrk></target>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en">Excel UDF: _Excel_RangeCopy Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">Range 'A1' from workbook _Excel3.xls successfully copied to 'G15'.</source>
+<seg-source><mrk mid="0" mtype="seg">Range 'A1' from workbook _Excel3.xls successfully copied to 'G15'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Range 'A1' from workbook _Excel3.xls successfully copied to 'G15'.</mrk></target>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en">Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en">Create application object and open an example workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></target>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en">Excel UDF: _Excel_RangeCopy Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example</mrk></target>
+</trans-unit>
+<trans-unit id="94">
+<source xml:lang="en">Error creating the Excel application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></target>
+</trans-unit>
+<trans-unit id="95">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="96">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="97">
+<source xml:lang="en">Open Workbook 1</source>
+<seg-source><mrk mid="0" mtype="seg">Open Workbook 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open Workbook 1</mrk></target>
+</trans-unit>
+<trans-unit id="98">
+<source xml:lang="en">\Extras\_Excel1.xls</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></target>
+</trans-unit>
+<trans-unit id="99">
+<source xml:lang="en">Excel UDF: _Excel_RangeCopy Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example</mrk></target>
+</trans-unit>
+<trans-unit id="100">
+<source xml:lang="en">Error opening workbook '</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening workbook '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening workbook '</mrk></target>
+</trans-unit>
+<trans-unit id="101">
+<source xml:lang="en">\Extras\_Excel1.xls'.</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></target>
+</trans-unit>
+<trans-unit id="102">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="103">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="104">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="105">
+<source xml:lang="en">Copy 2 rows (1 and 2) from worksheet 2 to the clipboard</source>
+<seg-source><mrk mid="0" mtype="seg">Copy 2 rows (1 and 2) from worksheet 2 to the clipboard</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Copy 2 rows (1 and 2) from worksheet 2 to the clipboard</mrk></target>
+</trans-unit>
+<trans-unit id="106">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="107">
+<source xml:lang="en">1:2</source>
+<seg-source><mrk mid="0" mtype="seg">1:2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1:2</mrk></target>
+</trans-unit>
+<trans-unit id="108">
+<source xml:lang="en">Excel UDF: _Excel_RangeCopy Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="109">
+<source xml:lang="en">Error copying rows.</source>
+<seg-source><mrk mid="0" mtype="seg">Error copying rows.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error copying rows.</mrk></target>
+</trans-unit>
+<trans-unit id="110">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="111">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="112">
+<source xml:lang="en">Excel UDF: _Excel_RangeCopy Example 3</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example 3</mrk></target>
+</trans-unit>
+<trans-unit id="113">
+<source xml:lang="en">Rows 1+2 successfully copied from worksheet 2 to the clipboard.</source>
+<seg-source><mrk mid="0" mtype="seg">Rows 1+2 successfully copied from worksheet 2 to the clipboard.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Rows 1+2 successfully copied from worksheet 2 to the clipboard.</mrk></target>
+</trans-unit>
+<trans-unit id="114">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="115">
+<source xml:lang="en">Paste the range written by Example 3 from the clipboard to the active worksheet.</source>
+<seg-source><mrk mid="0" mtype="seg">Paste the range written by Example 3 from the clipboard to the active worksheet.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Paste the range written by Example 3 from the clipboard to the active worksheet.</mrk></target>
+</trans-unit>
+<trans-unit id="116">
+<source xml:lang="en">Only values without formatting will be pasted.</source>
+<seg-source><mrk mid="0" mtype="seg">Only values without formatting will be pasted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Only values without formatting will be pasted.</mrk></target>
+</trans-unit>
+<trans-unit id="117">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="118">
+<source xml:lang="en">1:1</source>
+<seg-source><mrk mid="0" mtype="seg">1:1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1:1</mrk></target>
+</trans-unit>
+<trans-unit id="119">
+<source xml:lang="en">Excel UDF: _Excel_RangeCopy Example 4</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example 4</mrk></target>
+</trans-unit>
+<trans-unit id="120">
+<source xml:lang="en">Error copying rows.</source>
+<seg-source><mrk mid="0" mtype="seg">Error copying rows.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error copying rows.</mrk></target>
+</trans-unit>
+<trans-unit id="121">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="122">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="123">
+<source xml:lang="en">Excel UDF: _Excel_RangeCopy Example 4</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example 4</mrk></target>
+</trans-unit>
+<trans-unit id="124">
+<source xml:lang="en">2 Rows successfully pasted from the clipboard to row 1.</source>
+<seg-source><mrk mid="0" mtype="seg">2 Rows successfully pasted from the clipboard to row 1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2 Rows successfully pasted from the clipboard to row 1.</mrk></target>
+</trans-unit>
+<trans-unit id="125">
+<source xml:lang="en">Example 4</source>
+<seg-source><mrk mid="0" mtype="seg">Example 4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 4</mrk></target>
+</trans-unit>
+<trans-unit id="126">
+<source xml:lang="en">Create application object and open an example workbook</source>
+<seg-source><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create application object and open an example workbook</mrk></target>
+</trans-unit>
+<trans-unit id="127">
+<source xml:lang="en">Excel UDF: _Excel_RangeCopy Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example</mrk></target>
+</trans-unit>
+<trans-unit id="128">
+<source xml:lang="en">Error creating the Excel application object.</source>
+<seg-source><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error creating the Excel application object.</mrk></target>
+</trans-unit>
+<trans-unit id="129">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="130">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="131">
+<source xml:lang="en">Open Workbook 1</source>
+<seg-source><mrk mid="0" mtype="seg">Open Workbook 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open Workbook 1</mrk></target>
+</trans-unit>
+<trans-unit id="132">
+<source xml:lang="en">\Extras\_Excel1.xls</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls</mrk></target>
+</trans-unit>
+<trans-unit id="133">
+<source xml:lang="en">Excel UDF: _Excel_RangeCopy Example</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example</mrk></target>
+</trans-unit>
+<trans-unit id="134">
+<source xml:lang="en">Error opening workbook '</source>
+<seg-source><mrk mid="0" mtype="seg">Error opening workbook '</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error opening workbook '</mrk></target>
+</trans-unit>
+<trans-unit id="135">
+<source xml:lang="en">\Extras\_Excel1.xls'.</source>
+<seg-source><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\Extras\_Excel1.xls'.</mrk></target>
+</trans-unit>
+<trans-unit id="136">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="137">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="138">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="139">
+<source xml:lang="en">Paste the format of a cell to other cells</source>
+<seg-source><mrk mid="0" mtype="seg">Paste the format of a cell to other cells</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Paste the format of a cell to other cells</mrk></target>
+</trans-unit>
+<trans-unit id="140">
+<source xml:lang="en">*****************************************************************************</source>
+<seg-source><mrk mid="0" mtype="seg">*****************************************************************************</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">*****************************************************************************</mrk></target>
+</trans-unit>
+<trans-unit id="141">
+<source xml:lang="en">A1</source>
+<seg-source><mrk mid="0" mtype="seg">A1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A1</mrk></target>
+</trans-unit>
+<trans-unit id="142">
+<source xml:lang="en">Copy the cell to the clipboards</source>
+<seg-source><mrk mid="0" mtype="seg">Copy the cell to the clipboards</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Copy the cell to the clipboards</mrk></target>
+</trans-unit>
+<trans-unit id="143">
+<source xml:lang="en">Excel UDF: _Excel_RangeCopy Example5</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example5</mrk></target>
+</trans-unit>
+<trans-unit id="144">
+<source xml:lang="en">Error copying rcell A1.</source>
+<seg-source><mrk mid="0" mtype="seg">Error copying rcell A1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error copying rcell A1.</mrk></target>
+</trans-unit>
+<trans-unit id="145">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="146">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="147">
+<source xml:lang="en">B1:E16</source>
+<seg-source><mrk mid="0" mtype="seg">B1:E16</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">B1:E16</mrk></target>
+</trans-unit>
+<trans-unit id="148">
+<source xml:lang="en">paste the format to the target range</source>
+<seg-source><mrk mid="0" mtype="seg">paste the format to the target range</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">paste the format to the target range</mrk></target>
+</trans-unit>
+<trans-unit id="149">
+<source xml:lang="en">Excel UDF: _Excel_RangeCopy Example5</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example5</mrk></target>
+</trans-unit>
+<trans-unit id="150">
+<source xml:lang="en">Error pasting cells.</source>
+<seg-source><mrk mid="0" mtype="seg">Error pasting cells.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error pasting cells.</mrk></target>
+</trans-unit>
+<trans-unit id="151">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="152">
+<source xml:lang="en">, @extended =</source>
+<seg-source><mrk mid="0" mtype="seg">, @extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">, @extended =</mrk></target>
+</trans-unit>
+<trans-unit id="153">
+<source xml:lang="en">Excel UDF: _Excel_RangeCopy Example 5</source>
+<seg-source><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example 5</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Excel UDF:</mrk> <mrk mid="1" mtype="seg">_Excel_RangeCopy Example 5</mrk></target>
+</trans-unit>
+<trans-unit id="154">
+<source xml:lang="en">Format of cell 'A1' successfully pasted to 'B1:E16'.</source>
+<seg-source><mrk mid="0" mtype="seg">Format of cell 'A1' successfully pasted to 'B1:E16'.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Format of cell 'A1' successfully pasted to 'B1:E16'.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

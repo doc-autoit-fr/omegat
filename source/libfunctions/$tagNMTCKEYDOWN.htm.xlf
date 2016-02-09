@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/$tagNMTCKEYDOWN.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Keyword Reference</source>
+<seg-source><mrk mid="0" mtype="seg">Keyword Reference</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Keyword Reference</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Contains information used in processing the $LVN_KEYDOWN notification message</source>
+<seg-source><mrk mid="0" mtype="seg">Contains information used in processing the $LVN_KEYDOWN notification message</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains information used in processing the $LVN_KEYDOWN notification message</mrk></target>
+<note>Keyword $tagNMTCKEYDOWN</note>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Contains information about a notification message</source>
+<seg-source><mrk mid="0" mtype="seg">Contains information about a notification message</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains information about a notification message</mrk></target>
+<note>$tagNMHDR</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Virtual key code</source>
+<seg-source><mrk mid="0" mtype="seg">Virtual key code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Virtual key code</mrk></target>
+<note>VKey</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Bits as shown in the following table:</source>
+<seg-source><mrk mid="0" mtype="seg">Bits as shown in the following table:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Bits as shown in the following table:</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     0-15 - Specifies the repeat count for the current message.</source>
+<seg-source> <mrk mid="0" mtype="seg">    0-15 - Specifies the repeat count for the current message.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0-15 - Specifies the repeat count for the current message.</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     16-23 - Specifies the scan code. The value depends on the OEM.</source>
+<seg-source> <mrk mid="0" mtype="seg">    16-23 - Specifies the scan code.</mrk> <mrk mid="1" mtype="seg">The value depends on the OEM.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    16-23 - Specifies the scan code.</mrk> <mrk mid="1" mtype="seg">The value depends on the OEM.</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     24 - Specifies whether the key is an extended key, such as the right-hand ALT and CTRL keys that appear on an enhanced 101- or 102-key keyboard. The value is 1 if it is an extended key; otherwise, it is 0.</source>
+<seg-source> <mrk mid="0" mtype="seg">    24 - Specifies whether the key is an extended key, such as the right-hand ALT and CTRL keys that appear on an enhanced 101- or 102-key keyboard.</mrk> <mrk mid="1" mtype="seg">The value is 1 if it is an extended key; otherwise, it is 0.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    24 - Specifies whether the key is an extended key, such as the right-hand ALT and CTRL keys that appear on an enhanced 101- or 102-key keyboard.</mrk> <mrk mid="1" mtype="seg">The value is 1 if it is an extended key; otherwise, it is 0.</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     25-28 - Reserved; do not use.</source>
+<seg-source> <mrk mid="0" mtype="seg">    25-28 - Reserved; do not use.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    25-28 - Reserved; do not use.</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     29 - Specifies the context code. The value is always 0 for a $WM_KEYDOWN message.</source>
+<seg-source> <mrk mid="0" mtype="seg">    29 - Specifies the context code.</mrk> <mrk mid="1" mtype="seg">The value is always 0 for a $WM_KEYDOWN message.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    29 - Specifies the context code.</mrk> <mrk mid="1" mtype="seg">The value is always 0 for a $WM_KEYDOWN message.</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     30 - Specifies the previous key state. The value is 1 if the key is down before the message is sent, or it is zero if the key is up.</source>
+<seg-source> <mrk mid="0" mtype="seg">    30 - Specifies the previous key state.</mrk> <mrk mid="1" mtype="seg">The value is 1 if the key is down before the message is sent, or it is zero if the key is up.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    30 - Specifies the previous key state.</mrk> <mrk mid="1" mtype="seg">The value is 1 if the key is down before the message is sent, or it is zero if the key is up.</mrk></target>
+<note>Flags</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     31 - Specifies the transition state. The value is always zero for a $WM_KEYDOWN message</source>
+<seg-source> <mrk mid="0" mtype="seg">    31 - Specifies the transition state.</mrk> <mrk mid="1" mtype="seg">The value is always zero for a $WM_KEYDOWN message</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    31 - Specifies the transition state.</mrk> <mrk mid="1" mtype="seg">The value is always zero for a $WM_KEYDOWN message</mrk></target>
+<note>Flags</note>
+</trans-unit>
+</body>
+</file>
+</xliff>

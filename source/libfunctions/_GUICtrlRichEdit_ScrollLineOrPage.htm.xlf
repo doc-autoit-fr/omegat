@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUICtrlRichEdit_ScrollLineOrPage.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Scrolls the text down or up a line or a page</source>
+<seg-source><mrk mid="0" mtype="seg">Scrolls the text down or up a line or a page</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scrolls the text down or up a line or a page</mrk></target>
+<note>Function _GUICtrlRichEdit_ScrollLineOrPage</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the control</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the control</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">one of the following:</source>
+<seg-source><mrk mid="0" mtype="seg">one of the following:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">one of the following:</mrk></target>
+<note>$sAction</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     "ld" - line down</source>
+<seg-source> <mrk mid="0" mtype="seg">    "ld" - line down</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "ld" - line down</mrk></target>
+<note>$sAction</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     "lu" - line up</source>
+<seg-source> <mrk mid="0" mtype="seg">    "lu" - line up</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "lu" - line up</mrk></target>
+<note>$sAction</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     "pd" - page down</source>
+<seg-source> <mrk mid="0" mtype="seg">    "pd" - page down</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "pd" - page down</mrk></target>
+<note>$sAction</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     "pu" - page up</source>
+<seg-source> <mrk mid="0" mtype="seg">    "pu" - page up</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    "pu" - page up</mrk></target>
+<note>$sAction</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">the number of lines actually scrolled (positive if down).</source>
+<seg-source><mrk mid="0" mtype="seg">the number of lines actually scrolled (positive if down).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the number of lines actually scrolled (positive if down).</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">0 and sets the @error flag to non-zero.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">@error:</source>
+<seg-source><mrk mid="0" mtype="seg">@error:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error:</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">101 - $hWnd is not a handle</source>
+<seg-source><mrk mid="0" mtype="seg">101 - $hWnd is not a handle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">101 - $hWnd is not a handle</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> 1021 - $sAction is not two characters</source>
+<seg-source> <mrk mid="0" mtype="seg">1021 - $sAction is not two characters</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1021 - $sAction is not two characters</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> 1022 - first character must be l or p</source>
+<seg-source> <mrk mid="0" mtype="seg">1022 - first character must be l or p</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1022 - first character must be l or p</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> 1023 - second character must be d or u</source>
+<seg-source> <mrk mid="0" mtype="seg">1023 - second character must be d or u</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">1023 - second character must be d or u</mrk></target>
+<note>@error:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">This function is well behaved: it never scrolls such that lines beyond the last one are shown.</source>
+<seg-source><mrk mid="0" mtype="seg">This function is well behaved: it never scrolls such that lines beyond the last one are shown.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This function is well behaved: it never scrolls such that lines beyond the last one are shown.</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EM_SCROLL);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EM_SCROLL<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EM_SCROLL);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EM_SCROLL<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(EM_SCROLL);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>EM_SCROLL<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Example (</source>
+<seg-source><mrk mid="0" mtype="seg">Example (</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example (</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">.exe</source>
+<seg-source><mrk mid="0" mtype="seg">.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">.exe</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">)</source>
+<seg-source><mrk mid="0" mtype="seg">)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">)</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">This is a test.</source>
+<seg-source><mrk mid="0" mtype="seg">This is a test.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a test.</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Next</source>
+<seg-source><mrk mid="0" mtype="seg">Next</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Next</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">Line</source>
+<seg-source><mrk mid="0" mtype="seg">Line</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Line</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Line 21</source>
+<seg-source><mrk mid="0" mtype="seg">Line 21</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Line 21</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">needed unless script crashes</source>
+<seg-source><mrk mid="0" mtype="seg">needed unless script crashes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">needed unless script crashes</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">GUIDelete() ; is OK too</source>
+<seg-source><mrk mid="0" mtype="seg">GUIDelete() ; is OK too</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUIDelete() ; is OK too</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">lu</source>
+<seg-source><mrk mid="0" mtype="seg">lu</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">lu</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Scrolled up a line</source>
+<seg-source><mrk mid="0" mtype="seg">Scrolled up a line</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scrolled up a line</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">pu</source>
+<seg-source><mrk mid="0" mtype="seg">pu</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">pu</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">Scrolled up a page</source>
+<seg-source><mrk mid="0" mtype="seg">Scrolled up a page</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scrolled up a page</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">pd</source>
+<seg-source><mrk mid="0" mtype="seg">pd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">pd</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Scrolled down a page</source>
+<seg-source><mrk mid="0" mtype="seg">Scrolled down a page</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Scrolled down a page</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">pd</source>
+<seg-source><mrk mid="0" mtype="seg">pd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">pd</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Tried to scroll down another page</source>
+<seg-source><mrk mid="0" mtype="seg">Tried to scroll down another page</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Tried to scroll down another page</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Actually scrolled</source>
+<seg-source><mrk mid="0" mtype="seg">Actually scrolled</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Actually scrolled</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">lines</source>
+<seg-source><mrk mid="0" mtype="seg">lines</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">lines</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

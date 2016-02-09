@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_ReadFile.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Reads data from a file</source>
+<seg-source><mrk mid="0" mtype="seg">Reads data from a file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Reads data from a file</mrk></target>
+<note>Function _WinAPI_ReadFile</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to the file to be read</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the file to be read</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the file to be read</mrk></target>
+<note>$hFile</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Pointer to the buffer that receives the data read from a file</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to the buffer that receives the data read from a file</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to the buffer that receives the data read from a file</mrk></target>
+<note>$pBuffer</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Maximum number of bytes to read</source>
+<seg-source><mrk mid="0" mtype="seg">Maximum number of bytes to read</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Maximum number of bytes to read</mrk></target>
+<note>$iToRead</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Number of bytes read</source>
+<seg-source><mrk mid="0" mtype="seg">Number of bytes read</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Number of bytes read</mrk></target>
+<note>$iRead</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> A $tagOVERLAPPED structure or a pointer to it</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A $tagOVERLAPPED structure or a pointer to it</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A $tagOVERLAPPED structure or a pointer to it</mrk></target>
+<note>$tOverlapped</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">True</source>
+<seg-source><mrk mid="0" mtype="seg">True</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">True</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information </source>
+<seg-source> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">False, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="$tagOVERLAPPED.htm"></bpt>$tagOVERLAPPED<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_CloseHandle.htm"></bpt>_WinAPI_CloseHandle<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="_WinAPI_CreateFile.htm"></bpt>_WinAPI_CreateFile<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="_WinAPI_FlushFileBuffers.htm"></bpt>_WinAPI_FlushFileBuffers<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="_WinAPI_GetFileSizeEx.htm"></bpt>_WinAPI_GetFileSizeEx<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="_WinAPI_SetEndOfFile.htm"></bpt>_WinAPI_SetEndOfFile<ept id="6">&lt;/a></ept>, <bpt id="7" ctype="x-a">&lt;a href="_WinAPI_SetFilePointer.htm"></bpt>_WinAPI_SetFilePointer<ept id="7">&lt;/a></ept>, <bpt id="8" ctype="x-a">&lt;a href="_WinAPI_WriteFile.htm"></bpt>_WinAPI_WriteFile<ept id="8">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagOVERLAPPED.htm"></bpt>$tagOVERLAPPED<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_CloseHandle.htm"></bpt>_WinAPI_CloseHandle<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="_WinAPI_CreateFile.htm"></bpt>_WinAPI_CreateFile<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="_WinAPI_FlushFileBuffers.htm"></bpt>_WinAPI_FlushFileBuffers<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="_WinAPI_GetFileSizeEx.htm"></bpt>_WinAPI_GetFileSizeEx<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="_WinAPI_SetEndOfFile.htm"></bpt>_WinAPI_SetEndOfFile<ept id="6">&lt;/a></ept>, <bpt id="7" ctype="x-a">&lt;a href="_WinAPI_SetFilePointer.htm"></bpt>_WinAPI_SetFilePointer<ept id="7">&lt;/a></ept>, <bpt id="8" ctype="x-a">&lt;a href="_WinAPI_WriteFile.htm"></bpt>_WinAPI_WriteFile<ept id="8">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagOVERLAPPED.htm"></bpt>$tagOVERLAPPED<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="_WinAPI_CloseHandle.htm"></bpt>_WinAPI_CloseHandle<ept id="2">&lt;/a></ept>, <bpt id="3" ctype="x-a">&lt;a href="_WinAPI_CreateFile.htm"></bpt>_WinAPI_CreateFile<ept id="3">&lt;/a></ept>, <bpt id="4" ctype="x-a">&lt;a href="_WinAPI_FlushFileBuffers.htm"></bpt>_WinAPI_FlushFileBuffers<ept id="4">&lt;/a></ept>, <bpt id="5" ctype="x-a">&lt;a href="_WinAPI_GetFileSizeEx.htm"></bpt>_WinAPI_GetFileSizeEx<ept id="5">&lt;/a></ept>, <bpt id="6" ctype="x-a">&lt;a href="_WinAPI_SetEndOfFile.htm"></bpt>_WinAPI_SetEndOfFile<ept id="6">&lt;/a></ept>, <bpt id="7" ctype="x-a">&lt;a href="_WinAPI_SetFilePointer.htm"></bpt>_WinAPI_SetFilePointer<ept id="7">&lt;/a></ept>, <bpt id="8" ctype="x-a">&lt;a href="_WinAPI_WriteFile.htm"></bpt>_WinAPI_WriteFile<ept id="8">&lt;/a></ept></mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ReadFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ReadFile<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ReadFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ReadFile<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(ReadFile);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>ReadFile<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">1) create file and write data to it</source>
+<seg-source><mrk mid="0" mtype="seg">1) create file and write data to it</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1) create file and write data to it</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">\test.txt</source>
+<seg-source><mrk mid="0" mtype="seg">\test.txt</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">\test.txt</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">abcdefghijklmnopqrstuvwxyz</source>
+<seg-source><mrk mid="0" mtype="seg">abcdefghijklmnopqrstuvwxyz</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">abcdefghijklmnopqrstuvwxyz</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">byte[</source>
+<seg-source><mrk mid="0" mtype="seg">byte[</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">byte[</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">]</source>
+<seg-source><mrk mid="0" mtype="seg">]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">]</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">1):</source>
+<seg-source><mrk mid="0" mtype="seg">1):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1):</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">2) read 6 bytes from position 3</source>
+<seg-source><mrk mid="0" mtype="seg">2) read 6 bytes from position 3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2) read 6 bytes from position 3</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">byte[6]</source>
+<seg-source><mrk mid="0" mtype="seg">byte[6]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">byte[6]</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">2):</source>
+<seg-source><mrk mid="0" mtype="seg">2):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2):</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">3) write previously read 6 bytes from position 3 to the same position but in UpperCase</source>
+<seg-source><mrk mid="0" mtype="seg">3) write previously read 6 bytes from position 3 to the same position but in UpperCase</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3) write previously read 6 bytes from position 3 to the same position but in UpperCase</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">3):</source>
+<seg-source><mrk mid="0" mtype="seg">3):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3):</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">4) truncate file size to 12 bytes</source>
+<seg-source><mrk mid="0" mtype="seg">4) truncate file size to 12 bytes</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">4) truncate file size to 12 bytes</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">4):</source>
+<seg-source><mrk mid="0" mtype="seg">4):</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">4):</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

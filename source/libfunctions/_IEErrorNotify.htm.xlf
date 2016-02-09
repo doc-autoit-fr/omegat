@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_IEErrorNotify.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Specifies whether IE.au3 automatically notifies of Warnings and Errors (to the console)</source>
+<seg-source><mrk mid="0" mtype="seg">Specifies whether IE.au3 automatically notifies of Warnings and Errors (to the console)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Specifies whether IE.au3 automatically notifies of Warnings and Errors (to the console)</mrk></target>
+<note>Function _IEErrorNotify</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> specifies whether notification should be on or off</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">specifies whether notification should be on or off</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">specifies whether notification should be on or off</mrk></target>
+<note>$vNotify</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">     -1 = (Default) return current setting</source>
+<seg-source> <mrk mid="0" mtype="seg">    -1 = (Default) return current setting</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    -1 = (Default) return current setting</mrk></target>
+<note>$vNotify</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     True = Turn On</source>
+<seg-source> <mrk mid="0" mtype="seg">    True = Turn On</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    True = Turn On</mrk></target>
+<note>$vNotify</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     False = Turn Off</source>
+<seg-source> <mrk mid="0" mtype="seg">    False = Turn Off</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    False = Turn Off</mrk></target>
+<note>$vNotify</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Returns the current notification setting, if $vNotify = -1 (Default), else returns 1.</source>
+<seg-source><mrk mid="0" mtype="seg">Returns the current notification setting, if $vNotify = -1 (Default), else returns 1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Returns the current notification setting, if $vNotify = -1 (Default), else returns 1.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">IE.au3 writes diagnostic information, warnings and errors to the console by default.</source>
+<seg-source><mrk mid="0" mtype="seg">IE.au3 writes diagnostic information, warnings and errors to the console by default.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IE.au3 writes diagnostic information, warnings and errors to the console by default.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> This information can readily be seen when using the SciTE editor to run your scripts.</source>
+<seg-source> <mrk mid="0" mtype="seg">This information can readily be seen when using the SciTE editor to run your scripts.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This information can readily be seen when using the SciTE editor to run your scripts.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> This function allows you to turn this functionality on or off.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function allows you to turn this functionality on or off.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function allows you to turn this functionality on or off.</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Example 1</source>
+<seg-source><mrk mid="0" mtype="seg">Example 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 1</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Check the current status of _IEErrorNotify, turn it off if on, on if off</source>
+<seg-source><mrk mid="0" mtype="seg">Check the current status of _IEErrorNotify, turn it off if on, on if off</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check the current status of _IEErrorNotify, turn it off if on, on if off</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">_IEErrorNotify Status</source>
+<seg-source><mrk mid="0" mtype="seg">_IEErrorNotify Status</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_IEErrorNotify Status</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Notification is ON, turning it OFF</source>
+<seg-source><mrk mid="0" mtype="seg">Notification is ON, turning it OFF</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notification is ON, turning it OFF</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">_IEErrorNotify Status</source>
+<seg-source><mrk mid="0" mtype="seg">_IEErrorNotify Status</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_IEErrorNotify Status</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">Notification is OFF, turning it ON</source>
+<seg-source><mrk mid="0" mtype="seg">Notification is OFF, turning it ON</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notification is OFF, turning it ON</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">Example 2</source>
+<seg-source><mrk mid="0" mtype="seg">Example 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example 2</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">_IEErrorNotify Status</source>
+<seg-source><mrk mid="0" mtype="seg">_IEErrorNotify Status</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_IEErrorNotify Status</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Notification now is</source>
+<seg-source><mrk mid="0" mtype="seg">Notification now is</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notification now is</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">! Look what happens when _IEErrorNotify is ON</source>
+<seg-source><mrk mid="0" mtype="seg">!</mrk> <mrk mid="1" mtype="seg">Look what happens when _IEErrorNotify is ON</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!</mrk> <mrk mid="1" mtype="seg">Look what happens when _IEErrorNotify is ON</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">www.google</source>
+<seg-source><mrk mid="0" mtype="seg">www.google</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">www.google</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">URL is broken</source>
+<seg-source><mrk mid="0" mtype="seg">URL is broken</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">URL is broken</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">gbqf</source>
+<seg-source><mrk mid="0" mtype="seg">gbqf</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">gbqf</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">q</source>
+<seg-source><mrk mid="0" mtype="seg">q</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">q</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">AutoIt IE.au3</source>
+<seg-source><mrk mid="0" mtype="seg">AutoIt IE.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AutoIt IE.au3</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">! This is what you can see in console when _IEErrorNotify is Turned ON</source>
+<seg-source><mrk mid="0" mtype="seg">!</mrk> <mrk mid="1" mtype="seg">This is what you can see in console when _IEErrorNotify is Turned ON</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!</mrk> <mrk mid="1" mtype="seg">This is what you can see in console when _IEErrorNotify is Turned ON</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">_IEErrorNotify Status</source>
+<seg-source><mrk mid="0" mtype="seg">_IEErrorNotify Status</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_IEErrorNotify Status</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Notification now is</source>
+<seg-source><mrk mid="0" mtype="seg">Notification now is</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notification now is</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">! Now look what happens when _IEErrorNotify is OFF</source>
+<seg-source><mrk mid="0" mtype="seg">!</mrk> <mrk mid="1" mtype="seg">Now look what happens when _IEErrorNotify is OFF</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!</mrk> <mrk mid="1" mtype="seg">Now look what happens when _IEErrorNotify is OFF</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">www.google</source>
+<seg-source><mrk mid="0" mtype="seg">www.google</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">www.google</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">URL is broken</source>
+<seg-source><mrk mid="0" mtype="seg">URL is broken</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">URL is broken</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">gbqf</source>
+<seg-source><mrk mid="0" mtype="seg">gbqf</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">gbqf</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">$oForm = _IEFormGetObjByName($oIE, "gbqf")</source>
+<seg-source><mrk mid="0" mtype="seg">$oForm = _IEFormGetObjByName($oIE, "gbqf")</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$oForm = _IEFormGetObjByName($oIE, "gbqf")</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">q</source>
+<seg-source><mrk mid="0" mtype="seg">q</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">q</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">AutoIt IE.au3</source>
+<seg-source><mrk mid="0" mtype="seg">AutoIt IE.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AutoIt IE.au3</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">! This is what you can see in console when _IEErrorNotify is Turned OFF</source>
+<seg-source><mrk mid="0" mtype="seg">!</mrk> <mrk mid="1" mtype="seg">This is what you can see in console when _IEErrorNotify is Turned OFF</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!</mrk> <mrk mid="1" mtype="seg">This is what you can see in console when _IEErrorNotify is Turned OFF</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">_IEErrorNotify Status</source>
+<seg-source><mrk mid="0" mtype="seg">_IEErrorNotify Status</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_IEErrorNotify Status</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">Notification now is</source>
+<seg-source><mrk mid="0" mtype="seg">Notification now is</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notification now is</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">! Look what happens when _IEErrorNotify is ON with some ERRORs</source>
+<seg-source><mrk mid="0" mtype="seg">!</mrk> <mrk mid="1" mtype="seg">Look what happens when _IEErrorNotify is ON with some ERRORs</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!</mrk> <mrk mid="1" mtype="seg">Look what happens when _IEErrorNotify is ON with some ERRORs</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">www.google.com</source>
+<seg-source><mrk mid="0" mtype="seg">www.google.com</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">www.google.com</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">URL is OK</source>
+<seg-source><mrk mid="0" mtype="seg">URL is OK</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">URL is OK</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">gbqf</source>
+<seg-source><mrk mid="0" mtype="seg">gbqf</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">gbqf</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">try to retrieve the index = 1 -> ERROR</source>
+<seg-source><mrk mid="0" mtype="seg">try to retrieve the index = 1 -> ERROR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">try to retrieve the index = 1 -> ERROR</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">q</source>
+<seg-source><mrk mid="0" mtype="seg">q</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">q</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">try to retrieve the index = 1 -> ERROR</source>
+<seg-source><mrk mid="0" mtype="seg">try to retrieve the index = 1 -> ERROR</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">try to retrieve the index = 1 -> ERROR</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">AutoIt IE.au3</source>
+<seg-source><mrk mid="0" mtype="seg">AutoIt IE.au3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">AutoIt IE.au3</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">! This is what you can see in console when _IEErrorNotify is Turned ON</source>
+<seg-source><mrk mid="0" mtype="seg">!</mrk> <mrk mid="1" mtype="seg">This is what you can see in console when _IEErrorNotify is Turned ON</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!</mrk> <mrk mid="1" mtype="seg">This is what you can see in console when _IEErrorNotify is Turned ON</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">_IEErrorNotify Status</source>
+<seg-source><mrk mid="0" mtype="seg">_IEErrorNotify Status</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_IEErrorNotify Status</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Notification is ON, turning it OFF</source>
+<seg-source><mrk mid="0" mtype="seg">Notification is ON, turning it OFF</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notification is ON, turning it OFF</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">> Turning _IEErrorNotify OFF</source>
+<seg-source><mrk mid="0" mtype="seg">> Turning _IEErrorNotify OFF</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">> Turning _IEErrorNotify OFF</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">_IEErrorNotify Status</source>
+<seg-source><mrk mid="0" mtype="seg">_IEErrorNotify Status</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_IEErrorNotify Status</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Notification is OFF, turning it ON</source>
+<seg-source><mrk mid="0" mtype="seg">Notification is OFF, turning it ON</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Notification is OFF, turning it ON</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">> Turning _IEErrorNotify ON</source>
+<seg-source><mrk mid="0" mtype="seg">> Turning _IEErrorNotify ON</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">> Turning _IEErrorNotify ON</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

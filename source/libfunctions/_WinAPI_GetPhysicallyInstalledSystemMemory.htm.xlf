@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_GetPhysicallyInstalledSystemMemory.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the amount of RAM that is physically installed on the computer</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the amount of RAM that is physically installed on the computer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the amount of RAM that is physically installed on the computer</mrk></target>
+<note>Function _WinAPI_GetPhysicallyInstalledSystemMemory</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The amount of physically installed RAM, in kilobytes.</source>
+<seg-source><mrk mid="0" mtype="seg">The amount of physically installed RAM, in kilobytes.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The amount of physically installed RAM, in kilobytes.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"> 0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information. </source>
+<seg-source> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">0, call <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_GetLastError.htm"></bpt>_WinAPI_GetLastError()<ept id="1">&lt;/a></ept> to get extended error information.</mrk> </target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The amount of memory available to the operating system can be less than the amount of memory physically installed</source>
+<seg-source><mrk mid="0" mtype="seg">The amount of memory available to the operating system can be less than the amount of memory physically installed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The amount of memory available to the operating system can be less than the amount of memory physically installed</mrk></target>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"> in the computer because the BIOS and some drivers may reserve memory as I/O regions for memory-mapped devices,</source>
+<seg-source> <mrk mid="0" mtype="seg">in the computer because the BIOS and some drivers may reserve memory as I/O regions for memory-mapped devices,</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">in the computer because the BIOS and some drivers may reserve memory as I/O regions for memory-mapped devices,</mrk></target>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> making the memory unavailable to the operating system and applications.</source>
+<seg-source> <mrk mid="0" mtype="seg">making the memory unavailable to the operating system and applications.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">making the memory unavailable to the operating system and applications.</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> This function requires Windows Vista with SP1 or later.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function requires Windows Vista with SP1 or later.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function requires Windows Vista with SP1 or later.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetPhysicallyInstalledSystemMemory);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetPhysicallyInstalledSystemMemory<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetPhysicallyInstalledSystemMemory);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetPhysicallyInstalledSystemMemory<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetPhysicallyInstalledSystemMemory);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetPhysicallyInstalledSystemMemory<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

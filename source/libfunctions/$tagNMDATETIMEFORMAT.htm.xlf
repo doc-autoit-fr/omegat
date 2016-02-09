@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/$tagNMDATETIMEFORMAT.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Keyword Reference</source>
+<seg-source><mrk mid="0" mtype="seg">Keyword Reference</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Keyword Reference</mrk></target>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Contains information about a portion of the format string that defines a callback field within a date and time picker (DTP) control</source>
+<seg-source><mrk mid="0" mtype="seg">Contains information about a portion of the format string that defines a callback field within a date and time picker (DTP) control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains information about a portion of the format string that defines a callback field within a date and time picker (DTP) control</mrk></target>
+<note>Keyword $tagNMDATETIMEFORMAT</note>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Contains information about a notification message.</source>
+<seg-source><mrk mid="0" mtype="seg">Contains information about a notification message.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Contains information about a notification message.</mrk></target>
+<note>$tagNMHDR</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Pointer to a null terminated string that defines the control callback field. The string comprises one or more "X" characters.</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to a null terminated string that defines the control callback field.</mrk> <mrk mid="1" mtype="seg">The string comprises one or more "X" characters.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to a null terminated string that defines the control callback field.</mrk> <mrk mid="1" mtype="seg">The string comprises one or more "X" characters.</mrk></target>
+<note>Format</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">The date and time to be formatted.</source>
+<seg-source><mrk mid="0" mtype="seg">The date and time to be formatted.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The date and time to be formatted.</mrk></target>
+<note>$tagSYSTEMTIME</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Pointer to a null terminated string that contains the display text of the control. By default, this is the address of the Display member of this structure.</source>
+<seg-source><mrk mid="0" mtype="seg">Pointer to a null terminated string that contains the display text of the control.</mrk> <mrk mid="1" mtype="seg">By default, this is the address of the Display member of this structure.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Pointer to a null terminated string that contains the display text of the control.</mrk> <mrk mid="1" mtype="seg">By default, this is the address of the Display member of this structure.</mrk></target>
+<note>pDisplay</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en"> It is acceptable to have pDisplay point to an existing string. In this case, you don't need to assign a value to Display.</source>
+<seg-source> <mrk mid="0" mtype="seg">It is acceptable to have pDisplay point to an existing string.</mrk> <mrk mid="1" mtype="seg">In this case, you don't need to assign a value to Display.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">It is acceptable to have pDisplay point to an existing string.</mrk> <mrk mid="1" mtype="seg">In this case, you don't need to assign a value to Display.</mrk></target>
+<note>pDisplay</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> However, the string that pDisplay points to must remain valid until another $DTN_FORMAT notification is sent or until the control is destroyed.</source>
+<seg-source> <mrk mid="0" mtype="seg">However, the string that pDisplay points to must remain valid until another $DTN_FORMAT notification is sent or until the control is destroyed.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">However, the string that pDisplay points to must remain valid until another $DTN_FORMAT notification is sent or until the control is destroyed.</mrk></target>
+<note>pDisplay</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">64 character buffer that is to receive the null terminated string that the control will display.</source>
+<seg-source><mrk mid="0" mtype="seg">64 character buffer that is to receive the null terminated string that the control will display.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">64 character buffer that is to receive the null terminated string that the control will display.</mrk></target>
+<note>Display</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> It is not necessary to fill the entire buffer.</source>
+<seg-source> <mrk mid="0" mtype="seg">It is not necessary to fill the entire buffer.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">It is not necessary to fill the entire buffer.</mrk></target>
+<note>Display</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">It carries the string that defines the callback field and contains a buffer to receive the string that will be displayed in the callback field.</source>
+<seg-source><mrk mid="0" mtype="seg">It carries the string that defines the callback field and contains a buffer to receive the string that will be displayed in the callback field.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">It carries the string that defines the callback field and contains a buffer to receive the string that will be displayed in the callback field.</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> This structure is used with the $DTN_FORMAT notification message.</source>
+<seg-source> <mrk mid="0" mtype="seg">This structure is used with the $DTN_FORMAT notification message.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This structure is used with the $DTN_FORMAT notification message.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"><bpt id="1" ctype="x-a">&lt;a href="$tagNMHDR.htm"></bpt>$tagNMHDR<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="$tagSYSTEMTIME.htm"></bpt>$tagSYSTEMTIME<ept id="2">&lt;/a></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagNMHDR.htm"></bpt>$tagNMHDR<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="$tagSYSTEMTIME.htm"></bpt>$tagSYSTEMTIME<ept id="2">&lt;/a></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="$tagNMHDR.htm"></bpt>$tagNMHDR<ept id="1">&lt;/a></ept>, <bpt id="2" ctype="x-a">&lt;a href="$tagSYSTEMTIME.htm"></bpt>$tagSYSTEMTIME<ept id="2">&lt;/a></ept></mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

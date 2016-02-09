@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_DrawThemeEdge.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Draws one or more edges defined by the visual style of a rectangle</source>
+<seg-source><mrk mid="0" mtype="seg">Draws one or more edges defined by the visual style of a rectangle</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draws one or more edges defined by the visual style of a rectangle</mrk></target>
+<note>Function _WinAPI_DrawThemeEdge</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to a window's specified theme data.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to a window's specified theme data.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to a window's specified theme data.</mrk></target>
+<note>$hTheme</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The part that contains the rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg">The part that contains the rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The part that contains the rectangle.</mrk></target>
+<note>$iPartID</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">The state of the part.</source>
+<seg-source><mrk mid="0" mtype="seg">The state of the part.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The state of the part.</mrk></target>
+<note>$iStateID</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Handle to the device context.</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to the device context.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to the device context.</mrk></target>
+<note>$hDC</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">$tagRECT structure that contains the rectangle.</source>
+<seg-source><mrk mid="0" mtype="seg">$tagRECT structure that contains the rectangle.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$tagRECT structure that contains the rectangle.</mrk></target>
+<note>$tRECT</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">The type of inner and outer edges to draw.</source>
+<seg-source><mrk mid="0" mtype="seg">The type of inner and outer edges to draw.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The type of inner and outer edges to draw.</mrk></target>
+<note>$iEdge</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> This parameter must be a combination of one inner-border flag and one outer-border flag ($BDR_*), or one of the combination flags ($EDGE_*).</source>
+<seg-source> <mrk mid="0" mtype="seg">This parameter must be a combination of one inner-border flag and one outer-border flag ($BDR_*), or one of the combination flags ($EDGE_*).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This parameter must be a combination of one inner-border flag and one outer-border flag ($BDR_*), or one of the combination flags ($EDGE_*).</mrk></target>
+<note>$iEdge</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">The type of border to draw. It can be a combination of the $BF_* constants.</source>
+<seg-source><mrk mid="0" mtype="seg">The type of border to draw.</mrk> <mrk mid="1" mtype="seg">It can be a combination of the $BF_* constants.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The type of border to draw.</mrk> <mrk mid="1" mtype="seg">It can be a combination of the $BF_* constants.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> $tagRECT structure that contains the rectangle that receives the interior rectangle, if $BF_ADJUST is used.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">$tagRECT structure that contains the rectangle that receives the interior rectangle, if $BF_ADJUST is used.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">$tagRECT structure that contains the rectangle that receives the interior rectangle, if $BF_ADJUST is used.</mrk></target>
+<note>$tAREA</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</source>
+<seg-source><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0 and sets the @error flag to non-zero, @extended flag may contain the HRESULT error code.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">$BDR_* , $EDGE_* , $BF_* constants require #include &lt;BorderConstants.au3>.</source>
+<seg-source><mrk mid="0" mtype="seg">$BDR_* , $EDGE_* , $BF_* constants require #include &lt;BorderConstants.au3>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$BDR_* , $EDGE_* , $BF_* constants require #include &lt;BorderConstants.au3>.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DrawThemeEdge);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DrawThemeEdge<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DrawThemeEdge);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DrawThemeEdge<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(DrawThemeEdge);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>DrawThemeEdge<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/Call.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Calls a user-defined or built-in function contained in first parameter.</source>
+<seg-source><mrk mid="0" mtype="seg">Calls a user-defined or built-in function contained in first parameter.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Calls a user-defined or built-in function contained in first parameter.</mrk></target>
+<note>Function Call</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The name of function or function to call.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of function or function to call.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of function or function to call.</mrk></target>
+<note>function</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Arguments that will be passed to the function being invoked.</source>
+<seg-source><mrk mid="0" mtype="seg">Arguments that will be passed to the function being invoked.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Arguments that will be passed to the function being invoked.</mrk></target>
+<note>param</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">the return value of the called function. Both @error and @extended may contain values if the called function set them.</source>
+<seg-source><mrk mid="0" mtype="seg">the return value of the called function.</mrk> <mrk mid="1" mtype="seg">Both @error and @extended may contain values if the called function set them.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the return value of the called function.</mrk> <mrk mid="1" mtype="seg">Both @error and @extended may contain values if the called function set them.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">sets the @error flag to 0xDEAD and @extended to 0xBEEF if the function does not exist or invalid number of parameters.</source>
+<seg-source><mrk mid="0" mtype="seg">sets the @error flag to 0xDEAD and @extended to 0xBEEF if the function does not exist or invalid number of parameters.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">sets the @error flag to 0xDEAD and @extended to 0xBEEF if the function does not exist or invalid number of parameters.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">The function can pass arguments to functions, however, <bpt id="1" ctype="x-em">&lt;em></bpt>ByRef<ept id="1">&lt;/em></ept> parameters are not supported; there is no way to retrieve the ByRef parameter.</source>
+<seg-source><mrk mid="0" mtype="seg">The function can pass arguments to functions, however, <bpt id="1" ctype="x-em">&lt;em></bpt>ByRef<ept id="1">&lt;/em></ept> parameters are not supported; there is no way to retrieve the ByRef parameter.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The function can pass arguments to functions, however, <bpt id="1" ctype="x-em">&lt;em></bpt>ByRef<ept id="1">&lt;/em></ept> parameters are not supported; there is no way to retrieve the ByRef parameter.</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> A special array can be passed in lieu of individual parameters. This array must have its first element set to "CallArgArray" and elements 1 - <bpt id="1" ctype="x-em">&lt;em></bpt>n<ept id="1">&lt;/em></ept> will be passed as separate arguments to the function. If using this special array, no other arguments can be passed to <bpt id="1" ctype="x-a">&lt;a href="Call.htm"></bpt>Call()<ept id="1">&lt;/a></ept>. See example for a demonstration.</source>
+<seg-source> <mrk mid="0" mtype="seg">A special array can be passed in lieu of individual parameters.</mrk> <mrk mid="1" mtype="seg">This array must have its first element set to "CallArgArray" and elements 1 - <bpt id="1" ctype="x-em">&lt;em></bpt>n<ept id="1">&lt;/em></ept> will be passed as separate arguments to the function.</mrk> <mrk mid="2" mtype="seg">If using this special array, no other arguments can be passed to <bpt id="1" ctype="x-a">&lt;a href="Call.htm"></bpt>Call()<ept id="1">&lt;/a></ept>.</mrk> <mrk mid="3" mtype="seg">See example for a demonstration.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">A special array can be passed in lieu of individual parameters.</mrk> <mrk mid="1" mtype="seg">This array must have its first element set to "CallArgArray" and elements 1 - <bpt id="1" ctype="x-em">&lt;em></bpt>n<ept id="1">&lt;/em></ept> will be passed as separate arguments to the function.</mrk> <mrk mid="2" mtype="seg">If using this special array, no other arguments can be passed to <bpt id="1" ctype="x-a">&lt;a href="Call.htm"></bpt>Call()<ept id="1">&lt;/a></ept>.</mrk> <mrk mid="3" mtype="seg">See example for a demonstration.</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> Both <bpt id="1" ctype="x-a">&lt;a href="Call.htm"></bpt>Call()<ept id="1">&lt;/a></ept> itself can set the @error flag or the called function can set the @error flag. If <bpt id="1" ctype="x-a">&lt;a href="Call.htm"></bpt>Call()<ept id="1">&lt;/a></ept> sets the @error flag, the value will be 0xDEAD and @extended will also be set to 0xBEEF. See the example for a demonstration of testing for a function that was not found.</source>
+<seg-source> <mrk mid="0" mtype="seg">Both <bpt id="1" ctype="x-a">&lt;a href="Call.htm"></bpt>Call()<ept id="1">&lt;/a></ept> itself can set the @error flag or the called function can set the @error flag.</mrk> <mrk mid="1" mtype="seg">If <bpt id="1" ctype="x-a">&lt;a href="Call.htm"></bpt>Call()<ept id="1">&lt;/a></ept> sets the @error flag, the value will be 0xDEAD and @extended will also be set to 0xBEEF.</mrk> <mrk mid="2" mtype="seg">See the example for a demonstration of testing for a function that was not found.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Both <bpt id="1" ctype="x-a">&lt;a href="Call.htm"></bpt>Call()<ept id="1">&lt;/a></ept> itself can set the @error flag or the called function can set the @error flag.</mrk> <mrk mid="1" mtype="seg">If <bpt id="1" ctype="x-a">&lt;a href="Call.htm"></bpt>Call()<ept id="1">&lt;/a></ept> sets the @error flag, the value will be 0xDEAD and @extended will also be set to 0xBEEF.</mrk> <mrk mid="2" mtype="seg">See the example for a demonstration of testing for a function that was not found.</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">This calls a function accepting no arguments.</source>
+<seg-source><mrk mid="0" mtype="seg">This calls a function accepting no arguments.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This calls a function accepting no arguments.</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">Test1</source>
+<seg-source><mrk mid="0" mtype="seg">Test1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test1</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">This calls a function accepting one argument and passes it an argument.</source>
+<seg-source><mrk mid="0" mtype="seg">This calls a function accepting one argument and passes it an argument.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This calls a function accepting one argument and passes it an argument.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Test2</source>
+<seg-source><mrk mid="0" mtype="seg">Test2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test2</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Message from Call()!</source>
+<seg-source><mrk mid="0" mtype="seg">Message from Call()!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Message from Call()!</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">This demonstrates how to use the special array argument.</source>
+<seg-source><mrk mid="0" mtype="seg">This demonstrates how to use the special array argument.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This demonstrates how to use the special array argument.</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">CallArgArray</source>
+<seg-source><mrk mid="0" mtype="seg">CallArgArray</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CallArgArray</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">This is required, otherwise, Call() will not recognize the array as containing arguments</source>
+<seg-source><mrk mid="0" mtype="seg">This is required, otherwise, Call() will not recognize the array as containing arguments</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is required, otherwise, Call() will not recognize the array as containing arguments</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">This is a string</source>
+<seg-source><mrk mid="0" mtype="seg">This is a string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">This is a string</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Parameter one is a string</source>
+<seg-source><mrk mid="0" mtype="seg">Parameter one is a string</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameter one is a string</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">Parameter two is a number</source>
+<seg-source><mrk mid="0" mtype="seg">Parameter two is a number</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameter two is a number</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Array Element 0</source>
+<seg-source><mrk mid="0" mtype="seg">Array Element 0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Array Element 0</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Array Element 1</source>
+<seg-source><mrk mid="0" mtype="seg">Array Element 1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Array Element 1</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Parameter three is an array</source>
+<seg-source><mrk mid="0" mtype="seg">Parameter three is an array</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameter three is an array</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">We've built the special array, now call the function</source>
+<seg-source><mrk mid="0" mtype="seg">We've built the special array, now call the function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">We've built the special array, now call the function</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">Test3</source>
+<seg-source><mrk mid="0" mtype="seg">Test3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test3</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">Test calling a function that does not exist. This shows the proper way to test by</source>
+<seg-source><mrk mid="0" mtype="seg">Test calling a function that does not exist.</mrk> <mrk mid="1" mtype="seg">This shows the proper way to test by</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Test calling a function that does not exist.</mrk> <mrk mid="1" mtype="seg">This shows the proper way to test by</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">checking that both @error and @extended contain the documented failure values.</source>
+<seg-source><mrk mid="0" mtype="seg">checking that both @error and @extended contain the documented failure values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">checking that both @error and @extended contain the documented failure values.</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">DoesNotExist</source>
+<seg-source><mrk mid="0" mtype="seg">DoesNotExist</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DoesNotExist</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">Function does not exist.</source>
+<seg-source><mrk mid="0" mtype="seg">Function does not exist.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Function does not exist.</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">Hello</source>
+<seg-source><mrk mid="0" mtype="seg">Hello</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Hello</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">The string is:</source>
+<seg-source><mrk mid="0" mtype="seg">The string is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The string is:</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">The number is:</source>
+<seg-source><mrk mid="0" mtype="seg">The number is:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The number is:</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">Array[</source>
+<seg-source><mrk mid="0" mtype="seg">Array[</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Array[</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">] contains:</source>
+<seg-source><mrk mid="0" mtype="seg">] contains:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">] contains:</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUICtrlMenu_GetMenuDefaultItem.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Retrieves the default menu item on the specified menu</source>
+<seg-source><mrk mid="0" mtype="seg">Retrieves the default menu item on the specified menu</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Retrieves the default menu item on the specified menu</mrk></target>
+<note>Function _GUICtrlMenu_GetMenuDefaultItem</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle of the menu</source>
+<seg-source><mrk mid="0" mtype="seg">Handle of the menu</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle of the menu</mrk></target>
+<note>$hMenu</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Determines whether to retrive the menu items's identifer of it's position:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Determines whether to retrive the menu items's identifer of it's position:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Determines whether to retrive the menu items's identifer of it's position:</mrk></target>
+<note>$bByPos</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">     True - Return menu item position</source>
+<seg-source> <mrk mid="0" mtype="seg">    True - Return menu item position</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    True - Return menu item position</mrk></target>
+<note>$bByPos</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">     False - Return menu item identifier</source>
+<seg-source> <mrk mid="0" mtype="seg">    False - Return menu item identifier</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    False - Return menu item identifier</mrk></target>
+<note>$bByPos</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies how the function searches for menu items:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies how the function searches for menu items:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies how the function searches for menu items:</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     0 - No special search parameters</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 - No special search parameters</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 - No special search parameters</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     1 - Specifies that the function will return a default item even if it is disabled</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 - Specifies that the function will return a default item even if it is disabled</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 - Specifies that the function will return a default item even if it is disabled</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     2 - Specifies that if the default item is one that opens a submenu the function is to search recursively in the corresponding submenu.</source>
+<seg-source> <mrk mid="0" mtype="seg">    2 - Specifies that if the default item is one that opens a submenu the function is to search recursively in the corresponding submenu.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    2 - Specifies that if the default item is one that opens a submenu the function is to search recursively in the corresponding submenu.</mrk></target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">the identifier or position of the menu item.</source>
+<seg-source><mrk mid="0" mtype="seg">the identifier or position of the menu item.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the identifier or position of the menu item.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">-1.</source>
+<seg-source><mrk mid="0" mtype="seg">-1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-1.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetMenuDefaultItem);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetMenuDefaultItem<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetMenuDefaultItem);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetMenuDefaultItem<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(GetMenuDefaultItem);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>GetMenuDefaultItem<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">Open Notepad</source>
+<seg-source><mrk mid="0" mtype="seg">Open Notepad</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Open Notepad</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">notepad.exe</source>
+<seg-source><mrk mid="0" mtype="seg">notepad.exe</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">notepad.exe</mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">[CLASS:Notepad]</source>
+<seg-source><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">[CLASS:Notepad]</source>
+<seg-source><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Get/Set File menu default item</source>
+<seg-source><mrk mid="0" mtype="seg">Get/Set File menu default item</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get/Set File menu default item</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">File menu default item:</source>
+<seg-source><mrk mid="0" mtype="seg">File menu default item:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File menu default item:</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">File menu default item:</source>
+<seg-source><mrk mid="0" mtype="seg">File menu default item:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">File menu default item:</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">Write a line of text to Notepad</source>
+<seg-source><mrk mid="0" mtype="seg">Write a line of text to Notepad</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write a line of text to Notepad</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">[CLASS:Notepad]</source>
+<seg-source><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">[CLASS:Notepad]</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Edit1</source>
+<seg-source><mrk mid="0" mtype="seg">Edit1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Edit1</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

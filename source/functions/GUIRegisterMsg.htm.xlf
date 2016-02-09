@@ -1,0 +1,981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="functions/GUIRegisterMsg.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Register a user defined function for a known Windows Message ID (WM_MSG).</source>
+<seg-source><mrk mid="0" mtype="seg">Register a user defined function for a known Windows Message ID (WM_MSG).</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Register a user defined function for a known Windows Message ID (WM_MSG).</mrk></target>
+<note>Function GUIRegisterMsg</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> A Windows Message ID (see Appendix: <bpt id="1" ctype="x-a">&lt;a href="../appendix/WinMsgCodes.htm"></bpt>Windows Message Codes<ept id="1">&lt;/a></ept>). </source>
+<seg-source> <mrk mid="0" mtype="seg">A Windows Message ID (see Appendix:</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="../appendix/WinMsgCodes.htm"></bpt>Windows Message Codes<ept id="1">&lt;/a></ept>).</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">A Windows Message ID (see Appendix:</mrk> <mrk mid="1" mtype="seg"><bpt id="1" ctype="x-a">&lt;a href="../appendix/WinMsgCodes.htm"></bpt>Windows Message Codes<ept id="1">&lt;/a></ept>).</mrk> </target>
+<note>msgID</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">The name of the user function to call when the message appears or an empty string "" to unregister a message.</source>
+<seg-source><mrk mid="0" mtype="seg">The name of the user function to call when the message appears or an empty string "" to unregister a message.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The name of the user function to call when the message appears or an empty string "" to unregister a message.</mrk></target>
+<note>function</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">1.</source>
+<seg-source><mrk mid="0" mtype="seg">1.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">!!! To make the user function workable you have to define it with <bpt id="1" ctype="x-strong">&lt;strong></bpt>maximum 4 function parameters<ept id="1">&lt;/strong></ept> otherwise the function won't be called !!!</source>
+<seg-source><mrk mid="0" mtype="seg">!!!</mrk> <mrk mid="1" mtype="seg">To make the user function workable you have to define it with <bpt id="1" ctype="x-strong">&lt;strong></bpt>maximum 4 function parameters<ept id="1">&lt;/strong></ept> otherwise the function won't be called !!!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!!!</mrk> <mrk mid="1" mtype="seg">To make the user function workable you have to define it with <bpt id="1" ctype="x-strong">&lt;strong></bpt>maximum 4 function parameters<ept id="1">&lt;/strong></ept> otherwise the function won't be called !!!</mrk></target>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> i.e:</source>
+<seg-source> <mrk mid="0" mtype="seg">i.e:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">i.e:</mrk></target>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en"> Func MyUserFunction($hWndGUI, $MsgID, $WParam, $LParam)</source>
+<seg-source> <mrk mid="0" mtype="seg">Func MyUserFunction($hWndGUI, $MsgID, $WParam, $LParam)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Func MyUserFunction($hWndGUI, $MsgID, $WParam, $LParam)</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en"> ...</source>
+<seg-source> <mrk mid="0" mtype="seg">...</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">...</mrk></target>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en"> EndFunc</source>
+<seg-source> <mrk mid="0" mtype="seg">EndFunc</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">EndFunc</mrk></target>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en"> Or</source>
+<seg-source> <mrk mid="0" mtype="seg">Or</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Or</mrk></target>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en"> Func MyUserFunction($hWndGUI, $MsgID)</source>
+<seg-source> <mrk mid="0" mtype="seg">Func MyUserFunction($hWndGUI, $MsgID)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Func MyUserFunction($hWndGUI, $MsgID)</mrk></target>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en"> ...</source>
+<seg-source> <mrk mid="0" mtype="seg">...</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">...</mrk></target>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en"> EndFunc</source>
+<seg-source> <mrk mid="0" mtype="seg">EndFunc</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">EndFunc</mrk></target>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en"> When the user function is called then these 4 parameters have the following values:</source>
+<seg-source> <mrk mid="0" mtype="seg">When the user function is called then these 4 parameters have the following values:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When the user function is called then these 4 parameters have the following values:</mrk></target>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Position<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Position<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Position<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Parameter<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Parameter<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Parameter<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Meaning<ept id="1">&lt;/strong></ept></source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Meaning<ept id="1">&lt;/strong></ept></mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Meaning<ept id="1">&lt;/strong></ept></mrk></target>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">1</source>
+<seg-source><mrk mid="0" mtype="seg">1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">1</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">hWnd</source>
+<seg-source><mrk mid="0" mtype="seg">hWnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWnd</mrk></target>
+<note>1</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">The Window handle of the GUI in which the message appears.</source>
+<seg-source><mrk mid="0" mtype="seg">The Window handle of the GUI in which the message appears.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Window handle of the GUI in which the message appears.</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">2</source>
+<seg-source><mrk mid="0" mtype="seg">2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">2</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">Msg</source>
+<seg-source><mrk mid="0" mtype="seg">Msg</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Msg</mrk></target>
+<note>2</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">The Windows message ID.</source>
+<seg-source><mrk mid="0" mtype="seg">The Windows message ID.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The Windows message ID.</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">3</source>
+<seg-source><mrk mid="0" mtype="seg">3</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">3</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">wParam</source>
+<seg-source><mrk mid="0" mtype="seg">wParam</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">wParam</mrk></target>
+<note>3</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">The first message parameter as hex value.</source>
+<seg-source><mrk mid="0" mtype="seg">The first message parameter as hex value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The first message parameter as hex value.</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">4</source>
+<seg-source><mrk mid="0" mtype="seg">4</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">4</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">lParam</source>
+<seg-source><mrk mid="0" mtype="seg">lParam</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">lParam</mrk></target>
+<note>4</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">The second message parameter as hex value.</source>
+<seg-source><mrk mid="0" mtype="seg">The second message parameter as hex value.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The second message parameter as hex value.</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"> Up to 256 user functions can be registered for message IDs.</source>
+<seg-source> <mrk mid="0" mtype="seg">Up to 256 user functions can be registered for message IDs.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Up to 256 user functions can be registered for message IDs.</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en"> By default after finishing the user function the AutoIt internal message handler will be proceed.</source>
+<seg-source> <mrk mid="0" mtype="seg">By default after finishing the user function the AutoIt internal message handler will be proceed.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">By default after finishing the user function the AutoIt internal message handler will be proceed.</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en"> That won't be if your <bpt id="1" ctype="x-strong">&lt;strong></bpt>Return<ept id="1">&lt;/strong></ept> a value (See WM_COMMAND in example) or if you use the keyword 'Return' without any value.</source>
+<seg-source> <mrk mid="0" mtype="seg">That won't be if your <bpt id="1" ctype="x-strong">&lt;strong></bpt>Return<ept id="1">&lt;/strong></ept> a value (See WM_COMMAND in example) or if you use the keyword 'Return' without any value.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">That won't be if your <bpt id="1" ctype="x-strong">&lt;strong></bpt>Return<ept id="1">&lt;/strong></ept> a value (See WM_COMMAND in example) or if you use the keyword 'Return' without any value.</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en"> By using 'Return' without any return value the AutoIt internal message handler (if there is one for this message) will NOT be proceed!</source>
+<seg-source> <mrk mid="0" mtype="seg">By using 'Return' without any return value the AutoIt internal message handler (if there is one for this message) will NOT be proceed!</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">By using 'Return' without any return value the AutoIt internal message handler (if there is one for this message) will NOT be proceed!</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en"> !!! If you want AutoIt to run its internal handler for a message, return the variable <bpt id="1" ctype="x-strong">&lt;strong></bpt>$GUI_RUNDEFMSG<ept id="1">&lt;/strong></ept> (in GUIConstantsEx.au3) from the function (see also examples) !!!</source>
+<seg-source> <mrk mid="0" mtype="seg">!!!</mrk> <mrk mid="1" mtype="seg">If you want AutoIt to run its internal handler for a message, return the variable <bpt id="1" ctype="x-strong">&lt;strong></bpt>$GUI_RUNDEFMSG<ept id="1">&lt;/strong></ept> (in GUIConstantsEx.au3) from the function (see also examples) !!!</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">!!!</mrk> <mrk mid="1" mtype="seg">If you want AutoIt to run its internal handler for a message, return the variable <bpt id="1" ctype="x-strong">&lt;strong></bpt>$GUI_RUNDEFMSG<ept id="1">&lt;/strong></ept> (in GUIConstantsEx.au3) from the function (see also examples) !!!</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en"> I.e. if you want to return earlier than the user function ends and also proceed the AutoIt internal message handler.</source>
+<seg-source> <mrk mid="0" mtype="seg">I.e. if you want to return earlier than the user function ends and also proceed the AutoIt internal message handler.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">I.e. if you want to return earlier than the user function ends and also proceed the AutoIt internal message handler.</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>Warning:<ept id="1">&lt;/strong></ept> blocking of running user functions which executes window messages with commands such as "<bpt id="2" ctype="x-a">&lt;a href="MsgBox.htm"></bpt>MsgBox()<ept id="2">&lt;/a></ept>" can lead to unexpected behavior, the return to the system should be as fast as possible !!!</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Warning:<ept id="1">&lt;/strong></ept> blocking of running user functions which executes window messages with commands such as "<bpt id="2" ctype="x-a">&lt;a href="MsgBox.htm"></bpt>MsgBox()<ept id="2">&lt;/a></ept>" can lead to unexpected behavior, the return to the system should be as fast as possible !!!</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>Warning:<ept id="1">&lt;/strong></ept> blocking of running user functions which executes window messages with commands such as "<bpt id="2" ctype="x-a">&lt;a href="MsgBox.htm"></bpt>MsgBox()<ept id="2">&lt;/a></ept>" can lead to unexpected behavior, the return to the system should be as fast as possible !!!</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en"> Some controls consume internally specific Windows Message ID, so registering them will have no effect, e.g; WM_CHAR, WM_KEYDOWN, WM_KEYUP are consumed by an edit control.</source>
+<seg-source> <mrk mid="0" mtype="seg">Some controls consume internally specific Windows Message ID, so registering them will have no effect, e.g; WM_CHAR, WM_KEYDOWN, WM_KEYUP are consumed by an edit control.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Some controls consume internally specific Windows Message ID, so registering them will have no effect, e.g; WM_CHAR, WM_KEYDOWN, WM_KEYUP are consumed by an edit control.</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Create an ownerdrawn/colored button</source>
+<seg-source><mrk mid="0" mtype="seg">Create an ownerdrawn/colored button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Create an ownerdrawn/colored button</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">My Ownerdrawn Created Button</source>
+<seg-source><mrk mid="0" mtype="seg">My Ownerdrawn Created Button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">My Ownerdrawn Created Button</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Set the ownerdrawn flag</source>
+<seg-source><mrk mid="0" mtype="seg">Set the ownerdrawn flag</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Set the ownerdrawn flag</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Normal Button</source>
+<seg-source><mrk mid="0" mtype="seg">Normal Button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Normal Button</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">MY_WM_COMMAND</source>
+<seg-source><mrk mid="0" mtype="seg">MY_WM_COMMAND</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MY_WM_COMMAND</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">WM_DRAWITEM has to registered before showing GUI otherwise the initial drawing isn't done</source>
+<seg-source><mrk mid="0" mtype="seg">WM_DRAWITEM has to registered before showing GUI otherwise the initial drawing isn't done</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_DRAWITEM has to registered before showing GUI otherwise the initial drawing isn't done</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">MY_WM_DRAWITEM</source>
+<seg-source><mrk mid="0" mtype="seg">MY_WM_DRAWITEM</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MY_WM_DRAWITEM</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">Normally should not run through cause of our MY_WM_COMMAND function</source>
+<seg-source><mrk mid="0" mtype="seg">Normally should not run through cause of our MY_WM_COMMAND function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Normally should not run through cause of our MY_WM_COMMAND function</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">Info</source>
+<seg-source><mrk mid="0" mtype="seg">Info</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Info</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">Button pressed</source>
+<seg-source><mrk mid="0" mtype="seg">Button pressed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Button pressed</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">Normally should not run through cause of our MY_WM_COMMAND function</source>
+<seg-source><mrk mid="0" mtype="seg">Normally should not run through cause of our MY_WM_COMMAND function</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Normally should not run through cause of our MY_WM_COMMAND function</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Info</source>
+<seg-source><mrk mid="0" mtype="seg">Info</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Info</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">Button2 pressed</source>
+<seg-source><mrk mid="0" mtype="seg">Button2 pressed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Button2 pressed</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">React on a button click</source>
+<seg-source><mrk mid="0" mtype="seg">React on a button click</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">React on a button click</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">Check for IDCANCEL - 2</source>
+<seg-source><mrk mid="0" mtype="seg">Check for IDCANCEL - 2</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check for IDCANCEL - 2</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">Ownerdrawn buttons don't send something by pressing ENTER</source>
+<seg-source><mrk mid="0" mtype="seg">Ownerdrawn buttons don't send something by pressing ENTER</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Ownerdrawn buttons don't send something by pressing ENTER</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">So IDOK - 1 comes up, now check for the control that has the current focus</source>
+<seg-source><mrk mid="0" mtype="seg">So IDOK - 1 comes up, now check for the control that has the current focus</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">So IDOK - 1 comes up, now check for the control that has the current focus</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">user32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">user32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">GetFocus</source>
+<seg-source><mrk mid="0" mtype="seg">GetFocus</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GetFocus</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">user32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">user32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">GetDlgCtrlID</source>
+<seg-source><mrk mid="0" mtype="seg">GetDlgCtrlID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GetDlgCtrlID</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">MY_WM_COMMAND</source>
+<seg-source><mrk mid="0" mtype="seg">MY_WM_COMMAND</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MY_WM_COMMAND</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">GUIHWnd</source>
+<seg-source><mrk mid="0" mtype="seg">GUIHWnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GUIHWnd</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">:</source>
+<seg-source><mrk mid="0" mtype="seg">:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">:</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">MsgID</source>
+<seg-source><mrk mid="0" mtype="seg">MsgID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MsgID</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">:</source>
+<seg-source><mrk mid="0" mtype="seg">:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">:</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">wParam</source>
+<seg-source><mrk mid="0" mtype="seg">wParam</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">wParam</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">:</source>
+<seg-source><mrk mid="0" mtype="seg">:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">:</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">lParam</source>
+<seg-source><mrk mid="0" mtype="seg">lParam</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">lParam</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">:</source>
+<seg-source><mrk mid="0" mtype="seg">:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">:</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">WM_COMMAND - Infos:</source>
+<seg-source><mrk mid="0" mtype="seg">WM_COMMAND - Infos:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_COMMAND - Infos:</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">-----------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">-----------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-----------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">:</source>
+<seg-source><mrk mid="0" mtype="seg">:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">:</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">CtrlID</source>
+<seg-source><mrk mid="0" mtype="seg">CtrlID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CtrlID</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">:</source>
+<seg-source><mrk mid="0" mtype="seg">:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">:</mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">CtrlHWnd</source>
+<seg-source><mrk mid="0" mtype="seg">CtrlHWnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CtrlHWnd</mrk></target>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">:</source>
+<seg-source><mrk mid="0" mtype="seg">:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">:</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">Only workout clicking on the button</source>
+<seg-source><mrk mid="0" mtype="seg">Only workout clicking on the button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Only workout clicking on the button</mrk></target>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en">Proceed the default AutoIt3 internal message commands.</source>
+<seg-source><mrk mid="0" mtype="seg">Proceed the default AutoIt3 internal message commands.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Proceed the default AutoIt3 internal message commands.</mrk></target>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">You also can complete let the line out.</source>
+<seg-source><mrk mid="0" mtype="seg">You also can complete let the line out.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You also can complete let the line out.</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">!!! But only 'Return' (without any value) will not proceed</source>
+<seg-source><mrk mid="0" mtype="seg">!!!</mrk> <mrk mid="1" mtype="seg">But only 'Return' (without any value) will not proceed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!!!</mrk> <mrk mid="1" mtype="seg">But only 'Return' (without any value) will not proceed</mrk></target>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en">the default AutoIt3-message in the future !!!</source>
+<seg-source><mrk mid="0" mtype="seg">the default AutoIt3-message in the future !!!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the default AutoIt3-message in the future !!!</mrk></target>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">RePost a WM_COMMAND message to a ctrl in a gui window</source>
+<seg-source><mrk mid="0" mtype="seg">RePost a WM_COMMAND message to a ctrl in a gui window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">RePost a WM_COMMAND message to a ctrl in a gui window</mrk></target>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en">user32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">user32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en">PostMessage</source>
+<seg-source><mrk mid="0" mtype="seg">PostMessage</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">PostMessage</mrk></target>
+</trans-unit>
+<trans-unit id="94">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="95">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="96">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="97">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="98">
+<source xml:lang="en">Draw the button</source>
+<seg-source><mrk mid="0" mtype="seg">Draw the button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Draw the button</mrk></target>
+</trans-unit>
+<trans-unit id="99">
+<source xml:lang="en">uint;uint;uint;uint;uint;uint;uint;int[4];dword</source>
+<seg-source><mrk mid="0" mtype="seg">uint;uint;uint;uint;uint;uint;uint;int[4];dword</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">uint;uint;uint;uint;uint;uint;uint;int[4];dword</mrk></target>
+</trans-unit>
+<trans-unit id="100">
+<source xml:lang="en">Local $nCtrlID = DllStructGetData($tDrawItem, 2)</source>
+<seg-source><mrk mid="0" mtype="seg">Local $nCtrlID = DllStructGetData($tDrawItem, 2)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Local $nCtrlID = DllStructGetData($tDrawItem, 2)</mrk></target>
+</trans-unit>
+<trans-unit id="101">
+<source xml:lang="en">Ownerdrawn Button</source>
+<seg-source><mrk mid="0" mtype="seg">Ownerdrawn Button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Ownerdrawn Button</mrk></target>
+</trans-unit>
+<trans-unit id="102">
+<source xml:lang="en">Proceed the default AutoIt3 internal message commands</source>
+<seg-source><mrk mid="0" mtype="seg">Proceed the default AutoIt3 internal message commands</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Proceed the default AutoIt3 internal message commands</mrk></target>
+</trans-unit>
+<trans-unit id="103">
+<source xml:lang="en">The main drawing procedure</source>
+<seg-source><mrk mid="0" mtype="seg">The main drawing procedure</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The main drawing procedure</mrk></target>
+</trans-unit>
+<trans-unit id="104">
+<source xml:lang="en">Local $bDefault = FALSE</source>
+<seg-source><mrk mid="0" mtype="seg">Local $bDefault = FALSE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Local $bDefault = FALSE</mrk></target>
+</trans-unit>
+<trans-unit id="105">
+<source xml:lang="en">Local Const $ODS_CHECKED = 0x0008</source>
+<seg-source><mrk mid="0" mtype="seg">Local Const $ODS_CHECKED = 0x0008</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Local Const $ODS_CHECKED = 0x0008</mrk></target>
+</trans-unit>
+<trans-unit id="106">
+<source xml:lang="en">Local Const $ODS_HOTLIGHT = 0x0040</source>
+<seg-source><mrk mid="0" mtype="seg">Local Const $ODS_HOTLIGHT = 0x0040</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Local Const $ODS_HOTLIGHT = 0x0040</mrk></target>
+</trans-unit>
+<trans-unit id="107">
+<source xml:lang="en">Local Const $ODS_INACTIVE = 0x0080</source>
+<seg-source><mrk mid="0" mtype="seg">Local Const $ODS_INACTIVE = 0x0080</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Local Const $ODS_INACTIVE = 0x0080</mrk></target>
+</trans-unit>
+<trans-unit id="108">
+<source xml:lang="en">Local Const $ODS_NOACCEL = 0x0100</source>
+<seg-source><mrk mid="0" mtype="seg">Local Const $ODS_NOACCEL = 0x0100</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Local Const $ODS_NOACCEL = 0x0100</mrk></target>
+</trans-unit>
+<trans-unit id="109">
+<source xml:lang="en">Local Const $ODS_NOFOCUSRECT = 0x0200</source>
+<seg-source><mrk mid="0" mtype="seg">Local Const $ODS_NOFOCUSRECT = 0x0200</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Local Const $ODS_NOFOCUSRECT = 0x0200</mrk></target>
+</trans-unit>
+<trans-unit id="110">
+<source xml:lang="en">Local $bChecked = BitAND($nItemState, $ODS_CHECKED)</source>
+<seg-source><mrk mid="0" mtype="seg">Local $bChecked = BitAND($nItemState, $ODS_CHECKED)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Local $bChecked = BitAND($nItemState, $ODS_CHECKED)</mrk></target>
+</trans-unit>
+<trans-unit id="111">
+<source xml:lang="en">int;int;int;int</source>
+<seg-source><mrk mid="0" mtype="seg">int;int;int;int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int;int;int;int</mrk></target>
+</trans-unit>
+<trans-unit id="112">
+<source xml:lang="en">Some graphic / windows functions</source>
+<seg-source><mrk mid="0" mtype="seg">Some graphic / windows functions</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Some graphic / windows functions</mrk></target>
+</trans-unit>
+<trans-unit id="113">
+<source xml:lang="en">gdi32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">gdi32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">gdi32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="114">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="115">
+<source xml:lang="en">CreateSolidBrush</source>
+<seg-source><mrk mid="0" mtype="seg">CreateSolidBrush</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CreateSolidBrush</mrk></target>
+</trans-unit>
+<trans-unit id="116">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="117">
+<source xml:lang="en">user32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">user32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="118">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="119">
+<source xml:lang="en">GetSysColor</source>
+<seg-source><mrk mid="0" mtype="seg">GetSysColor</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GetSysColor</mrk></target>
+</trans-unit>
+<trans-unit id="120">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="121">
+<source xml:lang="en">user32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">user32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="122">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="123">
+<source xml:lang="en">GetSysColorBrush</source>
+<seg-source><mrk mid="0" mtype="seg">GetSysColorBrush</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GetSysColorBrush</mrk></target>
+</trans-unit>
+<trans-unit id="124">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="125">
+<source xml:lang="en">int;int;int;int</source>
+<seg-source><mrk mid="0" mtype="seg">int;int;int;int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int;int;int;int</mrk></target>
+</trans-unit>
+<trans-unit id="126">
+<source xml:lang="en">user32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">user32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="127">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="128">
+<source xml:lang="en">DrawFrameControl</source>
+<seg-source><mrk mid="0" mtype="seg">DrawFrameControl</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DrawFrameControl</mrk></target>
+</trans-unit>
+<trans-unit id="129">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="130">
+<source xml:lang="en">struct*</source>
+<seg-source><mrk mid="0" mtype="seg">struct*</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">struct*</mrk></target>
+</trans-unit>
+<trans-unit id="131">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="132">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="133">
+<source xml:lang="en">int;int;int;int</source>
+<seg-source><mrk mid="0" mtype="seg">int;int;int;int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int;int;int;int</mrk></target>
+</trans-unit>
+<trans-unit id="134">
+<source xml:lang="en">user32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">user32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="135">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="136">
+<source xml:lang="en">DrawFocusRect</source>
+<seg-source><mrk mid="0" mtype="seg">DrawFocusRect</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DrawFocusRect</mrk></target>
+</trans-unit>
+<trans-unit id="137">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="138">
+<source xml:lang="en">struct*</source>
+<seg-source><mrk mid="0" mtype="seg">struct*</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">struct*</mrk></target>
+</trans-unit>
+<trans-unit id="139">
+<source xml:lang="en">int;int;int;int</source>
+<seg-source><mrk mid="0" mtype="seg">int;int;int;int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int;int;int;int</mrk></target>
+</trans-unit>
+<trans-unit id="140">
+<source xml:lang="en">char[260]</source>
+<seg-source><mrk mid="0" mtype="seg">char[260]</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">char[260]</mrk></target>
+</trans-unit>
+<trans-unit id="141">
+<source xml:lang="en">user32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">user32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="142">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="143">
+<source xml:lang="en">DrawText</source>
+<seg-source><mrk mid="0" mtype="seg">DrawText</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DrawText</mrk></target>
+</trans-unit>
+<trans-unit id="144">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="145">
+<source xml:lang="en">struct*</source>
+<seg-source><mrk mid="0" mtype="seg">struct*</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">struct*</mrk></target>
+</trans-unit>
+<trans-unit id="146">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="147">
+<source xml:lang="en">struct*</source>
+<seg-source><mrk mid="0" mtype="seg">struct*</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">struct*</mrk></target>
+</trans-unit>
+<trans-unit id="148">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="149">
+<source xml:lang="en">int;int;int;int</source>
+<seg-source><mrk mid="0" mtype="seg">int;int;int;int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int;int;int;int</mrk></target>
+</trans-unit>
+<trans-unit id="150">
+<source xml:lang="en">user32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">user32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="151">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="152">
+<source xml:lang="en">FillRect</source>
+<seg-source><mrk mid="0" mtype="seg">FillRect</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FillRect</mrk></target>
+</trans-unit>
+<trans-unit id="153">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="154">
+<source xml:lang="en">struct*</source>
+<seg-source><mrk mid="0" mtype="seg">struct*</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">struct*</mrk></target>
+</trans-unit>
+<trans-unit id="155">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="156">
+<source xml:lang="en">int;int;int;int</source>
+<seg-source><mrk mid="0" mtype="seg">int;int;int;int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int;int;int;int</mrk></target>
+</trans-unit>
+<trans-unit id="157">
+<source xml:lang="en">user32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">user32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="158">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="159">
+<source xml:lang="en">FrameRect</source>
+<seg-source><mrk mid="0" mtype="seg">FrameRect</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">FrameRect</mrk></target>
+</trans-unit>
+<trans-unit id="160">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="161">
+<source xml:lang="en">struct*</source>
+<seg-source><mrk mid="0" mtype="seg">struct*</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">struct*</mrk></target>
+</trans-unit>
+<trans-unit id="162">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="163">
+<source xml:lang="en">int;int;int;int</source>
+<seg-source><mrk mid="0" mtype="seg">int;int;int;int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int;int;int;int</mrk></target>
+</trans-unit>
+<trans-unit id="164">
+<source xml:lang="en">user32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">user32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="165">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="166">
+<source xml:lang="en">InflateRect</source>
+<seg-source><mrk mid="0" mtype="seg">InflateRect</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">InflateRect</mrk></target>
+</trans-unit>
+<trans-unit id="167">
+<source xml:lang="en">struct*</source>
+<seg-source><mrk mid="0" mtype="seg">struct*</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">struct*</mrk></target>
+</trans-unit>
+<trans-unit id="168">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="169">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="170">
+<source xml:lang="en">gdi32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">gdi32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">gdi32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="171">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="172">
+<source xml:lang="en">SetBkColor</source>
+<seg-source><mrk mid="0" mtype="seg">SetBkColor</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SetBkColor</mrk></target>
+</trans-unit>
+<trans-unit id="173">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="174">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="175">
+<source xml:lang="en">gdi32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">gdi32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">gdi32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="176">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="177">
+<source xml:lang="en">SetTextColor</source>
+<seg-source><mrk mid="0" mtype="seg">SetTextColor</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SetTextColor</mrk></target>
+</trans-unit>
+<trans-unit id="178">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="179">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="180">
+<source xml:lang="en">gdi32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">gdi32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">gdi32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="181">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="182">
+<source xml:lang="en">SelectObject</source>
+<seg-source><mrk mid="0" mtype="seg">SelectObject</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">SelectObject</mrk></target>
+</trans-unit>
+<trans-unit id="183">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="184">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="185">
+<source xml:lang="en">gdi32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">gdi32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">gdi32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="186">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="187">
+<source xml:lang="en">DeleteObject</source>
+<seg-source><mrk mid="0" mtype="seg">DeleteObject</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">DeleteObject</mrk></target>
+</trans-unit>
+<trans-unit id="188">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="189">
+<source xml:lang="en">user32.dll</source>
+<seg-source><mrk mid="0" mtype="seg">user32.dll</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">user32.dll</mrk></target>
+</trans-unit>
+<trans-unit id="190">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+<trans-unit id="191">
+<source xml:lang="en">GetWindowLong</source>
+<seg-source><mrk mid="0" mtype="seg">GetWindowLong</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">GetWindowLong</mrk></target>
+</trans-unit>
+<trans-unit id="192">
+<source xml:lang="en">hwnd</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd</mrk></target>
+</trans-unit>
+<trans-unit id="193">
+<source xml:lang="en">int</source>
+<seg-source><mrk mid="0" mtype="seg">int</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">int</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_GUICtrlButton_Create.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a Button control</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a Button control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a Button control</mrk></target>
+<note>Function _GUICtrlButton_Create</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">Handle to parent or owner window</source>
+<seg-source><mrk mid="0" mtype="seg">Handle to parent or owner window</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Handle to parent or owner window</mrk></target>
+<note>$hWnd</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en">Text to add to Button</source>
+<seg-source><mrk mid="0" mtype="seg">Text to add to Button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Text to add to Button</mrk></target>
+<note>$sText</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en">Horizontal position of the control</source>
+<seg-source><mrk mid="0" mtype="seg">Horizontal position of the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Horizontal position of the control</mrk></target>
+<note>$iX</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en">Vertical position of the control</source>
+<seg-source><mrk mid="0" mtype="seg">Vertical position of the control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Vertical position of the control</mrk></target>
+<note>$iY</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">Control width</source>
+<seg-source><mrk mid="0" mtype="seg">Control width</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control width</mrk></target>
+<note>$iWidth</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">Control height</source>
+<seg-source><mrk mid="0" mtype="seg">Control height</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Control height</mrk></target>
+<note>$iHeight</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Control style:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control style:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control style:</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $BS_AUTO3STATE - Creates a three-state check box in which the state cycles through selected, unavailable, and cleared each time the user selects the check box.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BS_AUTO3STATE - Creates a three-state check box in which the state cycles through selected, unavailable, and cleared each time the user selects the check box.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BS_AUTO3STATE - Creates a three-state check box in which the state cycles through selected, unavailable, and cleared each time the user selects the check box.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $BS_AUTOCHECKBOX - Creates a check box in which the check state switches between selected and cleared each time the user selects the check box.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BS_AUTOCHECKBOX - Creates a check box in which the check state switches between selected and cleared each time the user selects the check box.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BS_AUTOCHECKBOX - Creates a check box in which the check state switches between selected and cleared each time the user selects the check box.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $BS_AUTORADIOBUTTON - Same as a radio button, except that when the user selects it, the button automatically highlights itself and removes the selection from any other radio buttons with the same style in the same group.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BS_AUTORADIOBUTTON - Same as a radio button, except that when the user selects it, the button automatically highlights itself and removes the selection from any other radio buttons with the same style in the same group.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BS_AUTORADIOBUTTON - Same as a radio button, except that when the user selects it, the button automatically highlights itself and removes the selection from any other radio buttons with the same style in the same group.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $BS_FLAT - Specifies that the button is two-dimensional; it does not use the default shading to create a 3-D image.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BS_FLAT - Specifies that the button is two-dimensional; it does not use the default shading to create a 3-D image.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BS_FLAT - Specifies that the button is two-dimensional; it does not use the default shading to create a 3-D image.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $BS_GROUPBOX - Creates a rectangle in which other buttons can be grouped. Any text associated with this style is displayed in the rectangle’s upper-left corner.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BS_GROUPBOX - Creates a rectangle in which other buttons can be grouped.</mrk> <mrk mid="1" mtype="seg">Any text associated with this style is displayed in the rectangle’s upper-left corner.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BS_GROUPBOX - Creates a rectangle in which other buttons can be grouped.</mrk> <mrk mid="1" mtype="seg">Any text associated with this style is displayed in the rectangle’s upper-left corner.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $BS_PUSHLIKE - Makes a button (such as a check box, three-state check box, or radio button) look and act like a push button. The button looks raised when it isn't pushed or checked, and sunken when it is pushed or checked.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BS_PUSHLIKE - Makes a button (such as a check box, three-state check box, or radio button) look and act like a push button.</mrk> <mrk mid="1" mtype="seg">The button looks raised when it isn't pushed or checked, and sunken when it is pushed or checked.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BS_PUSHLIKE - Makes a button (such as a check box, three-state check box, or radio button) look and act like a push button.</mrk> <mrk mid="1" mtype="seg">The button looks raised when it isn't pushed or checked, and sunken when it is pushed or checked.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $BS_DEFPUSHBUTTON - Creates a push button with a heavy black border. If the button is in a dialog box, the user can select the button by pressing the ENTER key, even when the button does not have the input focus. This style is useful for enabling the user to quickly select the most likely option, or default.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BS_DEFPUSHBUTTON - Creates a push button with a heavy black border.</mrk> <mrk mid="1" mtype="seg">If the button is in a dialog box, the user can select the button by pressing the ENTER key, even when the button does not have the input focus.</mrk> <mrk mid="2" mtype="seg">This style is useful for enabling the user to quickly select the most likely option, or default.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BS_DEFPUSHBUTTON - Creates a push button with a heavy black border.</mrk> <mrk mid="1" mtype="seg">If the button is in a dialog box, the user can select the button by pressing the ENTER key, even when the button does not have the input focus.</mrk> <mrk mid="2" mtype="seg">This style is useful for enabling the user to quickly select the most likely option, or default.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $BS_BOTTOM - Places the text at the bottom of the button rectangle.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BS_BOTTOM - Places the text at the bottom of the button rectangle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BS_BOTTOM - Places the text at the bottom of the button rectangle.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $BS_CENTER - Centers the text horizontally in the button rectangle.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BS_CENTER - Centers the text horizontally in the button rectangle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BS_CENTER - Centers the text horizontally in the button rectangle.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $BS_LEFT - Left-aligns the text in the button rectangle on the right side of the check box.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BS_LEFT - Left-aligns the text in the button rectangle on the right side of the check box.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BS_LEFT - Left-aligns the text in the button rectangle on the right side of the check box.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     $BS_MULTILINE - Wraps the button text to multiple lines if the text string is too long to fit on a single line in the button rectangle.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BS_MULTILINE - Wraps the button text to multiple lines if the text string is too long to fit on a single line in the button rectangle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BS_MULTILINE - Wraps the button text to multiple lines if the text string is too long to fit on a single line in the button rectangle.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     $BS_RIGHT - Right-aligns text in the button rectangle on the right side of the check box.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BS_RIGHT - Right-aligns text in the button rectangle on the right side of the check box.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BS_RIGHT - Right-aligns text in the button rectangle on the right side of the check box.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     $BS_RIGHTBUTTON - Positions a check box square on the right side of the button rectangle.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BS_RIGHTBUTTON - Positions a check box square on the right side of the button rectangle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BS_RIGHTBUTTON - Positions a check box square on the right side of the button rectangle.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">     $BS_TOP - Places text at the top of the button rectangle.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BS_TOP - Places text at the top of the button rectangle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BS_TOP - Places text at the top of the button rectangle.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">     $BS_VCENTER - Vertically centers text in the button rectangle.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BS_VCENTER - Vertically centers text in the button rectangle.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BS_VCENTER - Vertically centers text in the button rectangle.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">     $BS_ICON - Specifies that the button displays an icon.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BS_ICON - Specifies that the button displays an icon.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BS_ICON - Specifies that the button displays an icon.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">     $BS_BITMAP - Specifies that the button displays a bitmap.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BS_BITMAP - Specifies that the button displays a bitmap.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BS_BITMAP - Specifies that the button displays a bitmap.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">     $BS_NOTIFY - Enables a button to send BN_KILLFOCUS and BN_SETFOCUS notification messages to its parent window. Note that buttons send the BN_CLICKED notification message regardless of whether it has this style. To get BN_DBLCLK notification messages, the button must have the BS_RADIOBUTTON or BS_OWNERDRAW style.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BS_NOTIFY - Enables a button to send BN_KILLFOCUS and BN_SETFOCUS notification messages to its parent window.</mrk> <mrk mid="1" mtype="seg">Note that buttons send the BN_CLICKED notification message regardless of whether it has this style.</mrk> <mrk mid="2" mtype="seg">To get BN_DBLCLK notification messages, the button must have the BS_RADIOBUTTON or BS_OWNERDRAW style.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BS_NOTIFY - Enables a button to send BN_KILLFOCUS and BN_SETFOCUS notification messages to its parent window.</mrk> <mrk mid="1" mtype="seg">Note that buttons send the BN_CLICKED notification message regardless of whether it has this style.</mrk> <mrk mid="2" mtype="seg">To get BN_DBLCLK notification messages, the button must have the BS_RADIOBUTTON or BS_OWNERDRAW style.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en"> Vista Sytles:</source>
+<seg-source> <mrk mid="0" mtype="seg">Vista Sytles:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Vista Sytles:</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">     $BS_SPLITBUTTON - Creates a split button. A split button has a drop down arrow</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BS_SPLITBUTTON - Creates a split button.</mrk> <mrk mid="1" mtype="seg">A split button has a drop down arrow</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BS_SPLITBUTTON - Creates a split button.</mrk> <mrk mid="1" mtype="seg">A split button has a drop down arrow</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">     $BS_DEFSPLITBUTTON - Creates a split button that behaves like a $BS_PUSHBUTTON style button, but also has a distinctive appearance.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BS_DEFSPLITBUTTON - Creates a split button that behaves like a $BS_PUSHBUTTON style button, but also has a distinctive appearance.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BS_DEFSPLITBUTTON - Creates a split button that behaves like a $BS_PUSHBUTTON style button, but also has a distinctive appearance.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">     $BS_COMMANDLINK - Creates a command link button</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BS_COMMANDLINK - Creates a command link button</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BS_COMMANDLINK - Creates a command link button</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">     $BS_DEFCOMMANDLINK - Creates a command link button that behaves like a $BS_PUSHBUTTON style button.</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BS_DEFCOMMANDLINK - Creates a command link button that behaves like a $BS_PUSHBUTTON style button.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BS_DEFCOMMANDLINK - Creates a command link button that behaves like a $BS_PUSHBUTTON style button.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en"> Default: ( -1) : none</source>
+<seg-source> <mrk mid="0" mtype="seg">Default:</mrk> <mrk mid="1" mtype="seg">( -1) : none</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Default:</mrk> <mrk mid="1" mtype="seg">( -1) : none</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en"> Forced : $WS_CHILD, $WS_TABSTOP, $WS_VISIBLE, $BS_NOTIFY</source>
+<seg-source> <mrk mid="0" mtype="seg">Forced :</mrk> <mrk mid="1" mtype="seg">$WS_CHILD, $WS_TABSTOP, $WS_VISIBLE, $BS_NOTIFY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Forced :</mrk> <mrk mid="1" mtype="seg">$WS_CHILD, $WS_TABSTOP, $WS_VISIBLE, $BS_NOTIFY</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Control extended style. These correspond to the standard $WS_EX_* constants. See <bpt id="1" ctype="x-a">&lt;a href="../appendix/GUIStyles.htm#Extended"></bpt>Extended Style Table<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control extended style.</mrk> <mrk mid="2" mtype="seg">These correspond to the standard $WS_EX_* constants.</mrk> <mrk mid="3" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../appendix/GUIStyles.htm#Extended"></bpt>Extended Style Table<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Control extended style.</mrk> <mrk mid="2" mtype="seg">These correspond to the standard $WS_EX_* constants.</mrk> <mrk mid="3" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="../appendix/GUIStyles.htm#Extended"></bpt>Extended Style Table<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>$iExStyle</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">the handle to the Button control.</source>
+<seg-source><mrk mid="0" mtype="seg">the handle to the Button control.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the handle to the Button control.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">Above constants require #include &lt;ButtonConstants.au3>.</source>
+<seg-source><mrk mid="0" mtype="seg">Above constants require #include &lt;ButtonConstants.au3>.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Above constants require #include &lt;ButtonConstants.au3>.</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en"> This function is for Advanced users and for learning how the control works.</source>
+<seg-source> <mrk mid="0" mtype="seg">This function is for Advanced users and for learning how the control works.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This function is for Advanced users and for learning how the control works.</mrk></target>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">Note the controlID from these buttons can NOT be read with GUICtrlRead</source>
+<seg-source><mrk mid="0" mtype="seg">Note the controlID from these buttons can NOT be read with GUICtrlRead</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Note the controlID from these buttons can NOT be read with GUICtrlRead</mrk></target>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">Buttons</source>
+<seg-source><mrk mid="0" mtype="seg">Buttons</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Buttons</mrk></target>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">Courier New</source>
+<seg-source><mrk mid="0" mtype="seg">Courier New</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Courier New</mrk></target>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">Button1</source>
+<seg-source><mrk mid="0" mtype="seg">Button1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Button1</mrk></target>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en">Radio1</source>
+<seg-source><mrk mid="0" mtype="seg">Radio1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Radio1</mrk></target>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">Check1</source>
+<seg-source><mrk mid="0" mtype="seg">Check1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Check1</mrk></target>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en">WM_COMMAND</source>
+<seg-source><mrk mid="0" mtype="seg">WM_COMMAND</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_COMMAND</mrk></target>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">WM_NOTIFY</source>
+<seg-source><mrk mid="0" mtype="seg">WM_NOTIFY</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_NOTIFY</mrk></target>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">$g_idBtn handle:</source>
+<seg-source><mrk mid="0" mtype="seg">$g_idBtn handle:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$g_idBtn handle:</mrk></target>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en">$g_idRdo handle:</source>
+<seg-source><mrk mid="0" mtype="seg">$g_idRdo handle:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$g_idRdo handle:</mrk></target>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">$g_idChk handle:</source>
+<seg-source><mrk mid="0" mtype="seg">$g_idChk handle:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$g_idChk handle:</mrk></target>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en">Write a line to the memo control</source>
+<seg-source><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Write a line to the memo control</mrk></target>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">hwnd hWndFrom;int IDFrom;int Code;dword dwFlags</source>
+<seg-source><mrk mid="0" mtype="seg">hwnd hWndFrom;int IDFrom;int Code;dword dwFlags</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hwnd hWndFrom;int IDFrom;int Code;dword dwFlags</mrk></target>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">IDFrom</source>
+<seg-source><mrk mid="0" mtype="seg">IDFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">IDFrom</mrk></target>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">hWndFrom</source>
+<seg-source><mrk mid="0" mtype="seg">hWndFrom</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">hWndFrom</mrk></target>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">dwFlags</source>
+<seg-source><mrk mid="0" mtype="seg">dwFlags</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">dwFlags</mrk></target>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">Win XP and Above</source>
+<seg-source><mrk mid="0" mtype="seg">Win XP and Above</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Win XP and Above</mrk></target>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">$BCN_HOTITEMCHANGE - Entering:</source>
+<seg-source><mrk mid="0" mtype="seg">$BCN_HOTITEMCHANGE - Entering:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$BCN_HOTITEMCHANGE - Entering:</mrk></target>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">$BCN_HOTITEMCHANGE - Leaving:</source>
+<seg-source><mrk mid="0" mtype="seg">$BCN_HOTITEMCHANGE - Leaving:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$BCN_HOTITEMCHANGE - Leaving:</mrk></target>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">-----------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">-----------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-----------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">WM_NOTIFY - Infos:</source>
+<seg-source><mrk mid="0" mtype="seg">WM_NOTIFY - Infos:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_NOTIFY - Infos:</mrk></target>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en">-----------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">-----------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-----------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">:</source>
+<seg-source><mrk mid="0" mtype="seg">:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">:</mrk></target>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">CtrlID</source>
+<seg-source><mrk mid="0" mtype="seg">CtrlID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CtrlID</mrk></target>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">:</source>
+<seg-source><mrk mid="0" mtype="seg">:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">:</mrk></target>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">CtrlHWnd:</source>
+<seg-source><mrk mid="0" mtype="seg">CtrlHWnd:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CtrlHWnd:</mrk></target>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">React on a button click</source>
+<seg-source><mrk mid="0" mtype="seg">React on a button click</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">React on a button click</mrk></target>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">$BN_CLICKED</source>
+<seg-source><mrk mid="0" mtype="seg">$BN_CLICKED</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$BN_CLICKED</mrk></target>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en">$BN_PAINT</source>
+<seg-source><mrk mid="0" mtype="seg">$BN_PAINT</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$BN_PAINT</mrk></target>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">$BN_PUSHED, $BN_HILITE</source>
+<seg-source><mrk mid="0" mtype="seg">$BN_PUSHED, $BN_HILITE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$BN_PUSHED, $BN_HILITE</mrk></target>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">$BN_UNPUSHED</source>
+<seg-source><mrk mid="0" mtype="seg">$BN_UNPUSHED</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$BN_UNPUSHED</mrk></target>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">$BN_DISABLE</source>
+<seg-source><mrk mid="0" mtype="seg">$BN_DISABLE</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$BN_DISABLE</mrk></target>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">$BN_DBLCLK, $BN_DOUBLECLICKED</source>
+<seg-source><mrk mid="0" mtype="seg">$BN_DBLCLK, $BN_DOUBLECLICKED</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$BN_DBLCLK, $BN_DOUBLECLICKED</mrk></target>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">$BN_SETFOCUS</source>
+<seg-source><mrk mid="0" mtype="seg">$BN_SETFOCUS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$BN_SETFOCUS</mrk></target>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">$BN_KILLFOCUS</source>
+<seg-source><mrk mid="0" mtype="seg">$BN_KILLFOCUS</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$BN_KILLFOCUS</mrk></target>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en">-----------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">-----------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-----------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">WM_COMMAND - Infos:</source>
+<seg-source><mrk mid="0" mtype="seg">WM_COMMAND - Infos:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">WM_COMMAND - Infos:</mrk></target>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">-----------------------------</source>
+<seg-source><mrk mid="0" mtype="seg">-----------------------------</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">-----------------------------</mrk></target>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">Code</source>
+<seg-source><mrk mid="0" mtype="seg">Code</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Code</mrk></target>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en">:</source>
+<seg-source><mrk mid="0" mtype="seg">:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">:</mrk></target>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en">CtrlID</source>
+<seg-source><mrk mid="0" mtype="seg">CtrlID</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CtrlID</mrk></target>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">:</source>
+<seg-source><mrk mid="0" mtype="seg">:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">:</mrk></target>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">CtrlHWnd:</source>
+<seg-source><mrk mid="0" mtype="seg">CtrlHWnd:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">CtrlHWnd:</mrk></target>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en">Only workout clicking on the button</source>
+<seg-source><mrk mid="0" mtype="seg">Only workout clicking on the button</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Only workout clicking on the button</mrk></target>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">Proceed the default AutoIt3 internal message commands.</source>
+<seg-source><mrk mid="0" mtype="seg">Proceed the default AutoIt3 internal message commands.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Proceed the default AutoIt3 internal message commands.</mrk></target>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en">You also can complete let the line out.</source>
+<seg-source><mrk mid="0" mtype="seg">You also can complete let the line out.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">You also can complete let the line out.</mrk></target>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en">!!! But only 'Return' (without any value) will not proceed</source>
+<seg-source><mrk mid="0" mtype="seg">!!!</mrk> <mrk mid="1" mtype="seg">But only 'Return' (without any value) will not proceed</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">!!!</mrk> <mrk mid="1" mtype="seg">But only 'Return' (without any value) will not proceed</mrk></target>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en">the default AutoIt3-message in the future !!!</source>
+<seg-source><mrk mid="0" mtype="seg">the default AutoIt3-message in the future !!!</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">the default AutoIt3-message in the future !!!</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

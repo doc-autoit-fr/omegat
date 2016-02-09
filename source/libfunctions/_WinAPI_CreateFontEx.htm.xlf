@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_WinAPI_CreateFontEx.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Creates a logical font with the specified characteristics</source>
+<seg-source><mrk mid="0" mtype="seg">Creates a logical font with the specified characteristics</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Creates a logical font with the specified characteristics</mrk></target>
+<note>Function _WinAPI_CreateFontEx</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en">The height of the font's character cell or character, in logical units.</source>
+<seg-source><mrk mid="0" mtype="seg">The height of the font's character cell or character, in logical units.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">The height of the font's character cell or character, in logical units.</mrk></target>
+<note>$iHeight</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The average width, in logical units. Default is 0.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The average width, in logical units.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The average width, in logical units.</mrk> <mrk mid="2" mtype="seg">Default is 0.</mrk></target>
+<note>$iWidth</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The angle, in tenths of degrees, between the escapement vector and the x-axis of the device. Default is 0</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The angle, in tenths of degrees, between the escapement vector and the x-axis of the device.</mrk> <mrk mid="2" mtype="seg">Default is 0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The angle, in tenths of degrees, between the escapement vector and the x-axis of the device.</mrk> <mrk mid="2" mtype="seg">Default is 0</mrk></target>
+<note>$iEscapement</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The angle, in tenths of degrees, between each character's base line and the x-axis of the device. Default is 0</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The angle, in tenths of degrees, between each character's base line and the x-axis of the device.</mrk> <mrk mid="2" mtype="seg">Default is 0</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The angle, in tenths of degrees, between each character's base line and the x-axis of the device.</mrk> <mrk mid="2" mtype="seg">Default is 0</mrk></target>
+<note>$iOrientation</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The weight of the font in the range 0 through 1000, or one of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The weight of the font in the range 0 through 1000, or one of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The weight of the font in the range 0 through 1000, or one of the following values.</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     $FW_DONTCARE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_DONTCARE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_DONTCARE</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en">     $FW_THIN</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_THIN</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_THIN</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en">     $FW_EXTRALIGHT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_EXTRALIGHT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_EXTRALIGHT</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">     $FW_ULTRALIGHT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_ULTRALIGHT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_ULTRALIGHT</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">     $FW_LIGHT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_LIGHT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_LIGHT</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $FW_NORMAL (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_NORMAL (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_NORMAL (Default)</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     $FW_REGULAR</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_REGULAR</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_REGULAR</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $FW_MEDIUM</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_MEDIUM</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_MEDIUM</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $FW_SEMIBOLD</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_SEMIBOLD</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_SEMIBOLD</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $FW_DEMIBOLD</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_DEMIBOLD</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_DEMIBOLD</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $FW_BOLD</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_BOLD</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_BOLD</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $FW_EXTRABOLD</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_EXTRABOLD</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_EXTRABOLD</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     $FW_ULTRABOLD</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_ULTRABOLD</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_ULTRABOLD</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">     $FW_HEAVY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_HEAVY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_HEAVY</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">     $FW_BLACK</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FW_BLACK</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FW_BLACK</mrk></target>
+<note>$iWeight</note>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether to set italic font attribute, valid values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to set italic font attribute, valid values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to set italic font attribute, valid values:</mrk></target>
+<note>$bItalic</note>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">     True - The attribute is set.</source>
+<seg-source> <mrk mid="0" mtype="seg">    True - The attribute is set.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    True - The attribute is set.</mrk></target>
+<note>$bItalic</note>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">     False - The attribute is not set (Default).</source>
+<seg-source> <mrk mid="0" mtype="seg">    False - The attribute is not set (Default).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    False - The attribute is not set (Default).</mrk></target>
+<note>$bItalic</note>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether to set underlined font attribute, valid values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to set underlined font attribute, valid values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to set underlined font attribute, valid values:</mrk></target>
+<note>$bUnderline</note>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">     True - The attribute is set.</source>
+<seg-source> <mrk mid="0" mtype="seg">    True - The attribute is set.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    True - The attribute is set.</mrk></target>
+<note>$bUnderline</note>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">     False - The attribute is not set (Default).</source>
+<seg-source> <mrk mid="0" mtype="seg">    False - The attribute is not set (Default).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    False - The attribute is not set (Default).</mrk></target>
+<note>$bUnderline</note>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> Specifies whether to set strikeout font attribute, valid values:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to set strikeout font attribute, valid values:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">Specifies whether to set strikeout font attribute, valid values:</mrk></target>
+<note>$bStrikeOut</note>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">     True - The attribute is set.</source>
+<seg-source> <mrk mid="0" mtype="seg">    True - The attribute is set.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    True - The attribute is set.</mrk></target>
+<note>$bStrikeOut</note>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">     False - The attribute is not set (Default).</source>
+<seg-source> <mrk mid="0" mtype="seg">    False - The attribute is not set (Default).</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    False - The attribute is not set (Default).</mrk></target>
+<note>$bStrikeOut</note>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The character set. It can be one of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The character set.</mrk> <mrk mid="2" mtype="seg">It can be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The character set.</mrk> <mrk mid="2" mtype="seg">It can be one of the following values.</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">     $ANSI_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ANSI_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ANSI_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">     $BALTIC_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $BALTIC_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $BALTIC_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">     $CHINESEBIG5_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CHINESEBIG5_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CHINESEBIG5_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">     $DEFAULT_CHARSET (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DEFAULT_CHARSET (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DEFAULT_CHARSET (Default)</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">     $EASTEUROPE_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $EASTEUROPE_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $EASTEUROPE_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">     $GB2312_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GB2312_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GB2312_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">     $GREEK_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $GREEK_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $GREEK_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">     $HANGEUL_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $HANGEUL_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $HANGEUL_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">     $MAC_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $MAC_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $MAC_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="42">
+<source xml:lang="en">     $OEM_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OEM_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OEM_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="43">
+<source xml:lang="en">     $RUSSIAN_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $RUSSIAN_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $RUSSIAN_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="44">
+<source xml:lang="en">     $SHIFTJIS_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SHIFTJIS_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SHIFTJIS_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="45">
+<source xml:lang="en">     $SYMBOL_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $SYMBOL_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $SYMBOL_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="46">
+<source xml:lang="en">     $TURKISH_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $TURKISH_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $TURKISH_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="47">
+<source xml:lang="en">     $VIETNAMESE_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $VIETNAMESE_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $VIETNAMESE_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="48">
+<source xml:lang="en"> Korean language edition of Windows:</source>
+<seg-source> <mrk mid="0" mtype="seg">Korean language edition of Windows:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Korean language edition of Windows:</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="49">
+<source xml:lang="en">     $JOHAB_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $JOHAB_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $JOHAB_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="50">
+<source xml:lang="en"> Middle East language edition of Windows:</source>
+<seg-source> <mrk mid="0" mtype="seg">Middle East language edition of Windows:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Middle East language edition of Windows:</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="51">
+<source xml:lang="en">     $ARABIC_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ARABIC_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ARABIC_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="52">
+<source xml:lang="en">     $HEBREW_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $HEBREW_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $HEBREW_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="53">
+<source xml:lang="en"> Thai language edition of Windows:</source>
+<seg-source> <mrk mid="0" mtype="seg">Thai language edition of Windows:</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">Thai language edition of Windows:</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="54">
+<source xml:lang="en">     $THAI_CHARSET</source>
+<seg-source> <mrk mid="0" mtype="seg">    $THAI_CHARSET</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $THAI_CHARSET</mrk></target>
+<note>$iCharSet</note>
+</trans-unit>
+<trans-unit id="55">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The output precision. It can be one of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The output precision.</mrk> <mrk mid="2" mtype="seg">It can be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The output precision.</mrk> <mrk mid="2" mtype="seg">It can be one of the following values.</mrk></target>
+<note>$iOutPrecision</note>
+</trans-unit>
+<trans-unit id="56">
+<source xml:lang="en">     $OUT_CHARACTER_PRECIS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OUT_CHARACTER_PRECIS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OUT_CHARACTER_PRECIS</mrk></target>
+<note>$iOutPrecision</note>
+</trans-unit>
+<trans-unit id="57">
+<source xml:lang="en">     $OUT_DEFAULT_PRECIS (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OUT_DEFAULT_PRECIS (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OUT_DEFAULT_PRECIS (Default)</mrk></target>
+<note>$iOutPrecision</note>
+</trans-unit>
+<trans-unit id="58">
+<source xml:lang="en">     $OUT_DEVICE_PRECIS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OUT_DEVICE_PRECIS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OUT_DEVICE_PRECIS</mrk></target>
+<note>$iOutPrecision</note>
+</trans-unit>
+<trans-unit id="59">
+<source xml:lang="en">     $OUT_OUTLINE_PRECIS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OUT_OUTLINE_PRECIS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OUT_OUTLINE_PRECIS</mrk></target>
+<note>$iOutPrecision</note>
+</trans-unit>
+<trans-unit id="60">
+<source xml:lang="en">     $OUT_PS_ONLY_PRECIS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OUT_PS_ONLY_PRECIS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OUT_PS_ONLY_PRECIS</mrk></target>
+<note>$iOutPrecision</note>
+</trans-unit>
+<trans-unit id="61">
+<source xml:lang="en">     $OUT_RASTER_PRECIS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OUT_RASTER_PRECIS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OUT_RASTER_PRECIS</mrk></target>
+<note>$iOutPrecision</note>
+</trans-unit>
+<trans-unit id="62">
+<source xml:lang="en">     $OUT_STRING_PRECIS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OUT_STRING_PRECIS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OUT_STRING_PRECIS</mrk></target>
+<note>$iOutPrecision</note>
+</trans-unit>
+<trans-unit id="63">
+<source xml:lang="en">     $OUT_STROKE_PRECIS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OUT_STROKE_PRECIS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OUT_STROKE_PRECIS</mrk></target>
+<note>$iOutPrecision</note>
+</trans-unit>
+<trans-unit id="64">
+<source xml:lang="en">     $OUT_TT_ONLY_PRECIS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OUT_TT_ONLY_PRECIS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OUT_TT_ONLY_PRECIS</mrk></target>
+<note>$iOutPrecision</note>
+</trans-unit>
+<trans-unit id="65">
+<source xml:lang="en">     $OUT_TT_PRECIS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $OUT_TT_PRECIS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $OUT_TT_PRECIS</mrk></target>
+<note>$iOutPrecision</note>
+</trans-unit>
+<trans-unit id="66">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The clipping precision. It can be one or more of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The clipping precision.</mrk> <mrk mid="2" mtype="seg">It can be one or more of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The clipping precision.</mrk> <mrk mid="2" mtype="seg">It can be one or more of the following values.</mrk></target>
+<note>$iClipPrecision</note>
+</trans-unit>
+<trans-unit id="67">
+<source xml:lang="en">     $CLIP_CHARACTER_PRECIS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CLIP_CHARACTER_PRECIS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CLIP_CHARACTER_PRECIS</mrk></target>
+<note>$iClipPrecision</note>
+</trans-unit>
+<trans-unit id="68">
+<source xml:lang="en">     $CLIP_DEFAULT_PRECIS (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CLIP_DEFAULT_PRECIS (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CLIP_DEFAULT_PRECIS (Default)</mrk></target>
+<note>$iClipPrecision</note>
+</trans-unit>
+<trans-unit id="69">
+<source xml:lang="en">     $CLIP_DFA_DISABLE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CLIP_DFA_DISABLE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CLIP_DFA_DISABLE</mrk></target>
+<note>$iClipPrecision</note>
+</trans-unit>
+<trans-unit id="70">
+<source xml:lang="en">     $CLIP_EMBEDDED</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CLIP_EMBEDDED</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CLIP_EMBEDDED</mrk></target>
+<note>$iClipPrecision</note>
+</trans-unit>
+<trans-unit id="71">
+<source xml:lang="en">     $CLIP_LH_ANGLES</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CLIP_LH_ANGLES</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CLIP_LH_ANGLES</mrk></target>
+<note>$iClipPrecision</note>
+</trans-unit>
+<trans-unit id="72">
+<source xml:lang="en">     $CLIP_DFA_OVERRIDE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CLIP_DFA_OVERRIDE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CLIP_DFA_OVERRIDE</mrk></target>
+<note>$iClipPrecision</note>
+</trans-unit>
+<trans-unit id="73">
+<source xml:lang="en">     $CLIP_STROKE_PRECIS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CLIP_STROKE_PRECIS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CLIP_STROKE_PRECIS</mrk></target>
+<note>$iClipPrecision</note>
+</trans-unit>
+<trans-unit id="74">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The output quality. It can be one of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The output quality.</mrk> <mrk mid="2" mtype="seg">It can be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The output quality.</mrk> <mrk mid="2" mtype="seg">It can be one of the following values.</mrk></target>
+<note>$iQuality</note>
+</trans-unit>
+<trans-unit id="75">
+<source xml:lang="en">     $ANTIALIASED_QUALITY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $ANTIALIASED_QUALITY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $ANTIALIASED_QUALITY</mrk></target>
+<note>$iQuality</note>
+</trans-unit>
+<trans-unit id="76">
+<source xml:lang="en">     $CLEARTYPE_QUALITY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $CLEARTYPE_QUALITY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $CLEARTYPE_QUALITY</mrk></target>
+<note>$iQuality</note>
+</trans-unit>
+<trans-unit id="77">
+<source xml:lang="en">     $DEFAULT_QUALITY (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DEFAULT_QUALITY (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DEFAULT_QUALITY (Default)</mrk></target>
+<note>$iQuality</note>
+</trans-unit>
+<trans-unit id="78">
+<source xml:lang="en">     $DRAFT_QUALITY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DRAFT_QUALITY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DRAFT_QUALITY</mrk></target>
+<note>$iQuality</note>
+</trans-unit>
+<trans-unit id="79">
+<source xml:lang="en">     $NONANTIALIASED_QUALITY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $NONANTIALIASED_QUALITY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $NONANTIALIASED_QUALITY</mrk></target>
+<note>$iQuality</note>
+</trans-unit>
+<trans-unit id="80">
+<source xml:lang="en">     $PROOF_QUALITY</source>
+<seg-source> <mrk mid="0" mtype="seg">    $PROOF_QUALITY</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $PROOF_QUALITY</mrk></target>
+<note>$iQuality</note>
+</trans-unit>
+<trans-unit id="81">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The pitch and family of the font. The two low-order bits specify the pitch of the font and can be one of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The pitch and family of the font.</mrk> <mrk mid="2" mtype="seg">The two low-order bits specify the pitch of the font and can be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The pitch and family of the font.</mrk> <mrk mid="2" mtype="seg">The two low-order bits specify the pitch of the font and can be one of the following values.</mrk></target>
+<note>$iPitchAndFamily</note>
+</trans-unit>
+<trans-unit id="82">
+<source xml:lang="en">     $DEFAULT_PITCH (Default</source>
+<seg-source> <mrk mid="0" mtype="seg">    $DEFAULT_PITCH (Default</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $DEFAULT_PITCH (Default</mrk></target>
+<note>$iPitchAndFamily</note>
+</trans-unit>
+<trans-unit id="83">
+<source xml:lang="en">     $FIXED_PITCH</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FIXED_PITCH</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FIXED_PITCH</mrk></target>
+<note>$iPitchAndFamily</note>
+</trans-unit>
+<trans-unit id="84">
+<source xml:lang="en">     $VARIABLE_PITCH</source>
+<seg-source> <mrk mid="0" mtype="seg">    $VARIABLE_PITCH</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $VARIABLE_PITCH</mrk></target>
+<note>$iPitchAndFamily</note>
+</trans-unit>
+<trans-unit id="85">
+<source xml:lang="en"> The four high-order bits specify the font family and can be one of the following values.</source>
+<seg-source> <mrk mid="0" mtype="seg">The four high-order bits specify the font family and can be one of the following values.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">The four high-order bits specify the font family and can be one of the following values.</mrk></target>
+<note>$iPitchAndFamily</note>
+</trans-unit>
+<trans-unit id="86">
+<source xml:lang="en">     $FF_DECORATIVE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FF_DECORATIVE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FF_DECORATIVE</mrk></target>
+<note>$iPitchAndFamily</note>
+</trans-unit>
+<trans-unit id="87">
+<source xml:lang="en">     $FF_DONTCARE</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FF_DONTCARE</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FF_DONTCARE</mrk></target>
+<note>$iPitchAndFamily</note>
+</trans-unit>
+<trans-unit id="88">
+<source xml:lang="en">     $FF_MODERN</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FF_MODERN</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FF_MODERN</mrk></target>
+<note>$iPitchAndFamily</note>
+</trans-unit>
+<trans-unit id="89">
+<source xml:lang="en">     $FF_ROMAN</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FF_ROMAN</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FF_ROMAN</mrk></target>
+<note>$iPitchAndFamily</note>
+</trans-unit>
+<trans-unit id="90">
+<source xml:lang="en">     $FF_SCRIPT</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FF_SCRIPT</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FF_SCRIPT</mrk></target>
+<note>$iPitchAndFamily</note>
+</trans-unit>
+<trans-unit id="91">
+<source xml:lang="en">     $FF_SWISS</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FF_SWISS</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FF_SWISS</mrk></target>
+<note>$iPitchAndFamily</note>
+</trans-unit>
+<trans-unit id="92">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The typeface name of the font (not including style). For example, "Arial", "Tahoma", etc.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The typeface name of the font (not including style).</mrk> <mrk mid="2" mtype="seg">For example, "Arial", "Tahoma", etc.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The typeface name of the font (not including style).</mrk> <mrk mid="2" mtype="seg">For example, "Arial", "Tahoma", etc.</mrk></target>
+<note>$sFaceName</note>
+</trans-unit>
+<trans-unit id="93">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> The style of the font. It can be one or more of the following values.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The style of the font.</mrk> <mrk mid="2" mtype="seg">It can be one or more of the following values.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">The style of the font.</mrk> <mrk mid="2" mtype="seg">It can be one or more of the following values.</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="94">
+<source xml:lang="en">     $FS_REGULAR (Default)</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FS_REGULAR (Default)</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FS_REGULAR (Default)</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="95">
+<source xml:lang="en">     $FS_BOLD</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FS_BOLD</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FS_BOLD</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="96">
+<source xml:lang="en">     $FS_ITALIC</source>
+<seg-source> <mrk mid="0" mtype="seg">    $FS_ITALIC</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $FS_ITALIC</mrk></target>
+<note>$iStyle</note>
+</trans-unit>
+<trans-unit id="97">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="98">
+<source xml:lang="en">A handle to a logical font.</source>
+<seg-source><mrk mid="0" mtype="seg">A handle to a logical font.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">A handle to a logical font.</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="99">
+<source xml:lang="en">0.</source>
+<seg-source><mrk mid="0" mtype="seg">0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="100">
+<source xml:lang="en">Remarks</source>
+<seg-source><mrk mid="0" mtype="seg">Remarks</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Remarks</mrk></target>
+</trans-unit>
+<trans-unit id="101">
+<source xml:lang="en">If you request a font name that is not available on the system, the font mapper will substitute a font that has similar attributes but a different name.</source>
+<seg-source><mrk mid="0" mtype="seg">If you request a font name that is not available on the system, the font mapper will substitute a font that has similar attributes but a different name.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">If you request a font name that is not available on the system, the font mapper will substitute a font that has similar attributes but a different name.</mrk></target>
+</trans-unit>
+<trans-unit id="102">
+<source xml:lang="en"> When you no longer need the font, call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteObject.htm"></bpt>_WinAPI_DeleteObject()<ept id="1">&lt;/a></ept> function to delete it.</source>
+<seg-source> <mrk mid="0" mtype="seg">When you no longer need the font, call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteObject.htm"></bpt>_WinAPI_DeleteObject()<ept id="1">&lt;/a></ept> function to delete it.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">When you no longer need the font, call the <bpt id="1" ctype="x-a">&lt;a href="_WinAPI_DeleteObject.htm"></bpt>_WinAPI_DeleteObject()<ept id="1">&lt;/a></ept> function to delete it.</mrk></target>
+</trans-unit>
+<trans-unit id="103">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="104">
+<source xml:lang="en">See Also</source>
+<seg-source><mrk mid="0" mtype="seg">See Also</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">See Also</mrk></target>
+</trans-unit>
+<trans-unit id="105">
+<source xml:lang="en">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateFont);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateFont<ept id="1">&lt;/a></ept> in MSDN Library.</source>
+<seg-source><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateFont);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateFont<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Search <bpt id="1" ctype="x-a">&lt;a href="http://msdn.microsoft.com/query/dev10.query?appId=Dev10IDEF1&amp;amp;l=EN-US&amp;amp;k=k(CreateFont);k(DevLang-C);k(TargetOS-WINDOWS)&amp;amp;rd=true"></bpt>CreateFont<ept id="1">&lt;/a></ept> in MSDN Library.</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>

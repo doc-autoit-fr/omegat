@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:okp="okapi-framework:xliff-extensions">
+<file original="libfunctions/_FTP_ListToArrayEx.htm" source-language="en" target-language="fr" datatype="html">
+<body>
+<trans-unit id="1">
+<source xml:lang="en">Get names, sizes, attributes and times of files/dir of current remote directory</source>
+<seg-source><mrk mid="0" mtype="seg">Get names, sizes, attributes and times of files/dir of current remote directory</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Get names, sizes, attributes and times of files/dir of current remote directory</mrk></target>
+<note>Function _FTP_ListToArrayEx</note>
+</trans-unit>
+<trans-unit id="2">
+<source xml:lang="en">Parameters</source>
+<seg-source><mrk mid="0" mtype="seg">Parameters</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Parameters</mrk></target>
+</trans-unit>
+<trans-unit id="3">
+<source xml:lang="en"> as returned by <bpt id="1" ctype="x-a">&lt;a href="_FTP_Connect.htm"></bpt>_FTP_Connect()<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg">as returned by <bpt id="1" ctype="x-a">&lt;a href="_FTP_Connect.htm"></bpt>_FTP_Connect()<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">as returned by <bpt id="1" ctype="x-a">&lt;a href="_FTP_Connect.htm"></bpt>_FTP_Connect()<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>$hFTPSession</note>
+</trans-unit>
+<trans-unit id="4">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> 0 = Both Files and Directories, 1 = Directories, 2 = Files.</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">0 = Both Files and Directories, 1 = Directories, 2 = Files.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">0 = Both Files and Directories, 1 = Directories, 2 = Files.</mrk></target>
+<note>$iReturntype</note>
+</trans-unit>
+<trans-unit id="5">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> default = $INTERNET_FLAG_NO_CACHE_WRITE. See <bpt id="1" ctype="x-a">&lt;a href="_FTP_FindFileFirst.htm"></bpt>_FTP_FindFileFirst()<ept id="1">&lt;/a></ept>. </source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">default = $INTERNET_FLAG_NO_CACHE_WRITE.</mrk> <mrk mid="2" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="_FTP_FindFileFirst.htm"></bpt>_FTP_FindFileFirst()<ept id="1">&lt;/a></ept>.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">default = $INTERNET_FLAG_NO_CACHE_WRITE.</mrk> <mrk mid="2" mtype="seg">See <bpt id="1" ctype="x-a">&lt;a href="_FTP_FindFileFirst.htm"></bpt>_FTP_FindFileFirst()<ept id="1">&lt;/a></ept>.</mrk> </target>
+<note>$iFlags</note>
+</trans-unit>
+<trans-unit id="6">
+<source xml:lang="en"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> type on the date strings:</source>
+<seg-source><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">type on the date strings:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">type on the date strings:</mrk></target>
+<note>$iFmt</note>
+</trans-unit>
+<trans-unit id="7">
+<source xml:lang="en">     1 = yyyy/mm/dd</source>
+<seg-source> <mrk mid="0" mtype="seg">    1 = yyyy/mm/dd</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    1 = yyyy/mm/dd</mrk></target>
+<note>$iFmt</note>
+</trans-unit>
+<trans-unit id="8">
+<source xml:lang="en">     0 = mm/dd/yyyy</source>
+<seg-source> <mrk mid="0" mtype="seg">    0 = mm/dd/yyyy</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    0 = mm/dd/yyyy</mrk></target>
+<note>$iFmt</note>
+</trans-unit>
+<trans-unit id="9">
+<source xml:lang="en"> <bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept> A variable that contains the application-defined value that associates this search with any application data.</source>
+<seg-source> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A variable that contains the application-defined value that associates this search with any application data.</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg"><bpt id="1" ctype="x-strong">&lt;strong></bpt>[optional]<ept id="1">&lt;/strong></ept></mrk> <mrk mid="1" mtype="seg">A variable that contains the application-defined value that associates this search with any application data.</mrk></target>
+<note>$iContext</note>
+</trans-unit>
+<trans-unit id="10">
+<source xml:lang="en"> This is only used if the application has already called <bpt id="1" ctype="x-a">&lt;a href="_FTP_SetStatusCallback.htm"></bpt>_FTP_SetStatusCallback()<ept id="1">&lt;/a></ept> to set up a status callback function. </source>
+<seg-source> <mrk mid="0" mtype="seg">This is only used if the application has already called <bpt id="1" ctype="x-a">&lt;a href="_FTP_SetStatusCallback.htm"></bpt>_FTP_SetStatusCallback()<ept id="1">&lt;/a></ept> to set up a status callback function.</mrk> </seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">This is only used if the application has already called <bpt id="1" ctype="x-a">&lt;a href="_FTP_SetStatusCallback.htm"></bpt>_FTP_SetStatusCallback()<ept id="1">&lt;/a></ept> to set up a status callback function.</mrk> </target>
+<note>$iContext</note>
+</trans-unit>
+<trans-unit id="11">
+<source xml:lang="en">Return Value</source>
+<seg-source><mrk mid="0" mtype="seg">Return Value</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Return Value</mrk></target>
+</trans-unit>
+<trans-unit id="12">
+<source xml:lang="en">a 2D Array:</source>
+<seg-source><mrk mid="0" mtype="seg">a 2D Array:</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">a 2D Array:</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="13">
+<source xml:lang="en">     $Array[0][0] = number of found entries</source>
+<seg-source> <mrk mid="0" mtype="seg">    $Array[0][0] = number of found entries</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $Array[0][0] = number of found entries</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="14">
+<source xml:lang="en">     ...</source>
+<seg-source> <mrk mid="0" mtype="seg">    ...</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    ...</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="15">
+<source xml:lang="en">     $Array[n][0] Filename</source>
+<seg-source> <mrk mid="0" mtype="seg">    $Array[n][0] Filename</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $Array[n][0] Filename</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="16">
+<source xml:lang="en">     $Array[n][1] Filesize</source>
+<seg-source> <mrk mid="0" mtype="seg">    $Array[n][1] Filesize</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $Array[n][1] Filesize</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="17">
+<source xml:lang="en">     $Array[n][2] FileAttribute</source>
+<seg-source> <mrk mid="0" mtype="seg">    $Array[n][2] FileAttribute</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $Array[n][2] FileAttribute</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="18">
+<source xml:lang="en">     $Array[n][3] File Modification datetime</source>
+<seg-source> <mrk mid="0" mtype="seg">    $Array[n][3] File Modification datetime</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $Array[n][3] File Modification datetime</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="19">
+<source xml:lang="en">     $Array[n][4] File Creation datetime</source>
+<seg-source> <mrk mid="0" mtype="seg">    $Array[n][4] File Creation datetime</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $Array[n][4] File Creation datetime</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="20">
+<source xml:lang="en">     $Array[n][5] File Access datetime</source>
+<seg-source> <mrk mid="0" mtype="seg">    $Array[n][5] File Access datetime</mrk></seg-source>
+<target xml:lang="fr"> <mrk mid="0" mtype="seg">    $Array[n][5] File Access datetime</mrk></target>
+<note>Success:</note>
+</trans-unit>
+<trans-unit id="21">
+<source xml:lang="en">$Array[0][0] = 0.</source>
+<seg-source><mrk mid="0" mtype="seg">$Array[0][0] = 0.</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">$Array[0][0] = 0.</mrk></target>
+<note>Failure:</note>
+</trans-unit>
+<trans-unit id="22">
+<source xml:lang="en">Related</source>
+<seg-source><mrk mid="0" mtype="seg">Related</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Related</mrk></target>
+</trans-unit>
+<trans-unit id="23">
+<source xml:lang="en">Example</source>
+<seg-source><mrk mid="0" mtype="seg">Example</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Example</mrk></target>
+</trans-unit>
+<trans-unit id="24">
+<source xml:lang="en">ftp.csx.cam.ac.uk1</source>
+<seg-source><mrk mid="0" mtype="seg">ftp.csx.cam.ac.uk1</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">ftp.csx.cam.ac.uk1</mrk></target>
+</trans-unit>
+<trans-unit id="25">
+<source xml:lang="en">MyFTP Control</source>
+<seg-source><mrk mid="0" mtype="seg">MyFTP Control</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">MyFTP Control</mrk></target>
+</trans-unit>
+<trans-unit id="26">
+<source xml:lang="en">passive allows most protected FTPs to answer</source>
+<seg-source><mrk mid="0" mtype="seg">passive allows most protected FTPs to answer</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">passive allows most protected FTPs to answer</mrk></target>
+</trans-unit>
+<trans-unit id="27">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="28">
+<source xml:lang="en">_FTP_ListToArrayEx($Conn, 0)</source>
+<seg-source><mrk mid="0" mtype="seg">_FTP_ListToArrayEx($Conn, 0)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_FTP_ListToArrayEx($Conn, 0)</mrk></target>
+</trans-unit>
+<trans-unit id="29">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="30">
+<source xml:lang="en">@extended =</source>
+<seg-source><mrk mid="0" mtype="seg">@extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@extended =</mrk></target>
+</trans-unit>
+<trans-unit id="31">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="32">
+<source xml:lang="en">_FTP_Connect($Open,</source>
+<seg-source><mrk mid="0" mtype="seg">_FTP_Connect($Open,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_FTP_Connect($Open,</mrk></target>
+</trans-unit>
+<trans-unit id="33">
+<source xml:lang="en">,</source>
+<seg-source><mrk mid="0" mtype="seg">,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">,</mrk></target>
+</trans-unit>
+<trans-unit id="34">
+<source xml:lang="en">,</source>
+<seg-source><mrk mid="0" mtype="seg">,</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">,</mrk></target>
+</trans-unit>
+<trans-unit id="35">
+<source xml:lang="en">)</source>
+<seg-source><mrk mid="0" mtype="seg">)</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">)</mrk></target>
+</trans-unit>
+<trans-unit id="36">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="37">
+<source xml:lang="en">@extended =</source>
+<seg-source><mrk mid="0" mtype="seg">@extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@extended =</mrk></target>
+</trans-unit>
+<trans-unit id="38">
+<source xml:lang="en">Error</source>
+<seg-source><mrk mid="0" mtype="seg">Error</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">Error</mrk></target>
+</trans-unit>
+<trans-unit id="39">
+<source xml:lang="en">_FTP_Open('MyFTP Control')</source>
+<seg-source><mrk mid="0" mtype="seg">_FTP_Open('MyFTP Control')</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">_FTP_Open('MyFTP Control')</mrk></target>
+</trans-unit>
+<trans-unit id="40">
+<source xml:lang="en">@error =</source>
+<seg-source><mrk mid="0" mtype="seg">@error =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@error =</mrk></target>
+</trans-unit>
+<trans-unit id="41">
+<source xml:lang="en">@extended =</source>
+<seg-source><mrk mid="0" mtype="seg">@extended =</mrk></seg-source>
+<target xml:lang="fr"><mrk mid="0" mtype="seg">@extended =</mrk></target>
+</trans-unit>
+</body>
+</file>
+</xliff>
