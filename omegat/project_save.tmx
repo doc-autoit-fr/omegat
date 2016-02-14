@@ -5044,12 +5044,11 @@
       </tuv>
     </tu>
     <tu>
-      <note># à revoir</note>
       <tuv lang="en">
         <seg>20 - Failed to decrypt data</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20151231T193653Z" creationid="orax" creationdate="20151231T193653Z">
-        <seg>20 - Échec lors du déchiffrement des données</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160214T154631Z" creationid="orax" creationdate="20151231T193653Z">
+        <seg>20 - Impossible de déchiffrer les données</seg>
       </tuv>
     </tu>
     <tu>
@@ -17678,8 +17677,8 @@
       <tuv lang="en">
         <seg>Declare a password string to decrypt/encrypt the data.</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160108T205256Z" creationid="orax" creationdate="20151231T194656Z">
-        <seg>Déclare un de mot de passe sous forme de chaîne pour déchiffrer/chiffrer les données.</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160214T154703Z" creationid="orax" creationdate="20151231T194656Z">
+        <seg>Déclare un de mot de passe pour déchiffrer/chiffrer les données.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39599,12 +39598,11 @@
       </tuv>
     </tu>
     <tu>
-      <note>* er ou ez ?</note>
       <tuv lang="en">
         <seg>Select a file to encrypt.</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160114T233716Z" creationid="orax" creationdate="20160108T215256Z">
-        <seg>Sélectionnez un fichier à chiffrer.</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160214T160052Z" creationid="orax" creationdate="20160108T215256Z">
+        <seg>Sélectionner un fichier à chiffrer.</seg>
       </tuv>
     </tu>
     <tu>
@@ -63024,5 +63022,17 @@ Le code de hachage du fichier, pour un certain algorithme, est censé être uniq
       </tuv>
     </tu>
 <!-- Alternative translations -->
+    <tu>
+      <prop type="file">libfunctions/_Crypt_EncryptFile.htm.xlf</prop>
+      <prop type="prev">All files (*.*)</prop>
+      <prop type="next">Set the inputbox with the filepath.</prop>
+      <note>Traduction alternative car c'est un commentaire du code.</note>
+      <tuv lang="en">
+        <seg>Select a file to encrypt.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160214T155041Z" creationid="orax" creationdate="20160214T155041Z">
+        <seg>Sélectionne un fichier à chiffrer.</seg>
+      </tuv>
+    </tu>
   </body>
 </tmx>
