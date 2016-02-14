@@ -4034,8 +4034,8 @@
       <tuv lang="en">
         <seg>1 if $iComDebug = -1 and sets the @error flag and @extented to current setting:</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160111T002402Z" creationid="orax" creationdate="20160111T002402Z">
-        <seg>1 si $iComDebug = -1 et définit les drapeaux @error et @extented d'après le réglage actuel :</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160214T205641Z" creationid="orax" creationdate="20160111T002402Z">
+        <seg>1 si $iComDebug = -1 et définit les indicateurs @error et @extented d'après le réglage actuel :</seg>
       </tuv>
     </tu>
     <tu>
@@ -5855,7 +5855,6 @@
       </tuv>
     </tu>
     <tu>
-      <note>* Impossible de chiffrer la partie ou Impossible de chiffrer ?</note>
       <tuv lang="en">
         <seg>500+ - Failed to encrypt piece</seg>
       </tuv>
@@ -17669,7 +17668,7 @@
       </tuv>
     </tu>
     <tu>
-      <note># password string ?
+      <note>* password string ?
 - mot de passe sous forme de chaîne
 - mot de passe
 - chaîne de mot de passe ?!
@@ -21562,12 +21561,11 @@
       </tuv>
     </tu>
     <tu>
-      <note>* revoir la seconde partie !!!!</note>
       <tuv lang="en">
         <seg>False if this is only a segment of the full data, also makes the function return a hash object instead of hash</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160108T233631Z" creationid="orax" creationdate="20160108T233631Z">
-        <seg>False si c'est seulement un segment de données complet, fait aussi que la fonction retourne un objet de hachage au lieu d'un hachage</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160214T205211Z" creationid="orax" creationdate="20160108T233631Z">
+        <seg>False si c'est seulement un segment de données complet, et fait que la fonction retourne un objet de hachage au lieu d'un hachage</seg>
       </tuv>
     </tu>
     <tu>
@@ -33310,7 +33308,6 @@
       </tuv>
     </tu>
     <tu>
-      <note>*</note>
       <tuv lang="en">
         <seg>Please ensure the relevant information has been entered correctly.</seg>
       </tuv>
@@ -52260,12 +52257,11 @@
       </tuv>
     </tu>
     <tu>
-      <note>* à relire</note>
       <tuv lang="en">
         <seg>To use this with segments of data set the $bFinal flag to False for all non ending segments and use the returned hash object with all subsequent calls.</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160114T235734Z" creationid="orax" creationdate="20160108T234320Z">
-        <seg>Pour utiliser ceci avec des segments de données, mettez le drapeau $bFinal à False pour tous les segments non finaux et utilise l'objet de hachage retourné avec tous les appels ultérieurs.</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160214T205358Z" creationid="orax" creationdate="20160108T234320Z">
+        <seg>Pour utiliser ceci avec des segments de données, mettez l'indicateur $bFinal à False pour tous les segments non finaux et utilise l'objet de hachage retourné avec tous les appels ultérieurs.</seg>
       </tuv>
     </tu>
     <tu>
