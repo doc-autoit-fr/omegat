@@ -24732,6 +24732,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Handle to the file for which dates and times are to be retrieved.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160225T191510Z" creationid="orax" creationdate="20160225T191510Z">
+        <seg>Handle vers le fichier où les horodatages seront récupérés.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Handle to the font to use to draw the string</seg>
@@ -31472,6 +31480,15 @@
       </tuv>
     </tu>
     <tu>
+      <note>* relire</note>
+      <tuv lang="en">
+        <seg>Not all file systems can record creation and last access times and not all file systems record them in the same manner.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160225T192430Z" creationid="orax" creationdate="20160225T191852Z">
+        <seg>Les dates de création et du dernier accès ne peuvent être enregistrées sur tous les systèmes de fichiers et l'enregistrement de celles-ci peut ne pas se faire de la même manière.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Not all servers will correctly give the file size, especially when using a proxy server.</seg>
@@ -36549,6 +36566,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Récupère la position actuelle du curseur de la souris.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Retrieves the date and time that a file was created, accessed and modified</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160225T191132Z" creationid="orax" creationdate="20160225T191132Z">
+        <seg>Récupère la date et l'heure de création, d'accès et de modification d'un fichier</seg>
       </tuv>
     </tu>
     <tu>
@@ -46344,6 +46369,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Le "handle" de fichier doit être fermé avec la fonction &lt;a0&gt;FileClose()&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The file handle must have been created using the CreateFile function with the GENERIC_READ access right.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160225T191531Z" creationid="orax" creationdate="20160225T191531Z">
+        <seg>Le handle de fichier doit avoir été créé à l'aide de la fonction CreateFile avec le droit d'accès GENERIC_READ.</seg>
       </tuv>
     </tu>
     <tu>
@@ -56986,6 +57019,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>[0] - $tagFILETIME structure with the date and time the file was created</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160225T191618Z" creationid="orax" creationdate="20160225T191618Z">
+        <seg>[0] - structure $tagFILETIME contenant la date et l'heure de création du fichier</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>[0] - Hour</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160219T184423Z" creationid="orax" creationdate="20160219T184423Z">
@@ -57037,6 +57078,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>[1] - $tagFILETIME structure with the date and time the file was accessed</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160225T191912Z" creationid="orax" creationdate="20160225T191651Z">
+        <seg>[1] - structure $tagFILETIME contenant la date et l'heure du dernier accès du fichier</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>[1] - Day</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160110T214931Z" creationid="orax" creationdate="20160110T214931Z">
@@ -57066,6 +57115,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>[1] Vert</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>[2] - $tagFILETIME structure with the date and time the file was modified</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160225T191707Z" creationid="orax" creationdate="20160225T191707Z">
+        <seg>[2] - structure $tagFILETIME contenant la date et l'heure de modification du fichier</seg>
       </tuv>
     </tu>
     <tu>
