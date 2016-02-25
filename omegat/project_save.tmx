@@ -15547,6 +15547,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Converts a file time to system time format</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160225T152611Z" creationid="orax" creationdate="20160225T152611Z">
+        <seg>Convertit une heure de fichier au format de l'heure système</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Converts a string into binary data.</seg>
@@ -37324,6 +37332,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Returns a $tagSYSTEMTIME structure that contains the converted file time.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160225T152701Z" creationid="orax" creationdate="20160225T152701Z">
+        <seg>Retourne une structure $tagSYSTEMTIME qui contient l'heure convertie du fichier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Returns a $tagSYSTEMTIME structure.</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160219T185300Z" creationid="orax" creationdate="20160219T185300Z">
@@ -37410,12 +37426,12 @@
       </tuv>
     </tu>
     <tu>
-      <note>* erreur dans la doc $iFmt au lieu de $bFmt</note>
+      <note>! $iFmt au lieu de $bFmt ou l'inverse</note>
       <tuv lang="en">
         <seg>Returns a date/time string formatted according to $bFmt.</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160224T230701Z" creationid="orax" creationdate="20160224T230701Z">
-        <seg>Retourne une chaîne date/heure formatée d'après $iFmt.</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160225T144007Z" creationid="orax" creationdate="20160224T230701Z">
+        <seg>Retourne une chaîne date/heure formatée selon $bFmt.</seg>
       </tuv>
     </tu>
     <tu>
@@ -43814,6 +43830,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>SysInfo - Référence</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>System file time .:</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160225T152833Z" creationid="orax" creationdate="20160225T152833Z">
+        <seg>Heure de fichier au format de l'heure système . :</seg>
       </tuv>
     </tu>
     <tu>
@@ -57175,6 +57199,14 @@
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160224T212231Z" creationid="orax" creationdate="20160224T212231Z">
         <seg>une structure $tagFILETIME contenant l'heure du fichier à convertir au format MS-DOS ou un pointeur vers elle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>a $tagFILETIME structure containing the file time to convert to system date and time format or a pointer to it.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160225T152542Z" creationid="orax" creationdate="20160225T152542Z">
+        <seg>une structure $tagFILETIME contenant l'heure du fichier à convertir au format de date et d'heure système ou un pointeur vers elle.</seg>
       </tuv>
     </tu>
     <tu>
