@@ -6255,6 +6255,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;a0&gt;$tagFILETIME&lt;/a0&gt;, &lt;a1&gt;_Date_Time_SetFileTime&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160226T002009Z" creationid="orax" creationdate="20160226T002009Z">
+        <seg>&lt;a0&gt;$tagFILETIME&lt;/a0&gt;, &lt;a1&gt;_Date_Time_SetFileTime&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&lt;a0&gt;$tagSYSTEMTIME&lt;/a0&gt;, &lt;a1&gt;_Date_Time_EncodeFileTime&lt;/a1&gt;</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160219T185302Z" creationid="orax" creationdate="20160219T185302Z">
@@ -8847,6 +8855,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Accepte des connexions entrantes si présent (Socket fermé une fois terminé, un socket par client).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Accessed .:</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160226T002634Z" creationid="orax" creationdate="20160226T002634Z">
+        <seg>Accédé . :</seg>
       </tuv>
     </tu>
     <tu>
@@ -16593,12 +16609,28 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Create test file and set file times</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160226T002459Z" creationid="orax" creationdate="20160226T002459Z">
+        <seg>Créer un fichier de test et définit les dates du fichier</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Create the controls</seg>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Crée les contrôles</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Created ..:</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160226T002623Z" creationid="orax" creationdate="20160226T002623Z">
+        <seg>Créé . :</seg>
       </tuv>
     </tu>
     <tu>
@@ -22754,6 +22786,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Par exemple, si le format est égal à $GDIP_HistogramFormatRGB, alors trois histogrammes sont retournés : un pour chacun des canaux rouge, vert et bleu.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>For example, on FAT, create time has a resolution of 10 milliseconds, write time has a resolution of 2 seconds, and access time has a resolution of 1 day (really, the access date).</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160226T001516Z" creationid="orax" creationdate="20160226T001516Z">
+        <seg>Par exemple, en FAT, la date de création a une précision de 10 millisecondes, la date de modification a une précision de 2 secondes, et la date du dernier accès a une précision de 1 jour (c'est bien ça, la date du dernier accès).</seg>
       </tuv>
     </tu>
     <tu>
@@ -30547,6 +30587,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Modified .:</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160226T002641Z" creationid="orax" creationdate="20160226T002641Z">
+        <seg>Modifié . :</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Modifies the data for a control.</seg>
@@ -30992,6 +31040,15 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>NOTE :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>*</note>
+      <tuv lang="en">
+        <seg>NTFS delays updates to the last access time for a file by up to one hour after the last access.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160226T002401Z" creationid="orax" creationdate="20160226T002007Z">
+        <seg>Les délais du système de fichiers NTFS mettent à jour le dernier temps d'accès pour un fichier par l'ajout d'une heure après le dernier accès.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34628,6 +34685,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Read file times</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160226T002539Z" creationid="orax" creationdate="20160226T002539Z">
+        <seg>Lit les dates du fichier</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Read from the STDIN stream of the AutoIt script process.</seg>
@@ -36560,6 +36625,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Retrieves the current local date and time</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160226T002720Z" creationid="orax" creationdate="20160226T002720Z">
+        <seg>Récupère la date locale actuelle et l'heure</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Retrieves the current position of the mouse cursor.</seg>
@@ -37361,6 +37434,14 @@
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160225T152701Z" creationid="orax" creationdate="20160225T152701Z">
         <seg>Retourne une structure $tagSYSTEMTIME qui contient l'heure convertie du fichier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Returns a $tagSYSTEMTIME structure with the current local date and time.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160226T002748Z" creationid="orax" creationdate="20160226T002748Z">
+        <seg>Retourne une structure $tagSYSTEMTIME avec la date locale actuelle et l'heure.</seg>
       </tuv>
     </tu>
     <tu>
@@ -50505,6 +50586,15 @@
       </tuv>
     </tu>
     <tu>
+      <note>* relire</note>
+      <tuv lang="en">
+        <seg>Therefore, the &lt;a0&gt;_Date_Time_GetFileTime()&lt;/a0&gt; function may not return the same file time information set using &lt;a1&gt;_Date_Time_SetFileTime()&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160226T001935Z" creationid="orax" creationdate="20160226T001935Z">
+        <seg>Par conséquent, la fonction &lt;a0&gt;_Date_Time_GetFileTime()&lt;/a0&gt; peut ne pas retourner les mêmes informations d'horodatage du fichier préalablement définies à l'aide de &lt;a1&gt;_Date_Time_SetFileTime()&lt;/a1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>These are built-in Windows shortcuts.</seg>
@@ -53195,6 +53285,22 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Annule l'inscription d'une fonction appelée lorsque AutoIt se termine.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Unable to create file</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160226T002513Z" creationid="orax" creationdate="20160226T002513Z">
+        <seg>Impossible de créer le fichier</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Unable to open file</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160226T002603Z" creationid="orax" creationdate="20160226T002603Z">
+        <seg>Impossible d'ouvrir le fichier</seg>
       </tuv>
     </tu>
     <tu>
@@ -57231,6 +57337,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>[ chaîne ]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>\Test.xyz</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160226T002402Z" creationid="orax" creationdate="20160226T002402Z">
+        <seg>\Test.xyz</seg>
       </tuv>
     </tu>
     <tu>
