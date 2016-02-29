@@ -1916,6 +1916,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>-1 - Failure</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160229T171933Z" creationid="orax" creationdate="20160229T171933Z">
+        <seg>-1 - Échec</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>-1 - First file time is earlier than second file time</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160110T213419Z" creationid="orax" creationdate="20160110T213419Z">
@@ -2256,6 +2264,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>0 - Le presse-papiers est vide</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>0 - Daylight savings time is not used in the current time zone</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160229T172030Z" creationid="orax" creationdate="20160229T172030Z">
+        <seg>0 - L'heure d'été n'est pas utilisée avec le fuseau horaire actuel</seg>
       </tuv>
     </tu>
     <tu>
@@ -3617,6 +3633,12 @@
       </tuv>
     </tu>
     <tu>
+      <note>*</note>
+      <tuv lang="en">
+        <seg>1 - Daylight savings time operating with standard time</seg>
+      </tuv>
+    </tu>
+    <tu>
       <tuv lang="en">
         <seg>1 - Enable debugging.</seg>
       </tuv>
@@ -4767,6 +4789,12 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>2 - $vValeur est un tableau plus grand que $aArray (il ne peut pas s'adapter)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>*</note>
+      <tuv lang="en">
+        <seg>2 - Daylight savings time operating with daylight savings time</seg>
       </tuv>
     </tu>
     <tu>
@@ -12602,12 +12630,11 @@
       </tuv>
     </tu>
     <tu>
-      <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Can be one of the following:</seg>
       </tuv>
-      <tuv lang="fr" changeid="mdanielm">
-        <seg>Peut être un des suivants:</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160229T171924Z">
+        <seg>Peut être un des suivants :</seg>
       </tuv>
     </tu>
     <tu>
@@ -23663,6 +23690,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Obtient la taille totale de la structure qui est retournée par _GDIPlus_GetImageEncoders</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Get tick count</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160229T170900Z" creationid="orax" creationdate="20160229T170900Z">
+        <seg>Récupère le nombre de cycles</seg>
       </tuv>
     </tu>
     <tu>
@@ -36797,6 +36832,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Retrieves the current time zone settings</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160229T171720Z" creationid="orax" creationdate="20160229T171030Z">
+        <seg>Récupère les paramètres du fuseau horaire actuel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Retrieves the date and time that a file was created, accessed and modified</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160225T191132Z" creationid="orax" creationdate="20160225T191132Z">
@@ -36882,6 +36925,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Récupère le nombre de formats de données différents actuellement dans le presse-papiers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Retrieves the number of milliseconds that have elapsed since Windows was started</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160229T170139Z" creationid="orax" creationdate="20160229T170139Z">
+        <seg>Récupère le nombre de millisecondes qui se sont écoulées depuis le démarrage de Windows</seg>
       </tuv>
     </tu>
     <tu>
@@ -38667,6 +38718,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Retourne le nombre d'éléments de la liste.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Returns the number of milliseconds that have elapsed since Windows was started.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160229T170200Z" creationid="orax" creationdate="20160229T170200Z">
+        <seg>Retourne le nombre de millisecondes qui se sont écoulées depuis le démarrage de Windows.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44234,8 +44293,8 @@
       <tuv lang="en">
         <seg>System time .:</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160229T160938Z" creationid="orax" creationdate="20160229T160938Z">
-        <seg>Heure système . :</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160229T170109Z" creationid="orax" creationdate="20160229T160938Z">
+        <seg>Temps système . :</seg>
       </tuv>
     </tu>
     <tu>
@@ -46562,6 +46621,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Le contrôle Edit ou Input sera défini avec le nom du fichier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The elapsed time is stored as a DWORD value.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160229T170255Z" creationid="orax" creationdate="20160229T170255Z">
+        <seg>Le temps écoulé est stocké comme une valeur DWORD.</seg>
       </tuv>
     </tu>
     <tu>
@@ -49978,6 +50045,15 @@
       </tuv>
     </tu>
     <tu>
+      <note>*</note>
+      <tuv lang="en">
+        <seg>The time will wrap around to zero if Windows is run continuously for 49.7 days.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160229T170832Z" creationid="orax" creationdate="20160229T170832Z">
+        <seg>Le temps sera remis à zéro si Windows est exécuté en continu pendant 49,7 jours.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>The timestamp to change:</seg>
@@ -52151,6 +52227,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Ainsi, l'élément du menu &lt;s0&gt;&lt;u1&gt;F&lt;/u1&gt;ichier&lt;/s0&gt; devra contenir l'élément "&amp;Fichier", et &lt;s2&gt;Con&lt;u3&gt;v&lt;/u3&gt;ert&lt;/s2&gt; devra contenir l’élément "Con&amp;vert".Vous pouvez accéder aux éléments du menu jusqu'à six niveaux de profondeur; et la fenêtre peut être inactive, minimisée et/ou cachée.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Tick count .:</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160229T170937Z" creationid="orax" creationdate="20160229T170937Z">
+        <seg>Nombre de cycles . :</seg>
       </tuv>
     </tu>
     <tu>
@@ -57467,6 +57551,14 @@ In US source strings, you may find software references surrounded by English quo
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160229T163936Z" creationid="orax" creationdate="20160229T163936Z">
         <seg>[0] - structure $tagFILETIME avec le temps d'inactivité total du système</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>[0] - Daylight savings setting.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160229T171915Z" creationid="orax" creationdate="20160229T171915Z">
+        <seg>[0] - Paramètre d'heure d'été</seg>
       </tuv>
     </tu>
     <tu>
