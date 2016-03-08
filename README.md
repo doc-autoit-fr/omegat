@@ -6,7 +6,7 @@
 Pensez à cocher *Options > TransTips > Activer TransTips*.
 
 Glossaires pouvant être ajoutés :
-- Banque terminologique Microsoft : https://www.microsoft.com/Language/fr-fr/Terminology.aspx
+[https://github.com/doc-autoit-fr/doc-autoit-fr/tree/master/glossaires](https://github.com/doc-autoit-fr/doc-autoit-fr/tree/master/glossaires).
 
 #### `tm\microsofttranslator.tmx`
 Mémoire de traduction générée avec le traducteur automatique de [https://hub.microsofttranslator.com/](https://hub.microsofttranslator.com/).
