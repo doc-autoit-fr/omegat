@@ -6299,6 +6299,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;a0&gt;$tagFILETIME&lt;/a0&gt;, &lt;a1&gt;_Date_Time_GetFileTime&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160320T200905Z" creationid="orax" creationdate="20160320T200905Z">
+        <seg>&lt;a0&gt;$tagFILETIME&lt;/a0&gt;, &lt;a1&gt;_Date_Time_GetFileTime&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&lt;a0&gt;$tagFILETIME&lt;/a0&gt;, &lt;a1&gt;_Date_Time_SetFileTime&lt;/a1&gt;</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160226T002009Z" creationid="orax" creationdate="20160226T002009Z">
@@ -24986,6 +24994,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Handle to the file.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160320T192256Z" creationid="orax" creationdate="20160320T192256Z">
+        <seg>Handle vers le fichier.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Handle to the font to use to draw the string</seg>
@@ -36980,8 +36996,8 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       <tuv lang="en">
         <seg>Retrieves the current local date and time</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160229T192713Z" creationid="orax" creationdate="20160226T002720Z">
-        <seg>Récupère la date et l'heure locale actuelles</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160320T202017Z" creationid="orax" creationdate="20160226T002720Z">
+        <seg>Récupère les date et heure locales actuelles</seg>
       </tuv>
     </tu>
     <tu>
@@ -37741,6 +37757,15 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160219T183729Z" creationid="orax" creationdate="20160219T183729Z">
         <seg>Retourne une structure $tagFILETIME qui reçoit l'heure conventie du fichier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>*</note>
+      <tuv lang="en">
+        <seg>Returns a $tagFILETIME structure with the converted UTC based file time.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160320T183641Z" creationid="orax" creationdate="20160320T183551Z">
+        <seg>Retourne une structure $tagFILETIME avec l'heure du fichier convertie en UTC.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41827,12 +41852,28 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Sets the current local date and time</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160320T201945Z" creationid="orax" creationdate="20160320T201945Z">
+        <seg>Définit les date et heure locales actuelles</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Sets the custom end cap for the pen</seg>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Définit l'embout personnalisé relatif à un crayon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sets the date and time that a file was created, accessed and modified</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160320T192211Z" creationid="orax" creationdate="20160320T192211Z">
+        <seg>Définit la date et l'heure de création, accès et modification d'un fichier</seg>
       </tuv>
     </tu>
     <tu>
@@ -47064,6 +47105,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The file handle must have been created using the CreateFile function with the FILE_WRITE_ATTRIBUTES access right.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160320T192432Z" creationid="orax" creationdate="20160320T192432Z">
+        <seg>Le handle du fichier doit avoir été créé à l'aide de la fonction CreateFile avec le droit d'accès FILE_WRITE_ATTRIBUTES.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The file handle must have been created using the CreateFile function with the GENERIC_READ access right.</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160225T191531Z" creationid="orax" creationdate="20160225T191531Z">
@@ -48090,6 +48139,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Le plus grand nombre qui peut être généré.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The last access time includes the last time the file was written to, read from, or (in the case of executable files) run.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160320T200310Z" creationid="orax" creationdate="20160320T200310Z">
+        <seg>La date de dernier accès inclut la date de dernère écriture, de lecture, ou (dans le cas des fichiers exécutables) d'exécution.</seg>
       </tuv>
     </tu>
     <tu>
@@ -51205,6 +51262,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Therefore, if it is daylight saving time, this function will take daylight saving time into account, even if the time you are converting is in standard time.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160320T184007Z" creationid="orax" creationdate="20160320T183555Z">
+        <seg>Par conséquent, si c'est l'heure d'été, cette fonction prendra en compte l'heure d'été, même si le temps que vous êtes en train de convertir est en heure d'hiver.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>* relire</note>
       <tuv lang="en">
         <seg>Therefore, the &lt;a0&gt;_Date_Time_GetFileTime()&lt;/a0&gt; function may not return the same file time information set using &lt;a1&gt;_Date_Time_SetFileTime()&lt;/a1&gt;.</seg>
@@ -51394,6 +51459,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>This be 0 if the application does not need to set this information.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160320T192624Z" creationid="orax" creationdate="20160320T192624Z">
+        <seg>Ceci est 0 si l'application n'a pas besoin de définir cette information.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>This calls a function accepting no arguments.</seg>
@@ -51418,6 +51491,22 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Ceci peut également être fait dans une boucle while.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This can be 0 if the application does not need to set this information.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160320T200340Z" creationid="orax" creationdate="20160320T200340Z">
+        <seg>Ceci peut être 0 si l'application n'a pas besoin de définir cette information.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This can be 0 if the application does not want to set this information.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160320T200903Z" creationid="orax" creationdate="20160320T200903Z">
+        <seg>Ceci peut être 0 si l'application ne veut pas définir cette information.</seg>
       </tuv>
     </tu>
     <tu>
@@ -51859,6 +51948,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Cette fonction utilise le générateur de nombre aléatoire Mersenne Twister, MT19937, écrit par Takuji Nishimura, Makoto Matsumoto, Shawn Cokus, Matthe Bellew et Isaku Wada.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This function uses the current settings for the time zone and daylight saving time.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160320T183244Z" creationid="orax" creationdate="20160320T183244Z">
+        <seg>Cette fonction utilise les paramètres actuels pour le fuseau horaire et l'heure d'été.</seg>
       </tuv>
     </tu>
     <tu>
@@ -53112,6 +53209,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Pour mettre en pause l'exécution du script jusqu'à ce que le programme soit terminé, utilisez la fonction &lt;a0&gt;ShellExecuteWait()&lt;/a0&gt; à la place.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>To preserve the existing last access time for a file even after accessing a file, call SetFileTime with this parameter set to -1 before closing the file handle.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160320T200544Z" creationid="orax" creationdate="20160320T200544Z">
+        <seg>Pour conserver l'heure du dernier accès existant pour un fichier, même après avoir accédé à ce fichier, appelez SetFileTime avec ce paramètre défini à -1 avant de fermer le handle du fichier.</seg>
       </tuv>
     </tu>
     <tu>
@@ -58218,6 +58323,30 @@ https://www.microsoft.com/Language/fr-fr/Search.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160225T152542Z" creationid="orax" creationdate="20160225T152542Z">
         <seg>une structure $tagFILETIME contenant l'heure du fichier à convertir au format de date et d'heure système ou un pointeur vers elle.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>a $tagFILETIME structure that contains the new date and time the file was created.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160320T192545Z" creationid="orax" creationdate="20160320T192545Z">
+        <seg>une structure $tagFILETIME qui contient les nouvelles date et heure du fichier qui a été créé.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>a $tagFILETIME structure that contains the new date and time the file was last accessed.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160320T192716Z" creationid="orax" creationdate="20160320T192716Z">
+        <seg>une structure $tagFILETIME qui contient les nouvelles date et heure du fichier qui a été accédé.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>a $tagFILETIME structure that contains the new date and time the file was last written to.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160320T200834Z" creationid="orax" creationdate="20160320T200834Z">
+        <seg>une structure $tagFILETIME qui contient les nouvelles date et heure du fichier qui a été écrit.</seg>
       </tuv>
     </tu>
     <tu>
