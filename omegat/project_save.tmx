@@ -6331,6 +6331,22 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;a0&gt;$tagSYSTEMTIME&lt;/a0&gt;, &lt;a1&gt;_Date_Time_GetSystemTime&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160320T225012Z" creationid="orax" creationdate="20160320T225012Z">
+        <seg>&lt;a0&gt;$tagSYSTEMTIME&lt;/a0&gt;, &lt;a1&gt;_Date_Time_GetSystemTime&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>&lt;a0&gt;$tagSYSTEMTIME&lt;/a0&gt;, &lt;a1&gt;_Date_Time_GetTimeZoneInformation&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160321T003303Z" creationid="orax" creationdate="20160321T003303Z">
+        <seg>&lt;a0&gt;$tagSYSTEMTIME&lt;/a0&gt;, &lt;a1&gt;_Date_Time_GetTimeZoneInformation&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&lt;a0&gt;$tagSYSTEMTIME&lt;/a0&gt;, &lt;a1&gt;_Date_Time_SetLocalTime&lt;/a1&gt;</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160226T174425Z" creationid="orax" creationdate="20160226T174425Z">
@@ -7976,6 +7992,22 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>A $tagSYSTEMTIME structure that contains a date and local time when the transition from daylight saving time to standard time occurs.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160321T002509Z" creationid="orax" creationdate="20160321T002509Z">
+        <seg>Une structure $tagSYSTEMTIME qui contient une date et une heure locale lorsque le passage à l'heure d'hiver se produit.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>A $tagSYSTEMTIME structure that contains a date and local time when the transition from standard time to daylight saving time occurs.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160321T003230Z" creationid="orax" creationdate="20160321T003230Z">
+        <seg>Une structure $tagSYSTEMTIME qui contient une date et une heure locale lorsque le passage heure d'hiver à l'heure d'été se produit.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>A -1 for left or top parameter don't increment the start.</seg>
@@ -8711,6 +8743,28 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Une valeur de 2 va seulement vérifier un pixel sur deux.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>? Garder la virgule ?</note>
+      <tuv lang="en">
+        <seg>A value of False specifies that periodic time adjustment is to be enabled, and will be used to adjust the time of day clock.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160321T001836Z" creationid="orax" creationdate="20160321T001400Z">
+        <seg>Une valeur False spécifie qu'un ajustement périodique du temps doit être activé, et qu'il servira à ajuster l'horloge machine.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>Ne pas mettre "Une valeur **de** True"
+
+&gt; Retour d'une valeur True ou False pour une stratégie
+
+https://msdn.microsoft.com/fr-fr/library/aa995565.aspx</note>
+      <tuv lang="en">
+        <seg>A value of True specifies that periodic time adjustment is to be disabled.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160321T000713Z" creationid="orax" creationdate="20160321T000713Z">
+        <seg>Une valeur True indique que l'ajustement périodique du temps doit être désactivé.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21263,6 +21317,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>            </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Enables or disables periodic time adjustments to the system's time of day clock</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160321T000451Z" creationid="orax" creationdate="20160321T000451Z">
+        <seg>Active ou désactive les ajustements périodiques de l'heure pour l'horloge machine du sytème</seg>
       </tuv>
     </tu>
     <tu>
@@ -37022,8 +37084,8 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       <tuv lang="en">
         <seg>Retrieves the current system date and time expressed in UTC</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160229T192729Z" creationid="orax" creationdate="20160226T222054Z">
-        <seg>Récupère la date et l'heure actuelles du système exprimées en UTC</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160320T224819Z" creationid="orax" creationdate="20160226T222054Z">
+        <seg>Récupère les date et heure actuelles du système exprimées en UTC</seg>
       </tuv>
     </tu>
     <tu>
@@ -41868,6 +41930,25 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <note>&gt; Insérer les date et heure de création, de dernière impression ou de dernier enregistrement d’un document
+
+https://support.office.com/fr-fr/article/Ins%C3%A9rer-les-date-et-heure-de-cr%C3%A9ation-de-derni%C3%A8re-impression-ou-de-dernier-enregistrement-d-un-document-a2c4e3cc-b096-4c50-9395-5dca9f3beed1</note>
+      <tuv lang="en">
+        <seg>Sets the current system time and date, expressed in UTC</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160320T224740Z" creationid="orax" creationdate="20160320T224740Z">
+        <seg>Définit les date et heure actuelles du système, exprimées en UTC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Sets the current time zone settings</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160321T002107Z" creationid="orax" creationdate="20160321T002107Z">
+        <seg>Définit les paramètres de fuseau horaire actuels</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Sets the custom end cap for the pen</seg>
@@ -45441,6 +45522,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>The SetLocalTime function enables the SE_SYSTEMTIME_NAME privilege before changing the local time</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160320T224915Z" creationid="orax" creationdate="20160320T224915Z">
+        <seg>La fonction SetLocalTime active le privilège SE_SYSTEMTIME_NAME avant de changer l'heure locale</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>The Smoothing filter applied using an 8 X 8 box filter requires at minimum the Windows Vista operating system.</seg>
@@ -46150,6 +46239,22 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>The bias value to be used during local time translation that occur during daylight saving time.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160321T003301Z" creationid="orax" creationdate="20160321T003301Z">
+        <seg>La valeur de décalage à utiliser lors du changement d'heure locale qui se produit pendant l'heure d'été.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The bias value to be used during local time translations that occur during standard time.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160321T002554Z" creationid="orax" creationdate="20160321T002554Z">
+        <seg>La valeur de décalage à utiliser lors du changement d'heure locale qui se produit pendant l'heure d'hiver.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>The binary data to evaluate.</seg>
@@ -46555,6 +46660,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>The current bias for local time translation on this computer.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160321T002255Z" creationid="orax" creationdate="20160321T002255Z">
+        <seg>Le décalage actuel pour l'heure locale sur cet ordinateur.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>The data can either be a string or an array.</seg>
@@ -46767,6 +46880,22 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Le verbe par défaut est le verbe configuré dans le Registre.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The description for daylight saving time</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160321T002604Z" creationid="orax" creationdate="20160321T002604Z">
+        <seg>La description pour l'heure d'été</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The description for standard time</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160321T002618Z" creationid="orax" creationdate="20160321T002302Z">
+        <seg>La description pour l'heure d'hiver</seg>
       </tuv>
     </tu>
     <tu>
@@ -48652,6 +48781,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>The number of 100 nanosecond units added to the time of day clock at each clock interrupt if periodic time adjustment is enabled.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160321T000635Z" creationid="orax" creationdate="20160321T000635Z">
+        <seg>Le nombre d'unités de 100 nanosecondes ajoutées à l'horloge machine à chaque interruption d'horloge si le réglage périodique de l'heure est actif.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>The number of bytes read is returned using the @extended macro.</seg>
@@ -50010,12 +50147,45 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>The system is free to adjust time of day using its own internal mechanisms.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160321T000850Z" creationid="orax" creationdate="20160321T000850Z">
+        <seg>Le système est libre de régler l'heure jour à l'aide de ses propres mécanismes internes.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>The system keeps a serial number for the clipboard for each window station.</seg>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Le système conserve un numéro de série pour le presse-papiers pour chaque station de fenêtre.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The system will add the value of $iAdjustment to the time of day at each clock interrupt.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160321T001935Z" creationid="orax" creationdate="20160321T001935Z">
+        <seg>Le système ajoutera la valeur de $iAdjustment à l'heure du jour à chaque interruption d'horhorloge.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>? Garder la virgule ?</note>
+      <tuv lang="en">
+        <seg>The system will not interfere with the time adjustment scheme, and will not attempt to synchronize time of day on its own.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160321T001801Z" creationid="orax" creationdate="20160321T001801Z">
+        <seg>Le système n'interférera pas avec le modèle de réglage du temps, et ne va pas tenter de synchroniser l'heure de la journée sur son propre.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The system's internal adjustment mechanisms may cause the time-of-day clock to jump noticeably when adjustments are made.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160321T001221Z" creationid="orax" creationdate="20160321T001221Z">
+        <seg>Les mécanismes de réglage interne du système peuvent faire sauter sensiblement l'horloge machine lorsque les réglages sont effectués.</seg>
       </tuv>
     </tu>
     <tu>
@@ -58432,6 +58602,14 @@ https://www.microsoft.com/Language/fr-fr/Search.aspx</note>
         <seg>a $tagSYSTEMTIME structure that contains the new local date and time or a pointer to it</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160320T203426Z" creationid="orax" creationdate="20160320T203426Z">
+        <seg>une structure $tagSYSTEMTIME qui contient les nouvelles date et heure locales ou un pointeur vers elle.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>a $tagSYSTEMTIME structure that contains the new system date and time or a pointer to it</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160320T224743Z" creationid="orax" creationdate="20160320T224743Z">
         <seg>une structure $tagSYSTEMTIME qui contient les nouvelles date et heure locales ou un pointeur vers elle.</seg>
       </tuv>
     </tu>
