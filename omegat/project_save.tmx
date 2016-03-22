@@ -6355,6 +6355,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>&lt;a0&gt;$tagSYSTEMTIME&lt;/a0&gt;, &lt;a1&gt;$tagTIME_ZONE_INFORMATION&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160322T162145Z" creationid="orax" creationdate="20160322T162145Z">
+        <seg>&lt;a0&gt;$tagSYSTEMTIME&lt;/a0&gt;, &lt;a1&gt;$tagTIME_ZONE_INFORMATION&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>&lt;a0&gt;$tagSYSTEMTIME&lt;/a0&gt;, &lt;a1&gt;_Date_Time_EncodeFileTime&lt;/a1&gt;</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160219T185302Z" creationid="orax" creationdate="20160219T185302Z">
@@ -7688,8 +7696,8 @@
       <tuv lang="en">
         <seg>&lt;s0&gt;[optional]&lt;/s0&gt;</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20151231T193012Z">
-        <seg>&lt;s0&gt;[optional]&lt;/s0&gt;</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160322T161907Z">
+        <seg>&lt;s0&gt;[optionnel]&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -15601,6 +15609,14 @@ https://msdn.microsoft.com/fr-fr/library/aa995565.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Convert system time to local time</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160322T162305Z" creationid="orax" creationdate="20160322T162305Z">
+        <seg>Convertit une heure système en une heure locale</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Convert the ANSI compatible binary string back into a string.</seg>
@@ -15770,6 +15786,14 @@ https://msdn.microsoft.com/fr-fr/library/aa995565.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Converts a UTC time to a specified time zone's corresponding local time</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160322T161732Z" creationid="orax" creationdate="20160322T161732Z">
+        <seg>Convertit une heure UTC en heure locale qui correspond au fuseau horaire spécifié</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Converts a binary variant into a string.</seg>
@@ -15811,6 +15835,14 @@ https://msdn.microsoft.com/fr-fr/library/aa995565.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160319T193942Z" creationid="orax" creationdate="20160319T193942Z">
         <seg>Convertit l'heure locale d'un fichier vers une'heure basée sur UTC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Converts a local time to a time in UTC</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160322T162430Z" creationid="orax" creationdate="20160322T162430Z">
+        <seg>Convertit une heure locale en une heure UTC</seg>
       </tuv>
     </tu>
     <tu>
@@ -26000,6 +26032,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>If 0, the function uses the currently active time zone.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160322T162133Z" creationid="orax" creationdate="20160322T162133Z">
+        <seg>Si 0, la fonction utilise le fuseau horaire actuellement actif.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>If &lt;a0&gt;Break()&lt;/a0&gt; is disabled (0), then the user cannot terminate the script this way.</seg>
@@ -28974,6 +29014,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Initial date in the format YYYY/MM/DD[ HH:MM:SS]</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160322T163248Z" creationid="orax" creationdate="20160322T163248Z">
+        <seg>Date d'entrée dans le format AAAA/MM/DD [hh]</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Initial directory selected in the GUI file tree.</seg>
@@ -30370,6 +30418,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Chemin local du fichier à télécharger.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Local time to system time .:</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160322T162414Z" creationid="orax" creationdate="20160322T162414Z">
+        <seg>Heure locale en heure système . :</seg>
       </tuv>
     </tu>
     <tu>
@@ -38096,6 +38152,22 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Returns a $tagSYSTEMTIME structure containing the local time.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160322T162143Z" creationid="orax" creationdate="20160322T162143Z">
+        <seg>Retourne une structure $tagSYSTEMTIME contenant l'heure locale.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Returns a $tagSYSTEMTIME structure containing the time in UTC.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160322T162819Z" creationid="orax" creationdate="20160322T162632Z">
+        <seg>Retourne une structure $tagSYSTEMTIME contenant l'heure en UTC.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Returns a $tagSYSTEMTIME structure that contains the converted file time.</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160225T152701Z" creationid="orax" creationdate="20160225T152701Z">
@@ -44891,6 +44963,14 @@ https://support.office.com/fr-fr/article/Ins%C3%A9rer-les-date-et-heure-de-cr%C3
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>System time to local time .:</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160322T162349Z" creationid="orax" creationdate="20160322T162349Z">
+        <seg>Heure système en heure locale . :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>System time zone cannot be SET</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160321T004330Z" creationid="orax" creationdate="20160321T004330Z">
@@ -47927,6 +48007,22 @@ https://support.office.com/fr-fr/article/Ins%C3%A9rer-les-date-et-heure-de-cr%C3
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>La fonction aplatit aussi le tracé.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The function converts this time to the corresponding UTC time.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160322T162532Z" creationid="orax" creationdate="20160322T162532Z">
+        <seg>La fonction convertit cette heure à l'heure UTC correspondante.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The function converts this time to the specified time zone's local time.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160322T161845Z" creationid="orax" creationdate="20160322T161845Z">
+        <seg>La fonction convertit cette heure en heure locale du fuseau horaire spécifié.</seg>
       </tuv>
     </tu>
     <tu>
@@ -58857,10 +58953,35 @@ https://www.microsoft.com/Language/fr-fr/Search.aspx</note>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>a $tagSYSTEMTIME structure that specifies a local time or a pointer to it.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160322T162444Z" creationid="orax" creationdate="20160322T162444Z">
+        <seg>une structure $tagSYSTEMTIME qui spécifie une heure locale ou un pointeur vers elle.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>a $tagSYSTEMTIME structure that specifies a time in UTC or a pointer to it.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160322T161748Z" creationid="orax" creationdate="20160322T161748Z">
+        <seg>une structure $tagSYSTEMTIME qui spécifie une heure UTC ou un pointeur vers elle.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>a $tagSYSTEMTIME structure to be converted or a pointer to it.</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160321T010403Z" creationid="orax" creationdate="20160321T010403Z">
         <seg>une structure $tagSYSTEMTIME à convertir ou un pointeur vers elle.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>* of interest</note>
+      <tuv lang="en">
+        <seg>a $tagTIME_ZONE_INFORMATION structure that specifies the time zone of interest or a pointer to it.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160322T162504Z" creationid="orax" creationdate="20160322T162122Z">
+        <seg>une structure $tagTIME_ZONE_INFORMATION qui spécifie le fuseau horaire ou d'un pointeur vers elle.</seg>
       </tuv>
     </tu>
     <tu>
