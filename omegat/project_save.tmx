@@ -419,6 +419,30 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>"yyyy-mm-dd[ hh:mm[:ss]]" or "yyyy-mm-dd[Thh:mm[:ss]]"</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T221050Z" creationid="orax" creationdate="20160325T220619Z">
+        <seg>« aaaa-mm-jj[ hh:mm[:ss]] » ou « aaaa-mm-jj[Thh:mm[:ss]] »</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>"yyyy.mm.dd[ hh:mm[:ss]]" or "yyyy.mm.dd[Thh:mm[:ss]]"</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T221039Z" creationid="orax" creationdate="20160325T220620Z">
+        <seg>« aaaa.mm.jj[ hh:mm[:ss]] » ou « aaaa.mm.jj[Thh:mm[:ss]] »</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>"yyyy/mm/dd[ hh:mm[:ss]]" or "yyyy/mm/dd[Thh:mm[:ss]]"</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T221003Z" creationid="orax" creationdate="20160325T220616Z">
+        <seg>« aaaa/mm/jj[ hh:mm[:ss]] » ou « aaaa/mm/jj[Thh:mm[:ss]] »</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>"|" is the default</seg>
@@ -659,6 +683,38 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>$CF_WAVE - Représente les données audio au format WAVE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>$DMW_LOCALE_LONGNAME (2) - Long name of the weekday in the user's default language</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T210323Z" creationid="orax" creationdate="20160325T210253Z">
+        <seg>$DMW_LOCALE_LONGNAME (2) - Nom long du jour de la semaine dans la langue par défaut de l'utilisateur</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>$DMW_LOCALE_SHORTNAME (3) - Short name of the weekday in the user's default language</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T210339Z" creationid="orax" creationdate="20160325T210321Z">
+        <seg>$DMW_LOCALE_SHORTNAME (3) - Nom court du jour de la semaine dans la langue par défaut de l'utilisateur</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>$DMW_LOCALE_USER (0) - Long name of the weekday (Default)</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T210216Z" creationid="orax" creationdate="20160325T204028Z">
+        <seg>$DMW_LOCALE_USER (0) - Nom long du jour de la semaine (par défaut)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>$DMW_SHORTNAME (1) - Short name of the weekday e.g.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T210139Z" creationid="orax" creationdate="20160325T204043Z">
+        <seg>$DMW_SHORTNAME (1) - Nom court du jour de la semaine, p. ex.</seg>
       </tuv>
     </tu>
     <tu>
@@ -1413,6 +1469,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>(</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T211530Z" creationid="orax" creationdate="20160325T211530Z">
+        <seg>(</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>("Next" for a newly opened file is initially the first line.)</seg>
@@ -1788,6 +1852,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>(rien de spécial)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>)</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T211531Z" creationid="orax" creationdate="20160325T211531Z">
+        <seg>)</seg>
       </tuv>
     </tu>
     <tu>
@@ -2217,6 +2289,22 @@
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160108T204839Z" creationid="orax" creationdate="20160108T204839Z">
         <seg>.au3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>/</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T221112Z" creationid="orax" creationdate="20160325T221112Z">
+        <seg>/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>/01/01 00:00:00</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T215529Z" creationid="orax" creationdate="20160325T215529Z">
+        <seg>/01/01 00:00:00</seg>
       </tuv>
     </tu>
     <tu>
@@ -3034,6 +3122,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>0 if the specified date is not valid.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T220337Z" creationid="orax" creationdate="20160325T220337Z">
+        <seg>0 si la date spécifiée n'est pas valide.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>0 if the wait timed out.</seg>
@@ -3058,6 +3154,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Retourne 0 si la fenêtre n'existe pas.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>0 if the year is not a leap year and sets the @error flag to non-zero.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T220126Z" creationid="orax" creationdate="20160325T220126Z">
+        <seg>0 si l'année n'est pas une année bissextile et met @error &lt;&gt; 0.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3721,6 +3825,30 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>1 - Invalid month number or year.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T213250Z" creationid="orax" creationdate="20160325T213250Z">
+        <seg>1 - Numéro du mois ou année non valide.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>1 - Invalid weekday number.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T210514Z" creationid="orax" creationdate="20160325T210514Z">
+        <seg>1 - Numéro du jour non valide.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>1 - Invalid year.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T220135Z" creationid="orax" creationdate="20160325T220135Z">
+        <seg>1 - Année non valide.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>1 - No fractional component</seg>
@@ -3983,8 +4111,8 @@
       <tuv lang="en">
         <seg>1 = Sunday</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160325T172955Z" creationid="orax" creationdate="20160325T172955Z">
-        <seg>1 = dimanche</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160325T205655Z" creationid="orax" creationdate="20160325T172955Z">
+        <seg>1 = Sunday / dimanche</seg>
       </tuv>
     </tu>
     <tu>
@@ -4308,12 +4436,11 @@
       </tuv>
     </tu>
     <tu>
-      <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>1.</seg>
       </tuv>
-      <tuv lang="fr" changeid="mdanielm">
-        <seg>Retourne 1 si la fenêtre existe.</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160325T215925Z">
+        <seg>1.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4878,6 +5005,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>2 - Invalid $sStartDate</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T214422Z" creationid="orax" creationdate="20160325T214422Z">
+        <seg>2 - $sStartDate non valide</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>2 - RGB hex</seg>
@@ -5050,8 +5185,8 @@
       <tuv lang="en">
         <seg>2 = Monday</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160325T172956Z" creationid="orax" creationdate="20160325T172956Z">
-        <seg>2 = lundi</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160325T205643Z" creationid="orax" creationdate="20160325T172956Z">
+        <seg>2 = Monday / lundi</seg>
       </tuv>
     </tu>
     <tu>
@@ -5409,6 +5544,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>3 - Invalid $sEndDate</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T214428Z" creationid="orax" creationdate="20160325T214428Z">
+        <seg>3 - $sEndDate non valide</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>3 - The COM error handler is already disabled</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160111T001838Z" creationid="orax" creationdate="20160111T001838Z">
@@ -5500,8 +5643,8 @@
       <tuv lang="en">
         <seg>3 = Tuesday</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160325T172956Z" creationid="orax" creationdate="20160325T172956Z">
-        <seg>3 = mardi</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160325T205700Z" creationid="orax" creationdate="20160325T172956Z">
+        <seg>3 = Tuesday / mardi</seg>
       </tuv>
     </tu>
     <tu>
@@ -5816,8 +5959,8 @@
       <tuv lang="en">
         <seg>4 = Wednesday</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160325T173008Z" creationid="orax" creationdate="20160325T173008Z">
-        <seg>4 = mercredi</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160325T205703Z" creationid="orax" creationdate="20160325T173008Z">
+        <seg>4 = Wednesday / mercredi</seg>
       </tuv>
     </tu>
     <tu>
@@ -5845,6 +5988,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>4 % 7 = 4 car le diviseur &gt; dividende</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>4-digit year.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T211628Z" creationid="orax" creationdate="20160325T211628Z">
+        <seg>Année sur 4 chiffres.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6019,8 +6170,8 @@
       <tuv lang="en">
         <seg>5 = Thursday</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160325T173010Z" creationid="orax" creationdate="20160325T173010Z">
-        <seg>5 = jeudi</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160325T205707Z" creationid="orax" creationdate="20160325T173010Z">
+        <seg>5 = Thursday / jeudi</seg>
       </tuv>
     </tu>
     <tu>
@@ -6143,8 +6294,8 @@
       <tuv lang="en">
         <seg>6 = Friday</seg>
       </tuv>
-      <tuv lang="fr" changeid="orax" changedate="20160325T173015Z" creationid="orax" creationdate="20160325T173015Z">
-        <seg>6 = vendredi</seg>
+      <tuv lang="fr" changeid="orax" changedate="20160325T205711Z" creationid="orax" creationdate="20160325T173015Z">
+        <seg>6 = Friday / vendredi</seg>
       </tuv>
     </tu>
     <tu>
@@ -6208,6 +6359,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>7 - $vValeur n'est pas un tableau 2D (2D uniquement)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>7 = Saturday</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T205719Z" creationid="orax" creationdate="20160325T204001Z">
+        <seg>7 = Saturday / samedi</seg>
       </tuv>
     </tu>
     <tu>
@@ -10203,6 +10362,14 @@ https://msdn.microsoft.com/fr-fr/library/aa995565.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>An empty string and sets @error to non-zero</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T210450Z" creationid="orax" creationdate="20160325T210450Z">
+        <seg>Une chaîne vide et met @error &lt;&gt; 0.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>An error occurred reading the current script file.</seg>
@@ -12693,6 +12860,23 @@ https://msdn.microsoft.com/fr-fr/library/aa995565.aspx</note>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Calculated the number of Hours this year</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T215625Z" creationid="orax" creationdate="20160325T215525Z">
+        <seg>Calcule le nombre d'heures pour l'année en cours</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>https://fr.wikipedia.org/wiki/Epoch</note>
+      <tuv lang="en">
+        <seg>Calculated the number of seconds since EPOCH (1970/01/01 00:00:00)</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T215406Z" creationid="orax" creationdate="20160325T215406Z">
+        <seg>Calcule le nombre de secondes depuis l'EPOCH (1970/01/01 00:00:00)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Calculates a new date/time by adding/subtracting a specified number of time intervals from an initial date/time</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160325T010752Z" creationid="orax" creationdate="20160325T004555Z">
@@ -13834,6 +14018,14 @@ https://msdn.microsoft.com/fr-fr/library/aa995565.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Checks a given year to see if it is a leap year</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T215852Z" creationid="orax" creationdate="20160325T215852Z">
+        <seg>Vérifie si une année donnée est une année bissextile</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Checks an item (if the item supports it).</seg>
@@ -14074,6 +14266,14 @@ https://msdn.microsoft.com/fr-fr/library/aa995565.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Coche le contrôle type CheckBox ou RadioBox</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Checks the given date to determine if it is a valid date</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T220228Z" creationid="orax" creationdate="20160325T220228Z">
+        <seg>Vérifie la date donnée pour déterminer si c'est une date valide</seg>
       </tuv>
     </tu>
     <tu>
@@ -18120,6 +18320,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>D = Difference in days between the given dates</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T213757Z" creationid="orax" creationdate="20160325T213640Z">
+        <seg>D = Différence en jours entre les dates données</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>DELETE</seg>
@@ -18306,6 +18514,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Day of Week</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T211435Z" creationid="orax" creationdate="20160325T211435Z">
+        <seg>Jour de la semaine</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Day of week ..:</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160321T004808Z" creationid="orax" creationdate="20160321T004808Z">
@@ -18334,6 +18550,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160319T192621Z" creationid="orax" creationdate="20160319T192520Z">
         <seg>Nom pour l'heure d'été....... :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Days in Month</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T213314Z" creationid="orax" creationdate="20160325T213314Z">
+        <seg>Les jours dans le mois</seg>
       </tuv>
     </tu>
     <tu>
@@ -19656,6 +19880,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Dialog - Référence</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Difference between the 2 dates.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T214412Z" creationid="orax" creationdate="20160325T214412Z">
+        <seg>Différence entre les 2 dates.</seg>
       </tuv>
     </tu>
     <tu>
@@ -23684,6 +23916,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Formate la sortie.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Format:</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T204005Z" creationid="orax" creationdate="20160325T204005Z">
+        <seg>Format :</seg>
       </tuv>
     </tu>
     <tu>
@@ -29300,6 +29540,22 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Input End date in the format "YYYY/MM/DD[ HH:MM:SS]"</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T214401Z" creationid="orax" creationdate="20160325T214401Z">
+        <seg>Entrez la date de fin dans le format « AAAA/MM/JJ[ HH:MM:SS] »</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Input Start date in the format "YYYY/MM/DD[ HH:MM:SS]"</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T214109Z" creationid="orax" creationdate="20160325T214109Z">
+        <seg>Entrez la date de début dans le format « AAAA/MM/JJ[ HH:MM:SS] »</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Input from functions like &lt;a0&gt;Send()&lt;/a0&gt; or &lt;a1&gt;MouseMove()&lt;/a1&gt; still work.</seg>
@@ -30171,6 +30427,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Leap Year</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T220143Z" creationid="orax" creationdate="20160325T220143Z">
+        <seg>Année bissextile</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Left</seg>
@@ -30676,6 +30940,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160325T011441Z" creationid="orax" creationdate="20160325T011356Z">
         <seg>M - Ajoute/soustrait des mois à la date spécifiée</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>M = Difference in months between the given dates</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T213816Z" creationid="orax" creationdate="20160325T213816Z">
+        <seg>M = Différence en mois entre les dates données</seg>
       </tuv>
     </tu>
     <tu>
@@ -31349,6 +31621,15 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <note>NE PAS traduire "Mon". Le paramètre $DMW_SHORTNAME renverra forcément le nom court en anglais.</note>
+      <tuv lang="en">
+        <seg>Mon</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T205931Z" creationid="orax" creationdate="20160325T204045Z">
+        <seg>Mon</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Monitors user defined functions Reference</seg>
@@ -31371,6 +31652,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160321T004946Z" creationid="orax" creationdate="20160321T004723Z">
         <seg>Mois ............... :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Month number (1 = January, 12 = December).</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T211711Z" creationid="orax" creationdate="20160325T211711Z">
+        <seg>Numéro du mois (1 = janvier, 12 = décembre).</seg>
       </tuv>
     </tu>
     <tu>
@@ -32764,6 +33053,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Number of Hours this year:</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T215651Z" creationid="orax" creationdate="20160325T215618Z">
+        <seg>Nombre d'heures pour l'année en cours :</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Number of bits to shift to the right (negative numbers shift left).</seg>
@@ -32814,6 +33111,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160325T011844Z" creationid="orax" creationdate="20160325T011844Z">
         <seg>Nombre d'intervalles à être ajoutés/soustraits (utilisez le moins unaire pour la soustraction)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Number of seconds since EPOCH:</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T215423Z" creationid="orax" creationdate="20160325T215423Z">
+        <seg>Nombre de secondes depuis l'EPOCH :</seg>
       </tuv>
     </tu>
     <tu>
@@ -33039,6 +33344,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Un caractère à mesurer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>One of the following:</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T213648Z" creationid="orax" creationdate="20160325T213648Z">
+        <seg>Un des suivants :</seg>
       </tuv>
     </tu>
     <tu>
@@ -37035,6 +37348,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Retrieve the abbreviated name</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T211429Z" creationid="orax" creationdate="20160325T211335Z">
+        <seg>Récupère le nom abrégé</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Retrieve the character position of where the string 'white' first occurs in the sentence.</seg>
@@ -37185,6 +37506,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Récupére la longueur d'une chaîne.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Retrieve the long name</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T211332Z" creationid="orax" creationdate="20160325T211332Z">
+        <seg>Récupère le nom long</seg>
       </tuv>
     </tu>
     <tu>
@@ -39117,6 +39446,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Returns the difference between 2 dates, expressed in the type requested</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T213548Z" creationid="orax" creationdate="20160325T213548Z">
+        <seg>Retourne la différence entre 2 dates, exprimée dans le type demandé</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Returns the difference in time from a previous call to TimerInit().</seg>
@@ -39401,6 +39738,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Retourne le nombre de sous-éléments pour un élément sélectionné.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Returns the number of days in a month, based on the specified month and year</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T211552Z" creationid="orax" creationdate="20160325T211552Z">
+        <seg>Retourne le nombre de jours dans un mois, basé sur le mois spécifié et l'année</seg>
       </tuv>
     </tu>
     <tu>
@@ -40644,6 +40989,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160325T013108Z" creationid="orax" creationdate="20160325T013108Z">
         <seg>Voir &lt;a0&gt;_DateTimeSplit()&lt;/a0&gt; pour d'autres variations possibles du format de la date d'entrée.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>See &lt;a0&gt;_DateTimeSplit()&lt;/a0&gt; for other possible variations of the start and end date formats.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T215001Z" creationid="orax" creationdate="20160325T215001Z">
+        <seg>Voir &lt;a0&gt;_DateTimeSplit()&lt;/a0&gt; pour d'autres variations possibles concernant les formats des dates de début et de fin.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45807,6 +46160,14 @@ https://support.office.com/fr-fr/article/Ins%C3%A9rer-les-date-et-heure-de-cr%C3
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>The 4-digit year to check.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T215914Z" creationid="orax" creationdate="20160325T215914Z">
+        <seg>L'année sur 4 chiffres à vérifier.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>The &lt;a0&gt;BinaryToString()&lt;/a0&gt; function can be used to convert the data to a string.</seg>
@@ -47240,6 +47601,14 @@ https://support.office.com/fr-fr/article/Ins%C3%A9rer-les-date-et-heure-de-cr%C3
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>The date to be checked.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T220328Z" creationid="orax" creationdate="20160325T220256Z">
+        <seg>La date à vérifier.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>The decrypted data is always returned as a binary string even if the encrypted data is in fact a string (cast with &lt;a0&gt;BinaryToString()&lt;/a0&gt;).</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160114T210920Z" creationid="orax" creationdate="20151231T194344Z">
@@ -48243,6 +48612,14 @@ https://support.office.com/fr-fr/article/Ins%C3%A9rer-les-date-et-heure-de-cr%C3
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>La fonction retourne une valeur seulement en cas de succès.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The function returns weekday names in English or the user's default language.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T211216Z" creationid="orax" creationdate="20160325T210525Z">
+        <seg>La fonction retourne les noms des jours de la semaine en anglais ou dans la langue par défaut de l'utilisateur.</seg>
       </tuv>
     </tu>
     <tu>
@@ -50424,6 +50801,22 @@ https://support.office.com/fr-fr/article/Ins%C3%A9rer-les-date-et-heure-de-cr%C3
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Les séquences spéciales ci-dessous sont utilisés pour représenter certains caractères littéralement.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The specified date is invalid.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T221131Z" creationid="orax" creationdate="20160325T221131Z">
+        <seg>La date spécifiée est non valide.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>The specified date is valid.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T221122Z" creationid="orax" creationdate="20160325T221122Z">
+        <seg>La date spécifiée est valide.</seg>
       </tuv>
     </tu>
     <tu>
@@ -52651,6 +53044,14 @@ https://support.office.com/fr-fr/article/Ins%C3%A9rer-les-date-et-heure-de-cr%C3
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>This function takes a date input in one of the following formats:</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T220612Z" creationid="orax" creationdate="20160325T220612Z">
+        <seg>Cette fonction prend en entrée une date dans l'un des formats suivants :</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>This function uses more memory than &lt;a0&gt;_SQLite_Query()&lt;/a0&gt; / _SQLite_Fetch*()... but it's faster.</seg>
@@ -52925,6 +53326,14 @@ https://support.office.com/fr-fr/article/Ins%C3%A9rer-les-date-et-heure-de-cr%C3
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Cela signifie que le processus AutoIt sera arrêté, et il n'y aura pas de traitement de raccourcis clavier, ni des messages de la GUI, etc...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This month has</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T213512Z" creationid="orax" creationdate="20160325T213329Z">
+        <seg>Ce mois a</seg>
       </tuv>
     </tu>
     <tu>
@@ -53283,6 +53692,22 @@ https://support.office.com/fr-fr/article/Ins%C3%A9rer-les-date-et-heure-de-cr%C3
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Ce code piège toutes les erreurs COM pendant l'exécution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This year is a leap year.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T220154Z" creationid="orax" creationdate="20160325T220154Z">
+        <seg>Cette année est une année bissextile.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>This year is not a leap year.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T220210Z" creationid="orax" creationdate="20160325T220210Z">
+        <seg>Cette année n'est pas une année bissextile.</seg>
       </tuv>
     </tu>
     <tu>
@@ -54300,6 +54725,14 @@ https://support.office.com/fr-fr/article/Ins%C3%A9rer-les-date-et-heure-de-cr%C3
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160325T013138Z" creationid="orax" creationdate="20160325T013138Z">
         <seg>Aujourd'hui + 5 jours :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Today is:</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T211528Z" creationid="orax" creationdate="20160325T211528Z">
+        <seg>Aujourd'hui, nous sommes le :</seg>
       </tuv>
     </tu>
     <tu>
@@ -55944,12 +56377,29 @@ Voir la recommandation de Microsoft à ce sujet.</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Valid Date</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T221117Z" creationid="orax" creationdate="20160325T221117Z">
+        <seg>Date valide</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Valid Types are:</seg>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Les types valides sont:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>Ne pas mettre de point à la fin.</note>
+      <tuv lang="en">
+        <seg>Valid dates must be between "2000/01/01 00:00:00".</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T214603Z" creationid="orax" creationdate="20160325T214523Z">
+        <seg>Les dates valides doivent être comprises entre « 2000/01/01 00:00:00 »</seg>
       </tuv>
     </tu>
     <tu>
@@ -56399,6 +56849,14 @@ Voir la recommandation de Microsoft à ce sujet.</note>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Nous avons construit le tableau spécial, maintenant, appelons la fonction</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Weekday name</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T210359Z" creationid="orax" creationdate="20160325T210359Z">
+        <seg>Nom du jour de la semaine</seg>
       </tuv>
     </tu>
     <tu>
@@ -58286,6 +58744,14 @@ Voir la recommandation de Microsoft à ce sujet.</note>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160325T011446Z" creationid="orax" creationdate="20160325T011357Z">
         <seg>Y - Ajoute/soustrait des années à la date spécifiée</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Y = Difference in years between the given dates</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T213849Z" creationid="orax" creationdate="20160325T213819Z">
+        <seg>Y = Différence en années entre les dates données</seg>
       </tuv>
     </tu>
     <tu>
@@ -60529,6 +60995,15 @@ Le code de hachage du fichier, pour un certain algorithme, est censé être uniq
       </tuv>
     </tu>
     <tu>
+      <note>Ajouter un point.</note>
+      <tuv lang="en">
+        <seg>and "3000/12/31 23:59:59"</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T214625Z" creationid="orax" creationdate="20160325T214558Z">
+        <seg>et « 3000/12/31 23:59:59 ».</seg>
+      </tuv>
+    </tu>
+    <tu>
       <tuv lang="en">
         <seg>and "3000/12/31 23:59:59".</seg>
       </tuv>
@@ -61480,6 +61955,14 @@ Le code de hachage du fichier, pour un certain algorithme, est censé être uniq
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>days in it.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T213425Z" creationid="orax" creationdate="20160325T213425Z">
+        <seg>jours.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>decrease each color (RGB) level by 50% (darken)</seg>
@@ -62254,10 +62737,26 @@ Le code de hachage du fichier, pour un certain algorithme, est censé être uniq
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>h</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T215527Z" creationid="orax" creationdate="20160325T215527Z">
+        <seg>h</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>h - Add/subtract hours to/from the specified date</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160325T011434Z" creationid="orax" creationdate="20160325T011400Z">
         <seg>h - Ajoute/soustrait des heures à la date spécifiée</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>h = Difference in hours between the given dates</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T213910Z" creationid="orax" creationdate="20160325T213832Z">
+        <seg>h = Différence en heures entre les dates données</seg>
       </tuv>
     </tu>
     <tu>
@@ -62652,6 +63151,14 @@ Le code de hachage du fichier, pour un certain algorithme, est censé être uniq
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160325T011421Z" creationid="orax" creationdate="20160325T011401Z">
         <seg>n - Ajoute/soustrait des minutes à la date spécifiée</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>n = Difference in minutes between the given dates</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T213919Z" creationid="orax" creationdate="20160325T213834Z">
+        <seg>n = Différence en minutes entre les dates données</seg>
       </tuv>
     </tu>
     <tu>
@@ -63208,6 +63715,14 @@ Le code de hachage du fichier, pour un certain algorithme, est censé être uniq
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160325T011412Z" creationid="orax" creationdate="20160325T011412Z">
         <seg>s - Ajoute/soustrait des secondes à la date spécifiée</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>s = Difference in seconds between the given dates</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T213930Z" creationid="orax" creationdate="20160325T213838Z">
+        <seg>s = Différence en secondes entre les dates données</seg>
       </tuv>
     </tu>
     <tu>
@@ -64450,6 +64965,14 @@ Le code de hachage du fichier, pour un certain algorithme, est censé être uniq
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>the number of days in the month.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T212837Z" creationid="orax" creationdate="20160325T212837Z">
+        <seg>le nombre de jours dans le mois.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>the number of elements in each of the arrays that receives the histograms.</seg>
@@ -65282,6 +65805,14 @@ Le code de hachage du fichier, pour un certain algorithme, est censé être uniq
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160325T011550Z" creationid="orax" creationdate="20160325T011358Z">
         <seg>w - Ajoute/soustrait des semaines à la date spécifiée</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>w = Difference in Weeks between the given dates</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160325T213900Z" creationid="orax" creationdate="20160325T213830Z">
+        <seg>w = Différence en semaines entre les dates données</seg>
       </tuv>
     </tu>
     <tu>
