@@ -420,10 +420,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>"yyyy-mm-dd[ hh:mm[:ss]]"</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T005914Z" creationid="orax" creationdate="20160326T005211Z">
+        <seg>« aaaa-mm-jj[ hh:mm[:ss]] »</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>"yyyy-mm-dd[ hh:mm[:ss]]" or "yyyy-mm-dd[Thh:mm[:ss]]"</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160325T221050Z" creationid="orax" creationdate="20160325T220619Z">
         <seg>« aaaa-mm-jj[ hh:mm[:ss]] » ou « aaaa-mm-jj[Thh:mm[:ss]] »</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>"yyyy-mm-dd[Thh:mm[:ss]]"</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T005914Z" creationid="orax" creationdate="20160326T005212Z">
+        <seg>« aaaa-mm-jj[Thh:mm[:ss]] »</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>"yyyy.mm.dd[ hh:mm[:ss]]"</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T005915Z" creationid="orax" creationdate="20160326T005213Z">
+        <seg>« aaaa.mm.jj[ hh:mm[:ss]] »</seg>
       </tuv>
     </tu>
     <tu>
@@ -436,10 +460,34 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>"yyyy.mm.dd[Thh:mm[:ss]]"</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T005915Z" creationid="orax" creationdate="20160326T005213Z">
+        <seg>« aaaa.mm.jj[Thh:mm[:ss]] »</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>"yyyy/mm/dd[ hh:mm[:ss]]"</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T005912Z" creationid="orax" creationdate="20160326T005422Z">
+        <seg>« aaaa/mm/jj[ hh:mm[:ss]] »</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>"yyyy/mm/dd[ hh:mm[:ss]]" or "yyyy/mm/dd[Thh:mm[:ss]]"</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160325T221003Z" creationid="orax" creationdate="20160325T220616Z">
         <seg>« aaaa/mm/jj[ hh:mm[:ss]] » ou « aaaa/mm/jj[Thh:mm[:ss]] »</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>"yyyy/mm/dd[Thh:mm[:ss]]"</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T005913Z" creationid="orax" creationdate="20160326T005210Z">
+        <seg>« aaaa/mm/jj[Thh:mm[:ss]] »</seg>
       </tuv>
     </tu>
     <tu>
@@ -958,6 +1006,22 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>$aArray[n]) contiennent les permutations sous forme de chaînes.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>$aDatePart[0] number of values returned</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T010036Z" creationid="orax" creationdate="20160326T010036Z">
+        <seg>$aDatePart[0] nombre de valeurs retournées</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>$aTimePart[0] number of values returned</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T010103Z" creationid="orax" creationdate="20160326T010103Z">
+        <seg>$aTimePart [0] nombre de valeurs retournées</seg>
       </tuv>
     </tu>
     <tu>
@@ -2387,6 +2451,17 @@
       </tuv>
     </tu>
     <tu>
+      <note>"et/ou" pourrait être remplacé par "ou" mais il y a un risque d'ambiguïté.
+
+https://www.druide.com/enquetes/la-pseudo-conjonction-etou</note>
+      <tuv lang="en">
+        <seg>0 - Display a date and/or time.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T003801Z" creationid="orax" creationdate="20160326T003801Z">
+        <seg>0 - Affiche une date et/ou une heure.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <tuv lang="en">
         <seg>0 - First file time is equal to second file time</seg>
       </tuv>
@@ -2625,6 +2700,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Retourne 0 et @error &lt;&gt; 0, si le renommage a échoué parce que la section existe déjà (seulement quand flag = 0).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>0 and set the @error flag to non-zero.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T004656Z" creationid="orax" creationdate="20160326T004656Z">
+        <seg>0 et met @error &lt;&gt; 0.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3768,6 +3851,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>1 - Display a date using the long date format specified in your computer's regional settings.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T004353Z" creationid="orax" creationdate="20160326T004249Z">
+        <seg>1 - Affiche une date en utilisant la date au format long spécifié dans les paramètres régionaux de votre ordinateur.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>1 - Enable debugging.</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160111T001304Z" creationid="orax" creationdate="20160111T001304Z">
@@ -3818,10 +3909,26 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>1 - Invalid $sDate</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T004702Z" creationid="orax" creationdate="20160326T004702Z">
+        <seg>1 - $sDate non valide</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>1 - Invalid $sType</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160325T012119Z" creationid="orax" creationdate="20160325T012056Z">
         <seg>1 - $sType non valide</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>1 - Invalid Input Date</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T011208Z" creationid="orax" creationdate="20160326T011208Z">
+        <seg>1 - Date d'entrée invalide</seg>
       </tuv>
     </tu>
     <tu>
@@ -4982,6 +5089,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>2 - Display a date using the short date format specified in your computer's regional settings.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T004346Z" creationid="orax" creationdate="20160326T004346Z">
+        <seg>2 - Affiche une date en utilisant la date au format court spécifié dans les paramètres régionaux de votre ordinateur.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>2 - Failed to acquire crypt context</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160109T001859Z" creationid="orax" creationdate="20160109T001859Z">
@@ -5010,6 +5125,14 @@
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160325T214422Z" creationid="orax" creationdate="20160325T214422Z">
         <seg>2 - $sStartDate non valide</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>2 - Invalid $sType</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T004716Z" creationid="orax" creationdate="20160326T004716Z">
+        <seg>2 - $sType non valide</seg>
       </tuv>
     </tu>
     <tu>
@@ -5375,6 +5498,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>2005/01/01 14:30</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T011210Z" creationid="orax" creationdate="20160326T011210Z">
+        <seg>2005/01/01 14:30</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>2048 for maxlen parameter and call the function until the it returns nothing/error.</seg>
@@ -5524,6 +5655,14 @@
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160111T003104Z" creationid="orax" creationdate="20160111T003058Z">
         <seg>3 - &lt;a0&gt;_DebugSetup()&lt;/a0&gt; ne fonctionne pas correctement.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>3 - Display a time using the time format specified in your computer's regional settings.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T004444Z" creationid="orax" creationdate="20160326T004402Z">
+        <seg>3 - Affiche une heure en utilisant l'heure au format spécifié dans les paramètres régionaux de votre ordinateur.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5859,6 +5998,14 @@
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>4 - Display a time using the 24-hour format (hh:mm).</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T004512Z" creationid="orax" creationdate="20160326T004512Z">
+        <seg>4 - Affiche une heure en utilisant le format 24 heures (hh:mm).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>4 - Installation of the custom error handler failed.</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160111T003358Z" creationid="orax" creationdate="20160111T003358Z">
@@ -6119,6 +6266,14 @@
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>5 - Le tableau n'est pas 2D et $bRow est à true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>5 - Display a time using the 24-hour format (hh:mm:ss).</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T004545Z" creationid="orax" creationdate="20160326T004545Z">
+        <seg>5 - Affiche une heure en utilisant le format 24 heures (hh:mm:ss).</seg>
       </tuv>
     </tu>
     <tu>
@@ -9030,6 +9185,30 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>A valid day in format DD</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T011347Z" creationid="orax" creationdate="20160326T011347Z">
+        <seg>Un jour valide au format DD</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>A valid month in format MM</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T011343Z" creationid="orax" creationdate="20160326T011343Z">
+        <seg>Un mois valide au format MM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>A valid year in format YYYY</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T011328Z" creationid="orax" creationdate="20160326T011328Z">
+        <seg>Une année valide au format AAAA</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>A value of 0 removes the delay completely.</seg>
@@ -10610,6 +10789,14 @@ https://msdn.microsoft.com/fr-fr/library/aa995565.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Toute séquence @CRLF, @CR ou @LF.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Any of these formats:</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T005204Z" creationid="orax" creationdate="20160326T005204Z">
+        <seg>L'un de ces formats :</seg>
       </tuv>
     </tu>
     <tu>
@@ -18469,6 +18656,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Date:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Date and Time into two separate Arrays.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T010826Z" creationid="orax" creationdate="20160326T010826Z">
+        <seg>Date et heure dans deux tableaux séparés.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27467,6 +27662,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>If present, both parts are displayed.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T004101Z" creationid="orax" creationdate="20160326T004101Z">
+        <seg>Si présent, les deux parties sont affichées.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>If relative positioning, numbers may be negative.</seg>
@@ -28267,6 +28470,15 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <note>*</note>
+      <tuv lang="en">
+        <seg>If there is a date part, display it as a short date.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T003930Z" creationid="orax" creationdate="20160326T003930Z">
+        <seg>S'il y a une partie de date, l'afficher comme une date courte.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>If there is a need to use &lt;a0&gt;Assign()&lt;/a0&gt; to create/write to a variable, then in most situations, &lt;a1&gt;Eval()&lt;/a1&gt; should be used to read the variable and &lt;a2&gt;IsDeclared()&lt;/a2&gt; should be used to check that the variable exists.</seg>
@@ -28291,6 +28503,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Si il est nécessaire d'utiliser &lt;a0&gt;IsDeclared()&lt;/a0&gt; pour savoir si une variable existe, alors dans la plupart des situations &lt;a1&gt;Assign()&lt;/a1&gt; devrait être utilisée pour créer/écrire dans la variable et &lt;a2&gt;Eval()&lt;/a2&gt; devrait être utilisé pour lire la variable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>If there is a time part, display it as a long time.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T004025Z" creationid="orax" creationdate="20160326T003938Z">
+        <seg>S'il y a une partie d'une heure, l'afficher comme une heure longue.</seg>
       </tuv>
     </tu>
     <tu>
@@ -29553,6 +29773,15 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160325T214109Z" creationid="orax" creationdate="20160325T214109Z">
         <seg>Entrez la date de début dans le format « AAAA/MM/JJ[ HH:MM:SS] »</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <note>Ajouter un point à la fin.</note>
+      <tuv lang="en">
+        <seg>Input date in the format "YYYY/MM/DD[ HH:MM:SS]"</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T003035Z" creationid="orax" creationdate="20160326T002900Z">
+        <seg>Date d'entrée dans le format « AAAA/MM/JJ[ HH:MM:SS] ».</seg>
       </tuv>
     </tu>
     <tu>
@@ -34542,6 +34771,22 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>Pc Long format</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T004833Z" creationid="orax" creationdate="20160326T004833Z">
+        <seg>Format long du PC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Pc Short format</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T004852Z" creationid="orax" creationdate="20160326T004852Z">
+        <seg>Format court du PC</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>Peeking on the stream does not remove the data from the buffer, however, it does return the available data as normal.</seg>
@@ -39447,6 +39692,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Returns the date in the PC's regional settings format</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T002755Z" creationid="orax" creationdate="20160326T002755Z">
+        <seg>Retourne la date dans le format des paramètres régionaux du PC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Returns the difference between 2 dates, expressed in the type requested</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160325T213548Z" creationid="orax" creationdate="20160325T213548Z">
@@ -40177,6 +40430,14 @@ https://msdn.microsoft.com/fr-fr/library/cc436625%28v=vs.71%29.aspx</note>
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Retourne la valeur décalée du nombre bits demandés.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Returns the weekday number for a given date</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T011243Z" creationid="orax" creationdate="20160326T011243Z">
+        <seg>Retourne le numéro du jour de la semaine pour une date donnée</seg>
       </tuv>
     </tu>
     <tu>
@@ -43441,6 +43702,14 @@ https://support.office.com/fr-fr/article/Ins%C3%A9rer-les-date-et-heure-de-cr%C3
     </tu>
     <tu>
       <tuv lang="en">
+        <seg>Show current date/time in the pc's format</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T004815Z" creationid="orax" creationdate="20160326T004815Z">
+        <seg>Affiche la date/heure actuelle dans le format du PC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
         <seg>Show current local time</seg>
       </tuv>
       <tuv lang="fr" changeid="orax" changedate="20160226T220638Z" creationid="orax" creationdate="20160226T220638Z">
@@ -44809,6 +45078,14 @@ https://support.office.com/fr-fr/article/Ins%C3%A9rer-les-date-et-heure-de-cr%C3
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Un splash avec opt=1 ne peut être déplacé et ne peut être activé par un clic.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>Split a string containing Date and Time into two separate Arrays</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T010833Z" creationid="orax" creationdate="20160326T005146Z">
+        <seg>Fractionne une chaîne contenant les date et heure en deux tableaux séparés</seg>
       </tuv>
     </tu>
     <tu>
@@ -61030,6 +61307,26 @@ Le code de hachage du fichier, pour un certain algorithme, est censé être uniq
       </tuv>
     </tu>
     <tu>
+      <note>Traduire array par tableau ou garder array ?
+
+La documentation traduite de PHP a traduit array par tableau.
+http://php.net/manual/fr/function.range.php</note>
+      <tuv lang="en">
+        <seg>array that contains the Date.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T011200Z" creationid="orax" creationdate="20160326T010016Z">
+        <seg>tableau (array) qui contient la date.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>array that contains the Time.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T010858Z" creationid="orax" creationdate="20160326T010047Z">
+        <seg>tableau (array) qui contient l'heure.</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>as ??</seg>
@@ -63288,6 +63585,14 @@ Le code de hachage du fichier, pour un certain algorithme, est censé être uniq
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en">
+        <seg>one the following:</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T003038Z" creationid="orax" creationdate="20160326T003001Z">
+        <seg>Un des suivants :</seg>
+      </tuv>
+    </tu>
+    <tu>
       <prop type="x-auto">auto</prop>
       <tuv lang="en">
         <seg>open bitmap with default app</seg>
@@ -64575,6 +64880,14 @@ Le code de hachage du fichier, pour un certain algorithme, est censé être uniq
       </tuv>
       <tuv lang="fr" changeid="mdanielm">
         <seg>Retourne les données lues.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en">
+        <seg>the date in proper format.</seg>
+      </tuv>
+      <tuv lang="fr" changeid="orax" changedate="20160326T004617Z" creationid="orax" creationdate="20160326T004617Z">
+        <seg>la date dans le format approprié.</seg>
       </tuv>
     </tu>
     <tu>
